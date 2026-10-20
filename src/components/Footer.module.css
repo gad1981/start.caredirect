@@ -73,6 +73,18 @@
   text-underline-offset: 2px;
 }
 
+.cookieBtn {
+  appearance: none;
+  border: 0;
+  background: transparent;
+  padding: 0;
+  color: var(--ink);
+  font: inherit;
+  text-decoration: underline;
+  text-underline-offset: 2px;
+  cursor: pointer;
+}
+
 @media (max-width: 900px) {
   .inner {
     grid-template-columns: 1fr 1fr;

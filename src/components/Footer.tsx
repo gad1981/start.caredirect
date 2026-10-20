@@ -1,4 +1,5 @@
 import Link from "next/link";
+import { CookieSettingsButton } from "@/components/analytics/ConsentProvider";
 import { PROGRAMS } from "@/lib/programs";
 import { startHome } from "@/lib/content";
 import styles from "./Footer.module.css";
@@ -66,6 +67,8 @@ export function Footer() {
           >
             Stop messages
           </a>
+          <span>·</span>
+          <CookieSettingsButton className={styles.cookieBtn} />
         </div>
       </div>
     </footer>
