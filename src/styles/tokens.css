@@ -1,0 +1,55 @@
+:root {
+  --bg: #f6f5f2;
+  --surface: #ffffff;
+  --ink: #161618;
+  --muted: #5f5e63;
+  --line: #e5e3de;
+  --soft: #eeede8;
+  --stdot: #f5b222;
+  --hover: #e7e6e2;
+  --p1: #fde8ec;
+  --p2: #e3f4ea;
+  --p3: #fff1d2;
+  --p4: #e4eefb;
+  --p5: #efe7fa;
+  --teen-pink: #ff2e93;
+  --teen-purple: #8a3fd1;
+  --display: var(--font-display), system-ui, sans-serif;
+  --body: var(--font-body), system-ui, sans-serif;
+  --content: 1008px;
+  --radius-card: 22px;
+  --radius-btn: 999px;
+  --focus: 0 0 0 3px color-mix(in srgb, var(--stdot) 55%, transparent);
+}
+
+@media (prefers-color-scheme: dark) {
+  :root:not([data-theme="light"]) {
+    --bg: #121214;
+    --surface: #1c1c1f;
+    --ink: #f3f2ef;
+    --muted: #b4b3af;
+    --line: #2c2c30;
+    --soft: #232326;
+    --hover: #2c2c30;
+    --p1: #3a2a30;
+    --p2: #24342b;
+    --p3: #3a3222;
+    --p4: #232f3d;
+    --p5: #2f2840;
+  }
+}
+
+:root[data-theme="dark"] {
+  --bg: #121214;
+  --surface: #1c1c1f;
+  --ink: #f3f2ef;
+  --muted: #b4b3af;
+  --line: #2c2c30;
+  --soft: #232326;
+  --hover: #2c2c30;
+  --p1: #3a2a30;
+  --p2: #24342b;
+  --p3: #3a3222;
+  --p4: #232f3d;
+  --p5: #2f2840;
+}

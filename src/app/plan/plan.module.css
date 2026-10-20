@@ -1,0 +1,62 @@
+.main {
+  max-width: var(--content);
+  margin: 0 auto;
+  padding: 48px 18px 72px;
+}
+
+.hero h1 {
+  margin: 0;
+  font: 800 clamp(32px, 4vw, 52px) / 1.08 var(--display);
+  letter-spacing: -0.03em;
+  max-width: 16ch;
+}
+
+.hero p {
+  margin: 14px 0 0;
+  color: var(--muted);
+  max-width: 40em;
+  font-size: 16px;
+}
+
+.block {
+  margin-top: 40px;
+  padding: 28px;
+  background: linear-gradient(120deg, var(--p1) 0%, var(--p3) 50%, var(--p4) 100%);
+  border-radius: 24px;
+}
+
+.block:nth-of-type(n + 3) {
+  background: var(--surface);
+  border: 1px solid var(--line);
+}
+
+.block h2 {
+  margin: 0 0 8px;
+  font: 800 28px / 1.15 var(--display);
+}
+
+.block > p {
+  margin: 0 0 8px;
+  color: var(--muted);
+}
+
+.steps {
+  margin: 16px 0 0;
+  padding-left: 1.2em;
+  display: grid;
+  gap: 8px;
+}
+
+.contacts {
+  margin: 16px 0 0;
+  padding: 0;
+  list-style: none;
+  display: grid;
+  gap: 8px;
+}
+
+.contacts li {
+  background: var(--soft);
+  border-radius: 14px;
+  padding: 12px 14px;
+}

@@ -17,6 +17,9 @@
 /.next/
 /out/
 
+# copied from ./assets by scripts/copy-assets.mjs
+/public/assets
+
 # production
 /build
 

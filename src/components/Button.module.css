@@ -1,0 +1,35 @@
+.btn {
+  display: inline-flex;
+  align-items: center;
+  justify-content: center;
+  gap: 7px;
+  padding: 11px 16px;
+  min-height: 40px;
+  border-radius: var(--radius-btn);
+  background: var(--surface);
+  color: var(--ink);
+  border: 1px solid var(--ink);
+  font: 600 13.5px/1 var(--body);
+  text-decoration: none;
+  cursor: pointer;
+  box-shadow: none;
+  transition: background 0.15s ease;
+}
+
+.btn:hover {
+  background: var(--hover);
+}
+
+.btn:focus-visible {
+  outline: none;
+  box-shadow: var(--focus);
+}
+
+.teen {
+  border-color: var(--teen-pink);
+  color: var(--teen-purple);
+}
+
+.teen:hover {
+  background: color-mix(in srgb, var(--teen-pink) 12%, white);
+}

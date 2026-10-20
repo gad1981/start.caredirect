@@ -1,0 +1,61 @@
+.card {
+  background: var(--surface);
+  border: 1px solid var(--line);
+  border-radius: var(--radius-card);
+  padding: 22px 22px 20px;
+}
+
+.pastel0 {
+  background: var(--p1);
+  border-color: var(--p1);
+}
+
+.pastel1 {
+  background: var(--p2);
+  border-color: var(--p2);
+}
+
+.pastel2 {
+  background: var(--p3);
+  border-color: var(--p3);
+}
+
+.pastel3 {
+  background: var(--p4);
+  border-color: var(--p4);
+}
+
+.grid {
+  display: grid;
+  gap: 14px;
+}
+
+.g2 {
+  grid-template-columns: repeat(2, minmax(0, 1fr));
+}
+
+.g3 {
+  grid-template-columns: repeat(3, minmax(0, 1fr));
+}
+
+.g4 {
+  grid-template-columns: repeat(4, minmax(0, 1fr));
+}
+
+@media (max-width: 900px) {
+  .g4 {
+    grid-template-columns: repeat(2, minmax(0, 1fr));
+  }
+
+  .g3 {
+    grid-template-columns: repeat(2, minmax(0, 1fr));
+  }
+}
+
+@media (max-width: 600px) {
+  .g2,
+  .g3,
+  .g4 {
+    grid-template-columns: 1fr;
+  }
+}

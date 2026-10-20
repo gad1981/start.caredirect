@@ -1,0 +1,86 @@
+.footer {
+  background: var(--surface);
+  border-top: 1px solid var(--line);
+  color: var(--muted);
+  margin-top: auto;
+}
+
+.inner {
+  max-width: var(--content);
+  margin: 0 auto;
+  padding: 36px 18px 28px;
+  display: grid;
+  grid-template-columns: minmax(0, 1.2fr) repeat(2, minmax(0, 1fr)) minmax(0, 0.9fr);
+  gap: 28px;
+}
+
+.mark {
+  display: block;
+  height: 30px;
+  width: calc(30px * 3.2432);
+  background: var(--ink);
+  -webkit-mask: url("/assets/brand/start-logo.png") center / contain no-repeat;
+  mask: url("/assets/brand/start-logo.png") center / contain no-repeat;
+  margin-bottom: 12px;
+}
+
+.tag {
+  margin: 0;
+  max-width: 22em;
+  font: 500 15px/1.45 var(--display);
+  color: var(--ink);
+  letter-spacing: -0.01em;
+}
+
+.col h2 {
+  margin: 0 0 10px;
+  font: 600 11.5px/1.2 var(--body);
+  letter-spacing: 0.08em;
+  text-transform: uppercase;
+  color: var(--ink);
+}
+
+.col a {
+  display: block;
+  padding: 3px 0;
+  color: var(--muted);
+  text-decoration: none;
+  font-size: 13.5px;
+}
+
+.col a:hover {
+  color: var(--ink);
+}
+
+.base {
+  border-top: 1px solid var(--line);
+}
+
+.baseInner {
+  max-width: var(--content);
+  margin: 0 auto;
+  padding: 14px 18px;
+  display: flex;
+  flex-wrap: wrap;
+  gap: 8px 14px;
+  align-items: center;
+  font-size: 12.5px;
+}
+
+.base a {
+  color: var(--ink);
+  text-decoration: underline;
+  text-underline-offset: 2px;
+}
+
+@media (max-width: 900px) {
+  .inner {
+    grid-template-columns: 1fr 1fr;
+  }
+}
+
+@media (max-width: 600px) {
+  .inner {
+    grid-template-columns: 1fr;
+  }
+}

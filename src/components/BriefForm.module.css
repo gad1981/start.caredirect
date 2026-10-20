@@ -1,0 +1,85 @@
+.form {
+  display: grid;
+  gap: 12px;
+  margin-top: 18px;
+}
+
+.row {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  gap: 12px;
+}
+
+.field {
+  display: grid;
+  gap: 6px;
+  font: 600 12.5px/1.2 var(--body);
+  color: var(--ink);
+}
+
+.control {
+  width: 100%;
+  border: 1px solid var(--line);
+  border-radius: 12px;
+  padding: 11px 12px;
+  font: 400 15px/1.4 var(--body);
+  color: var(--ink);
+  background: var(--surface);
+}
+
+.control:focus-visible {
+  outline: none;
+  box-shadow: var(--focus);
+  border-color: var(--ink);
+}
+
+.hp {
+  position: absolute;
+  left: -9999px;
+  opacity: 0;
+  height: 0;
+  width: 0;
+  overflow: hidden;
+}
+
+.consent {
+  display: flex;
+  gap: 10px;
+  align-items: flex-start;
+  font: 400 13px/1.45 var(--body);
+  color: var(--muted);
+}
+
+.check {
+  width: auto;
+  margin-top: 3px;
+}
+
+.consent a {
+  color: var(--ink);
+}
+
+.msg {
+  margin: 0;
+  font-size: 14px;
+}
+
+.ok {
+  color: var(--ink);
+  background: var(--p2);
+  border-radius: 14px;
+  padding: 12px 14px;
+}
+
+.err {
+  color: #7a1f2b;
+  background: var(--p1);
+  border-radius: 14px;
+  padding: 12px 14px;
+}
+
+@media (max-width: 700px) {
+  .row {
+    grid-template-columns: 1fr;
+  }
+}

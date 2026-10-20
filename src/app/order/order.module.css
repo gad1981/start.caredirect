@@ -1,0 +1,24 @@
+.main {
+  max-width: 40rem;
+  margin: 0 auto;
+  padding: 72px 18px;
+}
+
+.eye {
+  margin: 0 0 8px;
+  font: 600 12.5px / 1.3 var(--body);
+  letter-spacing: 0.04em;
+  text-transform: uppercase;
+  color: var(--muted);
+}
+
+.main h1 {
+  margin: 0;
+  font: 800 clamp(32px, 4vw, 48px) / 1.08 var(--display);
+}
+
+.lead {
+  margin: 14px 0 24px;
+  color: var(--muted);
+  font-size: 16px;
+}
