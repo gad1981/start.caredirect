@@ -1,11 +1,11 @@
 import type { Metadata } from "next";
 import { Bricolage_Grotesque, Figtree } from "next/font/google";
-import { ConsentProvider } from "@/components/analytics/ConsentProvider";
-import { Footer } from "@/components/Footer";
-import { Header } from "@/components/Header";
-import { CONSENT_DEFAULT_SCRIPT, getGa4Id, getGtmId } from "@/lib/analytics";
+import { notFound } from "next/navigation";
+import { SiteChrome } from "@/components/SiteChrome";
+import { CONSENT_DEFAULT_SCRIPT } from "@/lib/analytics";
 import { siteUrl } from "@/lib/content";
-import "./globals.css";
+import { htmlLang, isLocale, type Locale } from "@/lib/i18n";
+import "../globals.css";
 
 const display = Bricolage_Grotesque({
   subsets: ["latin"],
@@ -39,12 +39,26 @@ const orgJsonLd = {
   sameAs: ["https://start.caredirect.com/"],
 };
 
-export default function RootLayout({ children }: LayoutProps<"/">) {
-  const gtmId = getGtmId();
-  const ga4Id = getGa4Id();
+export function generateStaticParams() {
+  return [
+    { locale: "en" },
+    { locale: "el" },
+    { locale: "ro" },
+    { locale: "sr" },
+    { locale: "bg" },
+  ];
+}
+
+export default async function LocaleRootLayout({
+  children,
+  params,
+}: LayoutProps<"/[locale]">) {
+  const { locale: raw } = await params;
+  if (!isLocale(raw)) notFound();
+  const locale = raw as Locale;
 
   return (
-    <html lang="en-GB" className={`${display.variable} ${body.variable}`}>
+    <html lang={htmlLang[locale]} className={`${display.variable} ${body.variable}`}>
       <head>
         <script
           id="consent-default"
@@ -56,11 +70,7 @@ export default function RootLayout({ children }: LayoutProps<"/">) {
           type="application/ld+json"
           dangerouslySetInnerHTML={{ __html: JSON.stringify(orgJsonLd) }}
         />
-        <ConsentProvider gtmId={gtmId} ga4Id={ga4Id}>
-          <Header />
-          <div className="shell">{children}</div>
-          <Footer />
-        </ConsentProvider>
+        <SiteChrome locale={locale}>{children}</SiteChrome>
       </body>
     </html>
   );

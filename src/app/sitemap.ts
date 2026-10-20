@@ -1,23 +1,29 @@
 import type { MetadataRoute } from "next";
-import { siteUrl } from "@/lib/content";
+import { locales, localePath, siteUrl } from "@/lib/i18n";
 import { PROGRAMS } from "@/lib/programs";
 
+const paths = ["/", "/plan/", ...PROGRAMS.map((p) => `/${p.slug}/`)];
+
 export default function sitemap(): MetadataRoute.Sitemap {
-  const base = siteUrl();
+  const base = siteUrl().replace(/\/$/, "");
   const now = new Date();
-  return [
-    { url: `${base}/`, lastModified: now, changeFrequency: "weekly", priority: 1 },
-    {
-      url: `${base}/plan/`,
-      lastModified: now,
-      changeFrequency: "monthly",
-      priority: 0.9,
-    },
-    ...PROGRAMS.map((p) => ({
-      url: `${base}/${p.slug}/`,
-      lastModified: now,
-      changeFrequency: "monthly" as const,
-      priority: 0.8,
-    })),
-  ];
+
+  return locales.flatMap((locale) =>
+    paths.map((path) => {
+      const url = `${base}${localePath(locale, path)}`;
+      const isHome = path === "/";
+      const isPlan = path === "/plan/";
+      return {
+        url,
+        lastModified: now,
+        changeFrequency: isHome ? ("weekly" as const) : ("monthly" as const),
+        priority: isHome ? 1 : isPlan ? 0.9 : 0.8,
+        alternates: {
+          languages: Object.fromEntries(
+            locales.map((l) => [l, `${base}${localePath(l, path)}`]),
+          ),
+        },
+      };
+    }),
+  );
 }

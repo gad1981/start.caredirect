@@ -1,18 +1,51 @@
 import type { Metadata } from "next";
+import { notFound } from "next/navigation";
 import { BriefForm } from "@/components/BriefForm";
-import { pages } from "@/lib/content";
+import { getMessages, getPages, getStartHome } from "@/lib/content";
+import {
+  absoluteUrl,
+  hreflangAlternates,
+  isLocale,
+  localePath,
+  type Locale,
+} from "@/lib/i18n";
 import { withTbc } from "@/lib/tbc";
 import styles from "./plan.module.css";
 
-const page = pages["st-contact"];
+export async function generateMetadata({
+  params,
+}: PageProps<"/[locale]/plan">): Promise<Metadata> {
+  const { locale: raw } = await params;
+  if (!isLocale(raw)) return {};
+  const locale = raw as Locale;
+  const pages = await getPages(locale);
+  const page = pages["st-contact"];
+  return {
+    title: page.t,
+    description: page.m,
+    alternates: {
+      canonical: localePath(locale, "/plan/"),
+      languages: hreflangAlternates("/plan/"),
+    },
+    openGraph: {
+      title: page.t,
+      description: page.m,
+      url: absoluteUrl(locale, "/plan/"),
+      locale: locale === "en" ? "en_GB" : locale,
+    },
+  };
+}
 
-export const metadata: Metadata = {
-  title: page.t,
-  description: page.m,
-  alternates: { canonical: "/plan/" },
-};
-
-export default function PlanPage() {
+export default async function PlanPage({
+  params,
+}: PageProps<"/[locale]/plan">) {
+  const { locale: raw } = await params;
+  if (!isLocale(raw)) notFound();
+  const locale = raw as Locale;
+  const pages = await getPages(locale);
+  const home = await getStartHome(locale);
+  const messages = getMessages(locale);
+  const page = pages["st-contact"];
   const form = page.sections.find((s) => s.comp === "brief-form");
   const next = page.sections.find((s) => s.comp === "steps");
   const contacts = page.sections.find((s) => s.comp === "contact-cards");
@@ -27,7 +60,11 @@ export default function PlanPage() {
       <section className={styles.block}>
         <h2>{form?.name}</h2>
         {form?.intro ? <p>{form.intro}</p> : null}
-        <BriefForm sourcePage="/plan/" />
+        <BriefForm
+          sourcePage={localePath(locale, "/plan/")}
+          markets={home.brands.markets}
+          submitLabel={page.cta || messages.planAStart}
+        />
       </section>
 
       {next ? (

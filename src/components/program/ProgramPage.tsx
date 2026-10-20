@@ -3,11 +3,14 @@ import { Button } from "@/components/Button";
 import { BriefForm } from "@/components/BriefForm";
 import {
   casesForProgram,
-  doodlePlan,
-  pages,
-  programsData,
-  startHome,
+  getCases,
+  getDoodlePlan,
+  getMessages,
+  getPages,
+  getProgramsData,
+  getStartHome,
 } from "@/lib/content";
+import { localePath, type Locale } from "@/lib/i18n";
 import type { ProgramId } from "@/lib/programs";
 import { getProgramById, programHeroSrc } from "@/lib/programs";
 import { withTbc } from "@/lib/tbc";
@@ -44,28 +47,31 @@ function parseStats(copy: string) {
   });
 }
 
-function guidesFor(programId: string) {
-  const guides = programsData.START_GUIDES[programId] ?? [];
-  const fromCopy: { country: string; label: string; href?: string }[] = [];
-  for (const [country, label, href] of guides) {
-    fromCopy.push({ country, label, href });
-  }
-  return fromCopy;
-}
-
 function platformsFromAbout(facts: { label: string; value: string }[]) {
   return facts.find((f) => f.label.toLowerCase() === "platform")?.value ?? "";
 }
 
-export function ProgramPage({ programId }: { programId: ProgramId }) {
+export async function ProgramPage({
+  programId,
+  locale,
+}: {
+  programId: ProgramId;
+  locale: Locale;
+}) {
   const prog = getProgramById(programId);
+  const pages = await getPages(locale);
   const page = pages[programId];
   if (!prog || !page) return null;
 
+  const messages = getMessages(locale);
+  const startHome = await getStartHome(locale);
+  const programsData = await getProgramsData(locale);
+  const doodlePlan = await getDoodlePlan(locale);
+  const allCases = await getCases(locale);
   const isTeen = programId === "st-teen";
   const plan = doodlePlan[programId];
   const stage = startHome.stages.find((s) => s.id === programId);
-  const programCases = casesForProgram(programId);
+  const programCases = casesForProgram(allCases, programId);
   const aboutSec = page.sections.find((s) => s.comp === "program-about");
   const cardsSec = page.sections.find((s) => s.comp === "card-grid");
   const tabsSec = page.sections.find(
@@ -76,11 +82,14 @@ export function ProgramPage({ programId }: { programId: ProgramId }) {
   const about = aboutSec ? parseAbout(aboutSec.copy) : null;
   const cards = cardsSec ? parseCards(cardsSec.copy) : [];
   const stats = statsSec ? parseStats(statsSec.copy) : [];
-  const guideItems = guidesFor(programId);
+  const guideItems = (programsData.START_GUIDES[programId] ?? []).map(
+    ([country, label, href]) => ({ country, label, href }),
+  );
   const heroIntro =
     stage?.desc ??
     page.sections.find((s) => s.comp === "program-hero")?.copy ??
     "";
+  const planHref = localePath(locale, "/plan/");
 
   return (
     <div className={isTeen ? styles.teen : undefined}>
@@ -109,7 +118,7 @@ export function ProgramPage({ programId }: { programId: ProgramId }) {
             <h1>{page.h1}</h1>
             <div>
               <p className={styles.intro}>{withTbc(heroIntro)}</p>
-              <Button href="/plan/" teen={isTeen}>
+              <Button href={planHref} teen={isTeen}>
                 {page.cta}
               </Button>
             </div>
@@ -243,7 +252,7 @@ export function ProgramPage({ programId }: { programId: ProgramId }) {
                     <p>{withTbc(c.brief)}</p>
                     {c.src ? (
                       <a href={c.src} target="_blank" rel="noopener noreferrer">
-                        Read the case →
+                        {messages.readCase}
                       </a>
                     ) : null}
                   </article>
@@ -251,11 +260,11 @@ export function ProgramPage({ programId }: { programId: ProgramId }) {
               </div>
             ) : (
               <div className={styles.founding}>
-                <h3>Be the founding brand</h3>
+                <h3>{messages.foundingTitle}</h3>
                 <p>
-                  No case yet for {prog.name}. Plan the first one with us.
+                  {messages.foundingBody.replace("{program}", prog.name)}
                 </p>
-                <Button href="/plan/" teen={isTeen}>
+                <Button href={planHref} teen={isTeen}>
                   {page.cta}
                 </Button>
               </div>
@@ -276,19 +285,21 @@ export function ProgramPage({ programId }: { programId: ProgramId }) {
           />
         ) : null}
         <h2>{prog.name}</h2>
-        <Button href="/plan/" teen={isTeen}>
+        <Button href={planHref} teen={isTeen}>
           {page.cta}
         </Button>
       </div>
 
       <section className={styles.section} id="brief">
         <div className={styles.wrap}>
-          <h2>Plan my START</h2>
+          <h2>{messages.planMyStart}</h2>
           <p className={styles.introLine}>{startHome.brands.lead}</p>
           <BriefForm
-            sourcePage={`/${prog.slug}/`}
+            sourcePage={localePath(locale, `/${prog.slug}/`)}
             defaultProgram={programId}
             teen={isTeen}
+            markets={startHome.brands.markets}
+            submitLabel={startHome.brands.button}
           />
         </div>
       </section>

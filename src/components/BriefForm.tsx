@@ -1,21 +1,27 @@
 "use client";
 
 import { useState, type FormEvent } from "react";
+import { useLocale } from "@/components/i18n/LocaleProvider";
 import { PROGRAMS } from "@/lib/programs";
-import { startHome } from "@/lib/content";
 import { Button } from "./Button";
 import styles from "./BriefForm.module.css";
 
-const CONSENT =
-  "I agree that Care Direct may use these details to reply about START programs. See the privacy policy on caredirect.com.";
-
 type Props = {
   sourcePage: string;
+  markets: string[];
+  submitLabel: string;
   defaultProgram?: string;
   teen?: boolean;
 };
 
-export function BriefForm({ sourcePage, defaultProgram = "", teen }: Props) {
+export function BriefForm({
+  sourcePage,
+  markets,
+  submitLabel,
+  defaultProgram = "",
+  teen,
+}: Props) {
+  const { messages } = useLocale();
   const [status, setStatus] = useState<"idle" | "loading" | "ok" | "err">(
     "idle",
   );
@@ -41,21 +47,21 @@ export function BriefForm({ sourcePage, defaultProgram = "", teen }: Props) {
           message: data.get("message"),
           website: data.get("website"),
           source_page: sourcePage,
-          consent_text: CONSENT,
+          consent_text: messages.formConsent,
         }),
       });
       const json = (await res.json()) as { error?: string; ok?: boolean };
       if (!res.ok) {
         setStatus("err");
-        setMessage(json.error ?? "Something went wrong. Please try again.");
+        setMessage(json.error ?? messages.formError);
         return;
       }
       setStatus("ok");
-      setMessage("Thank you. Your brief is with the team for your market.");
+      setMessage(messages.formSuccess);
       form.reset();
     } catch {
       setStatus("err");
-      setMessage("Something went wrong. Please try again.");
+      setMessage(messages.formError);
     }
   }
 
@@ -63,11 +69,11 @@ export function BriefForm({ sourcePage, defaultProgram = "", teen }: Props) {
     <form className={styles.form} onSubmit={onSubmit} noValidate>
       <div className={styles.row}>
         <label className={styles.field}>
-          Name
+          {messages.formName}
           <input className={styles.control} name="name" required autoComplete="name" />
         </label>
         <label className={styles.field}>
-          Company / brand
+          {messages.formCompany}
           <input
             className={styles.control}
             name="company"
@@ -78,7 +84,7 @@ export function BriefForm({ sourcePage, defaultProgram = "", teen }: Props) {
       </div>
       <div className={styles.row}>
         <label className={styles.field}>
-          Work email
+          {messages.formEmail}
           <input
             className={styles.control}
             name="email"
@@ -88,28 +94,28 @@ export function BriefForm({ sourcePage, defaultProgram = "", teen }: Props) {
           />
         </label>
         <label className={styles.field}>
-          Market
+          {messages.formMarket}
           <select className={styles.control} name="market" required defaultValue="">
             <option value="" disabled>
-              Choose a market
+              {messages.formMarketPlaceholder}
             </option>
-            {startHome.brands.markets.map((m) => (
+            {markets.map((m) => (
               <option key={m} value={m}>
                 {m}
               </option>
             ))}
-            <option value="Other">Other</option>
+            <option value="Other">{messages.formOther}</option>
           </select>
         </label>
       </div>
       <label className={styles.field}>
-        Which START
+        {messages.formProgram}
         <select
           className={styles.control}
           name="program"
           defaultValue={defaultProgram || "help-me"}
         >
-          <option value="help-me">Help me choose</option>
+          <option value="help-me">{messages.formHelpMe}</option>
           {PROGRAMS.map((p) => (
             <option key={p.id} value={p.id}>
               {p.name}
@@ -118,7 +124,7 @@ export function BriefForm({ sourcePage, defaultProgram = "", teen }: Props) {
         </select>
       </label>
       <label className={styles.field}>
-        Message (optional)
+        {messages.formMessage}
         <textarea className={styles.control} name="message" rows={3} />
       </label>
       <label className={styles.hp} aria-hidden="true">
@@ -128,20 +134,20 @@ export function BriefForm({ sourcePage, defaultProgram = "", teen }: Props) {
       <label className={styles.consent}>
         <input className={styles.check} name="consent" type="checkbox" required />
         <span>
-          {CONSENT}{" "}
+          {messages.formConsent}{" "}
           <a
             href="https://www.caredirect.com/privacy/"
             target="_blank"
             rel="noopener noreferrer"
           >
-            Privacy
+            {messages.privacy}
           </a>
           .
         </span>
       </label>
       <div>
         <Button type="submit" teen={teen} disabled={status === "loading"}>
-          {status === "loading" ? "Sending…" : startHome.brands.button}
+          {status === "loading" ? messages.formSending : submitLabel}
         </Button>
       </div>
       {status === "ok" ? <p className={`${styles.msg} ${styles.ok}`}>{message}</p> : null}

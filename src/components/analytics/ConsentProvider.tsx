@@ -19,6 +19,7 @@ import {
   writeStoredConsent,
   type ConsentState,
 } from "@/lib/analytics";
+import type { Messages } from "@/lib/content";
 import styles from "./ConsentBanner.module.css";
 
 type ConsentContextValue = {
@@ -42,10 +43,21 @@ export function ConsentProvider({
   children,
   gtmId,
   ga4Id,
+  messages,
 }: {
   children: ReactNode;
   gtmId: string;
   ga4Id: string;
+  messages?: Pick<
+    Messages,
+    | "cookieBody"
+    | "cookieAccept"
+    | "cookieReject"
+    | "cookieDialog"
+    | "privacy"
+    | "stopMessages"
+    | "cookieSettings"
+  >;
 }) {
   const [consent, setConsent] = useState<ConsentState>(DEFAULT_CONSENT);
   const [ready, setReady] = useState(false);
@@ -99,26 +111,25 @@ export function ConsentProvider({
         <div
           className={styles.banner}
           role="dialog"
-          aria-label="Cookie preferences"
+          aria-label={messages?.cookieDialog ?? "Cookie preferences"}
         >
           <p className={styles.copy}>
-            We use cookies for site analytics and to improve START. Essential
-            cookies keep the site working. Analytics cookies load only after you
-            accept. See our{" "}
+            {messages?.cookieBody ??
+              "We use cookies for site analytics and to improve START. Essential cookies keep the site working. Analytics cookies load only after you accept. See our Privacy policy and Stop messages."}{" "}
             <a
               href="https://www.caredirect.com/privacy/"
               target="_blank"
               rel="noopener noreferrer"
             >
-              Privacy policy
+              {messages?.privacy ?? "Privacy"}
             </a>{" "}
-            and{" "}
+            ·{" "}
             <a
               href="https://www.caredirect.com/optout/"
               target="_blank"
               rel="noopener noreferrer"
             >
-              Stop messages
+              {messages?.stopMessages ?? "Stop messages"}
             </a>
             .
           </p>
@@ -128,14 +139,14 @@ export function ConsentProvider({
               className={`${styles.btn} ${styles.primary}`}
               onClick={acceptAnalytics}
             >
-              Accept analytics
+              {messages?.cookieAccept ?? "Accept analytics"}
             </button>
             <button
               type="button"
               className={styles.btn}
               onClick={rejectAnalytics}
             >
-              Reject
+              {messages?.cookieReject ?? "Reject"}
             </button>
           </div>
         </div>
@@ -144,11 +155,17 @@ export function ConsentProvider({
   );
 }
 
-export function CookieSettingsButton({ className }: { className?: string }) {
+export function CookieSettingsButton({
+  className,
+  label = "Cookie settings",
+}: {
+  className?: string;
+  label?: string;
+}) {
   const { openSettings } = useConsent();
   return (
     <button type="button" className={className} onClick={openSettings}>
-      Cookie settings
+      {label}
     </button>
   );
 }

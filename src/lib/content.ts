@@ -1,68 +1,165 @@
-import casesJson from "../../content/cases.json";
-import doodlePlanJson from "../../content/doodle-plan.json";
-import pagesJson from "../../content/pages.json";
-import programsDataJson from "../../content/programs-data.json";
-import routesJson from "../../content/routes.json";
-import startHomeJson from "../../content/start-home.json";
+import type { Locale } from "@/lib/i18n";
+import { defaultLocale } from "@/lib/i18n";
 
-export const startHome = startHomeJson;
-export const pages = pagesJson as Record<
-  string,
-  {
-    t: string;
-    m: string;
-    h1: string;
-    cta: string;
-    sections: {
-      name: string;
-      comp: string;
-      copy: string;
-      intro?: string;
-      hidden?: boolean;
-      proof?: string;
-    }[];
-  }
->;
-export const programsData = programsDataJson as unknown as {
-  START_PLATFORMS: Record<string, string>;
-  START_GUIDES: Record<string, [string, string, string][]>;
-  START_PROGRAMS: Record<
-    string,
-    { name: string; when: string; where: string; desc: string }
-  >;
-  START_REACH?: Record<string, unknown>;
-};
-export const cases = casesJson as {
-  slug: string;
-  client: string;
-  where: string;
-  year: string;
+import enCases from "../../content/en/cases.json";
+import enDoodlePlan from "../../content/en/doodle-plan.json";
+import enPages from "../../content/en/pages.json";
+import enProgramsData from "../../content/en/programs-data.json";
+import enRoutes from "../../content/en/routes.json";
+import enStartHome from "../../content/en/start-home.json";
+
+import enMessages from "../../messages/en.json";
+import elMessages from "../../messages/el.json";
+import roMessages from "../../messages/ro.json";
+import srMessages from "../../messages/sr.json";
+import bgMessages from "../../messages/bg.json";
+
+export type PageRecord = {
+  t: string;
+  m: string;
   h1: string;
-  line: string;
-  brief: string;
-  tags: string[];
-  src?: string;
-}[];
-export const doodlePlan = doodlePlanJson as Record<
-  string,
-  {
+  cta: string;
+  sections: {
+    name: string;
+    comp: string;
+    copy: string;
+    intro?: string;
+    hidden?: boolean;
+    proof?: string;
+  }[];
+};
+
+export type StartHome = typeof enStartHome;
+export type Messages = typeof enMessages;
+
+const messageMap: Record<Locale, Messages> = {
+  en: enMessages,
+  el: elMessages,
+  ro: roMessages,
+  sr: srMessages,
+  bg: bgMessages,
+};
+
+function deepMerge<T>(base: T, overlay: unknown): T {
+  if (overlay === null || overlay === undefined) return base;
+  if (Array.isArray(base)) {
+    return (Array.isArray(overlay) && overlay.length ? overlay : base) as T;
+  }
+  if (typeof base !== "object" || base === null) {
+    return (overlay as T) ?? base;
+  }
+  if (typeof overlay !== "object" || overlay === null) return base;
+  const out: Record<string, unknown> = {
+    ...(base as Record<string, unknown>),
+  };
+  for (const [key, value] of Object.entries(overlay as Record<string, unknown>)) {
+    if (key in out) {
+      out[key] = deepMerge(out[key], value);
+    } else {
+      out[key] = value;
+    }
+  }
+  return out as T;
+}
+
+async function loadLocaleJson<T>(locale: Locale, file: string): Promise<T | null> {
+  if (locale === defaultLocale) return null;
+  try {
+    const mod = await import(`../../content/${locale}/${file}.json`);
+    return (mod.default ?? mod) as T;
+  } catch {
+    return null;
+  }
+}
+
+export async function getStartHome(locale: Locale = defaultLocale): Promise<StartHome> {
+  const overlay = await loadLocaleJson<Partial<StartHome>>(locale, "start-home");
+  return deepMerge(enStartHome, overlay);
+}
+
+export async function getPages(
+  locale: Locale = defaultLocale,
+): Promise<Record<string, PageRecord>> {
+  const base = enPages as Record<string, PageRecord>;
+  const overlay = await loadLocaleJson<Record<string, PageRecord>>(locale, "pages");
+  return deepMerge(base, overlay);
+}
+
+export async function getProgramsData(locale: Locale = defaultLocale) {
+  const base = enProgramsData as unknown as {
+    START_PLATFORMS: Record<string, string>;
+    START_GUIDES: Record<string, [string, string, string][]>;
+    START_PROGRAMS: Record<
+      string,
+      { name: string; when: string; where: string; desc: string }
+    >;
+    START_REACH?: Record<string, unknown>;
+  };
+  const overlay = await loadLocaleJson<typeof base>(locale, "programs-data");
+  return deepMerge(base, overlay);
+}
+
+export async function getCases(locale: Locale = defaultLocale) {
+  type Case = {
+    slug: string;
+    client: string;
+    where: string;
+    year: string;
+    h1: string;
+    line: string;
+    brief: string;
+    tags: string[];
+    src?: string;
+  };
+  const base = enCases as Case[];
+  const overlay = await loadLocaleJson<Case[]>(locale, "cases");
+  return overlay?.length ? overlay : base;
+}
+
+export async function getDoodlePlan(locale: Locale = defaultLocale) {
+  type Plan = {
     hero: string;
     sections: string[];
     band: string;
     mobile: (string | null)[];
-  }
->;
-export const routes = routesJson as {
-  id: string;
-  name: string;
-  url: string;
-  redirect_from_caredirect_com: string[];
-}[];
+  };
+  const base = enDoodlePlan as Record<string, Plan>;
+  const overlay = await loadLocaleJson<Record<string, Plan>>(locale, "doodle-plan");
+  return deepMerge(base, overlay);
+}
 
-export function casesForProgram(programId: string) {
+export function getRoutes() {
+  return enRoutes as {
+    id: string;
+    name: string;
+    url: string;
+    redirect_from_caredirect_com: string[];
+  }[];
+}
+
+export function getMessages(locale: Locale = defaultLocale): Messages {
+  return messageMap[locale] ?? messageMap.en;
+}
+
+export function casesForProgram(
+  cases: Awaited<ReturnType<typeof getCases>>,
+  programId: string,
+) {
   return cases.filter((c) => c.tags.includes(programId));
 }
 
-export function siteUrl() {
-  return process.env.NEXT_PUBLIC_SITE_URL ?? "https://start.caredirect.com";
-}
+/** @deprecated Prefer getStartHome(locale) */
+export const startHome = enStartHome;
+/** @deprecated Prefer getPages(locale) */
+export const pages = enPages as Record<string, PageRecord>;
+/** @deprecated Prefer getProgramsData(locale) */
+export const programsData = enProgramsData as unknown as Awaited<
+  ReturnType<typeof getProgramsData>
+>;
+/** @deprecated Prefer getCases(locale) */
+export const cases = enCases as Awaited<ReturnType<typeof getCases>>;
+/** @deprecated Prefer getDoodlePlan(locale) */
+export const doodlePlan = enDoodlePlan as Awaited<ReturnType<typeof getDoodlePlan>>;
+export const routes = getRoutes();
+
+export { siteUrl } from "@/lib/i18n";

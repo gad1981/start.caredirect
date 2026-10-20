@@ -1,0 +1,41 @@
+.wrap {
+  display: inline-flex;
+  align-items: center;
+  gap: 2px;
+  flex-wrap: wrap;
+}
+
+.btn {
+  appearance: none;
+  border: 0;
+  background: transparent;
+  color: var(--muted);
+  font: 600 12px / 1 var(--body);
+  padding: 6px 7px;
+  border-radius: 999px;
+  cursor: pointer;
+  text-decoration: none;
+}
+
+.btn:hover {
+  color: var(--ink);
+  background: var(--soft);
+}
+
+.btn:focus-visible {
+  outline: none;
+  box-shadow: var(--focus);
+}
+
+.active {
+  color: var(--ink);
+  background: var(--soft);
+}
+
+.label {
+  position: absolute;
+  width: 1px;
+  height: 1px;
+  overflow: hidden;
+  clip: rect(0, 0, 0, 0);
+}

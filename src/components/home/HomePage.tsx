@@ -2,12 +2,16 @@ import Image from "next/image";
 import Link from "next/link";
 import { BriefForm } from "@/components/BriefForm";
 import { Button } from "@/components/Button";
-import { startHome } from "@/lib/content";
+import { getMessages, getStartHome } from "@/lib/content";
+import { localePath, type Locale } from "@/lib/i18n";
 import { getProgramById, padNum, programTileSrc } from "@/lib/programs";
 import { withTbc } from "@/lib/tbc";
 import styles from "./HomePage.module.css";
 
-export function HomePage() {
+export async function HomePage({ locale }: { locale: Locale }) {
+  const startHome = await getStartHome(locale);
+  const messages = getMessages(locale);
+
   const stages = startHome.stages
     .map((stage, i) => {
       const prog = getProgramById(stage.id);
@@ -69,7 +73,7 @@ export function HomePage() {
               <Link
                 key={s.id}
                 className={styles.tile}
-                href={`/${s.prog.slug}/`}
+                href={localePath(locale, `/${s.prog.slug}/`)}
               >
                 <Image
                   src={programTileSrc(s.prog.assetKey)}
@@ -89,7 +93,7 @@ export function HomePage() {
                   <p className={styles.tileDesc}>{withTbc(s.desc)}</p>
                   <div className={styles.tileFoot}>
                     <span>{withTbc(s.where)}</span>
-                    <span>Explore →</span>
+                    <span>{messages.explore}</span>
                   </div>
                 </div>
               </Link>
@@ -140,8 +144,11 @@ export function HomePage() {
                   <span className={styles.tag}>{c.tag}</span>
                   <span className={styles.lname}>{withTbc(c.name)}</span>
                   <span>{c.desc}</span>
-                  <Link className={styles.more} href="/plan/">
-                    Talk to us →
+                  <Link
+                    className={styles.more}
+                    href={localePath(locale, "/plan/")}
+                  >
+                    {messages.talkToUs}
                   </Link>
                 </div>
               ),
@@ -154,7 +161,11 @@ export function HomePage() {
         <div className={styles.brandsInner}>
           <h2 id="brands-h2">{startHome.brands.h2}</h2>
           <p className={styles.secLead}>{startHome.brands.lead}</p>
-          <BriefForm sourcePage="/" />
+          <BriefForm
+            sourcePage={localePath(locale, "/")}
+            markets={startHome.brands.markets}
+            submitLabel={startHome.brands.button}
+          />
         </div>
       </section>
     </>

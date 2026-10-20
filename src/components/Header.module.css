@@ -13,6 +13,14 @@
   justify-content: space-between;
   gap: 12px;
   flex-wrap: wrap;
+  align-items: center;
+}
+
+.stripRight {
+  display: flex;
+  align-items: center;
+  gap: 10px;
+  flex-wrap: wrap;
 }
 
 .strip a {
