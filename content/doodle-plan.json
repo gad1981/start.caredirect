@@ -1,0 +1,16 @@
+{
+ "st-teen": {
+  "hero": "hearts-p",
+  "sections": [
+   "star-g",
+   "headphones-p",
+   "planet-g"
+  ],
+  "band": "book-p",
+  "mobile": [
+   null,
+   "headphones-p",
+   null
+  ]
+ }
+}

@@ -1,0 +1,347 @@
+{
+ "eyebrow": "Life-stage marketing · Southeast Europe",
+ "h1": "Every period in life has a first day. Be in it.",
+ "lead": "START is Care Direct's family of programs for the moments people begin something new: a first baby, a first school day, university, a wedding, retirement. We put your product in their hands, with a guide they keep and a follow-up that turns trial into a relationship.",
+ "btn1": "Find your START",
+ "btn2": "How a START works",
+ "stats": [
+  [
+   "12",
+   "life-stage moments, one program family",
+   "accent"
+  ],
+  [
+   "5",
+   "countries across Southeast Europe",
+   ""
+  ],
+  [
+   "120,000+",
+   "mothers a year in START Pregnancy and Baby",
+   ""
+  ],
+  [
+   "100,000+",
+   "Babyspace members",
+   ""
+  ]
+ ],
+ "programs": {
+  "eyebrow": "The START family",
+  "h2": "One audience. Every starting point.",
+  "lead": "Pick the moment your consumer is in. Each START reaches them where it happens, at the exact week they're choosing new brands."
+ },
+ "stages": [
+  {
+   "id": "st-pregnancy",
+   "name": "START Pregnancy",
+   "when": "3rd trimester",
+   "where": "Gyn & maternity clinics",
+   "desc": "Expecting parents try your product while they are still building the list of what the baby will need.",
+   "tagline": "Before the baby arrives",
+   "hands": [
+    "Samples in the box",
+    "An ad in the BOOM guide",
+    "Handed over at gyn & maternity clinics"
+   ],
+   "online": [
+    "Babyspace and Myparenthood",
+    "HeyMaa AI companion (Romania pilot)",
+    "Follow-up: email, SMS, call centre, direct mail"
+   ]
+  },
+  {
+   "id": "st-natal",
+   "name": "START Baby",
+   "when": "2–3 days after birth",
+   "where": "Maternity clinics",
+   "desc": "The first-days box handed to new mothers in hospital, with the guide for the weeks ahead.",
+   "tagline": "The first days with baby",
+   "hands": [
+    "Samples in the first-days box",
+    "An ad in the Natal or Breastfeeding Guide",
+    "Handed over in maternity clinics"
+   ],
+   "online": [
+    "Babyspace and Myparenthood",
+    "Mybabywinner monthly giveaway",
+    "Follow-up: email, SMS, call centre, direct mail"
+   ]
+  },
+  {
+   "id": "st-next",
+   "name": "START First Foods",
+   "when": "Baby at 6 months",
+   "where": "Delivered home",
+   "desc": "Baby starts eating: a second wave of trial as the family moves to a new stage.",
+   "tagline": "Baby's first spoon",
+   "hands": [
+    "Samples in the box",
+    "An ad in the first-foods guide",
+    "Delivered home at 6 months"
+   ],
+   "online": [
+    "Babyspace and Myparenthood",
+    "Mybabywinner and HeyMaa",
+    "Follow-up: email, SMS, call centre, direct mail"
+   ]
+  },
+  {
+   "id": "st-school",
+   "name": "START First Grade",
+   "when": "First day of school, age 6",
+   "where": "Primary schools",
+   "desc": "A box on the very first school day, for children and the parents choosing their school-year brands.",
+   "tagline": "The first school bell",
+   "hands": [
+    "Samples in the first-day box",
+    "An ad in the School Guide 2026",
+    "Handed out in primary schools"
+   ],
+   "online": [
+    "Myschoolwinner for families",
+    "Parents reached at home",
+    "Follow-up: email, SMS, call centre, direct mail"
+   ]
+  },
+  {
+   "id": "st-teen",
+   "name": "START Teen Girl",
+   "when": "The start of puberty",
+   "where": "[Schools, pharmacies]",
+   "desc": "A kit for girls at the start of puberty: the first products of their own, with guidance they can trust.",
+   "tagline": "Growing up, her way",
+   "hands": [
+    "Samples in the kit",
+    "An ad in the guide",
+    "Handed out at [schools, pharmacies]"
+   ],
+   "online": [
+    "Our platform [to confirm]",
+    "Content she trusts",
+    "Follow-up: email, SMS, call centre, direct mail"
+   ]
+  },
+  {
+   "id": "st-high",
+   "name": "START High School",
+   "when": "Entering high school, 15–16",
+   "where": "High schools · web guide START 9",
+   "desc": "New class, new people. A kit for teenagers starting high school, with an interactive web guide.",
+   "tagline": "New class, new people",
+   "hands": [
+    "Samples in the kit",
+    "An ad in the guide [to confirm]",
+    "Handed out in high schools"
+   ],
+   "online": [
+    "START 9 web guide (Romania)",
+    "Goals and tips for the first year",
+    "Follow-up: email, SMS, call centre, direct mail"
+   ]
+  },
+  {
+   "id": "st-uni",
+   "name": "START University",
+   "when": "First year at university",
+   "where": "Universities · web guide UniStart+",
+   "desc": "A kit for first-year students and a digital student guidebook, for their first independent purchases.",
+   "tagline": "First year, first independence",
+   "hands": [
+    "Samples in the kit",
+    "An ad in the guide [to confirm]",
+    "Handed out at universities"
+   ],
+   "online": [
+    "UniStart+ student guidebook (Bulgaria)",
+    "Partners of the box, listed online",
+    "Follow-up: email, SMS, call centre, direct mail"
+   ]
+  },
+  {
+   "id": "st-army",
+   "name": "START Army",
+   "when": "Recruitment day",
+   "where": "Military camps",
+   "desc": "Young men try your product on the day they enter service, a hard-to-reach audience in one place.",
+   "tagline": "First day in service",
+   "hands": [
+    "Samples in the kit",
+    "An ad in the guide they take with them",
+    "Handed out in military camps"
+   ],
+   "online": [
+    "Our platform [to confirm]",
+    "A hard-to-reach audience, in one place",
+    "Follow-up: email, SMS, call centre, direct mail"
+   ]
+  },
+  {
+   "id": "st-marriage",
+   "name": "START Marriage",
+   "when": "Getting married",
+   "where": "[Registries, venues, municipalities]",
+   "desc": "Couples setting up a home together try your product as they choose their first shared brands.",
+   "tagline": "A home for two",
+   "hands": [
+    "Samples in the box",
+    "An ad in the first-home guide",
+    "Handed out at [registries, venues, municipalities]"
+   ],
+   "online": [
+    "Our platform [to confirm]",
+    "First shared brands",
+    "Follow-up: email, SMS, call centre, direct mail"
+   ]
+  },
+  {
+   "id": "st-pet",
+   "name": "START Pet",
+   "when": "A new pet at home",
+   "where": "[Vets, pet shops]",
+   "desc": "New owners get your product in the first weeks, while they're still choosing food, care and accessories.",
+   "tagline": "A new family member",
+   "hands": [
+    "Samples in the box",
+    "An ad in the first-weeks guide",
+    "Handed out at [vets, pet shops]"
+   ],
+   "online": [
+    "Our platform [to confirm]",
+    "Routines that last",
+    "Follow-up: email, SMS, call centre, direct mail"
+   ]
+  },
+  {
+   "id": "st-silver",
+   "name": "START Ladies",
+   "when": "50+, entering menopause",
+   "where": "Gynaecology clinics",
+   "desc": "Women in midlife receive trial and trusted guidance during a big change.",
+   "tagline": "A new chapter at 50+",
+   "hands": [
+    "Samples in the box",
+    "An ad in the guide [to confirm]",
+    "Handed over at gynaecology clinics"
+   ],
+   "online": [
+    "LadiesBook online magazine",
+    "Trusted guidance for midlife",
+    "Follow-up: email, SMS, call centre, direct mail"
+   ]
+  },
+  {
+   "id": "st-seniors",
+   "name": "START Seniors",
+   "when": "Starting retirement",
+   "where": "[Channel to confirm]",
+   "desc": "A new rhythm of life, new routines and new brands, at the start of retirement.",
+   "tagline": "Time for themselves",
+   "hands": [
+    "Samples in the box",
+    "An ad in the guide for the years ahead",
+    "Handed out at [channel to confirm]"
+   ],
+   "online": [
+    "Our platform [to confirm]",
+    "New routines, new brands",
+    "Follow-up: email, SMS, call centre, direct mail"
+   ]
+  }
+ ],
+ "how": {
+  "eyebrow": "How a START works",
+  "h2": "Trial in their hands. A guide they keep. A follow-up that lasts.",
+  "steps": [
+   [
+    "1 · The box",
+    "Your product, delivered at the moment of need through clinics, schools and universities. Real trial, not an impression."
+   ],
+   [
+    "2 · The guide",
+    "A printed guide in every box, also online as a flipbook; for teens and students, a web guide. Your brand earns a useful place, not just an ad slot."
+   ],
+   [
+    "3 · The follow-up",
+    "Opt-in, GDPR-compliant registration, then email, SMS, call centre and direct mail continue the conversation."
+   ],
+   [
+    "4 · The platform",
+    "Our own platforms (Babyspace, Myparenthood, HeyMaa, Mybabywinner, Momtag, Myschoolwinner, LadiesBook) keep the audience close and roll them into the next START."
+   ]
+  ]
+ },
+ "live": {
+  "eyebrow": "Live now",
+  "h2": "See a START from the inside.",
+  "cards": [
+   {
+    "tag": "Romania · starting high school",
+    "name": "START 9",
+    "desc": "An interactive guide for students starting high school: new class, new people, still you.",
+    "url": "https://startliceu.life",
+    "link": "startliceu.life →"
+   },
+   {
+    "tag": "Bulgaria · UNSS students",
+    "name": "UniStart+",
+    "desc": "A digital student guidebook with goals, career steps and a partner box, built with UNSS Sofia.",
+    "url": "https://uni-start.com",
+    "link": "uni-start.com →"
+   },
+   {
+    "tag": "Next to launch",
+    "name": "[NEXT START]",
+    "desc": "Your brand could be the founding partner of the next life-stage program.",
+    "url": "",
+    "link": ""
+   }
+  ]
+ },
+ "markets": {
+  "eyebrow": "Where START runs",
+  "h2": "Two regions. One playbook.",
+  "regions": [
+   {
+    "name": "Southeast Europe",
+    "sub": "Life-stage programs: START",
+    "countries": [
+     "Greece",
+     "Cyprus",
+     "Romania",
+     "Bulgaria",
+     "Serbia"
+    ],
+    "link": ""
+   },
+   {
+    "name": "Middle East",
+    "sub": "Promotional & activation programs, by Care Direct",
+    "countries": [
+     "U.A.E.",
+     "Saudi Arabia",
+     "Egypt",
+     "Lebanon",
+     "Kuwait",
+     "Qatar",
+     "Oman",
+     "Bahrain"
+    ],
+    "link": "me"
+   }
+  ]
+ },
+ "brands": {
+  "h2": "Put your product in someone's first day.",
+  "lead": "Tell us the audience and the market. We'll come back with the right START, reach, timing and cost.",
+  "markets": [
+   "Greece",
+   "Cyprus",
+   "Romania",
+   "Bulgaria",
+   "Serbia"
+  ],
+  "button": "Plan my START"
+ },
+ "footer": "START. A Care Direct program family"
+}

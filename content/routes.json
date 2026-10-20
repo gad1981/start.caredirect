@@ -1,0 +1,109 @@
+[
+ {
+  "id": "st-parents",
+  "name": "START site home (B2B)",
+  "url": "start.caredirect.com",
+  "redirect_from_caredirect_com": []
+ },
+ {
+  "id": "st-contact",
+  "name": "Plan a START",
+  "url": "start.caredirect.com/plan/",
+  "redirect_from_caredirect_com": []
+ },
+ {
+  "id": "st-order",
+  "name": "Order your samples (phase 2)",
+  "url": "start.caredirect.com/order/",
+  "redirect_from_caredirect_com": []
+ },
+ {
+  "id": "st-pregnancy",
+  "name": "START Pregnancy",
+  "url": "start.caredirect.com/pregnancy/",
+  "redirect_from_caredirect_com": [
+   "/pregnancy-gift-box-2/",
+   "/the-boom-edition/"
+  ]
+ },
+ {
+  "id": "st-natal",
+  "name": "START Baby",
+  "url": "start.caredirect.com/baby/",
+  "redirect_from_caredirect_com": [
+   "/baby-gift-box-2/",
+   "/luxury-moments/",
+   "/the-boom-edition/"
+  ]
+ },
+ {
+  "id": "st-next",
+  "name": "START First Foods",
+  "url": "start.caredirect.com/first-foods/",
+  "redirect_from_caredirect_com": [
+   "/nextstep-gift-box/"
+  ]
+ },
+ {
+  "id": "st-school",
+  "name": "START First Grade",
+  "url": "start.caredirect.com/first-grade/",
+  "redirect_from_caredirect_com": [
+   "/back-to-school-2/"
+  ]
+ },
+ {
+  "id": "st-teen",
+  "name": "START Teen Girl",
+  "url": "start.caredirect.com/teen-girl/",
+  "redirect_from_caredirect_com": []
+ },
+ {
+  "id": "st-high",
+  "name": "START High School",
+  "url": "start.caredirect.com/high-school/",
+  "redirect_from_caredirect_com": []
+ },
+ {
+  "id": "st-uni",
+  "name": "START University",
+  "url": "start.caredirect.com/university/",
+  "redirect_from_caredirect_com": []
+ },
+ {
+  "id": "st-army",
+  "name": "START Army",
+  "url": "start.caredirect.com/army/",
+  "redirect_from_caredirect_com": [
+   "/army-kit-2/"
+  ]
+ },
+ {
+  "id": "st-marriage",
+  "name": "START Marriage",
+  "url": "start.caredirect.com/marriage/",
+  "redirect_from_caredirect_com": []
+ },
+ {
+  "id": "st-pet",
+  "name": "START Pet",
+  "url": "start.caredirect.com/pet/",
+  "redirect_from_caredirect_com": [
+   "/noah-project/ (audience insight only)"
+  ]
+ },
+ {
+  "id": "st-silver",
+  "name": "START Ladies",
+  "url": "start.caredirect.com/ladies/",
+  "redirect_from_caredirect_com": [
+   "/ladies-gift-box-2-2/ (decide)"
+  ]
+ },
+ {
+  "id": "st-seniors",
+  "name": "START Seniors",
+  "url": "start.caredirect.com/seniors/",
+  "redirect_from_caredirect_com": []
+ }
+]
