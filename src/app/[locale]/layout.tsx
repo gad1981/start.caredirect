@@ -67,7 +67,6 @@ export default async function LocaleRootLayout({
       lang={htmlLang[locale]}
       className={`${display.variable} ${body.variable}`}
       data-theme="light"
-      data-scroll-behavior="smooth"
     >
       <body>
         <Script

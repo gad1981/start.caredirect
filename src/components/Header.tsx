@@ -1,7 +1,7 @@
 "use client";
 
-import Link from "next/link";
 import { Suspense, useState } from "react";
+import { AppLink } from "@/components/AppLink";
 import { LanguageSwitcher } from "@/components/i18n/LanguageSwitcher";
 import { useLocale } from "@/components/i18n/LocaleProvider";
 import { localePath } from "@/lib/i18n";
@@ -14,13 +14,20 @@ export function Header() {
   const [programsOpen, setProgramsOpen] = useState(false);
   const home = localePath(locale, "/");
 
+  function closeMenus() {
+    setOpen(false);
+    setProgramsOpen(false);
+  }
+
   return (
     <>
       <div className={styles.strip}>
         <div className={styles.stripInner}>
           <span>{messages.stripSite}</span>
           <div className={styles.stripRight}>
-            <Suspense fallback={null}><LanguageSwitcher /></Suspense>
+            <Suspense fallback={null}>
+              <LanguageSwitcher />
+            </Suspense>
             <a
               href="https://www.caredirect.com/"
               target="_blank"
@@ -33,15 +40,11 @@ export function Header() {
       </div>
       <header className={styles.header}>
         <div className={styles.bar}>
-          <Link
-            className={styles.logo}
-            href={home}
-            onClick={() => setOpen(false)}
-          >
+          <AppLink className={styles.logo} href={home} onClick={closeMenus}>
             <span className={styles.mark} aria-hidden />
             <span className="visually-hidden">START</span>
             <span className={styles.by}>{messages.byCareDirect}</span>
-          </Link>
+          </AppLink>
           <button
             className={styles.burger}
             type="button"
@@ -65,41 +68,37 @@ export function Header() {
               </button>
               <div className={styles.drop}>
                 {LISTED_PROGRAMS.map((p) => (
-                  <Link
+                  <AppLink
                     key={p.id}
                     href={localePath(locale, `/${p.slug}/`)}
-                    scroll
-                    onClick={() => {
-                      setOpen(false);
-                      setProgramsOpen(false);
-                    }}
+                    onClick={closeMenus}
                   >
                     {p.name}
-                  </Link>
+                  </AppLink>
                 ))}
               </div>
             </div>
-            <Link
+            <AppLink
               className={styles.top}
               href={`${home}#how`}
-              onClick={() => setOpen(false)}
+              onClick={closeMenus}
             >
               {messages.howItWorks}
-            </Link>
-            <Link
+            </AppLink>
+            <AppLink
               className={styles.top}
               href={`${home}#live`}
-              onClick={() => setOpen(false)}
+              onClick={closeMenus}
             >
               {messages.liveStarts}
-            </Link>
-            <Link
+            </AppLink>
+            <AppLink
               className={styles.cta}
               href={localePath(locale, "/plan/")}
-              onClick={() => setOpen(false)}
+              onClick={closeMenus}
             >
               {messages.planAStart}
-            </Link>
+            </AppLink>
           </nav>
         </div>
       </header>

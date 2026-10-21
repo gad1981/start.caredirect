@@ -1,13 +1,13 @@
 "use client";
 
 import Image from "next/image";
-import Link from "next/link";
 import {
   useRef,
   useState,
   type MouseEvent,
   type PointerEvent,
 } from "react";
+import { AppLink } from "@/components/AppLink";
 import type { ProgramBrand } from "@/lib/program-brands";
 import { withTbc } from "@/lib/tbc";
 import styles from "./HomePage.module.css";
@@ -85,7 +85,7 @@ export function ProgramFlipTile({
   }
 
   return (
-    <Link
+    <AppLink
       className={`${styles.tile} ${styles.tileFlip}${flipped ? ` ${styles.isFlipped}` : ""}`}
       href={stage.href}
       data-tone={brand.tone}
@@ -161,6 +161,6 @@ export function ProgramFlipTile({
           </span>
         </span>
       </span>
-    </Link>
+    </AppLink>
   );
 }

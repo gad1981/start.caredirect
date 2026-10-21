@@ -1,5 +1,5 @@
 import Image from "next/image";
-import Link from "next/link";
+import { AppLink } from "@/components/AppLink";
 import { BriefForm } from "@/components/BriefForm";
 import { Button } from "@/components/Button";
 import { getMessages, getStartHome, getTaglines } from "@/lib/content";
@@ -104,7 +104,7 @@ export async function HomePage({ locale }: { locale: Locale }) {
                 );
               }
               return (
-                <Link key={s.id} className={styles.tile} href={href}>
+                <AppLink key={s.id} className={styles.tile} href={href}>
                   <Image
                     src={tileSrc}
                     alt=""
@@ -127,7 +127,7 @@ export async function HomePage({ locale }: { locale: Locale }) {
                       <span>{messages.explore}</span>
                     </div>
                   </div>
-                </Link>
+                </AppLink>
               );
             })}
           </div>
@@ -176,12 +176,12 @@ export async function HomePage({ locale }: { locale: Locale }) {
                   <span className={styles.tag}>{c.tag}</span>
                   <span className={styles.lname}>{withTbc(c.name)}</span>
                   <span>{c.desc}</span>
-                  <Link
+                  <AppLink
                     className={styles.more}
                     href={localePath(locale, "/plan/")}
                   >
                     {messages.talkToUs}
-                  </Link>
+                  </AppLink>
                 </div>
               ),
             )}

@@ -1,7 +1,7 @@
 "use client";
 
-import Link from "next/link";
 import { usePathname } from "next/navigation";
+import { AppLink } from "@/components/AppLink";
 import {
   LOCALE_COOKIE,
   localeLabels,
@@ -30,7 +30,7 @@ export function LanguageSwitcher({ className = "" }: { className?: string }) {
         const href = swapLocalePath(pathname, code);
         const active = code === locale;
         return (
-          <Link
+          <AppLink
             key={code}
             href={href}
             className={`${styles.btn} ${active ? styles.active : ""}`}
@@ -39,7 +39,7 @@ export function LanguageSwitcher({ className = "" }: { className?: string }) {
             onClick={() => remember(code)}
           >
             {localeLabels[code]}
-          </Link>
+          </AppLink>
         );
       })}
     </nav>

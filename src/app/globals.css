@@ -5,7 +5,9 @@
 }
 
 html {
-  scroll-behavior: smooth;
+  /* Keep auto so in-app navigations land at the top reliably.
+     In-page hash links can still opt into smooth via scrollIntoView. */
+  scroll-behavior: auto;
 }
 
 html {
