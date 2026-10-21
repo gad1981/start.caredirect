@@ -35,13 +35,19 @@
   "cookieAccept": "Accept analytics",
   "cookieReject": "Reject",
   "cookieDialog": "Cookie preferences",
-  "foundingTitle": "Be the founding brand",
-  "foundingBody": "No case yet for {program}. Plan the first one with us.",
   "planMyStart": "Plan my START",
   "orderPhase": "Phase 2",
   "orderLead": "Ordering samples for parents is designed but not open yet. Brands can plan a START today.",
-  "readCase": "Read the case →",
   "theKitEye": "In their hands",
   "theKit": "The kit",
-  "theKitLead": "Samples, a guide, and your brand — in the box they keep from day one."
+  "theKitLead": "Samples, a guide, and your brand — in the box they keep from day one.",
+  "insightsTitle": "Insights per country",
+  "insightsLead": "Reach, cities, platforms, guides and print runs — switch a market.",
+  "insightsReach": "Reach / year",
+  "insightsCities": "Main cities",
+  "insightsChannels": "Execution",
+  "insightsApp": "Online app",
+  "insightsGuide": "Printed / digital guide",
+  "insightsTirage": "Tirage / format",
+  "insightsCountries": "Countries"
 }

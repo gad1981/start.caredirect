@@ -35,13 +35,19 @@
   "cookieAccept": "Accept analytics",
   "cookieReject": "Refuz",
   "cookieDialog": "Preferințe cookie",
-  "foundingTitle": "Be the founding brand",
-  "foundingBody": "No case yet for {program}. Plan the first one with us.",
   "planMyStart": "Plan my START",
   "orderPhase": "Phase 2",
   "orderLead": "Ordering samples for parents is designed but not open yet. Brands can plan a START today.",
-  "readCase": "Read the case →",
   "theKitEye": "În mâinile lor",
   "theKit": "Kit-ul",
-  "theKitLead": "Mostre, un ghid și brandul tău — în cutia pe care o păstrează din prima zi."
+  "theKitLead": "Mostre, un ghid și brandul tău — în cutia pe care o păstrează din prima zi.",
+  "insightsTitle": "Insights pe țară",
+  "insightsLead": "Acoperire, orașe, platforme, ghiduri și tiraj — schimbă piața.",
+  "insightsReach": "Acoperire / an",
+  "insightsCities": "Orașe principale",
+  "insightsChannels": "Execuție",
+  "insightsApp": "App online",
+  "insightsGuide": "Ghid tipărit / digital",
+  "insightsTirage": "Tiraj / format",
+  "insightsCountries": "Țări"
 }

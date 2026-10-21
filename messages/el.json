@@ -35,13 +35,19 @@
   "cookieAccept": "Αποδοχή analytics",
   "cookieReject": "Απόρριψη",
   "cookieDialog": "Προτιμήσεις cookies",
-  "foundingTitle": "Be the founding brand",
-  "foundingBody": "No case yet for {program}. Plan the first one with us.",
   "planMyStart": "Plan my START",
   "orderPhase": "Phase 2",
   "orderLead": "Ordering samples for parents is designed but not open yet. Brands can plan a START today.",
-  "readCase": "Read the case →",
   "theKitEye": "Στα χέρια τους",
   "theKit": "Το kit",
-  "theKitLead": "Δείγματα, οδηγός και το brand σας — στο κουτί που κρατούν από την πρώτη μέρα."
+  "theKitLead": "Δείγματα, οδηγός και το brand σας — στο κουτί που κρατούν από την πρώτη μέρα.",
+  "insightsTitle": "Insights ανά χώρα",
+  "insightsLead": "Κάλυψη, πόλεις, platforms, οδηγοί και tirage — άλλαξε αγορά.",
+  "insightsReach": "Κάλυψη / έτος",
+  "insightsCities": "Κύριες πόλεις",
+  "insightsChannels": "Εκτέλεση",
+  "insightsApp": "Online app",
+  "insightsGuide": "Έντυπος / digital οδηγός",
+  "insightsTirage": "Tirage / μορφή",
+  "insightsCountries": "Χώρες"
 }

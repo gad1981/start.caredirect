@@ -2,20 +2,19 @@ import Image from "next/image";
 import { Button } from "@/components/Button";
 import { BriefForm } from "@/components/BriefForm";
 import {
-  casesForProgram,
-  getCases,
   getDoodlePlan,
+  getInsights,
   getMessages,
   getPages,
-  getProgramsData,
   getStartHome,
+  getTaglines,
 } from "@/lib/content";
 import { localePath, type Locale } from "@/lib/i18n";
 import { getProgramBrand } from "@/lib/program-brands";
 import type { ProgramId } from "@/lib/programs";
 import { getProgramById, programHeroSrc, programKitSrc } from "@/lib/programs";
 import { withTbc } from "@/lib/tbc";
-import { CountryTabs } from "./CountryTabs";
+import { InsightsTabs } from "./InsightsTabs";
 import styles from "./ProgramPage.module.css";
 
 function doodleSrc(key: string) {
@@ -39,32 +38,6 @@ function parseCards(copy: string) {
   });
 }
 
-function parseStats(copy: string) {
-  return copy.split("·").map((chunk) => {
-    const text = chunk.trim();
-    const m = text.match(/^(\S+)\s+(.*)$/);
-    if (!m) return { n: text, label: "" };
-    return { n: m[1], label: m[2] };
-  });
-}
-
-function isPlatformLabel(label: string) {
-  const n = label
-    .normalize("NFD")
-    .replace(/\p{M}/gu, "")
-    .toLowerCase();
-  return (
-    n === "platform" ||
-    n === "platforma" ||
-    n === "πλατφορμα" ||
-    n === "платформа"
-  );
-}
-
-function platformsFromAbout(facts: { label: string; value: string }[]) {
-  return facts.find((f) => isPlatformLabel(f.label))?.value ?? "";
-}
-
 export async function ProgramPage({
   programId,
   locale,
@@ -79,32 +52,19 @@ export async function ProgramPage({
 
   const messages = getMessages(locale);
   const startHome = await getStartHome(locale);
-  const programsData = await getProgramsData(locale);
   const doodlePlan = await getDoodlePlan(locale);
-  const allCases = await getCases(locale);
+  const taglines = await getTaglines(locale);
+  const insightsMap = await getInsights(locale);
   const brand = getProgramBrand(programId);
   const tone = brand?.tone;
   const plan = doodlePlan[programId];
-  const stage = startHome.stages.find((s) => s.id === programId);
-  const programCases = casesForProgram(allCases, programId);
   const aboutSec = page.sections.find((s) => s.comp === "program-about");
   const cardsSec = page.sections.find((s) => s.comp === "card-grid");
-  const tabsSec = page.sections.find(
-    (s) => s.comp === "country-tabs" && !s.hidden,
-  );
-  const statsSec = page.sections.find((s) => s.comp === "stat-row");
   const linkSecs = page.sections.filter((s) => s.comp === "link");
-  const casesSec = page.sections.find((s) => s.comp.includes("case-cards"));
   const about = aboutSec ? parseAbout(aboutSec.copy) : null;
   const cards = cardsSec ? parseCards(cardsSec.copy) : [];
-  const stats = statsSec ? parseStats(statsSec.copy) : [];
-  const guideItems = (programsData.START_GUIDES[programId] ?? []).map(
-    ([country, label, href]) => ({ country, label, href }),
-  );
-  const heroIntro =
-    page.sections.find((s) => s.comp === "program-hero")?.copy ??
-    stage?.desc ??
-    "";
+  const insightRows = insightsMap[programId] ?? [];
+  const tagline = taglines[programId] ?? "";
   const planHref = localePath(locale, "/plan/");
   const kitSrc = programKitSrc(prog.assetKey);
 
@@ -133,9 +93,23 @@ export async function ProgramPage({
                 height={88}
               />
             ) : null}
-            <h1>{page.h1}</h1>
-            <div>
-              <p className={styles.intro}>{withTbc(heroIntro)}</p>
+            <div className={styles.heroBrand}>
+              {brand?.logoSrc ? (
+                // eslint-disable-next-line @next/next/no-img-element
+                <img
+                  className={styles.heroLogo}
+                  src={brand.logoSrc}
+                  alt=""
+                  width={220}
+                  height={72}
+                />
+              ) : null}
+              <h1>{page.h1}</h1>
+              {tagline ? (
+                <p className={styles.tagline}>{tagline}</p>
+              ) : null}
+            </div>
+            <div className={styles.heroActions}>
               <Button href={planHref} accent={Boolean(tone)}>
                 {page.cta}
               </Button>
@@ -202,7 +176,7 @@ export async function ProgramPage({
         </section>
       ) : null}
 
-      {tabsSec ? (
+      {insightRows.length ? (
         <section className={styles.section}>
           <div className={styles.wrap}>
             {plan?.sections?.[2] ? (
@@ -215,38 +189,21 @@ export async function ProgramPage({
                 height={64}
               />
             ) : null}
-            <h2>{tabsSec.name}</h2>
-            {tabsSec.intro ? (
-              <p className={styles.introLine}>{tabsSec.intro}</p>
-            ) : null}
-            {guideItems.length ? (
-              <CountryTabs items={guideItems} />
-            ) : (
-              <div className={styles.panel}>
-                <p style={{ margin: 0 }}>{withTbc(tabsSec.copy)}</p>
-                {platformsFromAbout(about?.facts ?? []) ? (
-                  <p style={{ margin: "10px 0 0" }}>
-                    Platform: {withTbc(platformsFromAbout(about?.facts ?? []))}
-                  </p>
-                ) : null}
-              </div>
-            )}
-          </div>
-        </section>
-      ) : null}
-
-      {statsSec ? (
-        <section className={styles.section}>
-          <div className={styles.wrap}>
-            <h2>{statsSec.name}</h2>
-            <div className={styles.stats}>
-              {stats.map((s) => (
-                <div key={`${s.n}-${s.label}`} className={styles.stat}>
-                  <b>{s.n}</b>
-                  <span>{withTbc(s.label)}</span>
-                </div>
-              ))}
-            </div>
+            <h2>{messages.insightsTitle}</h2>
+            <p className={styles.introLine}>{messages.insightsLead}</p>
+            <InsightsTabs
+              rows={insightRows}
+              locale={locale}
+              labels={{
+                reach: messages.insightsReach,
+                cities: messages.insightsCities,
+                channels: messages.insightsChannels,
+                app: messages.insightsApp,
+                guide: messages.insightsGuide,
+                tirage: messages.insightsTirage,
+                countries: messages.insightsCountries,
+              }}
+            />
           </div>
         </section>
       ) : null}
@@ -291,46 +248,6 @@ export async function ProgramPage({
                 className={styles.kitImg}
               />
             </div>
-          </div>
-        </section>
-      ) : null}
-
-      {casesSec ? (
-        <section className={styles.section}>
-          <div className={styles.wrap}>
-            <h2>{casesSec.name}</h2>
-            {casesSec.intro ? (
-              <p className={styles.introLine}>{casesSec.intro}</p>
-            ) : null}
-            {programCases.length ? (
-              <div className={styles.cases}>
-                {programCases.map((c) => (
-                  <article key={c.slug} className={styles.case}>
-                    <h3>{c.h1}</h3>
-                    <p>
-                      {c.client} · {c.where} · {c.year}
-                    </p>
-                    <p>{withTbc(c.line)}</p>
-                    <p>{withTbc(c.brief)}</p>
-                    {c.src ? (
-                      <a href={c.src} target="_blank" rel="noopener noreferrer">
-                        {messages.readCase}
-                      </a>
-                    ) : null}
-                  </article>
-                ))}
-              </div>
-            ) : (
-              <div className={styles.founding}>
-                <h3>{messages.foundingTitle}</h3>
-                <p>
-                  {messages.foundingBody.replace("{program}", prog.name)}
-                </p>
-                <Button href={planHref} accent={Boolean(tone)}>
-                  {page.cta}
-                </Button>
-              </div>
-            )}
           </div>
         </section>
       ) : null}
