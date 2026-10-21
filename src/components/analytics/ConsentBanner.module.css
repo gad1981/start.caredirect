@@ -14,6 +14,13 @@
   padding: 18px 20px;
   display: grid;
   gap: 14px;
+  /* Keep footer links tappable while the banner is open */
+  pointer-events: auto;
+}
+
+/* When cookie dialog is open, lift page content so footer isn't covered */
+:global(body:has([data-consent-banner])) {
+  padding-bottom: min(42vh, 280px);
 }
 
 .copy {

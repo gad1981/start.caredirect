@@ -1,8 +1,8 @@
 "use client";
 
-import Link from "next/link";
 import { Suspense } from "react";
 import { CookieSettingsButton } from "@/components/analytics/ConsentProvider";
+import { FooterLink } from "@/components/FooterLink";
 import { LanguageSwitcher } from "@/components/i18n/LanguageSwitcher";
 import { useLocale } from "@/components/i18n/LocaleProvider";
 import { localePath } from "@/lib/i18n";
@@ -23,33 +23,30 @@ export function Footer({ footerLine }: { footerLine: string }) {
           <h2>{messages.programs}</h2>
           <div className={styles.programLinks}>
             {LISTED_PROGRAMS.map((p) => (
-              <Link
-                key={p.id}
-                href={localePath(locale, `/${p.slug}/`)}
-                scroll
-                prefetch={false}
-              >
+              <FooterLink key={p.id} href={localePath(locale, `/${p.slug}/`)}>
                 {p.name}
-              </Link>
+              </FooterLink>
             ))}
           </div>
         </div>
         <div className={styles.col}>
           <h2>{messages.forBrands}</h2>
-          <Link href={localePath(locale, "/")} scroll prefetch={false}>
+          <FooterLink href={localePath(locale, "/")}>
             {messages.startHome}
-          </Link>
-          <Link href={localePath(locale, "/order/")} scroll prefetch={false}>
+          </FooterLink>
+          <FooterLink href={localePath(locale, "/order/")}>
             {messages.orderSamples}
-          </Link>
-          <Link href={localePath(locale, "/plan/")} scroll prefetch={false}>
+          </FooterLink>
+          <FooterLink href={localePath(locale, "/plan/")}>
             {messages.planAStart}
-          </Link>
+          </FooterLink>
         </div>
       </div>
       <div className={styles.base}>
         <div className={styles.baseInner}>
-          <Suspense fallback={null}><LanguageSwitcher /></Suspense>
+          <Suspense fallback={null}>
+            <LanguageSwitcher />
+          </Suspense>
           <span>·</span>
           <span>{footerLine} · </span>
           <a

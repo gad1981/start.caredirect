@@ -121,6 +121,7 @@ export function ConsentProvider({
         <div
           className={styles.banner}
           role="dialog"
+          data-consent-banner
           aria-label={messages?.cookieDialog ?? "Cookie preferences"}
         >
           <p className={styles.copy}>
