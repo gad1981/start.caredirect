@@ -1,0 +1,849 @@
+{
+ "st-parents": {
+  "job": "Pagina de start a site-ului START B2B: prezintă brandurilor familia START și obține un brief.",
+  "t": "START by Care Direct | Marketing pe etape de viață",
+  "m": "Fiecare etapă din viață are o primă zi. Fii prezent în ea. START îți pune produsul în mâinile oamenilor chiar când încep ceva nou.",
+  "h1": "Fiecare etapă din viață are o primă zi. Fii prezent în ea.",
+  "sections": [
+   {
+    "name": "Hero",
+    "comp": "hero + 4 stat cards",
+    "copy": "Marketing pe etape de viață · Sud-Estul Europei · START este familia de programe Care Direct pentru momentele în care oamenii încep ceva nou: primul bebeluș, prima zi de școală, facultatea, nunta, pensionarea. Punem produsul tău în mâinile lor, împreună cu un ghid pe care îl păstrează și cu un follow-up care transformă proba într-o relație.",
+    "proof": "Statistici: 14 momente din viață, o singură familie de programe · 5 țări din Sud-Estul Europei · ~50.000 de mame noi pe an în Grecia · 290.000+ de mame pe an în Pregnancy și Newborn. Butoane: Găsește START-ul tău · Cum funcționează un START. Preluat din designul site-ului START."
+   },
+   {
+    "name": "Familia START",
+    "comp": "program-cards ×14 (rail)",
+    "copy": "Un singur public. Fiecare punct de pornire. Alege momentul în care se află consumatorul tău. Fiecare START îl întâlnește exact acolo unde se întâmplă, în săptămâna în care își alege noile branduri. Carduri: START Pregnancy: trimestrul 3, clinici de ginecologie și maternități · START Newborn: la 2–3 zile după naștere, maternități · START Luxury Moments: suite private · START First Foods: bebeluș de 6 luni, livrat la domiciliu · START First Grade: prima zi de școală, la 6 ani, școli primare · START First Grade Christmas: perioada de Crăciun la școală, școli primare · START Teen Girl: începutul pubertății, livrat la domiciliu prin curier · START High School: intrarea la liceu, 15–16 ani, licee · ghid web START 9 · START University: primul an de facultate, universități · ghid web UniStart+ · START Army: ziua încorporării, unități militare · START Marriage: căsătoria, livrat la domiciliu prin curier · START Pet: un animal de companie nou în casă, medici veterinari și organizații de adopție · START Ladies: 50+, intrarea în menopauză, clinici de ginecologie · START Seniors: începutul pensionării, la domiciliu și în locurile de întâlnire ale seniorilor",
+    "proof": "Fiecare card: număr, moment, un motiv într-o frază, unde, Detalii → pagina programului"
+   },
+   {
+    "name": "Cum funcționează un START",
+    "comp": "steps ×4 (dark band)",
+    "copy": "Proba în mâinile lor. Un ghid pe care îl păstrează. Un follow-up care durează. Cutia → Ghidul → Follow-up-ul → Platforma",
+    "proof": "Modelul START: cutie, ghid, follow-up, platformă"
+   },
+   {
+    "name": "Live acum",
+    "comp": "live-cards",
+    "copy": "Vezi un START din interior. START 9, România (startliceu.life) · UniStart+, Bulgaria (uni-start.com) · [NEXT START]: fii partenerul fondator",
+    "proof": "Ambele sunt live, verificat la 15 oct."
+   },
+   {
+    "name": "Unde rulează START",
+    "comp": "region-cards ×2",
+    "copy": "Două regiuni. Un singur playbook. Sud-Estul Europei, START: Grecia, Cipru, România, Bulgaria, Serbia · Orientul Mijlociu, programe promoționale și de activare de la Care Direct: E.A.U., Arabia Saudită, Egipt, Liban, Kuweit, Qatar, Oman, Bahrain",
+    "proof": "Din designul site-ului START; START în sine rulează în Sud-Estul Europei",
+    "hidden": true
+   },
+   {
+    "name": "Planifică un START",
+    "comp": "brief-form (amber band)",
+    "copy": "Pune-ți produsul în prima zi a cuiva. Spune-ne publicul și piața. Revenim cu START-ul potrivit, acoperirea, calendarul și costul. Câmpuri: Nume · Companie / brand · Email de serviciu · Piață · Care START (12 + nu sunt sigur)",
+    "proof": "Direcționat în funcție de piață (P39)"
+   }
+  ],
+  "cta": "Planifică-mi START-ul",
+  "open": [
+   "Un singur site WordPress sau multisite împreună cu caredirect.com?",
+   "Cine administrează zilnic site-ul START?",
+   "Programele din Orientul Mijlociu (P8)?"
+  ],
+  "note": "Prescurtat."
+ },
+ "st-contact": {
+  "job": "Transformă interesul într-un brief, direcționat către echipa potrivită din fiecare țară.",
+  "t": "Planifică un START | START by Care Direct",
+  "m": "Pune-ți produsul în prima zi a cuiva. Spune-ne publicul și piața; răspundem cu START-ul potrivit, acoperirea, calendarul și costul.",
+  "h1": "Pune-ți produsul în prima zi a cuiva.",
+  "sections": [
+   {
+    "name": "Hero",
+    "comp": "hero-slim",
+    "copy": "Spune-ne publicul și piața. Răspundem cu START-ul potrivit, acoperirea, calendarul și costul.",
+    "proof": ""
+   },
+   {
+    "name": "Formular",
+    "comp": "brief-form",
+    "copy": "Nume · Companie / brand · Email de serviciu · Piață · Care START, sau „sfătuiește-mă” · Mesaj (opțional)",
+    "proof": "Direcționat în funcție de piață",
+    "intro": "Povestește-ne despre brandul tău și despre oamenii pe care vrei să-i atingi; echipa pentru piața ta îți răspunde."
+   },
+   {
+    "name": "Ce urmează",
+    "comp": "steps",
+    "copy": "Brief-ul tău ajunge la echipa din piața ta → Îți sugerăm START-ul, volumul și calendarul → Primești o propunere",
+    "proof": "",
+    "intro": "Ce se întâmplă după ce trimiți formularul."
+   },
+   {
+    "name": "Contacte pe țări",
+    "comp": "contact-cards",
+    "copy": "Atena +30 210 928 7700 · Larnaca +357 24 201540 · București +40 21 203 89 69 · Sofia +359 2 489 9491 · Belgrad +381 11 404 3331",
+    "proof": "Tabelul birourilor",
+    "intro": "Preferi să vorbim? Sună echipa din piața ta."
+   }
+  ],
+  "cta": "Planifică-mi START-ul",
+  "open": [
+   "Persoană de contact numită pentru fiecare țară (P39).",
+   "Timpul de răspuns pe care îl promitem."
+  ],
+  "note": "Prescurtat."
+ },
+ "st-order": {
+  "job": "Faza 2: mamele pot comanda online mostrele gratuite, în funcție de etapă și de țară.",
+  "t": "Comandă mostrele tale gratuite START | START by Care Direct",
+  "m": "Ești gravidă sau mamă proaspătă? Comandă mostre gratuite START: alege etapa și țara, verifică dacă te califici, înregistrează-te.",
+  "h1": "Comandă mostrele tale gratuite START.",
+  "sections": [
+   {
+    "name": "Hero",
+    "comp": "hero",
+    "copy": "Mostre gratuite și un ghid tipărit pentru tine și pentru bebelușul tău. Alege etapa și țara, verifică dacă te califici și înregistrează-te.",
+    "proof": ""
+   },
+   {
+    "name": "Deja funcțional",
+    "comp": "statement",
+    "copy": "În Grecia, 500 de viitoare mame pe lună își comandă deja cutia online prin Babyspace.",
+    "proof": "Media kit Babyspace 2023"
+   },
+   {
+    "name": "Cum funcționează",
+    "comp": "steps",
+    "copy": "Alege etapa → Alege țara → Verifică dacă te califici → Înregistrează-te cu consimțământul tău → Confirmă prin email sau SMS → Primești cutia",
+    "proof": "",
+    "intro": "Șase pași scurți, de la comandă până la cutie."
+   },
+   {
+    "name": "Ce primești",
+    "comp": "card-grid",
+    "copy": "Mostre gratuite: produse alese pentru etapa ta · Un ghid tipărit: sfaturi pentru săptămânile următoare · Sfaturi Babyspace: articole și instrumente pentru sarcină și pentru primul an al bebelușului",
+    "proof": "",
+    "intro": "Ce câștigi tu."
+   },
+   {
+    "name": "Datele tale",
+    "comp": "trust-panel",
+    "copy": "Tu alegi: trimitem doar ceea ce accepți · Te poți opri oricând: folosește linkul din orice mesaj sau Oprește mesajele · Cu cine lucrăm: vezi lista noastră de parteneri · Consimțământul tău: citește Consimțământul de înregistrare · Securitate certificată: ISO 27001:2022",
+    "proof": "ISO 27001:2022",
+    "intro": "Datele tale sunt în siguranță la noi, iar controlul rămâne la tine."
+   },
+   {
+    "name": "Întrebări frecvente",
+    "comp": "faq",
+    "copy": "Este gratuit? Da, mostrele și ghidul nu te costă nimic. · Cine poate comanda? [Etapele și țările disponibile la lansare] · Când ajunge? [Timpul de livrare pe țară] · Cum opresc mesajele? Folosește linkul din orice mesaj sau pagina Oprește mesajele.",
+    "proof": "",
+    "intro": "Răspunsuri rapide înainte să comanzi."
+   }
+  ],
+  "cta": "Comandă mostrele",
+  "open": [
+   "Data de start a Fazei 2 și prima țară.",
+   "Etapele disponibile la lansare.",
+   "Livrare: curier, clinică sau farmacie?"
+  ],
+  "note": "Prescurtat."
+ },
+ "st-marriage": {
+  "job": "Vinde brandurilor START Marriage: ajungi la oameni în momentul căsătoriei, cu livrare la domiciliu prin curier, și obții un brief.",
+  "t": "START Marriage: sampling pentru proaspeții căsătoriți | START by Care Direct",
+  "m": "Ajungi la cupluri în momentul în care se căsătoresc și își formează primul cămin: mostre livrate la domiciliu și follow-up cu consimțământ.",
+  "h1": "START Marriage.",
+  "sections": [
+   {
+    "name": "Hero",
+    "comp": "program-hero",
+    "copy": "Căsătoria · Livrat la domiciliu, prin curier. Cuplurile care își formează un cămin împreună îți încearcă produsul în timp ce aleg primele branduri comune.",
+    "proof": "Tabelul programelor START"
+   },
+   {
+    "name": "Despre START Marriage",
+    "comp": "program-about",
+    "copy": "START Marriage ajunge la cupluri în momentul în care se căsătoresc și își formează primul cămin împreună. Cutia este livrată la domiciliu prin curier, în timp ce ele aleg primele branduri comune. || Când: Căsătoria · Unde: Livrat la domiciliu, prin curier · Platformă: Comunitățile online Care Direct",
+    "proof": "Tabelul programelor START"
+   },
+   {
+    "name": "Ce primește brandul tău",
+    "comp": "card-grid",
+    "copy": "Mostre în cutie: livrate la domiciliu, pe măsură ce își aranjează casa · Follow-up cu consimțământ, după înregistrare, pe canalele potrivite · Comunitățile online Care Direct țin conversația vie",
+    "proof": "Modelul START",
+    "intro": "Ce primește brandul tău în START Marriage."
+   },
+   {
+    "name": "Cazuri",
+    "comp": "case-cards · from Work",
+    "copy": "Preluate din Work (program START: Marriage).",
+    "proof": "P25",
+    "intro": "Programe pe care le-am derulat în acest moment."
+   }
+  ],
+  "cta": "Planifică-mi START-ul",
+  "open": [
+   "Țări și volume."
+  ],
+  "note": "Prescurtat."
+ },
+ "st-pet": {
+  "job": "Vinde brandurilor START Pet: ajungi la oameni în momentul în care au un animal de companie nou în casă, prin medici veterinari și organizații de adopție, și obții un brief.",
+  "t": "START Pet: sampling pentru noii proprietari de animale | START by Care Direct",
+  "m": "Un animal de companie nou înseamnă un nou început pentru toată casa. Pune-ți produsul în mâinile noilor proprietari, pe măsură ce se formează rutinele.",
+  "h1": "START Pet.",
+  "sections": [
+   {
+    "name": "Hero",
+    "comp": "program-hero",
+    "copy": "Un animal de companie nou în casă · Medici veterinari și organizații de adopție. Noii proprietari primesc produsul tău în primele săptămâni, cât timp aleg hrana, îngrijirea și accesoriile.",
+    "proof": "Tabelul programelor START"
+   },
+   {
+    "name": "Despre START Pet",
+    "comp": "program-about",
+    "copy": "START Pet ajunge la noii proprietari în primele săptămâni cu un animal de companie nou. Primesc o cutie la medicii veterinari și în organizațiile de adopție, în timp ce se formează rutinele și aleg hrana, îngrijirea și accesoriile. || Când: Un animal de companie nou în casă · Unde: Medici veterinari și organizații de adopție · Platformă: Comunitățile online Care Direct",
+    "proof": "Tabelul programelor START"
+   },
+   {
+    "name": "Ce primește brandul tău",
+    "comp": "card-grid",
+    "copy": "Mostre în cutie: în mâinile noilor proprietari, pe măsură ce se formează rutinele · Follow-up cu consimțământ, după înregistrare, pe canalele potrivite · Comunitățile online Care Direct țin conversația vie",
+    "proof": "Modelul START",
+    "intro": "Ce primește brandul tău în START Pet."
+   },
+   {
+    "name": "Dovadă",
+    "comp": "stat-row",
+    "copy": "200 de medici veterinari de top din Attica atinși pentru Swiffer (2018)",
+    "proof": "Prezentarea programului Detailing",
+    "intro": "Cunoaștem deja drumul până la ușa cabinetului veterinar."
+   },
+   {
+    "name": "Cazuri",
+    "comp": "case-cards · from Work",
+    "copy": "Preluate din Work (program START: Pet).",
+    "proof": "P25",
+    "intro": "Programe pe care le-am derulat în acest moment."
+   }
+  ],
+  "cta": "Planifică-mi START-ul",
+  "open": [
+   "Țări și volume."
+  ],
+  "note": "Prescurtat."
+ },
+ "st-pregnancy": {
+  "job": "Vinde brandurilor START Pregnancy: ajungi la oameni în trimestrul 3, în clinicile de ginecologie și în maternități, și obții un brief.",
+  "t": "START Pregnancy: sampling pentru gravide | START by Care Direct",
+  "m": "Ajungi la viitoarele mame în trimestrul 3, în clinicile de ginecologie și în maternități: aproximativ 20.000 pe an în Grecia.",
+  "h1": "START Pregnancy.",
+  "sections": [
+   {
+    "name": "Hero",
+    "comp": "program-hero",
+    "copy": "Trimestrul 3 · Clinici de ginecologie și maternități. Viitorii părinți îți încearcă produsul în timp ce își fac lista cu tot ce va avea nevoie bebelușul.",
+    "proof": "Tabelul programelor START"
+   },
+   {
+    "name": "Despre START Pregnancy",
+    "comp": "program-about",
+    "copy": "START Pregnancy ajunge la viitoarele mame în trimestrul 3, în clinicile de ginecologie și în maternități: aproximativ 20.000 pe an în Grecia, în colaborare cu medicii. Primesc o cutie cu mostre și ghidul BOOM, în timp ce își fac lista cu tot ce va avea nevoie bebelușul. || Când: Trimestrul 3 · Unde: Clinici de ginecologie și maternități · Platformă: Babyspace, Myparenthood, Mybabywinner, HeyMaa",
+    "proof": "Tabelul de volume START"
+   },
+   {
+    "name": "Ce primește brandul tău",
+    "comp": "card-grid",
+    "copy": "Mostre în cutie: produsul tău în mâinile lor, înainte să apară bebelușul · O reclamă în ghidul BOOM: un ghid tipărit pe care îl păstrează și îl folosesc · Follow-up cu consimțământ, după înregistrare, pe canalele potrivite · Platformele noastre: Babyspace, Myparenthood, Mybabywinner și HeyMaa țin conversația vie",
+    "proof": "Modelul START",
+    "intro": "Ce primește brandul tău în START Pregnancy."
+   },
+   {
+    "name": "Ghiduri și platforme pe țări",
+    "comp": "country-tabs",
+    "copy": "Grecia: 20.000 · ghidul BOOM · colaborare cu medicii · Babyspace, Myparenthood · România, Bulgaria, Serbia, Cipru: volum Prenatal nelistat",
+    "proof": "Tabelul de volume START",
+    "intro": "Acoperirea Prenatal de astăzi este confirmată pentru Grecia."
+   },
+   {
+    "name": "Cifre",
+    "comp": "stat-row",
+    "copy": "20.000 de gravide pe an în Grecia · Colaborare cu medicii",
+    "proof": "Tabelul de volume START"
+   },
+   {
+    "name": "În afara Sud-Estului Europei",
+    "comp": "link",
+    "copy": "Sampling pentru mame și bebeluși",
+    "proof": "Link to /activation/mother-baby-sampling/",
+    "intro": "Vrei să ajungi la viitoare mame din Orientul Mijlociu? Vezi programul nostru de sampling în maternități de acolo."
+   },
+   {
+    "name": "Cazuri",
+    "comp": "case-cards · from Work",
+    "copy": "Preluate din Work (program START: Pregnancy).",
+    "proof": "P25",
+    "intro": "Programe pe care le-am derulat în acest moment."
+   }
+  ],
+  "cta": "Planifică-mi START-ul",
+  "open": [
+   "Ghidul BOOM mai este actual în 2026?",
+   "Banda pentru părinți, după deschiderea Fazei 2."
+  ],
+  "note": "Prescurtat."
+ },
+ "st-natal": {
+  "job": "Vinde brandurilor START Newborn: ajungi la mamele proaspete la 2–3 zile după naștere, în maternitățile publice și private, și obții un brief.",
+  "t": "START Newborn: sampling pentru mame proaspete | START by Care Direct",
+  "m": "Ajungi la mamele proaspete la 2–3 zile după naștere, în maternitățile publice și private: aproximativ 50.000 pe an în Grecia · peste 270.000 în Sud-Estul Europei.",
+  "h1": "START Newborn.",
+  "sections": [
+   {
+    "name": "Hero",
+    "comp": "program-hero",
+    "copy": "La 2–3 zile după naștere · Maternități publice și private. Cutia-cadou a primelor zile pentru mamele proaspete, cu materiale educative, mostre și ghidul pentru săptămânile următoare.",
+    "proof": "Tabelul de volume START"
+   },
+   {
+    "name": "Despre START Newborn",
+    "comp": "program-about",
+    "copy": "START Newborn ajunge la mamele proaspete la 2–3 zile după naștere, în spitalele publice și în clinicile private: aproximativ 50.000 pe an în Grecia și peste 270.000 în Sud-Estul Europei. Cutia-cadou include materiale educative, mostre, produse în format normal, materiale promoționale și cupoane de reducere, plus Natal Guide sau ghidul alăptării. || Când: La 2–3 zile după naștere · Unde: Maternități publice și private · Platformă: Babyspace, Myparenthood, Mybabywinner, HeyMaa",
+    "proof": "Tabelul de volume START"
+   },
+   {
+    "name": "Ce primește brandul tău",
+    "comp": "card-grid",
+    "copy": "Mostre în cutie: produsul tău în primele zile ale unei mame proaspete · O reclamă în ghid: Natal Guide sau ghidul alăptării, pe care ea îl păstrează · Follow-up cu consimțământ, după înregistrare, pe canalele potrivite · Platformele noastre: Babyspace, Myparenthood, Mybabywinner și HeyMaa țin conversația vie",
+    "proof": "Modelul START",
+    "intro": "Ce primește brandul tău în START Newborn."
+   },
+   {
+    "name": "Ghiduri și platforme pe țări",
+    "comp": "country-tabs",
+    "copy": "România: 160.000 · Asociația de Neonatologie, Asociația Pediatrilor · Bulgaria: 30.000 · Asociația Pediatrilor · Serbia: 30.000 · specialiști în pediatrie și neonatologie · Grecia: 50.000 · colaborare cu medicii · Cipru: —",
+    "proof": "Tabelul de volume START",
+    "intro": "Volume și recomandări medicale pe piețe."
+   },
+   {
+    "name": "Cifre",
+    "comp": "stat-row",
+    "copy": "270.000+ de mame noi pe an · România 160.000 · Grecia 50.000 · Bulgaria 30.000 · Serbia 30.000",
+    "proof": "Tabelul de volume START"
+   },
+   {
+    "name": "Ediția Luxury",
+    "comp": "link",
+    "copy": "START Luxury Moments",
+    "proof": "Link to /newbornluxury/",
+    "intro": "Cauți suite și rezerve private în clinicile private? Vezi ediția premium Luxury Moments."
+   },
+   {
+    "name": "În afara Sud-Estului Europei",
+    "comp": "link",
+    "copy": "Sampling pentru mame și bebeluși",
+    "proof": "Link to /activation/mother-baby-sampling/",
+    "intro": "Vrei să ajungi la mame proaspete din Orientul Mijlociu? Vezi programul nostru de sampling în maternități de acolo."
+   },
+   {
+    "name": "Cazuri",
+    "comp": "case-cards · from Work",
+    "copy": "Preluate din Work (program START: Newborn).",
+    "proof": "De etichetat: Bochko, Bulgaria",
+    "intro": "Programe pe care le-am derulat în acest moment."
+   }
+  ],
+  "cta": "Planifică-mi START-ul",
+  "open": [
+   "Restricții de categorie (de exemplu, lapte praf pentru sugari)."
+  ],
+  "note": "Prescurtat. Separat de Luxury Moments."
+ },
+ "st-luxury": {
+  "job": "Vinde brandurilor START Luxury Moments: ajungi la mamele proaspete din păturile de sus ale societății, în suitele și rezervele private ale clinicilor private, și obții un brief.",
+  "t": "START Luxury Moments: sampling premium pentru nou-născuți | START by Care Direct",
+  "m": "Kituri premium pentru mamele din suitele și rezervele private ale clinicilor private: aproximativ 2.000 pe an, în căutare de branduri exclusive.",
+  "h1": "START Luxury Moments.",
+  "sections": [
+   {
+    "name": "Hero",
+    "comp": "program-hero",
+    "copy": "La 2–3 zile după naștere · Clinici private · suite și rezerve private. O primire regală: branduri exclusive în primele zile ale unei vieți noi.",
+    "proof": "Prezentarea Luxury Moments 2021"
+   },
+   {
+    "name": "Despre START Luxury Moments",
+    "comp": "program-about",
+    "copy": "START Luxury Moments este ediția premium pentru nou-născuți. Kiturile ajung la mamele care nasc în clinici private, în suite și rezerve private: un public mai exigent, care caută cele mai exclusive branduri. Acoperirea este de aproximativ 2.000 de mame. || Când: La 2–3 zile după naștere · Unde: Clinici private · suite și rezerve private · Platformă: Babyspace, Myparenthood",
+    "proof": "Luxury Moments_181021.pdf"
+   },
+   {
+    "name": "Ce primește brandul tău",
+    "comp": "card-grid",
+    "copy": "Materiale educative în kitul Luxury Moments · Produse în format normal: mamele îți cunosc brandul prin testare · Materiale promoționale într-un moment emoționant · Ajungi la publicul-țintă esențial: mame proaspete din păturile de sus ale societății, în suite private",
+    "proof": "Prezentarea Luxury Moments",
+    "intro": "Ce primește brandul tău în START Luxury Moments."
+   },
+   {
+    "name": "Cifre",
+    "comp": "stat-row",
+    "copy": "~2.000 de mame pe an · Suite și rezerve private · Clinici private",
+    "proof": "Prezentarea Luxury Moments 2021 [de confirmat pentru 2026]"
+   },
+   {
+    "name": "Vezi și",
+    "comp": "link",
+    "copy": "START Newborn",
+    "proof": "Link to /newborn/",
+    "intro": "Ai nevoie de acoperire largă în maternități, în spitale publice și private? Vezi START Newborn."
+   },
+   {
+    "name": "Cazuri",
+    "comp": "case-cards · from Work",
+    "copy": "Preluate din Work (program START: Luxury Moments).",
+    "proof": "",
+    "intro": "Programe pe care le-am derulat în acest moment."
+   }
+  ],
+  "cta": "Planifică-mi START-ul",
+  "open": [
+   "Confirmă volumul din 2026 și lista clinicilor.",
+   "Restricții de categorie pentru SKU-urile de lux."
+  ],
+  "note": "Separat de START Newborn; preluat din prezentarea Luxury Moments."
+ },
+ "st-next": {
+  "job": "Vinde brandurilor START First Foods: ajungi la oameni când bebelușul are 6 luni și începe să mănânce, cu livrare la domiciliu, și obții un brief.",
+  "t": "START First Foods: sampling la 6 luni | START by Care Direct",
+  "m": "Bebelușii încep alimentația solidă la aproximativ 6 luni: un al doilea val de testare pentru brandurile de alimentație, hrănire și îngrijire.",
+  "h1": "START First Foods.",
+  "sections": [
+   {
+    "name": "Hero",
+    "comp": "program-hero",
+    "copy": "Bebeluș de 6 luni · Livrat la domiciliu. Bebelușul începe să mănânce: un al doilea val de testare, pe măsură ce familia intră într-o nouă etapă.",
+    "proof": "Tabelul programelor START"
+   },
+   {
+    "name": "Despre START First Foods",
+    "comp": "program-about",
+    "copy": "START First Foods ajunge la familii în momentul în care bebelușul începe alimentația solidă, la aproximativ 6 luni. Cutia este livrată la domiciliu: un al doilea val de testare pentru brandurile de alimentație, hrănire și îngrijire. || Când: Bebeluș de 6 luni · Unde: Livrat la domiciliu · Platformă: Babyspace, Myparenthood, Mybabywinner, HeyMaa",
+    "proof": "Tabelul programelor START"
+   },
+   {
+    "name": "Ce primește brandul tău",
+    "comp": "card-grid",
+    "copy": "Mostre în cutie: livrate la domiciliu, când bebelușul începe alimentația solidă · Follow-up cu consimțământ, după înregistrare, pe canalele potrivite · Platformele noastre: Babyspace, Myparenthood, Mybabywinner și HeyMaa țin conversația vie",
+    "proof": "Modelul START",
+    "intro": "Ce primește brandul tău în START First Foods."
+   },
+   {
+    "name": "Ghiduri și platforme pe țări",
+    "comp": "country-tabs",
+    "copy": "Serbia: Mybabywinner · Grecia, România, Bulgaria, Cipru: [cutie și volum]",
+    "proof": "start_guides",
+    "intro": "Unde rulează START First Foods astăzi."
+   },
+   {
+    "name": "În afara Sud-Estului Europei",
+    "comp": "link",
+    "copy": "Sampling pentru mame și bebeluși",
+    "proof": "Link to /activation/mother-baby-sampling/",
+    "intro": "Vrei să ajungi la familii tinere din Orientul Mijlociu? Vezi programul nostru de sampling pentru mame și bebeluși de acolo."
+   },
+   {
+    "name": "Cazuri",
+    "comp": "case-cards · from Work",
+    "copy": "Preluate din Work (program START: First Foods).",
+    "proof": "P25",
+    "intro": "Programe pe care le-am derulat în acest moment."
+   }
+  ],
+  "cta": "Planifică-mi START-ul",
+  "open": [
+   "Țări și volume.",
+   "Se integrează în START Baby (P16)?",
+   "Restricții de categorie pe țări."
+  ],
+  "note": "Prescurtat."
+ },
+ "st-school": {
+  "job": "Vinde brandurilor START First Grade: ajungi la oameni în prima zi de clasa I (6 ani), în școlile primare, și obții un brief.",
+  "t": "START First Grade: sampling în școli | START by Care Direct",
+  "m": "O cutie multi-brand, distribuită în școli în prima zi de clasa I, pentru copiii de șase ani și pentru părinții care aleg brandurile anului școlar.",
+  "h1": "START First Grade.",
+  "sections": [
+   {
+    "name": "Hero",
+    "comp": "program-hero",
+    "copy": "Prima zi de școală, la 6 ani · Școli primare. O cutie multi-brand pentru copii și pentru părinții care aleg brandurile anului școlar.",
+    "proof": "Tabelul programelor START"
+   },
+   {
+    "name": "Despre START First Grade",
+    "comp": "program-about",
+    "copy": "START First Grade este o cutie multi-brand, distribuită în școlile primare în prima zi de clasa I. Copiii de șase ani o duc acasă părinților, care își aleg brandurile anului școlar. || Când: Prima zi de școală, la 6 ani · Unde: Școli primare · Platformă: Myschoolwinner",
+    "proof": "Tabelul programelor START"
+   },
+   {
+    "name": "Ce primește brandul tău",
+    "comp": "card-grid",
+    "copy": "Mostre în cutie: în mâinile copiilor, în prima zi de școală · Follow-up cu consimțământ, după înregistrare, pe canalele potrivite · Platforma noastră: Myschoolwinner, primul an școlar online pentru familii",
+    "proof": "Modelul START",
+    "intro": "Ce primește brandul tău în START First Grade."
+   },
+   {
+    "name": "Ghiduri și platforme pe țări",
+    "comp": "country-tabs",
+    "copy": "Grecia: Myschoolwinner · România: Myschoolwinner · Bulgaria: Myschoolwinner · Serbia: Myschoolwinner",
+    "proof": "[Volumele cutiilor pe țări]",
+    "intro": "Myschoolwinner rulează în toate cele patru piețe."
+   },
+   {
+    "name": "Vrei o lecție în clasă?",
+    "comp": "link",
+    "copy": "Programe în școli",
+    "proof": "Link to /activation/school-programs/",
+    "intro": "Preferi o lecție dedicată unui singur brand, ținută în clasă? Vezi programele noastre în școli."
+   },
+   {
+    "name": "Ediția de Crăciun",
+    "comp": "link",
+    "copy": "START First Grade Christmas",
+    "proof": "Link to /first-grade-christmas/",
+    "intro": "Cauți momentul festiv din școala primară? Vezi ediția de Crăciun."
+   },
+   {
+    "name": "Cazuri",
+    "comp": "case-cards · from Work",
+    "copy": "Preluate din Work (program START: First Grade).",
+    "proof": "P25",
+    "intro": "Programe pe care le-am derulat în acest moment."
+   }
+  ],
+  "cta": "Planifică-mi START-ul",
+  "open": [
+   "Volume pe țări."
+  ],
+  "note": "Prescurtat."
+ },
+ "st-teen": {
+  "job": "Vinde brandurilor START Teen Girl: ajungi la fete la începutul pubertății, cu livrare la domiciliu prin curier, și obții un brief.",
+  "t": "START Teen Girl: program pentru pubertate | START by Care Direct",
+  "m": "La începutul pubertății: mostre livrate la domiciliu și follow-up cu produse și îndrumare în care au încredere. Pune-ți brandul în START Teen Girl.",
+  "h1": "START Teen Girl.",
+  "sections": [
+   {
+    "name": "Hero",
+    "comp": "program-hero",
+    "copy": "Începutul pubertății · Livrat la domiciliu, prin curier. Mostre și follow-up: primele produse doar ale ei, cu îndrumare în care poate avea încredere.",
+    "proof": "Tabelul programelor START"
+   },
+   {
+    "name": "Despre START Teen Girl",
+    "comp": "program-about",
+    "copy": "START Teen Girl ajunge la fete la începutul pubertății. Cutia este livrată la domiciliu prin curier, urmată de follow-up după înregistrare. || Când: Începutul pubertății · Unde: Livrat la domiciliu, prin curier · Platformă: Comunitățile online Care Direct",
+    "proof": "Tabelul programelor START"
+   },
+   {
+    "name": "Ce primește brandul tău",
+    "comp": "card-grid",
+    "copy": "Mostre în cutie: primele produse pe care le alege singură · Livrat la domiciliu, prin curier · Follow-up cu consimțământ, după înregistrare, pe canalele potrivite · Comunitățile online Care Direct țin conversația vie",
+    "proof": "Modelul START",
+    "intro": "Ce primește brandul tău în START Teen Girl."
+   },
+   {
+    "name": "Cazuri",
+    "comp": "case-cards · from Work",
+    "copy": "Preluate din Work (program START: Teen Girl).",
+    "proof": "P25",
+    "intro": "Programe pe care le-am derulat în acest moment."
+   }
+  ],
+  "cta": "Planifică-mi START-ul",
+  "open": [
+   "Țări și volume.",
+   "Consimțământul părinților pentru minori."
+  ],
+  "note": "Prescurtat."
+ },
+ "st-high": {
+  "job": "Vinde brandurilor START High School: ajungi la oameni în primul an de liceu (15–16 ani), în licee, și obții un brief.",
+  "t": "START High School: program pe etape de viață | START by Care Direct",
+  "m": "Elevi care încep liceul la 15–16 ani: mostre și START 9 pentru primul lor an.",
+  "h1": "START High School.",
+  "sections": [
+   {
+    "name": "Hero",
+    "comp": "program-hero",
+    "copy": "Intrarea la liceu, 15–16 ani · Licee. Clasă nouă, oameni noi, tot tu: mostre și START 9.",
+    "proof": "Tabelul programelor START"
+   },
+   {
+    "name": "Despre START High School",
+    "comp": "program-about",
+    "copy": "START High School ajunge la elevi în momentul în care intră la liceu, la 15–16 ani. Primesc mostre în mâini și START 9 — ghidul web interactiv pentru primul lor an: clasă nouă, oameni noi, tot tu. || Când: Intrarea la liceu, 15–16 ani · Unde: Licee · Platformă: START 9 (startliceu.life)",
+    "proof": "Tabelul programelor START"
+   },
+   {
+    "name": "Ce primește brandul tău",
+    "comp": "card-grid",
+    "copy": "Mostre în mâinile lor: la început de liceu · Follow-up cu consimțământ, după înregistrare, pe canalele potrivite · Platforma noastră: START 9 (startliceu.life), ghidul web pentru primul lor an",
+    "proof": "Modelul START",
+    "intro": "Ce primește brandul tău în START High School."
+   },
+   {
+    "name": "Ghiduri și platforme pe țări",
+    "comp": "country-tabs",
+    "copy": "România: ghidul web START 9 (startliceu.life) · Alte țări: [de confirmat]",
+    "proof": "Tabelul programelor",
+    "intro": "Unde rulează START High School astăzi."
+   },
+   {
+    "name": "Cazuri",
+    "comp": "case-cards · from Work",
+    "copy": "Preluate din Work (program START: High School).",
+    "proof": "P25",
+    "intro": "Programe pe care le-am derulat în acest moment."
+   }
+  ],
+  "cta": "Planifică-mi START-ul",
+  "open": [
+   "Acoperirea și școlile din România.",
+   "Alte țări."
+  ],
+  "note": "Prescurtat."
+ },
+ "st-uni": {
+  "job": "Vinde brandurilor START University: ajungi la oameni în primul an de facultate, în universități, și obții un brief.",
+  "t": "START University: program pe etape de viață | START by Care Direct",
+  "m": "Studenți în anul I, care fac primele achiziții independente: mostre și UniStart+.",
+  "h1": "START University.",
+  "sections": [
+   {
+    "name": "Hero",
+    "comp": "program-hero",
+    "copy": "Primul an de facultate · Universități. Mostre și UniStart+ pentru primele lor achiziții independente.",
+    "proof": "Tabelul programelor START"
+   },
+   {
+    "name": "Despre START University",
+    "comp": "program-about",
+    "copy": "START University ajunge la studenții din anul I, în momentul în care fac primele achiziții independente. Primesc mostre în mâini și UniStart+ — ghidul digital al studentului. || Când: Primul an de facultate · Unde: Universități · Platformă: UniStart+ (uni-start.com)",
+    "proof": "Tabelul programelor START"
+   },
+   {
+    "name": "Ce primește brandul tău",
+    "comp": "card-grid",
+    "copy": "Mostre în mâinile lor: în primul an de facultate · Follow-up cu consimțământ, după înregistrare, pe canalele potrivite · Platforma noastră: UniStart+, cu o secțiune „Partenerii cutiei 2026”",
+    "proof": "Modelul START",
+    "intro": "Ce primește brandul tău în START University."
+   },
+   {
+    "name": "Ghiduri și platforme pe țări",
+    "comp": "country-tabs",
+    "copy": "Bulgaria: UniStart+ (uni-start.com), realizat împreună cu UNSS · Serbia: sampling în universități 2024 [de confirmat]",
+    "proof": "Tabelul programelor",
+    "intro": "Unde rulează START University astăzi."
+   },
+   {
+    "name": "Vrei un stand în campus?",
+    "comp": "link",
+    "copy": "Activări în campus",
+    "proof": "Link to /activation/campus-activations/",
+    "intro": "Vrei propriul stand în campus? Vezi activările noastre în campus."
+   },
+   {
+    "name": "Cazuri",
+    "comp": "case-cards · from Work",
+    "copy": "Preluate din Work (program START: University).",
+    "proof": "P25",
+    "intro": "Programe pe care le-am derulat în acest moment."
+   }
+  ],
+  "cta": "Planifică-mi START-ul",
+  "open": [
+   "Acoperirea în Bulgaria.",
+   "Serbia 2024: START University?"
+  ],
+  "note": "Prescurtat."
+ },
+ "st-army": {
+  "job": "Vinde brandurilor START Army: ajungi la oameni în ziua încorporării, în unitățile militare, și obții un brief.",
+  "t": "START Army: sampling în ziua încorporării | START by Care Direct",
+  "m": "Tinerii îți încearcă produsul în ziua în care intră în serviciul militar: ziua încorporării, în unitățile militare. START Army.",
+  "h1": "START Army.",
+  "sections": [
+   {
+    "name": "Hero",
+    "comp": "program-hero",
+    "copy": "Ziua încorporării · Unități militare. Tinerii îți încearcă produsul chiar în ziua în care intră în serviciul militar: un public greu de atins, reunit într-un singur loc.",
+    "proof": "Tabelul programelor START"
+   },
+   {
+    "name": "Despre START Army",
+    "comp": "program-about",
+    "copy": "START Army ajunge la tineri în ziua încorporării, în unitățile militare, chiar în ziua în care intră în serviciu. Un public greu de atins primește produsul tău într-un singur loc. || Când: Ziua încorporării · Unde: Unități militare · Platformă: Comunitățile online Care Direct",
+    "proof": "Tabelul programelor START"
+   },
+   {
+    "name": "Ce primește brandul tău",
+    "comp": "card-grid",
+    "copy": "Mostre în mâinile lor: în prima zi de serviciu · Follow-up cu consimțământ, după înregistrare, pe canalele potrivite · Comunitățile online Care Direct țin conversația vie",
+    "proof": "Modelul START",
+    "intro": "Ce primește brandul tău în START Army."
+   },
+   {
+    "name": "Ghiduri și platforme pe țări",
+    "comp": "country-tabs",
+    "copy": "Grecia: ziua încorporării în unitățile militare, [volum anual]",
+    "proof": "Tabelul programelor",
+    "intro": "Unde rulează START Army astăzi."
+   },
+   {
+    "name": "Cazuri",
+    "comp": "case-cards · from Work",
+    "copy": "Preluate din Work (program START: Army).",
+    "proof": "P25",
+    "intro": "Programe pe care le-am derulat în acest moment."
+   }
+  ],
+  "cta": "Planifică-mi START-ul",
+  "open": [
+   "Țări și volume.",
+   "Rulează în 2026?"
+  ],
+  "note": "Prescurtat."
+ },
+ "st-silver": {
+  "job": "Vinde brandurilor START Ladies: ajungi la femei la începutul menopauzei (50+), în clinicile de ginecologie, și obții un brief.",
+  "t": "START Ladies: sampling pentru menopauză | START by Care Direct",
+  "m": "Femei de 50+ care intră în menopauză, atinse în clinicile de ginecologie, la controlul anual, împreună cu LadiesBook.",
+  "h1": "START Ladies.",
+  "sections": [
+   {
+    "name": "Hero",
+    "comp": "program-hero",
+    "copy": "50+, intrarea în menopauză · Clinici de ginecologie, la controlul anual. Femeile la vârsta de mijloc primesc produse de testat și îndrumare de încredere într-o perioadă de mari schimbări.",
+    "proof": "Tabelul programelor START"
+   },
+   {
+    "name": "Despre START Ladies",
+    "comp": "program-about",
+    "copy": "START Ladies ajunge la femeile de 50+ care intră în menopauză, în clinicile de ginecologie, la controlul anual. Primesc un ghid tipărit și îndrumare de încredere pe LadiesBook, într-o perioadă de mari schimbări. || Când: 50+, intrarea în menopauză · Unde: Clinici de ginecologie · Platformă: LadiesBook (ladiesbook.gr)",
+    "proof": "Tabelul programelor START"
+   },
+   {
+    "name": "Ce primește brandul tău",
+    "comp": "card-grid",
+    "copy": "Mostre în cutie: predate la controlul anual · O reclamă în ghidul Ladies tipărit · Follow-up cu consimțământ, după înregistrare, pe canalele potrivite · Platforma noastră: LadiesBook (ladiesbook.gr), revista online pentru femei de 50+",
+    "proof": "Modelul START",
+    "intro": "Ce primește brandul tău în START Ladies."
+   },
+   {
+    "name": "Ghiduri și platforme pe țări",
+    "comp": "country-tabs",
+    "copy": "Grecia: ghidul Ladies tipărit · LadiesBook (ladiesbook.gr).",
+    "proof": "Tabelul programelor",
+    "intro": "Unde rulează START Ladies astăzi."
+   },
+   {
+    "name": "Cazuri",
+    "comp": "case-cards · from Work",
+    "copy": "Preluate din Work (program START: Ladies).",
+    "proof": "P25",
+    "intro": "Programe pe care le-am derulat în acest moment."
+   }
+  ],
+  "cta": "Planifică-mi START-ul",
+  "open": [
+   "Cutia Ladies rulează?",
+   "Volum și clinici."
+  ],
+  "note": "Prescurtat."
+ },
+ "st-seniors": {
+  "job": "Vinde brandurilor START Seniors: ajungi la oameni la începutul pensionării, la domiciliu și în locurile de întâlnire ale seniorilor, și obții un brief.",
+  "t": "START Seniors: sampling la începutul pensionării | START by Care Direct",
+  "m": "Oameni aflați la începutul pensionării: rutine noi, timp nou, alegeri noi. Pune-ți produsul în mâinile lor.",
+  "h1": "START Seniors.",
+  "sections": [
+   {
+    "name": "Hero",
+    "comp": "program-hero",
+    "copy": "Începutul pensionării · La domiciliu și în locurile de întâlnire ale seniorilor. Un nou ritm de viață, rutine noi și branduri noi.",
+    "proof": "Tabelul programelor START"
+   },
+   {
+    "name": "Despre START Seniors",
+    "comp": "program-about",
+    "copy": "START Seniors ajunge la oameni la începutul pensionării: rutine noi, timp nou, alegeri noi. Cutiile ajung acasă și în spațiile publice unde se adună seniorii. || Când: Începutul pensionării · Unde: La domiciliu și în locurile de întâlnire ale seniorilor · Platformă: Comunitățile online Care Direct",
+    "proof": "Tabelul programelor START"
+   },
+   {
+    "name": "Ce primește brandul tău",
+    "comp": "card-grid",
+    "copy": "Mostre în cutie: acasă și acolo unde se adună seniorii · Follow-up cu consimțământ, după înregistrare, pe canalele potrivite · Comunitățile online Care Direct țin conversația vie",
+    "proof": "Modelul START",
+    "intro": "Ce primește brandul tău în START Seniors."
+   },
+   {
+    "name": "Cazuri",
+    "comp": "case-cards · from Work",
+    "copy": "Preluate din Work (program START: Seniors).",
+    "proof": "P25",
+    "intro": "Programe pe care le-am derulat în acest moment."
+   }
+  ],
+  "cta": "Planifică-mi START-ul",
+  "open": [
+   "Țări și volume."
+  ],
+  "note": "Prescurtat."
+ },
+ "st-school-xmas": {
+  "job": "Vinde brandurilor START First Grade Christmas: ajungi la familiile elevilor din ciclul primar în perioada de Crăciun de la școală și obții un brief.",
+  "t": "START First Grade Christmas: sampling în școli | START by Care Direct",
+  "m": "Ediția de Crăciun a programului First Grade: o cutie festivă multi-brand pentru elevii din ciclul primar și pentru părinții lor.",
+  "h1": "START First Grade Christmas.",
+  "sections": [
+   {
+    "name": "Hero",
+    "comp": "program-hero",
+    "copy": "Perioada de Crăciun la școală · Școli primare. O cutie festivă First Grade pentru familiile elevilor din ciclul primar, care aleg brandurile sezonului.",
+    "proof": "Logo First Grade Christmas; program în școli"
+   },
+   {
+    "name": "Despre START First Grade Christmas",
+    "comp": "program-about",
+    "copy": "START First Grade Christmas este ediția festivă a programului First Grade. O cutie multi-brand ajunge la elevii din ciclul primar și la părinții lor în perioada de Crăciun de la școală. || Când: Perioada de Crăciun la școală · Unde: Școli primare · Platformă: Myschoolwinner",
+    "proof": "Familia programelor în școli"
+   },
+   {
+    "name": "Ce primește brandul tău",
+    "comp": "card-grid",
+    "copy": "Mostre în cutia de Crăciun: în mâinile copiilor, în momentul festiv de la școală · Follow-up cu consimțământ, după înregistrare, pe canalele potrivite · Platforma noastră: Myschoolwinner pentru familii",
+    "proof": "Modelul START",
+    "intro": "Ce primește brandul tău în START First Grade Christmas."
+   },
+   {
+    "name": "Vezi și",
+    "comp": "link",
+    "copy": "START First Grade",
+    "proof": "Link to /first-grade/",
+    "intro": "Cauți prima zi de școală, din septembrie? Vezi START First Grade."
+   },
+   {
+    "name": "Cazuri",
+    "comp": "case-cards · from Work",
+    "copy": "Preluate din Work (program START: First Grade Christmas).",
+    "proof": "",
+    "intro": "Programe pe care le-am derulat în acest moment."
+   }
+  ],
+  "cta": "Planifică-mi START-ul",
+  "open": [
+   "Confirmă piețele și volumele pentru ediția de Crăciun."
+  ],
+  "note": "Ediția de Crăciun a programului First Grade."
+ }
+}

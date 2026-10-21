@@ -1,0 +1,849 @@
+{
+ "st-parents": {
+  "job": "Početna strana START B2B sajta: pokaži brendovima START porodicu programa i prikupi brief.",
+  "t": "START by Care Direct | Marketing životnih faza",
+  "m": "Svaki period života ima svoj prvi dan. Budi deo njega. START stavlja tvoj proizvod u ruke ljudi koji počinju nešto novo.",
+  "h1": "Svaki period života ima svoj prvi dan. Budi deo njega.",
+  "sections": [
+   {
+    "name": "Hero",
+    "comp": "hero + 4 stat cards",
+    "copy": "Marketing životnih faza · Jugoistočna Evropa · START je Care Direct porodica programa za trenutke kada ljudi započinju nešto novo: prvu bebu, prvi školski dan, fakultet, venčanje, penziju. Stavljamo tvoj proizvod u njihove ruke, uz vodič koji zadržavaju i praćenje koje pretvara probu u odnos.",
+    "proof": "Statistika: 14 životnih trenutaka, jedna porodica programa · 5 zemalja u Jugoistočnoj Evropi · ~50.000 novih majki godišnje u Grčkoj · 290.000+ majki godišnje u programima Pregnancy i Newborn. Dugmad: Pronađi svoj START · Kako funkcioniše START. Preuzeto iz dizajna START sajta."
+   },
+   {
+    "name": "START porodica",
+    "comp": "program-cards ×14 (rail)",
+    "copy": "Jedna publika. Svaka polazna tačka. Izaberi trenutak u kojem se nalazi tvoj potrošač. Svaki START stiže do njega tamo gde se to dešava, tačno one nedelje kada bira nove brendove. Kartice: START Pregnancy: treći trimestar, ginekološke i porodilišne klinike · START Newborn: 2–3 dana nakon porođaja, porodilišne klinike · START Luxury Moments: privatni apartmani · START First Foods: beba od 6 meseci, dostava na kućnu adresu · START First Grade: prvi dan škole, uzrast 6 godina, osnovne škole · START First Grade Christmas: božićni školski period, osnovne škole · START Teen Girl: početak puberteta, dostava kurirom na kućnu adresu · START High School: upis u srednju školu, 15–16 godina, srednje škole · veb vodič START 9 · START University: prva godina fakulteta, univerziteti · veb vodič UniStart+ · START Army: dan regrutacije, vojni kampovi · START Marriage: venčanje, dostava kurirom na kućnu adresu · START Pet: novi ljubimac u kući, veterinari i organizacije za udomljavanje · START Ladies: 50+, ulazak u menopauzu, ginekološke klinike · START Seniors: početak penzije, dom i mesta okupljanja starijih",
+    "proof": "Svaka kartica: broj, trenutak, jedna rečenica o tome zašto, gde, Detalji → stranica programa"
+   },
+   {
+    "name": "Kako funkcioniše START",
+    "comp": "steps ×4 (dark band)",
+    "copy": "Proba u njihovim rukama. Vodič koji zadržavaju. Praćenje koje traje. Kutija → Vodič → Praćenje → Platforma",
+    "proof": "START model: kutija, vodič, praćenje, platforma"
+   },
+   {
+    "name": "Aktivno sada",
+    "comp": "live-cards",
+    "copy": "Pogledaj START iznutra. START 9, Rumunija (startliceu.life) · UniStart+, Bugarska (uni-start.com) · [NEXT START]: budi osnivački partner",
+    "proof": "Oba su aktivna, provereno 15. okt"
+   },
+   {
+    "name": "Gde se START sprovodi",
+    "comp": "region-cards ×2",
+    "copy": "Dva regiona. Jedan model rada. Jugoistočna Evropa, START: Grčka, Kipar, Rumunija, Bugarska, Srbija · Bliski istok, promotivni programi i aktivacije, Care Direct: UAE, Saudijska Arabija, Egipat, Liban, Kuvajt, Katar, Oman, Bahrein",
+    "proof": "Iz dizajna START sajta; sam START se sprovodi u Jugoistočnoj Evropi",
+    "hidden": true
+   },
+   {
+    "name": "Isplaniraj START",
+    "comp": "brief-form (amber band)",
+    "copy": "Stavi svoj proizvod u nečiji prvi dan. Reci nam publiku i tržište. Vratićemo se sa pravim START-om, dosegom, rokovima i cenom. Polja: Ime · Kompanija / brend · Poslovni email · Tržište · Koji START (12 + nisam siguran/na)",
+    "proof": "Usmerava se po tržištu (P39)"
+   }
+  ],
+  "cta": "Isplaniraj moj START",
+  "open": [
+   "Jedan WordPress sajt ili multisite sa caredirect.com?",
+   "Ko svakodnevno vodi START sajt?",
+   "Programi za Bliski istok (P8)?"
+  ],
+  "note": "Skraćeno."
+ },
+ "st-contact": {
+  "job": "Pretvori interesovanje u brief koji se usmerava pravom timu u zemlji.",
+  "t": "Isplaniraj START | START by Care Direct",
+  "m": "Stavi svoj proizvod u nečiji prvi dan. Reci nam publiku i tržište; odgovaramo sa pravim START-om, dosegom, rokovima i cenom.",
+  "h1": "Stavi svoj proizvod u nečiji prvi dan.",
+  "sections": [
+   {
+    "name": "Hero",
+    "comp": "hero-slim",
+    "copy": "Reci nam publiku i tržište. Odgovaramo sa pravim START-om, dosegom, rokovima i cenom.",
+    "proof": ""
+   },
+   {
+    "name": "Formular",
+    "comp": "brief-form",
+    "copy": "Ime · Kompanija / brend · Poslovni email · Tržište · Koji START, ili „posavetujte me“ · Poruka (opciono)",
+    "proof": "Usmerava se po tržištu",
+    "intro": "Reci nam nešto o svom brendu i ljudima do kojih želiš da dopreš; odgovoriće ti tim za tvoje tržište."
+   },
+   {
+    "name": "Šta sledi",
+    "comp": "steps",
+    "copy": "Tvoj brief stiže do tima za tvoje tržište → Predlažemo START, obim i rokove → Dobijaš ponudu",
+    "proof": "",
+    "intro": "Šta se dešava nakon slanja."
+   },
+   {
+    "name": "Kontakti po zemljama",
+    "comp": "contact-cards",
+    "copy": "Atina +30 210 928 7700 · Larnaka +357 24 201540 · Bukurešt +40 21 203 89 69 · Sofija +359 2 489 9491 · Beograd +381 11 404 3331",
+    "proof": "Tabela kancelarija",
+    "intro": "Voliš da razgovaraš? Pozovi tim na svom tržištu."
+   }
+  ],
+  "cta": "Isplaniraj moj START",
+  "open": [
+   "Imenovano kontakt lice za svaku zemlju (P39).",
+   "Rok odgovora koji obećavamo."
+  ],
+  "note": "Skraćeno."
+ },
+ "st-order": {
+  "job": "Faza 2: omogući mamama da onlajn naruče besplatne uzorke, po fazi i zemlji.",
+  "t": "Naruči besplatne START uzorke | START by Care Direct",
+  "m": "Čekaš bebu ili si nova mama? Naruči besplatne START uzorke: izaberi fazu i zemlju, proveri da li ispunjavaš uslove, registruj se.",
+  "h1": "Naruči besplatne START uzorke.",
+  "sections": [
+   {
+    "name": "Hero",
+    "comp": "hero",
+    "copy": "Besplatni uzorci i štampani vodič za tebe i tvoju bebu. Izaberi fazu i zemlju, proveri da li ispunjavaš uslove i registruj se.",
+    "proof": ""
+   },
+   {
+    "name": "Već funkcioniše",
+    "comp": "statement",
+    "copy": "U Grčkoj 500 trudnica mesečno već naručuje svoju kutiju onlajn preko Babyspace-a.",
+    "proof": "Babyspace media kit 2023"
+   },
+   {
+    "name": "Kako funkcioniše",
+    "comp": "steps",
+    "copy": "Izaberi fazu → Izaberi zemlju → Proveri da li ispunjavaš uslove → Registruj se uz saglasnost → Potvrdi emailom ili SMS-om → Primi svoju kutiju",
+    "proof": "",
+    "intro": "Šest kratkih koraka od narudžbine do kutije."
+   },
+   {
+    "name": "Šta dobijaš",
+    "comp": "card-grid",
+    "copy": "Besplatni uzorci: proizvodi odabrani za tvoju fazu · Štampani vodič: saveti za nedelje koje slede · Babyspace saveti: članci i alati za trudnoću i prvu godinu bebe",
+    "proof": "",
+    "intro": "Šta dobijaš."
+   },
+   {
+    "name": "Tvoji podaci",
+    "comp": "trust-panel",
+    "copy": "Ti biraš: šaljemo samo ono s čim se složiš · Prekini bilo kada: koristi link u bilo kojoj poruci ili Zaustavi poruke · S kim sarađujemo: pogledaj našu listu partnera · Tvoja saglasnost: pročitaj Saglasnost za registraciju · Sertifikovana bezbednost: ISO 27001:2022",
+    "proof": "ISO 27001:2022",
+    "intro": "Tvoji podaci su kod nas bezbedni, a kontrola ostaje u tvojim rukama."
+   },
+   {
+    "name": "Česta pitanja",
+    "comp": "faq",
+    "copy": "Da li je besplatno? Da, uzorci i vodič ne koštaju ništa. · Ko može da naruči? [Faze i zemlje otvorene pri pokretanju] · Kada će stići? [Rok isporuke po zemlji] · Kako da zaustavim poruke? Koristi link u bilo kojoj poruci ili stranicu Zaustavi poruke.",
+    "proof": "",
+    "intro": "Brzi odgovori pre narudžbine."
+   }
+  ],
+  "cta": "Naruči uzorke",
+  "open": [
+   "Datum početka Faze 2 i prva zemlja.",
+   "Faze otvorene pri pokretanju.",
+   "Isporuka: kurir, klinika ili apoteka?"
+  ],
+  "note": "Skraćeno."
+ },
+ "st-marriage": {
+  "job": "Prodaj brendovima START Marriage: dopri do ljudi u trenutku venčanja, uz dostavu kurirom na kućnu adresu, i prikupi brief.",
+  "t": "START Marriage: uzorkovanje za mladence | START by Care Direct",
+  "m": "Dopri do parova dok se venčavaju i zasnivaju prvi dom: uzorci isporučeni kući i praćenje uz saglasnost.",
+  "h1": "START Marriage.",
+  "sections": [
+   {
+    "name": "Hero",
+    "comp": "program-hero",
+    "copy": "Venčanje · Dostava kurirom na kućnu adresu. Parovi koji zajedno zasnivaju dom probaju tvoj proizvod dok biraju prve zajedničke brendove.",
+    "proof": "START tabela programa"
+   },
+   {
+    "name": "O programu START Marriage",
+    "comp": "program-about",
+    "copy": "START Marriage stiže do parova dok se venčavaju i zajedno zasnivaju prvi dom. Kutija se kurirom dostavlja kući dok biraju prve zajedničke brendove. || Kada: venčanje · Gde: dostava kurirom na kućnu adresu · Platforma: Care Direct onlajn zajednice",
+    "proof": "START tabela programa"
+   },
+   {
+    "name": "Šta tvoj brend dobija",
+    "comp": "card-grid",
+    "copy": "Uzorci u kutiji: isporučeni kući dok uređuju dom · Praćenje uz saglasnost nakon registracije, na kanalima koji odgovaraju · Care Direct onlajn zajednice održavaju razgovor živim",
+    "proof": "START model",
+    "intro": "Šta tvoj brend dobija u programu START Marriage."
+   },
+   {
+    "name": "Primeri iz prakse",
+    "comp": "case-cards · from Work",
+    "copy": "Preuzeto iz sekcije Work (START program: Marriage).",
+    "proof": "P25",
+    "intro": "Programi koje smo sproveli u ovom trenutku."
+   }
+  ],
+  "cta": "Isplaniraj moj START",
+  "open": [
+   "Zemlje i obimi."
+  ],
+  "note": "Skraćeno."
+ },
+ "st-pet": {
+  "job": "Prodaj brendovima START Pet: dopri do ljudi kada dobiju novog ljubimca, kod veterinara i u organizacijama za udomljavanje, i prikupi brief.",
+  "t": "START Pet: uzorkovanje za nove vlasnike ljubimaca | START by Care Direct",
+  "m": "Novi ljubimac je nov početak za ceo dom. Stavi svoj proizvod u ruke novih vlasnika dok se formiraju rutine.",
+  "h1": "START Pet.",
+  "sections": [
+   {
+    "name": "Hero",
+    "comp": "program-hero",
+    "copy": "Novi ljubimac u kući · Veterinari i organizacije za udomljavanje. Novi vlasnici dobijaju tvoj proizvod u prvim nedeljama, dok biraju hranu, negu i dodatke.",
+    "proof": "START tabela programa"
+   },
+   {
+    "name": "O programu START Pet",
+    "comp": "program-about",
+    "copy": "START Pet stiže do novih vlasnika u prvim nedeljama sa novim ljubimcem. Kutiju dobijaju kod veterinara i u organizacijama za udomljavanje, dok se formiraju rutine i biraju hranu, negu i dodatke. || Kada: novi ljubimac u kući · Gde: veterinari i organizacije za udomljavanje · Platforma: Care Direct onlajn zajednice",
+    "proof": "START tabela programa"
+   },
+   {
+    "name": "Šta tvoj brend dobija",
+    "comp": "card-grid",
+    "copy": "Uzorci u kutiji: u rukama novih vlasnika dok se formiraju rutine · Praćenje uz saglasnost nakon registracije, na kanalima koji odgovaraju · Care Direct onlajn zajednice održavaju razgovor živim",
+    "proof": "START model",
+    "intro": "Šta tvoj brend dobija u programu START Pet."
+   },
+   {
+    "name": "Dokaz",
+    "comp": "stat-row",
+    "copy": "200 vodećih veterinara u Atici obuhvaćeno za Swiffer (2018)",
+    "proof": "Prezentacija Detailing Program",
+    "intro": "Već znamo put do vrata veterinara."
+   },
+   {
+    "name": "Primeri iz prakse",
+    "comp": "case-cards · from Work",
+    "copy": "Preuzeto iz sekcije Work (START program: Pet).",
+    "proof": "P25",
+    "intro": "Programi koje smo sproveli u ovom trenutku."
+   }
+  ],
+  "cta": "Isplaniraj moj START",
+  "open": [
+   "Zemlje i obimi."
+  ],
+  "note": "Skraćeno."
+ },
+ "st-pregnancy": {
+  "job": "Prodaj brendovima START Pregnancy: dopri do ljudi u trećem trimestru, u ginekološkim i porodilišnim klinikama, i prikupi brief.",
+  "t": "START Pregnancy: uzorkovanje za trudnice | START by Care Direct",
+  "m": "Dopri do budućih majki u trećem trimestru u ginekološkim i porodilišnim klinikama: oko 20.000 godišnje u Grčkoj.",
+  "h1": "START Pregnancy.",
+  "sections": [
+   {
+    "name": "Hero",
+    "comp": "program-hero",
+    "copy": "Treći trimestar · Ginekološke i porodilišne klinike. Budući roditelji probaju tvoj proizvod dok još sastavljaju spisak onoga što će bebi trebati.",
+    "proof": "START tabela programa"
+   },
+   {
+    "name": "O programu START Pregnancy",
+    "comp": "program-about",
+    "copy": "START Pregnancy stiže do budućih majki u trećem trimestru u ginekološkim i porodilišnim klinikama: oko 20.000 godišnje u Grčkoj, u saradnji sa lekarima. Dobijaju kutiju uzoraka i BOOM vodič dok još sastavljaju spisak onoga što će bebi trebati. || Kada: treći trimestar · Gde: ginekološke i porodilišne klinike · Platforma: Babyspace, Myparenthood, Mybabywinner, HeyMaa",
+    "proof": "START tabela obima"
+   },
+   {
+    "name": "Šta tvoj brend dobija",
+    "comp": "card-grid",
+    "copy": "Uzorci u kutiji: tvoj proizvod u njihovim rukama pre nego što beba stigne · Oglas u BOOM vodiču: štampani vodič koji zadržavaju i koriste · Praćenje uz saglasnost nakon registracije, na kanalima koji odgovaraju · Naše platforme: Babyspace, Myparenthood, Mybabywinner i HeyMaa održavaju razgovor živim",
+    "proof": "START model",
+    "intro": "Šta tvoj brend dobija u programu START Pregnancy."
+   },
+   {
+    "name": "Vodiči i platforme po zemljama",
+    "comp": "country-tabs",
+    "copy": "Grčka: 20.000 · BOOM vodič · saradnja sa lekarima · Babyspace, Myparenthood · Rumunija, Bugarska, Srbija, Kipar: obim programa Prenatal nije naveden",
+    "proof": "START tabela obima",
+    "intro": "Doseg programa Prenatal danas je potvrđen za Grčku."
+   },
+   {
+    "name": "Brojke",
+    "comp": "stat-row",
+    "copy": "20.000 trudnica godišnje u Grčkoj · Saradnja sa lekarima",
+    "proof": "START tabela obima"
+   },
+   {
+    "name": "Van Jugoistočne Evrope",
+    "comp": "link",
+    "copy": "Uzorkovanje za majke i bebe",
+    "proof": "Link to /activation/mother-baby-sampling/",
+    "intro": "Želiš da dopreš do budućih majki na Bliskom istoku? Pogledaj naše uzorkovanje u porodilištima tamo."
+   },
+   {
+    "name": "Primeri iz prakse",
+    "comp": "case-cards · from Work",
+    "copy": "Preuzeto iz sekcije Work (START program: Pregnancy).",
+    "proof": "P25",
+    "intro": "Programi koje smo sproveli u ovom trenutku."
+   }
+  ],
+  "cta": "Isplaniraj moj START",
+  "open": [
+   "Da li je BOOM vodič i dalje aktuelan u 2026?",
+   "Traka za roditelje kada se otvori Faza 2."
+  ],
+  "note": "Skraćeno."
+ },
+ "st-natal": {
+  "job": "Prodaj brendovima START Newborn: dopri do novih majki 2–3 dana nakon porođaja u javnim i privatnim porodilišnim klinikama i prikupi brief.",
+  "t": "START Newborn: uzorkovanje za nove majke | START by Care Direct",
+  "m": "Dopri do novih majki 2–3 dana nakon porođaja u javnim i privatnim porodilišnim klinikama: oko 50.000 godišnje u Grčkoj · 270.000+ u Jugoistočnoj Evropi.",
+  "h1": "START Newborn.",
+  "sections": [
+   {
+    "name": "Hero",
+    "comp": "program-hero",
+    "copy": "2–3 dana nakon porođaja · Javne i privatne porodilišne klinike. Poklon kutija za prve dane novih majki, sa edukativnim materijalom, uzorcima i vodičem za nedelje koje slede.",
+    "proof": "START tabela obima"
+   },
+   {
+    "name": "O programu START Newborn",
+    "comp": "program-about",
+    "copy": "START Newborn stiže do novih majki 2–3 dana nakon porođaja u javnim bolnicama i privatnim klinikama: oko 50.000 godišnje u Grčkoj i 270.000+ u Jugoistočnoj Evropi. Poklon kutija sadrži edukativni materijal, uzorke, proizvode regularne veličine, promotivne materijale i kupone za popust, uz Natal Guide ili Vodič za dojenje. || Kada: 2–3 dana nakon porođaja · Gde: javne i privatne porodilišne klinike · Platforma: Babyspace, Myparenthood, Mybabywinner, HeyMaa",
+    "proof": "START tabela obima"
+   },
+   {
+    "name": "Šta tvoj brend dobija",
+    "comp": "card-grid",
+    "copy": "Uzorci u kutiji: tvoj proizvod u prvim danima nove majke · Oglas u vodiču: Natal Guide ili Vodič za dojenje koji ona zadržava · Praćenje uz saglasnost nakon registracije, na kanalima koji odgovaraju · Naše platforme: Babyspace, Myparenthood, Mybabywinner i HeyMaa održavaju razgovor živim",
+    "proof": "START model",
+    "intro": "Šta tvoj brend dobija u programu START Newborn."
+   },
+   {
+    "name": "Vodiči i platforme po zemljama",
+    "comp": "country-tabs",
+    "copy": "Rumunija: 160.000 · Udruženje neonatologa, Udruženje pedijatara · Bugarska: 30.000 · Udruženje pedijatara · Srbija: 30.000 · specijalisti pedijatrije i neonatologije · Grčka: 50.000 · saradnja sa lekarima · Kipar: —",
+    "proof": "START tabela obima",
+    "intro": "Obimi i medicinske preporuke po tržištima."
+   },
+   {
+    "name": "Brojke",
+    "comp": "stat-row",
+    "copy": "270.000+ novih majki godišnje · Rumunija 160.000 · Grčka 50.000 · Bugarska 30.000 · Srbija 30.000",
+    "proof": "START tabela obima"
+   },
+   {
+    "name": "Luxury izdanje",
+    "comp": "link",
+    "copy": "START Luxury Moments",
+    "proof": "Link to /newbornluxury/",
+    "intro": "Tražiš apartmane i privatne sobe u privatnim klinikama? Pogledaj premijum izdanje Luxury Moments."
+   },
+   {
+    "name": "Van Jugoistočne Evrope",
+    "comp": "link",
+    "copy": "Uzorkovanje za majke i bebe",
+    "proof": "Link to /activation/mother-baby-sampling/",
+    "intro": "Želiš da dopreš do novih majki na Bliskom istoku? Pogledaj naše uzorkovanje u porodilištima tamo."
+   },
+   {
+    "name": "Primeri iz prakse",
+    "comp": "case-cards · from Work",
+    "copy": "Preuzeto iz sekcije Work (START program: Newborn).",
+    "proof": "Za označavanje: Bochko, Bugarska",
+    "intro": "Programi koje smo sproveli u ovom trenutku."
+   }
+  ],
+  "cta": "Isplaniraj moj START",
+  "open": [
+   "Ograničenja po kategorijama (npr. adaptirano mleko za odojčad)."
+  ],
+  "note": "Skraćeno. Odvojeno od programa Luxury Moments."
+ },
+ "st-luxury": {
+  "job": "Prodaj brendovima START Luxury Moments: dopri do novih majki višeg društvenog sloja u privatnim apartmanima i privatnim sobama klinika i prikupi brief.",
+  "t": "START Luxury Moments: premijum uzorkovanje za novorođenčad | START by Care Direct",
+  "m": "Premijum kompleti za nove majke u privatnim apartmanima i privatnim sobama klinika: oko 2.000 godišnje, u potrazi za ekskluzivnim brendovima.",
+  "h1": "START Luxury Moments.",
+  "sections": [
+   {
+    "name": "Hero",
+    "comp": "program-hero",
+    "copy": "2–3 dana nakon porođaja · Privatne klinike · apartmani i privatne sobe. Kraljevski doček: ekskluzivni brendovi u prvim danima novog života.",
+    "proof": "Prezentacija Luxury Moments 2021"
+   },
+   {
+    "name": "O programu START Luxury Moments",
+    "comp": "program-about",
+    "copy": "START Luxury Moments je premijum izdanje za novorođenčad. Kompleti idu novim majkama koje rađaju u privatnim klinikama, u apartmanima i privatnim sobama: zahtevnijoj publici koja traži najekskluzivnije brendove. Obuhvat je oko 2.000 majki. || Kada: 2–3 dana nakon porođaja · Gde: privatne klinike · apartmani i privatne sobe · Platforma: Babyspace, Myparenthood",
+    "proof": "Luxury Moments_181021.pdf"
+   },
+   {
+    "name": "Šta tvoj brend dobija",
+    "comp": "card-grid",
+    "copy": "Edukativni materijal u Luxury Moments kompletu · Proizvodi regularne veličine: majke upoznaju tvoj brend kroz probu · Promotivni materijali u emotivnom trenutku · Dosezanje ključne ciljne grupe: nove majke višeg društvenog sloja u privatnim apartmanima",
+    "proof": "Prezentacija Luxury Moments",
+    "intro": "Šta tvoj brend dobija u programu START Luxury Moments."
+   },
+   {
+    "name": "Brojke",
+    "comp": "stat-row",
+    "copy": "~2.000 majki godišnje · Apartmani i privatne sobe · Privatne klinike",
+    "proof": "Prezentacija Luxury Moments 2021 [potvrdi za 2026]"
+   },
+   {
+    "name": "Pogledaj i",
+    "comp": "link",
+    "copy": "START Newborn",
+    "proof": "Link to /newborn/",
+    "intro": "Treba ti širok doseg u porodilištima javnih i privatnih bolnica? Pogledaj START Newborn."
+   },
+   {
+    "name": "Primeri iz prakse",
+    "comp": "case-cards · from Work",
+    "copy": "Preuzeto iz sekcije Work (START program: Luxury Moments).",
+    "proof": "",
+    "intro": "Programi koje smo sproveli u ovom trenutku."
+   }
+  ],
+  "cta": "Isplaniraj moj START",
+  "open": [
+   "Potvrdi obim za 2026. i listu klinika.",
+   "Ograničenja po kategorijama za luksuzne SKU-ove."
+  ],
+  "note": "Odvojeno od programa START Newborn; zasnovano na prezentaciji Luxury Moments."
+ },
+ "st-next": {
+  "job": "Prodaj brendovima START First Foods: dopri do ljudi kada beba napuni 6 meseci i počne da jede, uz dostavu na kućnu adresu, i prikupi brief.",
+  "t": "START First Foods: uzorkovanje u šestom mesecu | START by Care Direct",
+  "m": "Bebe počinju da jedu čvrstu hranu oko 6. meseca: drugi talas probe za brendove hrane, hranjenja i nege.",
+  "h1": "START First Foods.",
+  "sections": [
+   {
+    "name": "Hero",
+    "comp": "program-hero",
+    "copy": "Beba od 6 meseci · Dostava na kućnu adresu. Beba počinje da jede: drugi talas probe dok porodica prelazi u novu fazu.",
+    "proof": "START tabela programa"
+   },
+   {
+    "name": "O programu START First Foods",
+    "comp": "program-about",
+    "copy": "START First Foods stiže do porodica kada beba počne da jede čvrstu hranu, oko 6. meseca. Kutija se dostavlja na kućnu adresu: drugi talas probe za brendove hrane, hranjenja i nege. || Kada: beba od 6 meseci · Gde: dostava na kućnu adresu · Platforma: Babyspace, Myparenthood, Mybabywinner, HeyMaa",
+    "proof": "START tabela programa"
+   },
+   {
+    "name": "Šta tvoj brend dobija",
+    "comp": "card-grid",
+    "copy": "Uzorci u kutiji: isporučeni kući kada beba počne da jede čvrstu hranu · Praćenje uz saglasnost nakon registracije, na kanalima koji odgovaraju · Naše platforme: Babyspace, Myparenthood, Mybabywinner i HeyMaa održavaju razgovor živim",
+    "proof": "START model",
+    "intro": "Šta tvoj brend dobija u programu START First Foods."
+   },
+   {
+    "name": "Vodiči i platforme po zemljama",
+    "comp": "country-tabs",
+    "copy": "Srbija: Mybabywinner · Grčka, Rumunija, Bugarska, Kipar: [kutija i obim]",
+    "proof": "start_guides",
+    "intro": "Gde se START First Foods danas sprovodi."
+   },
+   {
+    "name": "Van Jugoistočne Evrope",
+    "comp": "link",
+    "copy": "Uzorkovanje za majke i bebe",
+    "proof": "Link to /activation/mother-baby-sampling/",
+    "intro": "Želiš da dopreš do mladih porodica na Bliskom istoku? Pogledaj naše uzorkovanje za majke i bebe tamo."
+   },
+   {
+    "name": "Primeri iz prakse",
+    "comp": "case-cards · from Work",
+    "copy": "Preuzeto iz sekcije Work (START program: First Foods).",
+    "proof": "P25",
+    "intro": "Programi koje smo sproveli u ovom trenutku."
+   }
+  ],
+  "cta": "Isplaniraj moj START",
+  "open": [
+   "Zemlje i obimi.",
+   "Da li se uklapa u START Baby (P16)?",
+   "Ograničenja po kategorijama za svaku zemlju."
+  ],
+  "note": "Skraćeno."
+ },
+ "st-school": {
+  "job": "Prodaj brendovima START First Grade: dopri do ljudi na prvi dan prvog razreda (uzrast 6 godina), u osnovnim školama, i prikupi brief.",
+  "t": "START First Grade: uzorkovanje u školama | START by Care Direct",
+  "m": "Kutija sa više brendova koja se deli u školama prvog dana prvog razreda, za šestogodišnjake i roditelje koji biraju brendove za školsku godinu.",
+  "h1": "START First Grade.",
+  "sections": [
+   {
+    "name": "Hero",
+    "comp": "program-hero",
+    "copy": "Prvi dan škole, uzrast 6 godina · Osnovne škole. Kutija sa više brendova za decu i roditelje koji biraju brendove za školsku godinu.",
+    "proof": "START tabela programa"
+   },
+   {
+    "name": "O programu START First Grade",
+    "comp": "program-about",
+    "copy": "START First Grade je kutija sa više brendova koja se deli u osnovnim školama prvog dana prvog razreda. Šestogodišnjaci je nose kući roditeljima koji biraju brendove za školsku godinu. || Kada: prvi dan škole, uzrast 6 godina · Gde: osnovne škole · Platforma: Myschoolwinner",
+    "proof": "START tabela programa"
+   },
+   {
+    "name": "Šta tvoj brend dobija",
+    "comp": "card-grid",
+    "copy": "Uzorci u kutiji: u rukama dece na prvi školski dan · Praćenje uz saglasnost nakon registracije, na kanalima koji odgovaraju · Naša platforma: Myschoolwinner, prva školska godina onlajn za porodice",
+    "proof": "START model",
+    "intro": "Šta tvoj brend dobija u programu START First Grade."
+   },
+   {
+    "name": "Vodiči i platforme po zemljama",
+    "comp": "country-tabs",
+    "copy": "Grčka: Myschoolwinner · Rumunija: Myschoolwinner · Bugarska: Myschoolwinner · Srbija: Myschoolwinner",
+    "proof": "[Obimi kutija po zemlji]",
+    "intro": "Myschoolwinner radi na sva četiri tržišta."
+   },
+   {
+    "name": "Želiš čas u učionici?",
+    "comp": "link",
+    "copy": "Školski programi",
+    "proof": "Link to /activation/school-programs/",
+    "intro": "Želiš umesto toga čas posvećen jednom brendu u učionici? Pogledaj naše školske programe."
+   },
+   {
+    "name": "Božićno izdanje",
+    "comp": "link",
+    "copy": "START First Grade Christmas",
+    "proof": "Link to /first-grade-christmas/",
+    "intro": "Tražiš svečani trenutak u osnovnoj školi? Pogledaj božićno izdanje."
+   },
+   {
+    "name": "Primeri iz prakse",
+    "comp": "case-cards · from Work",
+    "copy": "Preuzeto iz sekcije Work (START program: First Grade).",
+    "proof": "P25",
+    "intro": "Programi koje smo sproveli u ovom trenutku."
+   }
+  ],
+  "cta": "Isplaniraj moj START",
+  "open": [
+   "Obimi po zemljama."
+  ],
+  "note": "Skraćeno."
+ },
+ "st-teen": {
+  "job": "Prodaj brendovima START Teen Girl: dopri do ljudi na početku puberteta, uz dostavu kurirom na kućnu adresu, i prikupi brief.",
+  "t": "START Teen Girl: program za pubertet | START by Care Direct",
+  "m": "Na početku puberteta: uzorci isporučeni kući i praćenje uz pouzdane proizvode i savete. Uključi svoj brend u START Teen Girl.",
+  "h1": "START Teen Girl.",
+  "sections": [
+   {
+    "name": "Hero",
+    "comp": "program-hero",
+    "copy": "Početak puberteta · Dostava kurirom na kućnu adresu. Uzorci i praćenje: prvi sopstveni proizvodi, uz vođenje kojem mogu da veruju.",
+    "proof": "START tabela programa"
+   },
+   {
+    "name": "O programu START Teen Girl",
+    "comp": "program-about",
+    "copy": "START Teen Girl stiže do devojčica na početku puberteta. Kutija se kurirom dostavlja kući, uz praćenje nakon registracije. || Kada: početak puberteta · Gde: dostava kurirom na kućnu adresu · Platforma: Care Direct onlajn zajednice",
+    "proof": "START tabela programa"
+   },
+   {
+    "name": "Šta tvoj brend dobija",
+    "comp": "card-grid",
+    "copy": "Uzorci u kutiji: prvi proizvodi koje bira za sebe · Dostava kurirom na kućnu adresu · Praćenje uz saglasnost nakon registracije, na kanalima koji odgovaraju · Care Direct onlajn zajednice održavaju razgovor živim",
+    "proof": "START model",
+    "intro": "Šta tvoj brend dobija u programu START Teen Girl."
+   },
+   {
+    "name": "Primeri iz prakse",
+    "comp": "case-cards · from Work",
+    "copy": "Preuzeto iz sekcije Work (START program: Teen Girl).",
+    "proof": "P25",
+    "intro": "Programi koje smo sproveli u ovom trenutku."
+   }
+  ],
+  "cta": "Isplaniraj moj START",
+  "open": [
+   "Zemlje i obimi.",
+   "Saglasnost roditelja za maloletnike."
+  ],
+  "note": "Skraćeno."
+ },
+ "st-high": {
+  "job": "Prodaj brendovima START High School: dopri do ljudi u prvoj godini srednje škole (15–16 godina), u srednjim školama, i prikupi brief.",
+  "t": "START High School: program životne faze | START by Care Direct",
+  "m": "Učenici koji kreću u srednju školu sa 15–16 godina: uzorci i START 9 za njihovu prvu godinu.",
+  "h1": "START High School.",
+  "sections": [
+   {
+    "name": "Hero",
+    "comp": "program-hero",
+    "copy": "Upis u srednju školu, 15–16 godina · Srednje škole. Novo odeljenje, novi ljudi, i dalje ti: uzorci i START 9.",
+    "proof": "START tabela programa"
+   },
+   {
+    "name": "O programu START High School",
+    "comp": "program-about",
+    "copy": "START High School stiže do učenika dok upisuju srednju školu sa 15–16 godina. Dobijaju uzorke u svoje ruke i START 9 — interaktivni veb vodič za prvu godinu: novo odeljenje, novi ljudi, i dalje ti. || Kada: upis u srednju školu, 15–16 godina · Gde: srednje škole · Platforma: START 9 (startliceu.life)",
+    "proof": "START tabela programa"
+   },
+   {
+    "name": "Šta tvoj brend dobija",
+    "comp": "card-grid",
+    "copy": "Uzorci u njihovim rukama: na početku srednje škole · Praćenje uz saglasnost nakon registracije, na kanalima koji odgovaraju · Naša platforma: START 9 (startliceu.life), veb vodič za njihovu prvu godinu",
+    "proof": "START model",
+    "intro": "Šta tvoj brend dobija u programu START High School."
+   },
+   {
+    "name": "Vodiči i platforme po zemljama",
+    "comp": "country-tabs",
+    "copy": "Rumunija: START 9 veb vodič (startliceu.life) · Ostale zemlje: [za potvrdu]",
+    "proof": "Tabela programa",
+    "intro": "Gde se START High School danas sprovodi."
+   },
+   {
+    "name": "Primeri iz prakse",
+    "comp": "case-cards · from Work",
+    "copy": "Preuzeto iz sekcije Work (START program: High School).",
+    "proof": "P25",
+    "intro": "Programi koje smo sproveli u ovom trenutku."
+   }
+  ],
+  "cta": "Isplaniraj moj START",
+  "open": [
+   "Doseg i škole u Rumuniji.",
+   "Ostale zemlje."
+  ],
+  "note": "Skraćeno."
+ },
+ "st-uni": {
+  "job": "Prodaj brendovima START University: dopri do ljudi u prvoj godini fakulteta, na univerzitetima, i prikupi brief.",
+  "t": "START University: program životne faze | START by Care Direct",
+  "m": "Studenti prve godine koji prave prve samostalne kupovine: uzorci i UniStart+.",
+  "h1": "START University.",
+  "sections": [
+   {
+    "name": "Hero",
+    "comp": "program-hero",
+    "copy": "Prva godina fakulteta · Univerziteti. Uzorci i UniStart+ za njihove prve samostalne kupovine.",
+    "proof": "START tabela programa"
+   },
+   {
+    "name": "O programu START University",
+    "comp": "program-about",
+    "copy": "START University stiže do studenata prve godine dok prave prve samostalne kupovine. Dobijaju uzorke u svoje ruke i UniStart+ — digitalni studentski vodič. || Kada: prva godina fakulteta · Gde: univerziteti · Platforma: UniStart+ (uni-start.com)",
+    "proof": "START tabela programa"
+   },
+   {
+    "name": "Šta tvoj brend dobija",
+    "comp": "card-grid",
+    "copy": "Uzorci u njihovim rukama: u prvoj godini studija · Praćenje uz saglasnost nakon registracije, na kanalima koji odgovaraju · Naša platforma: UniStart+, sa listom „Partneri kutije 2026“",
+    "proof": "START model",
+    "intro": "Šta tvoj brend dobija u programu START University."
+   },
+   {
+    "name": "Vodiči i platforme po zemljama",
+    "comp": "country-tabs",
+    "copy": "Bugarska: UniStart+ (uni-start.com), nastao u saradnji sa UNSS-om · Srbija: uzorkovanje na univerzitetima 2024 [potvrdi]",
+    "proof": "Tabela programa",
+    "intro": "Gde se START University danas sprovodi."
+   },
+   {
+    "name": "Želiš štand na kampusu?",
+    "comp": "link",
+    "copy": "Aktivacije na kampusima",
+    "proof": "Link to /activation/campus-activations/",
+    "intro": "Želiš sopstveni štand na kampusu? Pogledaj naše aktivacije na kampusima."
+   },
+   {
+    "name": "Primeri iz prakse",
+    "comp": "case-cards · from Work",
+    "copy": "Preuzeto iz sekcije Work (START program: University).",
+    "proof": "P25",
+    "intro": "Programi koje smo sproveli u ovom trenutku."
+   }
+  ],
+  "cta": "Isplaniraj moj START",
+  "open": [
+   "Doseg u Bugarskoj.",
+   "Srbija 2024: START University?"
+  ],
+  "note": "Skraćeno."
+ },
+ "st-army": {
+  "job": "Prodaj brendovima START Army: dopri do ljudi na dan regrutacije, u vojnim kampovima, i prikupi brief.",
+  "t": "START Army: uzorkovanje na dan regrutacije | START by Care Direct",
+  "m": "Mladići probaju tvoj proizvod na dan stupanja u službu: dan regrutacije u vojnim kampovima. START Army.",
+  "h1": "START Army.",
+  "sections": [
+   {
+    "name": "Hero",
+    "comp": "program-hero",
+    "copy": "Dan regrutacije · Vojni kampovi. Mladići probaju tvoj proizvod na dan stupanja u službu: teško dostupna publika na jednom mestu.",
+    "proof": "START tabela programa"
+   },
+   {
+    "name": "O programu START Army",
+    "comp": "program-about",
+    "copy": "START Army stiže do mladića na dan regrutacije u vojnim kampovima, na dan kada stupaju u službu. Teško dostupna publika dobija tvoj proizvod na jednom mestu. || Kada: dan regrutacije · Gde: vojni kampovi · Platforma: Care Direct onlajn zajednice",
+    "proof": "START tabela programa"
+   },
+   {
+    "name": "Šta tvoj brend dobija",
+    "comp": "card-grid",
+    "copy": "Uzorci u njihovim rukama: na prvi dan službe · Praćenje uz saglasnost nakon registracije, na kanalima koji odgovaraju · Care Direct onlajn zajednice održavaju razgovor živim",
+    "proof": "START model",
+    "intro": "Šta tvoj brend dobija u programu START Army."
+   },
+   {
+    "name": "Vodiči i platforme po zemljama",
+    "comp": "country-tabs",
+    "copy": "Grčka: dan regrutacije u vojnim kampovima, [obim godišnje]",
+    "proof": "Tabela programa",
+    "intro": "Gde se START Army danas sprovodi."
+   },
+   {
+    "name": "Primeri iz prakse",
+    "comp": "case-cards · from Work",
+    "copy": "Preuzeto iz sekcije Work (START program: Army).",
+    "proof": "P25",
+    "intro": "Programi koje smo sproveli u ovom trenutku."
+   }
+  ],
+  "cta": "Isplaniraj moj START",
+  "open": [
+   "Zemlje i obimi.",
+   "Da li se sprovodi u 2026?"
+  ],
+  "note": "Skraćeno."
+ },
+ "st-silver": {
+  "job": "Prodaj brendovima START Ladies: dopri do ljudi na početku menopauze (50+), u ginekološkim klinikama, i prikupi brief.",
+  "t": "START Ladies: uzorkovanje u menopauzi | START by Care Direct",
+  "m": "Žene 50+ koje ulaze u menopauzu, dosegnute u ginekološkim klinikama tokom godišnjeg pregleda, uz LadiesBook.",
+  "h1": "START Ladies.",
+  "sections": [
+   {
+    "name": "Hero",
+    "comp": "program-hero",
+    "copy": "50+, ulazak u menopauzu · Ginekološke klinike, tokom godišnjeg pregleda. Žene u srednjim godinama dobijaju probu i pouzdano vođenje tokom velike promene.",
+    "proof": "START tabela programa"
+   },
+   {
+    "name": "O programu START Ladies",
+    "comp": "program-about",
+    "copy": "START Ladies stiže do žena 50+ koje ulaze u menopauzu, u ginekološkim klinikama, tokom godišnjeg pregleda. Dobijaju štampani vodič i pouzdano vođenje na LadiesBook-u tokom velike promene. || Kada: 50+, ulazak u menopauzu · Gde: ginekološke klinike · Platforma: LadiesBook (ladiesbook.gr)",
+    "proof": "START tabela programa"
+   },
+   {
+    "name": "Šta tvoj brend dobija",
+    "comp": "card-grid",
+    "copy": "Uzorci u kutiji: uručeni tokom godišnjeg pregleda · Oglas u štampanom Ladies vodiču · Praćenje uz saglasnost nakon registracije, na kanalima koji odgovaraju · Naša platforma: LadiesBook (ladiesbook.gr), onlajn magazin za žene 50+",
+    "proof": "START model",
+    "intro": "Šta tvoj brend dobija u programu START Ladies."
+   },
+   {
+    "name": "Vodiči i platforme po zemljama",
+    "comp": "country-tabs",
+    "copy": "Grčka: štampani Ladies vodič · LadiesBook (ladiesbook.gr).",
+    "proof": "Tabela programa",
+    "intro": "Gde se START Ladies danas sprovodi."
+   },
+   {
+    "name": "Primeri iz prakse",
+    "comp": "case-cards · from Work",
+    "copy": "Preuzeto iz sekcije Work (START program: Ladies).",
+    "proof": "P25",
+    "intro": "Programi koje smo sproveli u ovom trenutku."
+   }
+  ],
+  "cta": "Isplaniraj moj START",
+  "open": [
+   "Da li se Ladies kutija sprovodi?",
+   "Obim i klinike."
+  ],
+  "note": "Skraćeno."
+ },
+ "st-seniors": {
+  "job": "Prodaj brendovima START Seniors: dopri do ljudi na početku penzije, kod kuće i na mestima okupljanja starijih, i prikupi brief.",
+  "t": "START Seniors: uzorkovanje na početku penzije | START by Care Direct",
+  "m": "Ljudi na početku penzije: nove rutine, novo vreme, novi izbori. Stavi svoj proizvod u njihove ruke.",
+  "h1": "START Seniors.",
+  "sections": [
+   {
+    "name": "Hero",
+    "comp": "program-hero",
+    "copy": "Početak penzije · Dom i mesta okupljanja starijih. Novi ritam života, nove rutine i novi brendovi.",
+    "proof": "START tabela programa"
+   },
+   {
+    "name": "O programu START Seniors",
+    "comp": "program-about",
+    "copy": "START Seniors stiže do ljudi na početku penzije: nove rutine, novo vreme, novi izbori. Kutije idu kućama i na javna mesta gde se stariji okupljaju. || Kada: početak penzije · Gde: dom i mesta okupljanja starijih · Platforma: Care Direct onlajn zajednice",
+    "proof": "START tabela programa"
+   },
+   {
+    "name": "Šta tvoj brend dobija",
+    "comp": "card-grid",
+    "copy": "Uzorci u kutiji: kod kuće i tamo gde se stariji okupljaju · Praćenje uz saglasnost nakon registracije, na kanalima koji odgovaraju · Care Direct onlajn zajednice održavaju razgovor živim",
+    "proof": "START model",
+    "intro": "Šta tvoj brend dobija u programu START Seniors."
+   },
+   {
+    "name": "Primeri iz prakse",
+    "comp": "case-cards · from Work",
+    "copy": "Preuzeto iz sekcije Work (START program: Seniors).",
+    "proof": "P25",
+    "intro": "Programi koje smo sproveli u ovom trenutku."
+   }
+  ],
+  "cta": "Isplaniraj moj START",
+  "open": [
+   "Zemlje i obimi."
+  ],
+  "note": "Skraćeno."
+ },
+ "st-school-xmas": {
+  "job": "Prodaj brendovima START First Grade Christmas: dopri do porodica osnovaca u božićnom školskom periodu i prikupi brief.",
+  "t": "START First Grade Christmas: uzorkovanje u školama | START by Care Direct",
+  "m": "Božićno izdanje programa First Grade: svečana kutija sa više brendova za osnovce i njihove roditelje.",
+  "h1": "START First Grade Christmas.",
+  "sections": [
+   {
+    "name": "Hero",
+    "comp": "program-hero",
+    "copy": "Božićni školski period · Osnovne škole. Svečana First Grade kutija za porodice osnovaca koje biraju brendove za praznike.",
+    "proof": "Logo Christmas First Grade; školski program"
+   },
+   {
+    "name": "O programu START First Grade Christmas",
+    "comp": "program-about",
+    "copy": "START First Grade Christmas je svečano izdanje programa First Grade. Kutija sa više brendova stiže do osnovaca i njihovih roditelja tokom božićnog školskog perioda. || Kada: božićni školski period · Gde: osnovne škole · Platforma: Myschoolwinner",
+    "proof": "Porodica školskih programa"
+   },
+   {
+    "name": "Šta tvoj brend dobija",
+    "comp": "card-grid",
+    "copy": "Uzorci u božićnoj kutiji: u rukama dece u svečanom školskom trenutku · Praćenje uz saglasnost nakon registracije, na kanalima koji odgovaraju · Naša platforma: Myschoolwinner za porodice",
+    "proof": "START model",
+    "intro": "Šta tvoj brend dobija u programu START First Grade Christmas."
+   },
+   {
+    "name": "Pogledaj i",
+    "comp": "link",
+    "copy": "START First Grade",
+    "proof": "Link to /first-grade/",
+    "intro": "Tražiš prvi školski dan u septembru? Pogledaj START First Grade."
+   },
+   {
+    "name": "Primeri iz prakse",
+    "comp": "case-cards · from Work",
+    "copy": "Preuzeto iz sekcije Work (START program: First Grade Christmas).",
+    "proof": "",
+    "intro": "Programi koje smo sproveli u ovom trenutku."
+   }
+  ],
+  "cta": "Isplaniraj moj START",
+  "open": [
+   "Potvrdi tržišta i obime za božićno izdanje."
+  ],
+  "note": "Božićno izdanje programa First Grade."
+ }
+}

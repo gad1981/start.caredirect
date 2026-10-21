@@ -1,5 +1,6 @@
 import type { Metadata } from "next";
 import { notFound } from "next/navigation";
+import { Suspense } from "react";
 import { Button } from "@/components/Button";
 import { getMessages, getPages } from "@/lib/content";
 import {
@@ -36,9 +37,19 @@ export async function generateMetadata({
   };
 }
 
-export default async function OrderPage({
+export default function OrderPage({
   params,
 }: PageProps<"/[locale]/order">) {
+  return (
+    <Suspense fallback={null}>
+      <OrderRoute params={params} />
+    </Suspense>
+  );
+}
+
+async function OrderRoute({
+  params,
+}: Pick<PageProps<"/[locale]/order">, "params">) {
   const { locale: raw } = await params;
   if (!isLocale(raw)) notFound();
   const locale = raw as Locale;

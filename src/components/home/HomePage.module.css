@@ -11,10 +11,8 @@
 
 .photo {
   width: 100%;
+  /* Match source hero (1672×941) so cover never crops the kit per viewport. */
   aspect-ratio: 1672 / 941;
-  /* Leave room for the headline card in the first viewport on short screens. */
-  max-height: min(520px, calc(100svh - 220px));
-  min-height: 220px;
   position: relative;
   overflow: hidden;
   background: #efede8;
@@ -22,13 +20,14 @@
 
 .photo img {
   object-fit: cover;
-  object-position: center 30%;
+  object-position: center;
 }
 
 .card {
   position: relative;
   z-index: 1;
-  margin: clamp(-250px, -15vw, -40px) auto 0;
+  /* Light overlap only — keep the mid-frame kit band clear of the card. */
+  margin: -28px auto 0;
   max-width: 979px;
   background: linear-gradient(
     180deg,
@@ -156,8 +155,9 @@
   display: flex;
   flex-direction: column;
   justify-content: flex-end;
-  height: 300px;
-  min-height: 300px;
+  /* Match source tiles (1122×1402) so the kit stays fully framed. */
+  aspect-ratio: 1122 / 1402;
+  height: auto;
   border-radius: 22px;
   overflow: hidden;
   text-decoration: none;
@@ -224,7 +224,7 @@
 
 .flipFront img {
   object-fit: cover;
-  object-position: center top;
+  object-position: center;
 }
 
 .flipBack {
@@ -434,7 +434,7 @@
 
 .tile img {
   object-fit: cover;
-  object-position: center top;
+  object-position: center;
 }
 
 .tileShade {
@@ -661,14 +661,9 @@
 }
 
 @media (max-width: 820px) {
-  .photo {
-    min-height: 160px;
-    aspect-ratio: 16 / 10;
-    max-height: min(240px, calc(100svh - 280px));
-  }
-
   .card {
-    margin: -36px 12px 0;
+    /* Sit below the hero so kits stay fully visible on small screens. */
+    margin: 16px 12px 0;
     padding: 22px 18px 24px;
     border-radius: 20px;
   }
@@ -688,17 +683,5 @@
   .tiles,
   .steps {
     grid-template-columns: 1fr;
-  }
-
-  .photo {
-    max-height: min(200px, calc(100svh - 300px));
-  }
-}
-
-/* Very short phones / landscape: keep eyebrow + h1 in the first screen. */
-@media (max-height: 640px) {
-  .photo {
-    max-height: min(180px, 38svh);
-    min-height: 120px;
   }
 }

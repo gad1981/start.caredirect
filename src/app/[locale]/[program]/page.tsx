@@ -1,5 +1,7 @@
 import type { Metadata } from "next";
 import { notFound } from "next/navigation";
+import { Suspense } from "react";
+import Script from "next/script";
 import { ProgramPage } from "@/components/program/ProgramPage";
 import { getPages } from "@/lib/content";
 import {
@@ -52,9 +54,19 @@ export async function generateMetadata({
   };
 }
 
-export default async function Page({
+export default function Page({
   params,
 }: PageProps<"/[locale]/[program]">) {
+  return (
+    <Suspense fallback={null}>
+      <ProgramRoute params={params} />
+    </Suspense>
+  );
+}
+
+async function ProgramRoute({
+  params,
+}: Pick<PageProps<"/[locale]/[program]">, "params">) {
   const { locale: raw, program: slug } = await params;
   if (!isLocale(raw)) notFound();
   const locale = raw as Locale;
@@ -77,8 +89,10 @@ export default async function Page({
 
   return (
     <>
-      <script
+      <Script
+        id={`jsonld-${prog.slug}`}
         type="application/ld+json"
+        strategy="afterInteractive"
         dangerouslySetInnerHTML={{ __html: JSON.stringify(jsonLd) }}
       />
       <ProgramPage programId={prog.id} locale={locale} />

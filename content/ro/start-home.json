@@ -1,0 +1,383 @@
+{
+ "eyebrow": "Marketing pe etape de viață · Sud-Estul Europei",
+ "h1": "Fiecare etapă din viață are o primă zi. Fii prezent în ea.",
+ "lead": "START este familia de programe Care Direct pentru momentele în care oamenii încep ceva nou: primul bebeluș, prima zi de școală, facultatea, nunta, pensionarea. Punem produsul tău în mâinile lor, împreună cu un ghid pe care îl păstrează și cu un follow-up care transformă proba într-o relație.",
+ "btn1": "Găsește START-ul tău",
+ "btn2": "Cum funcționează un START",
+ "stats": [
+  [
+   "14",
+   "momente din viață, o singură familie de programe",
+   "accent"
+  ],
+  [
+   "5",
+   "țări din Sud-Estul Europei",
+   ""
+  ],
+  [
+   "290.000+",
+   "de mame pe an în START Pregnancy și Newborn",
+   ""
+  ],
+  [
+   "100.000+",
+   "de membri Babyspace",
+   ""
+  ]
+ ],
+ "programs": {
+  "eyebrow": "Familia START",
+  "h2": "Un singur public. Fiecare punct de pornire.",
+  "lead": "Alege momentul în care se află consumatorul tău. Fiecare START îl întâlnește exact acolo unde se întâmplă, în săptămâna în care își alege noile branduri."
+ },
+ "stages": [
+  {
+   "id": "st-pregnancy",
+   "name": "START Pregnancy",
+   "when": "Trimestrul 3",
+   "where": "Clinici de ginecologie și maternități",
+   "desc": "Viitorii părinți îți încearcă produsul în timp ce își fac lista cu tot ce va avea nevoie bebelușul.",
+   "tagline": "Înainte să apară bebelușul",
+   "hands": [
+    "Mostre în cutie",
+    "O reclamă în ghidul BOOM",
+    "Predat în clinicile de ginecologie și în maternități"
+   ],
+   "online": [
+    "Babyspace și Myparenthood",
+    "Companionul AI HeyMaa (pilot în România)",
+    "Follow-up: email, SMS, call center, mail direct"
+   ]
+  },
+  {
+   "id": "st-natal",
+   "name": "START Newborn",
+   "when": "La 2–3 zile după naștere",
+   "where": "Maternități",
+   "desc": "Cutia primelor zile, oferită mamelor în spital, împreună cu ghidul pentru săptămânile următoare.",
+   "tagline": "Primele zile cu nou-născutul",
+   "hands": [
+    "Mostre în cutia primelor zile",
+    "O reclamă în Natal Guide",
+    "Predat în maternități"
+   ],
+   "online": [
+    "Babyspace și Myparenthood",
+    "Tombola lunară Mybabywinner",
+    "Follow-up: email, SMS, call center, mail direct"
+   ]
+  },
+  {
+   "id": "st-luxury",
+   "name": "START Luxury Moments",
+   "when": "La 2–3 zile după naștere",
+   "where": "Suite private",
+   "desc": "Ediția premium pentru mamele din suitele și rezervele private ale clinicilor private.",
+   "tagline": "Primele zile, în stil luxury",
+   "hands": [
+    "Mostre în kitul Luxury Moments",
+    "Branduri exclusive în cutie",
+    "Predat în suitele private"
+   ],
+   "online": [
+    "Babyspace și Myparenthood",
+    "Follow-up cu consimțământ, după înregistrare",
+    "Follow-up: email, SMS, call center, mail direct"
+   ]
+  },
+  {
+   "id": "st-next",
+   "name": "START First Foods",
+   "when": "Bebeluș de 6 luni",
+   "where": "Livrat la domiciliu",
+   "desc": "Bebelușul începe să mănânce: un al doilea val de testare, pe măsură ce familia intră într-o nouă etapă.",
+   "tagline": "Prima lingură a bebelușului",
+   "hands": [
+    "Mostre în cutie",
+    "Livrat la domiciliu, la 6 luni",
+    "Follow-up cu consimțământ, după înregistrare"
+   ],
+   "online": [
+    "Babyspace și Myparenthood",
+    "Mybabywinner și HeyMaa",
+    "Follow-up: email, SMS, call center, mail direct"
+   ]
+  },
+  {
+   "id": "st-school",
+   "name": "START First Grade",
+   "when": "Prima zi de școală, la 6 ani",
+   "where": "Școli primare",
+   "desc": "O cutie chiar în prima zi de școală, pentru copii și pentru părinții care aleg brandurile anului școlar.",
+   "tagline": "Primul clopoțel",
+   "hands": [
+    "Mostre în cutia primei zile",
+    "Distribuit în școlile primare",
+    "Follow-up cu consimțământ, după înregistrare"
+   ],
+   "online": [
+    "Myschoolwinner pentru familii",
+    "Părinți atinși acasă",
+    "Follow-up: email, SMS, call center, mail direct"
+   ]
+  },
+  {
+   "id": "st-school-xmas",
+   "name": "START First Grade Christmas",
+   "when": "Perioada de Crăciun la școală",
+   "where": "Școli primare",
+   "desc": "Ediția de Crăciun a programului First Grade: o cutie festivă pentru familiile elevilor din ciclul primar.",
+   "tagline": "Crăciunul la școală",
+   "hands": [
+    "Mostre în cutia de Crăciun",
+    "Distribuit în școlile primare",
+    "Follow-up cu consimțământ, după înregistrare"
+   ],
+   "online": [
+    "Myschoolwinner pentru familii",
+    "Părinți atinși acasă",
+    "Follow-up: email, SMS, call center, mail direct"
+   ]
+  },
+  {
+   "id": "st-teen",
+   "name": "START Teen Girl",
+   "when": "Începutul pubertății",
+   "where": "Livrat la domiciliu, prin curier",
+   "desc": "La începutul pubertății: mostre în mâinile ei și un follow-up care transformă primele produse în branduri în care are încredere.",
+   "tagline": "Crește în felul ei",
+   "hands": [
+    "Mostre în cutie",
+    "Livrat la domiciliu, prin curier",
+    "Follow-up cu consimțământ, după înregistrare"
+   ],
+   "online": [
+    "Comunitățile online Care Direct",
+    "Conținut în care are încredere",
+    "Follow-up pe canalele potrivite"
+   ]
+  },
+  {
+   "id": "st-high",
+   "name": "START High School",
+   "when": "Intrarea la liceu, 15–16 ani",
+   "where": "Licee · ghid web START 9",
+   "desc": "Clasă nouă, oameni noi. Mostre și START 9 — ghidul web interactiv pentru primul lor an.",
+   "tagline": "Clasă nouă, oameni noi",
+   "hands": [
+    "Mostre în mâinile lor",
+    "Distribuit în licee",
+    "Follow-up cu consimțământ, după înregistrare"
+   ],
+   "online": [
+    "Ghidul web START 9 (România)",
+    "Obiective și sfaturi pentru primul an",
+    "Follow-up pe canalele potrivite"
+   ]
+  },
+  {
+   "id": "st-uni",
+   "name": "START University",
+   "when": "Primul an de facultate",
+   "where": "Universități · ghid web UniStart+",
+   "desc": "Studenți în anul I, care fac primele achiziții independente: mostre și UniStart+.",
+   "tagline": "Primul an, prima independență",
+   "hands": [
+    "Mostre în mâinile lor",
+    "Distribuit în universități",
+    "Follow-up cu consimțământ, după înregistrare"
+   ],
+   "online": [
+    "Ghidul studentului UniStart+ (Bulgaria)",
+    "Partenerii cutiei, listați online",
+    "Follow-up pe canalele potrivite"
+   ]
+  },
+  {
+   "id": "st-army",
+   "name": "START Army",
+   "when": "Ziua încorporării",
+   "where": "Unități militare",
+   "desc": "Tinerii îți încearcă produsul chiar în ziua în care intră în serviciul militar: un public greu de atins, reunit într-un singur loc.",
+   "tagline": "Prima zi în armată",
+   "hands": [
+    "Mostre în mâinile lor",
+    "Distribuit în unitățile militare",
+    "Follow-up cu consimțământ, după înregistrare"
+   ],
+   "online": [
+    "Comunitățile online Care Direct",
+    "Un public greu de atins, într-un singur loc",
+    "Follow-up pe canalele potrivite"
+   ]
+  },
+  {
+   "id": "st-marriage",
+   "name": "START Marriage",
+   "when": "Căsătoria",
+   "where": "Livrat la domiciliu, prin curier",
+   "desc": "Cuplurile care își formează un cămin împreună îți încearcă produsul în timp ce aleg primele branduri comune.",
+   "tagline": "Un cămin pentru doi",
+   "hands": [
+    "Mostre în cutie",
+    "Livrat la domiciliu, prin curier",
+    "Follow-up cu consimțământ, după înregistrare"
+   ],
+   "online": [
+    "Comunitățile online Care Direct",
+    "Primele branduri comune",
+    "Follow-up pe canalele potrivite"
+   ]
+  },
+  {
+   "id": "st-pet",
+   "name": "START Pet",
+   "when": "Un animal de companie nou în casă",
+   "where": "Medici veterinari și organizații de adopție",
+   "desc": "Noii proprietari primesc produsul tău în primele săptămâni, cât timp încă aleg hrana, îngrijirea și accesoriile.",
+   "tagline": "Un nou membru al familiei",
+   "hands": [
+    "Mostre în cutie",
+    "Distribuit la medici veterinari și în organizații de adopție",
+    "Follow-up cu consimțământ, după înregistrare"
+   ],
+   "online": [
+    "Comunitățile online Care Direct",
+    "Rutine care rămân",
+    "Follow-up pe canalele potrivite"
+   ]
+  },
+  {
+   "id": "st-silver",
+   "name": "START Ladies",
+   "when": "50+, intrarea în menopauză",
+   "where": "Clinici de ginecologie",
+   "desc": "Femeile la vârsta de mijloc primesc produse de testat și îndrumare de încredere într-o perioadă de mari schimbări.",
+   "tagline": "Un nou capitol la 50+",
+   "hands": [
+    "Mostre în cutie",
+    "O reclamă în ghidul Ladies",
+    "Predat în clinicile de ginecologie"
+   ],
+   "online": [
+    "LadiesBook (ladiesbook.gr)",
+    "Îndrumare de încredere pentru vârsta de mijloc",
+    "Follow-up pe canalele potrivite"
+   ]
+  },
+  {
+   "id": "st-seniors",
+   "name": "START Seniors",
+   "when": "Începutul pensionării",
+   "where": "La domiciliu și în locurile de întâlnire ale seniorilor",
+   "desc": "Un nou ritm de viață, rutine noi și branduri noi, la începutul pensionării.",
+   "tagline": "Timp pentru ei înșiși",
+   "hands": [
+    "Mostre în cutie",
+    "Livrat la domiciliu și în locurile unde se adună seniorii",
+    "Follow-up cu consimțământ, după înregistrare"
+   ],
+   "online": [
+    "Comunitățile online Care Direct",
+    "Rutine noi, branduri noi",
+    "Follow-up pe canalele potrivite"
+   ]
+  }
+ ],
+ "how": {
+  "eyebrow": "Cum funcționează un START",
+  "h2": "Proba în mâinile lor. Un ghid pe care îl păstrează. Un follow-up care durează.",
+  "steps": [
+   [
+    "1 · Cutia",
+    "Produsul tău, livrat exact în momentul în care e nevoie de el, prin clinici, școli și universități. Testare reală, nu o simplă impresie."
+   ],
+   [
+    "2 · Ghidul",
+    "Un ghid în fiecare cutie — tipărit, digital sau web, în funcție de public. Brandul tău câștigă un loc util, nu doar un spațiu publicitar."
+   ],
+   [
+    "3 · Follow-up-ul",
+    "Înregistrarea opt-in, conformă GDPR, colectează email, telefon, mobil și adresă — apoi continuăm conversația pe canalele potrivite fiecărei piețe."
+   ],
+   [
+    "4 · Platforma",
+    "Comunitățile online proprii Care Direct țin publicul aproape și îl duc mai departe, spre următorul START."
+   ]
+  ]
+ },
+ "live": {
+  "eyebrow": "Live acum",
+  "h2": "Vezi un START din interior.",
+  "cards": [
+   {
+    "tag": "România · intrarea la liceu",
+    "name": "START 9",
+    "desc": "Un ghid interactiv pentru elevii care încep liceul: clasă nouă, oameni noi, tot tu.",
+    "url": "https://startliceu.life",
+    "link": "startliceu.life →"
+   },
+   {
+    "tag": "Bulgaria · studenți UNSS",
+    "name": "UniStart+",
+    "desc": "Un ghid digital pentru studenți, cu obiective, pași de carieră și o cutie cu parteneri, realizat împreună cu UNSS Sofia.",
+    "url": "https://uni-start.com",
+    "link": "uni-start.com →"
+   },
+   {
+    "tag": "Următorul lansat",
+    "name": "[NEXT START]",
+    "desc": "Brandul tău poate fi partenerul fondator al următorului program pe etape de viață.",
+    "url": "",
+    "link": ""
+   }
+  ]
+ },
+ "markets": {
+  "eyebrow": "Unde rulează START",
+  "h2": "Două regiuni. Un singur playbook.",
+  "regions": [
+   {
+    "name": "Sud-Estul Europei",
+    "sub": "Programe pe etape de viață: START",
+    "countries": [
+     "Grecia",
+     "Cipru",
+     "România",
+     "Bulgaria",
+     "Serbia"
+    ],
+    "link": ""
+   },
+   {
+    "name": "Orientul Mijlociu",
+    "sub": "Programe promoționale și de activare, de la Care Direct",
+    "countries": [
+     "E.A.U.",
+     "Arabia Saudită",
+     "Egipt",
+     "Liban",
+     "Kuweit",
+     "Qatar",
+     "Oman",
+     "Bahrain"
+    ],
+    "link": "me"
+   }
+  ]
+ },
+ "brands": {
+  "h2": "Pune-ți produsul în prima zi a cuiva.",
+  "lead": "Spune-ne publicul și piața. Revenim cu START-ul potrivit, acoperirea, calendarul și costul.",
+  "markets": [
+   "Greece",
+   "Cyprus",
+   "Romania",
+   "Bulgaria",
+   "Serbia"
+  ],
+  "button": "Planifică-mi START-ul"
+ },
+ "footer": "START. O familie de programe Care Direct"
+}

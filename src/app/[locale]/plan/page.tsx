@@ -1,5 +1,6 @@
 import type { Metadata } from "next";
 import { notFound } from "next/navigation";
+import { Suspense } from "react";
 import { BriefForm } from "@/components/BriefForm";
 import { getMessages, getPages, getStartHome } from "@/lib/content";
 import {
@@ -36,9 +37,19 @@ export async function generateMetadata({
   };
 }
 
-export default async function PlanPage({
+export default function PlanPage({
   params,
 }: PageProps<"/[locale]/plan">) {
+  return (
+    <Suspense fallback={null}>
+      <PlanRoute params={params} />
+    </Suspense>
+  );
+}
+
+async function PlanRoute({
+  params,
+}: Pick<PageProps<"/[locale]/plan">, "params">) {
   const { locale: raw } = await params;
   if (!isLocale(raw)) notFound();
   const locale = raw as Locale;

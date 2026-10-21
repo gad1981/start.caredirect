@@ -1,0 +1,470 @@
+{
+ "START_PLATFORMS": {
+  "st-pregnancy": "Babyspace (babyspace.gr, babyspace.com.ro, babyspace.bg) · Myparenthood (myparenthood.gr, Grčka) · Mybabywinner (Srbija, Kipar) · HeyMaa (heymaa.ai, AI pratilac)",
+  "st-natal": "Babyspace (Grčka, Rumunija, Bugarska) · Myparenthood (Grčka) · Mybabywinner (Srbija, Kipar) · HeyMaa (heymaa.ai, AI pratilac)",
+  "st-luxury": "Babyspace (Grčka) · Myparenthood (Grčka)",
+  "st-next": "Babyspace (Grčka, Rumunija, Bugarska) · Myparenthood (Grčka) · Mybabywinner (Srbija, Kipar) · HeyMaa (heymaa.ai, AI pratilac)",
+  "st-school": "Myschoolwinner (myschoolwinner.com: Grčka, Rumunija, Bugarska i Srbija)",
+  "st-high": "START 9 (startliceu.life) [navedeno je start.life: potvrdi adresu]",
+  "st-uni": "UniStart+ (uni-start.com)",
+  "st-silver": "LadiesBook (ladiesbook.gr, Grčka)",
+  "st-school-xmas": "Myschoolwinner (myschoolwinner.com: Grčka, Rumunija, Bugarska i Srbija)"
+ },
+ "START_GUIDES": {
+  "st-natal": [
+   [
+    "Grčka",
+    "Natal Guide",
+    "https://heyzine.com/flip-book/ea452acee4.html"
+   ],
+   [
+    "Grčka",
+    "Σχέσεις Στοργής (vodič za nove mame)",
+    "https://heyzine.com/flip-book/8e724472cf.html"
+   ],
+   [
+    "Rumunija",
+    "Natal Guide 2026",
+    "https://heyzine.com/flip-book/af6388abac.html"
+   ],
+   [
+    "Bugarska",
+    "Natal Guide",
+    "https://heyzine.com/flip-book/9f742c4eb8.html"
+   ],
+   [
+    "Rumunija",
+    "Vodič za dojenje 2026",
+    "https://heyzine.com/flip-book/e34cc9b492.html"
+   ],
+   [
+    "Srbija",
+    "Vodič za dojenje 2026",
+    "https://heyzine.com/flip-book/9b9ac1329b.html"
+   ]
+  ],
+  "st-next": [
+   [
+    "Srbija",
+    "Vodič za dojenje 2026 (uključuje prvu ishranu bebe)",
+    "https://heyzine.com/flip-book/9b9ac1329b.html"
+   ]
+  ],
+  "st-school": [
+   [
+    "Rumunija",
+    "Školski vodič 2026",
+    "https://heyzine.com/flip-book/381377db30.html"
+   ],
+   [
+    "Bugarska",
+    "Školski vodič 2026",
+    "https://heyzine.com/flip-book/59a24288dc.html"
+   ],
+   [
+    "Srbija",
+    "Školski vodič 2026",
+    "https://heyzine.com/flip-book/f6ae2642bc.html"
+   ]
+  ]
+ },
+ "START_PROGRAMS": {
+  "st-pregnancy": {
+   "name": "START Pregnancy",
+   "when": "Treći trimestar",
+   "where": "Ginekološke i porodilišne klinike",
+   "desc": "Budući roditelji probaju tvoj proizvod dok još sastavljaju spisak onoga što će bebi trebati."
+  },
+  "st-natal": {
+   "name": "START Newborn",
+   "when": "2–3 dana nakon porođaja",
+   "where": "Porodilišne klinike",
+   "desc": "Kutija za prve dane koja se uručuje novim majkama u bolnici, uz vodič za nedelje koje slede."
+  },
+  "st-luxury": {
+   "name": "START Luxury Moments",
+   "when": "2–3 dana nakon porođaja",
+   "where": "Privatni apartmani",
+   "desc": "Premijum izdanje za nove majke u privatnim apartmanima i privatnim sobama klinika."
+  },
+  "st-next": {
+   "name": "START First Foods",
+   "when": "Beba od 6 meseci, počinje da jede",
+   "where": "Dostava na kućnu adresu",
+   "desc": "Majke čije bebe počinju da jedu čvrstu hranu: nov početak za porodicu i drugi talas probe za brendove hrane, hranjenja i nege."
+  },
+  "st-marriage": {
+   "name": "START Marriage",
+   "when": "Venčanje",
+   "where": "Dostava kurirom na kućnu adresu",
+   "desc": "Mladenci koji zajedno zasnivaju prvi dom biraju brendove sa kojima će živeti."
+  },
+  "st-pet": {
+   "name": "START Pet",
+   "when": "Novi ljubimac u kući",
+   "where": "Veterinari i organizacije za udomljavanje",
+   "desc": "Novi ljubimac je nov početak za ceo dom: vlasnici probaju tvoj proizvod dok grade nove rutine."
+  },
+  "st-school": {
+   "name": "START First Grade",
+   "when": "Prvi dan prvog razreda (uzrast 6 godina)",
+   "where": "Osnovne škole",
+   "desc": "Kutija na sam prvi školski dan za šestogodišnjake i roditelje koji biraju brendove za školsku godinu."
+  },
+  "st-teen": {
+   "name": "START Teen Girl",
+   "when": "Početak puberteta",
+   "where": "Dostava kurirom na kućnu adresu",
+   "desc": "Na početku puberteta: uzorci i praćenje uz pouzdane proizvode i savete."
+  },
+  "st-high": {
+   "name": "START High School",
+   "when": "Prva godina srednje škole (15–16 godina)",
+   "where": "Srednje škole",
+   "desc": "Dečaci i devojčice koji kreću u srednju školu, velika promena. Uzorci i START 9 za njihovu prvu godinu."
+  },
+  "st-uni": {
+   "name": "START University",
+   "when": "Prva godina fakulteta",
+   "where": "Univerziteti",
+   "desc": "Studenti prve godine koji prave prve samostalne kupovine. Uzorci i UniStart+."
+  },
+  "st-army": {
+   "name": "START Army",
+   "when": "Dan regrutacije",
+   "where": "Vojni kampovi",
+   "desc": "Mladići probaju tvoj proizvod na dan stupanja u službu: teško dostupna publika na jednom mestu."
+  },
+  "st-seniors": {
+   "name": "START Seniors",
+   "when": "Početak penzije",
+   "where": "Dom i mesta okupljanja starijih",
+   "desc": "Ljudi na početku penzije: nove rutine, novo vreme, novi izbori."
+  },
+  "st-silver": {
+   "name": "START Ladies",
+   "when": "Početak menopauze (50+)",
+   "where": "Ginekološke klinike",
+   "desc": "Žene koje ulaze u menopauzu, velika promena: proba i pouzdano vođenje tokom godišnjeg pregleda."
+  },
+  "st-school-xmas": {
+   "name": "START First Grade Christmas",
+   "when": "Božićni školski period",
+   "where": "Osnovne škole",
+   "desc": "Božićno izdanje programa First Grade: svečana kutija za porodice osnovaca."
+  }
+ },
+ "PROGRAMS": [
+  [
+   "st-natal",
+   "GR",
+   "confirmed",
+   "50.000 novih majki godišnje · saradnja sa lekarima · porodilišne klinike, 2–3 dana nakon porođaja",
+   "START tabela obima"
+  ],
+  [
+   "st-natal",
+   "BG",
+   "confirmed",
+   "30.000 novih majki godišnje · Udruženje pedijatara",
+   "START tabela obima"
+  ],
+  [
+   "st-natal",
+   "CY",
+   "unknown",
+   "Nije naveden obim programa Natal",
+   "START tabela obima"
+  ],
+  [
+   "st-natal",
+   "RS",
+   "confirmed",
+   "30.000 novih majki godišnje · specijalisti pedijatrije i neonatologije",
+   "START tabela obima"
+  ],
+  [
+   "st-natal",
+   "RO",
+   "confirmed",
+   "160.000 novih majki godišnje · Udruženje neonatologa, Udruženje pedijatara",
+   "START tabela obima"
+  ],
+  [
+   "st-natal",
+   "MENA",
+   "unknown",
+   "PDF „New Mothers MENA Program 2025“ [potvrdi da li je aktivan] (P8)",
+   "Search Console"
+  ],
+  [
+   "st-pregnancy",
+   "GR",
+   "confirmed",
+   "20.000 trudnica godišnje · saradnja sa lekarima · klinike, treći trimestar",
+   "START tabela obima"
+  ],
+  [
+   "st-pregnancy",
+   "CY",
+   "unknown",
+   "Nije naveden obim programa Prenatal",
+   "START tabela obima"
+  ],
+  [
+   "st-pregnancy",
+   "RO",
+   "unknown",
+   "Nije naveden obim programa Prenatal",
+   "START tabela obima"
+  ],
+  [
+   "st-pregnancy",
+   "BG",
+   "unknown",
+   "Nije naveden obim programa Prenatal",
+   "START tabela obima"
+  ],
+  [
+   "st-pregnancy",
+   "RS",
+   "unknown",
+   "Nije naveden obim programa Prenatal",
+   "START tabela obima"
+  ],
+  [
+   "st-school",
+   "GR",
+   "unknown",
+   "Prvi dan vrtića i prvog razreda [zemlje i obim za potvrdu]",
+   "Aktuelni sajt"
+  ],
+  [
+   "st-army",
+   "GR",
+   "unknown",
+   "Dan regrutacije u vojnim kampovima [zemlja i obim za potvrdu]",
+   "Aktuelni sajt"
+  ],
+  [
+   "school",
+   "KSA",
+   "confirmed",
+   "Program ishrane sa Sadafco",
+   "Aktuelni sajt"
+  ],
+  [
+   "school",
+   "ALL",
+   "confirmed",
+   "20 miliona učenika u 15 zemalja tokom 20+ godina",
+   "Aktuelni sajt"
+  ],
+  [
+   "uni",
+   "BG",
+   "confirmed",
+   "uni-start.com za studente prve godine",
+   "Tvoji izveštaji"
+  ],
+  [
+   "uni",
+   "RS",
+   "partial",
+   "Aktivacije uzorkovanja na univerzitetima 2024 [rezultati za potvrdu]",
+   "PDF u rezultatima pretrage"
+  ],
+  [
+   "st-high",
+   "RO",
+   "confirmed",
+   "START 9 (startliceu.life) za učenike koji kreću u srednju školu",
+   "Tvoji izveštaji"
+  ],
+  [
+   "brand-activation",
+   "KSA",
+   "confirmed",
+   "Harpic (Reckitt) od vrata do vrata: 650.000 domaćinstava, 2022–2023",
+   "Medium 2024"
+  ],
+  [
+   "brand-activation",
+   "UAE",
+   "partial",
+   "Stalna aktivacija brenda, Dubai [pretvori u studiju slučaja]",
+   "Blog, maj 2026"
+  ],
+  [
+   "pl-mybabywinner",
+   "RS",
+   "confirmed",
+   "30.000+ majki; Curaprox Platinum sponzor od 2022. (1.883 primaoca)",
+   "Medium 2024"
+  ],
+  [
+   "pl-mybabywinner",
+   "CY",
+   "confirmed",
+   "15.000+ registracija; sponzori među kojima Sudocrem, Frezyderm, Dr. Brown’s",
+   "Medium 2024"
+  ],
+  [
+   "pl-babyspace",
+   "GR",
+   "confirmed",
+   "Portal od 2009. (100.000+ članova u Grčkoj, Bugarskoj i Rumuniji)",
+   "Potvrđeno 15. okt"
+  ],
+  [
+   "pl-babyspace",
+   "RO",
+   "confirmed",
+   "Babyspace Rumunija",
+   "Potvrđeno 15. okt"
+  ],
+  [
+   "pl-babyspace",
+   "BG",
+   "confirmed",
+   "Babyspace Bugarska",
+   "Potvrđeno 15. okt"
+  ],
+  [
+   "pl-myparenthood",
+   "GR",
+   "confirmed",
+   "Onlajn majstorski kursevi za roditelje",
+   "Potvrđeno 15. okt"
+  ],
+  [
+   "pl-ladiesbook",
+   "GR",
+   "confirmed",
+   "Onlajn magazin za žene preko 50 godina",
+   "Potvrđeno 15. okt"
+  ],
+  [
+   "pl-myschoolwinner",
+   "GR",
+   "confirmed",
+   "Myschoolwinner",
+   "Potvrđeno 15. okt"
+  ],
+  [
+   "pl-myschoolwinner",
+   "RO",
+   "confirmed",
+   "Myschoolwinner",
+   "Potvrđeno 15. okt"
+  ],
+  [
+   "pl-myschoolwinner",
+   "BG",
+   "confirmed",
+   "Myschoolwinner",
+   "Potvrđeno 15. okt"
+  ],
+  [
+   "pl-myschoolwinner",
+   "RS",
+   "confirmed",
+   "Myschoolwinner",
+   "Potvrđeno 15. okt"
+  ],
+  [
+   "pl-heymaa",
+   "RO",
+   "confirmed",
+   "Pilot",
+   "Potvrđeno okt 2026"
+  ],
+  [
+   "pl-mumsvoice",
+   "GR",
+   "confirmed",
+   "Godišnje istraživanje među majkama",
+   "Aktuelni sajt"
+  ],
+  [
+   "pl-mumsvoice",
+   "KSA",
+   "confirmed",
+   "Godišnje istraživanje među majkama",
+   "Aktuelni sajt"
+  ],
+  [
+   "pl-mumsvoice",
+   "CY",
+   "confirmed",
+   "Godišnje istraživanje među majkama",
+   "Aktuelni sajt"
+  ],
+  [
+   "pl-mumsvoice",
+   "RO",
+   "confirmed",
+   "Godišnje istraživanje među majkama",
+   "Aktuelni sajt"
+  ],
+  [
+   "pl-mumsvoice",
+   "BG",
+   "confirmed",
+   "Godišnje istraživanje među majkama",
+   "Aktuelni sajt"
+  ],
+  [
+   "social",
+   "RO",
+   "confirmed",
+   "Huggies na eMAG-u: 300 recenzija za 12 SKU-ova (2023)",
+   "Medium 2024"
+  ],
+  [
+   "crm",
+   "GR",
+   "partial",
+   "TENA digitalno uzorkovanje preko Facebook lead formi [rezultate dodati]",
+   "Medium 2024"
+  ],
+  [
+   "pl-pharma",
+   "GR",
+   "confirmed",
+   "pharmacoupons.gr",
+   "Aktuelni sajt"
+  ]
+ ],
+ "SS_AUD": [
+  "st-marriage",
+  "st-pet",
+  "st-pregnancy",
+  "st-natal",
+  "st-luxury",
+  "st-next",
+  "st-school",
+  "st-school-xmas",
+  "st-teen",
+  "st-high",
+  "st-uni",
+  "st-army",
+  "st-silver",
+  "st-seniors"
+ ],
+ "SS_COLS": [
+  {
+   "name": "Isplaniraj START",
+   "ids": [
+    "st-about",
+    "st-contact"
+   ]
+  },
+  {
+   "name": "Faza 2 · za mame",
+   "ids": [
+    "st-order"
+   ]
+  }
+ ]
+}

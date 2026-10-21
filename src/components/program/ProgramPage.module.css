@@ -235,14 +235,14 @@
 .photo {
   position: relative;
   width: 100%;
-  min-height: min(52vw, 560px);
+  /* Match source heroes (1672×941) so cover never crops the kit per viewport. */
+  aspect-ratio: 1672 / 941;
   background: #e9e7e2;
 }
 
 .photo img {
   object-fit: cover;
-  /* Prefer the top so faces keep headroom; card covers the bottom. */
-  object-position: center top;
+  object-position: center;
 }
 
 .wrap {
@@ -256,7 +256,8 @@
 .heroCard {
   position: relative;
   z-index: 1;
-  margin-top: -48px;
+  /* Light overlap only — kits sit mid-frame in stage heroes. */
+  margin-top: -28px;
   background:
     linear-gradient(
       155deg,
@@ -648,11 +649,6 @@
 @media (max-width: 820px) {
   .hero {
     padding-bottom: 28px;
-  }
-
-  .photo {
-    min-height: 0;
-    aspect-ratio: 16 / 10;
   }
 
   .heroCard {

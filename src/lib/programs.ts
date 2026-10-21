@@ -95,7 +95,9 @@ function stageHeroExt(assetKey: string) {
     assetKey === "uni" ||
     assetKey === "next" ||
     assetKey === "marriage" ||
-    assetKey === "school-christmas"
+    assetKey === "school-christmas" ||
+    assetKey === "school" ||
+    assetKey === "seniors"
   ) {
     return "png";
   }
@@ -112,7 +114,9 @@ function stageTileExt(assetKey: string) {
     assetKey === "uni" ||
     assetKey === "next" ||
     assetKey === "marriage" ||
-    assetKey === "school-christmas"
+    assetKey === "school-christmas" ||
+    assetKey === "school" ||
+    assetKey === "seniors"
   ) {
     return "png";
   }

@@ -48,8 +48,21 @@ function parseStats(copy: string) {
   });
 }
 
+function isPlatformLabel(label: string) {
+  const n = label
+    .normalize("NFD")
+    .replace(/\p{M}/gu, "")
+    .toLowerCase();
+  return (
+    n === "platform" ||
+    n === "platforma" ||
+    n === "πλατφορμα" ||
+    n === "платформа"
+  );
+}
+
 function platformsFromAbout(facts: { label: string; value: string }[]) {
-  return facts.find((f) => f.label.toLowerCase() === "platform")?.value ?? "";
+  return facts.find((f) => isPlatformLabel(f.label))?.value ?? "";
 }
 
 export async function ProgramPage({
