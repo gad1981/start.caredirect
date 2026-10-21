@@ -52,7 +52,7 @@ export const PROGRAMS: {
     id: "st-school-xmas",
     slug: "first-grade-christmas",
     name: "START First Grade Christmas",
-    assetKey: "school",
+    assetKey: "school-christmas",
   },
   { id: "st-teen", slug: "teen-girl", name: "START Teen Girl", assetKey: "teen" },
   { id: "st-high", slug: "high-school", name: "START High School", assetKey: "high" },
@@ -91,7 +91,11 @@ function stageHeroExt(assetKey: string) {
     assetKey === "pregnancy" ||
     assetKey === "pet" ||
     assetKey === "natal" ||
-    assetKey === "natal-luxury"
+    assetKey === "natal-luxury" ||
+    assetKey === "uni" ||
+    assetKey === "next" ||
+    assetKey === "marriage" ||
+    assetKey === "school-christmas"
   ) {
     return "png";
   }
@@ -104,7 +108,11 @@ function stageTileExt(assetKey: string) {
     assetKey === "pregnancy" ||
     assetKey === "pet" ||
     assetKey === "natal" ||
-    assetKey === "natal-luxury"
+    assetKey === "natal-luxury" ||
+    assetKey === "uni" ||
+    assetKey === "next" ||
+    assetKey === "marriage" ||
+    assetKey === "school-christmas"
   ) {
     return "png";
   }
