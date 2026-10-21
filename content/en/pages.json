@@ -9,12 +9,12 @@
     "name": "Hero",
     "comp": "hero + 4 stat cards",
     "copy": "Life-stage marketing · Southeast Europe · START is Care Direct's family of programs for the moments people begin something new: a first baby, a first school day, university, a wedding, retirement. We put your product in their hands, with a guide they keep and a follow-up that turns trial into a relationship.",
-    "proof": "Stats: 12 life-stage moments, one program family · 5 countries across Southeast Europe · ~80,000 new mothers a year in Greece · 85% of new mothers in Bulgaria reached yearly for Sudocrem. Buttons: Find your START · How a START works. Merged from the START site design."
+    "proof": "Stats: 14 life-stage moments, one program family · 5 countries across Southeast Europe · ~50,000 new mothers a year in Greece · 290,000+ mothers a year in Pregnancy and Newborn. Buttons: Find your START · How a START works. Merged from the START site design."
    },
    {
     "name": "The START family",
     "comp": "program-cards ×14 (rail)",
-    "copy": "One audience. Every starting point. Pick the moment your consumer is in. Each START reaches them where it happens, at the exact week they're choosing new brands. Cards: START Pregnancy: 3rd trimester, Gyn & maternity clinics · START Newborn: 2–3 days after birth, Maternity clinics · START Luxury Moments: Private suites · START First Foods: Baby at 6 months, Delivered home · START First Grade: First day of school, age 6, Primary schools · START First Grade Christmas: Christmas school period, Primary schools · START Teen Girl: The start of puberty, [Schools, pharmacies] · START High School: Entering high school, 15–16, High schools · web guide START 9 · START University: First year at university, Universities · web guide UniStart+ · START Army: Recruitment day, Military camps · START Marriage: Getting married, [Registries, venues, municipalities] · START Pet: A new pet at home, [Vets, pet shops] · START Ladies: 50+, entering menopause, Gynaecology clinics · START Seniors: Starting retirement, [Channel to confirm]",
+    "copy": "One audience. Every starting point. Pick the moment your consumer is in. Each START reaches them where it happens, at the exact week they're choosing new brands. Cards: START Pregnancy: 3rd trimester, Gyn & maternity clinics · START Newborn: 2–3 days after birth, Maternity clinics · START Luxury Moments: Private suites · START First Foods: Baby at 6 months, Delivered home · START First Grade: First day of school, age 6, Primary schools · START First Grade Christmas: Christmas school period, Primary schools · START Teen Girl: The start of puberty, Delivered home by courier · START High School: Entering high school, 15–16, High schools · web guide START 9 · START University: First year at university, Universities · web guide UniStart+ · START Army: Recruitment day, Military camps · START Marriage: Getting married, Delivered home by courier · START Pet: A new pet at home, Vets and adoption organisations · START Ladies: 50+, entering menopause, Gynaecology clinics · START Seniors: Starting retirement, Home and senior community venues",
     "proof": "Each card: number, moment, one-line why, where, Details → its program page"
    },
    {
@@ -148,27 +148,27 @@
   "note": "Shortened."
  },
  "st-marriage": {
-  "job": "Sell brands START Marriage: reach people at getting married, in [Channel: registries, wedding venues, municipalities], and get a brief.",
+  "job": "Sell brands START Marriage: reach people at getting married, delivered home by courier, and get a brief.",
   "t": "START Marriage: newlywed sampling | START by Care Direct",
-  "m": "Reach couples as they marry and set up their first home: samples, a guide ad and consented follow-up.",
+  "m": "Reach couples as they marry and set up their first home: samples delivered home and consented follow-up.",
   "h1": "START Marriage.",
   "sections": [
    {
     "name": "Hero",
     "comp": "program-hero",
-    "copy": "Getting married · [Registries, venues, municipalities]. Couples setting up a home together try your product as they choose their first shared brands.",
+    "copy": "Getting married · Delivered home by courier. Couples setting up a home together try your product as they choose their first shared brands.",
     "proof": "START program table"
    },
    {
     "name": "About START Marriage",
     "comp": "program-about",
-    "copy": "START Marriage reaches couples as they marry and set up their first home together. They get a box and a printed guide for their first home while they choose their first shared brands. || When: Getting married · Where: [Registries, venues, municipalities] · Platform: [to confirm]",
+    "copy": "START Marriage reaches couples as they marry and set up their first home together. The box is delivered home by courier while they choose their first shared brands. || When: Getting married · Where: Delivered home by courier · Platform: Care Direct online communities",
     "proof": "START program table"
    },
    {
     "name": "Your brand gets",
     "comp": "card-grid",
-    "copy": "Samples in the box: in their hands as they set up home · An ad in the guide: a printed guide for their first home · Consented follow-up: email, SMS, call centre and direct mail after registration · Our platform: [to confirm]",
+    "copy": "Samples in the box: delivered home as they set up house · Consented follow-up after registration on the channels that fit · Care Direct online communities keep the conversation going",
     "proof": "START model",
     "intro": "What your brand gets in START Marriage."
    },
@@ -182,13 +182,12 @@
   ],
   "cta": "Plan my START",
   "open": [
-   "Channel: registries, venues or municipalities?",
-   "Guide and countries."
+   "Countries and volumes."
   ],
   "note": "Shortened."
  },
  "st-pet": {
-  "job": "Sell brands START Pet: reach people at a new pet at home, in [Channel: vets, pet shops], and get a brief.",
+  "job": "Sell brands START Pet: reach people at a new pet at home, at vets and adoption organisations, and get a brief.",
   "t": "START Pet: new pet owner sampling | START by Care Direct",
   "m": "A new pet is a new start for the whole home. Put your product in new owners' hands as routines form.",
   "h1": "START Pet.",
@@ -196,19 +195,19 @@
    {
     "name": "Hero",
     "comp": "program-hero",
-    "copy": "A new pet at home · [Vets, pet shops]. New owners get your product in the first weeks, while they choose food, care and accessories.",
+    "copy": "A new pet at home · Vets and adoption organisations. New owners get your product in the first weeks, while they choose food, care and accessories.",
     "proof": "START program table"
    },
    {
     "name": "About START Pet",
     "comp": "program-about",
-    "copy": "START Pet reaches new owners in the first weeks with a new pet. They get a box and a guide while routines form and they choose food, care and accessories. || When: A new pet at home · Where: [Vets, pet shops] · Platform: [to confirm]",
+    "copy": "START Pet reaches new owners in the first weeks with a new pet. They get a box at vets and adoption organisations while routines form and they choose food, care and accessories. || When: A new pet at home · Where: Vets and adoption organisations · Platform: Care Direct online communities",
     "proof": "START program table"
    },
    {
     "name": "Your brand gets",
     "comp": "card-grid",
-    "copy": "Samples in the box: in new owners' hands as routines form · An ad in the guide: a printed guide for the first weeks · Consented follow-up: email, SMS, call centre and direct mail after registration · Our platform: [to confirm]",
+    "copy": "Samples in the box: in new owners' hands as routines form · Consented follow-up after registration on the channels that fit · Care Direct online communities keep the conversation going",
     "proof": "START model",
     "intro": "What your brand gets in START Pet."
    },
@@ -229,15 +228,14 @@
   ],
   "cta": "Plan my START",
   "open": [
-   "Channel: vets, pet shops?",
-   "Guide and countries."
+   "Countries and volumes."
   ],
   "note": "Shortened."
  },
  "st-pregnancy": {
   "job": "Sell brands START Pregnancy: reach people at 3rd trimester, in Gyn & maternity clinics, and get a brief.",
   "t": "START Pregnancy: pregnancy sampling | START by Care Direct",
-  "m": "Reach expecting mothers in the 3rd trimester at gyn and maternity clinics: about 40,000 a year in Greece.",
+  "m": "Reach expecting mothers in the 3rd trimester at gyn and maternity clinics: about 20,000 a year in Greece.",
   "h1": "START Pregnancy.",
   "sections": [
    {
@@ -249,28 +247,28 @@
    {
     "name": "About START Pregnancy",
     "comp": "program-about",
-    "copy": "START Pregnancy reaches expecting mothers in the 3rd trimester at gyn and maternity clinics: about 40,000 a year in Greece. They get a box of samples and the BOOM guide while they are still building the list of what the baby will need. || When: 3rd trimester · Where: Gyn & maternity clinics · Platform: Babyspace, Myparenthood, Mybabywinner, HeyMaa",
-    "proof": "START program table"
+    "copy": "START Pregnancy reaches expecting mothers in the 3rd trimester at gyn and maternity clinics: about 20,000 a year in Greece, in collaboration with doctors. They get a box of samples and the BOOM guide while they are still building the list of what the baby will need. || When: 3rd trimester · Where: Gyn & maternity clinics · Platform: Babyspace, Myparenthood, Mybabywinner, HeyMaa",
+    "proof": "START volume table"
    },
    {
     "name": "Your brand gets",
     "comp": "card-grid",
-    "copy": "Samples in the box: your product in their hands before the baby arrives · An ad in the BOOM guide: a printed guide they keep and use · Consented follow-up: email, SMS, call centre and direct mail after registration · Our platforms: Babyspace, Myparenthood, Mybabywinner and HeyMaa keep the conversation going",
+    "copy": "Samples in the box: your product in their hands before the baby arrives · An ad in the BOOM guide: a printed guide they keep and use · Consented follow-up after registration on the channels that fit · Our platforms: Babyspace, Myparenthood, Mybabywinner and HeyMaa keep the conversation going",
     "proof": "START model",
     "intro": "What your brand gets in START Pregnancy."
    },
    {
     "name": "Guides & platforms by country",
     "comp": "country-tabs",
-    "copy": "Greece: BOOM guide, Babyspace, Myparenthood · Cyprus: BOOM guide, Mybabywinner · Romania: BOOM guide, Babyspace, HeyMaa · Bulgaria: BOOM guide, Babyspace · Serbia: Mybabywinner",
-    "proof": "Programs table; dossier",
-    "intro": "The guide and platforms differ by market."
+    "copy": "Greece: 20,000 · BOOM guide · collaboration with doctors · Babyspace, Myparenthood · Romania, Bulgaria, Serbia, Cyprus: Prenatal volume not listed",
+    "proof": "START volume table",
+    "intro": "Prenatal reach today is confirmed for Greece."
    },
    {
     "name": "Numbers",
     "comp": "stat-row",
-    "copy": "40,000+ pregnant women a year · 500+ Babyspace gift boxes ordered a month · 45,000+ mums on Mybabywinner",
-    "proof": "Medium 2024 [confirm 2026] · No country mix: totals only (120,000+ = Greece ~80,000 new mothers + ~40,000 pregnant women a year; 45,000+ = Mybabywinner Serbia 30,000+ and Cyprus 15,000+)"
+    "copy": "20,000 pregnant women a year in Greece · Collaboration with doctors",
+    "proof": "START volume table"
    },
    {
     "name": "Outside Southeast Europe",
@@ -290,7 +288,6 @@
   "cta": "Plan my START",
   "open": [
    "BOOM guide still current in 2026?",
-   "Volumes outside Greece.",
    "Parent strip once phase 2 opens."
   ],
   "note": "Shortened."
@@ -298,40 +295,40 @@
  "st-natal": {
   "job": "Sell brands START Newborn: reach new mothers 2–3 days after birth in public and private maternity clinics, and get a brief.",
   "t": "START Newborn: new mother sampling | START by Care Direct",
-  "m": "Reach new mothers 2–3 days after birth in public and private maternity clinics: about 80,000 a year in Greece.",
+  "m": "Reach new mothers 2–3 days after birth in public and private maternity clinics: about 50,000 a year in Greece · 270,000+ across Southeast Europe.",
   "h1": "START Newborn.",
   "sections": [
    {
     "name": "Hero",
     "comp": "program-hero",
     "copy": "2–3 days after birth · Public & private maternity clinics. The first-days gift box for new mothers, with educational material, samples and the guide for the weeks ahead.",
-    "proof": "Natal Kit presentation 2020; START program table"
+    "proof": "START volume table"
    },
    {
     "name": "About START Newborn",
     "comp": "program-about",
-    "copy": "START Newborn reaches new mothers 2–3 days after birth in public hospitals and private clinics: about 80,000 a year in Greece (~42,600 private · ~38,300 public). The gift box includes educational material, samples, regular-size products, promotional materials and discount coupons, plus the Natal or Breastfeeding Guide. || When: 2–3 days after birth · Where: Public & private maternity clinics · Platform: Babyspace, Myparenthood, Mybabywinner, HeyMaa",
-    "proof": "Natal Kit presentation; Medium 2024"
+    "copy": "START Newborn reaches new mothers 2–3 days after birth in public hospitals and private clinics: about 50,000 a year in Greece, and 270,000+ across Southeast Europe. The gift box includes educational material, samples, regular-size products, promotional materials and discount coupons, plus the Natal or Breastfeeding Guide. || When: 2–3 days after birth · Where: Public & private maternity clinics · Platform: Babyspace, Myparenthood, Mybabywinner, HeyMaa",
+    "proof": "START volume table"
    },
    {
     "name": "Your brand gets",
     "comp": "card-grid",
-    "copy": "Samples in the box: your product in a new mother's first days · An ad in the guide: the Natal or Breastfeeding Guide she keeps · Consented follow-up: email, SMS, call centre and direct mail after registration · Our platforms: Babyspace, Myparenthood, Mybabywinner and HeyMaa keep the conversation going",
+    "copy": "Samples in the box: your product in a new mother's first days · An ad in the guide: the Natal or Breastfeeding Guide she keeps · Consented follow-up after registration on the channels that fit · Our platforms: Babyspace, Myparenthood, Mybabywinner and HeyMaa keep the conversation going",
     "proof": "START model",
     "intro": "What your brand gets in START Newborn."
    },
    {
     "name": "Guides & platforms by country",
     "comp": "country-tabs",
-    "copy": "Greece: Natal Guide, Σχέσεις Στοργής, Babyspace, Myparenthood · Romania: Natal + Breastfeeding Guide 2026, Babyspace, HeyMaa · Bulgaria: Natal Guide, Babyspace · Serbia: Breastfeeding Guide 2026, Mybabywinner · Cyprus: Mybabywinner",
-    "proof": "start_guides; dossier",
-    "intro": "The guides and platforms differ by market."
+    "copy": "Romania: 160,000 · Neonatology Association, Association of Pediatricians · Bulgaria: 30,000 · Association of Pediatricians · Serbia: 30,000 · specialists in pediatrics and neonatology · Greece: 50,000 · collaboration with doctors · Cyprus: —",
+    "proof": "START volume table",
+    "intro": "Volumes and medical recommendations by market."
    },
    {
     "name": "Numbers",
     "comp": "stat-row",
-    "copy": "80,000+ new mothers a year · 100,000+ Babyspace members · 45,000+ mums on Mybabywinner",
-    "proof": "Medium 2024 [confirm 2026] · Natal Kit: ~80,900 Greece/year"
+    "copy": "270,000+ new mothers a year · Romania 160,000 · Greece 50,000 · Bulgaria 30,000 · Serbia 30,000",
+    "proof": "START volume table"
    },
    {
     "name": "Luxury edition",
@@ -357,7 +354,6 @@
   ],
   "cta": "Plan my START",
   "open": [
-   "Boxes per year outside Greece.",
    "Category restrictions (e.g. infant formula)."
   ],
   "note": "Shortened. Split from Luxury Moments."
@@ -430,20 +426,20 @@
    {
     "name": "About START First Foods",
     "comp": "program-about",
-    "copy": "START First Foods reaches families as their baby starts solid food, at about 6 months. The box is delivered home with a guide for the first-foods months: a second wave of trial for food, feeding and care brands. || When: Baby at 6 months · Where: Delivered home · Platform: Babyspace, Myparenthood, Mybabywinner, HeyMaa",
+    "copy": "START First Foods reaches families as their baby starts solid food, at about 6 months. The box is delivered home: a second wave of trial for food, feeding and care brands. || When: Baby at 6 months · Where: Delivered home · Platform: Babyspace, Myparenthood, Mybabywinner, HeyMaa",
     "proof": "START program table"
    },
    {
     "name": "Your brand gets",
     "comp": "card-grid",
-    "copy": "Samples in the box: delivered home as baby starts solid food · An ad in the guide: a printed guide for the first-foods months · Consented follow-up: email, SMS, call centre and direct mail after registration · Our platforms: Babyspace, Myparenthood, Mybabywinner and HeyMaa keep the conversation going",
+    "copy": "Samples in the box: delivered home as baby starts solid food · Consented follow-up after registration on the channels that fit · Our platforms: Babyspace, Myparenthood, Mybabywinner and HeyMaa keep the conversation going",
     "proof": "START model",
     "intro": "What your brand gets in START First Foods."
    },
    {
     "name": "Guides & platforms by country",
     "comp": "country-tabs",
-    "copy": "Serbia: Breastfeeding Guide 2026 (first foods), Mybabywinner · Greece, Romania, Bulgaria, Cyprus: [box and volume]",
+    "copy": "Serbia: Mybabywinner · Greece, Romania, Bulgaria, Cyprus: [box and volume]",
     "proof": "start_guides",
     "intro": "Where START First Foods runs today."
    },
@@ -491,16 +487,16 @@
    {
     "name": "Your brand gets",
     "comp": "card-grid",
-    "copy": "Samples in the box: in children's hands on their first school day · An ad in the School Guide 2026: read by parents all year · Consented follow-up: email, SMS, call centre and direct mail after registration · Our platform: Myschoolwinner, the first school year online for families",
+    "copy": "Samples in the box: in children's hands on their first school day · Consented follow-up after registration on the channels that fit · Our platform: Myschoolwinner, the first school year online for families",
     "proof": "START model",
     "intro": "What your brand gets in START First Grade."
    },
    {
     "name": "Guides & platforms by country",
     "comp": "country-tabs",
-    "copy": "Greece: Myschoolwinner · Romania: School Guide 2026, Myschoolwinner · Bulgaria: School Guide 2026, Myschoolwinner · Serbia: School Guide 2026, Myschoolwinner",
+    "copy": "Greece: Myschoolwinner · Romania: Myschoolwinner · Bulgaria: Myschoolwinner · Serbia: Myschoolwinner",
     "proof": "[Box volumes per country]",
-    "intro": "Myschoolwinner runs in all four markets; the School Guide 2026 in three."
+    "intro": "Myschoolwinner runs in all four markets."
    },
    {
     "name": "Want a lesson in class?",
@@ -531,27 +527,27 @@
   "note": "Shortened."
  },
  "st-teen": {
-  "job": "Sell brands START Teen Girl: reach people at start of puberty, in [Channel to confirm], and get a brief.",
+  "job": "Sell brands START Teen Girl: reach people at start of puberty, delivered home by courier, and get a brief.",
   "t": "START Teen Girl: puberty program | START by Care Direct",
-  "m": "At the start of puberty: samples, a guide, and follow-up with trusted products and guidance. Put your brand in START Teen Girl.",
+  "m": "At the start of puberty: samples delivered home and follow-up with trusted products and guidance. Put your brand in START Teen Girl.",
   "h1": "START Teen Girl.",
   "sections": [
    {
     "name": "Hero",
     "comp": "program-hero",
-    "copy": "The start of puberty · [Schools, pharmacies]. Samples, a guide, and follow-up: the first products of their own, with guidance they can trust.",
+    "copy": "The start of puberty · Delivered home by courier. Samples and follow-up: the first products of their own, with guidance they can trust.",
     "proof": "START program table"
    },
    {
     "name": "About START Teen Girl",
     "comp": "program-about",
-    "copy": "START Teen Girl reaches girls at the start of puberty. They get samples in their hands, a printed guide with trusted advice, and follow-up after registration — handed out at [schools, pharmacies]. || When: The start of puberty · Where: [Schools, pharmacies] · Platform: [to confirm]",
+    "copy": "START Teen Girl reaches girls at the start of puberty. The box is delivered home by courier, with follow-up after registration. || When: The start of puberty · Where: Delivered home by courier · Platform: Care Direct online communities",
     "proof": "START program table"
    },
    {
     "name": "Your brand gets",
     "comp": "card-grid",
-    "copy": "Samples in their hands: the first products she chooses for herself · An ad in the guide: a printed guide with trusted advice · Consented follow-up: email, SMS, call centre and direct mail after registration · Our platform: [to confirm]",
+    "copy": "Samples in the box: the first products she chooses for herself · Delivered home by courier · Consented follow-up after registration on the channels that fit · Care Direct online communities keep the conversation going",
     "proof": "START model",
     "intro": "What your brand gets in START Teen Girl."
    },
@@ -565,34 +561,33 @@
   ],
   "cta": "Plan my START",
   "open": [
-   "Channel and countries.",
-   "Parent consent for minors.",
-   "Guide."
+   "Countries and volumes.",
+   "Parent consent for minors."
   ],
   "note": "Shortened."
  },
  "st-high": {
   "job": "Sell brands START High School: reach people at first year of high school (15–16), in High schools, and get a brief.",
   "t": "START High School: life-stage program | START by Care Direct",
-  "m": "Students starting high school at 15–16: samples, a guide, and START 9 for their first year.",
+  "m": "Students starting high school at 15–16: samples and START 9 for their first year.",
   "h1": "START High School.",
   "sections": [
    {
     "name": "Hero",
     "comp": "program-hero",
-    "copy": "Entering high school, 15–16 · High schools. New class, new people, still you: samples, a guide, and START 9.",
+    "copy": "Entering high school, 15–16 · High schools. New class, new people, still you: samples and START 9.",
     "proof": "START program table"
    },
    {
     "name": "About START High School",
     "comp": "program-about",
-    "copy": "START High School reaches students as they enter high school at 15–16. They get samples in their hands, a guide, and START 9 — the interactive web guide for their first year: new class, new people, still you. || When: Entering high school, 15–16 · Where: High schools · Platform: START 9 (startliceu.life)",
+    "copy": "START High School reaches students as they enter high school at 15–16. They get samples in their hands and START 9 — the interactive web guide for their first year: new class, new people, still you. || When: Entering high school, 15–16 · Where: High schools · Platform: START 9 (startliceu.life)",
     "proof": "START program table"
    },
    {
     "name": "Your brand gets",
     "comp": "card-grid",
-    "copy": "Samples in their hands: as high school begins · An ad in the guide: [printed guide to confirm] · Consented follow-up: email, SMS, call centre and direct mail after registration · Our platform: START 9 (startliceu.life), the web guide for their first year",
+    "copy": "Samples in their hands: as high school begins · Consented follow-up after registration on the channels that fit · Our platform: START 9 (startliceu.life), the web guide for their first year",
     "proof": "START model",
     "intro": "What your brand gets in START High School."
    },
@@ -614,7 +609,6 @@
   "cta": "Plan my START",
   "open": [
    "Reach and schools in Romania.",
-   "Printed guide?",
    "Other countries."
   ],
   "note": "Shortened."
@@ -622,25 +616,25 @@
  "st-uni": {
   "job": "Sell brands START University: reach people at first year at university, in Universities, and get a brief.",
   "t": "START University: life-stage program | START by Care Direct",
-  "m": "First-year students making their first independent purchases: samples, a guide, and UniStart+.",
+  "m": "First-year students making their first independent purchases: samples and UniStart+.",
   "h1": "START University.",
   "sections": [
    {
     "name": "Hero",
     "comp": "program-hero",
-    "copy": "First year at university · Universities. Samples, a guide, and UniStart+ for their first independent purchases.",
+    "copy": "First year at university · Universities. Samples and UniStart+ for their first independent purchases.",
     "proof": "START program table"
    },
    {
     "name": "About START University",
     "comp": "program-about",
-    "copy": "START University reaches first-year students as they make their first independent purchases. They get samples in their hands, a guide, and UniStart+ — the digital student guidebook. || When: First year at university · Where: Universities · Platform: UniStart+ (uni-start.com)",
+    "copy": "START University reaches first-year students as they make their first independent purchases. They get samples in their hands and UniStart+ — the digital student guidebook. || When: First year at university · Where: Universities · Platform: UniStart+ (uni-start.com)",
     "proof": "START program table"
    },
    {
     "name": "Your brand gets",
     "comp": "card-grid",
-    "copy": "Samples in their hands: in their first year · An ad in the guide: [printed guide to confirm] · Consented follow-up: email, SMS, call centre and direct mail after registration · Our platform: UniStart+, with a 'Partners of the 2026 box' listing",
+    "copy": "Samples in their hands: in their first year · Consented follow-up after registration on the channels that fit · Our platform: UniStart+, with a 'Partners of the 2026 box' listing",
     "proof": "START model",
     "intro": "What your brand gets in START University."
    },
@@ -669,8 +663,7 @@
   "cta": "Plan my START",
   "open": [
    "Reach in Bulgaria.",
-   "Serbia 2024: START University?",
-   "Printed guide?"
+   "Serbia 2024: START University?"
   ],
   "note": "Shortened."
  },
@@ -689,13 +682,13 @@
    {
     "name": "About START Army",
     "comp": "program-about",
-    "copy": "START Army reaches young men on recruitment day at military camps, the day they enter service. A hard-to-reach audience gets your product, in one place, with a printed guide they take with them. || When: Recruitment day · Where: Military camps · Platform: [to confirm]",
+    "copy": "START Army reaches young men on recruitment day at military camps, the day they enter service. A hard-to-reach audience gets your product in one place. || When: Recruitment day · Where: Military camps · Platform: Care Direct online communities",
     "proof": "START program table"
    },
    {
     "name": "Your brand gets",
     "comp": "card-grid",
-    "copy": "Samples in their hands: on their first day of service · An ad in the guide: a printed guide they take with them · Consented follow-up: email, SMS, call centre and direct mail after registration · Our platform: [to confirm]",
+    "copy": "Samples in their hands: on their first day of service · Consented follow-up after registration on the channels that fit · Care Direct online communities keep the conversation going",
     "proof": "START model",
     "intro": "What your brand gets in START Army."
    },
@@ -736,20 +729,20 @@
    {
     "name": "About START Ladies",
     "comp": "program-about",
-    "copy": "START Ladies reaches women 50+ entering menopause at gynaecology clinics, during their annual examination. They get trial and trusted guidance during a big change. || When: 50+, entering menopause · Where: Gynaecology clinics · Platform: LadiesBook (ladiesbook.gr)",
+    "copy": "START Ladies reaches women 50+ entering menopause at gynaecology clinics, during their annual examination. They get a printed guide and trusted guidance on LadiesBook during a big change. || When: 50+, entering menopause · Where: Gynaecology clinics · Platform: LadiesBook (ladiesbook.gr)",
     "proof": "START program table"
    },
    {
     "name": "Your brand gets",
     "comp": "card-grid",
-    "copy": "Samples in the box: handed over at the annual examination · An ad in the guide: [printed guide to confirm] · Consented follow-up: email, SMS, call centre and direct mail after registration · Our platform: LadiesBook (ladiesbook.gr), the online magazine for women 50+",
+    "copy": "Samples in the box: handed over at the annual examination · An ad in the printed Ladies guide · Consented follow-up after registration on the channels that fit · Our platform: LadiesBook (ladiesbook.gr), the online magazine for women 50+",
     "proof": "START model",
     "intro": "What your brand gets in START Ladies."
    },
    {
     "name": "Guides & platforms by country",
     "comp": "country-tabs",
-    "copy": "Greece: LadiesBook, online magazine for women 50+.",
+    "copy": "Greece: printed Ladies guide · LadiesBook (ladiesbook.gr).",
     "proof": "Programs table",
     "intro": "Where START Ladies runs today."
    },
@@ -764,13 +757,12 @@
   "cta": "Plan my START",
   "open": [
    "Is the Ladies box running?",
-   "Volume and clinics.",
-   "Printed guide?"
+   "Volume and clinics."
   ],
   "note": "Shortened."
  },
  "st-seniors": {
-  "job": "Sell brands START Seniors: reach people at starting retirement, in [Channel to confirm], and get a brief.",
+  "job": "Sell brands START Seniors: reach people at starting retirement, at home and senior community venues, and get a brief.",
   "t": "START Seniors: retirement sampling | START by Care Direct",
   "m": "People starting retirement: new routines, new time, new choices. Put your product in their hands.",
   "h1": "START Seniors.",
@@ -778,19 +770,19 @@
    {
     "name": "Hero",
     "comp": "program-hero",
-    "copy": "Starting retirement · [Channel to confirm]. A new rhythm of life, new routines and new brands.",
+    "copy": "Starting retirement · Home and senior community venues. A new rhythm of life, new routines and new brands.",
     "proof": "START program table"
    },
    {
     "name": "About START Seniors",
     "comp": "program-about",
-    "copy": "START Seniors reaches people at the start of retirement: new routines, new time, new choices. They get a box and a printed guide for the years ahead. || When: Starting retirement · Where: [Channel to confirm] · Platform: [to confirm]",
+    "copy": "START Seniors reaches people at the start of retirement: new routines, new time, new choices. Boxes go home and to public places where seniors gather. || When: Starting retirement · Where: Home and senior community venues · Platform: Care Direct online communities",
     "proof": "START program table"
    },
    {
     "name": "Your brand gets",
     "comp": "card-grid",
-    "copy": "Samples in the box: in their hands as new routines begin · An ad in the guide: a printed guide for the years ahead · Consented follow-up: email, SMS, call centre and direct mail after registration · Our platform: [to confirm]",
+    "copy": "Samples in the box: at home and where seniors gather · Consented follow-up after registration on the channels that fit · Care Direct online communities keep the conversation going",
     "proof": "START model",
     "intro": "What your brand gets in START Seniors."
    },
@@ -804,8 +796,7 @@
   ],
   "cta": "Plan my START",
   "open": [
-   "Channel and countries.",
-   "Guide and platform."
+   "Countries and volumes."
   ],
   "note": "Shortened."
  },
@@ -830,7 +821,7 @@
    {
     "name": "Your brand gets",
     "comp": "card-grid",
-    "copy": "Samples in the Christmas box: in children's hands for the festive school moment · A seasonal guide moment parents keep · Consented follow-up: email, SMS, call centre and direct mail after registration · Our platform: Myschoolwinner for families",
+    "copy": "Samples in the Christmas box: in children's hands for the festive school moment · Consented follow-up after registration on the channels that fit · Our platform: Myschoolwinner for families",
     "proof": "START model",
     "intro": "What your brand gets in START First Grade Christmas."
    },

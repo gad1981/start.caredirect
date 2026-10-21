@@ -103,15 +103,10 @@ export async function ProgramPage({
             alt={prog.name}
             fill
             priority
+            quality={92}
             sizes="100vw"
           />
         </div>
-        {brand?.kvSrc ? (
-          <div className={styles.kv} aria-hidden>
-            {/* eslint-disable-next-line @next/next/no-img-element */}
-            <img className={styles.kvImg} src={brand.kvSrc} alt="" />
-          </div>
-        ) : null}
         <div className={styles.wrap}>
           <div className={styles.heroCard}>
             {plan?.hero ? (
@@ -303,33 +298,35 @@ export async function ProgramPage({
         </section>
       ) : null}
 
-      <div className={styles.band}>
-        {plan?.band ? (
-          // eslint-disable-next-line @next/next/no-img-element
-          <img
-            className={styles.bandSticker}
-            src={doodleSrc(plan.band)}
-            alt=""
-            width={72}
-            height={72}
-          />
-        ) : null}
-        <div className={styles.bandBrand}>
-          {brand ? (
+      <div className={styles.wrap}>
+        <div className={styles.band}>
+          {plan?.band ? (
             // eslint-disable-next-line @next/next/no-img-element
             <img
-              className={styles.bandLogo}
-              src={brand.logoSrc}
+              className={styles.bandSticker}
+              src={doodleSrc(plan.band)}
               alt=""
-              width={200}
-              height={70}
+              width={72}
+              height={72}
             />
           ) : null}
-          <h2>{prog.name}</h2>
+          <div className={styles.bandBrand}>
+            {brand ? (
+              // eslint-disable-next-line @next/next/no-img-element
+              <img
+                className={styles.bandLogo}
+                src={brand.logoSrc}
+                alt=""
+                width={200}
+                height={70}
+              />
+            ) : null}
+            <h2>{prog.name}</h2>
+          </div>
+          <Button href={planHref} accent={Boolean(tone)}>
+            {page.cta}
+          </Button>
         </div>
-        <Button href={planHref} accent={Boolean(tone)}>
-          {page.cta}
-        </Button>
       </div>
 
       <section className={styles.brief} id="brief" aria-labelledby="brief-h2">

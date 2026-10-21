@@ -16,7 +16,7 @@
    ""
   ],
   [
-   "120,000+",
+   "290,000+",
    "mothers a year in START Pregnancy and Newborn",
    ""
   ],
@@ -95,8 +95,8 @@
    "tagline": "Baby's first spoon",
    "hands": [
     "Samples in the box",
-    "An ad in the first-foods guide",
-    "Delivered home at 6 months"
+    "Delivered home at 6 months",
+    "Consented follow-up after registration"
    ],
    "online": [
     "Babyspace and Myparenthood",
@@ -113,8 +113,8 @@
    "tagline": "The first school bell",
    "hands": [
     "Samples in the first-day box",
-    "An ad in the School Guide 2026",
-    "Handed out in primary schools"
+    "Handed out in primary schools",
+    "Consented follow-up after registration"
    ],
    "online": [
     "Myschoolwinner for families",
@@ -131,8 +131,8 @@
    "tagline": "Christmas at school",
    "hands": [
     "Samples in the Christmas box",
-    "Festive school guide moment",
-    "Handed out in primary schools"
+    "Handed out in primary schools",
+    "Consented follow-up after registration"
    ],
    "online": [
     "Myschoolwinner for families",
@@ -144,18 +144,18 @@
    "id": "st-teen",
    "name": "START Teen Girl",
    "when": "The start of puberty",
-   "where": "[Schools, pharmacies]",
-   "desc": "At the start of puberty: samples in her hands, a guide she keeps, and follow-up that turns first products into brands she trusts.",
+   "where": "Delivered home by courier",
+   "desc": "At the start of puberty: samples in her hands and follow-up that turns first products into brands she trusts.",
    "tagline": "Growing up, her way",
    "hands": [
-    "Samples in her hands",
-    "A guide she keeps",
-    "Follow-up: email, SMS, call centre, direct mail"
+    "Samples in the box",
+    "Delivered home by courier",
+    "Consented follow-up after registration"
    ],
    "online": [
-    "Our platform [to confirm]",
+    "Care Direct online communities",
     "Content she trusts",
-    "Follow-up: email, SMS, call centre, direct mail"
+    "Follow-up on the channels that fit"
    ]
   },
   {
@@ -163,17 +163,17 @@
    "name": "START High School",
    "when": "Entering high school, 15–16",
    "where": "High schools · web guide START 9",
-   "desc": "New class, new people. Samples, a guide, and START 9 — the interactive web guide for their first year.",
+   "desc": "New class, new people. Samples and START 9 — the interactive web guide for their first year.",
    "tagline": "New class, new people",
    "hands": [
     "Samples in their hands",
-    "An ad in the guide [to confirm]",
-    "Handed out in high schools"
+    "Handed out in high schools",
+    "Consented follow-up after registration"
    ],
    "online": [
     "START 9 web guide (Romania)",
     "Goals and tips for the first year",
-    "Follow-up: email, SMS, call centre, direct mail"
+    "Follow-up on the channels that fit"
    ]
   },
   {
@@ -181,17 +181,17 @@
    "name": "START University",
    "when": "First year at university",
    "where": "Universities · web guide UniStart+",
-   "desc": "First-year students making their first independent purchases: samples, a guide, and UniStart+.",
+   "desc": "First-year students making their first independent purchases: samples and UniStart+.",
    "tagline": "First year, first independence",
    "hands": [
     "Samples in their hands",
-    "An ad in the guide [to confirm]",
-    "Handed out at universities"
+    "Handed out at universities",
+    "Consented follow-up after registration"
    ],
    "online": [
     "UniStart+ student guidebook (Bulgaria)",
     "Partners of the box, listed online",
-    "Follow-up: email, SMS, call centre, direct mail"
+    "Follow-up on the channels that fit"
    ]
   },
   {
@@ -203,49 +203,49 @@
    "tagline": "First day in service",
    "hands": [
     "Samples in their hands",
-    "An ad in the guide they take with them",
-    "Handed out in military camps"
+    "Handed out in military camps",
+    "Consented follow-up after registration"
    ],
    "online": [
-    "Our platform [to confirm]",
+    "Care Direct online communities",
     "A hard-to-reach audience, in one place",
-    "Follow-up: email, SMS, call centre, direct mail"
+    "Follow-up on the channels that fit"
    ]
   },
   {
    "id": "st-marriage",
    "name": "START Marriage",
    "when": "Getting married",
-   "where": "[Registries, venues, municipalities]",
+   "where": "Delivered home by courier",
    "desc": "Couples setting up a home together try your product as they choose their first shared brands.",
    "tagline": "A home for two",
    "hands": [
     "Samples in the box",
-    "An ad in the first-home guide",
-    "Handed out at [registries, venues, municipalities]"
+    "Delivered home by courier",
+    "Consented follow-up after registration"
    ],
    "online": [
-    "Our platform [to confirm]",
+    "Care Direct online communities",
     "First shared brands",
-    "Follow-up: email, SMS, call centre, direct mail"
+    "Follow-up on the channels that fit"
    ]
   },
   {
    "id": "st-pet",
    "name": "START Pet",
    "when": "A new pet at home",
-   "where": "[Vets, pet shops]",
+   "where": "Vets and adoption organisations",
    "desc": "New owners get your product in the first weeks, while they're still choosing food, care and accessories.",
    "tagline": "A new family member",
    "hands": [
     "Samples in the box",
-    "An ad in the first-weeks guide",
-    "Handed out at [vets, pet shops]"
+    "Handed out at vets and adoption organisations",
+    "Consented follow-up after registration"
    ],
    "online": [
-    "Our platform [to confirm]",
+    "Care Direct online communities",
     "Routines that last",
-    "Follow-up: email, SMS, call centre, direct mail"
+    "Follow-up on the channels that fit"
    ]
   },
   {
@@ -257,31 +257,31 @@
    "tagline": "A new chapter at 50+",
    "hands": [
     "Samples in the box",
-    "An ad in the guide [to confirm]",
+    "An ad in the Ladies guide",
     "Handed over at gynaecology clinics"
    ],
    "online": [
-    "LadiesBook online magazine",
+    "LadiesBook (ladiesbook.gr)",
     "Trusted guidance for midlife",
-    "Follow-up: email, SMS, call centre, direct mail"
+    "Follow-up on the channels that fit"
    ]
   },
   {
    "id": "st-seniors",
    "name": "START Seniors",
    "when": "Starting retirement",
-   "where": "[Channel to confirm]",
+   "where": "Home and senior community venues",
    "desc": "A new rhythm of life, new routines and new brands, at the start of retirement.",
    "tagline": "Time for themselves",
    "hands": [
     "Samples in the box",
-    "An ad in the guide for the years ahead",
-    "Handed out at [channel to confirm]"
+    "Delivered home and at places seniors gather",
+    "Consented follow-up after registration"
    ],
    "online": [
-    "Our platform [to confirm]",
+    "Care Direct online communities",
     "New routines, new brands",
-    "Follow-up: email, SMS, call centre, direct mail"
+    "Follow-up on the channels that fit"
    ]
   }
  ],
@@ -295,15 +295,15 @@
    ],
    [
     "2 · The guide",
-    "A printed guide in every box, also online as a flipbook; for teens and students, a web guide. Your brand earns a useful place, not just an ad slot."
+    "A guide with every box — print, digital, or web, depending on the audience. Your brand earns a useful place, not just an ad slot."
    ],
    [
     "3 · The follow-up",
-    "Opt-in, GDPR-compliant registration, then email, SMS, call centre and direct mail continue the conversation."
+    "Opt-in, GDPR-compliant registration collects email, phone, mobile and address — then we continue the conversation on the channels that fit each market."
    ],
    [
     "4 · The platform",
-    "Our own platforms (Babyspace, Myparenthood, HeyMaa, Mybabywinner, Momtag, Myschoolwinner, LadiesBook) keep the audience close and roll them into the next START."
+    "Care Direct's in-house online communities keep the audience close and roll them into the next START."
    ]
   ]
  },

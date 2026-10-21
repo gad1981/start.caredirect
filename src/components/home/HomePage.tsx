@@ -37,10 +37,11 @@ export async function HomePage({ locale }: { locale: Locale }) {
       <section className={styles.hero} aria-labelledby="home-h1">
         <div className={styles.photo}>
           <Image
-            src="/assets/heroes/home-hero-five-life-stages.webp"
+            src="/assets/heroes/home-hero-five-life-stages.png"
             alt="Five people at different life stages holding their START kits"
             fill
             priority
+            quality={92}
             sizes="100vw"
           />
         </div>
@@ -89,6 +90,7 @@ export async function HomePage({ locale }: { locale: Locale }) {
                             src={programTileSrc(s.prog.assetKey)}
                             alt=""
                             fill
+                            quality={90}
                             sizes="(max-width:600px) 100vw, (max-width:900px) 50vw, 25vw"
                           />
                           <span className={styles.tileShade} aria-hidden />
@@ -140,6 +142,7 @@ export async function HomePage({ locale }: { locale: Locale }) {
                         src={programTileSrc(s.prog.assetKey)}
                         alt=""
                         fill
+                        quality={90}
                         sizes="(max-width:600px) 100vw, (max-width:900px) 50vw, 25vw"
                       />
                       <span className={styles.tileShade} aria-hidden />

@@ -11,9 +11,6 @@ import styles from "./Footer.module.css";
 
 export function Footer({ footerLine }: { footerLine: string }) {
   const { locale, messages } = useLocale();
-  const mid = Math.ceil(LISTED_PROGRAMS.length / 2);
-  const left = LISTED_PROGRAMS.slice(0, mid);
-  const right = LISTED_PROGRAMS.slice(mid);
 
   return (
     <footer className={styles.footer}>
@@ -22,21 +19,15 @@ export function Footer({ footerLine }: { footerLine: string }) {
           <span className={styles.mark} aria-hidden />
           <p className={styles.tag}>{messages.tagline}</p>
         </div>
-        <div className={styles.col}>
+        <div className={`${styles.col} ${styles.programs}`}>
           <h2>{messages.programs}</h2>
-          {left.map((p) => (
-            <Link key={p.id} href={localePath(locale, `/${p.slug}/`)}>
-              {p.name}
-            </Link>
-          ))}
-        </div>
-        <div className={styles.col}>
-          <h2>{messages.programs}</h2>
-          {right.map((p) => (
-            <Link key={p.id} href={localePath(locale, `/${p.slug}/`)}>
-              {p.name}
-            </Link>
-          ))}
+          <div className={styles.programLinks}>
+            {LISTED_PROGRAMS.map((p) => (
+              <Link key={p.id} href={localePath(locale, `/${p.slug}/`)}>
+                {p.name}
+              </Link>
+            ))}
+          </div>
         </div>
         <div className={styles.col}>
           <h2>{messages.forBrands}</h2>

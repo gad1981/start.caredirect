@@ -44,7 +44,7 @@ export const PROGRAMS: {
     id: "st-luxury",
     slug: "newbornluxury",
     name: "START Luxury Moments",
-    assetKey: "natal",
+    assetKey: "natal-luxury",
   },
   { id: "st-next", slug: "first-foods", name: "START First Foods", assetKey: "next" },
   { id: "st-school", slug: "first-grade", name: "START First Grade", assetKey: "school" },
@@ -85,14 +85,40 @@ export function getProgramById(id: string) {
   return byId[id as ProgramId] ?? null;
 }
 
+function stageHeroExt(assetKey: string) {
+  if (assetKey === "teen") return "webp";
+  if (
+    assetKey === "pregnancy" ||
+    assetKey === "pet" ||
+    assetKey === "natal" ||
+    assetKey === "natal-luxury"
+  ) {
+    return "png";
+  }
+  return "jpg";
+}
+
+function stageTileExt(assetKey: string) {
+  if (assetKey === "teen") return "webp";
+  if (
+    assetKey === "pregnancy" ||
+    assetKey === "pet" ||
+    assetKey === "natal" ||
+    assetKey === "natal-luxury"
+  ) {
+    return "png";
+  }
+  return "jpg";
+}
+
 export function programHeroSrc(assetKey: string) {
-  const webp = assetKey === "teen";
-  return `/assets/start-stages/hero-st-${assetKey}.${webp ? "webp" : "jpg"}`;
+  const key = assetKey === "pregnancy" ? "pregnancy-v3" : assetKey;
+  return `/assets/start-stages/hero-st-${key}.${stageHeroExt(assetKey)}`;
 }
 
 export function programTileSrc(assetKey: string) {
-  const webp = assetKey === "teen";
-  return `/assets/start-stages/tile-st-${assetKey}.${webp ? "webp" : "jpg"}`;
+  const key = assetKey === "pregnancy" ? "pregnancy-v3" : assetKey;
+  return `/assets/start-stages/tile-st-${key}.${stageTileExt(assetKey)}`;
 }
 
 export function padNum(index: number) {

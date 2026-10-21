@@ -10,8 +10,14 @@
   margin: 0 auto;
   padding: 36px 18px 28px;
   display: grid;
-  grid-template-columns: minmax(0, 1.2fr) repeat(2, minmax(0, 1fr)) minmax(0, 0.9fr);
+  grid-template-columns: minmax(0, 1.2fr) minmax(0, 2fr) minmax(0, 0.9fr);
   gap: 28px;
+}
+
+.programLinks {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  gap: 0 28px;
 }
 
 .mark {
@@ -89,10 +95,18 @@
   .inner {
     grid-template-columns: 1fr 1fr;
   }
+
+  .programs {
+    grid-column: 1 / -1;
+  }
 }
 
 @media (max-width: 600px) {
   .inner {
+    grid-template-columns: 1fr;
+  }
+
+  .programLinks {
     grid-template-columns: 1fr;
   }
 }

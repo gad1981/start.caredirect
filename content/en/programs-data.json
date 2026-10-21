@@ -96,13 +96,13 @@
   "st-marriage": {
    "name": "START Marriage",
    "when": "Getting married",
-   "where": "[Channel: registries, wedding venues, municipalities]",
+   "where": "Delivered home by courier",
    "desc": "Newlyweds setting up their first home together choose the brands they will live with."
   },
   "st-pet": {
    "name": "START Pet",
    "when": "A new pet at home",
-   "where": "[Channel: vets, pet shops]",
+   "where": "Vets and adoption organisations",
    "desc": "A new pet is a new start for the whole home: owners try your product as they build new routines."
   },
   "st-school": {
@@ -114,20 +114,20 @@
   "st-teen": {
    "name": "START Teen Girl",
    "when": "Start of puberty",
-   "where": "[Channel to confirm]",
-   "desc": "At the start of puberty: samples, a guide, and follow-up with trusted products and guidance."
+   "where": "Delivered home by courier",
+   "desc": "At the start of puberty: samples and follow-up with trusted products and guidance."
   },
   "st-high": {
    "name": "START High School",
    "when": "First year of high school (15–16)",
    "where": "High schools",
-   "desc": "Boys and girls starting high school, a big change. Samples, a guide, and START 9 for their first year."
+   "desc": "Boys and girls starting high school, a big change. Samples and START 9 for their first year."
   },
   "st-uni": {
    "name": "START University",
    "when": "First year at university",
    "where": "Universities",
-   "desc": "First-year students making their first independent purchases. Samples, a guide, and UniStart+."
+   "desc": "First-year students making their first independent purchases. Samples and UniStart+."
   },
   "st-army": {
    "name": "START Army",
@@ -138,7 +138,7 @@
   "st-seniors": {
    "name": "START Seniors",
    "when": "Starting retirement",
-   "where": "[Channel to confirm]",
+   "where": "Home and senior community venues",
    "desc": "People starting retirement: new routines, new time, new choices."
   },
   "st-silver": {
@@ -159,36 +159,36 @@
    "st-natal",
    "GR",
    "confirmed",
-   "About 80,000 new mothers a year, maternity clinics, 2–3 days after birth",
-   "Medium 2024"
+   "50,000 new mothers a year · collaboration with doctors · maternity clinics, 2–3 days after birth",
+   "START volume table"
   ],
   [
    "st-natal",
    "BG",
    "confirmed",
-   "Hospital sampling; Sudocrem reached 85% of new mothers a year; Bochko",
-   "Testimonial, Medium 2024"
+   "30,000 new mothers a year · Association of Pediatricians",
+   "START volume table"
   ],
   [
    "st-natal",
    "CY",
-   "partial",
-   "Natal gift boxes carry Mybabywinner leaflets [volume to confirm]",
-   "Medium 2024"
+   "unknown",
+   "No Natal volume listed",
+   "START volume table"
   ],
   [
    "st-natal",
    "RS",
-   "partial",
-   "Natal gift boxes carry Mybabywinner leaflets [volume to confirm]",
-   "Medium 2024"
+   "confirmed",
+   "30,000 new mothers a year · specialists in pediatrics and neonatology",
+   "START volume table"
   ],
   [
    "st-natal",
    "RO",
-   "partial",
-   "BOOM guide Romanian edition in the box [volume to confirm]",
-   "Current site"
+   "confirmed",
+   "160,000 new mothers a year · Neonatology Association, Association of Pediatricians",
+   "START volume table"
   ],
   [
    "st-natal",
@@ -201,29 +201,36 @@
    "st-pregnancy",
    "GR",
    "confirmed",
-   "About 40,000 pregnant women a year, clinics, 3rd trimester",
-   "Medium 2024"
+   "20,000 pregnant women a year · collaboration with doctors · clinics, 3rd trimester",
+   "START volume table"
   ],
   [
    "st-pregnancy",
    "CY",
-   "partial",
-   "BOOM guide Cypriot edition [volume to confirm]",
-   "Current site"
+   "unknown",
+   "No Prenatal volume listed",
+   "START volume table"
   ],
   [
    "st-pregnancy",
    "RO",
-   "partial",
-   "BOOM guide Romanian edition [volume to confirm]",
-   "Current site"
+   "unknown",
+   "No Prenatal volume listed",
+   "START volume table"
   ],
   [
    "st-pregnancy",
    "BG",
-   "partial",
-   "BOOM guide Bulgarian edition [volume to confirm]",
-   "Current site"
+   "unknown",
+   "No Prenatal volume listed",
+   "START volume table"
+  ],
+  [
+   "st-pregnancy",
+   "RS",
+   "unknown",
+   "No Prenatal volume listed",
+   "START volume table"
   ],
   [
    "st-school",
