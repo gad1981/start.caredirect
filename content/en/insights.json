@@ -1,0 +1,660 @@
+{
+  "st-pregnancy": [
+    {
+      "country": "Greece",
+      "reach": "20,000 expecting mothers / year",
+      "cities": "Athens, Thessaloniki, Patras and clinics nationwide",
+      "channels": "Gyn & maternity clinics · 3rd trimester",
+      "app": "Babyspace · Myparenthood",
+      "guide": "BOOM guide (printed)",
+      "tirage": "With the box · doctor collaboration"
+    },
+    {
+      "country": "Romania",
+      "reach": "Prenatal volume to confirm",
+      "cities": "Bucharest and maternity network — expanding",
+      "channels": "Gyn & maternity clinics",
+      "app": "Babyspace · HeyMaa (pilot)",
+      "guide": "—",
+      "tirage": "—"
+    },
+    {
+      "country": "Bulgaria",
+      "reach": "Prenatal volume to confirm",
+      "cities": "Sofia and maternity network — expanding",
+      "channels": "Gyn & maternity clinics",
+      "app": "Babyspace",
+      "guide": "—",
+      "tirage": "—"
+    },
+    {
+      "country": "Serbia",
+      "reach": "Prenatal volume to confirm",
+      "cities": "Belgrade and maternity network — expanding",
+      "channels": "Gyn & maternity clinics",
+      "app": "Mybabywinner",
+      "guide": "—",
+      "tirage": "—"
+    },
+    {
+      "country": "Cyprus",
+      "reach": "Prenatal volume to confirm",
+      "cities": "Nicosia, Limassol — expanding",
+      "channels": "Gyn & maternity clinics",
+      "app": "Mybabywinner",
+      "guide": "—",
+      "tirage": "—"
+    }
+  ],
+  "st-natal": [
+    {
+      "country": "Greece",
+      "reach": "50,000 new mothers / year",
+      "cities": "Public & private maternity clinics nationwide",
+      "channels": "Handed 2–3 days after birth",
+      "app": "Babyspace · Myparenthood",
+      "guide": "Natal Guide · Σχέσεις Στοργής",
+      "tirage": "Printed with the first-days box"
+    },
+    {
+      "country": "Romania",
+      "reach": "160,000 new mothers / year",
+      "cities": "Maternity clinics nationwide",
+      "channels": "Neonatology & Pediatrics associations",
+      "app": "Babyspace · HeyMaa (pilot)",
+      "guide": "Natal Guide 2026 · Breastfeeding Guide 2026",
+      "tirage": "Printed with the box"
+    },
+    {
+      "country": "Bulgaria",
+      "reach": "30,000 new mothers / year",
+      "cities": "Maternity clinics nationwide",
+      "channels": "Association of Pediatricians",
+      "app": "Babyspace",
+      "guide": "Natal Guide",
+      "tirage": "Printed with the box"
+    },
+    {
+      "country": "Serbia",
+      "reach": "30,000 new mothers / year",
+      "cities": "Maternity clinics nationwide",
+      "channels": "Pediatrics & neonatology specialists",
+      "app": "Mybabywinner",
+      "guide": "Breastfeeding Guide 2026",
+      "tirage": "Printed with the box"
+    },
+    {
+      "country": "Cyprus",
+      "reach": "Volume to confirm",
+      "cities": "Maternity clinics — expanding",
+      "channels": "2–3 days after birth",
+      "app": "Mybabywinner",
+      "guide": "—",
+      "tirage": "—"
+    }
+  ],
+  "st-luxury": [
+    {
+      "country": "Greece",
+      "reach": "Private-suite mothers / year (premium cut of Natal)",
+      "cities": "Athens & Thessaloniki private clinics",
+      "channels": "Private suites & private rooms",
+      "app": "Babyspace · Myparenthood",
+      "guide": "Luxury Moments kit guide",
+      "tirage": "Exclusive printed kit"
+    },
+    {
+      "country": "Romania",
+      "reach": "Premium private rooms — to confirm",
+      "cities": "Bucharest private clinics",
+      "channels": "Private suites",
+      "app": "Babyspace",
+      "guide": "—",
+      "tirage": "—"
+    },
+    {
+      "country": "Bulgaria",
+      "reach": "Premium private rooms — to confirm",
+      "cities": "Sofia private clinics",
+      "channels": "Private suites",
+      "app": "Babyspace",
+      "guide": "—",
+      "tirage": "—"
+    },
+    {
+      "country": "Serbia",
+      "reach": "Premium private rooms — to confirm",
+      "cities": "Belgrade private clinics",
+      "channels": "Private suites",
+      "app": "—",
+      "guide": "—",
+      "tirage": "—"
+    },
+    {
+      "country": "Cyprus",
+      "reach": "Premium private rooms — to confirm",
+      "cities": "Private clinics — expanding",
+      "channels": "Private suites",
+      "app": "—",
+      "guide": "—",
+      "tirage": "—"
+    }
+  ],
+  "st-next": [
+    {
+      "country": "Greece",
+      "reach": "Families at first solids — volume to confirm",
+      "cities": "Delivered home nationwide",
+      "channels": "Baby ~6 months · home delivery",
+      "app": "Babyspace · Myparenthood",
+      "guide": "First-foods content via parent platforms",
+      "tirage": "Box delivered home"
+    },
+    {
+      "country": "Romania",
+      "reach": "Families at first solids — volume to confirm",
+      "cities": "Delivered home nationwide",
+      "channels": "Baby ~6 months · home delivery",
+      "app": "Babyspace · HeyMaa",
+      "guide": "—",
+      "tirage": "Box delivered home"
+    },
+    {
+      "country": "Bulgaria",
+      "reach": "Families at first solids — volume to confirm",
+      "cities": "Delivered home nationwide",
+      "channels": "Baby ~6 months · home delivery",
+      "app": "Babyspace",
+      "guide": "—",
+      "tirage": "Box delivered home"
+    },
+    {
+      "country": "Serbia",
+      "reach": "Families at first solids — volume to confirm",
+      "cities": "Delivered home nationwide",
+      "channels": "Baby ~6 months · home delivery",
+      "app": "Mybabywinner",
+      "guide": "Breastfeeding Guide 2026 (includes first foods)",
+      "tirage": "Printed guide + home box"
+    },
+    {
+      "country": "Cyprus",
+      "reach": "Families at first solids — volume to confirm",
+      "cities": "Delivered home",
+      "channels": "Baby ~6 months · home delivery",
+      "app": "Mybabywinner",
+      "guide": "—",
+      "tirage": "Box delivered home"
+    }
+  ],
+  "st-school": [
+    {
+      "country": "Greece",
+      "reach": "First-grade families — volume to confirm",
+      "cities": "Primary schools nationwide",
+      "channels": "First day of 1st grade (age 6)",
+      "app": "Myschoolwinner",
+      "guide": "School guide — Greece edition to confirm",
+      "tirage": "Box on the first school day"
+    },
+    {
+      "country": "Romania",
+      "reach": "First-grade families — confirmed live market",
+      "cities": "Primary schools nationwide",
+      "channels": "First day of 1st grade (age 6)",
+      "app": "Myschoolwinner",
+      "guide": "School Guide 2026",
+      "tirage": "Printed guide + school-day box"
+    },
+    {
+      "country": "Bulgaria",
+      "reach": "First-grade families — confirmed live market",
+      "cities": "Primary schools nationwide",
+      "channels": "First day of 1st grade (age 6)",
+      "app": "Myschoolwinner",
+      "guide": "School Guide 2026",
+      "tirage": "Printed guide + school-day box"
+    },
+    {
+      "country": "Serbia",
+      "reach": "First-grade families — confirmed live market",
+      "cities": "Primary schools nationwide",
+      "channels": "First day of 1st grade (age 6)",
+      "app": "Myschoolwinner",
+      "guide": "School Guide 2026",
+      "tirage": "Printed guide + school-day box"
+    },
+    {
+      "country": "Cyprus",
+      "reach": "First-grade families — expanding",
+      "cities": "Primary schools — expanding",
+      "channels": "First day of 1st grade",
+      "app": "Myschoolwinner",
+      "guide": "—",
+      "tirage": "—"
+    }
+  ],
+  "st-school-xmas": [
+    {
+      "country": "Greece",
+      "reach": "Elementary families · Christmas school period",
+      "cities": "Primary schools nationwide",
+      "channels": "Festive edition of First Grade",
+      "app": "Myschoolwinner",
+      "guide": "Christmas school kit",
+      "tirage": "Seasonal multi-brand box"
+    },
+    {
+      "country": "Romania",
+      "reach": "Elementary families · Christmas school period",
+      "cities": "Primary schools nationwide",
+      "channels": "Festive edition of First Grade",
+      "app": "Myschoolwinner",
+      "guide": "Christmas school kit",
+      "tirage": "Seasonal multi-brand box"
+    },
+    {
+      "country": "Bulgaria",
+      "reach": "Elementary families · Christmas school period",
+      "cities": "Primary schools nationwide",
+      "channels": "Festive edition of First Grade",
+      "app": "Myschoolwinner",
+      "guide": "Christmas school kit",
+      "tirage": "Seasonal multi-brand box"
+    },
+    {
+      "country": "Serbia",
+      "reach": "Elementary families · Christmas school period",
+      "cities": "Primary schools nationwide",
+      "channels": "Festive edition of First Grade",
+      "app": "Myschoolwinner",
+      "guide": "Christmas school kit",
+      "tirage": "Seasonal multi-brand box"
+    },
+    {
+      "country": "Cyprus",
+      "reach": "Elementary families — expanding",
+      "cities": "Primary schools — expanding",
+      "channels": "Christmas school period",
+      "app": "Myschoolwinner",
+      "guide": "—",
+      "tirage": "—"
+    }
+  ],
+  "st-teen": [
+    {
+      "country": "Greece",
+      "reach": "Girls at start of puberty — volume to confirm",
+      "cities": "Delivered home nationwide",
+      "channels": "Courier to the home",
+      "app": "Care Direct communities",
+      "guide": "Teen Girl kit guide",
+      "tirage": "Home box + follow-up"
+    },
+    {
+      "country": "Romania",
+      "reach": "Girls at start of puberty — volume to confirm",
+      "cities": "Delivered home nationwide",
+      "channels": "Courier to the home",
+      "app": "Care Direct communities",
+      "guide": "Teen Girl kit guide",
+      "tirage": "Home box + follow-up"
+    },
+    {
+      "country": "Bulgaria",
+      "reach": "Girls at start of puberty — volume to confirm",
+      "cities": "Delivered home nationwide",
+      "channels": "Courier to the home",
+      "app": "Care Direct communities",
+      "guide": "Teen Girl kit guide",
+      "tirage": "Home box + follow-up"
+    },
+    {
+      "country": "Serbia",
+      "reach": "Girls at start of puberty — volume to confirm",
+      "cities": "Delivered home nationwide",
+      "channels": "Courier to the home",
+      "app": "Care Direct communities",
+      "guide": "Teen Girl kit guide",
+      "tirage": "Home box + follow-up"
+    },
+    {
+      "country": "Cyprus",
+      "reach": "Girls at start of puberty — expanding",
+      "cities": "Delivered home",
+      "channels": "Courier to the home",
+      "app": "Care Direct communities",
+      "guide": "—",
+      "tirage": "—"
+    }
+  ],
+  "st-high": [
+    {
+      "country": "Greece",
+      "reach": "First-year high-school students — volume to confirm",
+      "cities": "High schools nationwide",
+      "channels": "Entering high school · ages 15–16",
+      "app": "START 9 (startliceu.life)",
+      "guide": "START 9 interactive web guide",
+      "tirage": "Samples in school + digital guide"
+    },
+    {
+      "country": "Romania",
+      "reach": "First-year high-school students — live with START 9",
+      "cities": "High schools nationwide",
+      "channels": "Entering high school · ages 15–16",
+      "app": "START 9 (startliceu.life)",
+      "guide": "START 9 interactive web guide",
+      "tirage": "Samples in school + digital guide"
+    },
+    {
+      "country": "Bulgaria",
+      "reach": "First-year high-school students — expanding",
+      "cities": "High schools — expanding",
+      "channels": "Entering high school",
+      "app": "START 9",
+      "guide": "START 9 web guide",
+      "tirage": "—"
+    },
+    {
+      "country": "Serbia",
+      "reach": "First-year high-school students — expanding",
+      "cities": "High schools — expanding",
+      "channels": "Entering high school",
+      "app": "START 9",
+      "guide": "START 9 web guide",
+      "tirage": "—"
+    },
+    {
+      "country": "Cyprus",
+      "reach": "First-year high-school students — expanding",
+      "cities": "High schools — expanding",
+      "channels": "Entering high school",
+      "app": "START 9",
+      "guide": "—",
+      "tirage": "—"
+    }
+  ],
+  "st-uni": [
+    {
+      "country": "Greece",
+      "reach": "First-year students — volume to confirm",
+      "cities": "Universities nationwide",
+      "channels": "Campus activations · first independent purchases",
+      "app": "UniStart+ (uni-start.com)",
+      "guide": "UniStart+ digital student guidebook",
+      "tirage": "Campus samples + digital guide"
+    },
+    {
+      "country": "Romania",
+      "reach": "First-year students — expanding",
+      "cities": "Universities — expanding",
+      "channels": "Campus activations",
+      "app": "UniStart+",
+      "guide": "UniStart+ digital guidebook",
+      "tirage": "—"
+    },
+    {
+      "country": "Bulgaria",
+      "reach": "First-year students — live with UniStart+",
+      "cities": "Universities nationwide",
+      "channels": "Campus activations",
+      "app": "UniStart+ (uni-start.com)",
+      "guide": "UniStart+ digital student guidebook",
+      "tirage": "Campus samples + digital guide"
+    },
+    {
+      "country": "Serbia",
+      "reach": "University sampling activations (2024+) — results to confirm",
+      "cities": "Belgrade and campus cities",
+      "channels": "Campus activations",
+      "app": "UniStart+",
+      "guide": "UniStart+ digital guidebook",
+      "tirage": "Campus samples"
+    },
+    {
+      "country": "Cyprus",
+      "reach": "First-year students — expanding",
+      "cities": "Universities — expanding",
+      "channels": "Campus activations",
+      "app": "UniStart+",
+      "guide": "—",
+      "tirage": "—"
+    }
+  ],
+  "st-army": [
+    {
+      "country": "Greece",
+      "reach": "Recruits on service day — volume to confirm",
+      "cities": "Military camps nationwide",
+      "channels": "Recruitment day hand-over",
+      "app": "—",
+      "guide": "Camp kit materials",
+      "tirage": "Samples on recruitment day"
+    },
+    {
+      "country": "Romania",
+      "reach": "—",
+      "cities": "—",
+      "channels": "Not live in this market yet",
+      "app": "—",
+      "guide": "—",
+      "tirage": "—"
+    },
+    {
+      "country": "Bulgaria",
+      "reach": "—",
+      "cities": "—",
+      "channels": "Not live in this market yet",
+      "app": "—",
+      "guide": "—",
+      "tirage": "—"
+    },
+    {
+      "country": "Serbia",
+      "reach": "—",
+      "cities": "—",
+      "channels": "Not live in this market yet",
+      "app": "—",
+      "guide": "—",
+      "tirage": "—"
+    },
+    {
+      "country": "Cyprus",
+      "reach": "—",
+      "cities": "—",
+      "channels": "Not live in this market yet",
+      "app": "—",
+      "guide": "—",
+      "tirage": "—"
+    }
+  ],
+  "st-marriage": [
+    {
+      "country": "Greece",
+      "reach": "Newlywed households — volume to confirm",
+      "cities": "Delivered home nationwide",
+      "channels": "Courier as couples set up house",
+      "app": "Care Direct communities",
+      "guide": "Marriage / first-home guide",
+      "tirage": "Home box"
+    },
+    {
+      "country": "Romania",
+      "reach": "Newlywed households — expanding",
+      "cities": "Delivered home",
+      "channels": "Courier home delivery",
+      "app": "Care Direct communities",
+      "guide": "—",
+      "tirage": "Home box"
+    },
+    {
+      "country": "Bulgaria",
+      "reach": "Newlywed households — expanding",
+      "cities": "Delivered home",
+      "channels": "Courier home delivery",
+      "app": "Care Direct communities",
+      "guide": "—",
+      "tirage": "Home box"
+    },
+    {
+      "country": "Serbia",
+      "reach": "Newlywed households — expanding",
+      "cities": "Delivered home",
+      "channels": "Courier home delivery",
+      "app": "Care Direct communities",
+      "guide": "—",
+      "tirage": "Home box"
+    },
+    {
+      "country": "Cyprus",
+      "reach": "Newlywed households — expanding",
+      "cities": "Delivered home",
+      "channels": "Courier home delivery",
+      "app": "Care Direct communities",
+      "guide": "—",
+      "tirage": "—"
+    }
+  ],
+  "st-pet": [
+    {
+      "country": "Greece",
+      "reach": "New pet owners · 200 top Attica vets reached (Swiffer 2018 proof)",
+      "cities": "Athens/Attica vets · adoption organisations",
+      "channels": "Vets & adoption partners · first weeks home",
+      "app": "Care Direct communities",
+      "guide": "New-pet care materials",
+      "tirage": "Vet / adoption hand-over box"
+    },
+    {
+      "country": "Romania",
+      "reach": "New pet owners — expanding",
+      "cities": "Vets & adoption partners",
+      "channels": "First weeks with a new pet",
+      "app": "Care Direct communities",
+      "guide": "—",
+      "tirage": "—"
+    },
+    {
+      "country": "Bulgaria",
+      "reach": "New pet owners — expanding",
+      "cities": "Vets & adoption partners",
+      "channels": "First weeks with a new pet",
+      "app": "Care Direct communities",
+      "guide": "—",
+      "tirage": "—"
+    },
+    {
+      "country": "Serbia",
+      "reach": "New pet owners — expanding",
+      "cities": "Vets & adoption partners",
+      "channels": "First weeks with a new pet",
+      "app": "Care Direct communities",
+      "guide": "—",
+      "tirage": "—"
+    },
+    {
+      "country": "Cyprus",
+      "reach": "New pet owners — expanding",
+      "cities": "Vets & adoption partners",
+      "channels": "First weeks with a new pet",
+      "app": "Care Direct communities",
+      "guide": "—",
+      "tirage": "—"
+    }
+  ],
+  "st-silver": [
+    {
+      "country": "Greece",
+      "reach": "Women 50+ at menopause start — volume to confirm",
+      "cities": "Gynaecology clinics nationwide",
+      "channels": "Annual examination hand-over",
+      "app": "LadiesBook (ladiesbook.gr)",
+      "guide": "Printed Ladies guide",
+      "tirage": "Clinic box + LadiesBook"
+    },
+    {
+      "country": "Romania",
+      "reach": "—",
+      "cities": "—",
+      "channels": "Not live in this market yet",
+      "app": "—",
+      "guide": "—",
+      "tirage": "—"
+    },
+    {
+      "country": "Bulgaria",
+      "reach": "—",
+      "cities": "—",
+      "channels": "Not live in this market yet",
+      "app": "—",
+      "guide": "—",
+      "tirage": "—"
+    },
+    {
+      "country": "Serbia",
+      "reach": "—",
+      "cities": "—",
+      "channels": "Not live in this market yet",
+      "app": "—",
+      "guide": "—",
+      "tirage": "—"
+    },
+    {
+      "country": "Cyprus",
+      "reach": "—",
+      "cities": "—",
+      "channels": "Not live in this market yet",
+      "app": "—",
+      "guide": "—",
+      "tirage": "—"
+    }
+  ],
+  "st-seniors": [
+    {
+      "country": "Greece",
+      "reach": "People starting retirement — volume to confirm",
+      "cities": "Home + senior community venues",
+      "channels": "Home delivery & community places",
+      "app": "Care Direct communities",
+      "guide": "Seniors life-stage materials",
+      "tirage": "Home / venue box"
+    },
+    {
+      "country": "Romania",
+      "reach": "People starting retirement — expanding",
+      "cities": "Home + community venues",
+      "channels": "Home & community",
+      "app": "Care Direct communities",
+      "guide": "—",
+      "tirage": "—"
+    },
+    {
+      "country": "Bulgaria",
+      "reach": "People starting retirement — expanding",
+      "cities": "Home + community venues",
+      "channels": "Home & community",
+      "app": "Care Direct communities",
+      "guide": "—",
+      "tirage": "—"
+    },
+    {
+      "country": "Serbia",
+      "reach": "People starting retirement — expanding",
+      "cities": "Home + community venues",
+      "channels": "Home & community",
+      "app": "Care Direct communities",
+      "guide": "—",
+      "tirage": "—"
+    },
+    {
+      "country": "Cyprus",
+      "reach": "People starting retirement — expanding",
+      "cities": "Home + community venues",
+      "channels": "Home & community",
+      "app": "Care Direct communities",
+      "guide": "—",
+      "tirage": "—"
+    }
+  ]
+}

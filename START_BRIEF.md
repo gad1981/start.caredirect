@@ -27,6 +27,8 @@
 | `content/programs-data.json` | Per-program platforms, printed guides by country (with flip-book links), confirmed reach per country |
 | `content/routes.json` | Every route + the old caredirect.com URLs that must 301 here |
 | `content/doodle-plan.json` | Which kit drawing goes where, per program (Teen Girl only so far) |
+| `content/taglines.json` | Catchy hero tagline per program (localized) |
+| `content/insights.json` | Per-program, per-country reach / cities / app / guide / tirage |
 | `assets/brand/` | START logo (black on transparent, use as a CSS mask so it takes the text colour), Care Direct logo |
 | `assets/heroes/` | Home hero (five life stages holding their kits), kit pyramid |
 | `assets/start-stages/` | Per program: `hero-st-….jpg/webp` (page hero) and `tile-st-….jpg/webp` (home grid tile) |
@@ -100,12 +102,11 @@ Per page: `generateMetadata` from `t` (title) and `m` (description), canonical U
 - The old "Two regions. One playbook." markets section is **removed**.
 
 ### 5.2 Program page (`/[program]/`)
-1. **Hero:** program photo `hero-st-….` shown **clean (no dark overlay)**; a white card on the photo's lower edge holds H1 (left) and intro + "Plan my START" button (right). Phones: photo on top, card below.
+1. **Hero:** program photo `hero-st-….` shown **clean (no dark overlay)**; a white card on the photo's lower edge holds the program logo above the H1, a catchy tagline (from `taglines.json`), and "Plan my START" — no long description in the hero (detail stays in About and below).
 2. **About START …** (`program-about`): two sentences on the left; three pastel fact tiles on the right: When · Where · Platform.
 3. **Your brand gets** (`card-grid`): 4 cards (Samples in the box, An ad in the guide, Consented follow-up, Our platform).
-4. **Guides & platforms by country** (`country-tabs`, where present): tabs per country; guide names link to the flip-books in `programs-data.json`.
-5. **Numbers** (`stat-row`, where present): numbers in pastel tiles.
-6. **Closing band:** soft pastel gradient, H2 = program name, button "Plan my START".
+4. **Insights per country:** tabs for the five SEE markets with reach, cities, execution, app, guide and tirage (from `insights.json`).
+5. **Closing band:** soft pastel gradient, H2 = program name, button "Plan my START".
 - **Kit doodles** (where `doodle-plan.json` has a plan; Teen Girl now): a few kit line drawings placed on purpose, not scattered: one as a sticker on the hero card corner, one per section in the side margin (alternating left/right), one as a sticker on the closing band. Phones: only hero sticker, one next to a section title, closing sticker. Gentle float animation; none with reduced motion. Same approach for every program once its drawings arrive.
 - **Teen Girl only:** accents use the kit colours (`--teen-pink`, `--teen-purple`): step badge, card top lines, icons, button. All other programs stay neutral.
 

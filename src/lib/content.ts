@@ -2,10 +2,12 @@ import type { Locale } from "@/lib/i18n";
 import { defaultLocale } from "@/lib/i18n";
 
 import enDoodlePlan from "../../content/en/doodle-plan.json";
+import enInsights from "../../content/en/insights.json";
 import enPages from "../../content/en/pages.json";
 import enProgramsData from "../../content/en/programs-data.json";
 import enRoutes from "../../content/en/routes.json";
 import enStartHome from "../../content/en/start-home.json";
+import enTaglines from "../../content/en/taglines.json";
 
 import enMessages from "../../messages/en.json";
 import elMessages from "../../messages/el.json";
@@ -108,6 +110,37 @@ export async function getDoodlePlan(locale: Locale = defaultLocale) {
   const base = enDoodlePlan as Record<string, Plan>;
   const overlay = await loadLocaleJson<Record<string, Plan>>(locale, "doodle-plan");
   return deepMerge(base, overlay);
+}
+
+export type ProgramTaglines = Record<string, string>;
+
+export async function getTaglines(
+  locale: Locale = defaultLocale,
+): Promise<ProgramTaglines> {
+  const base = enTaglines as ProgramTaglines;
+  const overlay = await loadLocaleJson<ProgramTaglines>(locale, "taglines");
+  return deepMerge(base, overlay);
+}
+
+export type InsightRow = {
+  country: string;
+  reach: string;
+  cities: string;
+  channels: string;
+  app: string;
+  guide: string;
+  tirage: string;
+};
+
+export async function getInsights(
+  locale: Locale = defaultLocale,
+): Promise<Record<string, InsightRow[]>> {
+  const base = enInsights as Record<string, InsightRow[]>;
+  const overlay = await loadLocaleJson<Record<string, InsightRow[]>>(
+    locale,
+    "insights",
+  );
+  return overlay ? deepMerge(base, overlay) : base;
 }
 
 export function getRoutes() {

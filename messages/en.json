@@ -40,5 +40,14 @@
   "orderLead": "Ordering samples for parents is designed but not open yet. Brands can plan a START today.",
   "theKitEye": "In their hands",
   "theKit": "The kit",
-  "theKitLead": "Samples, a guide, and your brand — in the box they keep from day one."
+  "theKitLead": "Samples, a guide, and your brand — in the box they keep from day one.",
+  "insightsTitle": "Insights per country",
+  "insightsLead": "Reach, cities, platforms, guides and print runs — switch a market.",
+  "insightsReach": "Reach / year",
+  "insightsCities": "Main cities",
+  "insightsChannels": "Execution",
+  "insightsApp": "Online app",
+  "insightsGuide": "Printed / digital guide",
+  "insightsTirage": "Tirage / format",
+  "insightsCountries": "Countries"
 }
