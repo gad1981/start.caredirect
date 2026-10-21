@@ -502,7 +502,11 @@
   background: var(--surface);
   border: 1px solid var(--line);
   border-radius: 22px;
-  padding: 20px;
+  padding: 18px 18px 18px 16px;
+  display: grid;
+  grid-template-columns: auto minmax(0, 1fr);
+  gap: 14px;
+  align-items: start;
 }
 
 .card:nth-child(4n + 1) {
@@ -519,6 +523,37 @@
 
 .card:nth-child(4n + 4) {
   border-top: 3px solid var(--p4);
+}
+
+.cardIcon {
+  display: grid;
+  place-items: center;
+  width: 44px;
+  height: 44px;
+  border-radius: 14px;
+  color: var(--program-ink, var(--ink));
+  background: color-mix(in srgb, var(--program-accent, var(--p1)) 22%, white);
+  flex-shrink: 0;
+}
+
+.card:nth-child(4n + 1) .cardIcon {
+  background: color-mix(in srgb, var(--p1) 70%, white);
+}
+
+.card:nth-child(4n + 2) .cardIcon {
+  background: color-mix(in srgb, var(--p2) 75%, white);
+}
+
+.card:nth-child(4n + 3) .cardIcon {
+  background: color-mix(in srgb, var(--p3) 70%, white);
+}
+
+.card:nth-child(4n + 4) .cardIcon {
+  background: color-mix(in srgb, var(--p4) 70%, white);
+}
+
+.cardCopy {
+  min-width: 0;
 }
 
 .card h3 {
@@ -737,6 +772,19 @@
     gap: 18px;
     border-radius: 20px;
     box-shadow: 0 18px 40px -28px rgba(0, 0, 0, 0.35);
+  }
+
+  .heroCard h1 {
+    font-size: clamp(17px, 4.8vw, 26px);
+    white-space: nowrap;
+    letter-spacing: -0.035em;
+    max-width: 100%;
+    overflow: hidden;
+    text-overflow: ellipsis;
+  }
+
+  .tagline {
+    font-size: clamp(14px, 3.8vw, 18px);
   }
 
   .heroActions {

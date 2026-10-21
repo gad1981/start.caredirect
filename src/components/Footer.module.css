@@ -48,14 +48,27 @@
 
 .col a {
   display: block;
-  padding: 3px 0;
+  padding: 6px 0;
   color: var(--muted);
   text-decoration: none;
   font-size: 13.5px;
+  /* Avoid iOS first-tap-as-hover delaying navigation */
+  -webkit-tap-highlight-color: transparent;
+  touch-action: manipulation;
 }
 
 .col a:hover {
   color: var(--ink);
+}
+
+@media (hover: none) {
+  .col a:hover {
+    color: var(--muted);
+  }
+
+  .col a:active {
+    color: var(--ink);
+  }
 }
 
 .base {

@@ -14,6 +14,7 @@ import { getProgramBrand } from "@/lib/program-brands";
 import type { ProgramId } from "@/lib/programs";
 import { getProgramById, programHeroSrc, programKitSrc } from "@/lib/programs";
 import { withTbc } from "@/lib/tbc";
+import { BrandGetIcon } from "./BrandGetIcon";
 import { InsightsTabs } from "./InsightsTabs";
 import styles from "./ProgramPage.module.css";
 
@@ -167,8 +168,11 @@ export async function ProgramPage({
             <div className={styles.cards}>
               {cards.map((c) => (
                 <article key={c.title} className={styles.card}>
-                  <h3>{withTbc(c.title)}</h3>
-                  <p>{withTbc(c.body)}</p>
+                  <BrandGetIcon title={c.title} />
+                  <div className={styles.cardCopy}>
+                    <h3>{withTbc(c.title)}</h3>
+                    <p>{withTbc(c.body)}</p>
+                  </div>
                 </article>
               ))}
             </div>
