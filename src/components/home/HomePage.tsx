@@ -2,7 +2,7 @@ import Image from "next/image";
 import Link from "next/link";
 import { BriefForm } from "@/components/BriefForm";
 import { Button } from "@/components/Button";
-import { getMessages, getStartHome } from "@/lib/content";
+import { getMessages, getStartHome, getTaglines } from "@/lib/content";
 import { localePath, type Locale } from "@/lib/i18n";
 import { getProgramBrand } from "@/lib/program-brands";
 import { getProgramById, padNum, programTileSrc } from "@/lib/programs";
@@ -13,6 +13,7 @@ import styles from "./HomePage.module.css";
 export async function HomePage({ locale }: { locale: Locale }) {
   const startHome = await getStartHome(locale);
   const messages = getMessages(locale);
+  const taglines = await getTaglines(locale);
 
   const stages = startHome.stages
     .map((stage, i) => {
@@ -49,6 +50,7 @@ export async function HomePage({ locale }: { locale: Locale }) {
         <div className={styles.wrap}>
           <div className={styles.card}>
             <div>
+              <span className={styles.homeLogo} aria-hidden="true" />
               <p className={styles.eye}>{startHome.eyebrow}</p>
               <h1 id="home-h1">{startHome.h1}</h1>
               <p className={styles.lead}>{startHome.lead}</p>
@@ -92,7 +94,7 @@ export async function HomePage({ locale }: { locale: Locale }) {
                       when: s.when,
                       where: s.where,
                       desc: s.desc,
-                      tagline: s.tagline,
+                      tagline: taglines[s.id] ?? s.tagline,
                       hands: s.hands,
                       n: s.n,
                       tileSrc,

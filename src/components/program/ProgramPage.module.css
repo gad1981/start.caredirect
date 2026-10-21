@@ -775,16 +775,17 @@
   }
 
   .heroCard h1 {
-    font-size: clamp(17px, 4.8vw, 26px);
+    /* Fit longest titles (e.g. First Grade Christmas) on one line */
+    font-size: clamp(13px, 3.6vw + 0.35rem, 24px);
     white-space: nowrap;
-    letter-spacing: -0.035em;
+    letter-spacing: -0.04em;
     max-width: 100%;
-    overflow: hidden;
-    text-overflow: ellipsis;
+    overflow: visible;
+    text-overflow: clip;
   }
 
   .tagline {
-    font-size: clamp(14px, 3.8vw, 18px);
+    font-size: clamp(13px, 3.4vw, 17px);
   }
 
   .heroActions {
