@@ -119,6 +119,9 @@ export function ProgramFlipTile({
             <span className={styles.tileBody}>
               <span className={styles.when}>{withTbc(stage.when)}</span>
               <h3 className={styles.tileName}>{stage.name}</h3>
+              {stage.tagline ? (
+                <p className={styles.tileTagline}>{stage.tagline}</p>
+              ) : null}
               <span className={styles.tileFoot}>
                 <span className={styles.swipeHint} aria-hidden="true">
                   <span className={styles.swipeHintText}>{swipeHint}</span>
