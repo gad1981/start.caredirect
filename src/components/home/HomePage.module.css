@@ -30,20 +30,20 @@
   z-index: 1;
   margin: clamp(-250px, -15vw, -40px) auto 0;
   max-width: 979px;
-  background: rgba(255, 255, 255, 0.97);
-  backdrop-filter: blur(9px);
+  background: linear-gradient(
+    180deg,
+    var(--hero-card-top) 0%,
+    var(--hero-card) 42%,
+    var(--hero-card) 100%
+  );
+  backdrop-filter: blur(12px);
+  -webkit-backdrop-filter: blur(12px);
   border-radius: 24px;
   padding: 34px 36px 36px;
   box-shadow: 0 30px 60px -34px rgba(0, 0, 0, 0.4);
   display: grid;
   gap: 28px;
   overflow: visible;
-}
-
-@media (prefers-color-scheme: dark) {
-  :root:not([data-theme="light"]) .card {
-    background: rgba(28, 28, 31, 0.96);
-  }
 }
 
 .eye {

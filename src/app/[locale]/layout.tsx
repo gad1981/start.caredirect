@@ -59,7 +59,11 @@ export default async function LocaleRootLayout({
   const locale = raw as Locale;
 
   return (
-    <html lang={htmlLang[locale]} className={`${display.variable} ${body.variable}`}>
+    <html
+      lang={htmlLang[locale]}
+      className={`${display.variable} ${body.variable}`}
+      data-theme="light"
+    >
       <head>
         <script
           id="consent-default"
