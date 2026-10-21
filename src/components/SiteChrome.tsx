@@ -2,7 +2,7 @@ import { ConsentProvider } from "@/components/analytics/ConsentProvider";
 import { Footer } from "@/components/Footer";
 import { Header } from "@/components/Header";
 import { LocaleProvider } from "@/components/i18n/LocaleProvider";
-import { getGa4Id, getGtmId } from "@/lib/analytics";
+import { getGa4Id, getGtmId, getMetaPixelId } from "@/lib/analytics";
 import { getMessages, getStartHome } from "@/lib/content";
 import type { Locale } from "@/lib/i18n";
 import type { ReactNode } from "react";
@@ -21,6 +21,7 @@ export async function SiteChrome({
     <ConsentProvider
       gtmId={getGtmId()}
       ga4Id={getGa4Id()}
+      metaPixelId={getMetaPixelId()}
       messages={messages}
     >
       <LocaleProvider locale={locale} messages={messages}>

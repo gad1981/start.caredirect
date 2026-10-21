@@ -6,14 +6,14 @@ import { CookieSettingsButton } from "@/components/analytics/ConsentProvider";
 import { LanguageSwitcher } from "@/components/i18n/LanguageSwitcher";
 import { useLocale } from "@/components/i18n/LocaleProvider";
 import { localePath } from "@/lib/i18n";
-import { PROGRAMS } from "@/lib/programs";
+import { LISTED_PROGRAMS } from "@/lib/programs";
 import styles from "./Footer.module.css";
 
 export function Footer({ footerLine }: { footerLine: string }) {
   const { locale, messages } = useLocale();
-  const mid = Math.ceil(PROGRAMS.length / 2);
-  const left = PROGRAMS.slice(0, mid);
-  const right = PROGRAMS.slice(mid);
+  const mid = Math.ceil(LISTED_PROGRAMS.length / 2);
+  const left = LISTED_PROGRAMS.slice(0, mid);
+  const right = LISTED_PROGRAMS.slice(mid);
 
   return (
     <footer className={styles.footer}>

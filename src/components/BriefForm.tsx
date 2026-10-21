@@ -2,7 +2,8 @@
 
 import { useState, type FormEvent } from "react";
 import { useLocale } from "@/components/i18n/LocaleProvider";
-import { PROGRAMS } from "@/lib/programs";
+import { trackLeadSubmission } from "@/lib/analytics";
+import { LISTED_PROGRAMS } from "@/lib/programs";
 import { Button } from "./Button";
 import styles from "./BriefForm.module.css";
 
@@ -11,6 +12,7 @@ type Props = {
   markets: string[];
   submitLabel: string;
   defaultProgram?: string;
+  accent?: boolean;
   teen?: boolean;
 };
 
@@ -19,7 +21,8 @@ export function BriefForm({
   markets,
   submitLabel,
   defaultProgram = "",
-  teen,
+  accent = false,
+  teen = false,
 }: Props) {
   const { messages } = useLocale();
   const [status, setStatus] = useState<"idle" | "loading" | "ok" | "err">(
@@ -56,6 +59,11 @@ export function BriefForm({
         setMessage(json.error ?? messages.formError);
         return;
       }
+      trackLeadSubmission({
+        program: String(data.get("program") || ""),
+        market: String(data.get("market") || ""),
+        source_page: sourcePage,
+      });
       setStatus("ok");
       setMessage(messages.formSuccess);
       form.reset();
@@ -116,7 +124,7 @@ export function BriefForm({
           defaultValue={defaultProgram || "help-me"}
         >
           <option value="help-me">{messages.formHelpMe}</option>
-          {PROGRAMS.map((p) => (
+          {LISTED_PROGRAMS.map((p) => (
             <option key={p.id} value={p.id}>
               {p.name}
             </option>
@@ -146,7 +154,11 @@ export function BriefForm({
         </span>
       </label>
       <div>
-        <Button type="submit" teen={teen} disabled={status === "loading"}>
+        <Button
+          type="submit"
+          accent={accent || teen}
+          disabled={status === "loading"}
+        >
           {status === "loading" ? messages.formSending : submitLabel}
         </Button>
       </div>

@@ -1,6 +1,254 @@
+/* Program page themed from flip-tile palettes (data-tone). */
+.page {
+  --program-accent: var(--stdot);
+  --program-ink: var(--ink);
+  background: var(--bg);
+}
+
+.page[data-tone] .heroCard {
+  border-top: 3px solid var(--program-accent);
+}
+
+.page[data-tone] .card:nth-child(odd) {
+  border-top-color: var(--program-accent);
+}
+
+.page[data-tone] .card:nth-child(even) {
+  border-top-color: var(--program-ink);
+}
+
+.page[data-tone] .tab[aria-selected="true"] {
+  border-color: var(--program-accent);
+  background: color-mix(in srgb, var(--program-accent) 14%, white);
+  color: var(--program-ink);
+}
+
+.page[data-tone] .case a,
+.page[data-tone] .panel a {
+  color: var(--program-ink);
+}
+
+/* Palettes sampled from each program logo (not the generic tile pastels). */
+.page[data-tone="pregnancy"] {
+  --p1: #f8ddd8;
+  --p2: #fff4ef;
+  --p3: #e8edd9;
+  --p4: #f5cfc8;
+  --p5: #fce8e4;
+  --program-accent: #e48478;
+  --program-ink: #8a4540;
+  --soft: #fff1ed;
+  --hover: #f5e0db;
+  --focus: 0 0 0 3px color-mix(in srgb, var(--program-accent) 45%, transparent);
+  --bg: #faf2ef;
+}
+
+.page[data-tone="natal"] {
+  --p1: #d9ebe8;
+  --p2: #f4f8f4;
+  --p3: #f5ebe0;
+  --p4: #c5d9d6;
+  --p5: #e4f0ee;
+  --program-accent: #789c9c;
+  --program-ink: #3d5c5c;
+  --soft: #eef5f3;
+  --hover: #ddeae7;
+  --focus: 0 0 0 3px color-mix(in srgb, var(--program-accent) 45%, transparent);
+  --bg: #f3f6f3;
+}
+
+.page[data-tone="luxury"] {
+  --p1: #f3eee4;
+  --p2: #fffcf5;
+  --p3: #e8e0d2;
+  --p4: #efe8dc;
+  --p5: #f7f3eb;
+  --program-accent: #cbb89a;
+  --program-ink: #5a5348;
+  --soft: #faf7f0;
+  --hover: #efe9de;
+  --focus: 0 0 0 3px color-mix(in srgb, var(--program-accent) 45%, transparent);
+  --bg: #faf7f1;
+}
+
+.page[data-tone="next"] {
+  --p1: #ffe5c8;
+  --p2: #fff6ea;
+  --p3: #fcccc0;
+  --p4: #d4e0c8;
+  --p5: #ffeeda;
+  --program-accent: #fc7860;
+  --program-ink: #7a3d28;
+  --soft: #fff3e8;
+  --hover: #f5e4d4;
+  --focus: 0 0 0 3px color-mix(in srgb, var(--program-accent) 45%, transparent);
+  --bg: #faf4ec;
+}
+
+.page[data-tone="school"] {
+  --p1: #e8f4fb;
+  --p2: #faf6e8;
+  --p3: #f0e4f6;
+  --p4: #fad8d8;
+  --p5: #eef0f8;
+  --program-accent: #54b4e4;
+  --program-ink: #5a3d78;
+  --soft: #f3f6fa;
+  --hover: #e4eaf2;
+  --focus: 0 0 0 3px color-mix(in srgb, var(--program-accent) 45%, transparent);
+  --bg: #f5f4f8;
+}
+
+.page[data-tone="schoolXmas"] {
+  --p1: #f8d8d8;
+  --p2: #fff6f0;
+  --p3: #d8eedc;
+  --p4: #f0e0c8;
+  --p5: #f8e8e4;
+  --program-accent: #d81824;
+  --program-ink: #186c30;
+  --soft: #fff2ef;
+  --hover: #f5e0dc;
+  --focus: 0 0 0 3px color-mix(in srgb, var(--program-accent) 45%, transparent);
+  --bg: #faf3f0;
+}
+
+.page[data-tone="teen"] {
+  --p1: #f5d8ea;
+  --p2: #f4e8fa;
+  --p3: #e8d4f0;
+  --p4: #f8c8dc;
+  --p5: #f0dff4;
+  --program-accent: var(--teen-pink);
+  --program-ink: var(--teen-purple);
+  --soft: #f8eef8;
+  --hover: #eedff0;
+  --focus: 0 0 0 3px color-mix(in srgb, var(--program-accent) 45%, transparent);
+  --bg: #f6eef6;
+}
+
+.page[data-tone="high"] {
+  --p1: #ffe4a8;
+  --p2: #fff6e0;
+  --p3: #f0d898;
+  --p4: #e8e0d0;
+  --p5: #ffeec0;
+  --program-accent: #f09c18;
+  --program-ink: #242424;
+  --soft: #fff4dc;
+  --hover: #f5e6c4;
+  --focus: 0 0 0 3px color-mix(in srgb, var(--program-accent) 45%, transparent);
+  --bg: #f7f2e6;
+}
+
+.page[data-tone="uni"] {
+  --p1: #e4dcf0;
+  --p2: #f4f0f8;
+  --p3: #f5e6c0;
+  --p4: #d8d0e8;
+  --p5: #ebe4f4;
+  --program-accent: #7860a8;
+  --program-ink: #241818;
+  --soft: #f0ecf6;
+  --hover: #e2dcec;
+  --focus: 0 0 0 3px color-mix(in srgb, var(--program-accent) 45%, transparent);
+  --bg: #f2eef5;
+}
+
+.page[data-tone="army"] {
+  --p1: #e4e0c8;
+  --p2: #f2f0e6;
+  --p3: #d4d4b8;
+  --p4: #c8c8a8;
+  --p5: #e8e6d4;
+  --program-accent: #545430;
+  --program-ink: #243018;
+  --soft: #efeee4;
+  --hover: #e0dfd2;
+  --focus: 0 0 0 3px color-mix(in srgb, var(--program-accent) 45%, transparent);
+  --bg: #f1f0e8;
+}
+
+.page[data-tone="marriage"] {
+  --p1: #f0ddd0;
+  --p2: #faf4ee;
+  --p3: #f0d0c8;
+  --p4: #e4d0bc;
+  --p5: #f3e6dc;
+  --program-accent: #d89090;
+  --program-ink: #7a5a3d;
+  --soft: #f7f0ea;
+  --hover: #ebe0d6;
+  --focus: 0 0 0 3px color-mix(in srgb, var(--program-accent) 45%, transparent);
+  --bg: #f7f2ed;
+}
+
+.page[data-tone="pet"] {
+  --p1: #e8d8c8;
+  --p2: #f6efe8;
+  --p3: #dcc8b4;
+  --p4: #c8785a;
+  --p5: #ebe0d4;
+  --program-accent: #b07a5a;
+  --program-ink: #3c2418;
+  --soft: #f3ebe4;
+  --hover: #e6dbd0;
+  --focus: 0 0 0 3px color-mix(in srgb, var(--program-accent) 45%, transparent);
+  --bg: #f3eee8;
+}
+
+.page[data-tone="silver"] {
+  --p1: #f5d8de;
+  --p2: #f8f4f4;
+  --p3: #ead0d4;
+  --p4: #e8e0e0;
+  --p5: #f0dce0;
+  --program-accent: #e43c48;
+  --program-ink: #181818;
+  --soft: #f6eeee;
+  --hover: #ebe0e2;
+  --focus: 0 0 0 3px color-mix(in srgb, var(--program-accent) 45%, transparent);
+  --bg: #f4efef;
+}
+
+.page[data-tone="seniors"] {
+  --p1: #d8e8e0;
+  --p2: #f4f6f0;
+  --p3: #f5e4b8;
+  --p4: #c8d8d0;
+  --p5: #e4ece4;
+  --program-accent: #f0b448;
+  --program-ink: #244848;
+  --soft: #eef3ee;
+  --hover: #dfe8e2;
+  --focus: 0 0 0 3px color-mix(in srgb, var(--program-accent) 45%, transparent);
+  --bg: #f1f4f0;
+}
+
 .hero {
+  position: relative;
   background: var(--bg);
   padding: 0 0 72px;
+  overflow: hidden;
+}
+
+.kv {
+  position: absolute;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  height: min(48%, 340px);
+  pointer-events: none;
+  z-index: 0;
+}
+
+.kvImg {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+  object-position: center;
+  opacity: 0.92;
+  mask-image: linear-gradient(180deg, transparent 0%, #000 28%, #000 100%);
 }
 
 .photo {
@@ -16,6 +264,8 @@
 }
 
 .wrap {
+  position: relative;
+  z-index: 1;
   max-width: var(--content);
   margin: 0 auto;
   padding: 0 18px;
@@ -23,8 +273,15 @@
 
 .heroCard {
   position: relative;
+  z-index: 1;
   margin-top: -96px;
-  background: rgba(255, 255, 255, 0.96);
+  background:
+    linear-gradient(
+      155deg,
+      color-mix(in srgb, var(--p2) 70%, white) 0%,
+      rgba(255, 255, 255, 0.96) 42%,
+      color-mix(in srgb, var(--p1) 55%, white) 100%
+    );
   backdrop-filter: blur(9px);
   border-radius: 20px;
   padding: 25px 29px 27px;
@@ -61,6 +318,7 @@
 .section {
   padding: 48px 0 12px;
   position: relative;
+  background: var(--bg);
 }
 
 .section h2 {
@@ -73,6 +331,40 @@
   margin: 0 0 22px;
   color: var(--muted);
   max-width: 40em;
+}
+
+/* Same neutral home-page brief treatment (ignore program tone). */
+.brief {
+  --p1: #fde8ec;
+  --p2: #e3f4ea;
+  --p3: #fff1d2;
+  --p4: #e4eefb;
+  --p5: #efe7fa;
+  --program-accent: var(--stdot);
+  --program-ink: var(--ink);
+  --soft: #eeede8;
+  --hover: #e7e6e2;
+  --focus: 0 0 0 3px color-mix(in srgb, var(--stdot) 55%, transparent);
+  --bg: #f6f5f2;
+  margin: 56px 0 0;
+  padding: 48px 0 64px;
+  background: linear-gradient(120deg, var(--p1) 0%, var(--p3) 50%, var(--p4) 100%);
+}
+
+.briefInner {
+  max-width: var(--content);
+  margin: 0 auto;
+  padding: 0 18px;
+}
+
+.brief h2 {
+  margin: 0 0 10px;
+  font: 800 clamp(27px, 3.6vw, 43px) / 1.1 var(--display);
+  color: var(--ink);
+}
+
+.brief .introLine {
+  margin-bottom: 0;
 }
 
 .about {
@@ -155,14 +447,6 @@
 
 .card:nth-child(4n + 4) {
   border-top: 3px solid var(--p4);
-}
-
-.teen .card:nth-child(odd) {
-  border-top-color: var(--teen-pink);
-}
-
-.teen .card:nth-child(even) {
-  border-top-color: var(--teen-purple);
 }
 
 .card h3 {
@@ -276,9 +560,9 @@
 }
 
 .band {
-  margin: 48px 18px 64px;
-  max-width: var(--content);
-  margin-inline: auto;
+  box-sizing: border-box;
+  width: min(var(--content), calc(100% - 36px));
+  margin: 48px auto 64px;
   padding: 36px 28px;
   border-radius: 26px;
   background: linear-gradient(120deg, var(--p5) 0%, var(--p1) 55%, var(--p3) 100%);
@@ -290,10 +574,38 @@
   position: relative;
 }
 
+.bandBrand {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  gap: 10px;
+  min-width: 0;
+  flex: 1 1 auto;
+}
+
+.bandLogo {
+  width: min(200px, 52vw);
+  height: auto;
+  object-fit: contain;
+  object-position: left center;
+}
+
 .band h2 {
   margin: 0;
   font: 800 clamp(24px, 3vw, 36px) / 1.1 var(--display);
   color: var(--ink);
+}
+
+@media (max-width: 600px) {
+  .band {
+    width: calc(100% - 32px);
+    margin: 40px auto 56px;
+    padding: 28px 20px;
+  }
+
+  .bandLogo {
+    width: min(168px, 70%);
+  }
 }
 
 .bandSticker {

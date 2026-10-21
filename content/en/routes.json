@@ -28,12 +28,19 @@
  },
  {
   "id": "st-natal",
-  "name": "START Baby",
-  "url": "start.caredirect.com/baby/",
+  "name": "START Newborn",
+  "url": "start.caredirect.com/newborn/",
   "redirect_from_caredirect_com": [
    "/baby-gift-box-2/",
-   "/luxury-moments/",
    "/the-boom-edition/"
+  ]
+ },
+ {
+  "id": "st-luxury",
+  "name": "START Luxury Moments",
+  "url": "start.caredirect.com/newbornluxury/",
+  "redirect_from_caredirect_com": [
+   "/luxury-moments/"
   ]
  },
  {
@@ -51,6 +58,12 @@
   "redirect_from_caredirect_com": [
    "/back-to-school-2/"
   ]
+ },
+ {
+  "id": "st-school-xmas",
+  "name": "START First Grade Christmas",
+  "url": "start.caredirect.com/first-grade-christmas/",
+  "redirect_from_caredirect_com": []
  },
  {
   "id": "st-teen",

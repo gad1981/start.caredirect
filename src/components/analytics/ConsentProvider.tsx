@@ -15,6 +15,8 @@ import {
   DEFAULT_CONSENT,
   getGa4Id,
   getGtmId,
+  getMetaPixelId,
+  loadMetaPixel,
   readStoredConsent,
   writeStoredConsent,
   type ConsentState,
@@ -43,11 +45,13 @@ export function ConsentProvider({
   children,
   gtmId,
   ga4Id,
+  metaPixelId,
   messages,
 }: {
   children: ReactNode;
   gtmId: string;
   ga4Id: string;
+  metaPixelId?: string;
   messages?: Pick<
     Messages,
     | "cookieBody"
@@ -101,6 +105,12 @@ export function ConsentProvider({
   const loadTags = ready && consent.decided && consent.analytics;
   const resolvedGtm = gtmId || getGtmId();
   const resolvedGa4 = ga4Id || getGa4Id();
+  const resolvedMeta = metaPixelId || getMetaPixelId();
+
+  useEffect(() => {
+    if (!loadTags || !resolvedMeta) return;
+    loadMetaPixel(resolvedMeta);
+  }, [loadTags, resolvedMeta]);
 
   return (
     <ConsentContext.Provider value={value}>

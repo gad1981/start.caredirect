@@ -45,9 +45,9 @@ export default function StylePage() {
 
       <section>
         <h2>Type</h2>
-        <p className={styles.display}>Bricolage Grotesque display</p>
+        <p className={styles.display}>Manrope display</p>
         <p className={styles.body}>
-          Figtree body. Short sentences, British spelling, no exclamation marks.
+          Source Sans 3 body. Short sentences, British spelling, no exclamation marks.
         </p>
         <p>
           Unconfirmed facts stay visible: <span className="tbc">[to confirm]</span>

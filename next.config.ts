@@ -22,6 +22,30 @@ const nextConfig: NextConfig = {
         destination: "https://www.caredirect.com/privacy/",
         permanent: true,
       },
+      { source: "/baby", destination: "/newborn/", permanent: true },
+      { source: "/baby/", destination: "/newborn/", permanent: true },
+      {
+        source: "/:locale(el|ro|sr|bg)/baby",
+        destination: "/:locale/newborn/",
+        permanent: true,
+      },
+      {
+        source: "/:locale(el|ro|sr|bg)/baby/",
+        destination: "/:locale/newborn/",
+        permanent: true,
+      },
+      { source: "/luxury", destination: "/newbornluxury/", permanent: true },
+      { source: "/luxury/", destination: "/newbornluxury/", permanent: true },
+      {
+        source: "/:locale(el|ro|sr|bg)/luxury",
+        destination: "/:locale/newbornluxury/",
+        permanent: true,
+      },
+      {
+        source: "/:locale(el|ro|sr|bg)/luxury/",
+        destination: "/:locale/newbornluxury/",
+        permanent: true,
+      },
     ];
   },
 };

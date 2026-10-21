@@ -1,5 +1,5 @@
 import type { Metadata } from "next";
-import { Bricolage_Grotesque, Figtree } from "next/font/google";
+import { Manrope, Source_Sans_3 } from "next/font/google";
 import { notFound } from "next/navigation";
 import { SiteChrome } from "@/components/SiteChrome";
 import { CONSENT_DEFAULT_SCRIPT } from "@/lib/analytics";
@@ -7,15 +7,16 @@ import { siteUrl } from "@/lib/content";
 import { htmlLang, isLocale, type Locale } from "@/lib/i18n";
 import "../globals.css";
 
-const display = Bricolage_Grotesque({
-  subsets: ["latin"],
-  weight: ["700", "800"],
+/** Preview: Recommended pairing (Manrope + Source Sans 3). Switch back to Literata if Editorial wins. */
+const display = Manrope({
+  subsets: ["latin", "latin-ext", "cyrillic", "greek"],
+  weight: ["600", "700", "800"],
   variable: "--font-display",
   display: "swap",
 });
 
-const body = Figtree({
-  subsets: ["latin"],
+const body = Source_Sans_3({
+  subsets: ["latin", "latin-ext", "cyrillic", "greek"],
   weight: ["400", "500", "600", "700"],
   variable: "--font-body",
   display: "swap",

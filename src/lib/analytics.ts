@@ -18,6 +18,26 @@ export function getGa4Id() {
   return process.env.NEXT_PUBLIC_GA4_ID?.trim() || "";
 }
 
+export function getMetaPixelId() {
+  return process.env.NEXT_PUBLIC_META_PIXEL_ID?.trim() || "";
+}
+
+/** Push a form lead so GTM/Ads/Meta can fire conversion tags. */
+export function trackLeadSubmission(detail?: {
+  program?: string;
+  market?: string;
+  source_page?: string;
+}) {
+  if (typeof window === "undefined") return;
+  window.dataLayer = window.dataLayer || [];
+  window.dataLayer.push({
+    event: "generate_lead",
+    form_name: "start_brief",
+    ...detail,
+  });
+  window.fbq?.("track", "Lead");
+}
+
 export function readStoredConsent(): ConsentState {
   if (typeof window === "undefined") return DEFAULT_CONSENT;
   try {
@@ -41,7 +61,46 @@ declare global {
   interface Window {
     dataLayer?: Record<string, unknown>[];
     gtag?: (...args: unknown[]) => void;
+    fbq?: (...args: unknown[]) => void;
+    _fbq?: (...args: unknown[]) => void;
   }
+}
+
+type FbqFn = ((...args: unknown[]) => void) & {
+  callMethod?: (...args: unknown[]) => void;
+  queue: unknown[];
+  loaded: boolean;
+  version: string;
+  push: (...args: unknown[]) => void;
+};
+
+/** Meta Pixel base + PageView. Call only after analytics consent. */
+export function loadMetaPixel(pixelId: string) {
+  if (!pixelId || typeof window === "undefined") return;
+  if (document.getElementById("meta-pixel")) {
+    window.fbq?.("track", "PageView");
+    return;
+  }
+  if (!window.fbq) {
+    const n = function (...args: unknown[]) {
+      const f = n as FbqFn;
+      if (f.callMethod) f.callMethod(...args);
+      else f.queue.push(args);
+    } as FbqFn;
+    n.queue = [];
+    n.loaded = true;
+    n.version = "2.0";
+    n.push = n;
+    window.fbq = n;
+    window._fbq = n;
+  }
+  const script = document.createElement("script");
+  script.id = "meta-pixel";
+  script.async = true;
+  script.src = "https://connect.facebook.net/en_US/fbevents.js";
+  document.head.appendChild(script);
+  window.fbq("init", pixelId);
+  window.fbq("track", "PageView");
 }
 
 export function ensureGtag() {

@@ -11,6 +11,7 @@ import {
   getStartHome,
 } from "@/lib/content";
 import { localePath, type Locale } from "@/lib/i18n";
+import { getProgramBrand } from "@/lib/program-brands";
 import type { ProgramId } from "@/lib/programs";
 import { getProgramById, programHeroSrc } from "@/lib/programs";
 import { withTbc } from "@/lib/tbc";
@@ -68,7 +69,8 @@ export async function ProgramPage({
   const programsData = await getProgramsData(locale);
   const doodlePlan = await getDoodlePlan(locale);
   const allCases = await getCases(locale);
-  const isTeen = programId === "st-teen";
+  const brand = getProgramBrand(programId);
+  const tone = brand?.tone;
   const plan = doodlePlan[programId];
   const stage = startHome.stages.find((s) => s.id === programId);
   const programCases = casesForProgram(allCases, programId);
@@ -78,6 +80,7 @@ export async function ProgramPage({
     (s) => s.comp === "country-tabs" && !s.hidden,
   );
   const statsSec = page.sections.find((s) => s.comp === "stat-row");
+  const linkSecs = page.sections.filter((s) => s.comp === "link");
   const casesSec = page.sections.find((s) => s.comp.includes("case-cards"));
   const about = aboutSec ? parseAbout(aboutSec.copy) : null;
   const cards = cardsSec ? parseCards(cardsSec.copy) : [];
@@ -86,23 +89,29 @@ export async function ProgramPage({
     ([country, label, href]) => ({ country, label, href }),
   );
   const heroIntro =
-    stage?.desc ??
     page.sections.find((s) => s.comp === "program-hero")?.copy ??
+    stage?.desc ??
     "";
   const planHref = localePath(locale, "/plan/");
 
   return (
-    <div className={isTeen ? styles.teen : undefined}>
+    <div className={styles.page} data-tone={tone || undefined}>
       <section className={styles.hero}>
         <div className={styles.photo}>
           <Image
             src={programHeroSrc(prog.assetKey)}
-            alt={`${prog.name} kit`}
+            alt={prog.name}
             fill
             priority
             sizes="100vw"
           />
         </div>
+        {brand?.kvSrc ? (
+          <div className={styles.kv} aria-hidden>
+            {/* eslint-disable-next-line @next/next/no-img-element */}
+            <img className={styles.kvImg} src={brand.kvSrc} alt="" />
+          </div>
+        ) : null}
         <div className={styles.wrap}>
           <div className={styles.heroCard}>
             {plan?.hero ? (
@@ -118,7 +127,7 @@ export async function ProgramPage({
             <h1>{page.h1}</h1>
             <div>
               <p className={styles.intro}>{withTbc(heroIntro)}</p>
-              <Button href={planHref} teen={isTeen}>
+              <Button href={planHref} accent={Boolean(tone)}>
                 {page.cta}
               </Button>
             </div>
@@ -233,6 +242,27 @@ export async function ProgramPage({
         </section>
       ) : null}
 
+      {linkSecs.map((linkSec) => {
+        const proof = linkSec.proof ?? "";
+        const hrefMatch = proof.match(/Link to (\/[^\s/]+\/)/i);
+        const href = hrefMatch
+          ? localePath(locale, hrefMatch[1])
+          : planHref;
+        return (
+          <section key={linkSec.name} className={styles.section}>
+            <div className={styles.wrap}>
+              <h2>{linkSec.name}</h2>
+              {linkSec.intro ? (
+                <p className={styles.introLine}>{withTbc(linkSec.intro)}</p>
+              ) : null}
+              <Button href={href} accent={Boolean(tone)}>
+                {withTbc(linkSec.copy)}
+              </Button>
+            </div>
+          </section>
+        );
+      })}
+
       {casesSec ? (
         <section className={styles.section}>
           <div className={styles.wrap}>
@@ -264,7 +294,7 @@ export async function ProgramPage({
                 <p>
                   {messages.foundingBody.replace("{program}", prog.name)}
                 </p>
-                <Button href={planHref} teen={isTeen}>
+                <Button href={planHref} accent={Boolean(tone)}>
                   {page.cta}
                 </Button>
               </div>
@@ -284,20 +314,31 @@ export async function ProgramPage({
             height={72}
           />
         ) : null}
-        <h2>{prog.name}</h2>
-        <Button href={planHref} teen={isTeen}>
+        <div className={styles.bandBrand}>
+          {brand ? (
+            // eslint-disable-next-line @next/next/no-img-element
+            <img
+              className={styles.bandLogo}
+              src={brand.logoSrc}
+              alt=""
+              width={200}
+              height={70}
+            />
+          ) : null}
+          <h2>{prog.name}</h2>
+        </div>
+        <Button href={planHref} accent={Boolean(tone)}>
           {page.cta}
         </Button>
       </div>
 
-      <section className={styles.section} id="brief">
-        <div className={styles.wrap}>
-          <h2>{messages.planMyStart}</h2>
+      <section className={styles.brief} id="brief" aria-labelledby="brief-h2">
+        <div className={styles.briefInner}>
+          <h2 id="brief-h2">{messages.planMyStart}</h2>
           <p className={styles.introLine}>{startHome.brands.lead}</p>
           <BriefForm
             sourcePage={localePath(locale, `/${prog.slug}/`)}
             defaultProgram={programId}
-            teen={isTeen}
             markets={startHome.brands.markets}
             submitLabel={startHome.brands.button}
           />

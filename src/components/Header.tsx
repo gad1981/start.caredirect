@@ -5,7 +5,7 @@ import { Suspense, useState } from "react";
 import { LanguageSwitcher } from "@/components/i18n/LanguageSwitcher";
 import { useLocale } from "@/components/i18n/LocaleProvider";
 import { localePath } from "@/lib/i18n";
-import { PROGRAMS } from "@/lib/programs";
+import { LISTED_PROGRAMS } from "@/lib/programs";
 import styles from "./Header.module.css";
 
 export function Header() {
@@ -64,7 +64,7 @@ export function Header() {
                 {messages.programs} ▾
               </button>
               <div className={styles.drop}>
-                {PROGRAMS.map((p) => (
+                {LISTED_PROGRAMS.map((p) => (
                   <Link
                     key={p.id}
                     href={localePath(locale, `/${p.slug}/`)}

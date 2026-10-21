@@ -6,7 +6,7 @@
  "btn2": "How a START works",
  "stats": [
   [
-   "12",
+   "14",
    "life-stage moments, one program family",
    "accent"
   ],
@@ -17,7 +17,7 @@
   ],
   [
    "120,000+",
-   "mothers a year in START Pregnancy and Baby",
+   "mothers a year in START Pregnancy and Newborn",
    ""
   ],
   [
@@ -52,19 +52,37 @@
   },
   {
    "id": "st-natal",
-   "name": "START Baby",
+   "name": "START Newborn",
    "when": "2–3 days after birth",
    "where": "Maternity clinics",
    "desc": "The first-days box handed to new mothers in hospital, with the guide for the weeks ahead.",
-   "tagline": "The first days with baby",
+   "tagline": "The first days with newborn",
    "hands": [
     "Samples in the first-days box",
-    "An ad in the Natal or Breastfeeding Guide",
+    "An ad in the Natal Guide",
     "Handed over in maternity clinics"
    ],
    "online": [
     "Babyspace and Myparenthood",
     "Mybabywinner monthly giveaway",
+    "Follow-up: email, SMS, call centre, direct mail"
+   ]
+  },
+  {
+   "id": "st-luxury",
+   "name": "START Luxury Moments",
+   "when": "2–3 days after birth",
+   "where": "Private suites",
+   "desc": "The premium edition for new mothers in private clinic suites and private rooms.",
+   "tagline": "The luxury first days",
+   "hands": [
+    "Samples in the Luxury Moments kit",
+    "Exclusive brands in the box",
+    "Handed over in private suites"
+   ],
+   "online": [
+    "Babyspace and Myparenthood",
+    "Consented follow-up after registration",
     "Follow-up: email, SMS, call centre, direct mail"
    ]
   },
@@ -105,16 +123,34 @@
    ]
   },
   {
+   "id": "st-school-xmas",
+   "name": "START First Grade Christmas",
+   "when": "Christmas school period",
+   "where": "Primary schools",
+   "desc": "The Christmas edition of First Grade: a festive box for elementary school families.",
+   "tagline": "Christmas at school",
+   "hands": [
+    "Samples in the Christmas box",
+    "Festive school guide moment",
+    "Handed out in primary schools"
+   ],
+   "online": [
+    "Myschoolwinner for families",
+    "Parents reached at home",
+    "Follow-up: email, SMS, call centre, direct mail"
+   ]
+  },
+  {
    "id": "st-teen",
    "name": "START Teen Girl",
    "when": "The start of puberty",
    "where": "[Schools, pharmacies]",
-   "desc": "A kit for girls at the start of puberty: the first products of their own, with guidance they can trust.",
+   "desc": "At the start of puberty: samples in her hands, a guide she keeps, and follow-up that turns first products into brands she trusts.",
    "tagline": "Growing up, her way",
    "hands": [
-    "Samples in the kit",
-    "An ad in the guide",
-    "Handed out at [schools, pharmacies]"
+    "Samples in her hands",
+    "A guide she keeps",
+    "Follow-up: email, SMS, call centre, direct mail"
    ],
    "online": [
     "Our platform [to confirm]",
@@ -127,10 +163,10 @@
    "name": "START High School",
    "when": "Entering high school, 15–16",
    "where": "High schools · web guide START 9",
-   "desc": "New class, new people. A kit for teenagers starting high school, with an interactive web guide.",
+   "desc": "New class, new people. Samples, a guide, and START 9 — the interactive web guide for their first year.",
    "tagline": "New class, new people",
    "hands": [
-    "Samples in the kit",
+    "Samples in their hands",
     "An ad in the guide [to confirm]",
     "Handed out in high schools"
    ],
@@ -145,10 +181,10 @@
    "name": "START University",
    "when": "First year at university",
    "where": "Universities · web guide UniStart+",
-   "desc": "A kit for first-year students and a digital student guidebook, for their first independent purchases.",
+   "desc": "First-year students making their first independent purchases: samples, a guide, and UniStart+.",
    "tagline": "First year, first independence",
    "hands": [
-    "Samples in the kit",
+    "Samples in their hands",
     "An ad in the guide [to confirm]",
     "Handed out at universities"
    ],
@@ -166,7 +202,7 @@
    "desc": "Young men try your product on the day they enter service, a hard-to-reach audience in one place.",
    "tagline": "First day in service",
    "hands": [
-    "Samples in the kit",
+    "Samples in their hands",
     "An ad in the guide they take with them",
     "Handed out in military camps"
    ],

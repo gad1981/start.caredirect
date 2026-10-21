@@ -13,8 +13,8 @@
    },
    {
     "name": "The START family",
-    "comp": "program-cards ×12 (rail)",
-    "copy": "One audience. Every starting point. Pick the moment your consumer is in. Each START reaches them where it happens, at the exact week they're choosing new brands. Cards: START Pregnancy: 3rd trimester, Gyn & maternity clinics · START Baby: 2–3 days after birth, Maternity clinics · START First Foods: Baby at 6 months, Delivered home · START First Grade: First day of school, age 6, Primary schools · START Teen Girl: The start of puberty, [Schools, pharmacies] · START High School: Entering high school, 15–16, High schools · web guide START 9 · START University: First year at university, Universities · web guide UniStart+ · START Army: Recruitment day, Military camps · START Marriage: Getting married, [Registries, venues, municipalities] · START Pet: A new pet at home, [Vets, pet shops] · START Ladies: 50+, entering menopause, Gynaecology clinics · START Seniors: Starting retirement, [Channel to confirm]",
+    "comp": "program-cards ×14 (rail)",
+    "copy": "One audience. Every starting point. Pick the moment your consumer is in. Each START reaches them where it happens, at the exact week they're choosing new brands. Cards: START Pregnancy: 3rd trimester, Gyn & maternity clinics · START Newborn: 2–3 days after birth, Maternity clinics · START Luxury Moments: Private suites · START First Foods: Baby at 6 months, Delivered home · START First Grade: First day of school, age 6, Primary schools · START First Grade Christmas: Christmas school period, Primary schools · START Teen Girl: The start of puberty, [Schools, pharmacies] · START High School: Entering high school, 15–16, High schools · web guide START 9 · START University: First year at university, Universities · web guide UniStart+ · START Army: Recruitment day, Military camps · START Marriage: Getting married, [Registries, venues, municipalities] · START Pet: A new pet at home, [Vets, pet shops] · START Ladies: 50+, entering menopause, Gynaecology clinics · START Seniors: Starting retirement, [Channel to confirm]",
     "proof": "Each card: number, moment, one-line why, where, Details → its program page"
    },
    {
@@ -296,29 +296,29 @@
   "note": "Shortened."
  },
  "st-natal": {
-  "job": "Sell brands START Baby: reach new mothers 2–3 days after birth, in maternity clinics, and get a brief.",
-  "t": "START Baby: new mother sampling | START by Care Direct",
-  "m": "Reach new mothers 2–3 days after birth in maternity clinics: about 80,000 a year in Greece.",
-  "h1": "START Baby.",
+  "job": "Sell brands START Newborn: reach new mothers 2–3 days after birth in public and private maternity clinics, and get a brief.",
+  "t": "START Newborn: new mother sampling | START by Care Direct",
+  "m": "Reach new mothers 2–3 days after birth in public and private maternity clinics: about 80,000 a year in Greece.",
+  "h1": "START Newborn.",
   "sections": [
    {
     "name": "Hero",
     "comp": "program-hero",
-    "copy": "2–3 days after birth · Maternity clinics. The first-days box, handed to new mothers in hospital with the guide for the weeks ahead.",
-    "proof": "START program table"
+    "copy": "2–3 days after birth · Public & private maternity clinics. The first-days gift box for new mothers, with educational material, samples and the guide for the weeks ahead.",
+    "proof": "Natal Kit presentation 2020; START program table"
    },
    {
-    "name": "About START Baby",
+    "name": "About START Newborn",
     "comp": "program-about",
-    "copy": "START Baby reaches new mothers 2–3 days after birth in maternity clinics: about 80,000 a year in Greece. The first-days box comes with the Natal or Breastfeeding Guide for the weeks ahead. || When: 2–3 days after birth · Where: Maternity clinics · Platform: Babyspace, Myparenthood, Mybabywinner, HeyMaa",
-    "proof": "START program table"
+    "copy": "START Newborn reaches new mothers 2–3 days after birth in public hospitals and private clinics: about 80,000 a year in Greece (~42,600 private · ~38,300 public). The gift box includes educational material, samples, regular-size products, promotional materials and discount coupons, plus the Natal or Breastfeeding Guide. || When: 2–3 days after birth · Where: Public & private maternity clinics · Platform: Babyspace, Myparenthood, Mybabywinner, HeyMaa",
+    "proof": "Natal Kit presentation; Medium 2024"
    },
    {
     "name": "Your brand gets",
     "comp": "card-grid",
     "copy": "Samples in the box: your product in a new mother's first days · An ad in the guide: the Natal or Breastfeeding Guide she keeps · Consented follow-up: email, SMS, call centre and direct mail after registration · Our platforms: Babyspace, Myparenthood, Mybabywinner and HeyMaa keep the conversation going",
     "proof": "START model",
-    "intro": "What your brand gets in START Baby."
+    "intro": "What your brand gets in START Newborn."
    },
    {
     "name": "Guides & platforms by country",
@@ -331,7 +331,14 @@
     "name": "Numbers",
     "comp": "stat-row",
     "copy": "80,000+ new mothers a year · 100,000+ Babyspace members · 45,000+ mums on Mybabywinner",
-    "proof": "Medium 2024 [confirm 2026] · No country mix: totals only (120,000+ = Greece ~80,000 new mothers + ~40,000 pregnant women a year; 45,000+ = Mybabywinner Serbia 30,000+ and Cyprus 15,000+)"
+    "proof": "Medium 2024 [confirm 2026] · Natal Kit: ~80,900 Greece/year"
+   },
+   {
+    "name": "Luxury edition",
+    "comp": "link",
+    "copy": "START Luxury Moments",
+    "proof": "Link to /newbornluxury/",
+    "intro": "Looking for suites and private rooms in private clinics? See the premium Luxury Moments edition."
    },
    {
     "name": "Outside Southeast Europe",
@@ -343,7 +350,7 @@
    {
     "name": "Cases",
     "comp": "case-cards · from Work",
-    "copy": "Pulled from Work (START program: Baby).",
+    "copy": "Pulled from Work (START program: Newborn).",
     "proof": "To tag: Bochko, Bulgaria",
     "intro": "Programs we've run at this moment."
    }
@@ -351,10 +358,62 @@
   "cta": "Plan my START",
   "open": [
    "Boxes per year outside Greece.",
-   "Premium edition: name, clinics, volume.",
    "Category restrictions (e.g. infant formula)."
   ],
-  "note": "Shortened."
+  "note": "Shortened. Split from Luxury Moments."
+ },
+ "st-luxury": {
+  "job": "Sell brands START Luxury Moments: reach upper-class new mothers in private clinic suites and private rooms, and get a brief.",
+  "t": "START Luxury Moments: premium newborn sampling | START by Care Direct",
+  "m": "Premium kits for new mothers in private clinic suites and private rooms: about 2,000 a year, seeking exclusive brands.",
+  "h1": "START Luxury Moments.",
+  "sections": [
+   {
+    "name": "Hero",
+    "comp": "program-hero",
+    "copy": "2–3 days after birth · Private clinics · suites & private rooms. A royal welcome: exclusive brands in the first days of a new life.",
+    "proof": "Luxury Moments presentation 2021"
+   },
+   {
+    "name": "About START Luxury Moments",
+    "comp": "program-about",
+    "copy": "START Luxury Moments is the premium newborn edition. Kits go to new mothers who give birth in private clinics in suites and private rooms: a more demanding audience that seeks the most exclusive brands. Coverage is about 2,000 mothers. || When: 2–3 days after birth · Where: Private clinics · suites & private rooms · Platform: Babyspace, Myparenthood",
+    "proof": "Luxury Moments_181021.pdf"
+   },
+   {
+    "name": "Your brand gets",
+    "comp": "card-grid",
+    "copy": "Educational material in the Luxury Moments kit · Regular-size products: mothers experience your brand through trial · Promotional materials at a sentimental moment · Reach core target: upper-class new mothers in private suites",
+    "proof": "Luxury Moments presentation",
+    "intro": "What your brand gets in START Luxury Moments."
+   },
+   {
+    "name": "Numbers",
+    "comp": "stat-row",
+    "copy": "~2,000 mothers a year · Suites & private rooms · Private clinics",
+    "proof": "Luxury Moments presentation 2021 [confirm 2026]"
+   },
+   {
+    "name": "Also see",
+    "comp": "link",
+    "copy": "START Newborn",
+    "proof": "Link to /newborn/",
+    "intro": "Need the broad maternity-clinic reach across public and private hospitals? See START Newborn."
+   },
+   {
+    "name": "Cases",
+    "comp": "case-cards · from Work",
+    "copy": "Pulled from Work (START program: Luxury Moments).",
+    "proof": "",
+    "intro": "Programs we've run at this moment."
+   }
+  ],
+  "cta": "Plan my START",
+  "open": [
+   "Confirm 2026 volume and clinic list.",
+   "Category restrictions for luxury SKUs."
+  ],
+  "note": "Split from START Newborn; sourced from Luxury Moments deck."
  },
  "st-next": {
   "job": "Sell brands START First Foods: reach people at baby at 6 months, starting to eat, in Delivered home, and get a brief.",
@@ -451,6 +510,13 @@
     "intro": "Want a single-brand lesson in class instead? See our school programs."
    },
    {
+    "name": "Christmas edition",
+    "comp": "link",
+    "copy": "START First Grade Christmas",
+    "proof": "Link to /first-grade-christmas/",
+    "intro": "Looking for the festive elementary-school moment? See the Christmas edition."
+   },
+   {
     "name": "Cases",
     "comp": "case-cards · from Work",
     "copy": "Pulled from Work (START program: First Grade).",
@@ -460,33 +526,32 @@
   ],
   "cta": "Plan my START",
   "open": [
-   "Volumes per country.",
-   "Christmas edition (2 Oct): include?"
+   "Volumes per country."
   ],
   "note": "Shortened."
  },
  "st-teen": {
   "job": "Sell brands START Teen Girl: reach people at start of puberty, in [Channel to confirm], and get a brief.",
-  "t": "START Teen Girl: puberty kit | START by Care Direct",
-  "m": "A kit for girls at the start of puberty: trusted products and guidance. Put your brand in START Teen Girl.",
+  "t": "START Teen Girl: puberty program | START by Care Direct",
+  "m": "At the start of puberty: samples, a guide, and follow-up with trusted products and guidance. Put your brand in START Teen Girl.",
   "h1": "START Teen Girl.",
   "sections": [
    {
     "name": "Hero",
     "comp": "program-hero",
-    "copy": "The start of puberty · [Schools, pharmacies]. A kit for girls: the first products of their own, with guidance they can trust.",
+    "copy": "The start of puberty · [Schools, pharmacies]. Samples, a guide, and follow-up: the first products of their own, with guidance they can trust.",
     "proof": "START program table"
    },
    {
     "name": "About START Teen Girl",
     "comp": "program-about",
-    "copy": "START Teen Girl is a kit for girls at the start of puberty. It holds the first products of their own and a printed guide with trusted advice, handed out at [schools, pharmacies]. || When: The start of puberty · Where: [Schools, pharmacies] · Platform: [to confirm]",
+    "copy": "START Teen Girl reaches girls at the start of puberty. They get samples in their hands, a printed guide with trusted advice, and follow-up after registration — handed out at [schools, pharmacies]. || When: The start of puberty · Where: [Schools, pharmacies] · Platform: [to confirm]",
     "proof": "START program table"
    },
    {
     "name": "Your brand gets",
     "comp": "card-grid",
-    "copy": "Samples in the kit: the first products she chooses for herself · An ad in the guide: a printed guide with trusted advice · Consented follow-up: email, SMS, call centre and direct mail after registration · Our platform: [to confirm]",
+    "copy": "Samples in their hands: the first products she chooses for herself · An ad in the guide: a printed guide with trusted advice · Consented follow-up: email, SMS, call centre and direct mail after registration · Our platform: [to confirm]",
     "proof": "START model",
     "intro": "What your brand gets in START Teen Girl."
    },
@@ -508,26 +573,26 @@
  },
  "st-high": {
   "job": "Sell brands START High School: reach people at first year of high school (15–16), in High schools, and get a brief.",
-  "t": "START High School: student kit | START by Care Direct",
-  "m": "Students starting high school at 15–16: a kit plus START 9, the web guide for their first year.",
+  "t": "START High School: life-stage program | START by Care Direct",
+  "m": "Students starting high school at 15–16: samples, a guide, and START 9 for their first year.",
   "h1": "START High School.",
   "sections": [
    {
     "name": "Hero",
     "comp": "program-hero",
-    "copy": "Entering high school, 15–16 · High schools. New class, new people, still you: a kit plus START 9, the interactive web guide.",
+    "copy": "Entering high school, 15–16 · High schools. New class, new people, still you: samples, a guide, and START 9.",
     "proof": "START program table"
    },
    {
     "name": "About START High School",
     "comp": "program-about",
-    "copy": "START High School reaches students as they enter high school at 15–16. They get a kit and START 9, the interactive web guide for their first year: new class, new people, still you. || When: Entering high school, 15–16 · Where: High schools · Platform: START 9 (startliceu.life)",
+    "copy": "START High School reaches students as they enter high school at 15–16. They get samples in their hands, a guide, and START 9 — the interactive web guide for their first year: new class, new people, still you. || When: Entering high school, 15–16 · Where: High schools · Platform: START 9 (startliceu.life)",
     "proof": "START program table"
    },
    {
     "name": "Your brand gets",
     "comp": "card-grid",
-    "copy": "Samples in the kit: in teenagers' hands as high school begins · An ad in the guide: [printed guide to confirm] · Consented follow-up: email, SMS, call centre and direct mail after registration · Our platform: START 9 (startliceu.life), the web guide for their first year",
+    "copy": "Samples in their hands: as high school begins · An ad in the guide: [printed guide to confirm] · Consented follow-up: email, SMS, call centre and direct mail after registration · Our platform: START 9 (startliceu.life), the web guide for their first year",
     "proof": "START model",
     "intro": "What your brand gets in START High School."
    },
@@ -548,7 +613,7 @@
   ],
   "cta": "Plan my START",
   "open": [
-   "Kit volume and schools in Romania.",
+   "Reach and schools in Romania.",
    "Printed guide?",
    "Other countries."
   ],
@@ -556,26 +621,26 @@
  },
  "st-uni": {
   "job": "Sell brands START University: reach people at first year at university, in Universities, and get a brief.",
-  "t": "START University: student kit | START by Care Direct",
-  "m": "First-year students making their first independent purchases: a kit plus UniStart+, their web guide.",
+  "t": "START University: life-stage program | START by Care Direct",
+  "m": "First-year students making their first independent purchases: samples, a guide, and UniStart+.",
   "h1": "START University.",
   "sections": [
    {
     "name": "Hero",
     "comp": "program-hero",
-    "copy": "First year at university · Universities. A kit and a digital student guidebook, UniStart+, for their first independent purchases.",
+    "copy": "First year at university · Universities. Samples, a guide, and UniStart+ for their first independent purchases.",
     "proof": "START program table"
    },
    {
     "name": "About START University",
     "comp": "program-about",
-    "copy": "START University reaches first-year students as they make their first independent purchases. They get a kit and UniStart+, the digital student guidebook. || When: First year at university · Where: Universities · Platform: UniStart+ (uni-start.com)",
+    "copy": "START University reaches first-year students as they make their first independent purchases. They get samples in their hands, a guide, and UniStart+ — the digital student guidebook. || When: First year at university · Where: Universities · Platform: UniStart+ (uni-start.com)",
     "proof": "START program table"
    },
    {
     "name": "Your brand gets",
     "comp": "card-grid",
-    "copy": "Samples in the kit: in students' hands in their first year · An ad in the guide: [printed guide to confirm] · Consented follow-up: email, SMS, call centre and direct mail after registration · Our platform: UniStart+, with a 'Partners of the 2026 box' listing",
+    "copy": "Samples in their hands: in their first year · An ad in the guide: [printed guide to confirm] · Consented follow-up: email, SMS, call centre and direct mail after registration · Our platform: UniStart+, with a 'Partners of the 2026 box' listing",
     "proof": "START model",
     "intro": "What your brand gets in START University."
    },
@@ -603,7 +668,7 @@
   ],
   "cta": "Plan my START",
   "open": [
-   "Kit volume in Bulgaria.",
+   "Reach in Bulgaria.",
    "Serbia 2024: START University?",
    "Printed guide?"
   ],
@@ -630,7 +695,7 @@
    {
     "name": "Your brand gets",
     "comp": "card-grid",
-    "copy": "Samples in the kit: in their hands on their first day of service · An ad in the guide: a printed guide they take with them · Consented follow-up: email, SMS, call centre and direct mail after registration · Our platform: [to confirm]",
+    "copy": "Samples in their hands: on their first day of service · An ad in the guide: a printed guide they take with them · Consented follow-up: email, SMS, call centre and direct mail after registration · Our platform: [to confirm]",
     "proof": "START model",
     "intro": "What your brand gets in START Army."
    },
@@ -743,5 +808,51 @@
    "Guide and platform."
   ],
   "note": "Shortened."
+ },
+ "st-school-xmas": {
+  "job": "Sell brands START First Grade Christmas: reach elementary school families in the Christmas school period, and get a brief.",
+  "t": "START First Grade Christmas: school sampling | START by Care Direct",
+  "m": "The Christmas edition of First Grade: a festive multi-brand box for elementary school children and their parents.",
+  "h1": "START First Grade Christmas.",
+  "sections": [
+   {
+    "name": "Hero",
+    "comp": "program-hero",
+    "copy": "Christmas school period · Primary schools. A festive First Grade box for elementary school families choosing brands for the season.",
+    "proof": "Christmas First Grade logo; school program"
+   },
+   {
+    "name": "About START First Grade Christmas",
+    "comp": "program-about",
+    "copy": "START First Grade Christmas is the festive edition of First Grade. A multi-brand box reaches elementary school children and their parents during the Christmas school period. || When: Christmas school period · Where: Primary schools · Platform: Myschoolwinner",
+    "proof": "School program family"
+   },
+   {
+    "name": "Your brand gets",
+    "comp": "card-grid",
+    "copy": "Samples in the Christmas box: in children's hands for the festive school moment · A seasonal guide moment parents keep · Consented follow-up: email, SMS, call centre and direct mail after registration · Our platform: Myschoolwinner for families",
+    "proof": "START model",
+    "intro": "What your brand gets in START First Grade Christmas."
+   },
+   {
+    "name": "Also see",
+    "comp": "link",
+    "copy": "START First Grade",
+    "proof": "Link to /first-grade/",
+    "intro": "Looking for the first school day in September? See START First Grade."
+   },
+   {
+    "name": "Cases",
+    "comp": "case-cards · from Work",
+    "copy": "Pulled from Work (START program: First Grade Christmas).",
+    "proof": "",
+    "intro": "Programs we've run at this moment."
+   }
+  ],
+  "cta": "Plan my START",
+  "open": [
+   "Confirm markets and volumes for Christmas edition."
+  ],
+  "note": "Christmas edition of First Grade."
  }
 }

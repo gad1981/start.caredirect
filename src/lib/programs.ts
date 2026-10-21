@@ -1,8 +1,10 @@
 export type ProgramId =
   | "st-pregnancy"
   | "st-natal"
+  | "st-luxury"
   | "st-next"
   | "st-school"
+  | "st-school-xmas"
   | "st-teen"
   | "st-high"
   | "st-uni"
@@ -14,9 +16,11 @@ export type ProgramId =
 
 export type ProgramSlug =
   | "pregnancy"
-  | "baby"
+  | "newborn"
+  | "newbornluxury"
   | "first-foods"
   | "first-grade"
+  | "first-grade-christmas"
   | "teen-girl"
   | "high-school"
   | "university"
@@ -31,11 +35,25 @@ export const PROGRAMS: {
   slug: ProgramSlug;
   name: string;
   assetKey: string;
+  /** When false, keep the route/page but hide from home tiles, nav, footer, forms. */
+  listed?: boolean;
 }[] = [
   { id: "st-pregnancy", slug: "pregnancy", name: "START Pregnancy", assetKey: "pregnancy" },
-  { id: "st-natal", slug: "baby", name: "START Baby", assetKey: "natal" },
+  { id: "st-natal", slug: "newborn", name: "START Newborn", assetKey: "natal" },
+  {
+    id: "st-luxury",
+    slug: "newbornluxury",
+    name: "START Luxury Moments",
+    assetKey: "natal",
+  },
   { id: "st-next", slug: "first-foods", name: "START First Foods", assetKey: "next" },
   { id: "st-school", slug: "first-grade", name: "START First Grade", assetKey: "school" },
+  {
+    id: "st-school-xmas",
+    slug: "first-grade-christmas",
+    name: "START First Grade Christmas",
+    assetKey: "school",
+  },
   { id: "st-teen", slug: "teen-girl", name: "START Teen Girl", assetKey: "teen" },
   { id: "st-high", slug: "high-school", name: "START High School", assetKey: "high" },
   { id: "st-uni", slug: "university", name: "START University", assetKey: "uni" },
@@ -45,6 +63,9 @@ export const PROGRAMS: {
   { id: "st-silver", slug: "ladies", name: "START Ladies", assetKey: "silver" },
   { id: "st-seniors", slug: "seniors", name: "START Seniors", assetKey: "seniors" },
 ];
+
+/** Programs shown in nav, footer, brief form, and home tiles. */
+export const LISTED_PROGRAMS = PROGRAMS.filter((p) => p.listed !== false);
 
 const bySlug = Object.fromEntries(PROGRAMS.map((p) => [p.slug, p])) as Record<
   ProgramSlug,

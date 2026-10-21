@@ -25,11 +25,15 @@
   box-shadow: var(--focus);
 }
 
-.teen {
-  border-color: var(--teen-pink);
-  color: var(--teen-purple);
+.accent {
+  border-color: var(--program-accent, var(--teen-pink));
+  color: var(--program-ink, var(--teen-purple));
 }
 
-.teen:hover {
-  background: color-mix(in srgb, var(--teen-pink) 12%, white);
+.accent:hover {
+  background: color-mix(
+    in srgb,
+    var(--program-accent, var(--teen-pink)) 12%,
+    white
+  );
 }
