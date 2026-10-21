@@ -3,7 +3,6 @@ import {
   Figtree,
   Literata,
   Manrope,
-  Nunito_Sans,
   Source_Sans_3,
 } from "next/font/google";
 import styles from "./fonts.module.css";
@@ -48,29 +47,22 @@ const literata = Literata({
   display: "swap",
 });
 
-const nunito = Nunito_Sans({
-  subsets: ["latin", "latin-ext", "cyrillic"],
-  weight: ["400", "600", "700", "800"],
-  variable: "--preview-d-display",
-  display: "swap",
-});
-
 const pairs = [
   {
     id: "current",
     label: "Current",
     displayName: "Bricolage Grotesque",
     bodyName: "Figtree",
-    note: "What the site uses now. Fine, but Figtree is common and Bricolage leans playful-startup.",
+    note: "What the site used before. Fine, but Figtree is common and Bricolage leans playful-startup.",
     className: `${currentDisplay.variable} ${currentBody.variable} ${styles.pairA}`,
     scripts: "Latin · Latin-ext",
   },
   {
     id: "recommended",
-    label: "Recommended",
+    label: "Recommended (live)",
     displayName: "Manrope",
     bodyName: "Source Sans 3",
-    note: "Fresh geometric display, calm body, solid Greek + Cyrillic for EL / SR / BG.",
+    note: "Fresh geometric display, calm body, solid Greek + Cyrillic for EL / SR / BG. This is what the site uses now.",
     className: `${manrope.variable} ${sourceSans.variable} ${styles.pairB}`,
     scripts: "Latin · Latin-ext · Greek · Cyrillic",
   },
@@ -83,26 +75,17 @@ const pairs = [
     className: `${literata.variable} ${sourceSans.variable} ${styles.pairC}`,
     scripts: "Latin · Latin-ext · Greek · Cyrillic",
   },
-  {
-    id: "soft",
-    label: "Softer family",
-    displayName: "Nunito Sans",
-    bodyName: "Nunito Sans",
-    note: "Warm and friendly. Less distinctive as a brand voice.",
-    className: `${nunito.variable} ${nunito.variable} ${styles.pairD}`,
-    scripts: "Latin · Latin-ext · Cyrillic",
-  },
 ] as const;
 
 export default function FontsPreviewPage() {
   return (
     <main
-      className={`${styles.main} ${currentDisplay.variable} ${currentBody.variable} ${manrope.variable} ${sourceSans.variable} ${literata.variable} ${nunito.variable}`}
+      className={`${styles.main} ${currentDisplay.variable} ${currentBody.variable} ${manrope.variable} ${sourceSans.variable} ${literata.variable}`}
     >
       <p className={styles.eye}>Typography preview</p>
       <h1 className={styles.pageTitle}>Font options for START</h1>
       <p className={styles.lead}>
-        Same headline and body in four pairings. Pick the mood that feels correct,
+        Same headline and body in three pairings. Pick the mood that feels correct,
         fresh and elegant — then we can apply it site-wide.
       </p>
 

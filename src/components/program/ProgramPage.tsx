@@ -13,7 +13,7 @@ import {
 import { localePath, type Locale } from "@/lib/i18n";
 import { getProgramBrand } from "@/lib/program-brands";
 import type { ProgramId } from "@/lib/programs";
-import { getProgramById, programHeroSrc } from "@/lib/programs";
+import { getProgramById, programHeroSrc, programKitSrc } from "@/lib/programs";
 import { withTbc } from "@/lib/tbc";
 import { CountryTabs } from "./CountryTabs";
 import styles from "./ProgramPage.module.css";
@@ -106,6 +106,7 @@ export async function ProgramPage({
     stage?.desc ??
     "";
   const planHref = localePath(locale, "/plan/");
+  const kitSrc = programKitSrc(prog.assetKey);
 
   return (
     <div className={styles.page} data-tone={tone || undefined}>
@@ -270,6 +271,29 @@ export async function ProgramPage({
           </section>
         );
       })}
+
+      {kitSrc ? (
+        <section className={styles.kitView} aria-labelledby="kit-heading">
+          <div className={styles.wrap}>
+            <div className={styles.kitCopy}>
+              <p className={styles.kitEye}>{messages.theKitEye}</p>
+              <h2 id="kit-heading">{messages.theKit}</h2>
+              <p className={styles.kitLead}>{messages.theKitLead}</p>
+            </div>
+            <div className={styles.kitPedestal}>
+              <Image
+                src={kitSrc}
+                alt={`${prog.name} kit`}
+                width={1536}
+                height={1024}
+                quality={90}
+                sizes="(max-width: 900px) calc(100vw - 36px), 720px"
+                className={styles.kitImg}
+              />
+            </div>
+          </div>
+        </section>
+      ) : null}
 
       {casesSec ? (
         <section className={styles.section}>

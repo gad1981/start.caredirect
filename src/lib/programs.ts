@@ -97,7 +97,10 @@ function stageHeroExt(assetKey: string) {
     assetKey === "marriage" ||
     assetKey === "school-christmas" ||
     assetKey === "school" ||
-    assetKey === "seniors"
+    assetKey === "seniors" ||
+    assetKey === "high" ||
+    assetKey === "army" ||
+    assetKey === "silver"
   ) {
     return "png";
   }
@@ -116,7 +119,10 @@ function stageTileExt(assetKey: string) {
     assetKey === "marriage" ||
     assetKey === "school-christmas" ||
     assetKey === "school" ||
-    assetKey === "seniors"
+    assetKey === "seniors" ||
+    assetKey === "high" ||
+    assetKey === "army" ||
+    assetKey === "silver"
   ) {
     return "png";
   }
@@ -131,6 +137,29 @@ export function programHeroSrc(assetKey: string) {
 export function programTileSrc(assetKey: string) {
   const key = assetKey === "pregnancy" ? "pregnancy-v3" : assetKey;
   return `/assets/start-stages/tile-st-${key}.${stageTileExt(assetKey)}`;
+}
+
+/** Kit cutouts for program pages (black studio field keyed transparent). */
+const KIT_KEYS = new Set([
+  "pregnancy",
+  "natal",
+  "natal-luxury",
+  "next",
+  "school",
+  "school-christmas",
+  "teen",
+  "high",
+  "uni",
+  "army",
+  "marriage",
+  "pet",
+  "silver",
+  "seniors",
+]);
+
+export function programKitSrc(assetKey: string): string | null {
+  if (!KIT_KEYS.has(assetKey)) return null;
+  return `/assets/kits/kit-st-${assetKey}.png`;
 }
 
 export function padNum(index: number) {
