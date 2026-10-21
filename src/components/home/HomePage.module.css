@@ -28,8 +28,9 @@
   position: relative;
   z-index: 1;
   /* Light overlap only — keep the mid-frame kit band clear of the card. */
-  margin: -28px auto 0;
-  max-width: 979px;
+  margin: -28px 0 0;
+  width: 100%;
+  max-width: none;
   background: linear-gradient(
     180deg,
     var(--hero-card-top) 0%,
@@ -832,9 +833,15 @@
     max-height: calc(100svh - 13rem);
   }
 
+  /* Zoom hero ~30% on mobile (home page only — this stylesheet). */
+  .photo img {
+    transform: scale(1.3);
+    transform-origin: center center;
+  }
+
   .card {
-    /* Keep the title in the first screen; light overlap only. */
-    margin: -28px 12px 0;
+    /* Match .wrap width used by other home sections (no extra side inset). */
+    margin: -28px 0 0;
     padding: 22px 18px 24px;
     border-radius: 20px;
   }

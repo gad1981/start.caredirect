@@ -2,7 +2,6 @@
 
 import { useRouter } from "next/navigation";
 import type { AnchorHTMLAttributes, MouseEvent, ReactNode } from "react";
-import { jumpTopSoon } from "@/lib/navigate";
 
 type Props = {
   href: string;
@@ -56,9 +55,9 @@ export function AppLink({
       return;
     }
 
-    jumpTopSoon();
+    // Do not scroll the current page first — that flashes the home hero
+    // before the destination mounts. ScrollToTop jumps after the route changes.
     router.push(href);
-    jumpTopSoon();
   }
 
   return (
