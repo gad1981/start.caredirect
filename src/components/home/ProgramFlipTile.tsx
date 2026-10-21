@@ -6,6 +6,7 @@ import {
   useState,
   type MouseEvent,
   type PointerEvent,
+  type TouchEvent,
 } from "react";
 import { AppLink } from "@/components/AppLink";
 import type { ProgramBrand } from "@/lib/program-brands";
@@ -25,6 +26,8 @@ type Stage = {
   href: string;
 };
 
+const SWIPE_PX = 36;
+
 export function ProgramFlipTile({
   stage,
   brand,
@@ -40,38 +43,70 @@ export function ProgramFlipTile({
   const swiping = useRef(false);
   const suppressClick = useRef(false);
 
-  function onPointerDown(e: PointerEvent<HTMLAnchorElement>) {
-    if (e.pointerType === "mouse") return;
-    startX.current = e.clientX;
-    startY.current = e.clientY;
+  function beginSwipe(x: number, y: number) {
+    startX.current = x;
+    startY.current = y;
     swiping.current = false;
   }
 
-  function onPointerMove(e: PointerEvent<HTMLAnchorElement>) {
+  function moveSwipe(x: number, y: number) {
     if (startX.current == null || startY.current == null) return;
-    const dx = e.clientX - startX.current;
-    const dy = e.clientY - startY.current;
-    if (Math.abs(dx) > 12 && Math.abs(dx) > Math.abs(dy) * 1.2) {
+    const dx = x - startX.current;
+    const dy = y - startY.current;
+    if (Math.abs(dx) > 10 && Math.abs(dx) > Math.abs(dy) * 1.1) {
       swiping.current = true;
     }
   }
 
-  function onPointerUp(e: PointerEvent<HTMLAnchorElement>) {
+  function endSwipe(x: number, y: number) {
     if (startX.current == null) return;
-    const dx = e.clientX - startX.current;
-    const dy = e.clientY - (startY.current ?? e.clientY);
+    const dx = x - startX.current;
+    const dy = y - (startY.current ?? y);
     startX.current = null;
     startY.current = null;
 
-    if (!swiping.current || Math.abs(dx) < 40 || Math.abs(dx) < Math.abs(dy)) {
+    if (!swiping.current || Math.abs(dx) < SWIPE_PX || Math.abs(dx) < Math.abs(dy)) {
       swiping.current = false;
       return;
     }
 
-    if (dx < 0 && !flipped) setFlipped(true);
-    if (dx > 0 && flipped) setFlipped(false);
+    if (dx < 0) setFlipped(true);
+    else setFlipped(false);
     suppressClick.current = true;
     swiping.current = false;
+  }
+
+  function onPointerDown(e: PointerEvent<HTMLAnchorElement>) {
+    if (e.pointerType === "mouse") return;
+    beginSwipe(e.clientX, e.clientY);
+  }
+
+  function onPointerMove(e: PointerEvent<HTMLAnchorElement>) {
+    if (e.pointerType === "mouse") return;
+    moveSwipe(e.clientX, e.clientY);
+  }
+
+  function onPointerUp(e: PointerEvent<HTMLAnchorElement>) {
+    if (e.pointerType === "mouse") return;
+    endSwipe(e.clientX, e.clientY);
+  }
+
+  function onTouchStart(e: TouchEvent<HTMLAnchorElement>) {
+    const t = e.changedTouches[0];
+    if (!t) return;
+    beginSwipe(t.clientX, t.clientY);
+  }
+
+  function onTouchMove(e: TouchEvent<HTMLAnchorElement>) {
+    const t = e.changedTouches[0];
+    if (!t) return;
+    moveSwipe(t.clientX, t.clientY);
+  }
+
+  function onTouchEnd(e: TouchEvent<HTMLAnchorElement>) {
+    const t = e.changedTouches[0];
+    if (!t) return;
+    endSwipe(t.clientX, t.clientY);
   }
 
   function onClick(e: MouseEvent<HTMLAnchorElement>) {
@@ -82,6 +117,16 @@ export function ProgramFlipTile({
   }
 
   function pickSide(e: MouseEvent, next: boolean) {
+    e.preventDefault();
+    e.stopPropagation();
+    suppressClick.current = true;
+    setFlipped(next);
+  }
+
+  function pickSidePointer(
+    e: PointerEvent<HTMLSpanElement> | MouseEvent<HTMLSpanElement>,
+    next: boolean,
+  ) {
     e.preventDefault();
     e.stopPropagation();
     suppressClick.current = true;
@@ -101,6 +146,9 @@ export function ProgramFlipTile({
         startY.current = null;
         swiping.current = false;
       }}
+      onTouchStart={onTouchStart}
+      onTouchMove={onTouchMove}
+      onTouchEnd={onTouchEnd}
       onClick={onClick}
       aria-label={`${stage.name}. ${exploreLabel}`}
     >
@@ -131,7 +179,7 @@ export function ProgramFlipTile({
               </span>
             </span>
           </span>
-          <span className={styles.flipBack} aria-hidden="true">
+          <span className={styles.flipBack} aria-hidden={!flipped}>
             <span className={styles.flipBrand}>
               {/* eslint-disable-next-line @next/next/no-img-element */}
               <img
@@ -165,13 +213,20 @@ export function ProgramFlipTile({
           e.stopPropagation();
           suppressClick.current = true;
         }}
+        onPointerDown={(e) => {
+          e.preventDefault();
+          e.stopPropagation();
+          suppressClick.current = true;
+        }}
       >
         <span
           className={`${styles.flipDot}${!flipped ? ` ${styles.flipDotActive}` : ""}`}
+          onPointerDown={(e) => pickSidePointer(e, false)}
           onClick={(e) => pickSide(e, false)}
         />
         <span
           className={`${styles.flipDot}${flipped ? ` ${styles.flipDotActive}` : ""}`}
+          onPointerDown={(e) => pickSidePointer(e, true)}
           onClick={(e) => pickSide(e, true)}
         />
       </span>
