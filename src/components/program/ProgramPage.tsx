@@ -2,8 +2,6 @@ import Image from "next/image";
 import { Button } from "@/components/Button";
 import { BriefForm } from "@/components/BriefForm";
 import {
-  casesForProgram,
-  getCases,
   getDoodlePlan,
   getMessages,
   getPages,
@@ -81,12 +79,10 @@ export async function ProgramPage({
   const startHome = await getStartHome(locale);
   const programsData = await getProgramsData(locale);
   const doodlePlan = await getDoodlePlan(locale);
-  const allCases = await getCases(locale);
   const brand = getProgramBrand(programId);
   const tone = brand?.tone;
   const plan = doodlePlan[programId];
   const stage = startHome.stages.find((s) => s.id === programId);
-  const programCases = casesForProgram(allCases, programId);
   const aboutSec = page.sections.find((s) => s.comp === "program-about");
   const cardsSec = page.sections.find((s) => s.comp === "card-grid");
   const tabsSec = page.sections.find(
@@ -94,7 +90,6 @@ export async function ProgramPage({
   );
   const statsSec = page.sections.find((s) => s.comp === "stat-row");
   const linkSecs = page.sections.filter((s) => s.comp === "link");
-  const casesSec = page.sections.find((s) => s.comp.includes("case-cards"));
   const about = aboutSec ? parseAbout(aboutSec.copy) : null;
   const cards = cardsSec ? parseCards(cardsSec.copy) : [];
   const stats = statsSec ? parseStats(statsSec.copy) : [];
@@ -291,46 +286,6 @@ export async function ProgramPage({
                 className={styles.kitImg}
               />
             </div>
-          </div>
-        </section>
-      ) : null}
-
-      {casesSec ? (
-        <section className={styles.section}>
-          <div className={styles.wrap}>
-            <h2>{casesSec.name}</h2>
-            {casesSec.intro ? (
-              <p className={styles.introLine}>{casesSec.intro}</p>
-            ) : null}
-            {programCases.length ? (
-              <div className={styles.cases}>
-                {programCases.map((c) => (
-                  <article key={c.slug} className={styles.case}>
-                    <h3>{c.h1}</h3>
-                    <p>
-                      {c.client} · {c.where} · {c.year}
-                    </p>
-                    <p>{withTbc(c.line)}</p>
-                    <p>{withTbc(c.brief)}</p>
-                    {c.src ? (
-                      <a href={c.src} target="_blank" rel="noopener noreferrer">
-                        {messages.readCase}
-                      </a>
-                    ) : null}
-                  </article>
-                ))}
-              </div>
-            ) : (
-              <div className={styles.founding}>
-                <h3>{messages.foundingTitle}</h3>
-                <p>
-                  {messages.foundingBody.replace("{program}", prog.name)}
-                </p>
-                <Button href={planHref} accent={Boolean(tone)}>
-                  {page.cta}
-                </Button>
-              </div>
-            )}
           </div>
         </section>
       ) : null}

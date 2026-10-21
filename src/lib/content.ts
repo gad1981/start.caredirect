@@ -1,7 +1,6 @@
 import type { Locale } from "@/lib/i18n";
 import { defaultLocale } from "@/lib/i18n";
 
-import enCases from "../../content/en/cases.json";
 import enDoodlePlan from "../../content/en/doodle-plan.json";
 import enPages from "../../content/en/pages.json";
 import enProgramsData from "../../content/en/programs-data.json";
@@ -99,23 +98,6 @@ export async function getProgramsData(locale: Locale = defaultLocale) {
   return deepMerge(base, overlay);
 }
 
-export async function getCases(locale: Locale = defaultLocale) {
-  type Case = {
-    slug: string;
-    client: string;
-    where: string;
-    year: string;
-    h1: string;
-    line: string;
-    brief: string;
-    tags: string[];
-    src?: string;
-  };
-  const base = enCases as Case[];
-  const overlay = await loadLocaleJson<Case[]>(locale, "cases");
-  return overlay?.length ? overlay : base;
-}
-
 export async function getDoodlePlan(locale: Locale = defaultLocale) {
   type Plan = {
     hero: string;
@@ -141,13 +123,6 @@ export function getMessages(locale: Locale = defaultLocale): Messages {
   return messageMap[locale] ?? messageMap.en;
 }
 
-export function casesForProgram(
-  cases: Awaited<ReturnType<typeof getCases>>,
-  programId: string,
-) {
-  return cases.filter((c) => c.tags.includes(programId));
-}
-
 /** @deprecated Prefer getStartHome(locale) */
 export const startHome = enStartHome;
 /** @deprecated Prefer getPages(locale) */
@@ -156,8 +131,6 @@ export const pages = enPages as Record<string, PageRecord>;
 export const programsData = enProgramsData as unknown as Awaited<
   ReturnType<typeof getProgramsData>
 >;
-/** @deprecated Prefer getCases(locale) */
-export const cases = enCases as Awaited<ReturnType<typeof getCases>>;
 /** @deprecated Prefer getDoodlePlan(locale) */
 export const doodlePlan = enDoodlePlan as Awaited<ReturnType<typeof getDoodlePlan>>;
 export const routes = getRoutes();
