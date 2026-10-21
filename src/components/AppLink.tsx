@@ -12,8 +12,8 @@ type Props = {
   };
 
 /**
- * In-app link that navigates on first tap and lands at the top of the page
- * (or at the hash target when the URL includes #…).
+ * In-app link that navigates on first tap. ScrollToTop lands at the top of
+ * the destination page (hash targets scroll into view when the URL includes #…).
  */
 export function AppLink({
   href,
