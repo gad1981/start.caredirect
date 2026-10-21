@@ -68,6 +68,7 @@ export function Header() {
                   <Link
                     key={p.id}
                     href={localePath(locale, `/${p.slug}/`)}
+                    scroll
                     onClick={() => {
                       setOpen(false);
                       setProgramsOpen(false);

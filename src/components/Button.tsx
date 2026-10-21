@@ -40,7 +40,7 @@ export function Button({
       );
     }
     return (
-      <Link className={cls} href={href}>
+      <Link className={cls} href={href} scroll>
         {children}
       </Link>
     );

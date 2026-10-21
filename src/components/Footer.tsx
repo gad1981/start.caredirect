@@ -23,7 +23,12 @@ export function Footer({ footerLine }: { footerLine: string }) {
           <h2>{messages.programs}</h2>
           <div className={styles.programLinks}>
             {LISTED_PROGRAMS.map((p) => (
-              <Link key={p.id} href={localePath(locale, `/${p.slug}/`)}>
+              <Link
+                key={p.id}
+                href={localePath(locale, `/${p.slug}/`)}
+                scroll
+                prefetch={false}
+              >
                 {p.name}
               </Link>
             ))}
@@ -31,9 +36,15 @@ export function Footer({ footerLine }: { footerLine: string }) {
         </div>
         <div className={styles.col}>
           <h2>{messages.forBrands}</h2>
-          <Link href={localePath(locale, "/")}>{messages.startHome}</Link>
-          <Link href={localePath(locale, "/order/")}>{messages.orderSamples}</Link>
-          <Link href={localePath(locale, "/plan/")}>{messages.planAStart}</Link>
+          <Link href={localePath(locale, "/")} scroll prefetch={false}>
+            {messages.startHome}
+          </Link>
+          <Link href={localePath(locale, "/order/")} scroll prefetch={false}>
+            {messages.orderSamples}
+          </Link>
+          <Link href={localePath(locale, "/plan/")} scroll prefetch={false}>
+            {messages.planAStart}
+          </Link>
         </div>
       </div>
       <div className={styles.base}>
