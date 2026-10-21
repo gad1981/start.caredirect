@@ -558,12 +558,16 @@
 }
 
 .tileTagline {
-  margin: 2px 0 0;
-  font: 600 14px / 1.25 var(--display);
+  margin: 4px 0 0;
+  width: fit-content;
+  max-width: 100%;
+  padding: 5px 10px;
+  border-radius: 999px;
+  font: 600 13px / 1.25 var(--display);
   letter-spacing: -0.01em;
   color: #fff;
-  opacity: 0.95;
-  text-shadow: 0 1px 10px rgba(0, 0, 0, 0.35);
+  background: color-mix(in srgb, var(--flip-accent, #c45db8) 72%, #111);
+  box-shadow: 0 8px 18px -12px rgba(0, 0, 0, 0.55);
 }
 
 .tileDesc {
