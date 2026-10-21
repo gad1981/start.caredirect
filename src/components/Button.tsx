@@ -1,7 +1,7 @@
 "use client";
 
 import type { ComponentProps, ReactNode } from "react";
-import { FooterLink } from "@/components/FooterLink";
+import { AppLink } from "@/components/AppLink";
 import styles from "./Button.module.css";
 
 type Props = {
@@ -50,9 +50,9 @@ export function Button({
       );
     }
     return (
-      <FooterLink className={cls} href={href}>
+      <AppLink className={cls} href={href}>
         {children}
-      </FooterLink>
+      </AppLink>
     );
   }
 
