@@ -7,6 +7,7 @@ import { localePath, type Locale } from "@/lib/i18n";
 import { getProgramBrand } from "@/lib/program-brands";
 import { getProgramById, padNum, programTileSrc } from "@/lib/programs";
 import { withTbc } from "@/lib/tbc";
+import { HowStepIcon } from "./HowStepIcon";
 import { ProgramFlipTile } from "./ProgramFlipTile";
 import styles from "./HomePage.module.css";
 
@@ -148,9 +149,9 @@ export async function HomePage({ locale }: { locale: Locale }) {
             {startHome.how.steps.map(([title, body], i) => (
               <article key={title} className={styles.step}>
                 <div className={styles.ico} aria-hidden>
-                  {i + 1}
+                  <HowStepIcon index={i} />
                 </div>
-                <h3>{title}</h3>
+                <h3 className={styles.stepTitle}>{title}</h3>
                 <p>{body}</p>
               </article>
             ))}
