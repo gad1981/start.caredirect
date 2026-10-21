@@ -49,5 +49,6 @@
   "insightsApp": "Online app",
   "insightsGuide": "Printed / digital guide",
   "insightsTirage": "Tirage / format",
-  "insightsCountries": "Countries"
+  "insightsCountries": "Countries",
+  "swipeHint": "Swipe for details"
 }

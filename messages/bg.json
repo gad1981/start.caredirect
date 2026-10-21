@@ -49,5 +49,6 @@
   "insightsApp": "Online app",
   "insightsGuide": "Печатен / digital гид",
   "insightsTirage": "Тираж / формат",
-  "insightsCountries": "Държави"
+  "insightsCountries": "Държави",
+  "swipeHint": "Плъзни за детайли"
 }
