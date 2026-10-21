@@ -7,6 +7,7 @@ import { localePath, type Locale } from "@/lib/i18n";
 import { getProgramBrand } from "@/lib/program-brands";
 import { getProgramById, padNum, programTileSrc } from "@/lib/programs";
 import { withTbc } from "@/lib/tbc";
+import { ProgramFlipTile } from "./ProgramFlipTile";
 import styles from "./HomePage.module.css";
 
 export async function HomePage({ locale }: { locale: Locale }) {
@@ -76,92 +77,54 @@ export async function HomePage({ locale }: { locale: Locale }) {
           <div className={styles.tiles}>
             {stages.map((s) => {
               const brand = getProgramBrand(s.id);
+              const href = localePath(locale, `/${s.prog.slug}/`);
+              const tileSrc = programTileSrc(s.prog.assetKey);
+              if (brand) {
+                return (
+                  <ProgramFlipTile
+                    key={s.id}
+                    brand={brand}
+                    exploreLabel={messages.explore}
+                    swipeHint={messages.swipeHint}
+                    stage={{
+                      id: s.id,
+                      name: s.name,
+                      when: s.when,
+                      where: s.where,
+                      desc: s.desc,
+                      tagline: s.tagline,
+                      hands: s.hands,
+                      n: s.n,
+                      tileSrc,
+                      href,
+                    }}
+                  />
+                );
+              }
               return (
-                <Link
-                  key={s.id}
-                  className={`${styles.tile} ${brand ? styles.tileFlip : ""}`}
-                  href={localePath(locale, `/${s.prog.slug}/`)}
-                >
-                  {brand ? (
-                    <span className={styles.flipScene}>
-                      <span className={styles.flipInner}>
-                        <span className={styles.flipFront}>
-                          <Image
-                            src={programTileSrc(s.prog.assetKey)}
-                            alt=""
-                            fill
-                            quality={90}
-                            sizes="(max-width:600px) 100vw, (max-width:900px) 50vw, 25vw"
-                          />
-                          <span className={styles.tileShade} aria-hidden />
-                          <span className={styles.tileTop}>
-                            <span className={styles.num} aria-hidden>
-                              {s.n}
-                            </span>
-                          </span>
-                          <span className={styles.tileBody}>
-                            <span className={styles.when}>{withTbc(s.when)}</span>
-                            <h3 className={styles.tileName}>{s.name}</h3>
-                            <span className={styles.tileFoot}>
-                              <span>{messages.explore}</span>
-                            </span>
-                          </span>
-                        </span>
-                        <span
-                          className={styles.flipBack}
-                          data-tone={brand.tone}
-                          aria-hidden="true"
-                        >
-                          <span className={styles.flipBrand}>
-                            {/* eslint-disable-next-line @next/next/no-img-element */}
-                            <img
-                              className={styles.flipLogo}
-                              src={brand.logoSrc}
-                              alt=""
-                              width={160}
-                              height={63}
-                            />
-                            <span className={styles.flipTag}>
-                              {withTbc(s.tagline ?? s.when)}
-                            </span>
-                          </span>
-                          <span className={styles.flipCopy}>
-                            <p className={styles.flipDesc}>{withTbc(s.desc)}</p>
-                            <ul className={styles.flipList}>
-                              {(s.hands ?? []).slice(0, 3).map((item) => (
-                                <li key={item}>{withTbc(item)}</li>
-                              ))}
-                            </ul>
-                          </span>
-                        </span>
-                      </span>
+                <Link key={s.id} className={styles.tile} href={href}>
+                  <Image
+                    src={tileSrc}
+                    alt=""
+                    fill
+                    quality={90}
+                    sizes="(max-width:600px) 100vw, (max-width:900px) 50vw, 25vw"
+                  />
+                  <span className={styles.tileShade} aria-hidden />
+                  <div className={styles.tileTop}>
+                    <span className={styles.num} aria-hidden>
+                      {s.n}
                     </span>
-                  ) : (
-                    <>
-                      <Image
-                        src={programTileSrc(s.prog.assetKey)}
-                        alt=""
-                        fill
-                        quality={90}
-                        sizes="(max-width:600px) 100vw, (max-width:900px) 50vw, 25vw"
-                      />
-                      <span className={styles.tileShade} aria-hidden />
-                      <div className={styles.tileTop}>
-                        <span className={styles.num} aria-hidden>
-                          {s.n}
-                        </span>
-                      </div>
-                      <div className={styles.tileBody}>
-                        <span className={styles.when}>{withTbc(s.when)}</span>
-                        <h3 className={styles.tileName}>{s.name}</h3>
-                        <p className={styles.tileDesc}>{withTbc(s.desc)}</p>
-                        <div className={styles.tileFoot}>
-                          <span>{withTbc(s.where)}</span>
-                          <span>{messages.explore}</span>
-                        </div>
-                      </div>
-                    </>
-                  )}
+                  </div>
+                  <div className={styles.tileBody}>
+                    <span className={styles.when}>{withTbc(s.when)}</span>
+                    <h3 className={styles.tileName}>{s.name}</h3>
+                    <p className={styles.tileDesc}>{withTbc(s.desc)}</p>
+                    <div className={styles.tileFoot}>
+                      <span>{withTbc(s.where)}</span>
+                      <span>{messages.explore}</span>
+                    </div>
+                  </div>
                 </Link>
               );
             })}
