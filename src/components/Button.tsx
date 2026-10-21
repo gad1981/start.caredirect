@@ -1,5 +1,7 @@
-import Link from "next/link";
+"use client";
+
 import type { ComponentProps, ReactNode } from "react";
+import { FooterLink } from "@/components/FooterLink";
 import styles from "./Button.module.css";
 
 type Props = {
@@ -39,10 +41,18 @@ export function Button({
         </a>
       );
     }
+    // In-page anchors keep native hash behavior.
+    if (href.startsWith("#")) {
+      return (
+        <a className={cls} href={href}>
+          {children}
+        </a>
+      );
+    }
     return (
-      <Link className={cls} href={href} scroll>
+      <FooterLink className={cls} href={href}>
         {children}
-      </Link>
+      </FooterLink>
     );
   }
 
