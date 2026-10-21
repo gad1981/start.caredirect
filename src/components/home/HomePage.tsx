@@ -50,7 +50,14 @@ export async function HomePage({ locale }: { locale: Locale }) {
         <div className={styles.wrap}>
           <div className={styles.card}>
             <div>
-              <span className={styles.homeLogo} aria-hidden="true" />
+              {/* eslint-disable-next-line @next/next/no-img-element */}
+              <img
+                className={styles.homeLogo}
+                src="/assets/brand/start-logo.png"
+                alt="START"
+                width={600}
+                height={185}
+              />
               <p className={styles.eye}>{startHome.eyebrow}</p>
               <h1 id="home-h1">{startHome.h1}</h1>
               <p className={styles.lead}>{startHome.lead}</p>
@@ -87,7 +94,6 @@ export async function HomePage({ locale }: { locale: Locale }) {
                     key={s.id}
                     brand={brand}
                     exploreLabel={messages.explore}
-                    swipeHint={messages.swipeHint}
                     stage={{
                       id: s.id,
                       name: s.name,

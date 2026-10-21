@@ -29,12 +29,10 @@ export function ProgramFlipTile({
   stage,
   brand,
   exploreLabel,
-  swipeHint,
 }: {
   stage: Stage;
   brand: ProgramBrand;
   exploreLabel: string;
-  swipeHint: string;
 }) {
   const [flipped, setFlipped] = useState(false);
   const startX = useRef<number | null>(null);
@@ -70,7 +68,6 @@ export function ProgramFlipTile({
       return;
     }
 
-    // Swipe left → show back; swipe right → show front
     if (dx < 0 && !flipped) setFlipped(true);
     if (dx > 0 && flipped) setFlipped(false);
     suppressClick.current = true;
@@ -82,6 +79,13 @@ export function ProgramFlipTile({
       e.preventDefault();
       suppressClick.current = false;
     }
+  }
+
+  function pickSide(e: MouseEvent, next: boolean) {
+    e.preventDefault();
+    e.stopPropagation();
+    suppressClick.current = true;
+    setFlipped(next);
   }
 
   return (
@@ -98,7 +102,7 @@ export function ProgramFlipTile({
         swiping.current = false;
       }}
       onClick={onClick}
-      aria-label={`${stage.name}. ${flipped ? exploreLabel : swipeHint}`}
+      aria-label={`${stage.name}. ${exploreLabel}`}
     >
       <span className={styles.flipScene}>
         <span className={styles.flipInner}>
@@ -123,14 +127,6 @@ export function ProgramFlipTile({
                 <p className={styles.tileTagline}>{stage.tagline}</p>
               ) : null}
               <span className={styles.tileFoot}>
-                <span className={styles.swipeHint} aria-hidden="true">
-                  <span className={styles.swipeHintText}>{swipeHint}</span>
-                  <span className={styles.swipeChevrons} aria-hidden>
-                    <span>‹</span>
-                    <span>‹</span>
-                    <span>‹</span>
-                  </span>
-                </span>
                 <span className={styles.exploreLabel}>{exploreLabel}</span>
               </span>
             </span>
@@ -160,6 +156,24 @@ export function ProgramFlipTile({
             <span className={styles.flipCta}>{exploreLabel}</span>
           </span>
         </span>
+      </span>
+      <span
+        className={styles.flipDots}
+        aria-hidden="true"
+        onClick={(e) => {
+          e.preventDefault();
+          e.stopPropagation();
+          suppressClick.current = true;
+        }}
+      >
+        <span
+          className={`${styles.flipDot}${!flipped ? ` ${styles.flipDotActive}` : ""}`}
+          onClick={(e) => pickSide(e, false)}
+        />
+        <span
+          className={`${styles.flipDot}${flipped ? ` ${styles.flipDotActive}` : ""}`}
+          onClick={(e) => pickSide(e, true)}
+        />
       </span>
     </AppLink>
   );
