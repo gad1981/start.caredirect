@@ -1,0 +1,660 @@
+{
+  "st-pregnancy": [
+    {
+      "country": "Grčka",
+      "reach": "20,000 buduće majke / godišnje",
+      "cities": "Atina, Solun, Patras i klinike širom zemlje",
+      "channels": "Ginekološke i porodilišne klinike · treći trimestar",
+      "app": "Babyspace · Myparenthood",
+      "guide": "Σχέσεις Στοργής · Η ΠΙΟ ΓΛΥΚΙΑ ΑΝΑΜΟΝΗ (the BOOM edition)",
+      "tirage": "Uz kutiju · saradnja sa lekarima"
+    },
+    {
+      "country": "Rumunija",
+      "reach": "Prenatalni obim za potvrdu",
+      "cities": "Bukurešt i mreža porodilišta — u širenju",
+      "channels": "Ginekološke i porodilišne klinike",
+      "app": "Babyspace · HeyMaa (pilot)",
+      "guide": "—",
+      "tirage": "—"
+    },
+    {
+      "country": "Bugarska",
+      "reach": "Prenatalni obim za potvrdu",
+      "cities": "Sofija i mreža porodilišta — u širenju",
+      "channels": "Ginekološke i porodilišne klinike",
+      "app": "Babyspace",
+      "guide": "—",
+      "tirage": "—"
+    },
+    {
+      "country": "Srbija",
+      "reach": "Prenatalni obim za potvrdu",
+      "cities": "Beograd i mreža porodilišta — u širenju",
+      "channels": "Ginekološke i porodilišne klinike",
+      "app": "Mybabywinner",
+      "guide": "—",
+      "tirage": "—"
+    },
+    {
+      "country": "Kipar",
+      "reach": "Prenatalni obim za potvrdu",
+      "cities": "Nikozija, Limasol — u širenju",
+      "channels": "Ginekološke i porodilišne klinike",
+      "app": "Mybabywinner",
+      "guide": "—",
+      "tirage": "—"
+    }
+  ],
+  "st-natal": [
+    {
+      "country": "Grčka",
+      "reach": "50,000 nove majke / godišnje",
+      "cities": "Javna i privatna porodilišta širom zemlje",
+      "channels": "Uručeno 2–3 dana nakon porođaja",
+      "app": "Babyspace · Myparenthood",
+      "guide": "Σχέσεις Στοργής · the BOOM edition",
+      "tirage": "Štampano uz kutiju prvih dana"
+    },
+    {
+      "country": "Rumunija",
+      "reach": "160,000 nove majke / godišnje",
+      "cities": "Porodilišta širom zemlje",
+      "channels": "Udruženja neonatologije i pedijatrije",
+      "app": "Babyspace · HeyMaa (pilot)",
+      "guide": "Natal Guide 2026 · Breastfeeding Guide 2026",
+      "tirage": "Štampano uz kutiju"
+    },
+    {
+      "country": "Bugarska",
+      "reach": "30,000 nove majke / godišnje",
+      "cities": "Porodilišta širom zemlje",
+      "channels": "Udruženje pedijatara",
+      "app": "Babyspace",
+      "guide": "Natal Guide",
+      "tirage": "Štampano uz kutiju"
+    },
+    {
+      "country": "Srbija",
+      "reach": "30,000 nove majke / godišnje",
+      "cities": "Porodilišta širom zemlje",
+      "channels": "Specijalisti pedijatrije i neonatologije",
+      "app": "Mybabywinner",
+      "guide": "Breastfeeding Guide 2026",
+      "tirage": "Štampano uz kutiju"
+    },
+    {
+      "country": "Kipar",
+      "reach": "Obim za potvrdu",
+      "cities": "Porodilišta — u širenju",
+      "channels": "2–3 dana nakon porođaja",
+      "app": "Mybabywinner",
+      "guide": "—",
+      "tirage": "—"
+    }
+  ],
+  "st-luxury": [
+    {
+      "country": "Grčka",
+      "reach": "Majke u privatnim apartmanima / godišnje (premium deo Natal)",
+      "cities": "Privatne klinike u Atini i Solunu",
+      "channels": "Privatni apartmani i privatne sobe",
+      "app": "Babyspace · Myparenthood",
+      "guide": "Vodič kompleta Luxury Moments",
+      "tirage": "Ekskluzivni štampani komplet"
+    },
+    {
+      "country": "Rumunija",
+      "reach": "Premium privatne sobe — za potvrdu",
+      "cities": "Bukurešt privatne klinike",
+      "channels": "Privatni apartmani",
+      "app": "Babyspace",
+      "guide": "—",
+      "tirage": "—"
+    },
+    {
+      "country": "Bugarska",
+      "reach": "Premium privatne sobe — za potvrdu",
+      "cities": "Sofija privatne klinike",
+      "channels": "Privatni apartmani",
+      "app": "Babyspace",
+      "guide": "—",
+      "tirage": "—"
+    },
+    {
+      "country": "Srbija",
+      "reach": "Premium privatne sobe — za potvrdu",
+      "cities": "Beograd privatne klinike",
+      "channels": "Privatni apartmani",
+      "app": "—",
+      "guide": "—",
+      "tirage": "—"
+    },
+    {
+      "country": "Kipar",
+      "reach": "Premium privatne sobe — za potvrdu",
+      "cities": "Privatne klinike — u širenju",
+      "channels": "Privatni apartmani",
+      "app": "—",
+      "guide": "—",
+      "tirage": "—"
+    }
+  ],
+  "st-next": [
+    {
+      "country": "Grčka",
+      "reach": "Porodice na početku čvrste hrane — obim za potvrdu",
+      "cities": "Dostava kući širom zemlje",
+      "channels": "Beba ~6 meseci · dostava kući",
+      "app": "Babyspace · Myparenthood",
+      "guide": "Sadržaj first foods preko platformi za roditelje",
+      "tirage": "Kutija dostavljena kući"
+    },
+    {
+      "country": "Rumunija",
+      "reach": "Porodice na početku čvrste hrane — obim za potvrdu",
+      "cities": "Dostava kući širom zemlje",
+      "channels": "Beba ~6 meseci · dostava kući",
+      "app": "Babyspace · HeyMaa",
+      "guide": "—",
+      "tirage": "Kutija dostavljena kući"
+    },
+    {
+      "country": "Bugarska",
+      "reach": "Porodice na početku čvrste hrane — obim za potvrdu",
+      "cities": "Dostava kući širom zemlje",
+      "channels": "Beba ~6 meseci · dostava kući",
+      "app": "Babyspace",
+      "guide": "—",
+      "tirage": "Kutija dostavljena kući"
+    },
+    {
+      "country": "Srbija",
+      "reach": "Porodice na početku čvrste hrane — obim za potvrdu",
+      "cities": "Dostava kući širom zemlje",
+      "channels": "Beba ~6 meseci · dostava kući",
+      "app": "Mybabywinner",
+      "guide": "Breastfeeding Guide 2026 (includes first foods)",
+      "tirage": "Štampani vodič + kutija kući"
+    },
+    {
+      "country": "Kipar",
+      "reach": "Porodice na početku čvrste hrane — obim za potvrdu",
+      "cities": "Dostava kući",
+      "channels": "Beba ~6 meseci · dostava kući",
+      "app": "Mybabywinner",
+      "guide": "—",
+      "tirage": "Kutija dostavljena kući"
+    }
+  ],
+  "st-school": [
+    {
+      "country": "Grčka",
+      "reach": "Porodice prvog razreda — obim za potvrdu",
+      "cities": "Osnovne škole širom zemlje",
+      "channels": "Prvi dan prvog razreda (uzrast 6)",
+      "app": "Myschoolwinner",
+      "guide": "Školski vodič — izdanje za Grčku za potvrdu",
+      "tirage": "Kutija prvog školskog dana"
+    },
+    {
+      "country": "Rumunija",
+      "reach": "Porodice prvog razreda — potvrđeno aktivno tržište",
+      "cities": "Osnovne škole širom zemlje",
+      "channels": "Prvi dan prvog razreda (uzrast 6)",
+      "app": "Myschoolwinner",
+      "guide": "Prima zi la școală",
+      "tirage": "Štampani vodič + kutija školskog dana"
+    },
+    {
+      "country": "Bugarska",
+      "reach": "Porodice prvog razreda — potvrđeno aktivno tržište",
+      "cities": "Osnovne škole širom zemlje",
+      "channels": "Prvi dan prvog razreda (uzrast 6)",
+      "app": "Myschoolwinner",
+      "guide": "Първи Учебен Ден",
+      "tirage": "Štampani vodič + kutija školskog dana"
+    },
+    {
+      "country": "Srbija",
+      "reach": "Porodice prvog razreda — potvrđeno aktivno tržište",
+      "cities": "Osnovne škole širom zemlje",
+      "channels": "Prvi dan prvog razreda (uzrast 6)",
+      "app": "Myschoolwinner",
+      "guide": "Prvi dan škole",
+      "tirage": "Štampani vodič + kutija školskog dana"
+    },
+    {
+      "country": "Kipar",
+      "reach": "Porodice prvog razreda — u širenju",
+      "cities": "Osnovne škole — u širenju",
+      "channels": "Prvi dan prvog razreda",
+      "app": "Myschoolwinner",
+      "guide": "—",
+      "tirage": "—"
+    }
+  ],
+  "st-school-xmas": [
+    {
+      "country": "Grčka",
+      "reach": "Porodice osnovaca · božićni školski period",
+      "cities": "Osnovne škole širom zemlje",
+      "channels": "Svečano izdanje First Grade",
+      "app": "Myschoolwinner",
+      "guide": "Božićni školski komplet",
+      "tirage": "Sezonska multi-brand kutija"
+    },
+    {
+      "country": "Rumunija",
+      "reach": "Porodice osnovaca · božićni školski period",
+      "cities": "Osnovne škole širom zemlje",
+      "channels": "Svečano izdanje First Grade",
+      "app": "Myschoolwinner",
+      "guide": "Božićni školski komplet",
+      "tirage": "Sezonska multi-brand kutija"
+    },
+    {
+      "country": "Bugarska",
+      "reach": "Porodice osnovaca · božićni školski period",
+      "cities": "Osnovne škole širom zemlje",
+      "channels": "Svečano izdanje First Grade",
+      "app": "Myschoolwinner",
+      "guide": "Božićni školski komplet",
+      "tirage": "Sezonska multi-brand kutija"
+    },
+    {
+      "country": "Srbija",
+      "reach": "Porodice osnovaca · božićni školski period",
+      "cities": "Osnovne škole širom zemlje",
+      "channels": "Svečano izdanje First Grade",
+      "app": "Myschoolwinner",
+      "guide": "Božićni školski komplet",
+      "tirage": "Sezonska multi-brand kutija"
+    },
+    {
+      "country": "Kipar",
+      "reach": "Porodice osnovaca — u širenju",
+      "cities": "Osnovne škole — u širenju",
+      "channels": "Božićni školski period",
+      "app": "Myschoolwinner",
+      "guide": "—",
+      "tirage": "—"
+    }
+  ],
+  "st-teen": [
+    {
+      "country": "Grčka",
+      "reach": "Devojčice na početku puberteta — obim za potvrdu",
+      "cities": "Dostava kući širom zemlje",
+      "channels": "Kurir do kuće",
+      "app": "Care Direct zajednice",
+      "guide": "Vodič kompleta Teen Girl",
+      "tirage": "Kutija kući + praćenje"
+    },
+    {
+      "country": "Rumunija",
+      "reach": "Devojčice na početku puberteta — obim za potvrdu",
+      "cities": "Dostava kući širom zemlje",
+      "channels": "Kurir do kuće",
+      "app": "Care Direct zajednice",
+      "guide": "Vodič kompleta Teen Girl",
+      "tirage": "Kutija kući + praćenje"
+    },
+    {
+      "country": "Bugarska",
+      "reach": "Devojčice na početku puberteta — obim za potvrdu",
+      "cities": "Dostava kući širom zemlje",
+      "channels": "Kurir do kuće",
+      "app": "Care Direct zajednice",
+      "guide": "Vodič kompleta Teen Girl",
+      "tirage": "Kutija kući + praćenje"
+    },
+    {
+      "country": "Srbija",
+      "reach": "Devojčice na početku puberteta — obim za potvrdu",
+      "cities": "Dostava kući širom zemlje",
+      "channels": "Kurir do kuće",
+      "app": "Care Direct zajednice",
+      "guide": "Vodič kompleta Teen Girl",
+      "tirage": "Kutija kući + praćenje"
+    },
+    {
+      "country": "Kipar",
+      "reach": "Devojčice na početku puberteta — u širenju",
+      "cities": "Dostava kući",
+      "channels": "Kurir do kuće",
+      "app": "Care Direct zajednice",
+      "guide": "—",
+      "tirage": "—"
+    }
+  ],
+  "st-high": [
+    {
+      "country": "Grčka",
+      "reach": "Učenici prve godine srednje — obim za potvrdu",
+      "cities": "Srednje škole širom zemlje",
+      "channels": "Upis u srednju školu · 15–16 godina",
+      "app": "START 9 (startliceu.life)",
+      "guide": "Interaktivni veb vodič START 9",
+      "tirage": "Uzorci u školi + digitalni vodič"
+    },
+    {
+      "country": "Rumunija",
+      "reach": "Učenici prve godine srednje — uživo sa START 9",
+      "cities": "Srednje škole širom zemlje",
+      "channels": "Upis u srednju školu · 15–16 godina",
+      "app": "START 9 (startliceu.life)",
+      "guide": "Interaktivni veb vodič START 9",
+      "tirage": "Uzorci u školi + digitalni vodič"
+    },
+    {
+      "country": "Bugarska",
+      "reach": "Učenici prve godine srednje — u širenju",
+      "cities": "Srednje škole — u širenju",
+      "channels": "Upis u srednju školu",
+      "app": "START 9",
+      "guide": "Veb vodič START 9",
+      "tirage": "—"
+    },
+    {
+      "country": "Srbija",
+      "reach": "Učenici prve godine srednje — u širenju",
+      "cities": "Srednje škole — u širenju",
+      "channels": "Upis u srednju školu",
+      "app": "START 9",
+      "guide": "Veb vodič START 9",
+      "tirage": "—"
+    },
+    {
+      "country": "Kipar",
+      "reach": "Učenici prve godine srednje — u širenju",
+      "cities": "Srednje škole — u širenju",
+      "channels": "Upis u srednju školu",
+      "app": "START 9",
+      "guide": "—",
+      "tirage": "—"
+    }
+  ],
+  "st-uni": [
+    {
+      "country": "Grčka",
+      "reach": "Studenti prve godine — obim za potvrdu",
+      "cities": "Univerziteti širom zemlje",
+      "channels": "Kampus aktivacije · prve samostalne kupovine",
+      "app": "UniStart+ (uni-start.com)",
+      "guide": "Digitalni studentski vodič UniStart+",
+      "tirage": "Uzorci na kampusu + digitalni vodič"
+    },
+    {
+      "country": "Rumunija",
+      "reach": "Studenti prve godine — u širenju",
+      "cities": "Univerziteti — u širenju",
+      "channels": "Kampus aktivacije",
+      "app": "UniStart+",
+      "guide": "Digitalni vodič UniStart+",
+      "tirage": "—"
+    },
+    {
+      "country": "Bugarska",
+      "reach": "Studenti prve godine — uživo sa UniStart+",
+      "cities": "Univerziteti širom zemlje",
+      "channels": "Kampus aktivacije",
+      "app": "UniStart+ (uni-start.com)",
+      "guide": "Digitalni studentski vodič UniStart+",
+      "tirage": "Uzorci na kampusu + digitalni vodič"
+    },
+    {
+      "country": "Srbija",
+      "reach": "Univerzitetski sampling (2024+) — rezultati za potvrdu",
+      "cities": "Beograd i univerzitetski gradovi",
+      "channels": "Kampus aktivacije",
+      "app": "UniStart+",
+      "guide": "Digitalni vodič UniStart+",
+      "tirage": "Uzorci na kampusu"
+    },
+    {
+      "country": "Kipar",
+      "reach": "Studenti prve godine — u širenju",
+      "cities": "Univerziteti — u širenju",
+      "channels": "Kampus aktivacije",
+      "app": "UniStart+",
+      "guide": "—",
+      "tirage": "—"
+    }
+  ],
+  "st-army": [
+    {
+      "country": "Grčka",
+      "reach": "Regruti na dan stupanja — obim za potvrdu",
+      "cities": "Vojni kampovi širom zemlje",
+      "channels": "Uručivanje na dan regrutacije",
+      "app": "—",
+      "guide": "Materijali kompleta za kamp",
+      "tirage": "Uzorci na dan regrutacije"
+    },
+    {
+      "country": "Rumunija",
+      "reach": "—",
+      "cities": "—",
+      "channels": "Još nije aktivno na ovom tržištu",
+      "app": "—",
+      "guide": "—",
+      "tirage": "—"
+    },
+    {
+      "country": "Bugarska",
+      "reach": "—",
+      "cities": "—",
+      "channels": "Još nije aktivno na ovom tržištu",
+      "app": "—",
+      "guide": "—",
+      "tirage": "—"
+    },
+    {
+      "country": "Srbija",
+      "reach": "—",
+      "cities": "—",
+      "channels": "Još nije aktivno na ovom tržištu",
+      "app": "—",
+      "guide": "—",
+      "tirage": "—"
+    },
+    {
+      "country": "Kipar",
+      "reach": "—",
+      "cities": "—",
+      "channels": "Još nije aktivno na ovom tržištu",
+      "app": "—",
+      "guide": "—",
+      "tirage": "—"
+    }
+  ],
+  "st-marriage": [
+    {
+      "country": "Grčka",
+      "reach": "Domaćinstva mladenaca — obim za potvrdu",
+      "cities": "Dostava kući širom zemlje",
+      "channels": "Kurir dok parovi uređuju dom",
+      "app": "Care Direct zajednice",
+      "guide": "Vodič za brak / prvi dom",
+      "tirage": "Kutija kući"
+    },
+    {
+      "country": "Rumunija",
+      "reach": "Domaćinstva mladenaca — u širenju",
+      "cities": "Dostava kući",
+      "channels": "Kurirska dostava kući",
+      "app": "Care Direct zajednice",
+      "guide": "—",
+      "tirage": "Kutija kući"
+    },
+    {
+      "country": "Bugarska",
+      "reach": "Domaćinstva mladenaca — u širenju",
+      "cities": "Dostava kući",
+      "channels": "Kurirska dostava kući",
+      "app": "Care Direct zajednice",
+      "guide": "—",
+      "tirage": "Kutija kući"
+    },
+    {
+      "country": "Srbija",
+      "reach": "Domaćinstva mladenaca — u širenju",
+      "cities": "Dostava kući",
+      "channels": "Kurirska dostava kući",
+      "app": "Care Direct zajednice",
+      "guide": "—",
+      "tirage": "Kutija kući"
+    },
+    {
+      "country": "Kipar",
+      "reach": "Domaćinstva mladenaca — u širenju",
+      "cities": "Dostava kući",
+      "channels": "Kurirska dostava kući",
+      "app": "Care Direct zajednice",
+      "guide": "—",
+      "tirage": "—"
+    }
+  ],
+  "st-pet": [
+    {
+      "country": "Grčka",
+      "reach": "Novi vlasnici ljubimaca · 200 vrhunskih veterinara Atike (Swiffer 2018)",
+      "cities": "Veterinari Atina/Atika · organizacije za udomljavanje",
+      "channels": "Veterinari i partneri za udomljavanje · prve nedelje kod kuće",
+      "app": "Care Direct zajednice",
+      "guide": "Materijali nege za novog ljubimca",
+      "tirage": "Kutija kod veterinara / udomljavanja"
+    },
+    {
+      "country": "Rumunija",
+      "reach": "Novi vlasnici ljubimaca — u širenju",
+      "cities": "Veterinari i partneri za udomljavanje",
+      "channels": "Prve nedelje sa novim ljubimcem",
+      "app": "Care Direct zajednice",
+      "guide": "—",
+      "tirage": "—"
+    },
+    {
+      "country": "Bugarska",
+      "reach": "Novi vlasnici ljubimaca — u širenju",
+      "cities": "Veterinari i partneri za udomljavanje",
+      "channels": "Prve nedelje sa novim ljubimcem",
+      "app": "Care Direct zajednice",
+      "guide": "—",
+      "tirage": "—"
+    },
+    {
+      "country": "Srbija",
+      "reach": "Novi vlasnici ljubimaca — u širenju",
+      "cities": "Veterinari i partneri za udomljavanje",
+      "channels": "Prve nedelje sa novim ljubimcem",
+      "app": "Care Direct zajednice",
+      "guide": "—",
+      "tirage": "—"
+    },
+    {
+      "country": "Kipar",
+      "reach": "Novi vlasnici ljubimaca — u širenju",
+      "cities": "Veterinari i partneri za udomljavanje",
+      "channels": "Prve nedelje sa novim ljubimcem",
+      "app": "Care Direct zajednice",
+      "guide": "—",
+      "tirage": "—"
+    }
+  ],
+  "st-silver": [
+    {
+      "country": "Grčka",
+      "reach": "Žene 50+ na početku menopauze — obim za potvrdu",
+      "cities": "Ginekološke klinike širom zemlje",
+      "channels": "Uručivanje na godišnjem pregledu",
+      "app": "LadiesBook (ladiesbook.gr)",
+      "guide": "Štampani Ladies vodič",
+      "tirage": "Kutija u klinici + LadiesBook"
+    },
+    {
+      "country": "Rumunija",
+      "reach": "—",
+      "cities": "—",
+      "channels": "Još nije aktivno na ovom tržištu",
+      "app": "—",
+      "guide": "—",
+      "tirage": "—"
+    },
+    {
+      "country": "Bugarska",
+      "reach": "—",
+      "cities": "—",
+      "channels": "Još nije aktivno na ovom tržištu",
+      "app": "—",
+      "guide": "—",
+      "tirage": "—"
+    },
+    {
+      "country": "Srbija",
+      "reach": "—",
+      "cities": "—",
+      "channels": "Još nije aktivno na ovom tržištu",
+      "app": "—",
+      "guide": "—",
+      "tirage": "—"
+    },
+    {
+      "country": "Kipar",
+      "reach": "—",
+      "cities": "—",
+      "channels": "Još nije aktivno na ovom tržištu",
+      "app": "—",
+      "guide": "—",
+      "tirage": "—"
+    }
+  ],
+  "st-seniors": [
+    {
+      "country": "Grčka",
+      "reach": "Ljudi na početku penzije — obim za potvrdu",
+      "cities": "Dom + mesta okupljanja starijih",
+      "channels": "Dostava kući i mesta zajednice",
+      "app": "Care Direct zajednice",
+      "guide": "Materijali životne faze Seniors",
+      "tirage": "Kutija za dom / prostor"
+    },
+    {
+      "country": "Rumunija",
+      "reach": "Ljudi na početku penzije — u širenju",
+      "cities": "Dom + mesta zajednice",
+      "channels": "Dom i zajednica",
+      "app": "Care Direct zajednice",
+      "guide": "—",
+      "tirage": "—"
+    },
+    {
+      "country": "Bugarska",
+      "reach": "Ljudi na početku penzije — u širenju",
+      "cities": "Dom + mesta zajednice",
+      "channels": "Dom i zajednica",
+      "app": "Care Direct zajednice",
+      "guide": "—",
+      "tirage": "—"
+    },
+    {
+      "country": "Srbija",
+      "reach": "Ljudi na početku penzije — u širenju",
+      "cities": "Dom + mesta zajednice",
+      "channels": "Dom i zajednica",
+      "app": "Care Direct zajednice",
+      "guide": "—",
+      "tirage": "—"
+    },
+    {
+      "country": "Kipar",
+      "reach": "Ljudi na početku penzije — u širenju",
+      "cities": "Dom + mesta zajednice",
+      "channels": "Dom i zajednica",
+      "app": "Care Direct zajednice",
+      "guide": "—",
+      "tirage": "—"
+    }
+  ]
+}

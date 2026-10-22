@@ -1,470 +1,472 @@
 {
- "START_PLATFORMS": {
-  "st-pregnancy": "Babyspace (babyspace.gr, babyspace.com.ro, babyspace.bg) · Myparenthood (myparenthood.gr, Grecia) · Mybabywinner (Serbia, Cipru) · HeyMaa (heymaa.ai, companion AI)",
-  "st-natal": "Babyspace (Grecia, România, Bulgaria) · Myparenthood (Grecia) · Mybabywinner (Serbia, Cipru) · HeyMaa (heymaa.ai, companion AI)",
-  "st-luxury": "Babyspace (Grecia) · Myparenthood (Grecia)",
-  "st-next": "Babyspace (Grecia, România, Bulgaria) · Myparenthood (Grecia) · Mybabywinner (Serbia, Cipru) · HeyMaa (heymaa.ai, companion AI)",
-  "st-school": "Myschoolwinner (myschoolwinner.com: Grecia, România, Bulgaria și Serbia)",
-  "st-high": "START 9 (startliceu.life) [ai scris start.life: confirmă adresa]",
-  "st-uni": "UniStart+ (uni-start.com)",
-  "st-silver": "LadiesBook (ladiesbook.gr, Grecia)",
-  "st-school-xmas": "Myschoolwinner (myschoolwinner.com: Grecia, România, Bulgaria și Serbia)"
- },
- "START_GUIDES": {
-  "st-natal": [
-   [
-    "Grecia",
-    "Natal Guide",
-    "https://heyzine.com/flip-book/ea452acee4.html"
-   ],
-   [
-    "Grecia",
-    "Σχέσεις Στοργής (ghid pentru mamele proaspete)",
-    "https://heyzine.com/flip-book/8e724472cf.html"
-   ],
-   [
-    "România",
-    "Natal Guide 2026",
-    "https://heyzine.com/flip-book/af6388abac.html"
-   ],
-   [
-    "Bulgaria",
-    "Natal Guide",
-    "https://heyzine.com/flip-book/9f742c4eb8.html"
-   ],
-   [
-    "România",
-    "Breastfeeding Guide 2026",
-    "https://heyzine.com/flip-book/e34cc9b492.html"
-   ],
-   [
-    "Serbia",
-    "Breastfeeding Guide 2026",
-    "https://heyzine.com/flip-book/9b9ac1329b.html"
-   ]
+  "START_PLATFORMS": {
+    "st-pregnancy": "Babyspace (babyspace.gr, babyspace.com.ro, babyspace.bg) · Myparenthood (myparenthood.gr, Grecia) · Mybabywinner (Serbia, Cipru) · HeyMaa (heymaa.ai, companion AI)",
+    "st-natal": "Babyspace (Grecia, România, Bulgaria) · Myparenthood (Grecia) · Mybabywinner (Serbia, Cipru) · HeyMaa (heymaa.ai, companion AI)",
+    "st-luxury": "Babyspace (Grecia) · Myparenthood (Grecia)",
+    "st-next": "Babyspace (Grecia, România, Bulgaria) · Myparenthood (Grecia) · Mybabywinner (Serbia, Cipru) · HeyMaa (heymaa.ai, companion AI)",
+    "st-school": "Myschoolwinner (myschoolwinner.com: Grecia, România, Bulgaria și Serbia)",
+    "st-high": "START 9 (startliceu.life) [ai scris start.life: confirmă adresa]",
+    "st-uni": "UniStart+ (uni-start.com)",
+    "st-silver": "LadiesBook (ladiesbook.gr, Grecia)",
+    "st-school-xmas": "Myschoolwinner (myschoolwinner.com: Grecia, România, Bulgaria și Serbia)"
+  },
+  "START_GUIDES": {
+    "st-natal": [
+      [
+        "Grecia",
+        "Σχέσεις Στοργής · the BOOM edition",
+        "https://heyzine.com/flip-book/8e724472cf.html"
+      ],
+      [
+        "România",
+        "Natal Guide 2026",
+        "https://heyzine.com/flip-book/af6388abac.html"
+      ],
+      [
+        "Bulgaria",
+        "Natal Guide",
+        "https://heyzine.com/flip-book/9f742c4eb8.html"
+      ],
+      [
+        "România",
+        "Breastfeeding Guide 2026",
+        "https://heyzine.com/flip-book/e34cc9b492.html"
+      ],
+      [
+        "Serbia",
+        "Breastfeeding Guide 2026",
+        "https://heyzine.com/flip-book/9b9ac1329b.html"
+      ]
+    ],
+    "st-next": [
+      [
+        "Serbia",
+        "Breastfeeding Guide 2026 (include și diversificarea alimentației)",
+        "https://heyzine.com/flip-book/9b9ac1329b.html"
+      ]
+    ],
+    "st-school": [
+      [
+        "România",
+        "Prima zi la școală",
+        "https://heyzine.com/flip-book/381377db30.html"
+      ],
+      [
+        "Bulgaria",
+        "Първи Учебен Ден",
+        "https://heyzine.com/flip-book/59a24288dc.html"
+      ],
+      [
+        "Serbia",
+        "Prvi dan škole",
+        "https://heyzine.com/flip-book/f6ae2642bc.html"
+      ]
+    ],
+    "st-pregnancy": [
+      [
+        "Grecia",
+        "Σχέσεις Στοργής · Η ΠΙΟ ΓΛΥΚΙΑ ΑΝΑΜΟΝΗ (the BOOM edition)",
+        ""
+      ]
+    ]
+  },
+  "START_PROGRAMS": {
+    "st-pregnancy": {
+      "name": "START Pregnancy",
+      "when": "Trimestrul 3",
+      "where": "Clinici de ginecologie și maternități",
+      "desc": "Viitorii părinți îți încearcă produsul în timp ce își fac lista cu tot ce va avea nevoie bebelușul."
+    },
+    "st-natal": {
+      "name": "START Newborn",
+      "when": "La 2–3 zile după naștere",
+      "where": "Maternități",
+      "desc": "Cutia primelor zile, oferită mamelor în spital, împreună cu ghidul pentru săptămânile următoare."
+    },
+    "st-luxury": {
+      "name": "START Luxury Moments",
+      "when": "La 2–3 zile după naștere",
+      "where": "Suite private",
+      "desc": "Ediția premium pentru mamele din suitele și rezervele private ale clinicilor private."
+    },
+    "st-next": {
+      "name": "START First Foods",
+      "when": "Bebeluș de 6 luni, începe să mănânce",
+      "where": "Livrat la domiciliu",
+      "desc": "Mame ai căror bebeluși încep diversificarea: un nou început pentru familie și un al doilea val de testare pentru brandurile de alimentație, hrănire și îngrijire."
+    },
+    "st-marriage": {
+      "name": "START Marriage",
+      "when": "Căsătoria",
+      "where": "Livrat la domiciliu, prin curier",
+      "desc": "Proaspeții căsătoriți, care își formează primul cămin împreună, aleg brandurile cu care vor trăi."
+    },
+    "st-pet": {
+      "name": "START Pet",
+      "when": "Un animal de companie nou în casă",
+      "where": "Medici veterinari și organizații de adopție",
+      "desc": "Un animal de companie nou înseamnă un nou început pentru toată casa: proprietarii îți încearcă produsul pe măsură ce își construiesc rutine noi."
+    },
+    "st-school": {
+      "name": "START First Grade",
+      "when": "Prima zi de clasa I (6 ani)",
+      "where": "Școli primare",
+      "desc": "O cutie chiar în prima zi de școală, pentru copiii de șase ani și pentru părinții care aleg brandurile anului școlar."
+    },
+    "st-teen": {
+      "name": "START Teen Girl",
+      "when": "Începutul pubertății",
+      "where": "Livrat la domiciliu, prin curier",
+      "desc": "La începutul pubertății: mostre și follow-up cu produse și îndrumare în care are încredere."
+    },
+    "st-high": {
+      "name": "START High School",
+      "when": "Primul an de liceu (15–16 ani)",
+      "where": "Licee",
+      "desc": "Băieți și fete care încep liceul, o schimbare mare. Mostre și START 9 pentru primul lor an."
+    },
+    "st-uni": {
+      "name": "START University",
+      "when": "Primul an de facultate",
+      "where": "Universități",
+      "desc": "Studenți în anul I, care fac primele achiziții independente. Mostre și UniStart+."
+    },
+    "st-army": {
+      "name": "START Army",
+      "when": "Ziua încorporării",
+      "where": "Unități militare",
+      "desc": "Tinerii îți încearcă produsul chiar în ziua în care intră în serviciul militar, un public greu de atins, reunit într-un singur loc."
+    },
+    "st-seniors": {
+      "name": "START Seniors",
+      "when": "Începutul pensionării",
+      "where": "La domiciliu și în locurile de întâlnire ale seniorilor",
+      "desc": "Oameni aflați la începutul pensionării: rutine noi, timp nou, alegeri noi."
+    },
+    "st-silver": {
+      "name": "START Ladies",
+      "when": "Începutul menopauzei (50+)",
+      "where": "Clinici de ginecologie",
+      "desc": "Femei care intră în menopauză, o schimbare mare: produse de testat și îndrumare de încredere, la controlul anual."
+    },
+    "st-school-xmas": {
+      "name": "START First Grade Christmas",
+      "when": "Perioada de Crăciun la școală",
+      "where": "Școli primare",
+      "desc": "Ediția de Crăciun a programului First Grade: o cutie festivă pentru familiile elevilor din ciclul primar."
+    }
+  },
+  "PROGRAMS": [
+    [
+      "st-natal",
+      "GR",
+      "confirmed",
+      "50.000 de mame noi pe an · colaborare cu medicii · maternități, la 2–3 zile după naștere",
+      "Tabelul de volume START"
+    ],
+    [
+      "st-natal",
+      "BG",
+      "confirmed",
+      "30.000 de mame noi pe an · Asociația Pediatrilor",
+      "Tabelul de volume START"
+    ],
+    [
+      "st-natal",
+      "CY",
+      "unknown",
+      "Niciun volum Natal listat",
+      "Tabelul de volume START"
+    ],
+    [
+      "st-natal",
+      "RS",
+      "confirmed",
+      "30.000 de mame noi pe an · specialiști în pediatrie și neonatologie",
+      "Tabelul de volume START"
+    ],
+    [
+      "st-natal",
+      "RO",
+      "confirmed",
+      "160.000 de mame noi pe an · Asociația de Neonatologie, Asociația Pediatrilor",
+      "Tabelul de volume START"
+    ],
+    [
+      "st-natal",
+      "MENA",
+      "unknown",
+      "PDF „New Mothers MENA Program 2025” [confirmă dacă este activ] (P8)",
+      "Search Console"
+    ],
+    [
+      "st-pregnancy",
+      "GR",
+      "confirmed",
+      "20.000 de gravide pe an · colaborare cu medicii · clinici, trimestrul 3",
+      "Tabelul de volume START"
+    ],
+    [
+      "st-pregnancy",
+      "CY",
+      "unknown",
+      "Niciun volum Prenatal listat",
+      "Tabelul de volume START"
+    ],
+    [
+      "st-pregnancy",
+      "RO",
+      "unknown",
+      "Niciun volum Prenatal listat",
+      "Tabelul de volume START"
+    ],
+    [
+      "st-pregnancy",
+      "BG",
+      "unknown",
+      "Niciun volum Prenatal listat",
+      "Tabelul de volume START"
+    ],
+    [
+      "st-pregnancy",
+      "RS",
+      "unknown",
+      "Niciun volum Prenatal listat",
+      "Tabelul de volume START"
+    ],
+    [
+      "st-school",
+      "GR",
+      "unknown",
+      "Prima zi de grădiniță și de clasa I [țări și volum de confirmat]",
+      "Site-ul actual"
+    ],
+    [
+      "st-army",
+      "GR",
+      "unknown",
+      "Ziua încorporării în unitățile militare [țară și volum de confirmat]",
+      "Site-ul actual"
+    ],
+    [
+      "school",
+      "KSA",
+      "confirmed",
+      "Program de nutriție cu Sadafco",
+      "Site-ul actual"
+    ],
+    [
+      "school",
+      "ALL",
+      "confirmed",
+      "20 de milioane de elevi în 15 țări, în peste 20 de ani",
+      "Site-ul actual"
+    ],
+    [
+      "uni",
+      "BG",
+      "confirmed",
+      "uni-start.com pentru studenții din anul I",
+      "Rapoartele tale"
+    ],
+    [
+      "uni",
+      "RS",
+      "partial",
+      "Activări de sampling în universități, 2024 [rezultate de confirmat]",
+      "PDF din rezultatele căutării"
+    ],
+    [
+      "st-high",
+      "RO",
+      "confirmed",
+      "START 9 (startliceu.life) pentru elevii care încep liceul",
+      "Rapoartele tale"
+    ],
+    [
+      "brand-activation",
+      "KSA",
+      "confirmed",
+      "Harpic (Reckitt), din ușă în ușă: 650.000 de gospodării, 2022–2023",
+      "Medium 2024"
+    ],
+    [
+      "brand-activation",
+      "UAE",
+      "partial",
+      "Activare de brand always-on, Dubai [de transformat în studiu de caz]",
+      "Blog mai 2026"
+    ],
+    [
+      "pl-mybabywinner",
+      "RS",
+      "confirmed",
+      "30.000+ de mame; Curaprox, sponsor Platinum din 2022 (1.883 de destinatari)",
+      "Medium 2024"
+    ],
+    [
+      "pl-mybabywinner",
+      "CY",
+      "confirmed",
+      "15.000+ de înregistrări; sponsori, printre care Sudocrem, Frezyderm, Dr. Brown’s",
+      "Medium 2024"
+    ],
+    [
+      "pl-babyspace",
+      "GR",
+      "confirmed",
+      "Portal din 2009 (100.000+ de membri în Grecia, Bulgaria și România)",
+      "Confirmat 15 oct."
+    ],
+    [
+      "pl-babyspace",
+      "RO",
+      "confirmed",
+      "Babyspace România",
+      "Confirmat 15 oct."
+    ],
+    [
+      "pl-babyspace",
+      "BG",
+      "confirmed",
+      "Babyspace Bulgaria",
+      "Confirmat 15 oct."
+    ],
+    [
+      "pl-myparenthood",
+      "GR",
+      "confirmed",
+      "Masterclass-uri online pentru părinți",
+      "Confirmat 15 oct."
+    ],
+    [
+      "pl-ladiesbook",
+      "GR",
+      "confirmed",
+      "Revistă online pentru femei de peste 50 de ani",
+      "Confirmat 15 oct."
+    ],
+    [
+      "pl-myschoolwinner",
+      "GR",
+      "confirmed",
+      "Myschoolwinner",
+      "Confirmat 15 oct."
+    ],
+    [
+      "pl-myschoolwinner",
+      "RO",
+      "confirmed",
+      "Myschoolwinner",
+      "Confirmat 15 oct."
+    ],
+    [
+      "pl-myschoolwinner",
+      "BG",
+      "confirmed",
+      "Myschoolwinner",
+      "Confirmat 15 oct."
+    ],
+    [
+      "pl-myschoolwinner",
+      "RS",
+      "confirmed",
+      "Myschoolwinner",
+      "Confirmat 15 oct."
+    ],
+    [
+      "pl-heymaa",
+      "RO",
+      "confirmed",
+      "Pilot",
+      "Confirmat oct. 2026"
+    ],
+    [
+      "pl-mumsvoice",
+      "GR",
+      "confirmed",
+      "Sondaj anual în rândul mamelor",
+      "Site-ul actual"
+    ],
+    [
+      "pl-mumsvoice",
+      "KSA",
+      "confirmed",
+      "Sondaj anual în rândul mamelor",
+      "Site-ul actual"
+    ],
+    [
+      "pl-mumsvoice",
+      "CY",
+      "confirmed",
+      "Sondaj anual în rândul mamelor",
+      "Site-ul actual"
+    ],
+    [
+      "pl-mumsvoice",
+      "RO",
+      "confirmed",
+      "Sondaj anual în rândul mamelor",
+      "Site-ul actual"
+    ],
+    [
+      "pl-mumsvoice",
+      "BG",
+      "confirmed",
+      "Sondaj anual în rândul mamelor",
+      "Site-ul actual"
+    ],
+    [
+      "social",
+      "RO",
+      "confirmed",
+      "Huggies pe eMAG: 300 de recenzii pentru 12 SKU-uri (2023)",
+      "Medium 2024"
+    ],
+    [
+      "crm",
+      "GR",
+      "partial",
+      "Sampling digital TENA prin formulare de lead pe Facebook [rezultate de adăugat]",
+      "Medium 2024"
+    ],
+    [
+      "pl-pharma",
+      "GR",
+      "confirmed",
+      "pharmacoupons.gr",
+      "Site-ul actual"
+    ]
   ],
-  "st-next": [
-   [
-    "Serbia",
-    "Breastfeeding Guide 2026 (include și diversificarea alimentației)",
-    "https://heyzine.com/flip-book/9b9ac1329b.html"
-   ]
+  "SS_AUD": [
+    "st-marriage",
+    "st-pet",
+    "st-pregnancy",
+    "st-natal",
+    "st-luxury",
+    "st-next",
+    "st-school",
+    "st-school-xmas",
+    "st-teen",
+    "st-high",
+    "st-uni",
+    "st-army",
+    "st-silver",
+    "st-seniors"
   ],
-  "st-school": [
-   [
-    "România",
-    "School Guide 2026",
-    "https://heyzine.com/flip-book/381377db30.html"
-   ],
-   [
-    "Bulgaria",
-    "School Guide 2026",
-    "https://heyzine.com/flip-book/59a24288dc.html"
-   ],
-   [
-    "Serbia",
-    "School Guide 2026",
-    "https://heyzine.com/flip-book/f6ae2642bc.html"
-   ]
+  "SS_COLS": [
+    {
+      "name": "Planifică un START",
+      "ids": [
+        "st-about",
+        "st-contact"
+      ]
+    },
+    {
+      "name": "Faza 2 · pentru mame",
+      "ids": [
+        "st-order"
+      ]
+    }
   ]
- },
- "START_PROGRAMS": {
-  "st-pregnancy": {
-   "name": "START Pregnancy",
-   "when": "Trimestrul 3",
-   "where": "Clinici de ginecologie și maternități",
-   "desc": "Viitorii părinți îți încearcă produsul în timp ce își fac lista cu tot ce va avea nevoie bebelușul."
-  },
-  "st-natal": {
-   "name": "START Newborn",
-   "when": "La 2–3 zile după naștere",
-   "where": "Maternități",
-   "desc": "Cutia primelor zile, oferită mamelor în spital, împreună cu ghidul pentru săptămânile următoare."
-  },
-  "st-luxury": {
-   "name": "START Luxury Moments",
-   "when": "La 2–3 zile după naștere",
-   "where": "Suite private",
-   "desc": "Ediția premium pentru mamele din suitele și rezervele private ale clinicilor private."
-  },
-  "st-next": {
-   "name": "START First Foods",
-   "when": "Bebeluș de 6 luni, începe să mănânce",
-   "where": "Livrat la domiciliu",
-   "desc": "Mame ai căror bebeluși încep diversificarea: un nou început pentru familie și un al doilea val de testare pentru brandurile de alimentație, hrănire și îngrijire."
-  },
-  "st-marriage": {
-   "name": "START Marriage",
-   "when": "Căsătoria",
-   "where": "Livrat la domiciliu, prin curier",
-   "desc": "Proaspeții căsătoriți, care își formează primul cămin împreună, aleg brandurile cu care vor trăi."
-  },
-  "st-pet": {
-   "name": "START Pet",
-   "when": "Un animal de companie nou în casă",
-   "where": "Medici veterinari și organizații de adopție",
-   "desc": "Un animal de companie nou înseamnă un nou început pentru toată casa: proprietarii îți încearcă produsul pe măsură ce își construiesc rutine noi."
-  },
-  "st-school": {
-   "name": "START First Grade",
-   "when": "Prima zi de clasa I (6 ani)",
-   "where": "Școli primare",
-   "desc": "O cutie chiar în prima zi de școală, pentru copiii de șase ani și pentru părinții care aleg brandurile anului școlar."
-  },
-  "st-teen": {
-   "name": "START Teen Girl",
-   "when": "Începutul pubertății",
-   "where": "Livrat la domiciliu, prin curier",
-   "desc": "La începutul pubertății: mostre și follow-up cu produse și îndrumare în care are încredere."
-  },
-  "st-high": {
-   "name": "START High School",
-   "when": "Primul an de liceu (15–16 ani)",
-   "where": "Licee",
-   "desc": "Băieți și fete care încep liceul, o schimbare mare. Mostre și START 9 pentru primul lor an."
-  },
-  "st-uni": {
-   "name": "START University",
-   "when": "Primul an de facultate",
-   "where": "Universități",
-   "desc": "Studenți în anul I, care fac primele achiziții independente. Mostre și UniStart+."
-  },
-  "st-army": {
-   "name": "START Army",
-   "when": "Ziua încorporării",
-   "where": "Unități militare",
-   "desc": "Tinerii îți încearcă produsul chiar în ziua în care intră în serviciul militar, un public greu de atins, reunit într-un singur loc."
-  },
-  "st-seniors": {
-   "name": "START Seniors",
-   "when": "Începutul pensionării",
-   "where": "La domiciliu și în locurile de întâlnire ale seniorilor",
-   "desc": "Oameni aflați la începutul pensionării: rutine noi, timp nou, alegeri noi."
-  },
-  "st-silver": {
-   "name": "START Ladies",
-   "when": "Începutul menopauzei (50+)",
-   "where": "Clinici de ginecologie",
-   "desc": "Femei care intră în menopauză, o schimbare mare: produse de testat și îndrumare de încredere, la controlul anual."
-  },
-  "st-school-xmas": {
-   "name": "START First Grade Christmas",
-   "when": "Perioada de Crăciun la școală",
-   "where": "Școli primare",
-   "desc": "Ediția de Crăciun a programului First Grade: o cutie festivă pentru familiile elevilor din ciclul primar."
-  }
- },
- "PROGRAMS": [
-  [
-   "st-natal",
-   "GR",
-   "confirmed",
-   "50.000 de mame noi pe an · colaborare cu medicii · maternități, la 2–3 zile după naștere",
-   "Tabelul de volume START"
-  ],
-  [
-   "st-natal",
-   "BG",
-   "confirmed",
-   "30.000 de mame noi pe an · Asociația Pediatrilor",
-   "Tabelul de volume START"
-  ],
-  [
-   "st-natal",
-   "CY",
-   "unknown",
-   "Niciun volum Natal listat",
-   "Tabelul de volume START"
-  ],
-  [
-   "st-natal",
-   "RS",
-   "confirmed",
-   "30.000 de mame noi pe an · specialiști în pediatrie și neonatologie",
-   "Tabelul de volume START"
-  ],
-  [
-   "st-natal",
-   "RO",
-   "confirmed",
-   "160.000 de mame noi pe an · Asociația de Neonatologie, Asociația Pediatrilor",
-   "Tabelul de volume START"
-  ],
-  [
-   "st-natal",
-   "MENA",
-   "unknown",
-   "PDF „New Mothers MENA Program 2025” [confirmă dacă este activ] (P8)",
-   "Search Console"
-  ],
-  [
-   "st-pregnancy",
-   "GR",
-   "confirmed",
-   "20.000 de gravide pe an · colaborare cu medicii · clinici, trimestrul 3",
-   "Tabelul de volume START"
-  ],
-  [
-   "st-pregnancy",
-   "CY",
-   "unknown",
-   "Niciun volum Prenatal listat",
-   "Tabelul de volume START"
-  ],
-  [
-   "st-pregnancy",
-   "RO",
-   "unknown",
-   "Niciun volum Prenatal listat",
-   "Tabelul de volume START"
-  ],
-  [
-   "st-pregnancy",
-   "BG",
-   "unknown",
-   "Niciun volum Prenatal listat",
-   "Tabelul de volume START"
-  ],
-  [
-   "st-pregnancy",
-   "RS",
-   "unknown",
-   "Niciun volum Prenatal listat",
-   "Tabelul de volume START"
-  ],
-  [
-   "st-school",
-   "GR",
-   "unknown",
-   "Prima zi de grădiniță și de clasa I [țări și volum de confirmat]",
-   "Site-ul actual"
-  ],
-  [
-   "st-army",
-   "GR",
-   "unknown",
-   "Ziua încorporării în unitățile militare [țară și volum de confirmat]",
-   "Site-ul actual"
-  ],
-  [
-   "school",
-   "KSA",
-   "confirmed",
-   "Program de nutriție cu Sadafco",
-   "Site-ul actual"
-  ],
-  [
-   "school",
-   "ALL",
-   "confirmed",
-   "20 de milioane de elevi în 15 țări, în peste 20 de ani",
-   "Site-ul actual"
-  ],
-  [
-   "uni",
-   "BG",
-   "confirmed",
-   "uni-start.com pentru studenții din anul I",
-   "Rapoartele tale"
-  ],
-  [
-   "uni",
-   "RS",
-   "partial",
-   "Activări de sampling în universități, 2024 [rezultate de confirmat]",
-   "PDF din rezultatele căutării"
-  ],
-  [
-   "st-high",
-   "RO",
-   "confirmed",
-   "START 9 (startliceu.life) pentru elevii care încep liceul",
-   "Rapoartele tale"
-  ],
-  [
-   "brand-activation",
-   "KSA",
-   "confirmed",
-   "Harpic (Reckitt), din ușă în ușă: 650.000 de gospodării, 2022–2023",
-   "Medium 2024"
-  ],
-  [
-   "brand-activation",
-   "UAE",
-   "partial",
-   "Activare de brand always-on, Dubai [de transformat în studiu de caz]",
-   "Blog mai 2026"
-  ],
-  [
-   "pl-mybabywinner",
-   "RS",
-   "confirmed",
-   "30.000+ de mame; Curaprox, sponsor Platinum din 2022 (1.883 de destinatari)",
-   "Medium 2024"
-  ],
-  [
-   "pl-mybabywinner",
-   "CY",
-   "confirmed",
-   "15.000+ de înregistrări; sponsori, printre care Sudocrem, Frezyderm, Dr. Brown’s",
-   "Medium 2024"
-  ],
-  [
-   "pl-babyspace",
-   "GR",
-   "confirmed",
-   "Portal din 2009 (100.000+ de membri în Grecia, Bulgaria și România)",
-   "Confirmat 15 oct."
-  ],
-  [
-   "pl-babyspace",
-   "RO",
-   "confirmed",
-   "Babyspace România",
-   "Confirmat 15 oct."
-  ],
-  [
-   "pl-babyspace",
-   "BG",
-   "confirmed",
-   "Babyspace Bulgaria",
-   "Confirmat 15 oct."
-  ],
-  [
-   "pl-myparenthood",
-   "GR",
-   "confirmed",
-   "Masterclass-uri online pentru părinți",
-   "Confirmat 15 oct."
-  ],
-  [
-   "pl-ladiesbook",
-   "GR",
-   "confirmed",
-   "Revistă online pentru femei de peste 50 de ani",
-   "Confirmat 15 oct."
-  ],
-  [
-   "pl-myschoolwinner",
-   "GR",
-   "confirmed",
-   "Myschoolwinner",
-   "Confirmat 15 oct."
-  ],
-  [
-   "pl-myschoolwinner",
-   "RO",
-   "confirmed",
-   "Myschoolwinner",
-   "Confirmat 15 oct."
-  ],
-  [
-   "pl-myschoolwinner",
-   "BG",
-   "confirmed",
-   "Myschoolwinner",
-   "Confirmat 15 oct."
-  ],
-  [
-   "pl-myschoolwinner",
-   "RS",
-   "confirmed",
-   "Myschoolwinner",
-   "Confirmat 15 oct."
-  ],
-  [
-   "pl-heymaa",
-   "RO",
-   "confirmed",
-   "Pilot",
-   "Confirmat oct. 2026"
-  ],
-  [
-   "pl-mumsvoice",
-   "GR",
-   "confirmed",
-   "Sondaj anual în rândul mamelor",
-   "Site-ul actual"
-  ],
-  [
-   "pl-mumsvoice",
-   "KSA",
-   "confirmed",
-   "Sondaj anual în rândul mamelor",
-   "Site-ul actual"
-  ],
-  [
-   "pl-mumsvoice",
-   "CY",
-   "confirmed",
-   "Sondaj anual în rândul mamelor",
-   "Site-ul actual"
-  ],
-  [
-   "pl-mumsvoice",
-   "RO",
-   "confirmed",
-   "Sondaj anual în rândul mamelor",
-   "Site-ul actual"
-  ],
-  [
-   "pl-mumsvoice",
-   "BG",
-   "confirmed",
-   "Sondaj anual în rândul mamelor",
-   "Site-ul actual"
-  ],
-  [
-   "social",
-   "RO",
-   "confirmed",
-   "Huggies pe eMAG: 300 de recenzii pentru 12 SKU-uri (2023)",
-   "Medium 2024"
-  ],
-  [
-   "crm",
-   "GR",
-   "partial",
-   "Sampling digital TENA prin formulare de lead pe Facebook [rezultate de adăugat]",
-   "Medium 2024"
-  ],
-  [
-   "pl-pharma",
-   "GR",
-   "confirmed",
-   "pharmacoupons.gr",
-   "Site-ul actual"
-  ]
- ],
- "SS_AUD": [
-  "st-marriage",
-  "st-pet",
-  "st-pregnancy",
-  "st-natal",
-  "st-luxury",
-  "st-next",
-  "st-school",
-  "st-school-xmas",
-  "st-teen",
-  "st-high",
-  "st-uni",
-  "st-army",
-  "st-silver",
-  "st-seniors"
- ],
- "SS_COLS": [
-  {
-   "name": "Planifică un START",
-   "ids": [
-    "st-about",
-    "st-contact"
-   ]
-  },
-  {
-   "name": "Faza 2 · pentru mame",
-   "ids": [
-    "st-order"
-   ]
-  }
- ]
 }

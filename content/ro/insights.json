@@ -1,0 +1,660 @@
+{
+  "st-pregnancy": [
+    {
+      "country": "Grecia",
+      "reach": "20,000 viitoare mame / an",
+      "cities": "Atena, Salonic, Patras și clinici la nivel național",
+      "channels": "Clinici de ginecologie și maternități · trimestrul 3",
+      "app": "Babyspace · Myparenthood",
+      "guide": "Σχέσεις Στοργής · Η ΠΙΟ ΓΛΥΚΙΑ ΑΝΑΜΟΝΗ (the BOOM edition)",
+      "tirage": "Cu cutia · colaborare cu medicii"
+    },
+    {
+      "country": "România",
+      "reach": "Volum prenatal de confirmat",
+      "cities": "București și rețeaua de maternități — în expansiune",
+      "channels": "Clinici de ginecologie și maternități",
+      "app": "Babyspace · HeyMaa (pilot)",
+      "guide": "—",
+      "tirage": "—"
+    },
+    {
+      "country": "Bulgaria",
+      "reach": "Volum prenatal de confirmat",
+      "cities": "Sofia și rețeaua de maternități — în expansiune",
+      "channels": "Clinici de ginecologie și maternități",
+      "app": "Babyspace",
+      "guide": "—",
+      "tirage": "—"
+    },
+    {
+      "country": "Serbia",
+      "reach": "Volum prenatal de confirmat",
+      "cities": "Belgrad și rețeaua de maternități — în expansiune",
+      "channels": "Clinici de ginecologie și maternități",
+      "app": "Mybabywinner",
+      "guide": "—",
+      "tirage": "—"
+    },
+    {
+      "country": "Cipru",
+      "reach": "Volum prenatal de confirmat",
+      "cities": "Nicosia, Limassol — în expansiune",
+      "channels": "Clinici de ginecologie și maternități",
+      "app": "Mybabywinner",
+      "guide": "—",
+      "tirage": "—"
+    }
+  ],
+  "st-natal": [
+    {
+      "country": "Grecia",
+      "reach": "50,000 mame noi / an",
+      "cities": "Maternități publice și private la nivel național",
+      "channels": "Înmânat la 2–3 zile după naștere",
+      "app": "Babyspace · Myparenthood",
+      "guide": "Σχέσεις Στοργής · the BOOM edition",
+      "tirage": "Tipărit cu cutia primelor zile"
+    },
+    {
+      "country": "România",
+      "reach": "160,000 mame noi / an",
+      "cities": "Maternități la nivel național",
+      "channels": "Asociații de neonatologie și pediatrie",
+      "app": "Babyspace · HeyMaa (pilot)",
+      "guide": "Natal Guide 2026 · Breastfeeding Guide 2026",
+      "tirage": "Tipărit cu cutia"
+    },
+    {
+      "country": "Bulgaria",
+      "reach": "30,000 mame noi / an",
+      "cities": "Maternități la nivel național",
+      "channels": "Asociația Pediatrilor",
+      "app": "Babyspace",
+      "guide": "Natal Guide",
+      "tirage": "Tipărit cu cutia"
+    },
+    {
+      "country": "Serbia",
+      "reach": "30,000 mame noi / an",
+      "cities": "Maternități la nivel național",
+      "channels": "Specialiști în pediatrie și neonatologie",
+      "app": "Mybabywinner",
+      "guide": "Breastfeeding Guide 2026",
+      "tirage": "Tipărit cu cutia"
+    },
+    {
+      "country": "Cipru",
+      "reach": "Volum de confirmat",
+      "cities": "Maternități — în expansiune",
+      "channels": "La 2–3 zile după naștere",
+      "app": "Mybabywinner",
+      "guide": "—",
+      "tirage": "—"
+    }
+  ],
+  "st-luxury": [
+    {
+      "country": "Grecia",
+      "reach": "Mame din suite private / an (segment premium din Natal)",
+      "cities": "Clinici private din Atena și Salonic",
+      "channels": "Suite și rezerve private",
+      "app": "Babyspace · Myparenthood",
+      "guide": "Ghidul kitului Luxury Moments",
+      "tirage": "Kit tipărit exclusiv"
+    },
+    {
+      "country": "România",
+      "reach": "Rezerve private premium — de confirmat",
+      "cities": "București clinici private",
+      "channels": "Suite private",
+      "app": "Babyspace",
+      "guide": "—",
+      "tirage": "—"
+    },
+    {
+      "country": "Bulgaria",
+      "reach": "Rezerve private premium — de confirmat",
+      "cities": "Sofia clinici private",
+      "channels": "Suite private",
+      "app": "Babyspace",
+      "guide": "—",
+      "tirage": "—"
+    },
+    {
+      "country": "Serbia",
+      "reach": "Rezerve private premium — de confirmat",
+      "cities": "Belgrad clinici private",
+      "channels": "Suite private",
+      "app": "—",
+      "guide": "—",
+      "tirage": "—"
+    },
+    {
+      "country": "Cipru",
+      "reach": "Rezerve private premium — de confirmat",
+      "cities": "Clinici private — în expansiune",
+      "channels": "Suite private",
+      "app": "—",
+      "guide": "—",
+      "tirage": "—"
+    }
+  ],
+  "st-next": [
+    {
+      "country": "Grecia",
+      "reach": "Familii la diversificare — volum de confirmat",
+      "cities": "Livrat la domiciliu la nivel național",
+      "channels": "Bebeluş ~6 luni · livrare la domiciliu",
+      "app": "Babyspace · Myparenthood",
+      "guide": "Conținut first foods pe platformele pentru părinți",
+      "tirage": "Cutie livrată la domiciliu"
+    },
+    {
+      "country": "România",
+      "reach": "Familii la diversificare — volum de confirmat",
+      "cities": "Livrat la domiciliu la nivel național",
+      "channels": "Bebeluş ~6 luni · livrare la domiciliu",
+      "app": "Babyspace · HeyMaa",
+      "guide": "—",
+      "tirage": "Cutie livrată la domiciliu"
+    },
+    {
+      "country": "Bulgaria",
+      "reach": "Familii la diversificare — volum de confirmat",
+      "cities": "Livrat la domiciliu la nivel național",
+      "channels": "Bebeluş ~6 luni · livrare la domiciliu",
+      "app": "Babyspace",
+      "guide": "—",
+      "tirage": "Cutie livrată la domiciliu"
+    },
+    {
+      "country": "Serbia",
+      "reach": "Familii la diversificare — volum de confirmat",
+      "cities": "Livrat la domiciliu la nivel național",
+      "channels": "Bebeluş ~6 luni · livrare la domiciliu",
+      "app": "Mybabywinner",
+      "guide": "Breastfeeding Guide 2026 (includes first foods)",
+      "tirage": "Ghid tipărit + cutie la domiciliu"
+    },
+    {
+      "country": "Cipru",
+      "reach": "Familii la diversificare — volum de confirmat",
+      "cities": "Livrat la domiciliu",
+      "channels": "Bebeluş ~6 luni · livrare la domiciliu",
+      "app": "Mybabywinner",
+      "guide": "—",
+      "tirage": "Cutie livrată la domiciliu"
+    }
+  ],
+  "st-school": [
+    {
+      "country": "Grecia",
+      "reach": "Familii de clasa I — volum de confirmat",
+      "cities": "Școli primare la nivel național",
+      "channels": "Prima zi de clasa I (6 ani)",
+      "app": "Myschoolwinner",
+      "guide": "Ghid școlar — ediția Grecia de confirmat",
+      "tirage": "Cutie în prima zi de școală"
+    },
+    {
+      "country": "România",
+      "reach": "Familii de clasa I — piață live confirmată",
+      "cities": "Școli primare la nivel național",
+      "channels": "Prima zi de clasa I (6 ani)",
+      "app": "Myschoolwinner",
+      "guide": "Prima zi la școală",
+      "tirage": "Ghid tipărit + cutie în ziua de școală"
+    },
+    {
+      "country": "Bulgaria",
+      "reach": "Familii de clasa I — piață live confirmată",
+      "cities": "Școli primare la nivel național",
+      "channels": "Prima zi de clasa I (6 ani)",
+      "app": "Myschoolwinner",
+      "guide": "Първи Учебен Ден",
+      "tirage": "Ghid tipărit + cutie în ziua de școală"
+    },
+    {
+      "country": "Serbia",
+      "reach": "Familii de clasa I — piață live confirmată",
+      "cities": "Școli primare la nivel național",
+      "channels": "Prima zi de clasa I (6 ani)",
+      "app": "Myschoolwinner",
+      "guide": "Prvi dan škole",
+      "tirage": "Ghid tipărit + cutie în ziua de școală"
+    },
+    {
+      "country": "Cipru",
+      "reach": "Familii de clasa I — în expansiune",
+      "cities": "Școli primare — în expansiune",
+      "channels": "Prima zi de clasa I",
+      "app": "Myschoolwinner",
+      "guide": "—",
+      "tirage": "—"
+    }
+  ],
+  "st-school-xmas": [
+    {
+      "country": "Grecia",
+      "reach": "Familii din primar · perioada școlară de Crăciun",
+      "cities": "Școli primare la nivel național",
+      "channels": "Ediție festivă First Grade",
+      "app": "Myschoolwinner",
+      "guide": "Kit școlar de Crăciun",
+      "tirage": "Cutie sezonieră multi-brand"
+    },
+    {
+      "country": "România",
+      "reach": "Familii din primar · perioada școlară de Crăciun",
+      "cities": "Școli primare la nivel național",
+      "channels": "Ediție festivă First Grade",
+      "app": "Myschoolwinner",
+      "guide": "Kit școlar de Crăciun",
+      "tirage": "Cutie sezonieră multi-brand"
+    },
+    {
+      "country": "Bulgaria",
+      "reach": "Familii din primar · perioada școlară de Crăciun",
+      "cities": "Școli primare la nivel național",
+      "channels": "Ediție festivă First Grade",
+      "app": "Myschoolwinner",
+      "guide": "Kit școlar de Crăciun",
+      "tirage": "Cutie sezonieră multi-brand"
+    },
+    {
+      "country": "Serbia",
+      "reach": "Familii din primar · perioada școlară de Crăciun",
+      "cities": "Școli primare la nivel național",
+      "channels": "Ediție festivă First Grade",
+      "app": "Myschoolwinner",
+      "guide": "Kit școlar de Crăciun",
+      "tirage": "Cutie sezonieră multi-brand"
+    },
+    {
+      "country": "Cipru",
+      "reach": "Familii din primar — în expansiune",
+      "cities": "Școli primare — în expansiune",
+      "channels": "Perioada școlară de Crăciun",
+      "app": "Myschoolwinner",
+      "guide": "—",
+      "tirage": "—"
+    }
+  ],
+  "st-teen": [
+    {
+      "country": "Grecia",
+      "reach": "Fete la începutul pubertății — volum de confirmat",
+      "cities": "Livrat la domiciliu la nivel național",
+      "channels": "Curier la domiciliu",
+      "app": "Comunitățile Care Direct",
+      "guide": "Ghidul kitului Teen Girl",
+      "tirage": "Cutie la domiciliu + follow-up"
+    },
+    {
+      "country": "România",
+      "reach": "Fete la începutul pubertății — volum de confirmat",
+      "cities": "Livrat la domiciliu la nivel național",
+      "channels": "Curier la domiciliu",
+      "app": "Comunitățile Care Direct",
+      "guide": "Ghidul kitului Teen Girl",
+      "tirage": "Cutie la domiciliu + follow-up"
+    },
+    {
+      "country": "Bulgaria",
+      "reach": "Fete la începutul pubertății — volum de confirmat",
+      "cities": "Livrat la domiciliu la nivel național",
+      "channels": "Curier la domiciliu",
+      "app": "Comunitățile Care Direct",
+      "guide": "Ghidul kitului Teen Girl",
+      "tirage": "Cutie la domiciliu + follow-up"
+    },
+    {
+      "country": "Serbia",
+      "reach": "Fete la începutul pubertății — volum de confirmat",
+      "cities": "Livrat la domiciliu la nivel național",
+      "channels": "Curier la domiciliu",
+      "app": "Comunitățile Care Direct",
+      "guide": "Ghidul kitului Teen Girl",
+      "tirage": "Cutie la domiciliu + follow-up"
+    },
+    {
+      "country": "Cipru",
+      "reach": "Fete la începutul pubertății — în expansiune",
+      "cities": "Livrat la domiciliu",
+      "channels": "Curier la domiciliu",
+      "app": "Comunitățile Care Direct",
+      "guide": "—",
+      "tirage": "—"
+    }
+  ],
+  "st-high": [
+    {
+      "country": "Grecia",
+      "reach": "Elevi în anul I de liceu — volum de confirmat",
+      "cities": "Licee la nivel național",
+      "channels": "Intrarea la liceu · 15–16 ani",
+      "app": "START 9 (startliceu.life)",
+      "guide": "Ghid web interactiv START 9",
+      "tirage": "Mostre în școală + ghid digital"
+    },
+    {
+      "country": "România",
+      "reach": "Elevi în anul I de liceu — live cu START 9",
+      "cities": "Licee la nivel național",
+      "channels": "Intrarea la liceu · 15–16 ani",
+      "app": "START 9 (startliceu.life)",
+      "guide": "Ghid web interactiv START 9",
+      "tirage": "Mostre în școală + ghid digital"
+    },
+    {
+      "country": "Bulgaria",
+      "reach": "Elevi în anul I de liceu — în expansiune",
+      "cities": "Licee — în expansiune",
+      "channels": "Intrarea la liceu",
+      "app": "START 9",
+      "guide": "Ghid web START 9",
+      "tirage": "—"
+    },
+    {
+      "country": "Serbia",
+      "reach": "Elevi în anul I de liceu — în expansiune",
+      "cities": "Licee — în expansiune",
+      "channels": "Intrarea la liceu",
+      "app": "START 9",
+      "guide": "Ghid web START 9",
+      "tirage": "—"
+    },
+    {
+      "country": "Cipru",
+      "reach": "Elevi în anul I de liceu — în expansiune",
+      "cities": "Licee — în expansiune",
+      "channels": "Intrarea la liceu",
+      "app": "START 9",
+      "guide": "—",
+      "tirage": "—"
+    }
+  ],
+  "st-uni": [
+    {
+      "country": "Grecia",
+      "reach": "Studenți din anul I — volum de confirmat",
+      "cities": "Universități la nivel național",
+      "channels": "Activări pe campus · primele achiziții independente",
+      "app": "UniStart+ (uni-start.com)",
+      "guide": "Ghid digital UniStart+ pentru studenți",
+      "tirage": "Mostre pe campus + ghid digital"
+    },
+    {
+      "country": "România",
+      "reach": "Studenți din anul I — în expansiune",
+      "cities": "Universități — în expansiune",
+      "channels": "Activări pe campus",
+      "app": "UniStart+",
+      "guide": "Ghid digital UniStart+",
+      "tirage": "—"
+    },
+    {
+      "country": "Bulgaria",
+      "reach": "Studenți din anul I — live cu UniStart+",
+      "cities": "Universități la nivel național",
+      "channels": "Activări pe campus",
+      "app": "UniStart+ (uni-start.com)",
+      "guide": "Ghid digital UniStart+ pentru studenți",
+      "tirage": "Mostre pe campus + ghid digital"
+    },
+    {
+      "country": "Serbia",
+      "reach": "Activări de sampling universitar (2024+) — rezultate de confirmat",
+      "cities": "Belgrad și orașe universitare",
+      "channels": "Activări pe campus",
+      "app": "UniStart+",
+      "guide": "Ghid digital UniStart+",
+      "tirage": "Mostre pe campus"
+    },
+    {
+      "country": "Cipru",
+      "reach": "Studenți din anul I — în expansiune",
+      "cities": "Universități — în expansiune",
+      "channels": "Activări pe campus",
+      "app": "UniStart+",
+      "guide": "—",
+      "tirage": "—"
+    }
+  ],
+  "st-army": [
+    {
+      "country": "Grecia",
+      "reach": "Recruți în ziua încorporării — volum de confirmat",
+      "cities": "Unități militare la nivel național",
+      "channels": "Predare în ziua încorporării",
+      "app": "—",
+      "guide": "Materiale kit pentru unitate",
+      "tirage": "Mostre în ziua încorporării"
+    },
+    {
+      "country": "România",
+      "reach": "—",
+      "cities": "—",
+      "channels": "Încă nu este live pe această piață",
+      "app": "—",
+      "guide": "—",
+      "tirage": "—"
+    },
+    {
+      "country": "Bulgaria",
+      "reach": "—",
+      "cities": "—",
+      "channels": "Încă nu este live pe această piață",
+      "app": "—",
+      "guide": "—",
+      "tirage": "—"
+    },
+    {
+      "country": "Serbia",
+      "reach": "—",
+      "cities": "—",
+      "channels": "Încă nu este live pe această piață",
+      "app": "—",
+      "guide": "—",
+      "tirage": "—"
+    },
+    {
+      "country": "Cipru",
+      "reach": "—",
+      "cities": "—",
+      "channels": "Încă nu este live pe această piață",
+      "app": "—",
+      "guide": "—",
+      "tirage": "—"
+    }
+  ],
+  "st-marriage": [
+    {
+      "country": "Grecia",
+      "reach": "Gospodării de proaspăt căsătoriți — volum de confirmat",
+      "cities": "Livrat la domiciliu la nivel național",
+      "channels": "Curier pe măsură ce își amenajează casa",
+      "app": "Comunitățile Care Direct",
+      "guide": "Ghid căsătorie / prima casă",
+      "tirage": "Cutie la domiciliu"
+    },
+    {
+      "country": "România",
+      "reach": "Gospodării de proaspăt căsătoriți — în expansiune",
+      "cities": "Livrat la domiciliu",
+      "channels": "Livrare la domiciliu prin curier",
+      "app": "Comunitățile Care Direct",
+      "guide": "—",
+      "tirage": "Cutie la domiciliu"
+    },
+    {
+      "country": "Bulgaria",
+      "reach": "Gospodării de proaspăt căsătoriți — în expansiune",
+      "cities": "Livrat la domiciliu",
+      "channels": "Livrare la domiciliu prin curier",
+      "app": "Comunitățile Care Direct",
+      "guide": "—",
+      "tirage": "Cutie la domiciliu"
+    },
+    {
+      "country": "Serbia",
+      "reach": "Gospodării de proaspăt căsătoriți — în expansiune",
+      "cities": "Livrat la domiciliu",
+      "channels": "Livrare la domiciliu prin curier",
+      "app": "Comunitățile Care Direct",
+      "guide": "—",
+      "tirage": "Cutie la domiciliu"
+    },
+    {
+      "country": "Cipru",
+      "reach": "Gospodării de proaspăt căsătoriți — în expansiune",
+      "cities": "Livrat la domiciliu",
+      "channels": "Livrare la domiciliu prin curier",
+      "app": "Comunitățile Care Direct",
+      "guide": "—",
+      "tirage": "—"
+    }
+  ],
+  "st-pet": [
+    {
+      "country": "Grecia",
+      "reach": "Noi proprietari de animale · 200 de veterinari de top din Attica (Swiffer 2018)",
+      "cities": "Veterinari Atena/Attica · organizații de adopție",
+      "channels": "Veterinari și parteneri de adopție · primele săptămâni acasă",
+      "app": "Comunitățile Care Direct",
+      "guide": "Materiale de îngrijire pentru animal nou",
+      "tirage": "Cutie predată la veterinar / adopție"
+    },
+    {
+      "country": "România",
+      "reach": "Noi proprietari de animale — în expansiune",
+      "cities": "Veterinari și parteneri de adopție",
+      "channels": "Primele săptămâni cu un animal nou",
+      "app": "Comunitățile Care Direct",
+      "guide": "—",
+      "tirage": "—"
+    },
+    {
+      "country": "Bulgaria",
+      "reach": "Noi proprietari de animale — în expansiune",
+      "cities": "Veterinari și parteneri de adopție",
+      "channels": "Primele săptămâni cu un animal nou",
+      "app": "Comunitățile Care Direct",
+      "guide": "—",
+      "tirage": "—"
+    },
+    {
+      "country": "Serbia",
+      "reach": "Noi proprietari de animale — în expansiune",
+      "cities": "Veterinari și parteneri de adopție",
+      "channels": "Primele săptămâni cu un animal nou",
+      "app": "Comunitățile Care Direct",
+      "guide": "—",
+      "tirage": "—"
+    },
+    {
+      "country": "Cipru",
+      "reach": "Noi proprietari de animale — în expansiune",
+      "cities": "Veterinari și parteneri de adopție",
+      "channels": "Primele săptămâni cu un animal nou",
+      "app": "Comunitățile Care Direct",
+      "guide": "—",
+      "tirage": "—"
+    }
+  ],
+  "st-silver": [
+    {
+      "country": "Grecia",
+      "reach": "Femei 50+ la debutul menopauzei — volum de confirmat",
+      "cities": "Clinici de ginecologie la nivel național",
+      "channels": "Predare la controlul anual",
+      "app": "LadiesBook (ladiesbook.gr)",
+      "guide": "Ghid Ladies tipărit",
+      "tirage": "Cutie la clinică + LadiesBook"
+    },
+    {
+      "country": "România",
+      "reach": "—",
+      "cities": "—",
+      "channels": "Încă nu este live pe această piață",
+      "app": "—",
+      "guide": "—",
+      "tirage": "—"
+    },
+    {
+      "country": "Bulgaria",
+      "reach": "—",
+      "cities": "—",
+      "channels": "Încă nu este live pe această piață",
+      "app": "—",
+      "guide": "—",
+      "tirage": "—"
+    },
+    {
+      "country": "Serbia",
+      "reach": "—",
+      "cities": "—",
+      "channels": "Încă nu este live pe această piață",
+      "app": "—",
+      "guide": "—",
+      "tirage": "—"
+    },
+    {
+      "country": "Cipru",
+      "reach": "—",
+      "cities": "—",
+      "channels": "Încă nu este live pe această piață",
+      "app": "—",
+      "guide": "—",
+      "tirage": "—"
+    }
+  ],
+  "st-seniors": [
+    {
+      "country": "Grecia",
+      "reach": "Persoane la începutul pensionării — volum de confirmat",
+      "cities": "Domiciliu + locuri de întâlnire pentru seniori",
+      "channels": "Livrare la domiciliu și locuri comunitare",
+      "app": "Comunitățile Care Direct",
+      "guide": "Materiale pentru etapa Seniors",
+      "tirage": "Cutie domiciliu / locație"
+    },
+    {
+      "country": "România",
+      "reach": "Persoane la începutul pensionării — în expansiune",
+      "cities": "Domiciliu + locuri comunitare",
+      "channels": "Domiciliu și comunitate",
+      "app": "Comunitățile Care Direct",
+      "guide": "—",
+      "tirage": "—"
+    },
+    {
+      "country": "Bulgaria",
+      "reach": "Persoane la începutul pensionării — în expansiune",
+      "cities": "Domiciliu + locuri comunitare",
+      "channels": "Domiciliu și comunitate",
+      "app": "Comunitățile Care Direct",
+      "guide": "—",
+      "tirage": "—"
+    },
+    {
+      "country": "Serbia",
+      "reach": "Persoane la începutul pensionării — în expansiune",
+      "cities": "Domiciliu + locuri comunitare",
+      "channels": "Domiciliu și comunitate",
+      "app": "Comunitățile Care Direct",
+      "guide": "—",
+      "tirage": "—"
+    },
+    {
+      "country": "Cipru",
+      "reach": "Persoane la începutul pensionării — în expansiune",
+      "cities": "Domiciliu + locuri comunitare",
+      "channels": "Domiciliu și comunitate",
+      "app": "Comunitățile Care Direct",
+      "guide": "—",
+      "tirage": "—"
+    }
+  ]
+}

@@ -34,11 +34,14 @@ export function Footer({ footerLine }: { footerLine: string }) {
           <FooterLink href={localePath(locale, "/")}>
             {messages.startHome}
           </FooterLink>
-          <FooterLink href={localePath(locale, "/order/")}>
-            {messages.orderSamples}
-          </FooterLink>
           <FooterLink href={localePath(locale, "/plan/")}>
             {messages.planAStart}
+          </FooterLink>
+        </div>
+        <div className={styles.col}>
+          <h2>{messages.forUsers}</h2>
+          <FooterLink href={localePath(locale, "/order/")}>
+            {messages.orderSamples}
           </FooterLink>
         </div>
       </div>

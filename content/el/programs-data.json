@@ -1,470 +1,472 @@
 {
- "START_PLATFORMS": {
-  "st-pregnancy": "Babyspace (babyspace.gr, babyspace.com.ro, babyspace.bg) · Myparenthood (myparenthood.gr, Ελλάδα) · Mybabywinner (Σερβία, Κύπρος) · HeyMaa (heymaa.ai, AI σύντροφος)",
-  "st-natal": "Babyspace (Ελλάδα, Ρουμανία, Βουλγαρία) · Myparenthood (Ελλάδα) · Mybabywinner (Σερβία, Κύπρος) · HeyMaa (heymaa.ai, AI σύντροφος)",
-  "st-luxury": "Babyspace (Ελλάδα) · Myparenthood (Ελλάδα)",
-  "st-next": "Babyspace (Ελλάδα, Ρουμανία, Βουλγαρία) · Myparenthood (Ελλάδα) · Mybabywinner (Σερβία, Κύπρος) · HeyMaa (heymaa.ai, AI σύντροφος)",
-  "st-school": "Myschoolwinner (myschoolwinner.com: Ελλάδα, Ρουμανία, Βουλγαρία και Σερβία)",
-  "st-high": "START 9 (startliceu.life) [γράψατε start.life: επιβεβαιώστε τη διεύθυνση]",
-  "st-uni": "UniStart+ (uni-start.com)",
-  "st-silver": "LadiesBook (ladiesbook.gr, Ελλάδα)",
-  "st-school-xmas": "Myschoolwinner (myschoolwinner.com: Ελλάδα, Ρουμανία, Βουλγαρία και Σερβία)"
- },
- "START_GUIDES": {
-  "st-natal": [
-   [
-    "Ελλάδα",
-    "Natal Guide",
-    "https://heyzine.com/flip-book/ea452acee4.html"
-   ],
-   [
-    "Ελλάδα",
-    "Σχέσεις Στοργής (οδηγός για νέες μαμάδες)",
-    "https://heyzine.com/flip-book/8e724472cf.html"
-   ],
-   [
-    "Ρουμανία",
-    "Natal Guide 2026",
-    "https://heyzine.com/flip-book/af6388abac.html"
-   ],
-   [
-    "Βουλγαρία",
-    "Natal Guide",
-    "https://heyzine.com/flip-book/9f742c4eb8.html"
-   ],
-   [
-    "Ρουμανία",
-    "Οδηγός Θηλασμού 2026",
-    "https://heyzine.com/flip-book/e34cc9b492.html"
-   ],
-   [
-    "Σερβία",
-    "Οδηγός Θηλασμού 2026",
-    "https://heyzine.com/flip-book/9b9ac1329b.html"
-   ]
+  "START_PLATFORMS": {
+    "st-pregnancy": "Babyspace (babyspace.gr, babyspace.com.ro, babyspace.bg) · Myparenthood (myparenthood.gr, Ελλάδα) · Mybabywinner (Σερβία, Κύπρος) · HeyMaa (heymaa.ai, AI σύντροφος)",
+    "st-natal": "Babyspace (Ελλάδα, Ρουμανία, Βουλγαρία) · Myparenthood (Ελλάδα) · Mybabywinner (Σερβία, Κύπρος) · HeyMaa (heymaa.ai, AI σύντροφος)",
+    "st-luxury": "Babyspace (Ελλάδα) · Myparenthood (Ελλάδα)",
+    "st-next": "Babyspace (Ελλάδα, Ρουμανία, Βουλγαρία) · Myparenthood (Ελλάδα) · Mybabywinner (Σερβία, Κύπρος) · HeyMaa (heymaa.ai, AI σύντροφος)",
+    "st-school": "Myschoolwinner (myschoolwinner.com: Ελλάδα, Ρουμανία, Βουλγαρία και Σερβία)",
+    "st-high": "START 9 (startliceu.life) [γράψατε start.life: επιβεβαιώστε τη διεύθυνση]",
+    "st-uni": "UniStart+ (uni-start.com)",
+    "st-silver": "LadiesBook (ladiesbook.gr, Ελλάδα)",
+    "st-school-xmas": "Myschoolwinner (myschoolwinner.com: Ελλάδα, Ρουμανία, Βουλγαρία και Σερβία)"
+  },
+  "START_GUIDES": {
+    "st-natal": [
+      [
+        "Ελλάδα",
+        "Σχέσεις Στοργής · the BOOM edition",
+        "https://heyzine.com/flip-book/8e724472cf.html"
+      ],
+      [
+        "Ρουμανία",
+        "Natal Guide 2026",
+        "https://heyzine.com/flip-book/af6388abac.html"
+      ],
+      [
+        "Βουλγαρία",
+        "Natal Guide",
+        "https://heyzine.com/flip-book/9f742c4eb8.html"
+      ],
+      [
+        "Ρουμανία",
+        "Οδηγός Θηλασμού 2026",
+        "https://heyzine.com/flip-book/e34cc9b492.html"
+      ],
+      [
+        "Σερβία",
+        "Οδηγός Θηλασμού 2026",
+        "https://heyzine.com/flip-book/9b9ac1329b.html"
+      ]
+    ],
+    "st-next": [
+      [
+        "Σερβία",
+        "Οδηγός Θηλασμού 2026 (περιλαμβάνει τις πρώτες τροφές)",
+        "https://heyzine.com/flip-book/9b9ac1329b.html"
+      ]
+    ],
+    "st-school": [
+      [
+        "Ρουμανία",
+        "Prima zi la școală",
+        "https://heyzine.com/flip-book/381377db30.html"
+      ],
+      [
+        "Βουλγαρία",
+        "Първи Учебен Ден",
+        "https://heyzine.com/flip-book/59a24288dc.html"
+      ],
+      [
+        "Σερβία",
+        "Prvi dan škole",
+        "https://heyzine.com/flip-book/f6ae2642bc.html"
+      ]
+    ],
+    "st-pregnancy": [
+      [
+        "Ελλάδα",
+        "Σχέσεις Στοργής · Η ΠΙΟ ΓΛΥΚΙΑ ΑΝΑΜΟΝΗ (the BOOM edition)",
+        ""
+      ]
+    ]
+  },
+  "START_PROGRAMS": {
+    "st-pregnancy": {
+      "name": "START Pregnancy",
+      "when": "3ο τρίμηνο",
+      "where": "Γυναικολογικές κλινικές & μαιευτήρια",
+      "desc": "Οι μέλλοντες γονείς δοκιμάζουν το προϊόν σας ενώ φτιάχνουν ακόμη τη λίστα με όσα θα χρειαστεί το μωρό."
+    },
+    "st-natal": {
+      "name": "START Newborn",
+      "when": "2–3 ημέρες μετά τον τοκετό",
+      "where": "Μαιευτήρια",
+      "desc": "Το κουτί των πρώτων ημερών που παραδίδεται στις νέες μητέρες στο μαιευτήριο, μαζί με τον οδηγό για τις επόμενες εβδομάδες."
+    },
+    "st-luxury": {
+      "name": "START Luxury Moments",
+      "when": "2–3 ημέρες μετά τον τοκετό",
+      "where": "Ιδιωτικές σουίτες",
+      "desc": "Η premium έκδοση για νέες μητέρες σε σουίτες και ιδιωτικά δωμάτια ιδιωτικών κλινικών."
+    },
+    "st-next": {
+      "name": "START First Foods",
+      "when": "Μωρό 6 μηνών, ξεκινά τις στερεές τροφές",
+      "where": "Παράδοση στο σπίτι",
+      "desc": "Μαμάδες των οποίων τα μωρά ξεκινούν τις στερεές τροφές: μια νέα αρχή για την οικογένεια και ένα δεύτερο κύμα δοκιμής για brands διατροφής, σίτισης και φροντίδας."
+    },
+    "st-marriage": {
+      "name": "START Marriage",
+      "when": "Ο γάμος",
+      "where": "Παράδοση στο σπίτι με courier",
+      "desc": "Νιόπαντροι που φτιάχνουν το πρώτο κοινό τους σπίτι επιλέγουν τα brands με τα οποία θα ζήσουν."
+    },
+    "st-pet": {
+      "name": "START Pet",
+      "when": "Ένα νέο κατοικίδιο στο σπίτι",
+      "where": "Κτηνίατροι και οργανώσεις υιοθεσίας",
+      "desc": "Ένα νέο κατοικίδιο είναι μια νέα αρχή για όλο το σπίτι: οι ιδιοκτήτες δοκιμάζουν το προϊόν σας καθώς χτίζουν νέες συνήθειες."
+    },
+    "st-school": {
+      "name": "START First Grade",
+      "when": "Πρώτη μέρα στην Α΄ Δημοτικού (ηλικία 6 ετών)",
+      "where": "Δημοτικά σχολεία",
+      "desc": "Ένα κουτί την πρώτη κιόλας μέρα του σχολείου για τα εξάχρονα παιδιά και τους γονείς που επιλέγουν τα brands της σχολικής χρονιάς."
+    },
+    "st-teen": {
+      "name": "START Teen Girl",
+      "when": "Αρχή της εφηβείας",
+      "where": "Παράδοση στο σπίτι με courier",
+      "desc": "Στην αρχή της εφηβείας: δείγματα και follow-up με αξιόπιστα προϊόντα και καθοδήγηση."
+    },
+    "st-high": {
+      "name": "START High School",
+      "when": "Πρώτη τάξη λυκείου (15–16 ετών)",
+      "where": "Λύκεια",
+      "desc": "Αγόρια και κορίτσια που ξεκινούν το λύκειο, μια μεγάλη αλλαγή. Δείγματα και START 9 για την πρώτη τους χρονιά."
+    },
+    "st-uni": {
+      "name": "START University",
+      "when": "Πρώτο έτος στο πανεπιστήμιο",
+      "where": "Πανεπιστήμια",
+      "desc": "Πρωτοετείς φοιτητές που κάνουν τις πρώτες τους ανεξάρτητες αγορές. Δείγματα και UniStart+."
+    },
+    "st-army": {
+      "name": "START Army",
+      "when": "Ημέρα κατάταξης",
+      "where": "Στρατόπεδα",
+      "desc": "Νέοι άνδρες δοκιμάζουν το προϊόν σας την ημέρα που ξεκινούν τη θητεία τους: ένα δύσκολα προσβάσιμο κοινό σε ένα σημείο."
+    },
+    "st-seniors": {
+      "name": "START Seniors",
+      "when": "Έναρξη συνταξιοδότησης",
+      "where": "Στο σπίτι και σε χώρους συνάντησης ηλικιωμένων",
+      "desc": "Άνθρωποι που ξεκινούν τη συνταξιοδότηση: νέες συνήθειες, νέος χρόνος, νέες επιλογές."
+    },
+    "st-silver": {
+      "name": "START Ladies",
+      "when": "Αρχή της εμμηνόπαυσης (50+)",
+      "where": "Γυναικολογικές κλινικές",
+      "desc": "Γυναίκες που μπαίνουν στην εμμηνόπαυση, μια μεγάλη αλλαγή: δοκιμή και αξιόπιστη καθοδήγηση κατά τη διάρκεια της ετήσιας εξέτασής τους."
+    },
+    "st-school-xmas": {
+      "name": "START First Grade Christmas",
+      "when": "Χριστουγεννιάτικη σχολική περίοδος",
+      "where": "Δημοτικά σχολεία",
+      "desc": "Η χριστουγεννιάτικη έκδοση του First Grade: ένα εορταστικό κουτί για οικογένειες παιδιών δημοτικού."
+    }
+  },
+  "PROGRAMS": [
+    [
+      "st-natal",
+      "GR",
+      "confirmed",
+      "50.000 νέες μητέρες τον χρόνο · συνεργασία με γιατρούς · μαιευτήρια, 2–3 ημέρες μετά τον τοκετό",
+      "Πίνακας όγκων START"
+    ],
+    [
+      "st-natal",
+      "BG",
+      "confirmed",
+      "30.000 νέες μητέρες τον χρόνο · Ένωση Παιδιάτρων",
+      "Πίνακας όγκων START"
+    ],
+    [
+      "st-natal",
+      "CY",
+      "unknown",
+      "Δεν αναφέρεται όγκος Natal",
+      "Πίνακας όγκων START"
+    ],
+    [
+      "st-natal",
+      "RS",
+      "confirmed",
+      "30.000 νέες μητέρες τον χρόνο · ειδικοί στην παιδιατρική και τη νεογνολογία",
+      "Πίνακας όγκων START"
+    ],
+    [
+      "st-natal",
+      "RO",
+      "confirmed",
+      "160.000 νέες μητέρες τον χρόνο · Ένωση Νεογνολογίας, Ένωση Παιδιάτρων",
+      "Πίνακας όγκων START"
+    ],
+    [
+      "st-natal",
+      "MENA",
+      "unknown",
+      "PDF «New Mothers MENA Program 2025» [επιβεβαιώστε αν είναι ενεργό] (P8)",
+      "Search Console"
+    ],
+    [
+      "st-pregnancy",
+      "GR",
+      "confirmed",
+      "20.000 έγκυες τον χρόνο · συνεργασία με γιατρούς · κλινικές, 3ο τρίμηνο",
+      "Πίνακας όγκων START"
+    ],
+    [
+      "st-pregnancy",
+      "CY",
+      "unknown",
+      "Δεν αναφέρεται όγκος Prenatal",
+      "Πίνακας όγκων START"
+    ],
+    [
+      "st-pregnancy",
+      "RO",
+      "unknown",
+      "Δεν αναφέρεται όγκος Prenatal",
+      "Πίνακας όγκων START"
+    ],
+    [
+      "st-pregnancy",
+      "BG",
+      "unknown",
+      "Δεν αναφέρεται όγκος Prenatal",
+      "Πίνακας όγκων START"
+    ],
+    [
+      "st-pregnancy",
+      "RS",
+      "unknown",
+      "Δεν αναφέρεται όγκος Prenatal",
+      "Πίνακας όγκων START"
+    ],
+    [
+      "st-school",
+      "GR",
+      "unknown",
+      "Πρώτη μέρα στο νηπιαγωγείο και στην Α΄ Δημοτικού [χώρες και όγκος προς επιβεβαίωση]",
+      "Τρέχουσα ιστοσελίδα"
+    ],
+    [
+      "st-army",
+      "GR",
+      "unknown",
+      "Ημέρα κατάταξης σε στρατόπεδα [χώρα και όγκος προς επιβεβαίωση]",
+      "Τρέχουσα ιστοσελίδα"
+    ],
+    [
+      "school",
+      "KSA",
+      "confirmed",
+      "Πρόγραμμα διατροφής με τη Sadafco",
+      "Τρέχουσα ιστοσελίδα"
+    ],
+    [
+      "school",
+      "ALL",
+      "confirmed",
+      "20 εκατομμύρια μαθητές σε 15 χώρες σε διάστημα 20+ ετών",
+      "Τρέχουσα ιστοσελίδα"
+    ],
+    [
+      "uni",
+      "BG",
+      "confirmed",
+      "uni-start.com για πρωτοετείς φοιτητές",
+      "Οι αναφορές σας"
+    ],
+    [
+      "uni",
+      "RS",
+      "partial",
+      "Δράσεις sampling σε πανεπιστήμια 2024 [αποτελέσματα προς επιβεβαίωση]",
+      "PDF στα αποτελέσματα αναζήτησης"
+    ],
+    [
+      "st-high",
+      "RO",
+      "confirmed",
+      "START 9 (startliceu.life) για μαθητές που ξεκινούν το λύκειο",
+      "Οι αναφορές σας"
+    ],
+    [
+      "brand-activation",
+      "KSA",
+      "confirmed",
+      "Harpic (Reckitt) door-to-door: 650.000 νοικοκυριά, 2022–2023",
+      "Medium 2024"
+    ],
+    [
+      "brand-activation",
+      "UAE",
+      "partial",
+      "Brand activation σε συνεχή βάση, Ντουμπάι [να μετατραπεί σε case]",
+      "Blog Μάιος 2026"
+    ],
+    [
+      "pl-mybabywinner",
+      "RS",
+      "confirmed",
+      "30.000+ μητέρες· Curaprox Platinum χορηγός από το 2022 (1.883 αποδέκτες)",
+      "Medium 2024"
+    ],
+    [
+      "pl-mybabywinner",
+      "CY",
+      "confirmed",
+      "15.000+ εγγραφές· χορηγοί μεταξύ άλλων οι Sudocrem, Frezyderm, Dr. Brown’s",
+      "Medium 2024"
+    ],
+    [
+      "pl-babyspace",
+      "GR",
+      "confirmed",
+      "Portal από το 2009 (100.000+ μέλη σε Ελλάδα, Βουλγαρία και Ρουμανία)",
+      "Επιβεβαιώθηκε 15 Οκτ"
+    ],
+    [
+      "pl-babyspace",
+      "RO",
+      "confirmed",
+      "Babyspace Ρουμανίας",
+      "Επιβεβαιώθηκε 15 Οκτ"
+    ],
+    [
+      "pl-babyspace",
+      "BG",
+      "confirmed",
+      "Babyspace Βουλγαρίας",
+      "Επιβεβαιώθηκε 15 Οκτ"
+    ],
+    [
+      "pl-myparenthood",
+      "GR",
+      "confirmed",
+      "Διαδικτυακά masterclasses για γονείς",
+      "Επιβεβαιώθηκε 15 Οκτ"
+    ],
+    [
+      "pl-ladiesbook",
+      "GR",
+      "confirmed",
+      "Διαδικτυακό περιοδικό για γυναίκες άνω των 50",
+      "Επιβεβαιώθηκε 15 Οκτ"
+    ],
+    [
+      "pl-myschoolwinner",
+      "GR",
+      "confirmed",
+      "Myschoolwinner",
+      "Επιβεβαιώθηκε 15 Οκτ"
+    ],
+    [
+      "pl-myschoolwinner",
+      "RO",
+      "confirmed",
+      "Myschoolwinner",
+      "Επιβεβαιώθηκε 15 Οκτ"
+    ],
+    [
+      "pl-myschoolwinner",
+      "BG",
+      "confirmed",
+      "Myschoolwinner",
+      "Επιβεβαιώθηκε 15 Οκτ"
+    ],
+    [
+      "pl-myschoolwinner",
+      "RS",
+      "confirmed",
+      "Myschoolwinner",
+      "Επιβεβαιώθηκε 15 Οκτ"
+    ],
+    [
+      "pl-heymaa",
+      "RO",
+      "confirmed",
+      "Πιλοτικό",
+      "Επιβεβαιώθηκε Οκτ 2026"
+    ],
+    [
+      "pl-mumsvoice",
+      "GR",
+      "confirmed",
+      "Ετήσια έρευνα μητέρων",
+      "Τρέχουσα ιστοσελίδα"
+    ],
+    [
+      "pl-mumsvoice",
+      "KSA",
+      "confirmed",
+      "Ετήσια έρευνα μητέρων",
+      "Τρέχουσα ιστοσελίδα"
+    ],
+    [
+      "pl-mumsvoice",
+      "CY",
+      "confirmed",
+      "Ετήσια έρευνα μητέρων",
+      "Τρέχουσα ιστοσελίδα"
+    ],
+    [
+      "pl-mumsvoice",
+      "RO",
+      "confirmed",
+      "Ετήσια έρευνα μητέρων",
+      "Τρέχουσα ιστοσελίδα"
+    ],
+    [
+      "pl-mumsvoice",
+      "BG",
+      "confirmed",
+      "Ετήσια έρευνα μητέρων",
+      "Τρέχουσα ιστοσελίδα"
+    ],
+    [
+      "social",
+      "RO",
+      "confirmed",
+      "Huggies στο eMAG: 300 reviews σε 12 SKU (2023)",
+      "Medium 2024"
+    ],
+    [
+      "crm",
+      "GR",
+      "partial",
+      "Ψηφιακό sampling TENA μέσω Facebook lead forms [αποτελέσματα προς προσθήκη]",
+      "Medium 2024"
+    ],
+    [
+      "pl-pharma",
+      "GR",
+      "confirmed",
+      "pharmacoupons.gr",
+      "Τρέχουσα ιστοσελίδα"
+    ]
   ],
-  "st-next": [
-   [
-    "Σερβία",
-    "Οδηγός Θηλασμού 2026 (περιλαμβάνει τις πρώτες τροφές)",
-    "https://heyzine.com/flip-book/9b9ac1329b.html"
-   ]
+  "SS_AUD": [
+    "st-marriage",
+    "st-pet",
+    "st-pregnancy",
+    "st-natal",
+    "st-luxury",
+    "st-next",
+    "st-school",
+    "st-school-xmas",
+    "st-teen",
+    "st-high",
+    "st-uni",
+    "st-army",
+    "st-silver",
+    "st-seniors"
   ],
-  "st-school": [
-   [
-    "Ρουμανία",
-    "Σχολικός Οδηγός 2026",
-    "https://heyzine.com/flip-book/381377db30.html"
-   ],
-   [
-    "Βουλγαρία",
-    "Σχολικός Οδηγός 2026",
-    "https://heyzine.com/flip-book/59a24288dc.html"
-   ],
-   [
-    "Σερβία",
-    "Σχολικός Οδηγός 2026",
-    "https://heyzine.com/flip-book/f6ae2642bc.html"
-   ]
+  "SS_COLS": [
+    {
+      "name": "Σχεδιάστε ένα START",
+      "ids": [
+        "st-about",
+        "st-contact"
+      ]
+    },
+    {
+      "name": "Φάση 2 · για μαμάδες",
+      "ids": [
+        "st-order"
+      ]
+    }
   ]
- },
- "START_PROGRAMS": {
-  "st-pregnancy": {
-   "name": "START Pregnancy",
-   "when": "3ο τρίμηνο",
-   "where": "Γυναικολογικές κλινικές & μαιευτήρια",
-   "desc": "Οι μέλλοντες γονείς δοκιμάζουν το προϊόν σας ενώ φτιάχνουν ακόμη τη λίστα με όσα θα χρειαστεί το μωρό."
-  },
-  "st-natal": {
-   "name": "START Newborn",
-   "when": "2–3 ημέρες μετά τον τοκετό",
-   "where": "Μαιευτήρια",
-   "desc": "Το κουτί των πρώτων ημερών που παραδίδεται στις νέες μητέρες στο μαιευτήριο, μαζί με τον οδηγό για τις επόμενες εβδομάδες."
-  },
-  "st-luxury": {
-   "name": "START Luxury Moments",
-   "when": "2–3 ημέρες μετά τον τοκετό",
-   "where": "Ιδιωτικές σουίτες",
-   "desc": "Η premium έκδοση για νέες μητέρες σε σουίτες και ιδιωτικά δωμάτια ιδιωτικών κλινικών."
-  },
-  "st-next": {
-   "name": "START First Foods",
-   "when": "Μωρό 6 μηνών, ξεκινά τις στερεές τροφές",
-   "where": "Παράδοση στο σπίτι",
-   "desc": "Μαμάδες των οποίων τα μωρά ξεκινούν τις στερεές τροφές: μια νέα αρχή για την οικογένεια και ένα δεύτερο κύμα δοκιμής για brands διατροφής, σίτισης και φροντίδας."
-  },
-  "st-marriage": {
-   "name": "START Marriage",
-   "when": "Ο γάμος",
-   "where": "Παράδοση στο σπίτι με courier",
-   "desc": "Νιόπαντροι που φτιάχνουν το πρώτο κοινό τους σπίτι επιλέγουν τα brands με τα οποία θα ζήσουν."
-  },
-  "st-pet": {
-   "name": "START Pet",
-   "when": "Ένα νέο κατοικίδιο στο σπίτι",
-   "where": "Κτηνίατροι και οργανώσεις υιοθεσίας",
-   "desc": "Ένα νέο κατοικίδιο είναι μια νέα αρχή για όλο το σπίτι: οι ιδιοκτήτες δοκιμάζουν το προϊόν σας καθώς χτίζουν νέες συνήθειες."
-  },
-  "st-school": {
-   "name": "START First Grade",
-   "when": "Πρώτη μέρα στην Α΄ Δημοτικού (ηλικία 6 ετών)",
-   "where": "Δημοτικά σχολεία",
-   "desc": "Ένα κουτί την πρώτη κιόλας μέρα του σχολείου για τα εξάχρονα παιδιά και τους γονείς που επιλέγουν τα brands της σχολικής χρονιάς."
-  },
-  "st-teen": {
-   "name": "START Teen Girl",
-   "when": "Αρχή της εφηβείας",
-   "where": "Παράδοση στο σπίτι με courier",
-   "desc": "Στην αρχή της εφηβείας: δείγματα και follow-up με αξιόπιστα προϊόντα και καθοδήγηση."
-  },
-  "st-high": {
-   "name": "START High School",
-   "when": "Πρώτη τάξη λυκείου (15–16 ετών)",
-   "where": "Λύκεια",
-   "desc": "Αγόρια και κορίτσια που ξεκινούν το λύκειο, μια μεγάλη αλλαγή. Δείγματα και START 9 για την πρώτη τους χρονιά."
-  },
-  "st-uni": {
-   "name": "START University",
-   "when": "Πρώτο έτος στο πανεπιστήμιο",
-   "where": "Πανεπιστήμια",
-   "desc": "Πρωτοετείς φοιτητές που κάνουν τις πρώτες τους ανεξάρτητες αγορές. Δείγματα και UniStart+."
-  },
-  "st-army": {
-   "name": "START Army",
-   "when": "Ημέρα κατάταξης",
-   "where": "Στρατόπεδα",
-   "desc": "Νέοι άνδρες δοκιμάζουν το προϊόν σας την ημέρα που ξεκινούν τη θητεία τους: ένα δύσκολα προσβάσιμο κοινό σε ένα σημείο."
-  },
-  "st-seniors": {
-   "name": "START Seniors",
-   "when": "Έναρξη συνταξιοδότησης",
-   "where": "Στο σπίτι και σε χώρους συνάντησης ηλικιωμένων",
-   "desc": "Άνθρωποι που ξεκινούν τη συνταξιοδότηση: νέες συνήθειες, νέος χρόνος, νέες επιλογές."
-  },
-  "st-silver": {
-   "name": "START Ladies",
-   "when": "Αρχή της εμμηνόπαυσης (50+)",
-   "where": "Γυναικολογικές κλινικές",
-   "desc": "Γυναίκες που μπαίνουν στην εμμηνόπαυση, μια μεγάλη αλλαγή: δοκιμή και αξιόπιστη καθοδήγηση κατά τη διάρκεια της ετήσιας εξέτασής τους."
-  },
-  "st-school-xmas": {
-   "name": "START First Grade Christmas",
-   "when": "Χριστουγεννιάτικη σχολική περίοδος",
-   "where": "Δημοτικά σχολεία",
-   "desc": "Η χριστουγεννιάτικη έκδοση του First Grade: ένα εορταστικό κουτί για οικογένειες παιδιών δημοτικού."
-  }
- },
- "PROGRAMS": [
-  [
-   "st-natal",
-   "GR",
-   "confirmed",
-   "50.000 νέες μητέρες τον χρόνο · συνεργασία με γιατρούς · μαιευτήρια, 2–3 ημέρες μετά τον τοκετό",
-   "Πίνακας όγκων START"
-  ],
-  [
-   "st-natal",
-   "BG",
-   "confirmed",
-   "30.000 νέες μητέρες τον χρόνο · Ένωση Παιδιάτρων",
-   "Πίνακας όγκων START"
-  ],
-  [
-   "st-natal",
-   "CY",
-   "unknown",
-   "Δεν αναφέρεται όγκος Natal",
-   "Πίνακας όγκων START"
-  ],
-  [
-   "st-natal",
-   "RS",
-   "confirmed",
-   "30.000 νέες μητέρες τον χρόνο · ειδικοί στην παιδιατρική και τη νεογνολογία",
-   "Πίνακας όγκων START"
-  ],
-  [
-   "st-natal",
-   "RO",
-   "confirmed",
-   "160.000 νέες μητέρες τον χρόνο · Ένωση Νεογνολογίας, Ένωση Παιδιάτρων",
-   "Πίνακας όγκων START"
-  ],
-  [
-   "st-natal",
-   "MENA",
-   "unknown",
-   "PDF «New Mothers MENA Program 2025» [επιβεβαιώστε αν είναι ενεργό] (P8)",
-   "Search Console"
-  ],
-  [
-   "st-pregnancy",
-   "GR",
-   "confirmed",
-   "20.000 έγκυες τον χρόνο · συνεργασία με γιατρούς · κλινικές, 3ο τρίμηνο",
-   "Πίνακας όγκων START"
-  ],
-  [
-   "st-pregnancy",
-   "CY",
-   "unknown",
-   "Δεν αναφέρεται όγκος Prenatal",
-   "Πίνακας όγκων START"
-  ],
-  [
-   "st-pregnancy",
-   "RO",
-   "unknown",
-   "Δεν αναφέρεται όγκος Prenatal",
-   "Πίνακας όγκων START"
-  ],
-  [
-   "st-pregnancy",
-   "BG",
-   "unknown",
-   "Δεν αναφέρεται όγκος Prenatal",
-   "Πίνακας όγκων START"
-  ],
-  [
-   "st-pregnancy",
-   "RS",
-   "unknown",
-   "Δεν αναφέρεται όγκος Prenatal",
-   "Πίνακας όγκων START"
-  ],
-  [
-   "st-school",
-   "GR",
-   "unknown",
-   "Πρώτη μέρα στο νηπιαγωγείο και στην Α΄ Δημοτικού [χώρες και όγκος προς επιβεβαίωση]",
-   "Τρέχουσα ιστοσελίδα"
-  ],
-  [
-   "st-army",
-   "GR",
-   "unknown",
-   "Ημέρα κατάταξης σε στρατόπεδα [χώρα και όγκος προς επιβεβαίωση]",
-   "Τρέχουσα ιστοσελίδα"
-  ],
-  [
-   "school",
-   "KSA",
-   "confirmed",
-   "Πρόγραμμα διατροφής με τη Sadafco",
-   "Τρέχουσα ιστοσελίδα"
-  ],
-  [
-   "school",
-   "ALL",
-   "confirmed",
-   "20 εκατομμύρια μαθητές σε 15 χώρες σε διάστημα 20+ ετών",
-   "Τρέχουσα ιστοσελίδα"
-  ],
-  [
-   "uni",
-   "BG",
-   "confirmed",
-   "uni-start.com για πρωτοετείς φοιτητές",
-   "Οι αναφορές σας"
-  ],
-  [
-   "uni",
-   "RS",
-   "partial",
-   "Δράσεις sampling σε πανεπιστήμια 2024 [αποτελέσματα προς επιβεβαίωση]",
-   "PDF στα αποτελέσματα αναζήτησης"
-  ],
-  [
-   "st-high",
-   "RO",
-   "confirmed",
-   "START 9 (startliceu.life) για μαθητές που ξεκινούν το λύκειο",
-   "Οι αναφορές σας"
-  ],
-  [
-   "brand-activation",
-   "KSA",
-   "confirmed",
-   "Harpic (Reckitt) door-to-door: 650.000 νοικοκυριά, 2022–2023",
-   "Medium 2024"
-  ],
-  [
-   "brand-activation",
-   "UAE",
-   "partial",
-   "Brand activation σε συνεχή βάση, Ντουμπάι [να μετατραπεί σε case]",
-   "Blog Μάιος 2026"
-  ],
-  [
-   "pl-mybabywinner",
-   "RS",
-   "confirmed",
-   "30.000+ μητέρες· Curaprox Platinum χορηγός από το 2022 (1.883 αποδέκτες)",
-   "Medium 2024"
-  ],
-  [
-   "pl-mybabywinner",
-   "CY",
-   "confirmed",
-   "15.000+ εγγραφές· χορηγοί μεταξύ άλλων οι Sudocrem, Frezyderm, Dr. Brown’s",
-   "Medium 2024"
-  ],
-  [
-   "pl-babyspace",
-   "GR",
-   "confirmed",
-   "Portal από το 2009 (100.000+ μέλη σε Ελλάδα, Βουλγαρία και Ρουμανία)",
-   "Επιβεβαιώθηκε 15 Οκτ"
-  ],
-  [
-   "pl-babyspace",
-   "RO",
-   "confirmed",
-   "Babyspace Ρουμανίας",
-   "Επιβεβαιώθηκε 15 Οκτ"
-  ],
-  [
-   "pl-babyspace",
-   "BG",
-   "confirmed",
-   "Babyspace Βουλγαρίας",
-   "Επιβεβαιώθηκε 15 Οκτ"
-  ],
-  [
-   "pl-myparenthood",
-   "GR",
-   "confirmed",
-   "Διαδικτυακά masterclasses για γονείς",
-   "Επιβεβαιώθηκε 15 Οκτ"
-  ],
-  [
-   "pl-ladiesbook",
-   "GR",
-   "confirmed",
-   "Διαδικτυακό περιοδικό για γυναίκες άνω των 50",
-   "Επιβεβαιώθηκε 15 Οκτ"
-  ],
-  [
-   "pl-myschoolwinner",
-   "GR",
-   "confirmed",
-   "Myschoolwinner",
-   "Επιβεβαιώθηκε 15 Οκτ"
-  ],
-  [
-   "pl-myschoolwinner",
-   "RO",
-   "confirmed",
-   "Myschoolwinner",
-   "Επιβεβαιώθηκε 15 Οκτ"
-  ],
-  [
-   "pl-myschoolwinner",
-   "BG",
-   "confirmed",
-   "Myschoolwinner",
-   "Επιβεβαιώθηκε 15 Οκτ"
-  ],
-  [
-   "pl-myschoolwinner",
-   "RS",
-   "confirmed",
-   "Myschoolwinner",
-   "Επιβεβαιώθηκε 15 Οκτ"
-  ],
-  [
-   "pl-heymaa",
-   "RO",
-   "confirmed",
-   "Πιλοτικό",
-   "Επιβεβαιώθηκε Οκτ 2026"
-  ],
-  [
-   "pl-mumsvoice",
-   "GR",
-   "confirmed",
-   "Ετήσια έρευνα μητέρων",
-   "Τρέχουσα ιστοσελίδα"
-  ],
-  [
-   "pl-mumsvoice",
-   "KSA",
-   "confirmed",
-   "Ετήσια έρευνα μητέρων",
-   "Τρέχουσα ιστοσελίδα"
-  ],
-  [
-   "pl-mumsvoice",
-   "CY",
-   "confirmed",
-   "Ετήσια έρευνα μητέρων",
-   "Τρέχουσα ιστοσελίδα"
-  ],
-  [
-   "pl-mumsvoice",
-   "RO",
-   "confirmed",
-   "Ετήσια έρευνα μητέρων",
-   "Τρέχουσα ιστοσελίδα"
-  ],
-  [
-   "pl-mumsvoice",
-   "BG",
-   "confirmed",
-   "Ετήσια έρευνα μητέρων",
-   "Τρέχουσα ιστοσελίδα"
-  ],
-  [
-   "social",
-   "RO",
-   "confirmed",
-   "Huggies στο eMAG: 300 reviews σε 12 SKU (2023)",
-   "Medium 2024"
-  ],
-  [
-   "crm",
-   "GR",
-   "partial",
-   "Ψηφιακό sampling TENA μέσω Facebook lead forms [αποτελέσματα προς προσθήκη]",
-   "Medium 2024"
-  ],
-  [
-   "pl-pharma",
-   "GR",
-   "confirmed",
-   "pharmacoupons.gr",
-   "Τρέχουσα ιστοσελίδα"
-  ]
- ],
- "SS_AUD": [
-  "st-marriage",
-  "st-pet",
-  "st-pregnancy",
-  "st-natal",
-  "st-luxury",
-  "st-next",
-  "st-school",
-  "st-school-xmas",
-  "st-teen",
-  "st-high",
-  "st-uni",
-  "st-army",
-  "st-silver",
-  "st-seniors"
- ],
- "SS_COLS": [
-  {
-   "name": "Σχεδιάστε ένα START",
-   "ids": [
-    "st-about",
-    "st-contact"
-   ]
-  },
-  {
-   "name": "Φάση 2 · για μαμάδες",
-   "ids": [
-    "st-order"
-   ]
-  }
- ]
 }

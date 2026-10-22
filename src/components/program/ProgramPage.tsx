@@ -7,6 +7,7 @@ import {
   getKitFit,
   getMessages,
   getPages,
+  getProgramsData,
   getStartHome,
   getTaglines,
 } from "@/lib/content";
@@ -16,6 +17,7 @@ import type { ProgramId } from "@/lib/programs";
 import { getProgramById, programHeroSrc, programKitSrc } from "@/lib/programs";
 import { withTbc } from "@/lib/tbc";
 import { BrandGetIcon } from "./BrandGetIcon";
+import { HeroTitleBand } from "./HeroTitleBand";
 import { InsightsTabs } from "./InsightsTabs";
 import { KitFitSection } from "./KitFitSection";
 import styles from "./ProgramPage.module.css";
@@ -59,6 +61,8 @@ export async function ProgramPage({
   const taglines = await getTaglines(locale);
   const insightsMap = await getInsights(locale);
   const kitFitMap = await getKitFit(locale);
+  const programsData = await getProgramsData(locale);
+  const programGuides = programsData.START_GUIDES?.[programId];
   const brand = getProgramBrand(programId);
   const tone = brand?.tone;
   const plan = doodlePlan[programId];
@@ -87,7 +91,7 @@ export async function ProgramPage({
           />
         </div>
         <div className={styles.wrap}>
-          <div className={styles.heroCard}>
+          <HeroTitleBand>
             {plan?.hero ? (
               // eslint-disable-next-line @next/next/no-img-element
               <img
@@ -119,7 +123,7 @@ export async function ProgramPage({
                 {page.cta}
               </Button>
             </div>
-          </div>
+          </HeroTitleBand>
         </div>
       </section>
 
@@ -215,6 +219,8 @@ export async function ProgramPage({
             <InsightsTabs
               rows={insightRows}
               locale={locale}
+              programId={programId}
+              programGuides={programGuides}
               labels={{
                 reach: messages.insightsReach,
                 cities: messages.insightsCities,
@@ -223,6 +229,7 @@ export async function ProgramPage({
                 guide: messages.insightsGuide,
                 tirage: messages.insightsTirage,
                 countries: messages.insightsCountries,
+                openGuide: messages.insightsOpenGuide,
               }}
             />
           </div>

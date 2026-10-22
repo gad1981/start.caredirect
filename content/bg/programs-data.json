@@ -1,470 +1,472 @@
 {
- "START_PLATFORMS": {
-  "st-pregnancy": "Babyspace (babyspace.gr, babyspace.com.ro, babyspace.bg) · Myparenthood (myparenthood.gr, Гърция) · Mybabywinner (Сърбия, Кипър) · HeyMaa (heymaa.ai, AI спътник)",
-  "st-natal": "Babyspace (Гърция, Румъния, България) · Myparenthood (Гърция) · Mybabywinner (Сърбия, Кипър) · HeyMaa (heymaa.ai, AI спътник)",
-  "st-luxury": "Babyspace (Гърция) · Myparenthood (Гърция)",
-  "st-next": "Babyspace (Гърция, Румъния, България) · Myparenthood (Гърция) · Mybabywinner (Сърбия, Кипър) · HeyMaa (heymaa.ai, AI спътник)",
-  "st-school": "Myschoolwinner (myschoolwinner.com: Гърция, Румъния, България и Сърбия)",
-  "st-high": "START 9 (startliceu.life) [вие сте писали start.life: потвърдете адреса]",
-  "st-uni": "UniStart+ (uni-start.com)",
-  "st-silver": "LadiesBook (ladiesbook.gr, Гърция)",
-  "st-school-xmas": "Myschoolwinner (myschoolwinner.com: Гърция, Румъния, България и Сърбия)"
- },
- "START_GUIDES": {
-  "st-natal": [
-   [
-    "Гърция",
-    "Natal Guide",
-    "https://heyzine.com/flip-book/ea452acee4.html"
-   ],
-   [
-    "Гърция",
-    "Σχέσεις Στοργής (наръчник за нови майки)",
-    "https://heyzine.com/flip-book/8e724472cf.html"
-   ],
-   [
-    "Румъния",
-    "Natal Guide 2026",
-    "https://heyzine.com/flip-book/af6388abac.html"
-   ],
-   [
-    "България",
-    "Natal Guide",
-    "https://heyzine.com/flip-book/9f742c4eb8.html"
-   ],
-   [
-    "Румъния",
-    "Наръчник за кърменето 2026",
-    "https://heyzine.com/flip-book/e34cc9b492.html"
-   ],
-   [
-    "Сърбия",
-    "Наръчник за кърменето 2026",
-    "https://heyzine.com/flip-book/9b9ac1329b.html"
-   ]
+  "START_PLATFORMS": {
+    "st-pregnancy": "Babyspace (babyspace.gr, babyspace.com.ro, babyspace.bg) · Myparenthood (myparenthood.gr, Гърция) · Mybabywinner (Сърбия, Кипър) · HeyMaa (heymaa.ai, AI спътник)",
+    "st-natal": "Babyspace (Гърция, Румъния, България) · Myparenthood (Гърция) · Mybabywinner (Сърбия, Кипър) · HeyMaa (heymaa.ai, AI спътник)",
+    "st-luxury": "Babyspace (Гърция) · Myparenthood (Гърция)",
+    "st-next": "Babyspace (Гърция, Румъния, България) · Myparenthood (Гърция) · Mybabywinner (Сърбия, Кипър) · HeyMaa (heymaa.ai, AI спътник)",
+    "st-school": "Myschoolwinner (myschoolwinner.com: Гърция, Румъния, България и Сърбия)",
+    "st-high": "START 9 (startliceu.life) [вие сте писали start.life: потвърдете адреса]",
+    "st-uni": "UniStart+ (uni-start.com)",
+    "st-silver": "LadiesBook (ladiesbook.gr, Гърция)",
+    "st-school-xmas": "Myschoolwinner (myschoolwinner.com: Гърция, Румъния, България и Сърбия)"
+  },
+  "START_GUIDES": {
+    "st-natal": [
+      [
+        "Гърция",
+        "Σχέσεις Στοργής · the BOOM edition",
+        "https://heyzine.com/flip-book/8e724472cf.html"
+      ],
+      [
+        "Румъния",
+        "Natal Guide 2026",
+        "https://heyzine.com/flip-book/af6388abac.html"
+      ],
+      [
+        "България",
+        "Natal Guide",
+        "https://heyzine.com/flip-book/9f742c4eb8.html"
+      ],
+      [
+        "Румъния",
+        "Наръчник за кърменето 2026",
+        "https://heyzine.com/flip-book/e34cc9b492.html"
+      ],
+      [
+        "Сърбия",
+        "Наръчник за кърменето 2026",
+        "https://heyzine.com/flip-book/9b9ac1329b.html"
+      ]
+    ],
+    "st-next": [
+      [
+        "Сърбия",
+        "Наръчник за кърменето 2026 (включва захранването)",
+        "https://heyzine.com/flip-book/9b9ac1329b.html"
+      ]
+    ],
+    "st-school": [
+      [
+        "Румъния",
+        "Prima zi la școală",
+        "https://heyzine.com/flip-book/381377db30.html"
+      ],
+      [
+        "България",
+        "Първи Учебен Ден",
+        "https://heyzine.com/flip-book/59a24288dc.html"
+      ],
+      [
+        "Сърбия",
+        "Prvi dan škole",
+        "https://heyzine.com/flip-book/f6ae2642bc.html"
+      ]
+    ],
+    "st-pregnancy": [
+      [
+        "Гърция",
+        "Σχέσεις Στοργής · Η ΠΙΟ ΓΛΥΚΙΑ ΑΝΑΜΟΝΗ (the BOOM edition)",
+        ""
+      ]
+    ]
+  },
+  "START_PROGRAMS": {
+    "st-pregnancy": {
+      "name": "START Pregnancy",
+      "when": "3-ти триместър",
+      "where": "Гинекологични и родилни клиники",
+      "desc": "Бъдещите родители изпробват вашия продукт, докато още съставят списъка с нещата, от които бебето ще има нужда."
+    },
+    "st-natal": {
+      "name": "START Newborn",
+      "when": "2–3 дни след раждането",
+      "where": "Родилни клиники",
+      "desc": "Кутията за първите дни, която новите майки получават в болницата, заедно с наръчника за предстоящите седмици."
+    },
+    "st-luxury": {
+      "name": "START Luxury Moments",
+      "when": "2–3 дни след раждането",
+      "where": "Частни апартаменти",
+      "desc": "Премиум изданието за новите майки в частни клинични апартаменти и самостоятелни стаи."
+    },
+    "st-next": {
+      "name": "START First Foods",
+      "when": "Бебе на 6 месеца, започва да яде",
+      "where": "Доставка до дома",
+      "desc": "Майки, чиито бебета започват да ядат твърда храна: нов старт за семейството и втора вълна изпробване за марки за храна, хранене и грижа."
+    },
+    "st-marriage": {
+      "name": "START Marriage",
+      "when": "Сключване на брак",
+      "where": "Доставка до дома с куриер",
+      "desc": "Младоженците, които създават първия си общ дом, избират марките, с които ще живеят."
+    },
+    "st-pet": {
+      "name": "START Pet",
+      "when": "Нов домашен любимец",
+      "where": "Ветеринарни лекари и организации за осиновяване",
+      "desc": "Новият любимец е нов старт за целия дом: собствениците изпробват вашия продукт, докато изграждат нови навици."
+    },
+    "st-school": {
+      "name": "START First Grade",
+      "when": "Първи учебен ден в 1. клас (6 години)",
+      "where": "Начални училища",
+      "desc": "Кутия точно в първия учебен ден – за шестгодишните и за родителите, които избират марките за новата учебна година."
+    },
+    "st-teen": {
+      "name": "START Teen Girl",
+      "when": "Начало на пубертета",
+      "where": "Доставка до дома с куриер",
+      "desc": "В началото на пубертета: мостри и последваща комуникация с надеждни продукти и насоки."
+    },
+    "st-high": {
+      "name": "START High School",
+      "when": "Първа година в гимназията (15–16 г.)",
+      "where": "Гимназии",
+      "desc": "Момчета и момичета в началото на гимназията – голяма промяна. Мостри и START 9 за първата им година."
+    },
+    "st-uni": {
+      "name": "START University",
+      "when": "Първа година в университета",
+      "where": "Университети",
+      "desc": "Студенти от първата година, които правят първите си самостоятелни покупки. Мостри и UniStart+."
+    },
+    "st-army": {
+      "name": "START Army",
+      "when": "Ден на постъпване",
+      "where": "Военни лагери",
+      "desc": "Младите мъже изпробват вашия продукт в деня, в който постъпват на служба – трудно достижима аудитория на едно място."
+    },
+    "st-seniors": {
+      "name": "START Seniors",
+      "when": "Начало на пенсионирането",
+      "where": "Дом и места, където се събират възрастни хора",
+      "desc": "Хора в началото на пенсионирането: нови навици, ново време, нови избори."
+    },
+    "st-silver": {
+      "name": "START Ladies",
+      "when": "Начало на менопаузата (50+)",
+      "where": "Гинекологични клиники",
+      "desc": "Жени, навлизащи в менопауза – голяма промяна: изпробване и надеждни насоки по време на годишния им преглед."
+    },
+    "st-school-xmas": {
+      "name": "START First Grade Christmas",
+      "when": "Коледен учебен период",
+      "where": "Начални училища",
+      "desc": "Коледното издание на First Grade: празнична кутия за семействата на учениците от началното училище."
+    }
+  },
+  "PROGRAMS": [
+    [
+      "st-natal",
+      "GR",
+      "confirmed",
+      "50,000 нови майки годишно · сътрудничество с лекари · родилни клиники, 2–3 дни след раждането",
+      "Таблица с обеми на START"
+    ],
+    [
+      "st-natal",
+      "BG",
+      "confirmed",
+      "30,000 нови майки годишно · Асоциация на педиатрите",
+      "Таблица с обеми на START"
+    ],
+    [
+      "st-natal",
+      "CY",
+      "unknown",
+      "Не е посочен обем за Natal",
+      "Таблица с обеми на START"
+    ],
+    [
+      "st-natal",
+      "RS",
+      "confirmed",
+      "30,000 нови майки годишно · специалисти по педиатрия и неонатология",
+      "Таблица с обеми на START"
+    ],
+    [
+      "st-natal",
+      "RO",
+      "confirmed",
+      "160,000 нови майки годишно · Асоциация по неонатология, Асоциация на педиатрите",
+      "Таблица с обеми на START"
+    ],
+    [
+      "st-natal",
+      "MENA",
+      "unknown",
+      "PDF „New Mothers MENA Program 2025“ [потвърдете дали е активна] (P8)",
+      "Search Console"
+    ],
+    [
+      "st-pregnancy",
+      "GR",
+      "confirmed",
+      "20,000 бременни жени годишно · сътрудничество с лекари · клиники, 3-ти триместър",
+      "Таблица с обеми на START"
+    ],
+    [
+      "st-pregnancy",
+      "CY",
+      "unknown",
+      "Не е посочен обем за Prenatal",
+      "Таблица с обеми на START"
+    ],
+    [
+      "st-pregnancy",
+      "RO",
+      "unknown",
+      "Не е посочен обем за Prenatal",
+      "Таблица с обеми на START"
+    ],
+    [
+      "st-pregnancy",
+      "BG",
+      "unknown",
+      "Не е посочен обем за Prenatal",
+      "Таблица с обеми на START"
+    ],
+    [
+      "st-pregnancy",
+      "RS",
+      "unknown",
+      "Не е посочен обем за Prenatal",
+      "Таблица с обеми на START"
+    ],
+    [
+      "st-school",
+      "GR",
+      "unknown",
+      "Първи ден в детската градина и в първи клас [държави и обем за потвърждаване]",
+      "Текущ сайт"
+    ],
+    [
+      "st-army",
+      "GR",
+      "unknown",
+      "Ден на постъпване във военните лагери [държава и обем за потвърждаване]",
+      "Текущ сайт"
+    ],
+    [
+      "school",
+      "KSA",
+      "confirmed",
+      "Програма за хранене със Sadafco",
+      "Текущ сайт"
+    ],
+    [
+      "school",
+      "ALL",
+      "confirmed",
+      "20 милиона ученици в 15 държави в продължение на над 20 години",
+      "Текущ сайт"
+    ],
+    [
+      "uni",
+      "BG",
+      "confirmed",
+      "uni-start.com за студенти от първата година",
+      "Вашите отчети"
+    ],
+    [
+      "uni",
+      "RS",
+      "partial",
+      "Университетски активации с мостри през 2024 г. [резултатите да се потвърдят]",
+      "PDF в резултатите от търсенето"
+    ],
+    [
+      "st-high",
+      "RO",
+      "confirmed",
+      "START 9 (startliceu.life) за ученици в началото на гимназията",
+      "Вашите отчети"
+    ],
+    [
+      "brand-activation",
+      "KSA",
+      "confirmed",
+      "Harpic (Reckitt) от врата до врата: 650,000 домакинства, 2022–2023",
+      "Medium 2024"
+    ],
+    [
+      "brand-activation",
+      "UAE",
+      "partial",
+      "Постоянна активация на марка, Дубай [да се превърне в казус]",
+      "Блог, май 2026"
+    ],
+    [
+      "pl-mybabywinner",
+      "RS",
+      "confirmed",
+      "30,000+ майки; Curaprox – платинен спонсор от 2022 г. (1,883 получатели)",
+      "Medium 2024"
+    ],
+    [
+      "pl-mybabywinner",
+      "CY",
+      "confirmed",
+      "15,000+ регистрации; спонсори, сред които Sudocrem, Frezyderm, Dr. Brown’s",
+      "Medium 2024"
+    ],
+    [
+      "pl-babyspace",
+      "GR",
+      "confirmed",
+      "Портал от 2009 г. (100,000+ членове в Гърция, България и Румъния)",
+      "Потвърдено на 15 окт."
+    ],
+    [
+      "pl-babyspace",
+      "RO",
+      "confirmed",
+      "Babyspace Румъния",
+      "Потвърдено на 15 окт."
+    ],
+    [
+      "pl-babyspace",
+      "BG",
+      "confirmed",
+      "Babyspace България",
+      "Потвърдено на 15 окт."
+    ],
+    [
+      "pl-myparenthood",
+      "GR",
+      "confirmed",
+      "Онлайн майсторски класове за родители",
+      "Потвърдено на 15 окт."
+    ],
+    [
+      "pl-ladiesbook",
+      "GR",
+      "confirmed",
+      "Онлайн списание за жени над 50",
+      "Потвърдено на 15 окт."
+    ],
+    [
+      "pl-myschoolwinner",
+      "GR",
+      "confirmed",
+      "Myschoolwinner",
+      "Потвърдено на 15 окт."
+    ],
+    [
+      "pl-myschoolwinner",
+      "RO",
+      "confirmed",
+      "Myschoolwinner",
+      "Потвърдено на 15 окт."
+    ],
+    [
+      "pl-myschoolwinner",
+      "BG",
+      "confirmed",
+      "Myschoolwinner",
+      "Потвърдено на 15 окт."
+    ],
+    [
+      "pl-myschoolwinner",
+      "RS",
+      "confirmed",
+      "Myschoolwinner",
+      "Потвърдено на 15 окт."
+    ],
+    [
+      "pl-heymaa",
+      "RO",
+      "confirmed",
+      "Пилот",
+      "Потвърдено през окт. 2026"
+    ],
+    [
+      "pl-mumsvoice",
+      "GR",
+      "confirmed",
+      "Годишно проучване сред майките",
+      "Текущ сайт"
+    ],
+    [
+      "pl-mumsvoice",
+      "KSA",
+      "confirmed",
+      "Годишно проучване сред майките",
+      "Текущ сайт"
+    ],
+    [
+      "pl-mumsvoice",
+      "CY",
+      "confirmed",
+      "Годишно проучване сред майките",
+      "Текущ сайт"
+    ],
+    [
+      "pl-mumsvoice",
+      "RO",
+      "confirmed",
+      "Годишно проучване сред майките",
+      "Текущ сайт"
+    ],
+    [
+      "pl-mumsvoice",
+      "BG",
+      "confirmed",
+      "Годишно проучване сред майките",
+      "Текущ сайт"
+    ],
+    [
+      "social",
+      "RO",
+      "confirmed",
+      "Huggies в eMAG: 300 отзива за 12 артикула (2023)",
+      "Medium 2024"
+    ],
+    [
+      "crm",
+      "GR",
+      "partial",
+      "Дигитално раздаване на мостри на TENA чрез лийд форми във Facebook [резултатите да се добавят]",
+      "Medium 2024"
+    ],
+    [
+      "pl-pharma",
+      "GR",
+      "confirmed",
+      "pharmacoupons.gr",
+      "Текущ сайт"
+    ]
   ],
-  "st-next": [
-   [
-    "Сърбия",
-    "Наръчник за кърменето 2026 (включва захранването)",
-    "https://heyzine.com/flip-book/9b9ac1329b.html"
-   ]
+  "SS_AUD": [
+    "st-marriage",
+    "st-pet",
+    "st-pregnancy",
+    "st-natal",
+    "st-luxury",
+    "st-next",
+    "st-school",
+    "st-school-xmas",
+    "st-teen",
+    "st-high",
+    "st-uni",
+    "st-army",
+    "st-silver",
+    "st-seniors"
   ],
-  "st-school": [
-   [
-    "Румъния",
-    "Училищен наръчник 2026",
-    "https://heyzine.com/flip-book/381377db30.html"
-   ],
-   [
-    "България",
-    "Училищен наръчник 2026",
-    "https://heyzine.com/flip-book/59a24288dc.html"
-   ],
-   [
-    "Сърбия",
-    "Училищен наръчник 2026",
-    "https://heyzine.com/flip-book/f6ae2642bc.html"
-   ]
+  "SS_COLS": [
+    {
+      "name": "Планирайте START",
+      "ids": [
+        "st-about",
+        "st-contact"
+      ]
+    },
+    {
+      "name": "Фаза 2 · за майките",
+      "ids": [
+        "st-order"
+      ]
+    }
   ]
- },
- "START_PROGRAMS": {
-  "st-pregnancy": {
-   "name": "START Pregnancy",
-   "when": "3-ти триместър",
-   "where": "Гинекологични и родилни клиники",
-   "desc": "Бъдещите родители изпробват вашия продукт, докато още съставят списъка с нещата, от които бебето ще има нужда."
-  },
-  "st-natal": {
-   "name": "START Newborn",
-   "when": "2–3 дни след раждането",
-   "where": "Родилни клиники",
-   "desc": "Кутията за първите дни, която новите майки получават в болницата, заедно с наръчника за предстоящите седмици."
-  },
-  "st-luxury": {
-   "name": "START Luxury Moments",
-   "when": "2–3 дни след раждането",
-   "where": "Частни апартаменти",
-   "desc": "Премиум изданието за новите майки в частни клинични апартаменти и самостоятелни стаи."
-  },
-  "st-next": {
-   "name": "START First Foods",
-   "when": "Бебе на 6 месеца, започва да яде",
-   "where": "Доставка до дома",
-   "desc": "Майки, чиито бебета започват да ядат твърда храна: нов старт за семейството и втора вълна изпробване за марки за храна, хранене и грижа."
-  },
-  "st-marriage": {
-   "name": "START Marriage",
-   "when": "Сключване на брак",
-   "where": "Доставка до дома с куриер",
-   "desc": "Младоженците, които създават първия си общ дом, избират марките, с които ще живеят."
-  },
-  "st-pet": {
-   "name": "START Pet",
-   "when": "Нов домашен любимец",
-   "where": "Ветеринарни лекари и организации за осиновяване",
-   "desc": "Новият любимец е нов старт за целия дом: собствениците изпробват вашия продукт, докато изграждат нови навици."
-  },
-  "st-school": {
-   "name": "START First Grade",
-   "when": "Първи учебен ден в 1. клас (6 години)",
-   "where": "Начални училища",
-   "desc": "Кутия точно в първия учебен ден – за шестгодишните и за родителите, които избират марките за новата учебна година."
-  },
-  "st-teen": {
-   "name": "START Teen Girl",
-   "when": "Начало на пубертета",
-   "where": "Доставка до дома с куриер",
-   "desc": "В началото на пубертета: мостри и последваща комуникация с надеждни продукти и насоки."
-  },
-  "st-high": {
-   "name": "START High School",
-   "when": "Първа година в гимназията (15–16 г.)",
-   "where": "Гимназии",
-   "desc": "Момчета и момичета в началото на гимназията – голяма промяна. Мостри и START 9 за първата им година."
-  },
-  "st-uni": {
-   "name": "START University",
-   "when": "Първа година в университета",
-   "where": "Университети",
-   "desc": "Студенти от първата година, които правят първите си самостоятелни покупки. Мостри и UniStart+."
-  },
-  "st-army": {
-   "name": "START Army",
-   "when": "Ден на постъпване",
-   "where": "Военни лагери",
-   "desc": "Младите мъже изпробват вашия продукт в деня, в който постъпват на служба – трудно достижима аудитория на едно място."
-  },
-  "st-seniors": {
-   "name": "START Seniors",
-   "when": "Начало на пенсионирането",
-   "where": "Дом и места, където се събират възрастни хора",
-   "desc": "Хора в началото на пенсионирането: нови навици, ново време, нови избори."
-  },
-  "st-silver": {
-   "name": "START Ladies",
-   "when": "Начало на менопаузата (50+)",
-   "where": "Гинекологични клиники",
-   "desc": "Жени, навлизащи в менопауза – голяма промяна: изпробване и надеждни насоки по време на годишния им преглед."
-  },
-  "st-school-xmas": {
-   "name": "START First Grade Christmas",
-   "when": "Коледен учебен период",
-   "where": "Начални училища",
-   "desc": "Коледното издание на First Grade: празнична кутия за семействата на учениците от началното училище."
-  }
- },
- "PROGRAMS": [
-  [
-   "st-natal",
-   "GR",
-   "confirmed",
-   "50,000 нови майки годишно · сътрудничество с лекари · родилни клиники, 2–3 дни след раждането",
-   "Таблица с обеми на START"
-  ],
-  [
-   "st-natal",
-   "BG",
-   "confirmed",
-   "30,000 нови майки годишно · Асоциация на педиатрите",
-   "Таблица с обеми на START"
-  ],
-  [
-   "st-natal",
-   "CY",
-   "unknown",
-   "Не е посочен обем за Natal",
-   "Таблица с обеми на START"
-  ],
-  [
-   "st-natal",
-   "RS",
-   "confirmed",
-   "30,000 нови майки годишно · специалисти по педиатрия и неонатология",
-   "Таблица с обеми на START"
-  ],
-  [
-   "st-natal",
-   "RO",
-   "confirmed",
-   "160,000 нови майки годишно · Асоциация по неонатология, Асоциация на педиатрите",
-   "Таблица с обеми на START"
-  ],
-  [
-   "st-natal",
-   "MENA",
-   "unknown",
-   "PDF „New Mothers MENA Program 2025“ [потвърдете дали е активна] (P8)",
-   "Search Console"
-  ],
-  [
-   "st-pregnancy",
-   "GR",
-   "confirmed",
-   "20,000 бременни жени годишно · сътрудничество с лекари · клиники, 3-ти триместър",
-   "Таблица с обеми на START"
-  ],
-  [
-   "st-pregnancy",
-   "CY",
-   "unknown",
-   "Не е посочен обем за Prenatal",
-   "Таблица с обеми на START"
-  ],
-  [
-   "st-pregnancy",
-   "RO",
-   "unknown",
-   "Не е посочен обем за Prenatal",
-   "Таблица с обеми на START"
-  ],
-  [
-   "st-pregnancy",
-   "BG",
-   "unknown",
-   "Не е посочен обем за Prenatal",
-   "Таблица с обеми на START"
-  ],
-  [
-   "st-pregnancy",
-   "RS",
-   "unknown",
-   "Не е посочен обем за Prenatal",
-   "Таблица с обеми на START"
-  ],
-  [
-   "st-school",
-   "GR",
-   "unknown",
-   "Първи ден в детската градина и в първи клас [държави и обем за потвърждаване]",
-   "Текущ сайт"
-  ],
-  [
-   "st-army",
-   "GR",
-   "unknown",
-   "Ден на постъпване във военните лагери [държава и обем за потвърждаване]",
-   "Текущ сайт"
-  ],
-  [
-   "school",
-   "KSA",
-   "confirmed",
-   "Програма за хранене със Sadafco",
-   "Текущ сайт"
-  ],
-  [
-   "school",
-   "ALL",
-   "confirmed",
-   "20 милиона ученици в 15 държави в продължение на над 20 години",
-   "Текущ сайт"
-  ],
-  [
-   "uni",
-   "BG",
-   "confirmed",
-   "uni-start.com за студенти от първата година",
-   "Вашите отчети"
-  ],
-  [
-   "uni",
-   "RS",
-   "partial",
-   "Университетски активации с мостри през 2024 г. [резултатите да се потвърдят]",
-   "PDF в резултатите от търсенето"
-  ],
-  [
-   "st-high",
-   "RO",
-   "confirmed",
-   "START 9 (startliceu.life) за ученици в началото на гимназията",
-   "Вашите отчети"
-  ],
-  [
-   "brand-activation",
-   "KSA",
-   "confirmed",
-   "Harpic (Reckitt) от врата до врата: 650,000 домакинства, 2022–2023",
-   "Medium 2024"
-  ],
-  [
-   "brand-activation",
-   "UAE",
-   "partial",
-   "Постоянна активация на марка, Дубай [да се превърне в казус]",
-   "Блог, май 2026"
-  ],
-  [
-   "pl-mybabywinner",
-   "RS",
-   "confirmed",
-   "30,000+ майки; Curaprox – платинен спонсор от 2022 г. (1,883 получатели)",
-   "Medium 2024"
-  ],
-  [
-   "pl-mybabywinner",
-   "CY",
-   "confirmed",
-   "15,000+ регистрации; спонсори, сред които Sudocrem, Frezyderm, Dr. Brown’s",
-   "Medium 2024"
-  ],
-  [
-   "pl-babyspace",
-   "GR",
-   "confirmed",
-   "Портал от 2009 г. (100,000+ членове в Гърция, България и Румъния)",
-   "Потвърдено на 15 окт."
-  ],
-  [
-   "pl-babyspace",
-   "RO",
-   "confirmed",
-   "Babyspace Румъния",
-   "Потвърдено на 15 окт."
-  ],
-  [
-   "pl-babyspace",
-   "BG",
-   "confirmed",
-   "Babyspace България",
-   "Потвърдено на 15 окт."
-  ],
-  [
-   "pl-myparenthood",
-   "GR",
-   "confirmed",
-   "Онлайн майсторски класове за родители",
-   "Потвърдено на 15 окт."
-  ],
-  [
-   "pl-ladiesbook",
-   "GR",
-   "confirmed",
-   "Онлайн списание за жени над 50",
-   "Потвърдено на 15 окт."
-  ],
-  [
-   "pl-myschoolwinner",
-   "GR",
-   "confirmed",
-   "Myschoolwinner",
-   "Потвърдено на 15 окт."
-  ],
-  [
-   "pl-myschoolwinner",
-   "RO",
-   "confirmed",
-   "Myschoolwinner",
-   "Потвърдено на 15 окт."
-  ],
-  [
-   "pl-myschoolwinner",
-   "BG",
-   "confirmed",
-   "Myschoolwinner",
-   "Потвърдено на 15 окт."
-  ],
-  [
-   "pl-myschoolwinner",
-   "RS",
-   "confirmed",
-   "Myschoolwinner",
-   "Потвърдено на 15 окт."
-  ],
-  [
-   "pl-heymaa",
-   "RO",
-   "confirmed",
-   "Пилот",
-   "Потвърдено през окт. 2026"
-  ],
-  [
-   "pl-mumsvoice",
-   "GR",
-   "confirmed",
-   "Годишно проучване сред майките",
-   "Текущ сайт"
-  ],
-  [
-   "pl-mumsvoice",
-   "KSA",
-   "confirmed",
-   "Годишно проучване сред майките",
-   "Текущ сайт"
-  ],
-  [
-   "pl-mumsvoice",
-   "CY",
-   "confirmed",
-   "Годишно проучване сред майките",
-   "Текущ сайт"
-  ],
-  [
-   "pl-mumsvoice",
-   "RO",
-   "confirmed",
-   "Годишно проучване сред майките",
-   "Текущ сайт"
-  ],
-  [
-   "pl-mumsvoice",
-   "BG",
-   "confirmed",
-   "Годишно проучване сред майките",
-   "Текущ сайт"
-  ],
-  [
-   "social",
-   "RO",
-   "confirmed",
-   "Huggies в eMAG: 300 отзива за 12 артикула (2023)",
-   "Medium 2024"
-  ],
-  [
-   "crm",
-   "GR",
-   "partial",
-   "Дигитално раздаване на мостри на TENA чрез лийд форми във Facebook [резултатите да се добавят]",
-   "Medium 2024"
-  ],
-  [
-   "pl-pharma",
-   "GR",
-   "confirmed",
-   "pharmacoupons.gr",
-   "Текущ сайт"
-  ]
- ],
- "SS_AUD": [
-  "st-marriage",
-  "st-pet",
-  "st-pregnancy",
-  "st-natal",
-  "st-luxury",
-  "st-next",
-  "st-school",
-  "st-school-xmas",
-  "st-teen",
-  "st-high",
-  "st-uni",
-  "st-army",
-  "st-silver",
-  "st-seniors"
- ],
- "SS_COLS": [
-  {
-   "name": "Планирайте START",
-   "ids": [
-    "st-about",
-    "st-contact"
-   ]
-  },
-  {
-   "name": "Фаза 2 · за майките",
-   "ids": [
-    "st-order"
-   ]
-  }
- ]
 }

@@ -1,6 +1,11 @@
 "use client";
 
+import Image from "next/image";
 import { useMemo, useState } from "react";
+import {
+  coversForCountry,
+  guidesForCountry,
+} from "@/lib/guide-covers";
 import type { Locale } from "@/lib/i18n";
 import { withTbc } from "@/lib/tbc";
 import styles from "./ProgramPage.module.css";
@@ -23,6 +28,7 @@ type Labels = {
   guide: string;
   tirage: string;
   countries: string;
+  openGuide?: string;
 };
 
 const COUNTRY_NAMES: Record<Locale, Record<string, string>> = {
@@ -71,14 +77,31 @@ export function InsightsTabs({
   rows,
   labels,
   locale,
+  programId,
+  programGuides,
 }: {
   rows: InsightRow[];
   labels: Labels;
   locale: Locale;
+  programId: string;
+  /** START_GUIDES rows for this program: [country, title, url] */
+  programGuides?: [string, string, string][];
 }) {
   const countries = useMemo(() => rows.map((r) => r.country), [rows]);
   const [active, setActive] = useState(countries[0] ?? "");
   const row = rows.find((r) => r.country === active) ?? rows[0];
+
+  const covers = row
+    ? coversForCountry(programId, row.country, programGuides)
+    : [];
+  const coverHrefs = new Set(
+    covers.map((c) => c.href).filter((h): h is string => Boolean(h)),
+  );
+  const digitalGuides = row
+    ? guidesForCountry(programGuides, row.country).filter(
+        (g) => g.href && !coverHrefs.has(g.href),
+      )
+    : [];
 
   if (!rows.length || !row) return null;
 
@@ -90,6 +113,8 @@ export function InsightsTabs({
     { key: "guide", label: labels.guide },
     { key: "tirage", label: labels.tirage },
   ];
+
+  const openLabel = labels.openGuide ?? "Open guide";
 
   return (
     <div>
@@ -111,7 +136,83 @@ export function InsightsTabs({
         <dl className={styles.insightTable}>
           {fields.map(({ key, label }) => {
             const value = row[key];
-            if (!value || value === "—") return null;
+            if (key !== "guide" && (!value || value === "—")) return null;
+
+            if (key === "guide") {
+              const hasGuide =
+                (value && value !== "—") ||
+                covers.length > 0 ||
+                digitalGuides.length > 0;
+              if (!hasGuide) return null;
+
+              return (
+                <div key={key} className={`${styles.insightRow} ${styles.guideRow}`}>
+                  <dt>{label}</dt>
+                  <dd>
+                    <div className={styles.guideCell}>
+                      {value && value !== "—" ? (
+                        <p className={styles.guideText}>{withTbc(value)}</p>
+                      ) : null}
+
+                      {covers.length ? (
+                        <div className={styles.guideCovers}>
+                          {covers.map((cover) => {
+                            const img = (
+                              <Image
+                                src={cover.src}
+                                alt={cover.alt}
+                                width={505}
+                                height={752}
+                                className={styles.guideCoverImg}
+                                sizes="(max-width: 600px) 42vw, 140px"
+                                unoptimized
+                              />
+                            );
+                            return cover.href ? (
+                              <a
+                                key={cover.src}
+                                className={styles.guideCover}
+                                href={cover.href}
+                                target="_blank"
+                                rel="noopener noreferrer"
+                                title={cover.alt}
+                              >
+                                {img}
+                              </a>
+                            ) : (
+                              <div
+                                key={cover.src}
+                                className={styles.guideCover}
+                                title={cover.alt}
+                              >
+                                {img}
+                              </div>
+                            );
+                          })}
+                        </div>
+                      ) : null}
+
+                      {digitalGuides.length ? (
+                        <ul className={styles.guideLinks}>
+                          {digitalGuides.map((g) => (
+                            <li key={`${g.title}-${g.href}`}>
+                              <a
+                                href={g.href}
+                                target="_blank"
+                                rel="noopener noreferrer"
+                              >
+                                {g.title || openLabel}
+                              </a>
+                            </li>
+                          ))}
+                        </ul>
+                      ) : null}
+                    </div>
+                  </dd>
+                </div>
+              );
+            }
+
             return (
               <div key={key} className={styles.insightRow}>
                 <dt>{label}</dt>

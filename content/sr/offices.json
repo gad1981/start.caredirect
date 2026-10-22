@@ -1,0 +1,48 @@
+[
+  {
+    "id": "greece",
+    "country": "Grčka",
+    "lines": [
+      "Premetis 2, Ag. Dimitrios,",
+      "173 42 Attica"
+    ],
+    "tel": "+30 210 928 7700"
+  },
+  {
+    "id": "cyprus",
+    "country": "Kipar",
+    "lines": [
+      "41-43 Spyrou Kyprianou,",
+      "Patroclos Tower,",
+      "2nd Floor, 6051 Larnaka"
+    ],
+    "tel": "+357 24 201540"
+  },
+  {
+    "id": "romania",
+    "country": "Rumunija",
+    "lines": [
+      "Vasile Lascar Business Center",
+      "178 Vasile Lascar street, 2nd Floor, Apt 5,",
+      "2nd District, 020512, Bucharest"
+    ],
+    "tel": "+40 21 203 89 69"
+  },
+  {
+    "id": "bulgaria",
+    "country": "Bugarska",
+    "lines": [
+      "17 Inzhener Georgi Belov St.,",
+      "NPZ Iztok, 1712 Sofia"
+    ],
+    "tel": "+359 2 489 9491"
+  },
+  {
+    "id": "serbia",
+    "country": "Srbija",
+    "lines": [
+      "Belgrade"
+    ],
+    "tel": "+381 11 404 3331"
+  }
+]

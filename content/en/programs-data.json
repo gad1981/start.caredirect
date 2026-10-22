@@ -11,15 +11,17 @@
   "st-school-xmas": "Myschoolwinner (myschoolwinner.com: Greece, Romania, Bulgaria and Serbia)"
  },
  "START_GUIDES": {
+  "st-pregnancy": [
+   [
+    "Greece",
+    "Σχέσεις Στοργής · Η ΠΙΟ ΓΛΥΚΙΑ ΑΝΑΜΟΝΗ (the BOOM edition)",
+    ""
+   ]
+  ],
   "st-natal": [
    [
     "Greece",
-    "Natal Guide",
-    "https://heyzine.com/flip-book/ea452acee4.html"
-   ],
-   [
-    "Greece",
-    "Σχέσεις Στοργής (guide for new mums)",
+    "Σχέσεις Στοργής · the BOOM edition",
     "https://heyzine.com/flip-book/8e724472cf.html"
    ],
    [
@@ -53,17 +55,17 @@
   "st-school": [
    [
     "Romania",
-    "School Guide 2026",
+    "Prima zi la școală",
     "https://heyzine.com/flip-book/381377db30.html"
    ],
    [
     "Bulgaria",
-    "School Guide 2026",
+    "Първи Учебен Ден",
     "https://heyzine.com/flip-book/59a24288dc.html"
    ],
    [
     "Serbia",
-    "School Guide 2026",
+    "Prvi dan škole",
     "https://heyzine.com/flip-book/f6ae2642bc.html"
    ]
   ]

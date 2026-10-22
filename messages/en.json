@@ -9,6 +9,7 @@
   "openMenu": "Open menu",
   "closeMenu": "Close menu",
   "forBrands": "For brands",
+  "forUsers": "For users",
   "startHome": "START home",
   "orderSamples": "Order your samples",
   "tagline": "Every period in life has a first day. Be in it.",
@@ -75,5 +76,6 @@
   "kitFitInsideLabel": "Inside lid — print on the back of the cover",
   "kitFitStartLabel": "START identity stays",
   "kitFitYourBrand": "Your brand",
-  "kitFitExclusivity": "* Our commercial approach: we do not offer category exclusivities by default. Per contract and per occasion, we can close a product category for a specific brand."
+  "kitFitExclusivity": "* Our commercial approach: we do not offer category exclusivities by default. Per contract and per occasion, we can close a product category for a specific brand.",
+  "insightsOpenGuide": "Open digital guide"
 }
