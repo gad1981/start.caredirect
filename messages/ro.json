@@ -77,5 +77,12 @@
   "kitFitStartLabel": "Identitatea START rămâne",
   "kitFitYourBrand": "Brandul tău",
   "kitFitExclusivity": "* Abordarea noastră comercială: nu oferim exclusivități pe categorie în mod implicit. Pe contract și pe ocazie, putem închide o categorie de produs pentru un brand anume.",
-  "insightsOpenGuide": "Deschide ghidul digital"
+  "kitFitPricingTitle": "Prețuri când intri în kit",
+  "kitFitPricingLead": "Prețul este relativ la cantitatea de mostre distribuite anual, dimensiunea mostrelor, tipul mostrelor, greutatea mostrelor și volumul fiecărei mostre. Contractul stabilește în final un preț pe mostră. Anunțul în ghid, prezența pe platformele online, follow-up-ul și brandingul pe kit au fiecare un cost suplimentar — separat de costul distribuției de mostre în kit.",
+  "insightsOpenGuide": "Deschide ghidul digital",
+  "kitFitGuideBrandTitle": "Unde apare brandul tău în ghid",
+  "kitFitGuideBrandLead": "Prin acord: o pagină întreagă interioară, coperta spate sau un salon — o dublă pagină pe care cititorii o deschid plat.",
+  "kitFitGuideFullPage": "Pagină întreagă interioară",
+  "kitFitGuideBackCover": "Copertă spate",
+  "kitFitGuideSalon": "Salon — dublă pagină"
 }

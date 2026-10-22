@@ -1,7 +1,6 @@
 import type { Metadata } from "next";
 import { Manrope, Source_Sans_3 } from "next/font/google";
 import { notFound } from "next/navigation";
-import Script from "next/script";
 import { SiteChrome } from "@/components/SiteChrome";
 import { CONSENT_DEFAULT_SCRIPT } from "@/lib/analytics";
 import { siteUrl } from "@/lib/content";
@@ -68,17 +67,20 @@ export default async function LocaleRootLayout({
       className={`${display.variable} ${body.variable}`}
       data-theme="light"
     >
-      <body>
-        <Script
+      <head>
+        {/* Runs synchronously during HTML parse, before hydration (consent defaults). */}
+        <script
           id="consent-default"
-          strategy="beforeInteractive"
           dangerouslySetInnerHTML={{ __html: CONSENT_DEFAULT_SCRIPT }}
         />
-        <Script
+      </head>
+      <body>
+        <script
           id="org-jsonld"
           type="application/ld+json"
-          strategy="beforeInteractive"
-          dangerouslySetInnerHTML={{ __html: JSON.stringify(orgJsonLd) }}
+          dangerouslySetInnerHTML={{
+            __html: JSON.stringify(orgJsonLd).replace(/</g, "\\u003c"),
+          }}
         />
         <SiteChrome locale={locale}>{children}</SiteChrome>
       </body>

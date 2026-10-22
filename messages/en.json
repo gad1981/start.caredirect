@@ -77,5 +77,12 @@
   "kitFitStartLabel": "START identity stays",
   "kitFitYourBrand": "Your brand",
   "kitFitExclusivity": "* Our commercial approach: we do not offer category exclusivities by default. Per contract and per occasion, we can close a product category for a specific brand.",
+  "kitFitPricingTitle": "Pricing when you join the kit",
+  "kitFitPricingLead": "Pricing is relative to the amount of samples distributed yearly, the size of samples, the type of samples, the weight of samples, and the volume of each sample. The contract eventually sets a price per sample. An ad in the guide, presence on the online platforms, follow-up, and branding on the kit each carry an additional cost — separate from the cost of sample distribution in the kit.",
+  "kitFitGuideBrandTitle": "Where your brand shows in the guide",
+  "kitFitGuideBrandLead": "By agreement: an internal full page, the back cover, or a salon — a double-page spread readers open flat.",
+  "kitFitGuideFullPage": "Internal full page",
+  "kitFitGuideBackCover": "Back cover",
+  "kitFitGuideSalon": "Salon — double-page spread",
   "insightsOpenGuide": "Open digital guide"
 }

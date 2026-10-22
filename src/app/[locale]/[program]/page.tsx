@@ -1,7 +1,6 @@
 import type { Metadata } from "next";
 import { notFound } from "next/navigation";
 import { Suspense } from "react";
-import Script from "next/script";
 import { ProgramPage } from "@/components/program/ProgramPage";
 import { getPages } from "@/lib/content";
 import {
@@ -89,11 +88,12 @@ async function ProgramRoute({
 
   return (
     <>
-      <Script
+      <script
         id={`jsonld-${prog.slug}`}
         type="application/ld+json"
-        strategy="afterInteractive"
-        dangerouslySetInnerHTML={{ __html: JSON.stringify(jsonLd) }}
+        dangerouslySetInnerHTML={{
+          __html: JSON.stringify(jsonLd).replace(/</g, "\\u003c"),
+        }}
       />
       <ProgramPage programId={prog.id} locale={locale} />
     </>

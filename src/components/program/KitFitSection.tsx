@@ -124,6 +124,91 @@ export function KitFitSection({
             </figure>
           </div>
         </div>
+
+        <div className={styles.guideBrand}>
+          <h3 className={styles.blockTitle}>{messages.kitFitGuideBrandTitle}</h3>
+          <p className={styles.subLead}>{messages.kitFitGuideBrandLead}</p>
+          <figure
+            className={styles.diagram}
+            aria-label={messages.kitFitGuideBrandTitle}
+          >
+            <div className={`${styles.stage} ${styles.guideStage}`}>
+              <div className={styles.guideOptions}>
+                <div className={styles.guideOption}>
+                  <div className={styles.guideBook} data-kind="full">
+                    <div className={styles.guideSpine} aria-hidden />
+                    <div className={`${styles.guidePage} ${styles.guideLeft}`}>
+                      <span className={styles.guideBrandMark}>
+                        {messages.kitFitYourBrand}
+                      </span>
+                      <span className={styles.guideLines} aria-hidden />
+                    </div>
+                    <div
+                      className={`${styles.guidePage} ${styles.guideRight} ${styles.guidePageMuted}`}
+                    >
+                      <span className={styles.guideLines} aria-hidden />
+                    </div>
+                  </div>
+                  <p className={styles.guideOptionLabel}>
+                    {messages.kitFitGuideFullPage}
+                  </p>
+                </div>
+
+                <div className={styles.guideOption}>
+                  <div className={styles.guideBook} data-kind="back">
+                    <div className={styles.guideClosed}>
+                      <span className={styles.guideCoverTitle}>START</span>
+                      <span className={styles.guideBrandMark}>
+                        {messages.kitFitYourBrand}
+                      </span>
+                    </div>
+                  </div>
+                  <p className={styles.guideOptionLabel}>
+                    {messages.kitFitGuideBackCover}
+                  </p>
+                </div>
+
+                <div className={styles.guideOption}>
+                  <div className={styles.guideBook} data-kind="salon">
+                    <div className={styles.guideSpine} aria-hidden />
+                    <div className={`${styles.guidePage} ${styles.guideLeft}`}>
+                      <span className={styles.guideBrandMark}>
+                        {messages.kitFitYourBrand}
+                      </span>
+                    </div>
+                    <div className={`${styles.guidePage} ${styles.guideRight}`}>
+                      <span className={styles.guideBrandMark}>
+                        {messages.kitFitYourBrand}
+                      </span>
+                    </div>
+                  </div>
+                  <p className={styles.guideOptionLabel}>
+                    {messages.kitFitGuideSalon}
+                  </p>
+                </div>
+              </div>
+            </div>
+            <figcaption className={styles.caption}>
+              <span>
+                <i className={styles.dotInside} aria-hidden />
+                {messages.kitFitGuideFullPage}
+              </span>
+              <span>
+                <i className={styles.dotOutside} aria-hidden />
+                {messages.kitFitGuideBackCover}
+              </span>
+              <span>
+                <i className={`${styles.dotOutside} ${styles.dotSalon}`} aria-hidden />
+                {messages.kitFitGuideSalon}
+              </span>
+            </figcaption>
+          </figure>
+        </div>
+
+        <div className={styles.pricing}>
+          <h3 className={styles.blockTitle}>{messages.kitFitPricingTitle}</h3>
+          <p className={styles.subLead}>{messages.kitFitPricingLead}</p>
+        </div>
       </div>
     </section>
   );
