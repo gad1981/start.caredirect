@@ -1,0 +1,160 @@
+{
+ "st-pregnancy": {
+  "categories": [
+   "Baby care & hygiene",
+   "Diapers & wipes",
+   "Mum skincare & body care",
+   "Nutrition & supplements",
+   "Maternity comfort & apparel",
+   "Nursery & home prep",
+   "Feeding accessories",
+   "Insurance & family services",
+   "Parenting apps & digital services"
+  ]
+ },
+ "st-natal": {
+  "categories": [
+   "Baby care & hygiene",
+   "Diapers & wipes",
+   "Feeding accessories",
+   "Baby skincare",
+   "Mum recovery & personal care",
+   "Laundry & home care",
+   "Keepsakes & photography",
+   "Nutrition for mum",
+   "Insurance & family services"
+  ]
+ },
+ "st-luxury": {
+  "categories": [
+   "Premium baby care",
+   "Premium skincare",
+   "Designer nursery & textiles",
+   "Luxury gifts & keepsakes",
+   "Exclusive apparel & accessories",
+   "Lifestyle & concierge services",
+   "Fine fragrance & wellness"
+  ]
+ },
+ "st-next": {
+  "categories": [
+   "Baby food & snacks",
+   "Weaning & feeding accessories",
+   "Nutrition & supplements",
+   "Oral care",
+   "Kitchen & mealtime tools",
+   "Baby care & hygiene",
+   "Cleaning for family homes"
+  ]
+ },
+ "st-school": {
+  "categories": [
+   "School supplies & stationery",
+   "Backpacks & lunchboxes",
+   "Kids snacks & drinks",
+   "Kids hygiene & personal care",
+   "Apparel & footwear",
+   "Educational toys & apps",
+   "Family insurance & services"
+  ]
+ },
+ "st-school-xmas": {
+  "categories": [
+   "Festive gifts & treats",
+   "School supplies & stationery",
+   "Kids snacks & drinks",
+   "Toys & creative kits",
+   "Kids hygiene & personal care",
+   "Apparel & accessories",
+   "Seasonal home & décor"
+  ]
+ },
+ "st-teen": {
+  "categories": [
+   "Personal care & hygiene",
+   "Skincare & beauty",
+   "Hair care",
+   "Fashion accessories",
+   "Nutrition & wellness",
+   "Tech & lifestyle gadgets",
+   "Education & learning apps"
+  ]
+ },
+ "st-high": {
+  "categories": [
+   "Personal care & grooming",
+   "Snacks & drinks",
+   "Tech accessories",
+   "Fashion & footwear",
+   "Study tools & stationery",
+   "Sports & wellness",
+   "Youth banking & digital services"
+  ]
+ },
+ "st-uni": {
+  "categories": [
+   "Personal care & grooming",
+   "Food & beverages",
+   "Tech & accessories",
+   "Fashion & lifestyle",
+   "Student banking & fintech",
+   "Mobility & everyday services",
+   "Study & productivity tools"
+  ]
+ },
+ "st-army": {
+  "categories": [
+   "Personal care & grooming",
+   "Hygiene on the go",
+   "Snacks & drinks",
+   "Footwear & gear care",
+   "Laundry & fabric care",
+   "Telecom & prepaid services",
+   "Wellness & recovery"
+  ]
+ },
+ "st-marriage": {
+  "categories": [
+   "Home care & cleaning",
+   "Kitchen & tableware",
+   "Bedding & textiles",
+   "Personal care for couples",
+   "Home fragrance & décor",
+   "Insurance & banking",
+   "Lifestyle & experiences"
+  ]
+ },
+ "st-pet": {
+  "categories": [
+   "Pet food & treats",
+   "Pet care & grooming",
+   "Accessories & toys",
+   "Litter & hygiene",
+   "Vet & pet insurance",
+   "Home cleaning for pet owners",
+   "Pet digital services"
+  ]
+ },
+ "st-silver": {
+  "categories": [
+   "Personal care 50+",
+   "Skincare & beauty",
+   "Nutrition & supplements",
+   "Wellness & menopause support",
+   "Comfort apparel",
+   "Health & screening services",
+   "Lifestyle & community services"
+  ]
+ },
+ "st-seniors": {
+  "categories": [
+   "Personal care & hygiene",
+   "Health & wellness",
+   "Nutrition & supplements",
+   "Home comfort & safety",
+   "Insurance & assistance",
+   "Leisure & community services",
+   "Mobility & everyday aids"
+  ]
+ }
+}

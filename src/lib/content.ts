@@ -3,6 +3,7 @@ import { defaultLocale } from "@/lib/i18n";
 
 import enDoodlePlan from "../../content/en/doodle-plan.json";
 import enInsights from "../../content/en/insights.json";
+import enKitFit from "../../content/en/kit-fit.json";
 import enOffices from "../../content/en/offices.json";
 import enPages from "../../content/en/pages.json";
 import enProgramsData from "../../content/en/programs-data.json";
@@ -140,6 +141,21 @@ export async function getInsights(
   const overlay = await loadLocaleJson<Record<string, InsightRow[]>>(
     locale,
     "insights",
+  );
+  return overlay ? deepMerge(base, overlay) : base;
+}
+
+export type KitFitRecord = {
+  categories: string[];
+};
+
+export async function getKitFit(
+  locale: Locale = defaultLocale,
+): Promise<Record<string, KitFitRecord>> {
+  const base = enKitFit as Record<string, KitFitRecord>;
+  const overlay = await loadLocaleJson<Record<string, KitFitRecord>>(
+    locale,
+    "kit-fit",
   );
   return overlay ? deepMerge(base, overlay) : base;
 }

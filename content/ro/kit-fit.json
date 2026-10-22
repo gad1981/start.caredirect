@@ -1,0 +1,160 @@
+{
+ "st-pregnancy": {
+  "categories": [
+   "Îngrijire și igienă pentru bebeluși",
+   "Scutece și șervețele",
+   "Îngrijirea pielii pentru mamă",
+   "Nutriție și suplimente",
+   "Confort și îmbrăcăminte de maternitate",
+   "Pregătirea casei și a camerei bebelușului",
+   "Accesorii de hrănire",
+   "Asigurări și servicii pentru familie",
+   "Aplicații și servicii digitale pentru părinți"
+  ]
+ },
+ "st-natal": {
+  "categories": [
+   "Îngrijire și igienă pentru bebeluși",
+   "Scutece și șervețele",
+   "Accesorii de hrănire",
+   "Îngrijirea pielii bebelușului",
+   "Recuperare și îngrijire pentru mamă",
+   "Detergent și îngrijirea casei",
+   "Suveniruri și fotografie",
+   "Nutriție pentru mamă",
+   "Asigurări și servicii pentru familie"
+  ]
+ },
+ "st-luxury": {
+  "categories": [
+   "Îngrijire premium pentru bebeluși",
+   "Îngrijire premium a pielii",
+   "Nursery designer și textile",
+   "Cadouri și suveniruri de lux",
+   "Îmbrăcăminte și accesorii exclusive",
+   "Servicii lifestyle și concierge",
+   "Parfumuri și wellness"
+  ]
+ },
+ "st-next": {
+  "categories": [
+   "Alimente și gustări pentru bebeluși",
+   "Accesorii pentru diversificare și hrănire",
+   "Nutriție și suplimente",
+   "Îngrijire orală",
+   "Unelte de bucătărie și masă",
+   "Îngrijire și igienă pentru bebeluși",
+   "Curățenie pentru casele de familie"
+  ]
+ },
+ "st-school": {
+  "categories": [
+   "Rechizite și papetărie",
+   "Ghiozdane și cutii de prânz",
+   "Gustări și băuturi pentru copii",
+   "Igienă și îngrijire personală pentru copii",
+   "Îmbrăcăminte și încălțăminte",
+   "Jucării și aplicații educaționale",
+   "Asigurări și servicii pentru familie"
+  ]
+ },
+ "st-school-xmas": {
+  "categories": [
+   "Cadouri și dulciuri de sărbători",
+   "Rechizite și papetărie",
+   "Gustări și băuturi pentru copii",
+   "Jucării și kituri creative",
+   "Igienă și îngrijire personală pentru copii",
+   "Îmbrăcăminte și accesorii",
+   "Decorațiuni sezoniere pentru casă"
+  ]
+ },
+ "st-teen": {
+  "categories": [
+   "Îngrijire personală și igienă",
+   "Îngrijirea pielii și beauty",
+   "Îngrijirea părului",
+   "Accesorii fashion",
+   "Nutriție și wellness",
+   "Tech și gadgeturi lifestyle",
+   "Educație și aplicații de învățare"
+  ]
+ },
+ "st-high": {
+  "categories": [
+   "Îngrijire personală și grooming",
+   "Gustări și băuturi",
+   "Accesorii tech",
+   "Modă și încălțăminte",
+   "Instrumente de studiu și papetărie",
+   "Sport și wellness",
+   "Banking pentru tineri și servicii digitale"
+  ]
+ },
+ "st-uni": {
+  "categories": [
+   "Îngrijire personală și grooming",
+   "Mâncare și băuturi",
+   "Tech și accesorii",
+   "Modă și lifestyle",
+   "Banking studențesc și fintech",
+   "Mobilitate și servicii de zi cu zi",
+   "Instrumente de studiu și productivitate"
+  ]
+ },
+ "st-army": {
+  "categories": [
+   "Îngrijire personală și grooming",
+   "Igienă în deplasare",
+   "Gustări și băuturi",
+   "Îngrijirea încălțămintei și a echipamentului",
+   "Spălat și îngrijirea textilelor",
+   "Telecom și servicii prepaid",
+   "Wellness și recuperare"
+  ]
+ },
+ "st-marriage": {
+  "categories": [
+   "Îngrijirea casei și curățenie",
+   "Bucătărie și veselă",
+   "Lenjerie și textile",
+   "Îngrijire personală pentru cupluri",
+   "Parfum de casă și decor",
+   "Asigurări și banking",
+   "Lifestyle și experiențe"
+  ]
+ },
+ "st-pet": {
+  "categories": [
+   "Hrană și recompense pentru animale",
+   "Îngrijire și grooming pentru animale",
+   "Accesorii și jucării",
+   "Așternut și igienă",
+   "Veterinar și asigurări pentru animale",
+   "Curățenie pentru case cu animale",
+   "Servicii digitale pentru animale"
+  ]
+ },
+ "st-silver": {
+  "categories": [
+   "Îngrijire personală 50+",
+   "Îngrijirea pielii și beauty",
+   "Nutriție și suplimente",
+   "Wellness și suport la menopauză",
+   "Îmbrăcăminte confortabilă",
+   "Sănătate și screening",
+   "Lifestyle și servicii comunitare"
+  ]
+ },
+ "st-seniors": {
+  "categories": [
+   "Îngrijire personală și igienă",
+   "Sănătate și wellness",
+   "Nutriție și suplimente",
+   "Confort și siguranță acasă",
+   "Asigurări și asistență",
+   "Leisure și servicii comunitare",
+   "Mobilitate și ajutoare de zi cu zi"
+  ]
+ }
+}

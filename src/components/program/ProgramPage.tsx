@@ -4,6 +4,7 @@ import { BriefForm } from "@/components/BriefForm";
 import {
   getDoodlePlan,
   getInsights,
+  getKitFit,
   getMessages,
   getPages,
   getStartHome,
@@ -16,6 +17,7 @@ import { getProgramById, programHeroSrc, programKitSrc } from "@/lib/programs";
 import { withTbc } from "@/lib/tbc";
 import { BrandGetIcon } from "./BrandGetIcon";
 import { InsightsTabs } from "./InsightsTabs";
+import { KitFitSection } from "./KitFitSection";
 import styles from "./ProgramPage.module.css";
 
 function doodleSrc(key: string) {
@@ -56,6 +58,7 @@ export async function ProgramPage({
   const doodlePlan = await getDoodlePlan(locale);
   const taglines = await getTaglines(locale);
   const insightsMap = await getInsights(locale);
+  const kitFitMap = await getKitFit(locale);
   const brand = getProgramBrand(programId);
   const tone = brand?.tone;
   const plan = doodlePlan[programId];
@@ -65,6 +68,7 @@ export async function ProgramPage({
   const about = aboutSec ? parseAbout(aboutSec.copy) : null;
   const cards = cardsSec ? parseCards(cardsSec.copy) : [];
   const insightRows = insightsMap[programId] ?? [];
+  const kitFit = kitFitMap[programId];
   const tagline = taglines[programId] ?? "";
   const planHref = localePath(locale, "/plan/");
   const kitSrc = programKitSrc(prog.assetKey);
@@ -176,6 +180,14 @@ export async function ProgramPage({
                 </article>
               ))}
             </div>
+          </div>
+        </section>
+      ) : null}
+
+      {kitFit?.categories?.length ? (
+        <section className={styles.section}>
+          <div className={styles.wrap}>
+            <KitFitSection categories={kitFit.categories} messages={messages} />
           </div>
         </section>
       ) : null}

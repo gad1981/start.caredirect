@@ -1,0 +1,160 @@
+{
+ "st-pregnancy": {
+  "categories": [
+   "Nega i higijena beba",
+   "Pelene i maramice",
+   "Nega kože za mame",
+   "Ishrana i suplementi",
+   "Komfor i odeća za trudnice",
+   "Priprema doma i sobe za bebu",
+   "Pribor za hranjenje",
+   "Osiguranje i porodične usluge",
+   "Aplikacije i digitalne usluge za roditelje"
+  ]
+ },
+ "st-natal": {
+  "categories": [
+   "Nega i higijena beba",
+   "Pelene i maramice",
+   "Pribor za hranjenje",
+   "Nega kože beba",
+   "Oporavak i nega mama",
+   "Pranje i nega doma",
+   "Uspomene i fotografija",
+   "Ishrana za mame",
+   "Osiguranje i porodične usluge"
+  ]
+ },
+ "st-luxury": {
+  "categories": [
+   "Premium nega beba",
+   "Premium nega kože",
+   "Dizajnerski nursery i tekstil",
+   "Luksuzni pokloni i uspomene",
+   "Ekskluzivna odeća i aksesoari",
+   "Lifestyle i concierge usluge",
+   "Mirisi i wellness"
+  ]
+ },
+ "st-next": {
+  "categories": [
+   "Hrana i grickalice za bebe",
+   "Pribor za uvođenje čvrste hrane",
+   "Ishrana i suplementi",
+   "Oralna higijena",
+   "Kuhinjski i trpezarijski pribor",
+   "Nega i higijena beba",
+   "Sredstva za čišćenje porodičnog doma"
+  ]
+ },
+ "st-school": {
+  "categories": [
+   "Školski pribor i kancelarijski materijal",
+   "Rančevi i kutije za užinu",
+   "Grickalice i pića za decu",
+   "Higijena i lična nega dece",
+   "Odeća i obuća",
+   "Edukativne igračke i aplikacije",
+   "Porodično osiguranje i usluge"
+  ]
+ },
+ "st-school-xmas": {
+  "categories": [
+   "Praznični pokloni i poslastice",
+   "Školski pribor i kancelarijski materijal",
+   "Grickalice i pića za decu",
+   "Igračke i kreativni setovi",
+   "Higijena i lična nega dece",
+   "Odeća i aksesoari",
+   "Sezonska dekoracija doma"
+  ]
+ },
+ "st-teen": {
+  "categories": [
+   "Lična nega i higijena",
+   "Nega kože i beauty",
+   "Nega kose",
+   "Fashion aksesoari",
+   "Ishrana i wellness",
+   "Tech i lifestyle gadgeti",
+   "Obrazovanje i aplikacije za učenje"
+  ]
+ },
+ "st-high": {
+  "categories": [
+   "Lična nega i grooming",
+   "Grickalice i pića",
+   "Tech aksesoari",
+   "Moda i obuća",
+   "Pribor za učenje i kancelarijski materijal",
+   "Sport i wellness",
+   "Bankarstvo za mlade i digitalne usluge"
+  ]
+ },
+ "st-uni": {
+  "categories": [
+   "Lična nega i grooming",
+   "Hrana i pića",
+   "Tech i aksesoari",
+   "Moda i lifestyle",
+   "Studentsko bankarstvo i fintech",
+   "Mobilnost i svakodnevne usluge",
+   "Alati za učenje i produktivnost"
+  ]
+ },
+ "st-army": {
+  "categories": [
+   "Lična nega i grooming",
+   "Higijena u pokretu",
+   "Grickalice i pića",
+   "Nega obuće i opreme",
+   "Pranje i nega tekstila",
+   "Telecom i prepaid usluge",
+   "Wellness i oporavak"
+  ]
+ },
+ "st-marriage": {
+  "categories": [
+   "Nega doma i čišćenje",
+   "Kuhinja i posuđe",
+   "Posteljina i tekstil",
+   "Lična nega za parove",
+   "Mirisi za dom i dekor",
+   "Osiguranje i bankarstvo",
+   "Lifestyle i iskustva"
+  ]
+ },
+ "st-pet": {
+  "categories": [
+   "Hrana i poslastice za ljubimce",
+   "Nega i grooming ljubimaca",
+   "Aksesoari i igračke",
+   "Posipa i higijena",
+   "Veterina i osiguranje ljubimaca",
+   "Čišćenje za domove sa ljubimcima",
+   "Digitalne usluge za ljubimce"
+  ]
+ },
+ "st-silver": {
+  "categories": [
+   "Lična nega 50+",
+   "Nega kože i beauty",
+   "Ishrana i suplementi",
+   "Wellness i podrška u menopauzi",
+   "Udobna odeća",
+   "Zdravlje i pregledi",
+   "Lifestyle i usluge zajednice"
+  ]
+ },
+ "st-seniors": {
+  "categories": [
+   "Lična nega i higijena",
+   "Zdravlje i wellness",
+   "Ishrana i suplementi",
+   "Udobnost i bezbednost kod kuće",
+   "Osiguranje i pomoć",
+   "Slobodno vreme i usluge zajednice",
+   "Mobilnost i svakodnevna pomagala"
+  ]
+ }
+}
