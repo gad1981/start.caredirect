@@ -235,16 +235,17 @@
 .photo {
   position: relative;
   width: 100%;
-  /* Prefer source ratio; cap height so the title card stays in the first viewport. */
+  /* Prefer source ratio; soft cap — taller than before so faces stay in frame. */
   aspect-ratio: 1672 / 941;
-  max-height: calc(100svh - 17rem);
+  max-height: min(78svh, calc(100svh - 9rem));
   overflow: hidden;
   background: #e9e7e2;
 }
 
 .photo img {
   object-fit: cover;
-  object-position: center;
+  /* When height is capped, keep heads in frame (not center-cropped). */
+  object-position: center top;
 }
 
 .wrap {
@@ -258,8 +259,8 @@
 .heroCard {
   position: relative;
   z-index: 1;
-  /* Kit lives in its own section — pull the title into the first screen. */
-  margin-top: clamp(-110px, -14vh, -56px);
+  /* Overlap deep into the photo; kit lives in its own section below. */
+  margin-top: clamp(-200px, -26vh, -110px);
   background:
     linear-gradient(
       155deg,
@@ -761,11 +762,15 @@
   }
 
   .photo {
-    max-height: calc(100svh - 13rem);
+    max-height: min(62svh, calc(100svh - 9rem));
+  }
+
+  .photo img {
+    object-position: center top;
   }
 
   .heroCard {
-    margin-top: -36px;
+    margin-top: clamp(-140px, -20vh, -72px);
     display: flex;
     flex-direction: column;
     align-items: stretch;

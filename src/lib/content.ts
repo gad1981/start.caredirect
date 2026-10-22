@@ -3,6 +3,7 @@ import { defaultLocale } from "@/lib/i18n";
 
 import enDoodlePlan from "../../content/en/doodle-plan.json";
 import enInsights from "../../content/en/insights.json";
+import enOffices from "../../content/en/offices.json";
 import enPages from "../../content/en/pages.json";
 import enProgramsData from "../../content/en/programs-data.json";
 import enRoutes from "../../content/en/routes.json";
@@ -141,6 +142,21 @@ export async function getInsights(
     "insights",
   );
   return overlay ? deepMerge(base, overlay) : base;
+}
+
+export type Office = {
+  id: string;
+  country: string;
+  lines: string[];
+  tel: string;
+};
+
+export async function getOffices(
+  locale: Locale = defaultLocale,
+): Promise<Office[]> {
+  const base = enOffices as Office[];
+  const overlay = await loadLocaleJson<Office[]>(locale, "offices");
+  return overlay && overlay.length ? overlay : base;
 }
 
 export function getRoutes() {

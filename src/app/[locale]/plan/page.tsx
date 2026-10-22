@@ -2,7 +2,12 @@ import type { Metadata } from "next";
 import { notFound } from "next/navigation";
 import { Suspense } from "react";
 import { BriefForm } from "@/components/BriefForm";
-import { getMessages, getPages, getStartHome } from "@/lib/content";
+import {
+  getMessages,
+  getOffices,
+  getPages,
+  getStartHome,
+} from "@/lib/content";
 import {
   absoluteUrl,
   hreflangAlternates,
@@ -10,8 +15,49 @@ import {
   localePath,
   type Locale,
 } from "@/lib/i18n";
-import { withTbc } from "@/lib/tbc";
 import styles from "./plan.module.css";
+
+const countryLabels: Record<Locale, Record<string, string>> = {
+  en: {
+    greece: "Greece",
+    cyprus: "Cyprus",
+    romania: "Romania",
+    bulgaria: "Bulgaria",
+    serbia: "Serbia",
+  },
+  el: {
+    greece: "Ελλάδα",
+    cyprus: "Κύπρος",
+    romania: "Ρουμανία",
+    bulgaria: "Βουλγαρία",
+    serbia: "Σερβία",
+  },
+  ro: {
+    greece: "Grecia",
+    cyprus: "Cipru",
+    romania: "România",
+    bulgaria: "Bulgaria",
+    serbia: "Serbia",
+  },
+  sr: {
+    greece: "Grčka",
+    cyprus: "Kipar",
+    romania: "Rumunija",
+    bulgaria: "Bugarska",
+    serbia: "Srbija",
+  },
+  bg: {
+    greece: "Гърция",
+    cyprus: "Кипър",
+    romania: "Румъния",
+    bulgaria: "България",
+    serbia: "Сърбия",
+  },
+};
+
+function telHref(tel: string) {
+  return `tel:${tel.replace(/[^\d+]/g, "")}`;
+}
 
 export async function generateMetadata({
   params,
@@ -56,10 +102,12 @@ async function PlanRoute({
   const pages = await getPages(locale);
   const home = await getStartHome(locale);
   const messages = getMessages(locale);
+  const offices = await getOffices(locale);
   const page = pages["st-contact"];
   const form = page.sections.find((s) => s.comp === "brief-form");
   const next = page.sections.find((s) => s.comp === "steps");
   const contacts = page.sections.find((s) => s.comp === "contact-cards");
+  const labels = countryLabels[locale] ?? countryLabels.en;
 
   return (
     <main className={styles.main}>
@@ -95,8 +143,18 @@ async function PlanRoute({
           <h2>{contacts.name}</h2>
           {contacts.intro ? <p>{contacts.intro}</p> : null}
           <ul className={styles.contacts}>
-            {contacts.copy.split("·").map((line) => (
-              <li key={line.trim()}>{withTbc(line.trim())}</li>
+            {offices.map((office) => (
+              <li key={office.id} className={styles.office}>
+                <h3>{labels[office.id] ?? office.country}</h3>
+                <address className={styles.address}>
+                  {office.lines.map((line) => (
+                    <span key={line}>{line}</span>
+                  ))}
+                </address>
+                <a className={styles.tel} href={telHref(office.tel)}>
+                  Tel. {office.tel}
+                </a>
+              </li>
             ))}
           </ul>
         </section>
