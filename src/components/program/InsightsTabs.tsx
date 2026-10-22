@@ -1,7 +1,7 @@
 "use client";
 
 import Image from "next/image";
-import { useMemo, useState } from "react";
+import { type ReactNode, useMemo, useState } from "react";
 import {
   coversForCountry,
   guidesForCountry,
@@ -9,6 +9,7 @@ import {
 import type { Locale } from "@/lib/i18n";
 import { platformsFromAppField } from "@/lib/platforms";
 import { withTbc } from "@/lib/tbc";
+import { SeeHowToggle } from "./SeeHowToggle";
 import styles from "./ProgramPage.module.css";
 
 export type InsightRow = {
@@ -30,6 +31,11 @@ type Labels = {
   tirage: string;
   countries: string;
   openGuide?: string;
+  seeApps: string;
+  seeGuides: string;
+  hide: string;
+  marketsTitle: string;
+  marketsLead: string;
 };
 
 const COUNTRY_NAMES: Record<Locale, Record<string, string>> = {
@@ -74,19 +80,24 @@ function localizeCountry(locale: Locale, country: string) {
   return COUNTRY_NAMES[locale]?.[country] ?? country;
 }
 
+function present(value: string | undefined) {
+  return Boolean(value && value !== "—");
+}
+
 export function InsightsTabs({
   rows,
   labels,
   locale,
   programId,
   programGuides,
+  insightsHeading,
 }: {
   rows: InsightRow[];
   labels: Labels;
   locale: Locale;
   programId: string;
-  /** START_GUIDES rows for this program: [country, title, url] */
   programGuides?: [string, string, string][];
+  insightsHeading?: ReactNode;
 }) {
   const countries = useMemo(() => rows.map((r) => r.country), [rows]);
   const [active, setActive] = useState(countries[0] ?? "");
@@ -103,23 +114,38 @@ export function InsightsTabs({
         (g) => g.href && !coverHrefs.has(g.href),
       )
     : [];
+  const platforms = row ? platformsFromAppField(row.app) : [];
 
   if (!rows.length || !row) return null;
 
-  const fields: { key: keyof InsightRow; label: string }[] = [
-    { key: "reach", label: labels.reach },
-    { key: "cities", label: labels.cities },
-    { key: "channels", label: labels.channels },
-    { key: "app", label: labels.app },
-    { key: "guide", label: labels.guide },
-    { key: "tirage", label: labels.tirage },
-  ];
+  const facts = [
+    { key: "reach", label: labels.reach, value: row.reach },
+    { key: "channels", label: labels.channels, value: row.channels },
+    { key: "cities", label: labels.cities, value: row.cities },
+  ].filter((f) => present(f.value));
 
+  const hasApps = present(row.app) || platforms.length > 0;
+  const hasTirage = present(row.tirage);
+  const hasGuides =
+    present(row.guide) ||
+    hasTirage ||
+    covers.length > 0 ||
+    digitalGuides.length > 0;
   const openLabel = labels.openGuide ?? "Open guide";
 
   return (
-    <div>
-      <div className={styles.tabs} role="tablist" aria-label={labels.countries}>
+    <div className={styles.insights}>
+      <div className={styles.marketsHead}>
+        <h2 id="markets-heading">{labels.marketsTitle}</h2>
+        <p className={styles.introLine}>{labels.marketsLead}</p>
+      </div>
+
+      <div
+        className={styles.tabs}
+        role="tablist"
+        aria-labelledby="markets-heading"
+        aria-label={labels.countries}
+      >
         {countries.map((c) => (
           <button
             key={c}
@@ -133,146 +159,139 @@ export function InsightsTabs({
           </button>
         ))}
       </div>
-      <div className={styles.insightPanel} role="tabpanel">
-        <dl className={styles.insightTable}>
-          {fields.map(({ key, label }) => {
-            const value = row[key];
-            if (key !== "guide" && key !== "app" && (!value || value === "—")) {
-              return null;
-            }
 
-            if (key === "app") {
-              const platforms = platformsFromAppField(value);
-              if ((!value || value === "—") && !platforms.length) return null;
+      {(hasApps || hasGuides) && (
+        <div className={styles.insightMedia} role="tabpanel">
+          {hasApps ? (
+            <div className={styles.insightDrawer}>
+              <p className={styles.insightDrawerTitle}>{labels.app}</p>
+              {present(row.app) ? (
+                <p className={styles.insightDrawerLead}>{withTbc(row.app)}</p>
+              ) : null}
+              {platforms.length ? (
+                <SeeHowToggle label={labels.seeApps} hideLabel={labels.hide}>
+                  <div className={styles.platformShots}>
+                    {platforms.map((p) => (
+                      <a
+                        key={p.id}
+                        className={styles.platformShot}
+                        href={p.href}
+                        target="_blank"
+                        rel="noopener noreferrer"
+                        title={p.alt}
+                      >
+                        <Image
+                          src={p.src}
+                          alt={p.alt}
+                          width={390}
+                          height={844}
+                          className={styles.platformShotImg}
+                          sizes="(max-width: 600px) 28vw, 110px"
+                          unoptimized
+                        />
+                        <span className={styles.platformShotName}>
+                          {p.name}
+                        </span>
+                      </a>
+                    ))}
+                  </div>
+                </SeeHowToggle>
+              ) : null}
+            </div>
+          ) : null}
 
-              return (
-                <div
-                  key={key}
-                  className={`${styles.insightRow} ${styles.appRow}`}
+          {hasGuides ? (
+            <div className={styles.insightDrawer}>
+              <p className={styles.insightDrawerTitle}>{labels.guide}</p>
+              {present(row.guide) ? (
+                <p className={styles.insightDrawerLead}>
+                  {withTbc(row.guide)}
+                </p>
+              ) : null}
+              {hasTirage ? (
+                <p className={styles.insightTirage}>{withTbc(row.tirage)}</p>
+              ) : null}
+              {covers.length || digitalGuides.length ? (
+                <SeeHowToggle
+                  label={labels.seeGuides}
+                  hideLabel={labels.hide}
                 >
-                  <dt>{label}</dt>
-                  <dd>
-                    <div className={styles.appCell}>
-                      {value && value !== "—" ? (
-                        <p className={styles.appText}>{withTbc(value)}</p>
-                      ) : null}
-                      {platforms.length ? (
-                        <div className={styles.platformShots}>
-                          {platforms.map((p) => (
+                  <div className={styles.guideCell}>
+                    {covers.length ? (
+                      <div className={styles.guideCovers}>
+                        {covers.map((cover) => {
+                          const img = (
+                            <Image
+                              src={cover.src}
+                              alt={cover.alt}
+                              width={505}
+                              height={752}
+                              className={styles.guideCoverImg}
+                              sizes="(max-width: 600px) 42vw, 140px"
+                              unoptimized
+                            />
+                          );
+                          return cover.href ? (
                             <a
-                              key={p.id}
-                              className={styles.platformShot}
-                              href={p.href}
+                              key={cover.src}
+                              className={styles.guideCover}
+                              href={cover.href}
                               target="_blank"
                               rel="noopener noreferrer"
-                              title={p.alt}
+                              title={cover.alt}
                             >
-                              <Image
-                                src={p.src}
-                                alt={p.alt}
-                                width={390}
-                                height={844}
-                                className={styles.platformShotImg}
-                                sizes="(max-width: 600px) 28vw, 110px"
-                                unoptimized
-                              />
-                              <span className={styles.platformShotName}>
-                                {p.name}
-                              </span>
+                              {img}
                             </a>
-                          ))}
-                        </div>
-                      ) : null}
-                    </div>
-                  </dd>
-                </div>
-              );
-            }
+                          ) : (
+                            <div
+                              key={cover.src}
+                              className={styles.guideCover}
+                              title={cover.alt}
+                            >
+                              {img}
+                            </div>
+                          );
+                        })}
+                      </div>
+                    ) : null}
 
-            if (key === "guide") {
-              const hasGuide =
-                (value && value !== "—") ||
-                covers.length > 0 ||
-                digitalGuides.length > 0;
-              if (!hasGuide) return null;
+                    {digitalGuides.length ? (
+                      <ul className={styles.guideLinks}>
+                        {digitalGuides.map((g) => (
+                          <li key={`${g.title}-${g.href}`}>
+                            <a
+                              href={g.href}
+                              target="_blank"
+                              rel="noopener noreferrer"
+                            >
+                              {g.title || openLabel}
+                            </a>
+                          </li>
+                        ))}
+                      </ul>
+                    ) : null}
+                  </div>
+                </SeeHowToggle>
+              ) : null}
+            </div>
+          ) : null}
+        </div>
+      )}
 
-              return (
-                <div key={key} className={`${styles.insightRow} ${styles.guideRow}`}>
-                  <dt>{label}</dt>
-                  <dd>
-                    <div className={styles.guideCell}>
-                      {value && value !== "—" ? (
-                        <p className={styles.guideText}>{withTbc(value)}</p>
-                      ) : null}
+      {insightsHeading ? (
+        <div className={styles.insightsHead}>{insightsHeading}</div>
+      ) : null}
 
-                      {covers.length ? (
-                        <div className={styles.guideCovers}>
-                          {covers.map((cover) => {
-                            const img = (
-                              <Image
-                                src={cover.src}
-                                alt={cover.alt}
-                                width={505}
-                                height={752}
-                                className={styles.guideCoverImg}
-                                sizes="(max-width: 600px) 42vw, 140px"
-                                unoptimized
-                              />
-                            );
-                            return cover.href ? (
-                              <a
-                                key={cover.src}
-                                className={styles.guideCover}
-                                href={cover.href}
-                                target="_blank"
-                                rel="noopener noreferrer"
-                                title={cover.alt}
-                              >
-                                {img}
-                              </a>
-                            ) : (
-                              <div
-                                key={cover.src}
-                                className={styles.guideCover}
-                                title={cover.alt}
-                              >
-                                {img}
-                              </div>
-                            );
-                          })}
-                        </div>
-                      ) : null}
-
-                      {digitalGuides.length ? (
-                        <ul className={styles.guideLinks}>
-                          {digitalGuides.map((g) => (
-                            <li key={`${g.title}-${g.href}`}>
-                              <a
-                                href={g.href}
-                                target="_blank"
-                                rel="noopener noreferrer"
-                              >
-                                {g.title || openLabel}
-                              </a>
-                            </li>
-                          ))}
-                        </ul>
-                      ) : null}
-                    </div>
-                  </dd>
-                </div>
-              );
-            }
-
-            return (
-              <div key={key} className={styles.insightRow}>
-                <dt>{label}</dt>
-                <dd>{withTbc(value)}</dd>
-              </div>
-            );
-          })}
+      {facts.length ? (
+        <dl className={styles.insightFacts} role="tabpanel">
+          {facts.map((f) => (
+            <div key={f.key} className={styles.insightFact}>
+              <dt>{f.label}</dt>
+              <dd>{withTbc(f.value)}</dd>
+            </div>
+          ))}
         </dl>
-      </div>
+      ) : null}
     </div>
   );
 }

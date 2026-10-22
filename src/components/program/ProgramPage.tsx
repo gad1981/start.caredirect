@@ -214,8 +214,6 @@ export async function ProgramPage({
                 height={64}
               />
             ) : null}
-            <h2>{messages.insightsTitle}</h2>
-            <p className={styles.introLine}>{messages.insightsLead}</p>
             <InsightsTabs
               rows={insightRows}
               locale={locale}
@@ -230,7 +228,18 @@ export async function ProgramPage({
                 tirage: messages.insightsTirage,
                 countries: messages.insightsCountries,
                 openGuide: messages.insightsOpenGuide,
+                seeApps: messages.seeHowApps,
+                seeGuides: messages.seeHowGuides,
+                hide: messages.seeHowHide,
+                marketsTitle: messages.marketsTitle,
+                marketsLead: messages.marketsLead,
               }}
+              insightsHeading={
+                <>
+                  <h2>{messages.insightsTitle}</h2>
+                  <p className={styles.introLine}>{messages.insightsLead}</p>
+                </>
+              }
             />
           </div>
         </section>

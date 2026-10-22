@@ -518,61 +518,115 @@
   font-size: 14.5px;
 }
 
-.insightPanel {
-  background: var(--surface);
-  border: 1px solid var(--line);
-  border-radius: 22px;
-  padding: 0;
-  overflow: hidden;
-}
-
-.insightTable {
-  margin: 0;
-}
-
-.insightRow {
+.insights {
   display: grid;
-  grid-template-columns: minmax(7.5rem, 11rem) minmax(0, 1fr);
-  gap: 12px 20px;
-  padding: 14px 18px;
-  border-top: 1px solid color-mix(in srgb, var(--line) 80%, transparent);
+  gap: 0;
+  width: 100%;
+  min-width: 0;
 }
 
-.insightRow:first-child {
-  border-top: 0;
+.marketsHead h2 {
+  margin: 0 0 10px;
 }
 
-.insightRow:nth-child(odd) {
-  background: color-mix(in srgb, var(--soft) 70%, white);
+.marketsHead .introLine {
+  margin: 0 0 18px;
 }
 
-.insightRow dt {
+.insightsHead {
+  margin-top: 36px;
+}
+
+.insightsHead h2 {
+  margin: 0 0 10px;
+}
+
+.insightsHead .introLine {
+  margin: 0 0 18px;
+}
+
+.insightFacts {
   margin: 0;
-  font: 700 12px / 1.3 var(--body);
-  letter-spacing: 0.06em;
+  display: grid;
+  gap: 10px;
+  width: 100%;
+  min-width: 0;
+}
+
+.insightFact {
+  margin: 0;
+  padding: 14px 18px;
+  border-radius: 18px;
+  background: var(--p1, #f5e8e4);
+  display: flex;
+  justify-content: space-between;
+  gap: 16px;
+  align-items: baseline;
+}
+
+.insightFact:nth-child(2) {
+  background: var(--p2, #fff6ea);
+}
+
+.insightFact:nth-child(3) {
+  background: var(--p3, #e8f0f4);
+}
+
+.insightFact dt {
+  flex: 0 0 auto;
+  max-width: 38%;
+  font: 600 11.5px / 1.25 var(--body);
+  letter-spacing: 0.1em;
   text-transform: uppercase;
   color: var(--program-ink, var(--muted));
 }
 
-.insightRow dd {
+.insightFact dd {
   margin: 0;
+  flex: 1 1 auto;
+  font: 700 15px / 1.4 var(--body);
   color: var(--ink);
-  font-size: 15px;
+  text-align: right;
+}
+
+.insightMedia {
+  display: grid;
+  gap: 14px;
+  width: 100%;
+  min-width: 0;
+}
+
+.insightDrawer {
+  margin: 0;
+  padding: 14px 16px 16px;
+  border-radius: 16px;
+  background: color-mix(in srgb, white 72%, var(--soft));
+  border: 1px solid color-mix(in srgb, var(--line) 65%, transparent);
+  width: 100%;
+  min-width: 0;
+  box-sizing: border-box;
+}
+
+.insightDrawerTitle {
+  margin: 0 0 6px;
+  font: 700 11.5px / 1.25 var(--body);
+  letter-spacing: 0.08em;
+  text-transform: uppercase;
+  color: var(--program-ink, var(--muted));
+}
+
+.insightDrawerLead {
+  margin: 0 0 10px;
+  color: var(--ink);
+  font-size: 14.5px;
   line-height: 1.45;
 }
 
-.guideRow,
-.appRow {
-  align-items: start;
-}
-
-.appCell {
-  display: grid;
-  gap: 12px;
-}
-
-.appText {
-  margin: 0;
+.insightTirage {
+  margin: -4px 0 10px;
+  color: var(--muted);
+  font-size: 13.5px;
+  line-height: 1.4;
 }
 
 .platformShots {
@@ -673,7 +727,7 @@ a.guideCover:hover {
   display: flex;
   flex-wrap: wrap;
   gap: 8px;
-  margin-bottom: 16px;
+  margin: 0 0 18px;
 }
 
 .tab {
@@ -808,9 +862,18 @@ a.guideCover:hover {
     grid-template-columns: repeat(2, minmax(0, 1fr));
   }
 
-  .insightRow {
-    grid-template-columns: 1fr;
-    gap: 4px;
+  .insightFact {
+    flex-direction: column;
+    align-items: flex-start;
+    gap: 6px;
+  }
+
+  .insightFact dt {
+    max-width: none;
+  }
+
+  .insightFact dd {
+    text-align: left;
   }
 }
 

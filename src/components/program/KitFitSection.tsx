@@ -69,7 +69,10 @@ export function KitFitSection({
           <div className={styles.block}>
             <h3 className={styles.blockTitle}>{messages.kitFitInKitTitle}</h3>
             <p className={styles.subLead}>{messages.kitFitInKitLead}</p>
-            <SeeHowToggle label={messages.seeHow} hideLabel={messages.seeHowHide}>
+            <SeeHowToggle
+              label={messages.seeHowOptions}
+              hideLabel={messages.seeHowHide}
+            >
               <ul className={styles.places}>
                 {placements.map((item) => (
                   <li key={item}>{item}</li>
@@ -81,7 +84,10 @@ export function KitFitSection({
           <div className={styles.block}>
             <h3 className={styles.blockTitle}>{messages.kitFitBrandTitle}</h3>
             <p className={styles.subLead}>{messages.kitFitBrandLead}</p>
-            <SeeHowToggle label={messages.seeHow} hideLabel={messages.seeHowHide}>
+            <SeeHowToggle
+              label={messages.seeHowDiagram}
+              hideLabel={messages.seeHowHide}
+            >
               <figure
                 className={styles.diagram}
                 aria-label={messages.kitFitBrandTitle}
@@ -133,7 +139,10 @@ export function KitFitSection({
         <div className={styles.guideBrand}>
           <h3 className={styles.blockTitle}>{messages.kitFitGuideBrandTitle}</h3>
           <p className={styles.subLead}>{messages.kitFitGuideBrandLead}</p>
-          <SeeHowToggle label={messages.seeHow} hideLabel={messages.seeHowHide}>
+          <SeeHowToggle
+            label={messages.seeHowLayouts}
+            hideLabel={messages.seeHowHide}
+          >
             <figure
               className={styles.diagram}
               aria-label={messages.kitFitGuideBrandTitle}

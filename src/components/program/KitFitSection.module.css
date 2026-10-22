@@ -241,6 +241,7 @@
   opacity: 0;
   width: 100%;
   margin-top: 0;
+  overflow: hidden;
   pointer-events: none;
   transition:
     grid-template-rows 300ms ease,
