@@ -5,23 +5,12 @@ import { Button } from "@/components/Button";
 import { getMessages, getStartHome, getTaglines } from "@/lib/content";
 import { localePath, type Locale } from "@/lib/i18n";
 import { getProgramBrand } from "@/lib/program-brands";
+import { platformShotForUrl } from "@/lib/platforms";
 import { getProgramById, padNum, programTileSrc } from "@/lib/programs";
 import { withTbc } from "@/lib/tbc";
 import { HowStepIcon } from "./HowStepIcon";
 import { ProgramFlipTile } from "./ProgramFlipTile";
 import styles from "./HomePage.module.css";
-
-/** Phone screenshots for live digital guides (START 9 / UniStart+). */
-function liveGuideShot(url: string | undefined): string | null {
-  if (!url) return null;
-  if (url.includes("startliceu.life")) {
-    return "/assets/platforms/screen-pl-startliceu.png";
-  }
-  if (url.includes("uni-start.com")) {
-    return "/assets/platforms/screen-pl-unistart.png";
-  }
-  return null;
-}
 
 export async function HomePage({ locale }: { locale: Locale }) {
   const startHome = await getStartHome(locale);
@@ -177,7 +166,7 @@ export async function HomePage({ locale }: { locale: Locale }) {
           <h2 id="live-h2">{startHome.live.h2}</h2>
           <div className={styles.live}>
             {startHome.live.cards.map((c) => {
-              const shot = liveGuideShot(c.url);
+              const shot = platformShotForUrl(c.url);
               return c.url ? (
                 <a
                   key={c.name}

@@ -180,82 +180,8 @@ const COVERS: Record<string, Record<string, GuideCover[]>> = {
       },
     ],
   },
-  /** START 9 interactive web guide (startliceu.life). */
-  "st-high": {
-    Greece: [
-      {
-        src: "/assets/platforms/screen-pl-startliceu.png",
-        alt: "START 9 · startliceu.life",
-        href: "https://startliceu.life",
-      },
-    ],
-    Romania: [
-      {
-        src: "/assets/platforms/screen-pl-startliceu.png",
-        alt: "START 9 · startliceu.life",
-        href: "https://startliceu.life",
-      },
-    ],
-    Bulgaria: [
-      {
-        src: "/assets/platforms/screen-pl-startliceu.png",
-        alt: "START 9 · startliceu.life",
-        href: "https://startliceu.life",
-      },
-    ],
-    Serbia: [
-      {
-        src: "/assets/platforms/screen-pl-startliceu.png",
-        alt: "START 9 · startliceu.life",
-        href: "https://startliceu.life",
-      },
-    ],
-    Cyprus: [
-      {
-        src: "/assets/platforms/screen-pl-startliceu.png",
-        alt: "START 9 · startliceu.life",
-        href: "https://startliceu.life",
-      },
-    ],
-  },
-  /** UniStart+ digital student guidebook (uni-start.com). */
-  "st-uni": {
-    Greece: [
-      {
-        src: "/assets/platforms/screen-pl-unistart.png",
-        alt: "UniStart+ · uni-start.com",
-        href: "https://uni-start.com",
-      },
-    ],
-    Romania: [
-      {
-        src: "/assets/platforms/screen-pl-unistart.png",
-        alt: "UniStart+ · uni-start.com",
-        href: "https://uni-start.com",
-      },
-    ],
-    Bulgaria: [
-      {
-        src: "/assets/platforms/screen-pl-unistart.png",
-        alt: "UniStart+ · uni-start.com",
-        href: "https://uni-start.com",
-      },
-    ],
-    Serbia: [
-      {
-        src: "/assets/platforms/screen-pl-unistart.png",
-        alt: "UniStart+ · uni-start.com",
-        href: "https://uni-start.com",
-      },
-    ],
-    Cyprus: [
-      {
-        src: "/assets/platforms/screen-pl-unistart.png",
-        alt: "UniStart+ · uni-start.com",
-        href: "https://uni-start.com",
-      },
-    ],
-  },
+  // START 9 / UniStart+ phone shots live under Insights “App / platform”
+  // (see src/lib/platforms.ts) — not as printed guide covers.
 };
 
 export function getGuideCovers(

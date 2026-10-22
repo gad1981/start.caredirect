@@ -554,8 +554,51 @@
   line-height: 1.45;
 }
 
-.guideRow {
+.guideRow,
+.appRow {
   align-items: start;
+}
+
+.appCell {
+  display: grid;
+  gap: 12px;
+}
+
+.appText {
+  margin: 0;
+}
+
+.platformShots {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 14px;
+}
+
+.platformShot {
+  display: grid;
+  gap: 8px;
+  width: min(160px, 42vw);
+  text-decoration: none;
+  color: inherit;
+  transition: transform 160ms ease;
+}
+
+.platformShot:hover {
+  transform: translateY(-3px);
+}
+
+.platformShotImg {
+  width: 100%;
+  height: auto;
+  display: block;
+  border-radius: 18px;
+  background: #111;
+  box-shadow: 0 12px 28px -16px rgba(0, 0, 0, 0.45);
+}
+
+.platformShotName {
+  font: 600 12.5px / 1.25 var(--body);
+  color: var(--muted);
 }
 
 .guideCell {
@@ -582,13 +625,6 @@
   line-height: 0;
   transition: transform 160ms ease, filter 160ms ease;
   filter: drop-shadow(0 10px 18px rgba(40, 30, 20, 0.18));
-}
-
-.guideCoverPhone {
-  width: min(200px, 55vw);
-  border-radius: 18px;
-  overflow: hidden;
-  background: #111;
 }
 
 a.guideCover:hover {

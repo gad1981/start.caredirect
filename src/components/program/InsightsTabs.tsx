@@ -7,6 +7,7 @@ import {
   guidesForCountry,
 } from "@/lib/guide-covers";
 import type { Locale } from "@/lib/i18n";
+import { platformsFromAppField } from "@/lib/platforms";
 import { withTbc } from "@/lib/tbc";
 import styles from "./ProgramPage.module.css";
 
@@ -136,7 +137,56 @@ export function InsightsTabs({
         <dl className={styles.insightTable}>
           {fields.map(({ key, label }) => {
             const value = row[key];
-            if (key !== "guide" && (!value || value === "—")) return null;
+            if (key !== "guide" && key !== "app" && (!value || value === "—")) {
+              return null;
+            }
+
+            if (key === "app") {
+              const platforms = platformsFromAppField(value);
+              if ((!value || value === "—") && !platforms.length) return null;
+
+              return (
+                <div
+                  key={key}
+                  className={`${styles.insightRow} ${styles.appRow}`}
+                >
+                  <dt>{label}</dt>
+                  <dd>
+                    <div className={styles.appCell}>
+                      {value && value !== "—" ? (
+                        <p className={styles.appText}>{withTbc(value)}</p>
+                      ) : null}
+                      {platforms.length ? (
+                        <div className={styles.platformShots}>
+                          {platforms.map((p) => (
+                            <a
+                              key={p.id}
+                              className={styles.platformShot}
+                              href={p.href}
+                              target="_blank"
+                              rel="noopener noreferrer"
+                              title={p.alt}
+                            >
+                              <Image
+                                src={p.src}
+                                alt={p.alt}
+                                width={390}
+                                height={844}
+                                className={styles.platformShotImg}
+                                sizes="(max-width: 600px) 42vw, 160px"
+                              />
+                              <span className={styles.platformShotName}>
+                                {p.name}
+                              </span>
+                            </a>
+                          ))}
+                        </div>
+                      ) : null}
+                    </div>
+                  </dd>
+                </div>
+              );
+            }
 
             if (key === "guide") {
               const hasGuide =
@@ -157,29 +207,21 @@ export function InsightsTabs({
                       {covers.length ? (
                         <div className={styles.guideCovers}>
                           {covers.map((cover) => {
-                            const isPhone = cover.src.includes("/platforms/");
-                            const coverClass = isPhone
-                              ? `${styles.guideCover} ${styles.guideCoverPhone}`
-                              : styles.guideCover;
                             const img = (
                               <Image
                                 src={cover.src}
                                 alt={cover.alt}
-                                width={isPhone ? 390 : 505}
-                                height={isPhone ? 844 : 752}
+                                width={505}
+                                height={752}
                                 className={styles.guideCoverImg}
-                                sizes={
-                                  isPhone
-                                    ? "(max-width: 600px) 55vw, 200px"
-                                    : "(max-width: 600px) 42vw, 140px"
-                                }
+                                sizes="(max-width: 600px) 42vw, 140px"
                                 unoptimized
                               />
                             );
                             return cover.href ? (
                               <a
                                 key={cover.src}
-                                className={coverClass}
+                                className={styles.guideCover}
                                 href={cover.href}
                                 target="_blank"
                                 rel="noopener noreferrer"
@@ -190,7 +232,7 @@ export function InsightsTabs({
                             ) : (
                               <div
                                 key={cover.src}
-                                className={coverClass}
+                                className={styles.guideCover}
                                 title={cover.alt}
                               >
                                 {img}
