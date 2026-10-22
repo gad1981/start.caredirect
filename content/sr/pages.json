@@ -93,15 +93,15 @@
   "note": "Skraćeno."
  },
  "st-order": {
-  "job": "Faza 2: omogući mamama da onlajn naruče besplatne uzorke, po fazi i zemlji.",
+  "job": "Faza 2: onlajn naručivanje besplatnih uzoraka po START programu i zemlji.",
   "t": "Naruči besplatne START uzorke | START by Care Direct",
-  "m": "Čekaš bebu ili si nova mama? Naruči besplatne START uzorke: izaberi fazu i zemlju, proveri da li ispunjavaš uslove, registruj se.",
+  "m": "Naruči besplatne START uzorke za svoju životnu fazu: izaberi program i zemlju, proveri da li ispunjavaš uslove, registruj se.",
   "h1": "Naruči besplatne START uzorke.",
   "sections": [
    {
     "name": "Hero",
     "comp": "hero",
-    "copy": "Besplatni uzorci i štampani vodič za tebe i tvoju bebu. Izaberi fazu i zemlju, proveri da li ispunjavaš uslove i registruj se.",
+    "copy": "Besplatni uzorci i štampani vodič za tvoj START trenutak — trudnoća, škola, fakultet i više. Izaberi program i zemlju, proveri da li ispunjavaš uslove i registruj se.",
     "proof": ""
    },
    {
@@ -113,14 +113,14 @@
    {
     "name": "Kako funkcioniše",
     "comp": "steps",
-    "copy": "Izaberi fazu → Izaberi zemlju → Proveri da li ispunjavaš uslove → Registruj se uz saglasnost → Potvrdi emailom ili SMS-om → Primi svoju kutiju",
+    "copy": "Izaberi START program → Izaberi zemlju → Registruj se uz saglasnost → Potvrdi emailom ili SMS-om → Primi svoju kutiju",
     "proof": "",
-    "intro": "Šest kratkih koraka od narudžbine do kutije."
+    "intro": "Pet kratkih koraka od narudžbine do kutije."
    },
    {
     "name": "Šta dobijaš",
     "comp": "card-grid",
-    "copy": "Besplatni uzorci: proizvodi odabrani za tvoju fazu · Štampani vodič: saveti za nedelje koje slede · Babyspace saveti: članci i alati za trudnoću i prvu godinu bebe",
+    "copy": "Besplatni uzorci: proizvodi odabrani za tvoju fazu · Štampani vodič: saveti za nedelje koje slede · Online praćenje: saveti i alati za tvoj START program",
     "proof": "",
     "intro": "Šta dobijaš."
    },

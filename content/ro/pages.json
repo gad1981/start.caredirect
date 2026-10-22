@@ -93,15 +93,15 @@
   "note": "Prescurtat."
  },
  "st-order": {
-  "job": "Faza 2: mamele pot comanda online mostrele gratuite, în funcție de etapă și de țară.",
+  "job": "Faza 2: comandă online mostrele gratuite, pe program START și țară.",
   "t": "Comandă mostrele tale gratuite START | START by Care Direct",
-  "m": "Ești gravidă sau mamă proaspătă? Comandă mostre gratuite START: alege etapa și țara, verifică dacă te califici, înregistrează-te.",
+  "m": "Comandă mostre gratuite START pentru etapa ta: alege programul și țara, verifică dacă te califici, înregistrează-te.",
   "h1": "Comandă mostrele tale gratuite START.",
   "sections": [
    {
     "name": "Hero",
     "comp": "hero",
-    "copy": "Mostre gratuite și un ghid tipărit pentru tine și pentru bebelușul tău. Alege etapa și țara, verifică dacă te califici și înregistrează-te.",
+    "copy": "Mostre gratuite și un ghid tipărit pentru momentul tău START — sarcină, școală, universitate și altele. Alege programul și țara, verifică dacă te califici și înregistrează-te.",
     "proof": ""
    },
    {
@@ -113,14 +113,14 @@
    {
     "name": "Cum funcționează",
     "comp": "steps",
-    "copy": "Alege etapa → Alege țara → Verifică dacă te califici → Înregistrează-te cu consimțământul tău → Confirmă prin email sau SMS → Primești cutia",
+    "copy": "Alege programul START → Alege țara → Înregistrează-te cu consimțământul tău → Confirmă prin email sau SMS → Primești cutia",
     "proof": "",
-    "intro": "Șase pași scurți, de la comandă până la cutie."
+    "intro": "Cinci pași scurți, de la comandă până la cutie."
    },
    {
     "name": "Ce primești",
     "comp": "card-grid",
-    "copy": "Mostre gratuite: produse alese pentru etapa ta · Un ghid tipărit: sfaturi pentru săptămânile următoare · Sfaturi Babyspace: articole și instrumente pentru sarcină și pentru primul an al bebelușului",
+    "copy": "Mostre gratuite: produse alese pentru etapa ta · Un ghid tipărit: sfaturi pentru săptămânile următoare · Follow-up online: sfaturi și instrumente pentru programul tău START",
     "proof": "",
     "intro": "Ce câștigi tu."
    },

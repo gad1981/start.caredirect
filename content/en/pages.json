@@ -93,34 +93,34 @@
   "note": "Shortened."
  },
  "st-order": {
-  "job": "Phase 2: let mums order their free samples online, by stage and country.",
+  "job": "Phase 2: let people order their free samples online, by START program and country.",
   "t": "Order your free START samples | START by Care Direct",
-  "m": "Expecting or a new mum? Order free START samples: choose your stage and country, check you qualify, register.",
+  "m": "Order free START samples for your life stage: choose your program and country, then register.",
   "h1": "Order your free START samples.",
   "sections": [
    {
     "name": "Hero",
     "comp": "hero",
-    "copy": "Free samples and a printed guide for you and your baby. Choose your stage and country, check you qualify and register.",
+    "copy": "Free samples and a printed guide for your START moment — pregnancy, school, university, and more. Choose your program and country, then register.",
     "proof": ""
    },
    {
     "name": "Already working",
     "comp": "statement",
-    "copy": "In Greece, 500 expecting mums a month already order their box online through Babyspace.",
+    "copy": "In Greece, 500 expecting mums a month already order their pregnancy box online through Babyspace.",
     "proof": "Babyspace media kit 2023"
    },
    {
     "name": "How it works",
     "comp": "steps",
-    "copy": "Choose your stage → Choose your country → Check you qualify → Register with your consent → Confirm by email or SMS → Receive your box",
+    "copy": "Choose your START program → Choose your country → Register with your consent → Confirm by email or SMS → Receive your box",
     "proof": "",
-    "intro": "Six short steps from order to box."
+    "intro": "Five short steps from order to box."
    },
    {
     "name": "What you get",
     "comp": "card-grid",
-    "copy": "Free samples: products chosen for your stage · A printed guide: advice for the weeks ahead · Babyspace advice: articles and tools for pregnancy and your baby's first year",
+    "copy": "Free samples: products chosen for your stage · A printed guide: advice for the weeks ahead · Online follow-up: tips and tools matched to your START program",
     "proof": "",
     "intro": "What's in it for you."
    },
@@ -134,7 +134,7 @@
    {
     "name": "FAQ",
     "comp": "faq",
-    "copy": "Is it free? Yes, the samples and the guide cost you nothing. · Who can order? [Stages and countries open at launch] · When will it arrive? [Delivery time per country] · How do I stop messages? Use the link in any message, or the Stop messages page.",
+    "copy": "Is it free? Yes, the samples and the guide cost you nothing. · Who can order? [Programs and countries open at launch] · When will it arrive? [Delivery time per country] · How do I stop messages? Use the link in any message, or the Stop messages page.",
     "proof": "",
     "intro": "Quick answers before you order."
    }

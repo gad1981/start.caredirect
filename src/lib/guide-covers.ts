@@ -59,6 +59,55 @@ const COVERS: Record<string, Record<string, GuideCover[]>> = {
         alt: "Σχέσεις Στοργής · the BOOM edition",
       },
     ],
+    Romania: [
+      {
+        src: "/assets/guides/romania-newborn-relatii-afectuoase.png",
+        alt: "Relații Afectuoase",
+        href: "https://heyzine.com/flip-book/af6388abac.html",
+      },
+      {
+        src: "/assets/guides/romania-breastfeeding-scurt-ghid-alaptare.png",
+        alt: "Scurt ghid practic pentru alăptare",
+        href: "https://heyzine.com/flip-book/e34cc9b492.html",
+      },
+    ],
+    Bulgaria: [
+      {
+        src: "/assets/guides/bulgaria-breastfeeding-kratko-praktichesko-rakovodstvo.png",
+        alt: "Кратко практическо ръководство за кърмене",
+        href: "https://heyzine.com/flip-book/0b1c5e2f26.html",
+      },
+    ],
+    Serbia: [
+      {
+        src: "/assets/guides/serbia-breastfeeding-prakticni-vodic-dojenje.png",
+        alt: "Praktični vodič za uspešno dojenje",
+        href: "https://heyzine.com/flip-book/8e724472cf.html",
+      },
+    ],
+  },
+  "st-next": {
+    Romania: [
+      {
+        src: "/assets/guides/romania-breastfeeding-scurt-ghid-alaptare.png",
+        alt: "Scurt ghid practic pentru alăptare",
+        href: "https://heyzine.com/flip-book/e34cc9b492.html",
+      },
+    ],
+    Bulgaria: [
+      {
+        src: "/assets/guides/bulgaria-breastfeeding-kratko-praktichesko-rakovodstvo.png",
+        alt: "Кратко практическо ръководство за кърмене",
+        href: "https://heyzine.com/flip-book/0b1c5e2f26.html",
+      },
+    ],
+    Serbia: [
+      {
+        src: "/assets/guides/serbia-breastfeeding-prakticni-vodic-dojenje.png",
+        alt: "Praktični vodič za uspešno dojenje",
+        href: "https://heyzine.com/flip-book/8e724472cf.html",
+      },
+    ],
   },
   "st-school": {
     Romania: [
