@@ -70,10 +70,11 @@
   margin: 0;
   font: 800 clamp(28px, 4.2vw, 58px) / 1.08 var(--display);
   letter-spacing: -0.03em;
-  max-width: min(13ch, 100%);
+  max-width: 100%;
   color: var(--ink);
-  text-wrap: balance;
-  overflow-wrap: anywhere;
+  /* Honor explicit \\n breaks so the 3-line desktop composition stays fixed. */
+  white-space: pre-line;
+  overflow-wrap: normal;
   hyphens: manual;
 }
 
@@ -976,7 +977,6 @@
   }
 
   .card h1 {
-    max-width: none;
     font-size: clamp(26px, 8.2vw, 36px);
   }
 
