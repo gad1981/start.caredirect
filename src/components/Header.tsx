@@ -42,8 +42,18 @@ export function Header() {
         <div className={styles.bar}>
           <AppLink className={styles.logo} href={home} onClick={closeMenus}>
             <span className={styles.mark} aria-hidden />
-            <span className="visually-hidden">START</span>
-            <span className={styles.by}>{messages.byCareDirect}</span>
+            <span className="visually-hidden">START by Care Direct</span>
+            <span className={styles.lockup} aria-hidden>
+              <span className={styles.by}>by</span>
+              {/* eslint-disable-next-line @next/next/no-img-element */}
+              <img
+                className={styles.cdLogo}
+                src="/assets/brand/caredirect-logo.png"
+                alt=""
+                width={249}
+                height={38}
+              />
+            </span>
           </AppLink>
           <button
             className={styles.burger}

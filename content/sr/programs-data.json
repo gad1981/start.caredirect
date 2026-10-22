@@ -1,9 +1,9 @@
 {
   "START_PLATFORMS": {
-    "st-pregnancy": "Babyspace (babyspace.gr, babyspace.com.ro, babyspace.bg) · Myparenthood (myparenthood.gr, Grčka) · Mybabywinner (Srbija, Kipar) · HeyMaa (heymaa.ai, AI pratilac)",
-    "st-natal": "Babyspace (Grčka, Rumunija, Bugarska) · Myparenthood (Grčka) · Mybabywinner (Srbija, Kipar) · HeyMaa (heymaa.ai, AI pratilac)",
+    "st-pregnancy": "Babyspace (babyspace.gr, babyspace.com.ro, babyspace.bg) · Myparenthood (myparenthood.gr, Grčka) · Mybabywinner (Srbija, Kipar) · HeyMaa (heymaa.ai, AI pratilac) · Momtag (Grčka, Rumunija)",
+    "st-natal": "Babyspace (Grčka, Rumunija, Bugarska) · Myparenthood (Grčka) · Mybabywinner (Srbija, Kipar) · HeyMaa (heymaa.ai, AI pratilac) · Momtag (Grčka, Rumunija)",
     "st-luxury": "Babyspace (Grčka) · Myparenthood (Grčka)",
-    "st-next": "Babyspace (Grčka, Rumunija, Bugarska) · Myparenthood (Grčka) · Mybabywinner (Srbija, Kipar) · HeyMaa (heymaa.ai, AI pratilac)",
+    "st-next": "Babyspace (Grčka, Rumunija, Bugarska) · Myparenthood (Grčka) · Mybabywinner (Srbija, Kipar) · HeyMaa (heymaa.ai, AI pratilac) · Momtag (Grčka, Rumunija)",
     "st-school": "Myschoolwinner (myschoolwinner.com: Grčka, Rumunija, Bugarska i Srbija)",
     "st-high": "START 9 (startliceu.life) [navedeno je start.life: potvrdi adresu]",
     "st-uni": "UniStart+ (uni-start.com)",
@@ -15,7 +15,7 @@
       [
         "Grčka",
         "Σχέσεις Στοργής · the BOOM edition",
-        ""
+        "https://heyzine.com/flip-book/9f742c4eb8.html"
       ],
       [
         "Rumunija",
@@ -24,8 +24,8 @@
       ],
       [
         "Bugarska",
-        "Natal Guide",
-        "https://heyzine.com/flip-book/9f742c4eb8.html"
+        "За едно щастливо начало",
+        "https://heyzine.com/flip-book/ea452acee4.html"
       ],
       [
         "Rumunija",
@@ -81,7 +81,39 @@
       [
         "Grčka",
         "Σχέσεις Στοργής · Η ΠΙΟ ΓΛΥΚΙΑ ΑΝΑΜΟΝΗ (the BOOM edition)",
-        ""
+        "https://heyzine.com/flip-book/9f742c4eb8.html"
+      ]
+    ],
+    "st-luxury": [
+      [
+        "Grčka",
+        "Σχέσεις Στοργής · the BOOM edition",
+        "https://heyzine.com/flip-book/9f742c4eb8.html"
+      ],
+      [
+        "Rumunija",
+        "Relații Afectuoase",
+        "https://heyzine.com/flip-book/af6388abac.html"
+      ],
+      [
+        "Bugarska",
+        "За едно щастливо начало",
+        "https://heyzine.com/flip-book/ea452acee4.html"
+      ],
+      [
+        "Rumunija",
+        "Vodič za dojenje 2026",
+        "https://heyzine.com/flip-book/e34cc9b492.html"
+      ],
+      [
+        "Bugarska",
+        "Кратко практическо ръководство за кърмене",
+        "https://heyzine.com/flip-book/0b1c5e2f26.html"
+      ],
+      [
+        "Srbija",
+        "Praktični vodič za uspešno dojenje",
+        "https://heyzine.com/flip-book/8e724472cf.html"
       ]
     ]
   },

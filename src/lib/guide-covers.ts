@@ -49,6 +49,7 @@ const COVERS: Record<string, Record<string, GuideCover[]>> = {
       {
         src: "/assets/guides/greece-pregnancy-sxeseis-storgis-boom.png",
         alt: "Σχέσεις Στοργής · Η ΠΙΟ ΓΛΥΚΙΑ ΑΝΑΜΟΝΗ (the BOOM edition)",
+        href: "https://heyzine.com/flip-book/9f742c4eb8.html",
       },
     ],
   },
@@ -57,6 +58,7 @@ const COVERS: Record<string, Record<string, GuideCover[]>> = {
       {
         src: "/assets/guides/greece-newborn-sxeseis-storgis-boom.png",
         alt: "Σχέσεις Στοργής · the BOOM edition",
+        href: "https://heyzine.com/flip-book/9f742c4eb8.html",
       },
     ],
     Romania: [
@@ -72,6 +74,52 @@ const COVERS: Record<string, Record<string, GuideCover[]>> = {
       },
     ],
     Bulgaria: [
+      {
+        src: "/assets/guides/bulgaria-newborn-za-edno-shtastlivo-nachalo.png",
+        alt: "За едно щастливо начало",
+        href: "https://heyzine.com/flip-book/ea452acee4.html",
+      },
+      {
+        src: "/assets/guides/bulgaria-breastfeeding-kratko-praktichesko-rakovodstvo.png",
+        alt: "Кратко практическо ръководство за кърмене",
+        href: "https://heyzine.com/flip-book/0b1c5e2f26.html",
+      },
+    ],
+    Serbia: [
+      {
+        src: "/assets/guides/serbia-breastfeeding-prakticni-vodic-dojenje.png",
+        alt: "Praktični vodič za uspešno dojenje",
+        href: "https://heyzine.com/flip-book/8e724472cf.html",
+      },
+    ],
+  },
+  /** Luxury Moments uses the same newborn guides. */
+  "st-luxury": {
+    Greece: [
+      {
+        src: "/assets/guides/greece-newborn-sxeseis-storgis-boom.png",
+        alt: "Σχέσεις Στοργής · the BOOM edition",
+        href: "https://heyzine.com/flip-book/9f742c4eb8.html",
+      },
+    ],
+    Romania: [
+      {
+        src: "/assets/guides/romania-newborn-relatii-afectuoase.png",
+        alt: "Relații Afectuoase",
+        href: "https://heyzine.com/flip-book/af6388abac.html",
+      },
+      {
+        src: "/assets/guides/romania-breastfeeding-scurt-ghid-alaptare.png",
+        alt: "Scurt ghid practic pentru alăptare",
+        href: "https://heyzine.com/flip-book/e34cc9b492.html",
+      },
+    ],
+    Bulgaria: [
+      {
+        src: "/assets/guides/bulgaria-newborn-za-edno-shtastlivo-nachalo.png",
+        alt: "За едно щастливо начало",
+        href: "https://heyzine.com/flip-book/ea452acee4.html",
+      },
       {
         src: "/assets/guides/bulgaria-breastfeeding-kratko-praktichesko-rakovodstvo.png",
         alt: "Кратко практическо ръководство за кърмене",

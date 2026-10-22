@@ -1,9 +1,9 @@
 {
  "START_PLATFORMS": {
-  "st-pregnancy": "Babyspace (babyspace.gr, babyspace.com.ro, babyspace.bg) · Myparenthood (myparenthood.gr, Greece) · Mybabywinner (Serbia, Cyprus) · HeyMaa (heymaa.ai, AI companion)",
-  "st-natal": "Babyspace (Greece, Romania, Bulgaria) · Myparenthood (Greece) · Mybabywinner (Serbia, Cyprus) · HeyMaa (heymaa.ai, AI companion)",
+  "st-pregnancy": "Babyspace (babyspace.gr, babyspace.com.ro, babyspace.bg) · Myparenthood (myparenthood.gr, Greece) · Mybabywinner (Serbia, Cyprus) · HeyMaa (heymaa.ai, AI companion) · Momtag (Greece, Romania)",
+  "st-natal": "Babyspace (Greece, Romania, Bulgaria) · Myparenthood (Greece) · Mybabywinner (Serbia, Cyprus) · HeyMaa (heymaa.ai, AI companion) · Momtag (Greece, Romania)",
   "st-luxury": "Babyspace (Greece) · Myparenthood (Greece)",
-  "st-next": "Babyspace (Greece, Romania, Bulgaria) · Myparenthood (Greece) · Mybabywinner (Serbia, Cyprus) · HeyMaa (heymaa.ai, AI companion)",
+  "st-next": "Babyspace (Greece, Romania, Bulgaria) · Myparenthood (Greece) · Mybabywinner (Serbia, Cyprus) · HeyMaa (heymaa.ai, AI companion) · Momtag (Greece, Romania)",
   "st-school": "Myschoolwinner (myschoolwinner.com: Greece, Romania, Bulgaria and Serbia)",
   "st-high": "START 9 (startliceu.life) [you wrote start.life: confirm the address]",
   "st-uni": "UniStart+ (uni-start.com)",
@@ -15,14 +15,14 @@
    [
     "Greece",
     "Σχέσεις Στοργής · Η ΠΙΟ ΓΛΥΚΙΑ ΑΝΑΜΟΝΗ (the BOOM edition)",
-    ""
+    "https://heyzine.com/flip-book/9f742c4eb8.html"
    ]
   ],
   "st-natal": [
    [
     "Greece",
     "Σχέσεις Στοργής · the BOOM edition",
-    ""
+    "https://heyzine.com/flip-book/9f742c4eb8.html"
    ],
    [
     "Romania",
@@ -31,8 +31,8 @@
    ],
    [
     "Bulgaria",
-    "Natal Guide",
-    "https://heyzine.com/flip-book/9f742c4eb8.html"
+    "За едно щастливо начало",
+    "https://heyzine.com/flip-book/ea452acee4.html"
    ],
    [
     "Romania",
@@ -82,6 +82,38 @@
     "Serbia",
     "Prvi dan škole",
     "https://heyzine.com/flip-book/f6ae2642bc.html"
+   ]
+  ],
+  "st-luxury": [
+   [
+    "Greece",
+    "Σχέσεις Στοργής · the BOOM edition",
+    "https://heyzine.com/flip-book/9f742c4eb8.html"
+   ],
+   [
+    "Romania",
+    "Relații Afectuoase",
+    "https://heyzine.com/flip-book/af6388abac.html"
+   ],
+   [
+    "Bulgaria",
+    "За едно щастливо начало",
+    "https://heyzine.com/flip-book/ea452acee4.html"
+   ],
+   [
+    "Romania",
+    "Scurt ghid practic pentru alăptare",
+    "https://heyzine.com/flip-book/e34cc9b492.html"
+   ],
+   [
+    "Bulgaria",
+    "Кратко практическо ръководство за кърмене",
+    "https://heyzine.com/flip-book/0b1c5e2f26.html"
+   ],
+   [
+    "Serbia",
+    "Praktični vodič za uspešno dojenje",
+    "https://heyzine.com/flip-book/8e724472cf.html"
    ]
   ]
  },

@@ -5,7 +5,7 @@
       "reach": "20,000 бъдещи майки / година",
       "cities": "Атина, Солун, Патра и клиники в цялата страна",
       "channels": "Гинекологични и родилни клиники · 3-ти триместър",
-      "app": "Babyspace · Myparenthood",
+      "app": "Babyspace · Myparenthood · Momtag",
       "guide": "Σχέσεις Στοργής · Η ΠΙΟ ΓΛΥΚΙΑ ΑΝΑΜΟΝΗ (the BOOM edition)",
       "tirage": "С кутията · сътрудничество с лекари"
     },
@@ -14,7 +14,7 @@
       "reach": "Пренатален обем за потвърждение",
       "cities": "Букурещ и мрежа от родилни клиники — в разширяване",
       "channels": "Гинекологични и родилни клиники",
-      "app": "Babyspace · HeyMaa (pilot)",
+      "app": "Babyspace · HeyMaa (pilot) · Momtag",
       "guide": "—",
       "tirage": "—"
     },
@@ -52,7 +52,7 @@
       "reach": "50,000 нови майки / година",
       "cities": "Държавни и частни родилни клиники в цялата страна",
       "channels": "Предава се 2–3 дни след раждането",
-      "app": "Babyspace · Myparenthood",
+      "app": "Babyspace · Myparenthood · Momtag",
       "guide": "Σχέσεις Στοργής · the BOOM edition",
       "tirage": "Печатен с кутията за първите дни"
     },
@@ -61,7 +61,7 @@
       "reach": "160,000 нови майки / година",
       "cities": "Родилни клиники в цялата страна",
       "channels": "Асоциации по неонатология и педиатрия",
-      "app": "Babyspace · HeyMaa (pilot)",
+      "app": "Babyspace · HeyMaa (pilot) · Momtag",
       "guide": "Relații Afectuoase · Scurt ghid practic pentru alăptare",
       "tirage": "Печатен с кутията"
     },
@@ -71,7 +71,7 @@
       "cities": "Родилни клиники в цялата страна",
       "channels": "Асоциация на педиатрите",
       "app": "Babyspace",
-      "guide": "Natal Guide · Кратко практическо ръководство за кърмене",
+      "guide": "За едно щастливо начало · Кратко практическо ръководство за кърмене",
       "tirage": "Печатен с кутията"
     },
     {
@@ -100,8 +100,8 @@
       "cities": "Частни клиники в Атина и Солун",
       "channels": "Частни апартаменти и самостоятелни стаи",
       "app": "Babyspace · Myparenthood",
-      "guide": "Наръчник на комплекта Luxury Moments",
-      "tirage": "Ексклузивен печатен комплект"
+      "guide": "Σχέσεις Στοργής · the BOOM edition",
+      "tirage": "Печатен с кутията за първите дни"
     },
     {
       "country": "Румъния",
@@ -109,8 +109,8 @@
       "cities": "Букурещ частни клиники",
       "channels": "Частни апартаменти",
       "app": "Babyspace",
-      "guide": "—",
-      "tirage": "—"
+      "guide": "Relații Afectuoase · Scurt ghid practic pentru alăptare",
+      "tirage": "Печатен с кутията"
     },
     {
       "country": "България",
@@ -118,8 +118,8 @@
       "cities": "София частни клиники",
       "channels": "Частни апартаменти",
       "app": "Babyspace",
-      "guide": "—",
-      "tirage": "—"
+      "guide": "За едно щастливо начало · Кратко практическо ръководство за кърмене",
+      "tirage": "Печатен с кутията"
     },
     {
       "country": "Сърбия",
@@ -127,8 +127,8 @@
       "cities": "Белград частни клиники",
       "channels": "Частни апартаменти",
       "app": "—",
-      "guide": "—",
-      "tirage": "—"
+      "guide": "Praktični vodič za uspešno dojenje",
+      "tirage": "Печатен с кутията"
     },
     {
       "country": "Кипър",
@@ -146,7 +146,7 @@
       "reach": "Семейства при захранване — обем за потвърждение",
       "cities": "Доставка до дома в цялата страна",
       "channels": "Бебе ~6 месеца · доставка до дома",
-      "app": "Babyspace · Myparenthood",
+      "app": "Babyspace · Myparenthood · Momtag",
       "guide": "Съдържание first foods чрез платформи за родители",
       "tirage": "Кутия с доставка до дома"
     },
@@ -155,7 +155,7 @@
       "reach": "Семейства при захранване — обем за потвърждение",
       "cities": "Доставка до дома в цялата страна",
       "channels": "Бебе ~6 месеца · доставка до дома",
-      "app": "Babyspace · HeyMaa",
+      "app": "Babyspace · HeyMaa · Momtag",
       "guide": "Scurt ghid practic pentru alăptare",
       "tirage": "Кутия с доставка до дома"
     },

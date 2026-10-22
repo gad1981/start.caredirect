@@ -5,7 +5,7 @@
       "reach": "20,000 μέλλουσες μητέρες / έτος",
       "cities": "Αθήνα, Θεσσαλονίκη, Πάτρα και κλινικές σε όλη τη χώρα",
       "channels": "Γυναικολογικές & μαιευτικές κλινικές · 3ο τρίμηνο",
-      "app": "Babyspace · Myparenthood",
+      "app": "Babyspace · Myparenthood · Momtag",
       "guide": "Σχέσεις Στοργής · Η ΠΙΟ ΓΛΥΚΙΑ ΑΝΑΜΟΝΗ (the BOOM edition)",
       "tirage": "Με το κουτί · συνεργασία με γιατρούς"
     },
@@ -14,7 +14,7 @@
       "reach": "Όγκος prenatal προς επιβεβαίωση",
       "cities": "Βουκουρέστι και δίκτυο μαιευτηρίων — επεκτείνεται",
       "channels": "Γυναικολογικές & μαιευτικές κλινικές",
-      "app": "Babyspace · HeyMaa (pilot)",
+      "app": "Babyspace · HeyMaa (pilot) · Momtag",
       "guide": "—",
       "tirage": "—"
     },
@@ -52,7 +52,7 @@
       "reach": "50,000 νέες μητέρες / έτος",
       "cities": "Δημόσια & ιδιωτικά μαιευτήρια σε όλη τη χώρα",
       "channels": "Παράδοση 2–3 ημέρες μετά τον τοκετό",
-      "app": "Babyspace · Myparenthood",
+      "app": "Babyspace · Myparenthood · Momtag",
       "guide": "Σχέσεις Στοργής · the BOOM edition",
       "tirage": "Έντυπο με το κουτί πρώτων ημερών"
     },
@@ -61,7 +61,7 @@
       "reach": "160,000 νέες μητέρες / έτος",
       "cities": "Μαιευτήρια σε όλη τη χώρα",
       "channels": "Ενώσεις νεογνολογίας & παιδιατρικής",
-      "app": "Babyspace · HeyMaa (pilot)",
+      "app": "Babyspace · HeyMaa (pilot) · Momtag",
       "guide": "Relații Afectuoase · Scurt ghid practic pentru alăptare",
       "tirage": "Έντυπο με το κουτί"
     },
@@ -71,7 +71,7 @@
       "cities": "Μαιευτήρια σε όλη τη χώρα",
       "channels": "Ένωση Παιδιάτρων",
       "app": "Babyspace",
-      "guide": "Natal Guide · Кратко практическо ръководство за кърмене",
+      "guide": "За едно щастливо начало · Кратко практическо ръководство за кърмене",
       "tirage": "Έντυπο με το κουτί"
     },
     {
@@ -100,8 +100,8 @@
       "cities": "Ιδιωτικές κλινικές Αθήνας & Θεσσαλονίκης",
       "channels": "Ιδιωτικές σουίτες & ιδιωτικά δωμάτια",
       "app": "Babyspace · Myparenthood",
-      "guide": "Οδηγός kit Luxury Moments",
-      "tirage": "Αποκλειστικό έντυπο kit"
+      "guide": "Σχέσεις Στοργής · the BOOM edition",
+      "tirage": "Έντυπο με το κουτί πρώτων ημερών"
     },
     {
       "country": "Ρουμανία",
@@ -109,8 +109,8 @@
       "cities": "Βουκουρέστι ιδιωτικές κλινικές",
       "channels": "Ιδιωτικές σουίτες",
       "app": "Babyspace",
-      "guide": "—",
-      "tirage": "—"
+      "guide": "Relații Afectuoase · Scurt ghid practic pentru alăptare",
+      "tirage": "Έντυπο με το κουτί"
     },
     {
       "country": "Βουλγαρία",
@@ -118,8 +118,8 @@
       "cities": "Σόφια ιδιωτικές κλινικές",
       "channels": "Ιδιωτικές σουίτες",
       "app": "Babyspace",
-      "guide": "—",
-      "tirage": "—"
+      "guide": "За едно щастливо начало · Кратко практическо ръководство за кърмене",
+      "tirage": "Έντυπο με το κουτί"
     },
     {
       "country": "Σερβία",
@@ -127,8 +127,8 @@
       "cities": "Βελιγράδι ιδιωτικές κλινικές",
       "channels": "Ιδιωτικές σουίτες",
       "app": "—",
-      "guide": "—",
-      "tirage": "—"
+      "guide": "Praktični vodič za uspešno dojenje",
+      "tirage": "Έντυπο με το κουτί"
     },
     {
       "country": "Κύπρος",
@@ -146,7 +146,7 @@
       "reach": "Οικογένειες στο ξεκίνημα στερεών — όγκος προς επιβεβαίωση",
       "cities": "Παράδοση στο σπίτι σε όλη τη χώρα",
       "channels": "Μωρό ~6 μηνών · παράδοση στο σπίτι",
-      "app": "Babyspace · Myparenthood",
+      "app": "Babyspace · Myparenthood · Momtag",
       "guide": "Περιεχόμενο first foods μέσω parent platforms",
       "tirage": "Κουτί με παράδοση στο σπίτι"
     },
@@ -155,7 +155,7 @@
       "reach": "Οικογένειες στο ξεκίνημα στερεών — όγκος προς επιβεβαίωση",
       "cities": "Παράδοση στο σπίτι σε όλη τη χώρα",
       "channels": "Μωρό ~6 μηνών · παράδοση στο σπίτι",
-      "app": "Babyspace · HeyMaa",
+      "app": "Babyspace · HeyMaa · Momtag",
       "guide": "Scurt ghid practic pentru alăptare",
       "tirage": "Κουτί με παράδοση στο σπίτι"
     },

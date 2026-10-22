@@ -53,7 +53,7 @@
 .logo {
   display: inline-flex;
   align-items: flex-end;
-  gap: 8px;
+  gap: 7px;
   text-decoration: none;
   color: var(--ink);
   line-height: 1;
@@ -69,13 +69,28 @@
   flex-shrink: 0;
 }
 
+.lockup {
+  display: inline-flex;
+  align-items: center;
+  gap: 5px;
+  height: 9px;
+  margin-bottom: 1px;
+}
+
 .by {
   display: block;
-  font-size: 12.5px;
+  font-size: 9px;
   color: var(--muted);
   font-weight: 500;
-  line-height: 1;
-  padding-bottom: 1px;
+  line-height: 9px;
+  height: 9px;
+}
+
+.cdLogo {
+  display: block;
+  height: 9px;
+  width: auto;
+  object-fit: contain;
 }
 
 .nav {
