@@ -15,9 +15,11 @@ export function HeroTitleBand({ children }: { children: ReactNode }) {
     const mq = window.matchMedia("(max-width: 820px)");
     const sync = () => {
       const h = el.getBoundingClientRect().height;
-      /* Desktop CSS: translateY(-62%) → 38% hangs below photo.
-         Mobile CSS: translateY(-50%) → 50% hangs below photo. */
-      setHang(h * (mq.matches ? 0.5 : 0.38));
+      /* Must match CSS translateY(-lift): transform leaves `lift` of the
+         layout box empty below the visual card — pull the next section up
+         by that amount so the gap under the card stays small. */
+      const lift = mq.matches ? 0.5 : 0.62;
+      setHang(h * lift);
     };
     sync();
 

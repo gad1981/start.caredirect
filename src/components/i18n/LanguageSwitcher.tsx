@@ -3,11 +3,10 @@
 import { usePathname } from "next/navigation";
 import { AppLink } from "@/components/AppLink";
 import {
-  LOCALE_COOKIE,
   localeLabels,
   locales,
+  rememberLocale,
   swapLocalePath,
-  type Locale,
 } from "@/lib/i18n";
 import { useLocale } from "./LocaleProvider";
 import styles from "./LanguageSwitcher.module.css";
@@ -15,10 +14,6 @@ import styles from "./LanguageSwitcher.module.css";
 export function LanguageSwitcher({ className = "" }: { className?: string }) {
   const { locale, messages } = useLocale();
   const pathname = usePathname() || "/";
-
-  function remember(next: Locale) {
-    document.cookie = `${LOCALE_COOKIE}=${next};path=/;max-age=31536000;samesite=lax`;
-  }
 
   return (
     <nav
@@ -36,7 +31,7 @@ export function LanguageSwitcher({ className = "" }: { className?: string }) {
             className={`${styles.btn} ${active ? styles.active : ""}`}
             hrefLang={code === "sr" ? "sr-Latn" : code}
             aria-current={active ? "page" : undefined}
-            onClick={() => remember(code)}
+            onClick={() => rememberLocale(code)}
           >
             {localeLabels[code]}
           </AppLink>

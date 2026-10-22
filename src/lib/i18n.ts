@@ -22,6 +22,12 @@ export const htmlLang: Record<Locale, string> = {
 
 export const LOCALE_COOKIE = "START_LOCALE";
 
+/** Persist preferred locale for the proxy / next visit. */
+export function rememberLocale(next: Locale) {
+  if (typeof document === "undefined") return;
+  document.cookie = `${LOCALE_COOKIE}=${next};path=/;max-age=31536000;samesite=lax`;
+}
+
 export function isLocale(value: string): value is Locale {
   return (locales as readonly string[]).includes(value);
 }

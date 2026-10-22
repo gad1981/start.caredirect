@@ -28,8 +28,8 @@
 .card {
   position: relative;
   z-index: 1;
-  /* Strong overlap into the photo so the title sits on the first screen. */
-  margin: clamp(-200px, -26vh, -110px) 0 0;
+  /* Stronger overlap into the photo so the title sits higher on the first screen. */
+  margin: clamp(-280px, -34vh, -160px) 0 0;
   width: 100%;
   max-width: none;
   background: linear-gradient(
@@ -46,16 +46,6 @@
   display: grid;
   gap: 28px;
   overflow: visible;
-}
-
-.homeLogo {
-  display: block;
-  height: auto;
-  width: min(220px, 58vw);
-  max-height: 56px;
-  object-fit: contain;
-  object-position: left center;
-  margin: 0 0 16px;
 }
 
 .eye {

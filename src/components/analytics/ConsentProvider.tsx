@@ -2,6 +2,7 @@
 
 import {
   createContext,
+  startTransition,
   useCallback,
   useContext,
   useEffect,
@@ -69,11 +70,13 @@ export function ConsentProvider({
 
   useEffect(() => {
     const stored = readStoredConsent();
-    setConsent(stored);
     if (stored.decided) {
       applyConsent(stored.analytics);
     }
-    setReady(true);
+    startTransition(() => {
+      setConsent(stored);
+      setReady(true);
+    });
   }, []);
 
   const acceptAnalytics = useCallback(() => {
