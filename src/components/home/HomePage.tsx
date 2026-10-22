@@ -11,6 +11,18 @@ import { HowStepIcon } from "./HowStepIcon";
 import { ProgramFlipTile } from "./ProgramFlipTile";
 import styles from "./HomePage.module.css";
 
+/** Phone screenshots for live digital guides (START 9 / UniStart+). */
+function liveGuideShot(url: string | undefined): string | null {
+  if (!url) return null;
+  if (url.includes("startliceu.life")) {
+    return "/assets/platforms/screen-pl-startliceu.png";
+  }
+  if (url.includes("uni-start.com")) {
+    return "/assets/platforms/screen-pl-unistart.png";
+  }
+  return null;
+}
+
 export async function HomePage({ locale }: { locale: Locale }) {
   const startHome = await getStartHome(locale);
   const messages = getMessages(locale);
@@ -164,8 +176,9 @@ export async function HomePage({ locale }: { locale: Locale }) {
           <p className={styles.eye}>{startHome.live.eyebrow}</p>
           <h2 id="live-h2">{startHome.live.h2}</h2>
           <div className={styles.live}>
-            {startHome.live.cards.map((c) =>
-              c.url ? (
+            {startHome.live.cards.map((c) => {
+              const shot = liveGuideShot(c.url);
+              return c.url ? (
                 <a
                   key={c.name}
                   className={styles.liveCard}
@@ -173,25 +186,39 @@ export async function HomePage({ locale }: { locale: Locale }) {
                   target="_blank"
                   rel="noopener noreferrer"
                 >
-                  <span className={styles.tag}>{c.tag}</span>
-                  <span className={styles.lname}>{c.name}</span>
-                  <span>{c.desc}</span>
-                  <span className={styles.more}>{c.link}</span>
+                  <span className={styles.liveBody}>
+                    <span className={styles.tag}>{c.tag}</span>
+                    <span className={styles.lname}>{c.name}</span>
+                    <span>{c.desc}</span>
+                    <span className={styles.more}>{c.link}</span>
+                  </span>
+                  {shot ? (
+                    // eslint-disable-next-line @next/next/no-img-element
+                    <img
+                      className={styles.liveShot}
+                      src={shot}
+                      alt=""
+                      width={390}
+                      height={844}
+                    />
+                  ) : null}
                 </a>
               ) : (
                 <div key={c.name} className={`${styles.liveCard} ${styles.next}`}>
-                  <span className={styles.tag}>{c.tag}</span>
-                  <span className={styles.lname}>{withTbc(c.name)}</span>
-                  <span>{c.desc}</span>
-                  <AppLink
-                    className={styles.more}
-                    href={localePath(locale, "/plan/")}
-                  >
-                    {messages.talkToUs}
-                  </AppLink>
+                  <span className={styles.liveBody}>
+                    <span className={styles.tag}>{c.tag}</span>
+                    <span className={styles.lname}>{withTbc(c.name)}</span>
+                    <span>{c.desc}</span>
+                    <AppLink
+                      className={styles.more}
+                      href={localePath(locale, "/plan/")}
+                    >
+                      {messages.talkToUs}
+                    </AppLink>
+                  </span>
                 </div>
-              ),
-            )}
+              );
+            })}
           </div>
         </div>
       </section>

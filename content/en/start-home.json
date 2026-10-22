@@ -312,7 +312,7 @@
  },
  "live": {
   "eyebrow": "Live now",
-  "h2": "See a START from the inside.",
+  "h2": "See an Online START from the inside.",
   "cards": [
    {
     "tag": "Romania · starting high school",
@@ -327,13 +327,6 @@
     "desc": "A digital student guidebook with goals, career steps and a partner box, built with UNSS Sofia.",
     "url": "https://uni-start.com",
     "link": "uni-start.com →"
-   },
-   {
-    "tag": "Next to launch",
-    "name": "[NEXT START]",
-    "desc": "Your brand could be the founding partner of the next life-stage program.",
-    "url": "",
-    "link": ""
    }
   ]
  },

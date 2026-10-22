@@ -761,21 +761,27 @@
 
 .live {
   display: grid;
-  grid-template-columns: repeat(3, minmax(0, 1fr));
-  gap: 14px;
+  grid-template-columns: 1fr 1fr;
+  gap: 20px 18px;
   margin-top: 28px;
+  /* Room for phones that hang past the white cards. */
+  padding: 48px 0 56px;
+  overflow: visible;
 }
 
 .liveCard {
+  position: relative;
   background: var(--surface);
   border: 1px solid var(--line);
   border-radius: 22px;
-  padding: 20px;
+  /* Height follows copy; right pad leaves a lane for the phone. */
+  padding: 20px 118px 20px 18px;
   text-decoration: none;
   color: inherit;
-  display: grid;
-  gap: 8px;
+  display: block;
+  overflow: visible;
   transition: box-shadow 0.2s ease;
+  min-width: 0;
 }
 
 .liveCard:hover {
@@ -784,15 +790,44 @@
 
 .liveCard.next {
   border-style: dashed;
+  padding-right: 18px;
+}
+
+.liveBody {
+  display: grid;
+  gap: 6px;
+  align-content: center;
+  min-width: 0;
+}
+
+.liveBody > span:not(.tag):not(.lname):not(.more) {
+  font-size: 14px;
+  line-height: 1.4;
+}
+
+.liveShot {
+  position: absolute;
+  right: 12px;
+  top: 50%;
+  transform: translateY(-50%);
+  width: 88px;
+  height: auto;
+  display: block;
+  object-fit: contain;
+  border-radius: 12px;
+  background: transparent;
+  pointer-events: none;
+  filter: drop-shadow(0 12px 20px rgba(0, 0, 0, 0.2));
+  z-index: 1;
 }
 
 .tag {
   color: var(--muted);
-  font-size: 12.5px;
+  font-size: 12px;
 }
 
 .lname {
-  font: 700 20px/1.2 var(--display);
+  font: 700 18px/1.15 var(--display);
   color: var(--ink);
 }
 
@@ -838,6 +873,7 @@
   }
 }
 
+/* Tablet: still two-up, tighter phones. */
 @media (max-width: 900px) {
   .stats,
   .tiles,
@@ -846,7 +882,77 @@
   }
 
   .live {
+    gap: 16px 12px;
+    padding: 40px 0 48px;
+  }
+
+  .liveCard {
+    padding: 16px 96px 16px 14px;
+  }
+
+  .liveShot {
+    width: 72px;
+    right: 8px;
+  }
+
+  .lname {
+    font-size: 16px;
+  }
+
+  .liveBody > span:not(.tag):not(.lname):not(.more) {
+    font-size: 13px;
+  }
+}
+
+/* Narrow tablet / large phone: one column, phone still on the side. */
+@media (max-width: 720px) {
+  .live {
     grid-template-columns: 1fr;
+    gap: 36px;
+    padding: 36px 0 44px;
+  }
+
+  .liveCard {
+    display: grid;
+    grid-template-columns: minmax(0, 1fr) auto;
+    align-items: center;
+    gap: 12px 14px;
+    padding: 16px 14px;
+  }
+
+  .liveShot {
+    position: relative;
+    right: auto;
+    top: auto;
+    transform: none;
+    width: 78px;
+    margin-block: -28px;
+  }
+}
+
+/* Small phones: keep side layout, smaller shot. */
+@media (max-width: 420px) {
+  .live {
+    gap: 32px;
+    padding: 28px 0 36px;
+  }
+
+  .liveCard {
+    padding: 14px 12px;
+    gap: 10px;
+  }
+
+  .liveShot {
+    width: 64px;
+    margin-block: -22px;
+  }
+
+  .lname {
+    font-size: 15px;
+  }
+
+  .liveBody > span:not(.tag):not(.lname):not(.more) {
+    font-size: 12.5px;
   }
 }
 

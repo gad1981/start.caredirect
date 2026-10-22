@@ -312,7 +312,7 @@
  },
  "live": {
   "eyebrow": "Live acum",
-  "h2": "Vezi un START din interior.",
+  "h2": "Vezi un START Online din interior.",
   "cards": [
    {
     "tag": "România · intrarea la liceu",
@@ -327,13 +327,6 @@
     "desc": "Un ghid digital pentru studenți, cu obiective, pași de carieră și o cutie cu parteneri, realizat împreună cu UNSS Sofia.",
     "url": "https://uni-start.com",
     "link": "uni-start.com →"
-   },
-   {
-    "tag": "Următorul lansat",
-    "name": "[NEXT START]",
-    "desc": "Brandul tău poate fi partenerul fondator al următorului program pe etape de viață.",
-    "url": "",
-    "link": ""
    }
   ]
  },

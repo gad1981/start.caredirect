@@ -157,21 +157,29 @@ export function InsightsTabs({
                       {covers.length ? (
                         <div className={styles.guideCovers}>
                           {covers.map((cover) => {
+                            const isPhone = cover.src.includes("/platforms/");
+                            const coverClass = isPhone
+                              ? `${styles.guideCover} ${styles.guideCoverPhone}`
+                              : styles.guideCover;
                             const img = (
                               <Image
                                 src={cover.src}
                                 alt={cover.alt}
-                                width={505}
-                                height={752}
+                                width={isPhone ? 390 : 505}
+                                height={isPhone ? 844 : 752}
                                 className={styles.guideCoverImg}
-                                sizes="(max-width: 600px) 42vw, 140px"
+                                sizes={
+                                  isPhone
+                                    ? "(max-width: 600px) 55vw, 200px"
+                                    : "(max-width: 600px) 42vw, 140px"
+                                }
                                 unoptimized
                               />
                             );
                             return cover.href ? (
                               <a
                                 key={cover.src}
-                                className={styles.guideCover}
+                                className={coverClass}
                                 href={cover.href}
                                 target="_blank"
                                 rel="noopener noreferrer"
@@ -182,7 +190,7 @@ export function InsightsTabs({
                             ) : (
                               <div
                                 key={cover.src}
-                                className={styles.guideCover}
+                                className={coverClass}
                                 title={cover.alt}
                               >
                                 {img}

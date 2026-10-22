@@ -312,7 +312,7 @@
  },
  "live": {
   "eyebrow": "Aktivno sada",
-  "h2": "Pogledaj START iznutra.",
+  "h2": "Pogledaj Online START iznutra.",
   "cards": [
    {
     "tag": "Rumunija · upis u srednju školu",
@@ -327,13 +327,6 @@
     "desc": "Digitalni studentski vodič sa ciljevima, koracima karijere i partnerskom kutijom, nastao u saradnji sa UNSS Sofija.",
     "url": "https://uni-start.com",
     "link": "uni-start.com →"
-   },
-   {
-    "tag": "Sledeći na pokretanju",
-    "name": "[NEXT START]",
-    "desc": "Tvoj brend može biti osnivački partner sledećeg programa životne faze.",
-    "url": "",
-    "link": ""
    }
   ]
  },
