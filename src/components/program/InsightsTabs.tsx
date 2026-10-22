@@ -173,7 +173,8 @@ export function InsightsTabs({
                                 width={390}
                                 height={844}
                                 className={styles.platformShotImg}
-                                sizes="(max-width: 600px) 42vw, 160px"
+                                sizes="(max-width: 600px) 28vw, 110px"
+                                unoptimized
                               />
                               <span className={styles.platformShotName}>
                                 {p.name}

@@ -2,6 +2,8 @@
 .page {
   --program-accent: var(--stdot);
   --program-ink: var(--ink);
+  /* Shared display height for booklet covers + platform phone shots. */
+  --insight-cover-h: clamp(190px, 48vw, 220px);
   background: var(--bg);
 }
 
@@ -571,13 +573,15 @@
 .platformShots {
   display: flex;
   flex-wrap: wrap;
+  align-items: flex-end;
   gap: 14px;
 }
 
 .platformShot {
   display: grid;
   gap: 8px;
-  width: min(160px, 42vw);
+  width: auto;
+  justify-items: center;
   text-decoration: none;
   color: inherit;
   transition: transform 160ms ease;
@@ -587,13 +591,15 @@
   transform: translateY(-3px);
 }
 
+/* Same display height as booklet covers (.guideCover). */
 .platformShotImg {
-  width: 100%;
-  height: auto;
+  width: auto;
+  height: var(--insight-cover-h);
   display: block;
-  border-radius: 18px;
-  background: #111;
-  box-shadow: 0 12px 28px -16px rgba(0, 0, 0, 0.45);
+  object-fit: contain;
+  background: transparent;
+  border-radius: 0;
+  filter: drop-shadow(0 10px 18px rgba(40, 30, 20, 0.18));
 }
 
 .platformShotName {
@@ -613,12 +619,14 @@
 .guideCovers {
   display: flex;
   flex-wrap: wrap;
+  align-items: flex-end;
   gap: 14px;
 }
 
 .guideCover {
   display: block;
-  width: min(140px, 40vw);
+  width: auto;
+  height: var(--insight-cover-h);
   border-radius: 0;
   overflow: visible;
   background: transparent;
@@ -633,9 +641,10 @@ a.guideCover:hover {
 }
 
 .guideCoverImg {
-  width: 100%;
-  height: auto;
+  width: auto;
+  height: 100%;
   display: block;
+  object-fit: contain;
   background: transparent;
 }
 
