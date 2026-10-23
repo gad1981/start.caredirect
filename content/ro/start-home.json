@@ -1,7 +1,7 @@
 {
-  "eyebrow": "Marketing pe etape de viață · Sud-Estul Europei",
+  "eyebrow": "Eșantionare + digital · Europa de Sud-Est",
   "h1": "Fiecare etapă din viață\nare o primă zi.\nFii prezent în ea.",
-  "lead": "START este familia de programe Care Direct pentru momentele în care oamenii încep ceva nou: primul bebeluș, prima zi de școală, facultatea, nunta, pensionarea. Punem produsul tău în mâinile lor, împreună cu un ghid pe care îl păstrează și cu o continuare a comunicării care transformă proba într-o relație.",
+  "lead": "START este familia de experiențe complete pe etape de viață a Care Direct: eșantionare în mâinile lor, apoi ghid digital și Online Platform care extind momentul online. Colectăm date cu consimțământ pentru CRM, fidelizare și email personalizat — astfel proba devine o relație.",
   "btn1": "Găsește START-ul tău",
   "btn2": "Cum funcționează un START",
   "stats": [
@@ -29,7 +29,7 @@
   "programs": {
     "eyebrow": "Familia START",
     "h2": "Un singur public. Fiecare punct de pornire.",
-    "lead": "Alege momentul în care se află consumatorul tău. Fiecare START îl întâlnește exact acolo unde se întâmplă, în săptămâna în care își alege noile branduri."
+    "lead": "Alegeți momentul consumatorului. Fiecare START este o experiență completă: mostre în acea săptămână, apoi expansiune digitală — Online Platform, CRM și comunicare personalizată — în timp ce aleg branduri noi."
   },
   "stages": [
     {
@@ -37,7 +37,7 @@
       "name": "START Pregnancy",
       "when": "Trimestrul 3",
       "where": "Clinici de ginecologie și maternități",
-      "desc": "Viitorii părinți îți încearcă produsul în timp ce își fac lista cu tot ce va avea nevoie bebelușul.",
+      "desc": "Viitorii părinți îți încearcă produsul în timp ce își fac lista cu tot ce va avea nevoie bebelușul — apoi experiența continuă online.",
       "tagline": "Înainte să apară bebelușul",
       "hands": [
         "Mostre în cutie",
@@ -45,10 +45,10 @@
         "Predat în clinicile de ginecologie și în maternități"
       ],
       "online": [
-        "Babyspace și Myparenthood",
-        "Companionul AI HeyMaa (pilot în România)",
+        "Online Platform: Babyspace and Myparenthood",
+        "HeyMaa AI companion (pilot România)",
         "Momtag (Grecia, România)",
-        "Continuare: email, SMS, call center, mail direct"
+        "CRM, fidelizare și email personalizat după înregistrare"
       ]
     },
     {
@@ -56,7 +56,7 @@
       "name": "START Newborn",
       "when": "La 2–3 zile după naștere",
       "where": "Maternități",
-      "desc": "Cutia primelor zile, oferită mamelor în spital, împreună cu ghidul pentru săptămânile următoare.",
+      "desc": "Cutia primelor zile, oferită mamelor în spital, împreună cu ghidul pentru săptămânile următoare — apoi experiența continuă online.",
       "tagline": "Primele zile cu nou-născutul",
       "hands": [
         "Mostre în cutia primelor zile",
@@ -64,10 +64,11 @@
         "Predat în maternități"
       ],
       "online": [
-        "Babyspace și Myparenthood",
-        "Tombola lunară Mybabywinner",
+        "Online Platform: Babyspace and Myparenthood",
+        "HeyMaa AI companion",
+        "Concurs lunar Mybabywinner",
         "Momtag (Grecia, România)",
-        "Continuare: email, SMS, call center, mail direct"
+        "CRM, fidelizare și email personalizat după înregistrare"
       ]
     },
     {
@@ -75,7 +76,7 @@
       "name": "START Luxury Moments",
       "when": "La 2–3 zile după naștere",
       "where": "Suite private",
-      "desc": "Ediția premium pentru mamele din suitele și rezervele private ale clinicilor private.",
+      "desc": "Ediția premium pentru mamele din suitele și rezervele private ale clinicilor private — apoi experiența continuă online.",
       "tagline": "Primele zile, în stil luxury",
       "hands": [
         "Mostre în cutia Luxury Moments",
@@ -83,9 +84,9 @@
         "Predat în suitele private"
       ],
       "online": [
-        "Babyspace și Myparenthood",
-        "Continuare a comunicării, cu consimțământ, după înregistrare",
-        "Continuare: email, SMS, call center, mail direct"
+        "Online Platform: Babyspace and Myparenthood",
+        "HeyMaa AI companion",
+        "CRM, fidelizare și email personalizat după înregistrare"
       ]
     },
     {
@@ -93,7 +94,7 @@
       "name": "START First Foods",
       "when": "Bebeluș de 6 luni",
       "where": "Livrat la domiciliu",
-      "desc": "Bebelușul începe să mănânce: un al doilea val de testare, pe măsură ce familia intră într-o nouă etapă.",
+      "desc": "Bebelușul începe să mănânce: un al doilea val de testare, pe măsură ce familia intră într-o nouă etapă — apoi experiența continuă online.",
       "tagline": "Prima lingură a bebelușului",
       "hands": [
         "Mostre în cutie",
@@ -101,10 +102,10 @@
         "Continuare a comunicării, cu consimțământ, după înregistrare"
       ],
       "online": [
-        "Babyspace și Myparenthood",
-        "Mybabywinner și HeyMaa",
+        "Online Platform: Babyspace and Myparenthood",
+        "Mybabywinner and HeyMaa",
         "Momtag (Grecia, România)",
-        "Continuare: email, SMS, call center, mail direct"
+        "CRM, fidelizare și email personalizat după înregistrare"
       ]
     },
     {
@@ -112,7 +113,7 @@
       "name": "START First Grade",
       "when": "Prima zi de școală, la 6 ani",
       "where": "Școli primare",
-      "desc": "O cutie chiar în prima zi de școală, pentru copii și pentru părinții care aleg brandurile anului școlar.",
+      "desc": "O cutie chiar în prima zi de școală, pentru copii și pentru părinții care aleg brandurile anului școlar — apoi experiența continuă online.",
       "tagline": "Primul clopoțel",
       "hands": [
         "Mostre în cutia primei zile",
@@ -120,9 +121,9 @@
         "Continuare a comunicării, cu consimțământ, după înregistrare"
       ],
       "online": [
-        "Myschoolwinner pentru familii",
-        "Părinți atinși acasă",
-        "Continuare: email, SMS, call center, mail direct"
+        "Online Platform: Myschoolwinner for families",
+        "Parents reached at home",
+        "CRM, fidelizare și email personalizat după înregistrare"
       ]
     },
     {
@@ -130,7 +131,7 @@
       "name": "START First Grade Christmas",
       "when": "Perioada de Crăciun la școală",
       "where": "Școli primare",
-      "desc": "Ediția de Crăciun a programului First Grade: o cutie festivă pentru familiile elevilor din ciclul primar.",
+      "desc": "Ediția de Crăciun a programului First Grade: o cutie festivă pentru familiile elevilor din ciclul primar — apoi experiența continuă online.",
       "tagline": "Crăciunul la școală",
       "hands": [
         "Mostre în cutia de Crăciun",
@@ -138,9 +139,9 @@
         "Continuare a comunicării, cu consimțământ, după înregistrare"
       ],
       "online": [
-        "Myschoolwinner pentru familii",
-        "Părinți atinși acasă",
-        "Continuare: email, SMS, call center, mail direct"
+        "Online Platform: Myschoolwinner for families",
+        "Parents reached at home",
+        "CRM, fidelizare și email personalizat după înregistrare"
       ]
     },
     {
@@ -148,7 +149,7 @@
       "name": "START Teen Girl",
       "when": "Începutul pubertății",
       "where": "Livrat la domiciliu, prin curier",
-      "desc": "La începutul pubertății: mostre în mâinile ei și o continuare a comunicării care transformă primele produse în branduri în care are încredere.",
+      "desc": "La începutul pubertății: mostre în mâinile ei și o continuare a comunicării care transformă primele produse în branduri în care are încredere — apoi experiența continuă online.",
       "tagline": "Crește în felul ei",
       "hands": [
         "Mostre în cutie",
@@ -156,9 +157,9 @@
         "Continuare a comunicării, cu consimțământ, după înregistrare"
       ],
       "online": [
-        "Comunitățile online Care Direct",
-        "Conținut în care are încredere",
-        "Continuare pe canalele potrivite"
+        "Online Platform: comunități Care Direct online",
+        "Content she trusts",
+        "CRM, fidelizare și email personalizat după înregistrare"
       ]
     },
     {
@@ -166,7 +167,7 @@
       "name": "START High School",
       "when": "Intrarea la liceu, 15–16 ani",
       "where": "Licee · ghid web START 9",
-      "desc": "Clasă nouă, oameni noi. Mostre și START 9 — ghidul web interactiv pentru primul lor an.",
+      "desc": "Clasă nouă, oameni noi. Mostre și START 9 — ghidul web interactiv pentru primul lor an — apoi experiența continuă online.",
       "tagline": "Clasă nouă, oameni noi",
       "hands": [
         "Mostre în mâinile lor",
@@ -174,9 +175,9 @@
         "Continuare a comunicării, cu consimțământ, după înregistrare"
       ],
       "online": [
-        "Ghidul web START 9 (România)",
-        "Obiective și sfaturi pentru primul an",
-        "Continuare pe canalele potrivite"
+        "Online Platform: START 9 web guide (Romania)",
+        "Goals and tips for the first year",
+        "CRM, fidelizare și email personalizat după înregistrare"
       ]
     },
     {
@@ -184,7 +185,7 @@
       "name": "START University",
       "when": "Primul an de facultate",
       "where": "Universități · ghid web UniStart+",
-      "desc": "Studenți în anul I, care fac primele achiziții independente: mostre și UniStart+.",
+      "desc": "Studenți în anul I, care fac primele achiziții independente: mostre și UniStart+ — apoi experiența continuă online.",
       "tagline": "Primul an, prima independență",
       "hands": [
         "Mostre în mâinile lor",
@@ -192,9 +193,9 @@
         "Continuare a comunicării, cu consimțământ, după înregistrare"
       ],
       "online": [
-        "Ghidul studentului UniStart+ (Bulgaria)",
-        "Partenerii cutiei, listați online",
-        "Continuare pe canalele potrivite"
+        "Online Platform: UniStart+ student guidebook (Bulgaria)",
+        "Partners of the box, listed online",
+        "CRM, fidelizare și email personalizat după înregistrare"
       ]
     },
     {
@@ -202,7 +203,7 @@
       "name": "START Army",
       "when": "Ziua încorporării",
       "where": "Unități militare",
-      "desc": "Tinerii îți încearcă produsul chiar în ziua în care intră în serviciul militar: un public greu de atins, reunit într-un singur loc.",
+      "desc": "Tinerii îți încearcă produsul chiar în ziua în care intră în serviciul militar: un public greu de atins, reunit într-un singur loc — apoi experiența continuă online.",
       "tagline": "Prima zi în armată",
       "hands": [
         "Mostre în mâinile lor",
@@ -210,9 +211,9 @@
         "Continuare a comunicării, cu consimțământ, după înregistrare"
       ],
       "online": [
-        "Comunitățile online Care Direct",
-        "Un public greu de atins, într-un singur loc",
-        "Continuare pe canalele potrivite"
+        "Online Platform: comunități Care Direct online",
+        "A hard-to-reach audience, in one place",
+        "CRM, fidelizare și email personalizat după înregistrare"
       ]
     },
     {
@@ -220,7 +221,7 @@
       "name": "START Marriage",
       "when": "Căsătoria",
       "where": "Livrat la domiciliu, prin curier",
-      "desc": "Cuplurile care își formează un cămin împreună îți încearcă produsul în timp ce aleg primele branduri comune.",
+      "desc": "Cuplurile care își formează un cămin împreună îți încearcă produsul în timp ce aleg primele branduri comune — apoi experiența continuă online.",
       "tagline": "Un cămin pentru doi",
       "hands": [
         "Mostre în cutie",
@@ -228,9 +229,9 @@
         "Continuare a comunicării, cu consimțământ, după înregistrare"
       ],
       "online": [
-        "Comunitățile online Care Direct",
-        "Primele branduri comune",
-        "Continuare pe canalele potrivite"
+        "Online Platform: comunități Care Direct online",
+        "First shared brands",
+        "CRM, fidelizare și email personalizat după înregistrare"
       ]
     },
     {
@@ -238,7 +239,7 @@
       "name": "START Pet",
       "when": "Un animal de companie nou în casă",
       "where": "Medici veterinari și organizații de adopție",
-      "desc": "Noii proprietari primesc produsul tău în primele săptămâni, cât timp încă aleg hrana, îngrijirea și accesoriile.",
+      "desc": "Noii proprietari primesc produsul tău în primele săptămâni, cât timp încă aleg hrana, îngrijirea și accesoriile — apoi experiența continuă online.",
       "tagline": "Un nou membru al familiei",
       "hands": [
         "Mostre în cutie",
@@ -246,9 +247,9 @@
         "Continuare a comunicării, cu consimțământ, după înregistrare"
       ],
       "online": [
-        "Comunitățile online Care Direct",
-        "Rutine care rămân",
-        "Continuare pe canalele potrivite"
+        "Online Platform: comunități Care Direct online",
+        "Routines that last",
+        "CRM, fidelizare și email personalizat după înregistrare"
       ]
     },
     {
@@ -256,7 +257,7 @@
       "name": "START Ladies",
       "when": "50+, intrarea în menopauză",
       "where": "Clinici de ginecologie",
-      "desc": "Femeile la vârsta de mijloc primesc produse de testat și îndrumare de încredere într-o perioadă de mari schimbări.",
+      "desc": "Femeile la vârsta de mijloc primesc produse de testat și îndrumare de încredere într-o perioadă de mari schimbări — apoi experiența continuă online.",
       "tagline": "Un nou capitol la 50+",
       "hands": [
         "Mostre în cutie",
@@ -264,9 +265,9 @@
         "Predat în clinicile de ginecologie"
       ],
       "online": [
-        "LadiesBook (ladiesbook.gr)",
-        "Îndrumare de încredere pentru vârsta de mijloc",
-        "Continuare pe canalele potrivite"
+        "Online Platform: LadiesBook (ladiesbook.gr)",
+        "Trusted guidance for midlife",
+        "CRM, fidelizare și email personalizat după înregistrare"
       ]
     },
     {
@@ -274,7 +275,7 @@
       "name": "START Seniors",
       "when": "Începutul pensionării",
       "where": "La domiciliu și în locurile de întâlnire ale seniorilor",
-      "desc": "Un nou ritm de viață, rutine noi și branduri noi, la începutul pensionării.",
+      "desc": "Un nou ritm de viață, rutine noi și branduri noi, la începutul pensionării — apoi experiența continuă online.",
       "tagline": "Timp pentru ei înșiși",
       "hands": [
         "Mostre în cutie",
@@ -282,31 +283,31 @@
         "Continuare a comunicării, cu consimțământ, după înregistrare"
       ],
       "online": [
-        "Comunitățile online Care Direct",
-        "Rutine noi, branduri noi",
-        "Continuare pe canalele potrivite"
+        "Online Platform: comunități Care Direct online",
+        "New routines, new brands",
+        "CRM, fidelizare și email personalizat după înregistrare"
       ]
     }
   ],
   "how": {
     "eyebrow": "Cum funcționează un START",
-    "h2": "Proba în mâinile lor. Un ghid pe care îl păstrează. O continuare a comunicării care durează.",
+    "h2": "Mostre în mâinile lor. Digital care le extinde. CRM care îi păstrează.",
     "steps": [
       [
         "1 · Cutia",
-        "Produsul tău, livrat exact în momentul în care e nevoie de el, prin clinici, școli și universități. Testare reală, nu o simplă impresie."
+        "Mostre în mână în momentul în care aleg branduri noi — aici începe experiența completă START."
       ],
       [
         "2 · Ghidul",
-        "Un ghid în fiecare cutie — tipărit, digital sau web, în funcție de public. Brandul tău câștigă un loc util, nu doar un spațiu publicitar."
+        "Ghid tipărit sau digital cu fiecare cutie. Brandul dvs. câștigă un loc util pe măsură ce experiența trece de la proba fizică la online."
       ],
       [
-        "3 · Continuarea comunicării",
-        "Înregistrarea opt-in, conformă GDPR, colectează email, telefon, mobil și adresă — apoi continuăm conversația pe canalele potrivite fiecărei piețe."
+        "3 · Continuarea digitală",
+        "Înregistrare opt-in, conformă GDPR: email, telefon, mobil și adresă — apoi construim CRM, fidelizare și email personalizat (și SMS sau poștă unde se potrivește) pe fiecare piață."
       ],
       [
         "4 · Online Platform",
-        "Comunitățile online proprii Care Direct țin publicul aproape și îl duc mai departe, spre următorul START."
+        "Online Platforms interne Care Direct țin publicul aproape, îl educă după mostră și îl duc către următorul START."
       ]
     ]
   },
@@ -365,7 +366,7 @@
   },
   "brands": {
     "h2": "Pune-ți produsul în prima zi a cuiva.",
-    "lead": "Spune-ne publicul și piața. Revenim cu START-ul potrivit, acoperirea, calendarul și costul.",
+    "lead": "Spuneți-ne publicul și piața. Revenim cu START-ul potrivit: eșantionare, Online Platform, CRM, timing și cost.",
     "markets": [
       "Greece",
       "Cyprus",

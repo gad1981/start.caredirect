@@ -1,401 +1,402 @@
 {
- "eyebrow": "Marketing životnih faza · Jugoistočna Evropa",
- "h1": "Svaki period života\nima svoj prvi dan.\nBudi deo njega.",
- "lead": "START je Care Direct porodica programa za trenutke kada ljudi započinju nešto novo: prvu bebu, prvi školski dan, fakultet, venčanje, penziju. Stavljamo tvoj proizvod u njihove ruke, uz vodič koji zadržavaju i praćenje koje pretvara probu u odnos.",
- "btn1": "Pronađi svoj START",
- "btn2": "Kako funkcioniše START",
- "stats": [
-  [
-   "14",
-   "životnih trenutaka, jedna porodica programa",
-   "accent"
+  "eyebrow": "Uzorkovanje + digitalno · Jugoistočna Evropa",
+  "h1": "Svaki period života\nima svoj prvi dan.\nBudi deo njega.",
+  "lead": "START je Care Direct porodica kompletnih iskustava po životnim fazama: uzorkovanje u rukama, zatim digitalni vodič i Online Platform koji šire trenutak online. Prikupljamo podatke uz saglasnost za CRM, lojalnost i ciljani email — tako proba postaje odnos.",
+  "btn1": "Pronađi svoj START",
+  "btn2": "Kako funkcioniše START",
+  "stats": [
+    [
+      "14",
+      "životnih trenutaka, jedna porodica programa",
+      "accent"
+    ],
+    [
+      "5",
+      "zemalja u Jugoistočnoj Evropi",
+      ""
+    ],
+    [
+      "290.000+",
+      "majki godišnje u programima START Pregnancy i Newborn",
+      ""
+    ],
+    [
+      "100.000+",
+      "novih članova sa registrovanim podacima godišnje",
+      ""
+    ]
   ],
-  [
-   "5",
-   "zemalja u Jugoistočnoj Evropi",
-   ""
+  "programs": {
+    "eyebrow": "START porodica",
+    "h2": "Jedna publika. Svaka polazna tačka.",
+    "lead": "Izaberite trenutak potrošača. Svaki START je kompletno iskustvo: uzorci te nedelje, zatim digitalno širenje — Online Platform, CRM i ciljana komunikacija — dok biraju nove brendove."
+  },
+  "stages": [
+    {
+      "id": "st-pregnancy",
+      "name": "START Pregnancy",
+      "when": "Treći trimestar",
+      "where": "Ginekološke i porodilišne klinike",
+      "desc": "Budući roditelji probaju tvoj proizvod dok još sastavljaju spisak onoga što će bebi trebati — zatim se iskustvo nastavlja online.",
+      "tagline": "Pre nego što beba stigne",
+      "hands": [
+        "Uzorci u kutiji",
+        "Štampani ili online vodič",
+        "Uručuje se u ginekološkim i porodilišnim klinikama"
+      ],
+      "online": [
+        "Online Platform: Babyspace and Myparenthood",
+        "HeyMaa AI companion (pilot Rumunija)",
+        "Momtag (Grčka, Rumunija)",
+        "CRM, lojalnost i ciljani email nakon registracije"
+      ]
+    },
+    {
+      "id": "st-natal",
+      "name": "START Newborn",
+      "when": "2–3 dana nakon porođaja",
+      "where": "Porodilišne klinike",
+      "desc": "Kutija za prve dane koja se uručuje novim majkama u bolnici, uz vodič za nedelje koje slede — zatim se iskustvo nastavlja online.",
+      "tagline": "Prvi dani s novorođenčetom",
+      "hands": [
+        "Uzorci u kutiji za prve dane",
+        "Štampani ili online vodič",
+        "Uručuje se u porodilišnim klinikama"
+      ],
+      "online": [
+        "Online Platform: Babyspace and Myparenthood",
+        "HeyMaa AI companion",
+        "Mybabywinner mesečni giveaway",
+        "Momtag (Grčka, Rumunija)",
+        "CRM, lojalnost i ciljani email nakon registracije"
+      ]
+    },
+    {
+      "id": "st-luxury",
+      "name": "START Luxury Moments",
+      "when": "2–3 dana nakon porođaja",
+      "where": "Privatni apartmani",
+      "desc": "Premijum izdanje za nove majke u privatnim apartmanima i privatnim sobama klinika — zatim se iskustvo nastavlja online.",
+      "tagline": "Luksuzni prvi dani",
+      "hands": [
+        "Uzorci u Luxury Moments kompletu",
+        "Ekskluzivni brendovi u kutiji",
+        "Uručuje se u privatnim apartmanima"
+      ],
+      "online": [
+        "Online Platform: Babyspace and Myparenthood",
+        "HeyMaa AI companion",
+        "CRM, lojalnost i ciljani email nakon registracije"
+      ]
+    },
+    {
+      "id": "st-next",
+      "name": "START First Foods",
+      "when": "Beba od 6 meseci",
+      "where": "Dostava na kućnu adresu",
+      "desc": "Beba počinje da jede: drugi talas probe dok porodica prelazi u novu fazu — zatim se iskustvo nastavlja online.",
+      "tagline": "Bebina prva kašika",
+      "hands": [
+        "Uzorci u kutiji",
+        "Dostava na kućnu adresu u šestom mesecu",
+        "Praćenje uz saglasnost nakon registracije"
+      ],
+      "online": [
+        "Online Platform: Babyspace and Myparenthood",
+        "Mybabywinner and HeyMaa",
+        "Momtag (Grčka, Rumunija)",
+        "CRM, lojalnost i ciljani email nakon registracije"
+      ]
+    },
+    {
+      "id": "st-school",
+      "name": "START First Grade",
+      "when": "Prvi dan škole, uzrast 6 godina",
+      "where": "Osnovne škole",
+      "desc": "Kutija na sam prvi školski dan, za decu i roditelje koji biraju brendove za školsku godinu — zatim se iskustvo nastavlja online.",
+      "tagline": "Prvo školsko zvono",
+      "hands": [
+        "Uzorci u kutiji za prvi dan",
+        "Deli se u osnovnim školama",
+        "Praćenje uz saglasnost nakon registracije"
+      ],
+      "online": [
+        "Online Platform: Myschoolwinner for families",
+        "Parents reached at home",
+        "CRM, lojalnost i ciljani email nakon registracije"
+      ]
+    },
+    {
+      "id": "st-school-xmas",
+      "name": "START First Grade Christmas",
+      "when": "Božićni školski period",
+      "where": "Osnovne škole",
+      "desc": "Božićno izdanje programa First Grade: svečana kutija za porodice osnovaca — zatim se iskustvo nastavlja online.",
+      "tagline": "Božić u školi",
+      "hands": [
+        "Uzorci u božićnoj kutiji",
+        "Deli se u osnovnim školama",
+        "Praćenje uz saglasnost nakon registracije"
+      ],
+      "online": [
+        "Online Platform: Myschoolwinner for families",
+        "Parents reached at home",
+        "CRM, lojalnost i ciljani email nakon registracije"
+      ]
+    },
+    {
+      "id": "st-teen",
+      "name": "START Teen Girl",
+      "when": "Početak puberteta",
+      "where": "Dostava kurirom na kućnu adresu",
+      "desc": "Na početku puberteta: uzorci u njenim rukama i praćenje koje prve proizvode pretvara u brendove kojima veruje — zatim se iskustvo nastavlja online.",
+      "tagline": "Odrastanje, na njen način",
+      "hands": [
+        "Uzorci u kutiji",
+        "Dostava kurirom na kućnu adresu",
+        "Praćenje uz saglasnost nakon registracije"
+      ],
+      "online": [
+        "Online Platform: Care Direct online zajednice",
+        "Content she trusts",
+        "CRM, lojalnost i ciljani email nakon registracije"
+      ]
+    },
+    {
+      "id": "st-high",
+      "name": "START High School",
+      "when": "Upis u srednju školu, 15–16 godina",
+      "where": "Srednje škole · veb vodič START 9",
+      "desc": "Novo odeljenje, novi ljudi. Uzorci i START 9 — interaktivni veb vodič za njihovu prvu godinu — zatim se iskustvo nastavlja online.",
+      "tagline": "Novo odeljenje, novi ljudi",
+      "hands": [
+        "Uzorci u njihovim rukama",
+        "Deli se u srednjim školama",
+        "Praćenje uz saglasnost nakon registracije"
+      ],
+      "online": [
+        "Online Platform: START 9 web guide (Romania)",
+        "Goals and tips for the first year",
+        "CRM, lojalnost i ciljani email nakon registracije"
+      ]
+    },
+    {
+      "id": "st-uni",
+      "name": "START University",
+      "when": "Prva godina fakulteta",
+      "where": "Univerziteti · veb vodič UniStart+",
+      "desc": "Studenti prve godine koji prave prve samostalne kupovine: uzorci i UniStart+ — zatim se iskustvo nastavlja online.",
+      "tagline": "Prva godina, prva samostalnost",
+      "hands": [
+        "Uzorci u njihovim rukama",
+        "Deli se na univerzitetima",
+        "Praćenje uz saglasnost nakon registracije"
+      ],
+      "online": [
+        "Online Platform: UniStart+ student guidebook (Bulgaria)",
+        "Partners of the box, listed online",
+        "CRM, lojalnost i ciljani email nakon registracije"
+      ]
+    },
+    {
+      "id": "st-army",
+      "name": "START Army",
+      "when": "Dan regrutacije",
+      "where": "Vojni kampovi",
+      "desc": "Mladići probaju tvoj proizvod na dan stupanja u službu: teško dostupna publika na jednom mestu — zatim se iskustvo nastavlja online.",
+      "tagline": "Prvi dan u službi",
+      "hands": [
+        "Uzorci u njihovim rukama",
+        "Deli se u vojnim kampovima",
+        "Praćenje uz saglasnost nakon registracije"
+      ],
+      "online": [
+        "Online Platform: Care Direct online zajednice",
+        "A hard-to-reach audience, in one place",
+        "CRM, lojalnost i ciljani email nakon registracije"
+      ]
+    },
+    {
+      "id": "st-marriage",
+      "name": "START Marriage",
+      "when": "Venčanje",
+      "where": "Dostava kurirom na kućnu adresu",
+      "desc": "Parovi koji zajedno zasnivaju dom probaju tvoj proizvod dok biraju prve zajedničke brendove — zatim se iskustvo nastavlja online.",
+      "tagline": "Dom za dvoje",
+      "hands": [
+        "Uzorci u kutiji",
+        "Dostava kurirom na kućnu adresu",
+        "Praćenje uz saglasnost nakon registracije"
+      ],
+      "online": [
+        "Online Platform: Care Direct online zajednice",
+        "First shared brands",
+        "CRM, lojalnost i ciljani email nakon registracije"
+      ]
+    },
+    {
+      "id": "st-pet",
+      "name": "START Pet",
+      "when": "Novi ljubimac u kući",
+      "where": "Veterinari i organizacije za udomljavanje",
+      "desc": "Novi vlasnici dobijaju tvoj proizvod u prvim nedeljama, dok još biraju hranu, negu i dodatke — zatim se iskustvo nastavlja online.",
+      "tagline": "Novi član porodice",
+      "hands": [
+        "Uzorci u kutiji",
+        "Deli se kod veterinara i u organizacijama za udomljavanje",
+        "Praćenje uz saglasnost nakon registracije"
+      ],
+      "online": [
+        "Online Platform: Care Direct online zajednice",
+        "Routines that last",
+        "CRM, lojalnost i ciljani email nakon registracije"
+      ]
+    },
+    {
+      "id": "st-silver",
+      "name": "START Ladies",
+      "when": "50+, ulazak u menopauzu",
+      "where": "Ginekološke klinike",
+      "desc": "Žene u srednjim godinama dobijaju probu i pouzdano vođenje tokom velike promene — zatim se iskustvo nastavlja online.",
+      "tagline": "Novo poglavlje u 50+",
+      "hands": [
+        "Uzorci u kutiji",
+        "Štampani ili online vodič",
+        "Uručuje se u ginekološkim klinikama"
+      ],
+      "online": [
+        "Online Platform: LadiesBook (ladiesbook.gr)",
+        "Trusted guidance for midlife",
+        "CRM, lojalnost i ciljani email nakon registracije"
+      ]
+    },
+    {
+      "id": "st-seniors",
+      "name": "START Seniors",
+      "when": "Početak penzije",
+      "where": "Dom i mesta okupljanja starijih",
+      "desc": "Novi ritam života, nove rutine i novi brendovi, na početku penzije — zatim se iskustvo nastavlja online.",
+      "tagline": "Vreme za sebe",
+      "hands": [
+        "Uzorci u kutiji",
+        "Dostava na kućnu adresu i na mesta gde se stariji okupljaju",
+        "Praćenje uz saglasnost nakon registracije"
+      ],
+      "online": [
+        "Online Platform: Care Direct online zajednice",
+        "New routines, new brands",
+        "CRM, lojalnost i ciljani email nakon registracije"
+      ]
+    }
   ],
-  [
-   "290.000+",
-   "majki godišnje u programima START Pregnancy i Newborn",
-   ""
-  ],
-  [
-   "100.000+",
-   "novih članova sa registrovanim podacima godišnje",
-   ""
-  ]
- ],
- "programs": {
-  "eyebrow": "START porodica",
-  "h2": "Jedna publika. Svaka polazna tačka.",
-  "lead": "Izaberi trenutak u kojem se nalazi tvoj potrošač. Svaki START stiže do njega tamo gde se to dešava, tačno one nedelje kada bira nove brendove."
- },
- "stages": [
-  {
-   "id": "st-pregnancy",
-   "name": "START Pregnancy",
-   "when": "Treći trimestar",
-   "where": "Ginekološke i porodilišne klinike",
-   "desc": "Budući roditelji probaju tvoj proizvod dok još sastavljaju spisak onoga što će bebi trebati.",
-   "tagline": "Pre nego što beba stigne",
-   "hands": [
-    "Uzorci u kutiji",
-    "Štampani ili online vodič",
-    "Uručuje se u ginekološkim i porodilišnim klinikama"
-   ],
-   "online": [
-    "Babyspace i Myparenthood",
-    "HeyMaa AI pratilac (pilot u Rumuniji)",
-    "Momtag (Grčka, Rumunija)",
-    "Praćenje: email, SMS, pozivni centar, direktna pošta"
-   ]
+  "how": {
+    "eyebrow": "Kako funkcioniše START",
+    "h2": "Uzorci u rukama. Digitalno što ih širi. CRM koji ih zadržava.",
+    "steps": [
+      [
+        "1 · Kutija",
+        "Uzorci u ruci u trenutku kada biraju nove brendove — tu počinje kompletno START iskustvo."
+      ],
+      [
+        "2 · Vodič",
+        "Štampani ili digitalni vodič uz svaku kutiju. Vaš brend dobija korisno mesto dok iskustvo prelazi iz fizičke probe u online."
+      ],
+      [
+        "3 · Digitalni nastavak",
+        "Opt-in registracija, usklađena sa GDPR: email, telefon, mobil i adresa — zatim gradimo CRM, lojalnost i ciljani email (i SMS ili poštu gde odgovara) po tržištu."
+      ],
+      [
+        "4 · Online Platform",
+        "Care Direct Online Platforms drže publiku blizu, edukuju je posle uzorka i uvode u sledeći START."
+      ]
+    ]
   },
-  {
-   "id": "st-natal",
-   "name": "START Newborn",
-   "when": "2–3 dana nakon porođaja",
-   "where": "Porodilišne klinike",
-   "desc": "Kutija za prve dane koja se uručuje novim majkama u bolnici, uz vodič za nedelje koje slede.",
-   "tagline": "Prvi dani s novorođenčetom",
-   "hands": [
-    "Uzorci u kutiji za prve dane",
-    "Štampani ili online vodič",
-    "Uručuje se u porodilišnim klinikama"
-   ],
-   "online": [
-    "Babyspace i Myparenthood",
-    "Mybabywinner mesečna nagradna igra",
-    "Momtag (Grčka, Rumunija)",
-    "Praćenje: email, SMS, pozivni centar, direktna pošta"
-   ]
+  "live": {
+    "eyebrow": "Aktivno sada",
+    "h2": "Pogledaj Online START iznutra.",
+    "cards": [
+      {
+        "tag": "Rumunija · upis u srednju školu",
+        "name": "START 9",
+        "desc": "Interaktivni vodič za učenike koji kreću u srednju školu: novo odeljenje, novi ljudi, i dalje ti.",
+        "url": "https://startliceu.life",
+        "link": "startliceu.life →"
+      },
+      {
+        "tag": "Bugarska · studenti UNSS-a",
+        "name": "UniStart+",
+        "desc": "Digitalni studentski vodič sa ciljevima, koracima karijere i partnerskom kutijom, nastao u saradnji sa UNSS Sofija.",
+        "url": "https://uni-start.com",
+        "link": "uni-start.com →"
+      }
+    ]
   },
-  {
-   "id": "st-luxury",
-   "name": "START Luxury Moments",
-   "when": "2–3 dana nakon porođaja",
-   "where": "Privatni apartmani",
-   "desc": "Premijum izdanje za nove majke u privatnim apartmanima i privatnim sobama klinika.",
-   "tagline": "Luksuzni prvi dani",
-   "hands": [
-    "Uzorci u Luxury Moments kompletu",
-    "Ekskluzivni brendovi u kutiji",
-    "Uručuje se u privatnim apartmanima"
-   ],
-   "online": [
-    "Babyspace i Myparenthood",
-    "Praćenje uz saglasnost nakon registracije",
-    "Praćenje: email, SMS, pozivni centar, direktna pošta"
-   ]
+  "markets": {
+    "eyebrow": "Gde se START sprovodi",
+    "h2": "Dva regiona. Jedan model rada.",
+    "regions": [
+      {
+        "name": "Jugoistočna Evropa",
+        "sub": "Programi životnih faza: START",
+        "countries": [
+          "Grčka",
+          "Kipar",
+          "Rumunija",
+          "Bugarska",
+          "Srbija"
+        ],
+        "link": ""
+      },
+      {
+        "name": "Bliski istok",
+        "sub": "Promotivni programi i aktivacije, Care Direct",
+        "countries": [
+          "UAE",
+          "Saudijska Arabija",
+          "Egipat",
+          "Liban",
+          "Kuvajt",
+          "Katar",
+          "Oman",
+          "Bahrein"
+        ],
+        "link": "me"
+      }
+    ]
   },
-  {
-   "id": "st-next",
-   "name": "START First Foods",
-   "when": "Beba od 6 meseci",
-   "where": "Dostava na kućnu adresu",
-   "desc": "Beba počinje da jede: drugi talas probe dok porodica prelazi u novu fazu.",
-   "tagline": "Bebina prva kašika",
-   "hands": [
-    "Uzorci u kutiji",
-    "Dostava na kućnu adresu u šestom mesecu",
-    "Praćenje uz saglasnost nakon registracije"
-   ],
-   "online": [
-    "Babyspace i Myparenthood",
-    "Mybabywinner i HeyMaa",
-    "Momtag (Grčka, Rumunija)",
-    "Praćenje: email, SMS, pozivni centar, direktna pošta"
-   ]
+  "brands": {
+    "h2": "Stavi svoj proizvod u nečiji prvi dan.",
+    "lead": "Recite nam publiku i tržište. Vraćamo se sa pravim START-om: uzorkovanje, Online Platform, CRM, timing i cena.",
+    "markets": [
+      "Greece",
+      "Cyprus",
+      "Romania",
+      "Bulgaria",
+      "Serbia"
+    ],
+    "button": "Pridruži se START-u"
   },
-  {
-   "id": "st-school",
-   "name": "START First Grade",
-   "when": "Prvi dan škole, uzrast 6 godina",
-   "where": "Osnovne škole",
-   "desc": "Kutija na sam prvi školski dan, za decu i roditelje koji biraju brendove za školsku godinu.",
-   "tagline": "Prvo školsko zvono",
-   "hands": [
-    "Uzorci u kutiji za prvi dan",
-    "Deli se u osnovnim školama",
-    "Praćenje uz saglasnost nakon registracije"
-   ],
-   "online": [
-    "Myschoolwinner za porodice",
-    "Doseg do roditelja i kod kuće",
-    "Praćenje: email, SMS, pozivni centar, direktna pošta"
-   ]
-  },
-  {
-   "id": "st-school-xmas",
-   "name": "START First Grade Christmas",
-   "when": "Božićni školski period",
-   "where": "Osnovne škole",
-   "desc": "Božićno izdanje programa First Grade: svečana kutija za porodice osnovaca.",
-   "tagline": "Božić u školi",
-   "hands": [
-    "Uzorci u božićnoj kutiji",
-    "Deli se u osnovnim školama",
-    "Praćenje uz saglasnost nakon registracije"
-   ],
-   "online": [
-    "Myschoolwinner za porodice",
-    "Doseg do roditelja i kod kuće",
-    "Praćenje: email, SMS, pozivni centar, direktna pošta"
-   ]
-  },
-  {
-   "id": "st-teen",
-   "name": "START Teen Girl",
-   "when": "Početak puberteta",
-   "where": "Dostava kurirom na kućnu adresu",
-   "desc": "Na početku puberteta: uzorci u njenim rukama i praćenje koje prve proizvode pretvara u brendove kojima veruje.",
-   "tagline": "Odrastanje, na njen način",
-   "hands": [
-    "Uzorci u kutiji",
-    "Dostava kurirom na kućnu adresu",
-    "Praćenje uz saglasnost nakon registracije"
-   ],
-   "online": [
-    "Care Direct onlajn zajednice",
-    "Sadržaj kojem veruje",
-    "Praćenje na kanalima koji odgovaraju"
-   ]
-  },
-  {
-   "id": "st-high",
-   "name": "START High School",
-   "when": "Upis u srednju školu, 15–16 godina",
-   "where": "Srednje škole · veb vodič START 9",
-   "desc": "Novo odeljenje, novi ljudi. Uzorci i START 9 — interaktivni veb vodič za njihovu prvu godinu.",
-   "tagline": "Novo odeljenje, novi ljudi",
-   "hands": [
-    "Uzorci u njihovim rukama",
-    "Deli se u srednjim školama",
-    "Praćenje uz saglasnost nakon registracije"
-   ],
-   "online": [
-    "START 9 veb vodič (Rumunija)",
-    "Ciljevi i saveti za prvu godinu",
-    "Praćenje na kanalima koji odgovaraju"
-   ]
-  },
-  {
-   "id": "st-uni",
-   "name": "START University",
-   "when": "Prva godina fakulteta",
-   "where": "Univerziteti · veb vodič UniStart+",
-   "desc": "Studenti prve godine koji prave prve samostalne kupovine: uzorci i UniStart+.",
-   "tagline": "Prva godina, prva samostalnost",
-   "hands": [
-    "Uzorci u njihovim rukama",
-    "Deli se na univerzitetima",
-    "Praćenje uz saglasnost nakon registracije"
-   ],
-   "online": [
-    "UniStart+ studentski vodič (Bugarska)",
-    "Partneri kutije, navedeni onlajn",
-    "Praćenje na kanalima koji odgovaraju"
-   ]
-  },
-  {
-   "id": "st-army",
-   "name": "START Army",
-   "when": "Dan regrutacije",
-   "where": "Vojni kampovi",
-   "desc": "Mladići probaju tvoj proizvod na dan stupanja u službu: teško dostupna publika na jednom mestu.",
-   "tagline": "Prvi dan u službi",
-   "hands": [
-    "Uzorci u njihovim rukama",
-    "Deli se u vojnim kampovima",
-    "Praćenje uz saglasnost nakon registracije"
-   ],
-   "online": [
-    "Care Direct onlajn zajednice",
-    "Teško dostupna publika, na jednom mestu",
-    "Praćenje na kanalima koji odgovaraju"
-   ]
-  },
-  {
-   "id": "st-marriage",
-   "name": "START Marriage",
-   "when": "Venčanje",
-   "where": "Dostava kurirom na kućnu adresu",
-   "desc": "Parovi koji zajedno zasnivaju dom probaju tvoj proizvod dok biraju prve zajedničke brendove.",
-   "tagline": "Dom za dvoje",
-   "hands": [
-    "Uzorci u kutiji",
-    "Dostava kurirom na kućnu adresu",
-    "Praćenje uz saglasnost nakon registracije"
-   ],
-   "online": [
-    "Care Direct onlajn zajednice",
-    "Prvi zajednički brendovi",
-    "Praćenje na kanalima koji odgovaraju"
-   ]
-  },
-  {
-   "id": "st-pet",
-   "name": "START Pet",
-   "when": "Novi ljubimac u kući",
-   "where": "Veterinari i organizacije za udomljavanje",
-   "desc": "Novi vlasnici dobijaju tvoj proizvod u prvim nedeljama, dok još biraju hranu, negu i dodatke.",
-   "tagline": "Novi član porodice",
-   "hands": [
-    "Uzorci u kutiji",
-    "Deli se kod veterinara i u organizacijama za udomljavanje",
-    "Praćenje uz saglasnost nakon registracije"
-   ],
-   "online": [
-    "Care Direct onlajn zajednice",
-    "Rutine koje traju",
-    "Praćenje na kanalima koji odgovaraju"
-   ]
-  },
-  {
-   "id": "st-silver",
-   "name": "START Ladies",
-   "when": "50+, ulazak u menopauzu",
-   "where": "Ginekološke klinike",
-   "desc": "Žene u srednjim godinama dobijaju probu i pouzdano vođenje tokom velike promene.",
-   "tagline": "Novo poglavlje u 50+",
-   "hands": [
-    "Uzorci u kutiji",
-    "Štampani ili online vodič",
-    "Uručuje se u ginekološkim klinikama"
-   ],
-   "online": [
-    "LadiesBook (ladiesbook.gr)",
-    "Pouzdano vođenje za srednje godine",
-    "Praćenje na kanalima koji odgovaraju"
-   ]
-  },
-  {
-   "id": "st-seniors",
-   "name": "START Seniors",
-   "when": "Početak penzije",
-   "where": "Dom i mesta okupljanja starijih",
-   "desc": "Novi ritam života, nove rutine i novi brendovi, na početku penzije.",
-   "tagline": "Vreme za sebe",
-   "hands": [
-    "Uzorci u kutiji",
-    "Dostava na kućnu adresu i na mesta gde se stariji okupljaju",
-    "Praćenje uz saglasnost nakon registracije"
-   ],
-   "online": [
-    "Care Direct onlajn zajednice",
-    "Nove rutine, novi brendovi",
-    "Praćenje na kanalima koji odgovaraju"
-   ]
+  "footer": "START. Care Direct porodica programa",
+  "faq": {
+    "eyebrow": "Brzi odgovori",
+    "h2": "Šta brendovi pitaju o START-u",
+    "items": [
+      {
+        "q": "Šta je START by Care Direct?",
+        "a": "START je Care Direct porodica programa uzorkovanja po životnim fazama. Brendovi stavljaju uzorke u ruke ljudi u trenucima promene — trudnoća, škola, univerzitet i više — uz vodič koji čuvaju i praćenje uz saglasnost."
+      },
+      {
+        "q": "Gde START funkcioniše?",
+        "a": "START radi u Jugoistočnoj Evropi: Grčka, Kipar, Rumunija, Bugarska i Srbija."
+      },
+      {
+        "q": "Kako funkcioniše START program?",
+        "a": "Svaki START spaja kutiju uzoraka (proizvod u njihovim rukama) sa štampanim ili digitalnim vodičem, zatim GDPR praćenje i Care Direct Online Platform koja nastavlja razgovor."
+      },
+      {
+        "q": "Za koga je START?",
+        "a": "Za marketare i agencije kojima treba stvarna proba proizvoda u nedelji kada potrošači biraju nove brendove — ne samo digitalni utisci."
+      }
+    ]
   }
- ],
- "how": {
-  "eyebrow": "Kako funkcioniše START",
-  "h2": "Proba u njihovim rukama. Vodič koji zadržavaju. Praćenje koje traje.",
-  "steps": [
-   [
-    "1 · Kutija",
-    "Tvoj proizvod, isporučen u trenutku kada im je potreban, preko klinika, škola i univerziteta. Prava proba, a ne puki utisak."
-   ],
-   [
-    "2 · Vodič",
-    "Vodič uz svaku kutiju — štampani, digitalni ili veb, zavisno od publike. Tvoj brend zaslužuje koristan prostor, a ne samo mesto za oglas."
-   ],
-   [
-    "3 · Praćenje",
-    "Registracija uz saglasnost, u skladu sa GDPR-om, prikuplja email, telefon, mobilni i adresu — a zatim nastavljamo razgovor na kanalima koji odgovaraju svakom tržištu."
-   ],
-   [
-    "4 · Online Platform",
-    "Care Direct onlajn zajednice razvijene u sopstvenoj kući drže publiku blizu i prebacuju je u sledeći START."
-   ]
-  ]
- },
- "live": {
-  "eyebrow": "Aktivno sada",
-  "h2": "Pogledaj Online START iznutra.",
-  "cards": [
-   {
-    "tag": "Rumunija · upis u srednju školu",
-    "name": "START 9",
-    "desc": "Interaktivni vodič za učenike koji kreću u srednju školu: novo odeljenje, novi ljudi, i dalje ti.",
-    "url": "https://startliceu.life",
-    "link": "startliceu.life →"
-   },
-   {
-    "tag": "Bugarska · studenti UNSS-a",
-    "name": "UniStart+",
-    "desc": "Digitalni studentski vodič sa ciljevima, koracima karijere i partnerskom kutijom, nastao u saradnji sa UNSS Sofija.",
-    "url": "https://uni-start.com",
-    "link": "uni-start.com →"
-   }
-  ]
- },
- "markets": {
-  "eyebrow": "Gde se START sprovodi",
-  "h2": "Dva regiona. Jedan model rada.",
-  "regions": [
-   {
-    "name": "Jugoistočna Evropa",
-    "sub": "Programi životnih faza: START",
-    "countries": [
-     "Grčka",
-     "Kipar",
-     "Rumunija",
-     "Bugarska",
-     "Srbija"
-    ],
-    "link": ""
-   },
-   {
-    "name": "Bliski istok",
-    "sub": "Promotivni programi i aktivacije, Care Direct",
-    "countries": [
-     "UAE",
-     "Saudijska Arabija",
-     "Egipat",
-     "Liban",
-     "Kuvajt",
-     "Katar",
-     "Oman",
-     "Bahrein"
-    ],
-    "link": "me"
-   }
-  ]
- },
- "brands": {
-  "h2": "Stavi svoj proizvod u nečiji prvi dan.",
-  "lead": "Reci nam publiku i tržište. Vratićemo se sa pravim START-om, dosegom, rokovima i cenom.",
-  "markets": [
-   "Greece",
-   "Cyprus",
-   "Romania",
-   "Bulgaria",
-   "Serbia"
-  ],
-  "button": "Pridruži se START-u"
- },
- "footer": "START. Care Direct porodica programa",
- "faq": {
-  "eyebrow": "Brzi odgovori",
-  "h2": "Šta brendovi pitaju o START-u",
-  "items": [
-   {
-    "q": "Šta je START by Care Direct?",
-    "a": "START je Care Direct porodica programa uzorkovanja po životnim fazama. Brendovi stavljaju uzorke u ruke ljudi u trenucima promene — trudnoća, škola, univerzitet i više — uz vodič koji čuvaju i praćenje uz saglasnost."
-   },
-   {
-    "q": "Gde START funkcioniše?",
-    "a": "START radi u Jugoistočnoj Evropi: Grčka, Kipar, Rumunija, Bugarska i Srbija."
-   },
-   {
-    "q": "Kako funkcioniše START program?",
-    "a": "Svaki START spaja kutiju uzoraka (proizvod u njihovim rukama) sa štampanim ili digitalnim vodičem, zatim GDPR praćenje i Care Direct Online Platform koja nastavlja razgovor."
-   },
-   {
-    "q": "Za koga je START?",
-    "a": "Za marketare i agencije kojima treba stvarna proba proizvoda u nedelji kada potrošači biraju nove brendove — ne samo digitalni utisci."
-   }
-  ]
- }
 }

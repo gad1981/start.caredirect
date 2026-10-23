@@ -100,6 +100,10 @@ async function BlogArticleRoute({
         "@type": "Organization",
         name: "Care Direct",
         url: "https://www.caredirect.com/",
+        sameAs: [
+          "https://www.caredirect.com/",
+          "https://start.caredirect.com/",
+        ],
       },
       publisher: {
         "@type": "Organization",
@@ -109,6 +113,24 @@ async function BlogArticleRoute({
           "@type": "ImageObject",
           url: absoluteAssetUrl(PUBLISHER_LOGO),
         },
+        sameAs: [
+          "https://www.caredirect.com/",
+          "https://start.caredirect.com/",
+        ],
+      },
+      isPartOf: {
+        "@type": "Blog",
+        name: messages.blogTitle,
+        url: blogUrl,
+        publisher: {
+          "@type": "Organization",
+          name: "Care Direct",
+          url: "https://www.caredirect.com/",
+        },
+      },
+      about: {
+        "@type": "Thing",
+        name: "Life-stage product sampling and hybrid brand activation",
       },
       mainEntityOfPage: articleUrl,
       keywords: post.keywords.join(", "),
@@ -168,6 +190,10 @@ async function BlogArticleRoute({
           ) : null}
           <span>{messages.blogForBrands}</span>
         </div>
+        <p className={styles.byline}>
+          <strong>{messages.blogByline}</strong>
+          <span> — {messages.blogBylineDetail}</span>
+        </p>
         <p className={styles.lead}>{post.description}</p>
       </header>
 
@@ -188,6 +214,15 @@ async function BlogArticleRoute({
           return <p key={`p-${i}`}>{block.text}</p>;
         })}
       </article>
+
+      {post.practice ? (
+        <section className={styles.practice} aria-labelledby="practice-h2">
+          <h2 id="practice-h2">{messages.blogPracticeTitle}</h2>
+          <p>{post.practice}</p>
+        </section>
+      ) : null}
+
+      <p className={styles.expertise}>{messages.blogExpertise}</p>
 
       {post.sources?.length ? (
         <section className={styles.sources} aria-labelledby="sources-h2">

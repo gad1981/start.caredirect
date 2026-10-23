@@ -1,8 +1,8 @@
 {
   "st-parents": {
     "job": "Pagina de start a site-ului START B2B: prezintă brandurilor familia START și obține o cerere de participare.",
-    "t": "Eșantionare de produs pe etape de viață în Sud-Estul Europei | START by Care Direct",
-    "m": "START îți pune produsul în mâinile oamenilor la momente de viață — sarcină, școală, universitate și altele — cu ghid și continuare a comunicării în Grecia, Cipru, România, Bulgaria și Serbia.",
+    "t": "Eșantionare pe etape de viață + CRM digital în SEE | START by Care Direct",
+    "m": "Experiențe complete START: eșantionare care se extinde digital — Online Platforms, CRM, fidelizare și email personalizat — în Grecia, Cipru, România, Bulgaria și Serbia.",
     "h1": "Fiecare etapă din viață are o primă zi. Fii prezent în ea.",
     "sections": [
       {
@@ -53,8 +53,8 @@
   },
   "st-contact": {
     "job": "Transformă interesul într-o cerere de participare, direcționat către echipa potrivită din fiecare țară.",
-    "t": "Planifică un program de eșantionare | START by Care Direct",
-    "m": "Spune-ne publicul și piața. Răspundem cu programul START de eșantionare potrivit, acoperirea, calendarul și costul în Sud-Estul Europei.",
+    "t": "Alătură-te unui START: eșantionare + Online Platform + CRM | START by Care Direct",
+    "m": "Spuneți Care Direct publicul și piața. Primiți experiența completă START — mostre în cutie, Online Platform, CRM, timing și cost în SEE.",
     "h1": "Pune-ți produsul în prima zi a cuiva.",
     "sections": [
       {
@@ -95,7 +95,7 @@
   "st-order": {
     "job": "Faza 2: comandă online mostrele gratuite, pe program START și țară.",
     "t": "Comandă mostrele tale gratuite START | START by Care Direct",
-    "m": "Comandă mostre gratuite START pentru etapa ta: alege programul și țara, verifică dacă te califici, înregistrează-te.",
+    "m": "Comandă mostre gratuite START pentru etapa ta: alege programul și țara, verifică dacă te califici, înregistrează-te — apoi Online Platform, CRM, fidelizare și email personalizat.",
     "h1": "Comandă mostrele tale gratuite START.",
     "sections": [
       {
@@ -149,8 +149,8 @@
   },
   "st-marriage": {
     "job": "Vinde brandurilor START Marriage: ajungi la oameni în momentul căsătoriei, cu livrare la domiciliu prin curier, și obții o cerere de participare.",
-    "t": "START Marriage: eșantionare pentru proaspeții căsătoriți | START by Care Direct",
-    "m": "Ajungi la cupluri în momentul în care se căsătoresc și își formează primul cămin: mostre livrate la domiciliu și continuare a comunicării, cu consimțământ.",
+    "t": "START Marriage: eșantionare pentru proaspăt căsătoriți + digital | START by Care Direct",
+    "m": "Ajungi la cupluri în momentul în care se căsătoresc și își formează primul cămin: mostre livrate la domiciliu și continuare a comunicării, cu consimțământ — apoi Online Platform, CRM, fidelizare și email personalizat.",
     "h1": "START Marriage.",
     "sections": [
       {
@@ -168,7 +168,7 @@
       {
         "name": "Ce primește brandul tău",
         "comp": "card-grid",
-        "copy": "Mostre în cutie: livrate acasă pe măsură ce își amenajează casa · Ghid tipărit sau online: brandul tău în ghidul pe care îl păstrează · Continuare a comunicării, cu consimțământ: după înregistrare, pe canalele potrivite · Comunități online: Care Direct ține conversația vie",
+        "copy": "Mostre în cutie: livrate acasă pe măsură ce își amenajează casa · Ghid tipărit sau online: brandul tău în ghidul pe care îl păstrează · Continuare a comunicării, cu consimțământ: după înregistrare, pe canalele potrivite · Comunități online: Care Direct ține conversația vie · Continuare digitală cu consimțământ: CRM, fidelizare și email personalizat după înregistrare · Online Platform: comunități Care Direct, CRM și email personalizat",
         "proof": "Modelul START",
         "intro": "Ce primește brandul tău în START Marriage."
       }
@@ -181,8 +181,8 @@
   },
   "st-pet": {
     "job": "Vinde brandurilor START Pet: ajungi la oameni în momentul în care au un animal de companie nou în casă, prin medici veterinari și organizații de adopție, și obții o cerere de participare.",
-    "t": "START Pet: eșantionare pentru noii proprietari de animale | START by Care Direct",
-    "m": "Un animal de companie nou înseamnă un nou început pentru toată casa. Pune-ți produsul în mâinile noilor proprietari, pe măsură ce se formează rutinele.",
+    "t": "START Pet: eșantionare pentru animale + digital | START by Care Direct",
+    "m": "Un animal de companie nou înseamnă un nou început pentru toată casa. Pune-ți produsul în mâinile noilor proprietari, pe măsură ce se formează rutinele — apoi Online Platform, CRM, fidelizare și email personalizat.",
     "h1": "START Pet.",
     "sections": [
       {
@@ -200,7 +200,7 @@
       {
         "name": "Ce primește brandul tău",
         "comp": "card-grid",
-        "copy": "Mostre în cutie: în mâinile noilor proprietari pe măsură ce se formează rutinele · Ghid tipărit sau online: brandul tău în ghidul pe care îl păstrează · Continuare a comunicării, cu consimțământ: după înregistrare, pe canalele potrivite · Comunități online: Care Direct ține conversația vie",
+        "copy": "Mostre în cutie: în mâinile noilor proprietari pe măsură ce se formează rutinele · Ghid tipărit sau online: brandul tău în ghidul pe care îl păstrează · Continuare a comunicării, cu consimțământ: după înregistrare, pe canalele potrivite · Comunități online: Care Direct ține conversația vie · Continuare digitală cu consimțământ: CRM, fidelizare și email personalizat după înregistrare · Online Platform: comunități Care Direct, CRM și email personalizat",
         "proof": "Modelul START",
         "intro": "Ce primește brandul tău în START Pet."
       },
@@ -220,8 +220,8 @@
   },
   "st-pregnancy": {
     "job": "Vinde brandurilor START Pregnancy: ajungi la oameni în trimestrul 3, în clinicile de ginecologie și în maternități, și obții o cerere de participare.",
-    "t": "START Pregnancy: eșantionare pentru gravide | START by Care Direct",
-    "m": "Ajungi la viitoarele mame în trimestrul 3, în clinicile de ginecologie și în maternități: aproximativ 20.000 pe an în Grecia.",
+    "t": "START Pregnancy: eșantionare în clinici + CRM digital | START by Care Direct",
+    "m": "Ajungi la viitoarele mame în trimestrul 3, în clinicile de ginecologie și în maternități: aproximativ 20.000 pe an în Grecia — apoi Online Platform, CRM, fidelizare și email personalizat.",
     "h1": "START Pregnancy.",
     "sections": [
       {
@@ -239,7 +239,7 @@
       {
         "name": "Ce primește brandul tău",
         "comp": "card-grid",
-        "copy": "Mostre în cutie: produsul tău în mâinile lor înainte să apară bebelușul · Ghid tipărit sau online: brandul tău în ghidul pe care îl păstrează · Continuare a comunicării, cu consimțământ: după înregistrare, pe canalele potrivite · Platforme online: țin conversația vie",
+        "copy": "Mostre în cutie: produsul tău în mâinile lor înainte să apară bebelușul · Ghid tipărit sau online: brandul tău în ghidul pe care îl păstrează · Continuare a comunicării, cu consimțământ: după înregistrare, pe canalele potrivite · Platforme online: țin conversația vie · Continuare digitală cu consimțământ: CRM, fidelizare și email personalizat după înregistrare · Online Platform: comunități Care Direct, CRM și email personalizat",
         "proof": "Modelul START",
         "intro": "Ce primește brandul tău în START Pregnancy."
       },
@@ -273,8 +273,8 @@
   },
   "st-natal": {
     "job": "Vinde brandurilor START Newborn: ajungi la mamele proaspete la 2–3 zile după naștere, în maternitățile publice și private, și obții o cerere de participare.",
-    "t": "START Newborn: eșantionare pentru mame proaspete | START by Care Direct",
-    "m": "Ajungi la mamele proaspete la 2–3 zile după naștere, în maternitățile publice și private: aproximativ 50.000 pe an în Grecia · peste 270.000 în Sud-Estul Europei.",
+    "t": "START Newborn: eșantionare în maternități + CRM digital | START by Care Direct",
+    "m": "Ajungi la mamele proaspete la 2–3 zile după naștere, în maternitățile publice și private: aproximativ 50.000 pe an în Grecia · peste 270.000 în Sud-Estul Europei — apoi Online Platform, CRM, fidelizare și email personalizat.",
     "h1": "START Newborn.",
     "sections": [
       {
@@ -292,7 +292,7 @@
       {
         "name": "Ce primește brandul tău",
         "comp": "card-grid",
-        "copy": "Mostre în cutie: produsul tău în primele zile ale mamei · Ghid tipărit sau online: brandul tău în ghidul pe care îl păstrează · Continuare a comunicării, cu consimțământ: după înregistrare, pe canalele potrivite · Platforme online: țin conversația vie",
+        "copy": "Mostre în cutie: produsul tău în primele zile ale mamei · Ghid tipărit sau online: brandul tău în ghidul pe care îl păstrează · Continuare a comunicării, cu consimțământ: după înregistrare, pe canalele potrivite · Platforme online: țin conversația vie · Continuare digitală cu consimțământ: CRM, fidelizare și email personalizat după înregistrare · Online Platform: comunități Care Direct, CRM și email personalizat",
         "proof": "Modelul START",
         "intro": "Ce primește brandul tău în START Newborn."
       },
@@ -332,8 +332,8 @@
   },
   "st-luxury": {
     "job": "Vinde brandurilor START Luxury Moments: ajungi la mamele proaspete din păturile de sus ale societății, în suitele și rezervele private ale clinicilor private, și obții o cerere de participare.",
-    "t": "START Luxury Moments: eșantionare premium pentru nou-născuți | START by Care Direct",
-    "m": "Cutii premium de mostre pentru mamele din suitele și rezervele private ale clinicilor private: aproximativ 2.000 pe an, în căutare de branduri exclusive.",
+    "t": "START Luxury Moments: premium newborn + digital | START by Care Direct",
+    "m": "Cutii premium de mostre pentru mamele din suitele și rezervele private ale clinicilor private: aproximativ 2.000 pe an, în căutare de branduri exclusive — apoi Online Platform, CRM, fidelizare și email personalizat.",
     "h1": "START Luxury Moments.",
     "sections": [
       {
@@ -351,7 +351,7 @@
       {
         "name": "Ce primește brandul tău",
         "comp": "card-grid",
-        "copy": "Material educativ: în cutia Luxury Moments · Ghid tipărit sau online: brandul tău în ghidul pe care îl păstrează · Produse în format normal: mamele încearcă brandul tău · Materiale promoționale: într-un moment sentimental · Public-țintă: mame noi din suite private",
+        "copy": "Material educativ: în cutia Luxury Moments · Ghid tipărit sau online: brandul tău în ghidul pe care îl păstrează · Produse în format normal: mamele încearcă brandul tău · Materiale promoționale: într-un moment sentimental · Public-țintă: mame noi din suite private · Continuare digitală cu consimțământ: CRM, fidelizare și email personalizat după înregistrare · Online Platform: comunități Care Direct, CRM și email personalizat",
         "proof": "Prezentarea Luxury Moments",
         "intro": "Ce primește brandul tău în START Luxury Moments."
       },
@@ -378,8 +378,8 @@
   },
   "st-next": {
     "job": "Vinde brandurilor START First Foods: ajungi la oameni când bebelușul are 6 luni și începe să mănânce, cu livrare la domiciliu, și obții o cerere de participare.",
-    "t": "START First Foods: eșantionare la 6 luni | START by Care Direct",
-    "m": "Bebelușii încep alimentația solidă la aproximativ 6 luni: un al doilea val de testare pentru brandurile de alimentație, hrănire și îngrijire.",
+    "t": "START First Foods: 6-month eșantionare + digital | START by Care Direct",
+    "m": "Bebelușii încep alimentația solidă la aproximativ 6 luni: un al doilea val de testare pentru brandurile de alimentație, hrănire și îngrijire — apoi Online Platform, CRM, fidelizare și email personalizat.",
     "h1": "START First Foods.",
     "sections": [
       {
@@ -397,7 +397,7 @@
       {
         "name": "Ce primește brandul tău",
         "comp": "card-grid",
-        "copy": "Mostre în cutie: livrate acasă când bebelușul începe alimentația solidă · Ghid tipărit sau online: brandul tău în ghidul pe care îl păstrează · Continuare a comunicării, cu consimțământ: după înregistrare, pe canalele potrivite · Platforme online: țin conversația vie",
+        "copy": "Mostre în cutie: livrate acasă când bebelușul începe alimentația solidă · Ghid tipărit sau online: brandul tău în ghidul pe care îl păstrează · Continuare a comunicării, cu consimțământ: după înregistrare, pe canalele potrivite · Platforme online: țin conversația vie · Continuare digitală cu consimțământ: CRM, fidelizare și email personalizat după înregistrare · Online Platform: comunități Care Direct, CRM și email personalizat",
         "proof": "Modelul START",
         "intro": "Ce primește brandul tău în START First Foods."
       },
@@ -426,8 +426,8 @@
   },
   "st-school": {
     "job": "Vinde brandurilor START First Grade: ajungi la oameni în prima zi de clasa I (6 ani), în școlile primare, și obții o cerere de participare.",
-    "t": "START First Grade: eșantionare în școli | START by Care Direct",
-    "m": "O cutie multi-brand, distribuită în școli în prima zi de clasa I, pentru copiii de șase ani și pentru părinții care aleg brandurile anului școlar.",
+    "t": "START First Grade: eșantionare în școli + digital | START by Care Direct",
+    "m": "O cutie multi-brand, distribuită în școli în prima zi de clasa I, pentru copiii de șase ani și pentru părinții care aleg brandurile anului școlar — apoi Online Platform, CRM, fidelizare și email personalizat.",
     "h1": "START First Grade.",
     "sections": [
       {
@@ -445,7 +445,7 @@
       {
         "name": "Ce primește brandul tău",
         "comp": "card-grid",
-        "copy": "Mostre în cutie: în mâinile copiilor în prima zi de școală · Ghid tipărit sau online: brandul tău în ghidul pe care îl păstrează · Continuare a comunicării, cu consimțământ: după înregistrare, pe canalele potrivite · Platforme online: țin conversația vie",
+        "copy": "Mostre în cutie: în mâinile copiilor în prima zi de școală · Ghid tipărit sau online: brandul tău în ghidul pe care îl păstrează · Continuare a comunicării, cu consimțământ: după înregistrare, pe canalele potrivite · Platforme online: țin conversația vie · Continuare digitală cu consimțământ: CRM, fidelizare și email personalizat după înregistrare · Online Platform: comunități Care Direct, CRM și email personalizat",
         "proof": "Modelul START",
         "intro": "Ce primește brandul tău în START First Grade."
       },
@@ -479,8 +479,8 @@
   },
   "st-teen": {
     "job": "Vinde brandurilor START Teen Girl: ajungi la fete la începutul pubertății, cu livrare la domiciliu prin curier, și obții o cerere de participare.",
-    "t": "START Teen Girl: eșantionare la pubertate | START by Care Direct",
-    "m": "Ajungi la fete la începutul pubertății cu mostre livrate acasă și continuare a comunicării, cu consimțământ — produse de încredere și îndrumare când se formează rutinele.",
+    "t": "START Teen Girl: puberty eșantionare + digital | START by Care Direct",
+    "m": "Ajungi la fete la începutul pubertății cu mostre livrate acasă și continuare a comunicării, cu consimțământ — produse de încredere și îndrumare când se formează rutinele — apoi Online Platform, CRM, fidelizare și email personalizat.",
     "h1": "START Teen Girl.",
     "sections": [
       {
@@ -498,7 +498,7 @@
       {
         "name": "Ce primește brandul tău",
         "comp": "card-grid",
-        "copy": "Mostre în cutie: primele produse pe care le alege singură · Ghid tipărit sau online: brandul tău în ghidul pe care îl păstrează · Livrare la domiciliu: prin curier · Continuare a comunicării, cu consimțământ: după înregistrare, pe canalele potrivite · Comunități online: Care Direct ține conversația vie",
+        "copy": "Mostre în cutie: primele produse pe care le alege singură · Ghid tipărit sau online: brandul tău în ghidul pe care îl păstrează · Livrare la domiciliu: prin curier · Continuare a comunicării, cu consimțământ: după înregistrare, pe canalele potrivite · Comunități online: Care Direct ține conversația vie · Continuare digitală cu consimțământ: CRM, fidelizare și email personalizat după înregistrare · Online Platform: comunități Care Direct, CRM și email personalizat",
         "proof": "Modelul START",
         "intro": "Ce primește brandul tău în START Teen Girl."
       }
@@ -513,7 +513,7 @@
   "st-high": {
     "job": "Vinde brandurilor START High School: ajungi la oameni în primul an de liceu (15–16 ani), în licee, și obții o cerere de participare.",
     "t": "START High School: eșantionare în liceu | START by Care Direct",
-    "m": "Ajungi la elevi care încep liceul la 15–16 ani cu mostre și ghidul START 9 — testare în școală când se formează obiceiurile de brand.",
+    "m": "Ajungi la elevi care încep liceul la 15–16 ani cu mostre și ghidul START 9 — testare în școală când se formează obiceiurile de brand — apoi Online Platform, CRM, fidelizare și email personalizat.",
     "h1": "START High School.",
     "sections": [
       {
@@ -531,7 +531,7 @@
       {
         "name": "Ce primește brandul tău",
         "comp": "card-grid",
-        "copy": "Mostre în mâinile lor: la începutul liceului · Ghid tipărit sau online: brandul tău în ghidul pe care îl păstrează · Continuare a comunicării, cu consimțământ: după înregistrare, pe canalele potrivite · Platforme online: țin conversația vie",
+        "copy": "Mostre în mâinile lor: la începutul liceului · Ghid tipărit sau online: brandul tău în ghidul pe care îl păstrează · Continuare a comunicării, cu consimțământ: după înregistrare, pe canalele potrivite · Platforme online: țin conversația vie · Continuare digitală cu consimțământ: CRM, fidelizare și email personalizat după înregistrare · Online Platform: comunități Care Direct, CRM și email personalizat",
         "proof": "Modelul START",
         "intro": "Ce primește brandul tău în START High School."
       },
@@ -552,8 +552,8 @@
   },
   "st-uni": {
     "job": "Vinde brandurilor START University: ajungi la oameni în primul an de facultate, în universități, și obții o cerere de participare.",
-    "t": "START University: eșantionare în campus | START by Care Direct",
-    "m": "Ajungi la studenți din anul I care fac primele achiziții independente — mostre în campus și UniStart+ în Sud-Estul Europei.",
+    "t": "START University: eșantionare în campus + UniStart+ | START by Care Direct",
+    "m": "Ajungi la studenți din anul I care fac primele achiziții independente — mostre în campus și UniStart+ în Sud-Estul Europei — apoi Online Platform, CRM, fidelizare și email personalizat.",
     "h1": "START University.",
     "sections": [
       {
@@ -571,7 +571,7 @@
       {
         "name": "Ce primește brandul tău",
         "comp": "card-grid",
-        "copy": "Mostre în mâinile lor: în primul an · Ghid tipărit sau online: brandul tău în ghidul pe care îl păstrează · Continuare a comunicării, cu consimțământ: după înregistrare, pe canalele potrivite · Platforme online: țin conversația vie",
+        "copy": "Mostre în mâinile lor: în primul an · Ghid tipărit sau online: brandul tău în ghidul pe care îl păstrează · Continuare a comunicării, cu consimțământ: după înregistrare, pe canalele potrivite · Platforme online: țin conversația vie · Continuare digitală cu consimțământ: CRM, fidelizare și email personalizat după înregistrare · Online Platform: comunități Care Direct, CRM și email personalizat",
         "proof": "Modelul START",
         "intro": "Ce primește brandul tău în START University."
       },
@@ -599,8 +599,8 @@
   },
   "st-army": {
     "job": "Vinde brandurilor START Army: ajungi la oameni în ziua încorporării, în unitățile militare, și obții o cerere de participare.",
-    "t": "START Army: eșantionare în ziua încorporării | START by Care Direct",
-    "m": "Tinerii îți încearcă produsul în ziua în care intră în serviciul militar: ziua încorporării, în unitățile militare. START Army.",
+    "t": "START Army: recruitment eșantionare + digital | START by Care Direct",
+    "m": "Tinerii îți încearcă produsul în ziua în care intră în serviciul militar: ziua încorporării, în unitățile militare. START Army — apoi Online Platform, CRM, fidelizare și email personalizat.",
     "h1": "START Army.",
     "sections": [
       {
@@ -618,7 +618,7 @@
       {
         "name": "Ce primește brandul tău",
         "comp": "card-grid",
-        "copy": "Mostre în mâinile lor: în prima zi de serviciu · Ghid tipărit sau online: brandul tău în ghidul pe care îl păstrează · Continuare a comunicării, cu consimțământ: după înregistrare, pe canalele potrivite · Comunități online: Care Direct ține conversația vie",
+        "copy": "Mostre în mâinile lor: în prima zi de serviciu · Ghid tipărit sau online: brandul tău în ghidul pe care îl păstrează · Continuare a comunicării, cu consimțământ: după înregistrare, pe canalele potrivite · Comunități online: Care Direct ține conversația vie · Continuare digitală cu consimțământ: CRM, fidelizare și email personalizat după înregistrare · Online Platform: comunități Care Direct, CRM și email personalizat",
         "proof": "Modelul START",
         "intro": "Ce primește brandul tău în START Army."
       },
@@ -640,7 +640,7 @@
   "st-silver": {
     "job": "Vinde brandurilor START Ladies: ajungi la femei la începutul menopauzei (50+), în clinicile de ginecologie, și obții o cerere de participare.",
     "t": "START Ladies: eșantionare pentru menopauză | START by Care Direct",
-    "m": "Femei de 50+ care intră în menopauză, atinse în clinicile de ginecologie, la controlul anual, împreună cu LadiesBook.",
+    "m": "Femei de 50+ care intră în menopauză, atinse în clinicile de ginecologie, la controlul anual, împreună cu LadiesBook — apoi Online Platform, CRM, fidelizare și email personalizat.",
     "h1": "START Ladies.",
     "sections": [
       {
@@ -658,7 +658,7 @@
       {
         "name": "Ce primește brandul tău",
         "comp": "card-grid",
-        "copy": "Mostre în cutie: predate la controlul anual · Ghid tipărit sau online: brandul tău în ghidul pe care îl păstrează · Continuare a comunicării, cu consimțământ: după înregistrare, pe canalele potrivite · Platformă online: pentru femei 50+, ține conversația vie",
+        "copy": "Mostre în cutie: predate la controlul anual · Ghid tipărit sau online: brandul tău în ghidul pe care îl păstrează · Continuare a comunicării, cu consimțământ: după înregistrare, pe canalele potrivite · Platformă online: pentru femei 50+, ține conversația vie · Continuare digitală cu consimțământ: CRM, fidelizare și email personalizat după înregistrare · Online Platform: comunități Care Direct, CRM și email personalizat",
         "proof": "Modelul START",
         "intro": "Ce primește brandul tău în START Ladies."
       },
@@ -679,8 +679,8 @@
   },
   "st-seniors": {
     "job": "Vinde brandurilor START Seniors: ajungi la oameni la începutul pensionării, la domiciliu și în locurile de întâlnire ale seniorilor, și obții o cerere de participare.",
-    "t": "START Seniors: eșantionare la începutul pensionării | START by Care Direct",
-    "m": "Oameni aflați la începutul pensionării: rutine noi, timp nou, alegeri noi. Pune-ți produsul în mâinile lor.",
+    "t": "START Seniors: retirement eșantionare + digital | START by Care Direct",
+    "m": "Oameni aflați la începutul pensionării: rutine noi, timp nou, alegeri noi. Pune-ți produsul în mâinile lor — apoi Online Platform, CRM, fidelizare și email personalizat.",
     "h1": "START Seniors.",
     "sections": [
       {
@@ -698,7 +698,7 @@
       {
         "name": "Ce primește brandul tău",
         "comp": "card-grid",
-        "copy": "Mostre în cutie: acasă și acolo unde se adună seniorii · Ghid tipărit sau online: brandul tău în ghidul pe care îl păstrează · Continuare a comunicării, cu consimțământ: după înregistrare, pe canalele potrivite · Comunități online: Care Direct ține conversația vie",
+        "copy": "Mostre în cutie: acasă și acolo unde se adună seniorii · Ghid tipărit sau online: brandul tău în ghidul pe care îl păstrează · Continuare a comunicării, cu consimțământ: după înregistrare, pe canalele potrivite · Comunități online: Care Direct ține conversația vie · Continuare digitală cu consimțământ: CRM, fidelizare și email personalizat după înregistrare · Online Platform: comunități Care Direct, CRM și email personalizat",
         "proof": "Modelul START",
         "intro": "Ce primește brandul tău în START Seniors."
       }
@@ -711,8 +711,8 @@
   },
   "st-school-xmas": {
     "job": "Vinde brandurilor START First Grade Christmas: ajungi la familiile elevilor din ciclul primar în perioada de Crăciun de la școală și obții o cerere de participare.",
-    "t": "START First Grade Christmas: eșantionare în școli | START by Care Direct",
-    "m": "Ediția de Crăciun a programului First Grade: o cutie festivă multi-brand pentru elevii din ciclul primar și pentru părinții lor.",
+    "t": "START First Grade Christmas: școală festivă + digital | START by Care Direct",
+    "m": "Ediția de Crăciun a programului First Grade: o cutie festivă multi-brand pentru elevii din ciclul primar și pentru părinții lor — apoi Online Platform, CRM, fidelizare și email personalizat.",
     "h1": "START First Grade Christmas.",
     "sections": [
       {
@@ -730,7 +730,7 @@
       {
         "name": "Ce primește brandul tău",
         "comp": "card-grid",
-        "copy": "Mostre în cutia de Crăciun: în mâinile copiilor la momentul festiv din școală · Ghid tipărit sau online: brandul tău în ghidul pe care îl păstrează · Continuare a comunicării, cu consimțământ: după înregistrare, pe canalele potrivite · Platforme online: țin conversația vie",
+        "copy": "Mostre în cutia de Crăciun: în mâinile copiilor la momentul festiv din școală · Ghid tipărit sau online: brandul tău în ghidul pe care îl păstrează · Continuare a comunicării, cu consimțământ: după înregistrare, pe canalele potrivite · Platforme online: țin conversația vie · Continuare digitală cu consimțământ: CRM, fidelizare și email personalizat după înregistrare · Online Platform: comunități Care Direct, CRM și email personalizat",
         "proof": "Modelul START",
         "intro": "Ce primește brandul tău în START First Grade Christmas."
       },

@@ -95,6 +95,47 @@
   color: var(--muted);
 }
 
+.byline {
+  margin: 14px 0 0;
+  font-size: 14px;
+  line-height: 1.4;
+  color: var(--ink);
+}
+
+.byline strong {
+  font-weight: 700;
+}
+
+.practice {
+  margin-top: 36px;
+  max-width: 40em;
+  padding: 20px 22px;
+  border-radius: 16px;
+  border: 1px solid var(--line);
+  background: color-mix(in srgb, var(--p2, #e3f4ea) 35%, white);
+}
+
+.practice h2 {
+  margin: 0 0 10px;
+  font: 800 20px / 1.25 var(--display);
+  letter-spacing: -0.02em;
+}
+
+.practice p {
+  margin: 0;
+  font-size: 15.5px;
+  line-height: 1.5;
+  color: var(--ink);
+}
+
+.expertise {
+  margin: 28px 0 0;
+  max-width: 40em;
+  font-size: 13.5px;
+  line-height: 1.45;
+  color: var(--muted);
+}
+
 .body {
   margin-top: 32px;
   max-width: 40em;

@@ -28,6 +28,8 @@ export type BlogPost = {
   sources: BlogSource[];
   /** Absolute-path OG/share image under /public. */
   ogImage?: string;
+  /** First-party Care Direct / START practice note (not generic advice). */
+  practice?: string;
 };
 
 const enList = enPosts as BlogPost[];
@@ -40,6 +42,7 @@ function deepMergePost(base: BlogPost, overlay: Partial<BlogPost>): BlogPost {
     relatedPrograms: base.relatedPrograms,
     sources: base.sources,
     ogImage: overlay.ogImage ?? base.ogImage,
+    practice: overlay.practice ?? base.practice,
     body: overlay.body?.length ? overlay.body : base.body,
   };
 }

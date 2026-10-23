@@ -2,7 +2,7 @@
   {
     "slug": "maternity-clinic-sampling-for-brands",
     "title": "Eșantionare în clinici pentru viitoarele mămici",
-    "description": "De ce eșantionarea în clinicile de maternitate bate acoperirea digital rece în trimestrul trei — și cum START Pregnancy transformă proba în CRM pe Online Platform.",
+    "description": "De ce eșantionarea în clinicile de maternitate bate acoperirea digital rece în trimestrul trei — și cum START Pregnancy transformă proba în CRM, fidelizare și email personalizat pe Online Platform.",
     "date": "2026-10-20",
     "updated": "2026-10-23",
     "keywords": [
@@ -107,9 +107,9 @@
         "cites": "GDPR consent must be freely given, informed, specific and affirmative."
       },
       {
-        "label": "WARC — Mondelez innovates in eșantionare de produse",
+        "label": "WARC — Mondelez innovates in product sampling",
         "url": "https://www.warc.com/newsandopinion/news/mondelez-innovates-in-product-sampling/en-gb/40382",
-        "cites": "Mix of online-led and in-store eșantionare; experiential trial remains central."
+        "cites": "Mix of online-led and in-store sampling; experiential trial remains central."
       },
       {
         "label": "Adweek — Mondelez first-party data / cookieless strategy",
@@ -122,12 +122,13 @@
         "cites": "Trial combined with digital across SEE and wider markets."
       }
     ],
-    "ogImage": "/assets/start-stages/hero-st-pregnancy-v3.png"
+    "ogImage": "/assets/start-stages/hero-st-pregnancy-v3.png",
+    "practice": "Care Direct rulează START Pregnancy prin clinici de ginecologie și maternități în Europa de Sud-Est — Grecia, Cipru, România, Bulgaria și Serbia — cu o cutie de mostre, un ghid pe care îl păstrează, apoi Online Platform și CRM cu consimțământ după înregistrare. Cereți acoperire pe țară pentru anul în care vă alăturați; nu planificați doar pe un număr regional agregat."
   },
   {
     "slug": "new-mother-hospital-sampling-kits",
     "title": "Eșantionare în maternități pentru mămicile noi",
-    "description": "Ce ar trebui să aștepte brandurile de la cutiile de mostre din primele zile: acoperire, calendar, ghiduri, consimțământ și CRM digital după predarea din spital.",
+    "description": "Ce ar trebui să aștepte brandurile de la cutiile de mostre din primele zile: acoperire, calendar, ghiduri, consimțământ și CRM digital după predarea din spital — Online Platform, CRM, fidelizare și email personalizat.",
     "date": "2026-10-18",
     "updated": "2026-10-23",
     "keywords": [
@@ -200,9 +201,9 @@
         "cites": "68,467 live births in Greece in 2024 (−4.2% vs 71,455 in 2023)."
       },
       {
-        "label": "The New York Times — Arbitron eșantionare de produse coverage",
+        "label": "The New York Times — Arbitron product sampling coverage",
         "url": "https://www.nytimes.com/2008/10/06/business/06drill.html",
-        "cites": "Same-day purchase after eșantionare; long-term repurchase intent."
+        "cites": "Same-day purchase after sampling; long-term repurchase intent."
       },
       {
         "label": "Marketing Charts — Arbitron / Edison Product Sampling Study",
@@ -222,7 +223,7 @@
       {
         "label": "European Commission — Information for individuals (consent under GDPR)",
         "url": "https://commission.europa.eu/law/law-topic/data-protection/information-individuals_en",
-        "cites": "Requirements for valid GDPR consent for continuare a comunicării marketing."
+        "cites": "Requirements for valid GDPR consent for follow-up marketing."
       },
       {
         "label": "Care Direct — home",
@@ -230,12 +231,13 @@
         "cites": "Hybrid trial + digital programs for families across SEE and beyond."
       }
     ],
-    "ogImage": "/assets/start-stages/hero-st-natal.png"
+    "ogImage": "/assets/start-stages/hero-st-natal.png",
+    "practice": "START Newborn livrează cutii la circa 2–3 zile după naștere în maternități; Luxury Moments acoperă suite private când cererea cere un mediu mai exclusiv. Care Direct tratează ambele ca același model pe etapă de viață: mostră, ghid, apoi continuare digitală — nu un cadou singular fără un al doilea moment."
   },
   {
     "slug": "school-product-sampling-first-grade",
     "title": "Eșantionare în școli în prima zi de clasa I",
-    "description": "De ce cutiile de mostre din prima zi de școală încă funcționează pentru brandurile de familie — și cum extinde START First Grade proba în Online Platform și CRM.",
+    "description": "De ce cutiile de mostre din prima zi de școală încă funcționează pentru brandurile de familie — și cum extinde START First Grade proba în Online Platform și CRM, fidelizare și email personalizat.",
     "date": "2026-10-16",
     "updated": "2026-10-23",
     "keywords": [
@@ -314,7 +316,7 @@
       {
         "label": "Marketing Charts — Arbitron / Edison Product Sampling Study",
         "url": "https://www.marketingcharts.com/industries/retail-and-e-commerce-6211",
-        "cites": "Same-trip purchase lift after eșantionare."
+        "cites": "Same-trip purchase lift after sampling."
       },
       {
         "label": "EMI / Mosaic EventTrack 2015 Consumer Survey",
@@ -324,15 +326,16 @@
       {
         "label": "European Commission — Information for individuals (consent under GDPR)",
         "url": "https://commission.europa.eu/law/law-topic/data-protection/information-individuals_en",
-        "cites": "Valid consent rules if the program includes continuare a comunicării data capture."
+        "cites": "Valid consent rules if the program includes follow-up data capture."
       }
     ],
-    "ogImage": "/assets/start-stages/hero-st-school.png"
+    "ogImage": "/assets/start-stages/hero-st-school.png",
+    "practice": "START First Grade (și ediția de Crăciun) pune o cutie multi-brand în școlile primare în prima zi de școală. Lucrul Care Direct în școli din Grecia și piețele vecine este construit în jurul acelui moment din calendar, cu Myschoolwinner ca strat Online Platform după cutie."
   },
   {
     "slug": "product-sampling-vs-digital-advertising",
     "title": "Eșantionare de produse vs. reclame digitale",
-    "description": "Când proba în mână bate acoperirea media: cercetări pe efectul eșantionării, memorie fizică vs. digitală și cum START leagă cutiile de mostre de platformele online Care Direct și CRM.",
+    "description": "Când proba în mână bate acoperirea media: cercetări pe efectul eșantionării, memorie fizică vs. digitală și cum START leagă cutiile de mostre de platformele online Care Direct și CRM — Online Platform, CRM, fidelizare și email personalizat.",
     "date": "2026-10-14",
     "updated": "2026-10-23",
     "keywords": [
@@ -415,9 +418,9 @@
         "cites": "65% purchase at event; 78% try-first motivator; 89% more likely to buy after a sample."
       },
       {
-        "label": "PRWeb — YA / Survata eșantionare de produse survey",
+        "label": "PRWeb — YA / Survata product sampling survey",
         "url": "https://www.prweb.com/releases/ya_survey_reveals_product_sampling_builds_brand_affinity_survey_also_finds_sampling_is_an_under_utilized_marketing_tool/prweb13162065.htm",
-        "cites": "53% often/always buy after eșantionare; 77% incentivized to try another product from the brand."
+        "cites": "53% often/always buy after sampling; 77% incentivized to try another product from the brand."
       },
       {
         "label": "USPS OIG / Temple University — Enhancing the Value of the Mail (RARC-WP-15-012)",
@@ -425,9 +428,9 @@
         "cites": "Physical vs digital neuromarketing: memory, emotion, purchase-intent signals."
       },
       {
-        "label": "WARC — Mondelez innovates in eșantionare de produse",
+        "label": "WARC — Mondelez innovates in product sampling",
         "url": "https://www.warc.com/newsandopinion/news/mondelez-innovates-in-product-sampling/en-gb/40382",
-        "cites": "Online + offline eșantionare mix; experiential in-store still valued."
+        "cites": "Online + offline sampling mix; experiential in-store still valued."
       },
       {
         "label": "Adweek — Mondelez first-party / cookieless strategy",
@@ -435,17 +438,18 @@
         "cites": "Owned data and privacy-respecting value exchange."
       },
       {
-        "label": "SoPost — Why digital eșantionare de produse will thrive in 2026",
+        "label": "SoPost — Why digital product sampling will thrive in 2026",
         "url": "https://sopost.com/blog/why-digital-product-sampling-will-thrive-in-2026/",
-        "cites": "2026 themes: proof via trial, consented zero/first-party data, parcursuri omni-trial (vendor analysis citing Mintel, NIQ and others)."
+        "cites": "2026 themes: proof via trial, consented zero/first-party data, omni-trial journeys (vendor analysis citing Mintel, NIQ and others)."
       }
     ],
-    "ogImage": "/assets/heroes/kit-pyramid.webp"
+    "ogImage": "/assets/heroes/kit-pyramid.webp",
+    "practice": "Care Direct nu cere brandurilor să aleagă eșantionare sau digital. START este proiectat ca probă întâi, apoi Online Platform, CRM și email personalizat pe date cu consimțământ — astfel media poate amplifica un produs pe care l-a ținut deja în mână."
   },
   {
     "slug": "southeast-europe-brand-activation-sampling",
     "title": "Activare de brand în Europa de Sud-Est",
-    "description": "Rulează eșantionare pe etape de viață în Grecia, Cipru, România, Bulgaria și Serbia — o familie START, livrare locală, CRM cu consimțământ.",
+    "description": "Rulează eșantionare pe etape de viață în Grecia, Cipru, România, Bulgaria și Serbia — o familie START, livrare locală, CRM cu consimțământ — Online Platform, CRM, fidelizare și email personalizat.",
     "date": "2026-10-12",
     "updated": "2026-10-23",
     "keywords": [
@@ -530,12 +534,13 @@
         "cites": "Physical touchpoints aid lasting recall vs digital-only."
       }
     ],
-    "ogImage": "/assets/heroes/home-hero-five-life-stages.png"
+    "ogImage": "/assets/heroes/home-hero-five-life-stages.png",
+    "practice": "START este linia Care Direct pe etape de viață în Europa de Sud-Est, în cinci țări. Cererile funcționează cel mai bine când numiți mai întâi etapa de viață, apoi piețele, apoi logistica mostrelor — echipele locale returnează acoperire și timing pe țară."
   },
   {
     "slug": "university-campus-product-sampling",
     "title": "Eșantionare în campus pentru studenții din anul I",
-    "description": "O listă de verificare pentru branduri: calendar, categorii, ghiduri digitale UniStart+ și CRM după eșantionarea universitar.",
+    "description": "O listă de verificare pentru branduri: calendar, categorii, ghiduri digitale UniStart+ și CRM după eșantionarea universitar — Online Platform, CRM, fidelizare și email personalizat.",
     "date": "2026-10-10",
     "updated": "2026-10-23",
     "keywords": [
@@ -608,7 +613,7 @@
       {
         "label": "Marketing Charts — Arbitron / Edison Product Sampling Study",
         "url": "https://www.marketingcharts.com/industries/retail-and-e-commerce-6211",
-        "cites": "Same-trip purchase after eșantionare."
+        "cites": "Same-trip purchase after sampling."
       },
       {
         "label": "EMI / Mosaic EventTrack 2015 Consumer Survey",
@@ -616,7 +621,7 @@
         "cites": "Try-first as a leading purchase driver."
       },
       {
-        "label": "PRWeb — YA / Survata eșantionare affinity survey",
+        "label": "PRWeb — YA / Survata sampling affinity survey",
         "url": "https://www.prweb.com/releases/ya_survey_reveals_product_sampling_builds_brand_affinity_survey_also_finds_sampling_is_an_under_utilized_marketing_tool/prweb13162065.htm",
         "cites": "53% often/always buy after sample; 77% try another product from the brand."
       },
@@ -626,9 +631,9 @@
         "cites": "Physical vs digital recall and purchase-intent signals."
       },
       {
-        "label": "WARC — Mondelez innovates in eșantionare de produse",
+        "label": "WARC — Mondelez innovates in product sampling",
         "url": "https://www.warc.com/newsandopinion/news/mondelez-innovates-in-product-sampling/en-gb/40382",
-        "cites": "Online/offline eșantionare mix and measurement."
+        "cites": "Online/offline sampling mix and measurement."
       },
       {
         "label": "European Commission — Information for individuals (consent under GDPR)",
@@ -636,7 +641,8 @@
         "cites": "GDPR consent standard for student registration / CRM."
       }
     ],
-    "ogImage": "/assets/start-stages/hero-st-uni.png"
+    "ogImage": "/assets/start-stages/hero-st-uni.png",
+    "practice": "START University și High School folosesc plasare în campus sau școală plus ghiduri digitale precum UniStart+ și START 9. Care Direct confirmă orașele active și limitele de greutate în cerere; înregistrarea pentru CRM se face doar cu consimțământ valid."
   },
   {
     "slug": "how-to-brief-a-life-stage-sampling-program",
@@ -720,7 +726,7 @@
       {
         "label": "Marketing Charts — Arbitron / Edison Product Sampling Study",
         "url": "https://www.marketingcharts.com/industries/retail-and-e-commerce-6211",
-        "cites": "Trial KPIs grounded in published eșantionare outcomes."
+        "cites": "Trial KPIs grounded in published sampling outcomes."
       },
       {
         "label": "EMI / Mosaic EventTrack 2015 Consumer Survey",
@@ -728,9 +734,9 @@
         "cites": "Try-first as a purchase driver to reference in objectives."
       },
       {
-        "label": "PRWeb — YA / Survata eșantionare survey",
+        "label": "PRWeb — YA / Survata sampling survey",
         "url": "https://www.prweb.com/releases/ya_survey_reveals_product_sampling_builds_brand_affinity_survey_also_finds_sampling_is_an_under_utilized_marketing_tool/prweb13162065.htm",
-        "cites": "Affinity / cross-try effects after eșantionare."
+        "cites": "Affinity / cross-try effects after sampling."
       },
       {
         "label": "Adweek — Mondelez first-party data strategy",
@@ -748,12 +754,13 @@
         "cites": "Partner footprint and hybrid trial + digital model."
       }
     ],
-    "ogImage": "/assets/heroes/order-sample-hero.jpg"
+    "ogImage": "/assets/heroes/order-sample-hero.jpg",
+    "practice": "Cererile incomplete încetinesc propunerile Care Direct mai mult decât creativul întârziat. Piețele, dimensiunea și greutatea mostrei, nevoile de exclusivitate și dacă doriți prezență în ghid sau Online Platform trebuie să fie în primul email."
   },
   {
     "slug": "why-people-love-free-product-samples",
     "title": "De ce iubesc oamenii mostrele gratuite",
-    "description": "Reciprocitate vs. diagnosticitate, saliență cerebrală și creștere a achizițiilor — ce înseamnă psihologia cadourilor pentru cutiile de mostre START și continuare digitală a comunicării.",
+    "description": "Reciprocitate vs. diagnosticitate, saliență cerebrală și creștere a achizițiilor — ce înseamnă psihologia cadourilor pentru cutiile de mostre START și continuare digitală a comunicării — experiență completă START με Online Platform, CRM, fidelizare și email personalizat.",
     "date": "2026-10-23",
     "updated": "2026-10-23",
     "keywords": [
@@ -837,7 +844,7 @@
         "cites": "Diagnosticity → purchase intention; reciprocity → ratings, not purchase intention."
       },
       {
-        "label": "Nittono & Watari — Effects of Food Eșantionare on Brain Potential Responses to Food Branding (Psychologia PDF)",
+        "label": "Nittono & Watari — Effects of Food Sampling on Brain Potential Responses to Food Branding (Psychologia PDF)",
         "url": "https://www.jstage.jst.go.jp/article/psysoc/60/1/60_3/_pdf",
         "cites": "Tasting (vs leaflet only) increased late positive potential / brand salience for the sampled brand."
       },
@@ -847,14 +854,14 @@
         "cites": "Model + field experiments: acceleration, expansion, long-run sales effects up to ~12 months."
       },
       {
-        "label": "Heilman et al. — An empirical investigation of in-store eșantionare promotions (British Food Journal)",
+        "label": "Heilman et al. — An empirical investigation of in-store sampling promotions (British Food Journal)",
         "url": "https://doi.org/10.1108/00070701111177674",
         "cites": "Field evidence: trial, brand switch, category draw; social interaction lifts purchase."
       },
       {
         "label": "The New York Times — Free Samples Work, Now and Later (Arbitron / Edison)",
         "url": "https://www.nytimes.com/2008/10/06/business/06drill.html",
-        "cites": "Same-day purchase after eșantionare; intent to buy again."
+        "cites": "Same-day purchase after sampling; intent to buy again."
       },
       {
         "label": "Marketing Charts — Arbitron / Edison Product Sampling Study summary",
@@ -867,17 +874,18 @@
         "cites": "65% purchased at event; try-first motivator; sample → more likely to buy."
       },
       {
-        "label": "PRWeb — YA / Survata eșantionare de produse survey",
+        "label": "PRWeb — YA / Survata product sampling survey",
         "url": "https://www.prweb.com/releases/ya_survey_reveals_product_sampling_builds_brand_affinity_survey_also_finds_sampling_is_an_under_utilized_marketing_tool/prweb13162065.htm",
         "cites": "53% often/always buy after sample; 77% try another product from the brand."
       }
     ],
-    "ogImage": "/assets/kits/kit-st-natal.png"
+    "ogImage": "/assets/kits/kit-st-natal.png",
+    "practice": "Care Direct vede că mostrele gratuite funcționează când mostra e utilă în acea etapă de viață și brandul rămâne prezent după predare — prin ghid și Online Platform — nu când cadoul e uitat pe blatul din bucătărie."
   },
   {
     "slug": "digital-activation-plus-tangible-sampling",
     "title": "Activare digitală plus eșantionare tangibil",
-    "description": "Combină mostre gratuite fizice cu platformele online Care Direct, CRM cu consimțământ și email personalizat într-un singur parcurs hibrid pe care îl pregătești cererea de participare o dată.",
+    "description": "Combină mostre gratuite fizice cu platformele online Care Direct, CRM cu consimțământ și email personalizat într-un singur parcurs hibrid pe care îl pregătești cererea de participare o dată — Online Platform, CRM, fidelizare și email personalizat.",
     "date": "2026-10-22",
     "updated": "2026-10-23",
     "keywords": [
@@ -970,9 +978,9 @@
         "cites": "Diagnostic trial (learning) drives purchase intention more than reciprocity alone."
       },
       {
-        "label": "WARC — Mondelez innovates in eșantionare de produse",
+        "label": "WARC — Mondelez innovates in product sampling",
         "url": "https://www.warc.com/newsandopinion/news/mondelez-innovates-in-product-sampling/en-gb/40382",
-        "cites": "Online-led + in-store experiential eșantionare; measure effectiveness."
+        "cites": "Online-led + in-store experiential sampling; measure effectiveness."
       },
       {
         "label": "Adweek — Mondelez first-party / cookieless strategy",
@@ -980,27 +988,28 @@
         "cites": "Owned data and privacy-respecting value exchange after engagement."
       },
       {
-        "label": "SoPost — Why digital eșantionare de produse will thrive in 2026",
+        "label": "SoPost — Why digital product sampling will thrive in 2026",
         "url": "https://sopost.com/blog/why-digital-product-sampling-will-thrive-in-2026/",
-        "cites": "Proof via trial, zero/first-party data, omni-trial digital↔physical parcurss."
+        "cites": "Proof via trial, zero/first-party data, omni-trial digital↔physical journeys."
       },
       {
         "label": "European Commission — Information for individuals (consent under GDPR)",
         "url": "https://commission.europa.eu/law/law-topic/data-protection/information-individuals_en",
-        "cites": "Valid consent for the digital continuare a comunicării leg of a cadou hibrid."
+        "cites": "Valid consent for the digital follow-up leg of a hybrid freebie."
       },
       {
         "label": "EMI / Mosaic EventTrack 2015 Consumer Survey",
         "url": "https://www.eventmarketer.com/wp-content/uploads/2016/01/EventTrack2015_Consumer.pdf",
-        "cites": "Try-first remains a top purchase driver when experience includes eșantionare."
+        "cites": "Try-first remains a top purchase driver when experience includes sampling."
       }
     ],
-    "ogImage": "/assets/platforms/screen-pl-heymaa.png"
+    "ogImage": "/assets/platforms/screen-pl-heymaa.png",
+    "practice": "Stiva START este cutie, ghid, CRM cu consimțământ și email personalizat, Online Platform. Care Direct construiește activările digitale în jurul acelei dovezi tangibile, nu ca o campanie separată lipită pe o factură de eșantionare."
   },
   {
     "slug": "hybrid-marketing-trial-and-digital",
     "title": "Marketing hibrid: probă plus digital",
-    "description": "Marketing hibrid pentru branduri: eșantionare care se continuă online pe platformele Care Direct, cu CRM, programe de fidelizare și email personalizat — nu reclame în loc de probă.",
+    "description": "Marketing hibrid pentru branduri: eșantionare care se continuă online pe platformele Care Direct, cu CRM, programe de fidelizare și email personalizat — nu reclame în loc de probă — Online Platform, CRM, fidelizare și email personalizat.",
     "date": "2026-10-23",
     "updated": "2026-10-23",
     "keywords": [
@@ -1054,7 +1063,7 @@
       },
       {
         "type": "p",
-        "text": "Briefingul AW360 al Advertising Week despre următorul capitol al eșantionării prezintă argumentul comercial într-o singură frază: campaniile hibride care îmbină momentele față în față cu amplificarea digitală transformă o singură probă senzorială în implicare cross-platform și impact în retail — eșantionare ca experiență full-funnel, nu ca numărătoare de cadouri."
+        "text": "Briefingul AW360 al Advertising Week despre următorul capitol al eșantionării prezintă argumentul comercial într-o singură frază: campaniile hibride care îmbină momentele față în față cu amplificarea digitală transformă o singură probă senzorială în implicare cross-Online Platforms și impact în retail — eșantionare ca experiență full-funnel, nu ca numărătoare de cadouri."
       },
       {
         "type": "h2",
@@ -1110,9 +1119,9 @@
         "cites": "Diagnostic trial drives purchase intention beyond reciprocity alone."
       },
       {
-        "label": "WARC — Mondelez innovates in eșantionare de produse",
+        "label": "WARC — Mondelez innovates in product sampling",
         "url": "https://www.warc.com/newsandopinion/news/mondelez-innovates-in-product-sampling/en-gb/40382",
-        "cites": "Online-led and in-store experiential eșantionare in one evolving mix."
+        "cites": "Online-led and in-store experiential sampling in one evolving mix."
       },
       {
         "label": "Adweek — Mondelez first-party / cookieless strategy",
@@ -1120,16 +1129,17 @@
         "cites": "Owned data and privacy-respecting value exchange as the digital leg of hybrid."
       },
       {
-        "label": "SoPost — Why digital eșantionare de produse will thrive in 2026",
+        "label": "SoPost — Why digital product sampling will thrive in 2026",
         "url": "https://sopost.com/blog/why-digital-product-sampling-will-thrive-in-2026/",
-        "cites": "Digital discovery + physical proof + first/zero-party data parcurss."
+        "cites": "Digital discovery + physical proof + first/zero-party data journeys."
       },
       {
         "label": "European Commission — Information for individuals (consent under GDPR)",
         "url": "https://commission.europa.eu/law/law-topic/data-protection/information-individuals_en",
-        "cites": "Valid consent for the digital continuare a comunicării half of a hybrid program."
+        "cites": "Valid consent for the digital follow-up half of a hybrid program."
       }
     ],
-    "ogImage": "/assets/platforms/screen-pl-myparenthood.png"
+    "ogImage": "/assets/platforms/screen-pl-myparenthood.png",
+    "practice": "Care Direct definește marketingul hibrid ca experiență directă tradițională (probă și educație) plus experiență digitală. START aplică această definiție în Europa de Sud-Est: o singură cerere pentru mostră și cerințe digitale împreună."
   }
 ]
