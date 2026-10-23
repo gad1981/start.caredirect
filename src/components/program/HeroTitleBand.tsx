@@ -18,7 +18,8 @@ export function HeroTitleBand({ children }: { children: ReactNode }) {
       /* Must match CSS translateY(-lift): transform leaves `lift` of the
          layout box empty below the visual card — pull the next section up
          by that amount so the gap under the card stays small. */
-      const lift = mq.matches ? 0.5 : 0.62;
+      /* Keep in sync with .heroCard translateY on desktop / mobile. */
+      const lift = mq.matches ? 0.36 : 0.62;
       setHang(h * lift);
     };
     sync();

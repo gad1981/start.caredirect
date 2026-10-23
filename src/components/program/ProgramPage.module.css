@@ -948,7 +948,7 @@ a.guideCover:hover {
   }
 
   .hero + .section {
-    padding-top: 96px;
+    padding-top: 40px;
   }
 
   .photo {
@@ -960,7 +960,8 @@ a.guideCover:hover {
   }
 
   .heroCard {
-    transform: translateY(-50%);
+    /* Slightly less lift so the title card sits a bit lower on mobile. */
+    transform: translateY(-36%);
     display: flex;
     flex-direction: column;
     align-items: stretch;
