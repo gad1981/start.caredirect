@@ -4,6 +4,20 @@
   padding: 48px 18px 72px;
 }
 
+/* Article pages: full-bleed hero band, centered reading rail */
+.mainArticle {
+  max-width: none;
+  padding-left: 0;
+  padding-right: 0;
+}
+
+.rail {
+  max-width: 40em;
+  width: 100%;
+  margin-inline: auto;
+  padding-inline: 18px;
+}
+
 .eye {
   margin: 0 0 8px;
   font: 700 12px / 1.2 var(--body);
@@ -30,24 +44,44 @@
 .grid {
   margin-top: 36px;
   display: grid;
-  gap: 14px;
+  gap: 12px;
 }
 
 .card {
-  display: grid;
-  gap: 8px;
-  padding: 22px 22px 24px;
-  border-radius: 20px;
+  display: flex;
+  align-items: stretch;
+  padding: 0;
+  border-radius: 18px;
   border: 1px solid var(--line);
   background: var(--surface);
   text-decoration: none;
   color: inherit;
-  transition: border-color 160ms ease, transform 160ms ease;
+  overflow: hidden;
+  transition: border-color 160ms ease;
+}
+
+.cardMedia {
+  flex: 0 0 140px;
+  width: 140px;
+  align-self: stretch;
+  margin: 0;
+  background-color: var(--soft, #eeede8);
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+}
+
+.cardCopy {
+  flex: 1 1 auto;
+  display: grid;
+  gap: 6px;
+  min-width: 0;
+  padding: 16px 18px;
+  align-content: start;
 }
 
 .card:hover {
   border-color: color-mix(in srgb, var(--stdot, #c9a88a) 55%, var(--line));
-  transform: translateY(-2px);
 }
 
 .cardMeta {
@@ -60,7 +94,7 @@
 
 .card h2 {
   margin: 0;
-  font: 800 22px / 1.2 var(--display);
+  font: 800 20px / 1.22 var(--display);
   letter-spacing: -0.02em;
   color: var(--ink);
 }
@@ -68,35 +102,80 @@
 .card p {
   margin: 0;
   color: var(--muted);
-  font-size: 15px;
-  line-height: 1.45;
+  font-size: 14.5px;
+  line-height: 1.4;
+  display: -webkit-box;
+  -webkit-line-clamp: 2;
+  -webkit-box-orient: vertical;
+  overflow: hidden;
 }
 
 .cardMore {
-  margin-top: 4px;
+  margin-top: 2px;
   font: 700 13px / 1.2 var(--body);
   color: var(--ink);
 }
 
+@media (max-width: 640px) {
+  .cardMedia {
+    display: none;
+  }
+
+  .cardCopy {
+    padding: 14px 16px;
+  }
+
+  .card h2 {
+    font-size: 18px;
+  }
+}
+
 .articleHeader {
-  max-width: 40em;
+  max-width: none;
 }
 
 .articleHeader h1 {
   max-width: 22ch;
 }
 
+/*
+  Full-bleed band between title and meta.
+  Removes the “narrow card stuck on the left” feel inside the wide shell.
+*/
+.hero {
+  margin: 22px 0 0;
+  width: 100%;
+  line-height: 0;
+  background: color-mix(in srgb, var(--p3, #efe8dc) 40%, var(--soft, #eeede8));
+}
+
+.heroImg {
+  display: block;
+  width: 100% !important;
+  max-width: none;
+  height: clamp(220px, 38vw, 420px) !important;
+  object-fit: cover;
+  object-position: center;
+}
+
+.articleMeta {
+  max-width: none;
+  margin-top: 22px;
+  padding-top: 0;
+  border-top: none;
+}
+
 .metaRow {
-  margin: 12px 0 0;
+  margin: 0;
   display: flex;
   flex-wrap: wrap;
-  gap: 10px 16px;
-  font-size: 13.5px;
+  gap: 8px 14px;
+  font-size: 13px;
   color: var(--muted);
 }
 
 .byline {
-  margin: 14px 0 0;
+  margin: 10px 0 0;
   font-size: 14px;
   line-height: 1.4;
   color: var(--ink);
@@ -106,9 +185,13 @@
   font-weight: 700;
 }
 
+.articleMeta .lead {
+  margin-top: 14px;
+}
+
 .practice {
   margin-top: 36px;
-  max-width: 40em;
+  max-width: none;
   padding: 20px 22px;
   border-radius: 16px;
   border: 1px solid var(--line);
@@ -130,15 +213,15 @@
 
 .expertise {
   margin: 28px 0 0;
-  max-width: 40em;
+  max-width: none;
   font-size: 13.5px;
   line-height: 1.45;
   color: var(--muted);
 }
 
 .body {
-  margin-top: 32px;
-  max-width: 40em;
+  margin-top: 28px;
+  max-width: none;
   display: grid;
   gap: 16px;
 }
@@ -166,9 +249,23 @@
   line-height: 1.45;
 }
 
+.figure {
+  margin: 4px 0 8px;
+  --program-accent: #c9a88a;
+  --program-ink: #5a4638;
+}
+
+.figureNote {
+  margin: 10px 0 0;
+  font-size: 13.5px;
+  line-height: 1.4;
+  color: var(--muted);
+  max-width: 36em;
+}
+
 .sources {
   margin-top: 40px;
-  max-width: 40em;
+  max-width: none;
   padding-top: 28px;
   border-top: 1px solid var(--line);
 }
@@ -201,7 +298,7 @@
   background: linear-gradient(120deg, var(--p1) 0%, var(--p3) 50%, var(--p4) 100%);
   display: grid;
   gap: 12px;
-  max-width: 40em;
+  max-width: none;
 }
 
 .related h2 {

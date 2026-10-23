@@ -25,12 +25,20 @@
         "text": "Teams usually need one outcome: trial before the shopping list locks, plus enough context that the brand is remembered at the first shop."
       },
       {
+        "type": "figure",
+        "variant": "pregnancy-window"
+      },
+      {
         "type": "h2",
         "text": "Why in-hand trial beats awareness alone"
       },
       {
         "type": "p",
         "text": "Arbitron and Edison Media Research’s Product Sampling Study (1,857 U.S. respondents) found that 35% of people who tried a sample bought that product on the same shopping trip, and more than half (58%) said they would buy it again — results widely reported by The New York Times and Marketing Charts. EMI / Mosaic’s EventTrack 2015 consumer survey went further on experiential trial: 65% purchased the product or service promoted at the event or visit, and 78% of those more inclined to buy said the chance to try it first was the reason."
+      },
+      {
+        "type": "figure",
+        "variant": "trial-lift"
       },
       {
         "type": "p",
@@ -69,6 +77,10 @@
       {
         "type": "p",
         "text": "In Southeast Europe, START Pregnancy is built for this window: samples in the kit, a printed or digital guide, and Online Platforms, CRM and targeted email that continue the conversation after registration. Care Direct’s wider model is a complete experience — sampling that expands digitally (Online Platform + CRM) — across Greece, Cyprus, Romania, Bulgaria, Serbia and further markets."
+      },
+      {
+        "type": "figure",
+        "variant": "start-stack"
       },
       {
         "type": "p",
@@ -122,7 +134,7 @@
         "cites": "Trial combined with digital across SEE and wider markets."
       }
     ],
-    "ogImage": "/assets/start-stages/hero-st-pregnancy-v3.png",
+    "ogImage": "/assets/blog/maternity-clinic-sampling-for-brands.png",
     "practice": "Care Direct runs START Pregnancy through gyn and maternity clinics in Southeast Europe — Greece, Cyprus, Romania, Bulgaria and Serbia — with a kit, a keepable guide, then Online Platform and consented CRM after registration. Ask for reach by country for the year you join; do not plan on a blended regional number alone."
   },
   {
@@ -152,12 +164,20 @@
         "text": "In Greece, that window sits on a shrinking base: ELSTAT reported 68,467 live births in 2024 versus 71,455 in 2023. Fewer births means each clinic placement matters more — volume claims without a by-country yearly figure are hard to defend in a brand plan."
       },
       {
+        "type": "figure",
+        "variant": "first-days"
+      },
+      {
         "type": "h2",
         "text": "What the research says about trial at the moment of need"
       },
       {
         "type": "p",
         "text": "Arbitron and Edison’s sampling research found 35% same-trip purchase after trying a sample and 58% intent to buy again (New York Times; Marketing Charts). EventTrack 2015 reported that 65% of consumers purchased what was promoted at an experiential visit, with 78% saying try-first drove that inclination. Newborn categories — diapers, wipes, skincare, feeding — are exactly the sensory, habit-forming decisions those studies describe."
+      },
+      {
+        "type": "figure",
+        "variant": "trial-lift"
       },
       {
         "type": "h2",
@@ -182,12 +202,20 @@
         "text": "USPS OIG / Temple research showed physical advertising left longer-lasting memory and stronger desirability signals than digital ads, while digital was faster at first glance. A strong newborn brief uses both: a kit and guide she keeps in the first weeks, then consented digital follow-up. The European Commission is clear that marketing consent must be freely given, specific, informed and given by a positive act — pre-ticked boxes do not count."
       },
       {
+        "type": "figure",
+        "variant": "media-contrast"
+      },
+      {
         "type": "h2",
         "text": "How START frames the first days"
       },
       {
         "type": "p",
         "text": "START Newborn is built for mothers 2–3 days after birth in maternity clinics. START Luxury Moments covers private suites when the brief needs a more exclusive environment. Both keep the model brands recognise: kit, digital guide, CRM / targeted email, Online Platform — aligned with Care Direct’s hybrid trial-and-digital approach."
+      },
+      {
+        "type": "figure",
+        "variant": "start-stack"
       },
       {
         "type": "p",
@@ -231,7 +259,7 @@
         "cites": "Hybrid trial + digital programs for families across SEE and beyond."
       }
     ],
-    "ogImage": "/assets/start-stages/hero-st-natal.png",
+    "ogImage": "/assets/blog/new-mother-hospital-sampling-kits.png",
     "practice": "START Newborn hands kits about 2–3 days after birth in maternity clinics; Luxury Moments covers private suites when the brief needs a more exclusive room. Care Direct treats both as the same life-stage model: sample, guide, then digital follow-up — not a one-off gift bag with no second moment."
   },
   {
@@ -257,6 +285,10 @@
         "text": "“School sampling” in a search bar usually means: reach parents at a high-trust community moment, when school-year brands are chosen in bulk. First grade is especially sharp — new bag, new shoes, new hygiene and snack habits."
       },
       {
+        "type": "figure",
+        "variant": "school-day"
+      },
+      {
         "type": "h2",
         "text": "What the channel looks like in practice"
       },
@@ -271,6 +303,10 @@
       {
         "type": "p",
         "text": "Sampling research keeps pointing to the same mechanic: try, then buy. Arbitron / Edison found roughly one in three tryers bought on the same trip; EventTrack 2015 found most experiential visitors who purchased credited try-first. A school kit puts that trial in a trusted setting and associates the brand with the start of the year — useful for categories parents restock in September."
+      },
+      {
+        "type": "figure",
+        "variant": "trial-lift"
       },
       {
         "type": "ul",
@@ -329,7 +365,7 @@
         "cites": "Valid consent rules if the program includes follow-up data capture."
       }
     ],
-    "ogImage": "/assets/start-stages/hero-st-school.png",
+    "ogImage": "/assets/blog/school-product-sampling-first-grade.png",
     "practice": "START First Grade (and its Christmas edition) puts a multi-brand box in primary schools on the first school day. Care Direct’s school work in Greece and neighbouring markets is built around that calendar moment, with Myschoolwinner as the Online Platform layer after the kit."
   },
   {
@@ -370,12 +406,20 @@
         ]
       },
       {
+        "type": "figure",
+        "variant": "trial-lift"
+      },
+      {
         "type": "h2",
         "text": "What the evidence says about physical vs digital media"
       },
       {
         "type": "p",
         "text": "USPS OIG research with Temple University found digital ads were processed faster, but physical ads produced stronger emotional response, better week-later memory, and brain activity associated with product value and purchase intent. The practical reading for brand teams: use digital to get attention quickly; use a kit, guide or other physical touch when you need lasting recall at the shelf."
+      },
+      {
+        "type": "figure",
+        "variant": "media-contrast"
       },
       {
         "type": "h2",
@@ -449,7 +493,7 @@
         "cites": "2026 themes: proof via trial, consented zero/first-party data, omni-trial journeys (vendor analysis citing Mintel, NIQ and others)."
       }
     ],
-    "ogImage": "/assets/heroes/kit-pyramid.webp",
+    "ogImage": "/assets/blog/product-sampling-vs-digital-advertising.png",
     "practice": "Care Direct does not ask brands to choose “sampling or digital.” START is designed as trial first, then Online Platform, CRM and targeted email on consented data — so media can amplify a product she has already held."
   },
   {
@@ -476,6 +520,10 @@
       {
         "type": "p",
         "text": "Southeast Europe rarely appears as one line item in a global media deck — until someone needs clinics in Greece, schools in Romania and campuses in Bulgaria without five separate agencies. Searches for “brand activation Southeast Europe” and “sampling Greece Romania” usually come from that brief."
+      },
+      {
+        "type": "figure",
+        "variant": "see-markets"
       },
       {
         "type": "h2",
@@ -505,6 +553,10 @@
       {
         "type": "p",
         "text": "Global sampling evidence — Arbitron / Edison same-trip purchase, EventTrack try-first purchase, USPS/Temple physical-memory advantage — applies whether the kit lands in Athens or Bucharest. Care Direct positions its model as hybrid: product trial and education plus digital experience, with a footprint that includes Greece, Cyprus, Bulgaria, Romania and Serbia among other markets."
+      },
+      {
+        "type": "figure",
+        "variant": "start-stack"
       },
       {
         "type": "h2",
@@ -546,7 +598,7 @@
         "cites": "Physical touchpoints aid lasting recall vs digital-only."
       }
     ],
-    "ogImage": "/assets/heroes/home-hero-five-life-stages.png",
+    "ogImage": "/assets/blog/southeast-europe-brand-activation-sampling.png",
     "practice": "START is Care Direct’s Southeast Europe life-stage line across five countries. Briefs work best when you name the life stage first, then the markets, then sample logistics — local teams return reach and timing per country."
   },
   {
@@ -572,12 +624,20 @@
         "text": "First-year students make a wave of “first buys” — personal care, food, tech accessories, banking, mobile. What you usually need is access at that reset, ideally with a guide that feels useful rather than promotional noise."
       },
       {
+        "type": "figure",
+        "variant": "campus-day"
+      },
+      {
         "type": "h2",
         "text": "Why trial belongs in a campus brief"
       },
       {
         "type": "p",
         "text": "Students form habits under uncertainty. Sampling research shows tryers convert: Arbitron / Edison’s 35% same-trip purchase and EventTrack’s try-first purchase story both support putting product in hand at the start of term. YA / Survata also found most respondents often or always buy after sampling, and a large majority said a sample would push them to try another product from the same brand — useful when a campus kit introduces a range, not a single SKU."
+      },
+      {
+        "type": "figure",
+        "variant": "trial-lift"
       },
       {
         "type": "h2",
@@ -607,6 +667,10 @@
       {
         "type": "p",
         "text": "USPS OIG / Temple work suggests physical media wins on lasting memory; digital wins on speed. Campus programs that pair a tangible sample with a digital guide and consented CRM follow that split. Mondelēz’s public comments on mixing online and offline sampling point the same way for FMCG teams: evolve the mix, measure the programs, keep experiential trial in the toolkit."
+      },
+      {
+        "type": "figure",
+        "variant": "start-stack"
       },
       {
         "type": "h2",
@@ -653,7 +717,7 @@
         "cites": "GDPR consent standard for student registration / CRM."
       }
     ],
-    "ogImage": "/assets/start-stages/hero-st-uni.png",
+    "ogImage": "/assets/blog/university-campus-product-sampling.png",
     "practice": "START University and High School use campus or school placement plus digital guides such as UniStart+ and START 9. Care Direct confirms active cities and weight limits in the brief; registration for CRM is only on valid consent."
   },
   {
@@ -710,6 +774,10 @@
         "text": "If the goal is consideration after try, cite the evidence you will optimise against: Arbitron / Edison’s same-trip purchase and repurchase intent; EventTrack’s try-first purchase story; YA / Survata’s affinity findings. Partners can then design kit content, guide depth and follow-up for trial — not vanity reach."
       },
       {
+        "type": "figure",
+        "variant": "trial-lift"
+      },
+      {
         "type": "h2",
         "text": "Consent is part of the brief, not an afterthought"
       },
@@ -724,6 +792,10 @@
       {
         "type": "p",
         "text": "Creative variants, exact SKUs and final pack copy can wait. Access rules and sample logistics cannot — they drive cost. If you are comparing life stages, say so; partners can recommend pregnancy vs newborn vs school without five separate RFPs. In birth-driven markets, bring a demographic sense-check (for example ELSTAT’s latest live-birth total for Greece) so volume ambitions stay realistic."
+      },
+      {
+        "type": "figure",
+        "variant": "brief-must"
       },
       {
         "type": "h2",
@@ -775,7 +847,7 @@
         "cites": "Partner footprint and hybrid trial + digital model."
       }
     ],
-    "ogImage": "/assets/heroes/order-sample-hero.jpg",
+    "ogImage": "/assets/blog/how-to-brief-a-life-stage-sampling-program.png",
     "practice": "Incomplete briefs slow Care Direct proposals more than late creative. Markets, sample size/weight, exclusivity needs and whether you want guide or Online Platform presence should be in the first email."
   },
   {
@@ -813,6 +885,10 @@
         "text": "A 2023 Journal of Electronic Commerce Research study of online free sampling (beauty and care recipients on a major Chinese sampling Online Platforms) separated two effects. Perceived diagnosticity — how much the sample helps someone judge quality — raised purchase intention. Perceived reciprocity — feeling one “owes” something after a gift — raised product ratings, but did not by itself lift purchase intention. In plain brand language: the freebie that teaches wins the basket; the freebie that only feels nice wins the review."
       },
       {
+        "type": "figure",
+        "variant": "diagnosticity"
+      },
+      {
         "type": "p",
         "text": "That is why life-stage kits outperform random giveaways. A pregnancy or newborn sample is diagnostic at the exact week she is choosing brands. A flyer with no usable product is reciprocity without learning."
       },
@@ -835,6 +911,10 @@
           "EMI / Mosaic EventTrack 2015: 65% purchased what was promoted at an event or visit; 78% of those more inclined to buy credited the chance to try first; 89% said a sample made them more likely to buy that product",
           "YA / Survata (1,000 U.S. adults): 53% often or always buy after sampling; 77% said a sample would encourage them to try another product from the same brand"
         ]
+      },
+      {
+        "type": "figure",
+        "variant": "trial-lift"
       },
       {
         "type": "h2",
@@ -907,7 +987,7 @@
         "cites": "53% often/always buy after sample; 77% try another product from the brand."
       }
     ],
-    "ogImage": "/assets/kits/kit-st-natal.png",
+    "ogImage": "/assets/blog/why-people-love-free-product-samples.png",
     "practice": "Care Direct sees freebies work when the sample is useful at that life stage and the brand stays present after the handout — through the guide and Online Platform — not when the gift is forgotten on the kitchen counter."
   },
   {
@@ -946,6 +1026,10 @@
         "text": "USPS OIG research with Temple University’s Center for Neural Decision Making found digital ads are processed faster, while physical ads produce stronger emotional response, better week-later memory, and brain activity linked to product value and purchase intent. Sampling adds a third layer digital cannot fake: diagnostic trial (see the reciprocity vs diagnosticity findings in free-sample research). So the art is sequencing: digital for speed and scale, physical kit/guide for memory and proof, follow-up CRM for relationship."
       },
       {
+        "type": "figure",
+        "variant": "media-contrast"
+      },
+      {
         "type": "h2",
         "text": "What “combining” looks like in practice"
       },
@@ -977,6 +1061,10 @@
       {
         "type": "p",
         "text": "Treat the tangible sample as the “login” to the brand experience. The kit proves the product; the guide and Online Platforms teach; registration (under GDPR: freely given, specific, informed, affirmative consent) opens personalisation. Without the physical proof, digital activation is another claim. Without the digital layer, the freebie is a sunk cost with no second moment."
+      },
+      {
+        "type": "figure",
+        "variant": "start-stack"
       },
       {
         "type": "h2",
@@ -1039,7 +1127,7 @@
         "cites": "Try-first remains a top purchase driver when experience includes sampling."
       }
     ],
-    "ogImage": "/assets/platforms/screen-pl-heymaa.png",
+    "ogImage": "/assets/blog/digital-activation-plus-tangible-sampling.png",
     "practice": "START’s stack is kit → guide → consented CRM / targeted email → Online Platform. Care Direct builds digital activations around that tangible proof, not as a separate campaign bolted onto a sampling invoice."
   },
   {
@@ -1082,6 +1170,10 @@
         "text": "Deloitte’s 2022 Global Marketing Trends report on elevating the hybrid experience found that 75% of surveyed executives planned to invest more in hybrid experiences over the next 12 months. Top reasons included personalization, innovation, customer connection and inclusion. The report’s framing matches what sampling teams already know: digital alone raised expectations; the next bar is integrated physical-plus-digital journeys."
       },
       {
+        "type": "figure",
+        "variant": "deloitte-hybrid"
+      },
+      {
         "type": "h2",
         "text": "The three layers of a hybrid brand experience"
       },
@@ -1092,6 +1184,10 @@
           "Digital experience — meet the same consumer online after (or beside) trial: guides, platforms, communities, CRM",
           "Hybrid experience — trial & digital as one loop, described as data-driven, culture-driven and omnichannel"
         ]
+      },
+      {
+        "type": "figure",
+        "variant": "hybrid-layers"
       },
       {
         "type": "p",
@@ -1130,6 +1226,10 @@
       {
         "type": "p",
         "text": "START by Care Direct is built as that hybrid stack in Southeast Europe: samples in a life-stage kit, a guide she keeps, follow-up after registration, and online platforms that continue education. That is hybrid marketing applied to families — not a separate “digital campaign” bolted onto a sampling invoice."
+      },
+      {
+        "type": "figure",
+        "variant": "start-stack"
       },
       {
         "type": "p",
@@ -1183,7 +1283,151 @@
         "cites": "Valid consent for the digital follow-up half of a hybrid program."
       }
     ],
-    "ogImage": "/assets/platforms/screen-pl-myparenthood.png",
+    "ogImage": "/assets/blog/hybrid-marketing-trial-and-digital.png",
     "practice": "Care Direct defines hybrid marketing as traditional direct experience (trial and education) plus digital experience. START applies that definition across Southeast Europe: one brief for sample and digital requirements together."
+  },
+  {
+    "slug": "phygital-marketing-for-brands",
+    "title": "Phygital marketing for brands",
+    "description": "What phygital marketing means: physical trial plus digital follow-up in one journey — and how START turns life-stage kits into Online Platform, CRM, loyalty and targeted email.",
+    "date": "2026-10-23",
+    "updated": "2026-10-23",
+    "keywords": [
+      "phygital marketing",
+      "phygital marketing strategy",
+      "physical digital marketing brands",
+      "life-stage phygital marketing"
+    ],
+    "intent": "Brand manager researching phygital marketing as a physical-plus-digital strategy for product trial and CRM.",
+    "relatedPrograms": [
+      "pregnancy",
+      "newborn",
+      "first-grade",
+      "university",
+      "high-school",
+      "seniors"
+    ],
+    "body": [
+      {
+        "type": "p",
+        "text": "Phygital marketing is physical plus digital in one customer journey — not two separate campaigns. A life-stage brand puts a real product in someone’s hands (clinic, school, campus, home), then continues the relationship on owned channels: guide, Online Platform, CRM, loyalty and targeted email. That is what brand managers usually mean when they search for “phygital marketing,” and it is how START is built in Southeast Europe."
+      },
+      {
+        "type": "p",
+        "text": "If the brief only buys impressions, you get reach. If it only hands out samples with no digital path, you get a sunk cost. Phygital asks for both halves in the same plan."
+      },
+      {
+        "type": "h2",
+        "text": "What “phygital” actually means"
+      },
+      {
+        "type": "p",
+        "text": "Amazon Ads summarises the origin clearly: phygital was coined in 2007 by Chris Weil (then of Momentum Worldwide) as a blend of physical and digital, describing experiences that fuse the tangible and the virtual. Phygital marketing, in that framing, is a strategy that combines physical and digital elements so customers move across touchpoints without losing the brand thread."
+      },
+      {
+        "type": "p",
+        "text": "Academic work pushes the same idea further. Batat’s 2022 paper in the Journal of Strategic Marketing argues that phygital should not be reduced to “another word for omnichannel.” The proposed phygital customer experience (PH-CX) framework treats offline and online as a continuum of value — customers shifting from physical to digital settings (or the reverse) while the brand still answers tangible needs (quality, trial) and intangible ones (emotion, trust)."
+      },
+      {
+        "type": "p",
+        "text": "Qualtrics puts it in plain CX language: a phygital experience might start in a physical place with consideration, then move into digital to complete, learn or recommend — and the risk is dropping people in the handoff. Omnichannel discipline exists so that handoff does not break."
+      },
+      {
+        "type": "h2",
+        "text": "Why the physical half still has to be real trial"
+      },
+      {
+        "type": "p",
+        "text": "Phygital fails when “physical” means only a poster with a QR code. For FMCG and family categories, the physical half that moves share is diagnostic trial — enough product to learn — at a moment when the shopping list is open. USPS OIG research with Temple University’s Center for Neural Decision Making found physical ads left stronger emotion, better week-later memory and purchase-intent signals than digital ads, while digital was faster at first exposure. Sampling research adds what media cannot fake: Arbitron / Edison’s Product Sampling Study found 35% of tryers bought on the same trip and 58% said they would buy again; EventTrack 2015 found try-first was the main reason experiential visitors purchased."
+      },
+      {
+        "type": "figure",
+        "variant": "trial-lift"
+      },
+      {
+        "type": "p",
+        "text": "So the phygital sequence for a life-stage brand is usually: trusted physical moment → product in hand → keepable guide → consented registration → Online Platform / CRM / loyalty / targeted email."
+      },
+      {
+        "type": "figure",
+        "variant": "start-stack"
+      },
+      {
+        "type": "h2",
+        "text": "What a phygital brief must specify"
+      },
+      {
+        "type": "ul",
+        "items": [
+          "Life-stage moment for the physical trial (pregnancy, newborn, school, campus, seniors…)",
+          "Sample format and kit context — enough product to learn, not only a logo sachet",
+          "Guide: print, digital or both — the keepable bridge between trial and online",
+          "Digital layer: Online Platform, QR or registration path, content after distribution",
+          "Consent under GDPR: freely given, specific, informed, affirmative — before the first CRM send",
+          "KPIs for trial and for digital follow-up — not impressions alone"
+        ]
+      },
+      {
+        "type": "h2",
+        "text": "Phygital marketing in START"
+      },
+      {
+        "type": "p",
+        "text": "START by Care Direct is life-stage phygital marketing in Southeast Europe: Greece, Cyprus, Romania, Bulgaria and Serbia. Each program is a complete experience — sampling that expands digitally into Online Platform, CRM, loyalty and targeted email — not a sampling invoice with a “digital” line bolted on later."
+      },
+      {
+        "type": "p",
+        "text": "Open the programme that matches your buyer’s life stage, then join a START with physical sample specs and digital requirements in the same brief."
+      }
+    ],
+    "sources": [
+      {
+        "label": "Amazon Ads — What is Phygital Marketing?",
+        "url": "https://advertising.amazon.com/library/guides/phygital",
+        "cites": "Term coined 2007 by Chris Weil; phygital marketing as physical + digital strategy and touchpoints."
+      },
+      {
+        "label": "Batat — What does phygital really mean? PH-CX framework (Journal of Strategic Marketing, 2022)",
+        "url": "https://doi.org/10.1080/0965254X.2022.2059775",
+        "cites": "Phygital as customer-experience continuum beyond channel labels; offline–online value delivery."
+      },
+      {
+        "label": "Qualtrics — Why ‘Phygital’ is the Next Step in Customer Experience",
+        "url": "https://www.qualtrics.com/articles/customer-experience/phygital/",
+        "cites": "Physical-to-digital journey continuity; risk of losing customers in the handoff."
+      },
+      {
+        "label": "USPS OIG / Temple University — Enhancing the Value of the Mail (RARC-WP-15-012)",
+        "url": "https://www.uspsoig.gov/sites/default/files/reports/2023-01/RARC-WP-15-012.pdf",
+        "cites": "Physical stronger for lasting memory and purchase-intent signals; digital faster at exposure."
+      },
+      {
+        "label": "The New York Times — Free Samples Work, Now and Later (Arbitron / Edison)",
+        "url": "https://www.nytimes.com/2008/10/06/business/06drill.html",
+        "cites": "Same-day purchase after sampling; intent to buy again."
+      },
+      {
+        "label": "Marketing Charts — Arbitron / Edison Product Sampling Study summary",
+        "url": "https://www.marketingcharts.com/industries/retail-and-e-commerce-6211",
+        "cites": "35% same-trip purchase; 58% would buy again."
+      },
+      {
+        "label": "EMI / Mosaic EventTrack 2015 Consumer Survey",
+        "url": "https://www.eventmarketer.com/wp-content/uploads/2016/01/EventTrack2015_Consumer.pdf",
+        "cites": "Try-first as a primary purchase driver in experiential visits."
+      },
+      {
+        "label": "European Commission — Information for individuals (consent under GDPR)",
+        "url": "https://commission.europa.eu/law/law-topic/data-protection/information-individuals_en",
+        "cites": "Valid consent for the digital follow-up half of a phygital programme."
+      },
+      {
+        "label": "Care Direct — company overview (trial + digital)",
+        "url": "https://www.caredirect.com/",
+        "cites": "Life-stage trial expanded digitally across SEE markets."
+      }
+    ],
+    "ogImage": "/assets/blog/phygital-marketing-for-brands.png",
+    "practice": "Care Direct runs START as life-stage phygital marketing: the kit is the physical proof; the guide, Online Platform, CRM, loyalty and targeted email are the digital continuation. Brief both halves together for Greece, Cyprus, Romania, Bulgaria and Serbia."
   }
 ]

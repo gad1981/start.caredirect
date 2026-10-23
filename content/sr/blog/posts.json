@@ -25,12 +25,20 @@
         "text": "Brend menadžeri koji traže „uzorkovanje u porodilištu” ili „poklon paket za trudnice za brendove” obično žele jedan ishod: probu pre nego što se zaključa spisak za kupovinu, plus dovoljno konteksta da se brend zapamti na prvoj polici."
       },
       {
+        "type": "figure",
+        "variant": "pregnancy-window"
+      },
+      {
         "type": "h2",
         "text": "Zašto proba u ruci pobeđuje samu svest o brendu"
       },
       {
         "type": "p",
         "text": "Studija uzorkovanja proizvoda (Arbitron i Edison Media Research, 1.857 ispitanika iz SAD) pokazala je da je 35% onih koji su probali uzorak kupilo taj proizvod tokom iste kupovine, a više od polovine (58%) reklo je da bi ga ponovo kupilo — rezultate koje su naširoko preneli The New York Times i Marketing Charts. Potrošačko istraživanje EventTrack 2015 (EMI / Mosaic) otišlo je dalje u domenu iskustvene probe: 65% je kupilo proizvod ili uslugu promovisanu na događaju ili poseti, a 78% onih koji su bili skloniji kupovini navelo je kao razlog priliku da prvo probaju."
+      },
+      {
+        "type": "figure",
+        "variant": "trial-lift"
       },
       {
         "type": "p",
@@ -69,6 +77,10 @@
       {
         "type": "p",
         "text": "U jugoistočnoj Evropi, START Pregnancy je napravljen za upravo ovaj prozor: uzorci u kutiji uzoraka, štampani ili digitalni vodič i Online Platform, CRM i ciljani email koji nastavljaju razgovor nakon registracije. Širi model kompanije Care Direct je kompletno iskustvo — uzorkovanje koji se digitalno proširuje (Online Platform + CRM) — u Grčkoj, Kipru, Rumuniji, Bugarskoj, Srbiji i drugim tržištima."
+      },
+      {
+        "type": "figure",
+        "variant": "start-stack"
       },
       {
         "type": "p",
@@ -122,7 +134,6 @@
         "cites": "Trial combined with digital across SEE and wider markets."
       }
     ],
-    "ogImage": "/assets/start-stages/hero-st-pregnancy-v3.png",
     "practice": "Care Direct vodi START Pregnancy kroz ginekološke i porodilišne klinike u jugoistočnoj Evropi — Grčka, Kipar, Rumunija, Bugarska i Srbija — sa kutijom uzoraka, vodičem koji zadržavaju, zatim Online Platform i CRM uz saglasnost nakon registracije. Tražite doseg po zemlji za godinu u kojoj se pridružujete; ne planirajte samo na osnovu jednog regionalnog broja."
   },
   {
@@ -152,12 +163,20 @@
         "text": "U Grčkoj se taj prozor nalazi na bazi koja se smanjuje: ELSTAT je izvestio o 68.467 živorođenih u 2024. u odnosu na 71.455 u 2023. Manje porođaja znači da svako plasiranje u klinici ima veći značaj — tvrdnje o obimu bez godišnje cifre po zemlji teško je odbraniti u planu brenda."
       },
       {
+        "type": "figure",
+        "variant": "first-days"
+      },
+      {
         "type": "h2",
         "text": "Šta istraživanja kažu o probi u trenutku potrebe"
       },
       {
         "type": "p",
         "text": "Arbitron i Edison istraživanje uzorkovanja pokazalo je 35% kupovine tokom iste posete nakon probe uzorka i 58% namere ponovne kupovine (New York Times; Marketing Charts). EventTrack 2015 je izvestio da je 65% potrošača kupilo ono što je promovisano tokom iskustvene posete, pri čemu je 78% reklo da je prvo isprobavanje bilo presudno. Kategorije za novorođenčad — pelene, maramice, nega kože, hranjenje — upravo su one čulne odluke koje stvaraju navike i koje te studije opisuju."
+      },
+      {
+        "type": "figure",
+        "variant": "trial-lift"
       },
       {
         "type": "h2",
@@ -182,12 +201,20 @@
         "text": "Istraživanje USPS OIG / Temple pokazalo je da fizičko oglašavanje ostavlja trajnije pamćenje i jače signale poželjnosti od digitalnih reklama, dok je digitalno brže na prvi pogled. Dobar zahtev za program novorođenčadi koristi oboje: kutija uzoraka i vodič koje ona čuva prvih nedelja, a zatim digitalno praćenje uz saglasnost. Evropska komisija je jasna da saglasnost za marketing mora biti slobodna, određena, informisana i data potvrdnom radnjom — unapred štiklirana polja ne važe."
       },
       {
+        "type": "figure",
+        "variant": "media-contrast"
+      },
+      {
         "type": "h2",
         "text": "Kako START tretira prve dane"
       },
       {
         "type": "p",
         "text": "START Newborn je napravljen za majke 2–3 dana nakon porođaja u porodilišnim klinikama. START Luxury Moments pokriva privatne apartmane kada zahtev predviđa ekskluzivnije okruženje. Oba zadržavaju model koji brendovi prepoznaju: kutija uzoraka, digitalni vodič, CRM / ciljani email, Online Platform — usklađeno sa hibridnim pristupom kompanije Care Direct koji spaja probu i digitalno."
+      },
+      {
+        "type": "figure",
+        "variant": "start-stack"
       },
       {
         "type": "p",
@@ -231,7 +258,6 @@
         "cites": "Hybrid trial + digital programs for families across SEE and beyond."
       }
     ],
-    "ogImage": "/assets/start-stages/hero-st-natal.png",
     "practice": "START Newborn predaje kutije oko 2–3 dana posle porođaja u porodilištima; Luxury Moments pokriva privatne apartmane kada prijava traži ekskluzivnije okruženje. Care Direct tretira oba kao isti model životne faze: uzorak, vodič, zatim digitalni nastavak — ne jednokratni poklon bez drugog trenutka."
   },
   {
@@ -257,6 +283,10 @@
         "text": "„Uzorkovanje u školama” u polju za pretragu obično znači: doći do roditelja u trenutku visokog poverenja u zajednici, kada se brendovi za školsku godinu biraju u paketu. Prvi razred je posebno važan — nova torba, nove patike, nove higijenske navike i navike u vezi sa užinom."
       },
       {
+        "type": "figure",
+        "variant": "school-day"
+      },
+      {
         "type": "h2",
         "text": "Kako kanal izgleda u praksi"
       },
@@ -271,6 +301,10 @@
       {
         "type": "p",
         "text": "Istraživanja uzorkovanja stalno ukazuju na isti mehanizam: probaj, pa kupi. Arbitron / Edison su utvrdili da je otprilike svaki treći onaj koji je probao kupio tokom iste posete; EventTrack 2015 je utvrdio da je većina posetilaca iskustvenih događaja koji su kupovali zaslugu pripisala prvom isprobavanju. Školski kutija uzoraka stavlja tu probu u okruženje poverenja i povezuje brend sa početkom godine — korisno za kategorije koje roditelji dopunjuju u septembru."
+      },
+      {
+        "type": "figure",
+        "variant": "trial-lift"
       },
       {
         "type": "ul",
@@ -329,7 +363,6 @@
         "cites": "Valid consent rules if the program includes follow-up data capture."
       }
     ],
-    "ogImage": "/assets/start-stages/hero-st-school.png",
     "practice": "START First Grade (i božićno izdanje) stavlja kutiju sa više brendova u osnovne škole prvog školskog dana. Care Direct-ov školski rad u Grčkoj i susednim tržištima gradi se oko tog kalendarskog trenutka, sa Myschoolwinner kao Online Platform slojem posle kutije."
   },
   {
@@ -364,12 +397,20 @@
         ]
       },
       {
+        "type": "figure",
+        "variant": "trial-lift"
+      },
+      {
         "type": "h2",
         "text": "Šta dokazi govore o fizičkim naspram digitalnih medija"
       },
       {
         "type": "p",
         "text": "Istraživanje USPS OIG sa Univerzitetom Temple pokazalo je da se digitalne reklame obrađuju brže, ali da fizičke izazivaju jači emocionalni odziv, bolje pamćenje nedelju dana kasnije i moždanu aktivnost povezanu sa vrednošću proizvoda i namerom kupovine. Praktičan zaključak za marketing timove: koristite digitalno da brzo privučete pažnju; koristite kutija uzoraka, vodič ili drugi fizički dodir kada vam je potrebno trajno prisećanje na polici."
+      },
+      {
+        "type": "figure",
+        "variant": "media-contrast"
       },
       {
         "type": "h2",
@@ -443,7 +484,6 @@
         "cites": "2026 themes: proof via trial, consented zero/first-party data, omni-trial journeys (vendor analysis citing Mintel, NIQ and others)."
       }
     ],
-    "ogImage": "/assets/heroes/kit-pyramid.webp",
     "practice": "Care Direct ne traži od brendova da biraju uzorkovanje ili digitalno. START je osmišljen kao proba prvo, zatim Online Platform, CRM i ciljani email na podacima uz saglasnost — tako mediji mogu da pojačaju proizvod koji je već držala u ruci."
   },
   {
@@ -464,6 +504,10 @@
       {
         "type": "p",
         "text": "Jugoistočna Evropa se retko pojavljuje kao zasebna stavka u globalnom medijskom planu — dok nekome ne zatrebaju klinike u Grčkoj, škole u Rumuniji i kampusi u Bugarskoj bez pet različitih agencija. Pretrage „aktivacija brendova Southeast Europe” i „uzorkovanje Greece Romania” obično dolaze iz upravo takvog zahteva."
+      },
+      {
+        "type": "figure",
+        "variant": "see-markets"
       },
       {
         "type": "h2",
@@ -493,6 +537,10 @@
       {
         "type": "p",
         "text": "Globalni dokazi o uzorkovanju — Arbitron / Edison kupovina tokom iste posete, EventTrack kupovina nakon probe, USPS/Temple prednost fizičkog pamćenja — važe bez obzira da li kutija uzoraka stiže u Atinu ili Bukurešt. Care Direct svoj model pozicionira kao hibridni: proba proizvoda i edukacija plus digitalno iskustvo, sa prisustvom koje obuhvata Grčku, Kipar, Bugarsku, Rumuniju i Srbiju, između ostalih tržišta."
+      },
+      {
+        "type": "figure",
+        "variant": "start-stack"
       },
       {
         "type": "h2",
@@ -534,7 +582,6 @@
         "cites": "Physical touchpoints aid lasting recall vs digital-only."
       }
     ],
-    "ogImage": "/assets/heroes/home-hero-five-life-stages.png",
     "practice": "START je Care Direct linija životnih faza u jugoistočnoj Evropi u pet zemalja. Prijave najbolje rade kada prvo imenujete životnu fazu, zatim tržišta, zatim logistiku uzoraka — lokalni timovi vraćaju doseg i timing po zemlji."
   },
   {
@@ -560,12 +607,20 @@
         "text": "Studenti prve godine prave talas „prvih kupovina” — lična nega, hrana, tehnološka oprema, bankarstvo, mobilna telefonija. Brend menadžeri koji traže „uzorkovanje proizvoda na kampusu” žele pristup upravo tom resetu, idealno uz vodič koji deluje korisno, a ne kao promotivna buka."
       },
       {
+        "type": "figure",
+        "variant": "campus-day"
+      },
+      {
         "type": "h2",
         "text": "Zašto proba pripada zahtevu za kampus"
       },
       {
         "type": "p",
         "text": "Studenti formiraju navike u uslovima neizvesnosti. Istraživanja uzorkovanja pokazuju da oni koji probaju i kupuju: 35% kupovine tokom iste posete prema Arbitron / Edison i priča EventTrack-a o kupovini nakon probe podržavaju stavljanje proizvoda u ruke na početku semestra. YA / Survata su takođe utvrdili da većina ispitanika često ili uvek kupuje nakon uzorkovanja, a velika većina je rekla da bi ih uzorak podstakao da probaju još jedan proizvod istog brenda — korisno kada kutija uzoraka u kampusu predstavlja liniju, a ne jedan SKU."
+      },
+      {
+        "type": "figure",
+        "variant": "trial-lift"
       },
       {
         "type": "h2",
@@ -595,6 +650,10 @@
       {
         "type": "p",
         "text": "Rad USPS OIG / Temple sugeriše da fizički mediji pobeđuju u trajnom pamćenju; digitalni pobeđuju u brzini. Kampus programi koji uparuju opipljiv uzorak sa digitalnim vodičem i CRM-om uz saglasnost prate tu podelu. Javni komentari kompanije Mondelēz o kombinovanju online i offline uzorkovanja ukazuju u istom smeru za FMCG timove: razvijajte miks, merite programe, zadržite iskustvenu probu u alatima."
+      },
+      {
+        "type": "figure",
+        "variant": "start-stack"
       },
       {
         "type": "h2",
@@ -641,7 +700,6 @@
         "cites": "GDPR consent standard for student registration / CRM."
       }
     ],
-    "ogImage": "/assets/start-stages/hero-st-uni.png",
     "practice": "START University i High School koriste plasman na kampusu ili u školi plus digitalne vodiče kao UniStart+ i START 9. Care Direct potvrđuje aktivne gradove i ograničenja težine u prijavi; registracija za CRM ide samo uz validnu saglasnost."
   },
   {
@@ -689,6 +747,10 @@
         "text": "Ako je cilj razmatranje brenda nakon probe, navedite dokaze prema kojima ćete optimizovati: Arbitron / Edison kupovinu tokom iste posete i nameru ponovne kupovine; EventTrack priču o kupovini nakon probe; YA / Survata nalaze o afinitetu. Partneri tada mogu osmisliti sadržaj kutije uzoraka, dubinu vodiča i naknadnu komunikaciju za probu — a ne za uzaludan doseg."
       },
       {
+        "type": "figure",
+        "variant": "trial-lift"
+      },
+      {
         "type": "h2",
         "text": "Saglasnost je deo zahteva, a ne naknadna misao"
       },
@@ -703,6 +765,10 @@
       {
         "type": "p",
         "text": "Kreativne varijante, tačni SKU-ovi i konačan tekst na pakovanju mogu da sačekaju. Pravila pristupa i logistika uzoraka ne mogu — oni određuju trošak. Ako poredite životne faze, recite to; partneri mogu preporučiti trudnoću naspram novorođenčeta naspram škole bez pet odvojenih RFP-ova. Na tržištima koja zavise od nataliteta donesite demografsku proveru realnosti (na primer najnoviji ELSTAT-ov ukupan broj živorođenih za Grčku) kako bi ambicije u pogledu obima ostale realne."
+      },
+      {
+        "type": "figure",
+        "variant": "brief-must"
       },
       {
         "type": "h2",
@@ -754,7 +820,6 @@
         "cites": "Partner footprint and hybrid trial + digital model."
       }
     ],
-    "ogImage": "/assets/heroes/order-sample-hero.jpg",
     "practice": "Nepotpune prijave usporavaju Care Direct predloge više od kasnog kreativa. Tržišta, veličina i težina uzorka, potrebe za ekskluzivnošću i da li želite prisustvo u vodiču ili Online Platform treba da budu u prvom emailu."
   },
   {
@@ -785,6 +850,10 @@
         "text": "Studija iz 2023. u Journal of Electronic Commerce Research o online besplatnom uzorkovanju (primaoci beauty i proizvoda za negu na velikoj kineskoj uzorkovanje platformi) razdvojila je dva efekta. Percipirana dijagnostičnost — koliko uzorak pomaže nekome da proceni kvalitet — povećala je nameru kupovine. Percipirani reciprocitet — osećaj da „dugujete” nešto nakon poklona — povećao je ocene proizvoda, ali sam po sebi nije povećao nameru kupovine. Jezikom brenda: besplatan uzorak koji uči osvaja korpu; besplatan uzorak koji samo prija osvaja recenziju."
       },
       {
+        "type": "figure",
+        "variant": "diagnosticity"
+      },
+      {
         "type": "p",
         "text": "Zato kitovi po životnim fazama nadmašuju nasumična deljenja. Uzorak za trudnoću ili novorođenče dijagnostičan je upravo u nedelji u kojoj ona bira brendove. Letak bez upotrebljivog proizvoda jeste reciprocitet bez učenja."
       },
@@ -807,6 +876,10 @@
           "EMI / Mosaic EventTrack 2015: 65% je kupilo ono što je promovisano na događaju ili poseti; 78% onih koji su bili skloniji kupovini navelo je priliku da prvo probaju kao razlog; 89% je reklo da ih je uzorak učinio sklonijim kupovini tog proizvoda",
           "YA / Survata (1.000 odraslih u SAD): 53% često ili uvek kupuje nakon samplinga; 77% je reklo da bi ih uzorak podstakao da probaju još jedan proizvod istog brenda"
         ]
+      },
+      {
+        "type": "figure",
+        "variant": "trial-lift"
       },
       {
         "type": "h2",
@@ -879,7 +952,6 @@
         "cites": "53% often/always buy after sample; 77% try another product from the brand."
       }
     ],
-    "ogImage": "/assets/kits/kit-st-natal.png",
     "practice": "Care Direct vidi da besplatni uzorci rade kada je uzorak koristan u toj životnoj fazi i brend ostaje prisutan posle predaje — kroz vodič i Online Platform — a ne kada se poklon zaboravi na kuhinjskom pultu."
   },
   {
@@ -908,6 +980,10 @@
       {
         "type": "p",
         "text": "Istraživanje USPS OIG sa Center for Neural Decision Making pri Univerzitetu Temple pokazalo je da se digitalne reklame obrađuju brže, dok fizičke izazivaju jači emocionalni odziv, bolje pamćenje nedelju dana kasnije i moždanu aktivnost povezanu sa vrednošću proizvoda i namerom kupovine. Uzorkovanje dodaje treći sloj koji digitalno ne može da imitira: dijagnostičnu probu (pogledajte nalaze o reciprocitetu naspram dijagnostičnosti u istraživanjima besplatnih uzoraka). Umetnost je dakle u redosledu: digitalno za brzinu i skalu, kutija uzoraka/vodič za pamćenje i dokaz, CRM praćenje za odnos."
+      },
+      {
+        "type": "figure",
+        "variant": "media-contrast"
       },
       {
         "type": "h2",
@@ -941,6 +1017,10 @@
       {
         "type": "p",
         "text": "Tretirajte opipljiv uzorak kao „prijavu” u iskustvo brenda. Kutija uzoraka dokazuje proizvod; vodič i platforma uče; registracija (prema GDPR-u: slobodna, određena, informisana, potvrdna saglasnost) otvara personalizaciju. Bez fizičkog dokaza, digitalna aktivacija je samo još jedna tvrdnja. Bez digitalnog sloja, besplatan uzorak je izgubljen trošak bez drugog trenutka."
+      },
+      {
+        "type": "figure",
+        "variant": "start-stack"
       },
       {
         "type": "h2",
@@ -1003,7 +1083,6 @@
         "cites": "Try-first remains a top purchase driver when experience includes sampling."
       }
     ],
-    "ogImage": "/assets/platforms/screen-pl-heymaa.png",
     "practice": "START stek je kutija, vodič, CRM uz saglasnost i ciljani email, Online Platform. Care Direct gradi digitalne aktivacije oko tog opipljivog dokaza, ne kao odvojenu kampanju zalepljenu na fakturu uzorkovanja."
   },
   {
@@ -1038,6 +1117,10 @@
         "text": "Deloitteov izveštaj Global Marketing Trends 2022 o unapređenju hibridnog iskustva pokazao je da je 75% anketiranih rukovodilaca planiralo da u narednih 12 meseci više ulaže u hibridna iskustva. Glavni razlozi uključivali su personalizaciju, inovacije, povezanost sa klijentima i inkluziju. Okvir izveštaja poklapa se sa onim što uzorkovanje timovi već znaju: samo digitalno je podiglo očekivanja; sledeća letvica su povezani tokovi iskustva koji spajaju fizičko i digitalno."
       },
       {
+        "type": "figure",
+        "variant": "deloitte-hybrid"
+      },
+      {
         "type": "h2",
         "text": "Tri sloja hibridnog iskustva brenda"
       },
@@ -1048,6 +1131,10 @@
           "Digitalno iskustvo — susret sa istim potrošačem online nakon (ili uz) probe: vodiči, platforme, zajednice, CRM",
           "Hibridno iskustvo — proba i digitalno kao jedna petlja, opisana kao data-driven, culture-driven i omnichannel"
         ]
+      },
+      {
+        "type": "figure",
+        "variant": "hybrid-layers"
       },
       {
         "type": "p",
@@ -1086,6 +1173,10 @@
       {
         "type": "p",
         "text": "START kompanije Care Direct izgrađen je kao taj hibridni model u jugoistočnoj Evropi: uzorci u kutiji uzoraka za životnu fazu, vodič koji ona čuva, praćenje nakon registracije i online platforme koje nastavljaju edukaciju. To je hibridni marketing primenjen na porodice — a ne zasebna „digitalna kampanja” zakačena na račun za uzorkovanje."
+      },
+      {
+        "type": "figure",
+        "variant": "start-stack"
       },
       {
         "type": "p",
@@ -1139,7 +1230,102 @@
         "cites": "Valid consent for the digital follow-up half of a hybrid program."
       }
     ],
-    "ogImage": "/assets/platforms/screen-pl-myparenthood.png",
     "practice": "Care Direct definiše hibridni marketing kao tradicionalno direktno iskustvo (proba i edukacija) plus digitalno iskustvo. START primenjuje tu definiciju u jugoistočnoj Evropi: jedna prijava za uzorak i digitalne zahteve zajedno."
+  },
+  {
+    "slug": "phygital-marketing-for-brands",
+    "title": "Phygital marketing za brendove",
+    "description": "Šta znači phygital marketing: fizički probni uzorak plus digitalni nastavak u jednom putovanju — i kako START pretvara komplete životnih etapa u Online Platform, CRM, lojalnost i ciljani email.",
+    "date": "2026-10-23",
+    "updated": "2026-10-23",
+    "keywords": [
+      "phygital marketing",
+      "strategija phygital marketinga",
+      "fizički i digitalni marketing brendovi",
+      "phygital marketing životnih etapa"
+    ],
+    "intent": "Brand menadžer koji istražuje phygital marketing kao strategiju fizičkog probnog uzorka i digitalnog nastavka.",
+    "relatedPrograms": [
+      "pregnancy",
+      "newborn",
+      "first-grade",
+      "university",
+      "high-school",
+      "seniors"
+    ],
+    "body": [
+      {
+        "type": "p",
+        "text": "Phygital marketing je fizičko plus digitalno u jednom putovanju kupca — ne dve odvojene kampanje. Brend životne etape stavlja stvarni proizvod u nečije ruke (klinika, škola, kampus, kuća), zatim nastavlja odnos na sopstvenim kanalima: vodič, Online Platform, CRM, lojalnost i ciljani email. To obično traže brend menadžeri kada pretražuju „phygital marketing“ — i tako je izgrađen START u Jugoistočnoj Evropi."
+      },
+      {
+        "type": "p",
+        "text": "Ako brief kupuje samo impresije, dobijate doseg. Ako samo deli uzorke bez digitalnog puta, dobijate trošak bez drugog trenutka. Phygital traži obe polovine u istom planu."
+      },
+      {
+        "type": "h2",
+        "text": "Šta „phygital“ zaista znači"
+      },
+      {
+        "type": "p",
+        "text": "Amazon Ads jasno sumira poreklo: pojam phygital skovao je 2007. Chris Weil (tada u Momentum Worldwide) kao spoj fizičkog i digitalnog — iskustva koja spajaju opipljivo i virtuelno. Phygital marketing, u tom okviru, kombinuje fizičke i digitalne elemente tako da kupac prelazi između tačaka kontakta bez gubitka niti brenda."
+      },
+      {
+        "type": "p",
+        "text": "Akademski rad ide dalje. Batat (Journal of Strategic Marketing, 2022) tvrdi da phygital nije „još jedna reč za omnichannel“. Okvir PH-CX tretira offline i online kao kontinuum vrednosti — kupci se pomeraju iz fizičkog u digitalno (ili obrnuto) dok brend odgovara na opipljive potrebe (kvalitet, proba) i neopipljive (emocija, poverenje)."
+      },
+      {
+        "type": "p",
+        "text": "Qualtrics to kaže jednostavnim CX jezikom: phygital iskustvo može početi na fizičkom mestu razmatranjem kupovine, zatim preći u digitalno radi završetka, učenja ili preporuke — rizik je da izgubite kupca u predaji. Omnichannel disciplina postoji da ta predaja ne pukne."
+      },
+      {
+        "type": "h2",
+        "text": "Zašto fizička polovina mora biti stvarna proba"
+      },
+      {
+        "type": "p",
+        "text": "Phygital pada kada „fizičko“ znači samo poster sa QR kodom. Za FMCG i porodične kategorije, fizička polovina koja pomera udeo je dijagnostička proba — dovoljno proizvoda da se nauči — u trenutku kada je lista kupovine otvorena. Istraživanje USPS OIG sa Temple University našlo je jaču emociju, bolje sećanje nedelju dana kasnije i signale namere kupovine za fizičke oglase u odnosu na digitalne; digitalno je bilo brže na prvoj ekspoziciji. Istraživanje uzoraka dodaje ono što mediji ne mogu da lažiraju: Arbitron / Edison — 35% je kupilo na istoj poseti, 58% bi kupilo ponovo; EventTrack 2015 — „prvo proba“ bio je glavni razlog kupovine na iskustvenim posetama."
+      },
+      {
+        "type": "figure",
+        "variant": "trial-lift"
+      },
+      {
+        "type": "p",
+        "text": "Phygital niz za brend životne etape obično je: pouzdan fizički trenutak → proizvod u ruci → vodič koji se čuva → registracija uz saglasnost → Online Platform / CRM / lojalnost / ciljani email."
+      },
+      {
+        "type": "figure",
+        "variant": "start-stack"
+      },
+      {
+        "type": "h2",
+        "text": "Šta phygital brief mora da precizira"
+      },
+      {
+        "type": "ul",
+        "items": [
+          "Trenutak životne etape za fizičku probu (trudnoća, novorođenče, škola, kampus, seniori…)",
+          "Format uzorka i kontekst kompleta — dovoljno proizvoda za učenje, ne samo kesica sa logom",
+          "Vodič: štampani, digitalni ili oba — most između probe i online-a",
+          "Digitalni sloj: Online Platform, QR ili put registracije, sadržaj posle distribucije",
+          "Saglasnost po GDPR: slobodna, konkretna, informisana, potvrdna — pre prve CRM poruke",
+          "KPI za probu i za digitalni nastavak — ne samo impresije"
+        ]
+      },
+      {
+        "type": "h2",
+        "text": "Phygital marketing u START-u"
+      },
+      {
+        "type": "p",
+        "text": "START Care Direct-a je phygital marketing životnih etapa u Jugoistočnoj Evropi: Grčka, Kipar, Rumunija, Bugarska i Srbija. Svaki program je kompletno iskustvo — uzorkovanje koje se digitalno nastavlja u Online Platform, CRM, lojalnost i ciljani email — ne faktura uzoraka sa „digitalnom“ stavkom naknadno."
+      },
+      {
+        "type": "p",
+        "text": "Otvorite program koji odgovara životnoj etapi kupca, zatim se priključite START-u sa specifikacijama uzorka i digitalnim zahtevima u istom briefu."
+      }
+    ],
+    "practice": "Care Direct vodi START kao phygital marketing životnih etapa: komplet je fizički dokaz; vodič, Online Platform, CRM, lojalnost i ciljani email su digitalni nastavak. Briefujte obe polovine zajedno za Grčku, Kipar, Rumuniju, Bugarsku i Srbiju."
   }
 ]

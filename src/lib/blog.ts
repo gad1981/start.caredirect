@@ -5,7 +5,26 @@ import enPosts from "../../content/en/blog/posts.json";
 export type BlogBlock =
   | { type: "p"; text: string }
   | { type: "h2"; text: string }
-  | { type: "ul"; items: string[] };
+  | { type: "ul"; items: string[] }
+  /** Inline explainer visual — place only where it clarifies a nearby claim. */
+  | {
+      type: "figure";
+      variant:
+        | "kit-brand"
+        | "pregnancy-window"
+        | "trial-lift"
+        | "first-days"
+        | "media-contrast"
+        | "start-stack"
+        | "diagnosticity"
+        | "hybrid-layers"
+        | "see-markets"
+        | "school-day"
+        | "campus-day"
+        | "brief-must"
+        | "deloitte-hybrid";
+      caption?: string;
+    };
 
 export type BlogSource = {
   label: string;

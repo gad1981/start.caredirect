@@ -69,10 +69,19 @@ async function BlogIndexRoute({
             className={styles.card}
             href={localePath(locale, `/blog/${post.slug}/`)}
           >
-            <p className={styles.cardMeta}>{post.date}</p>
-            <h2>{post.title}</h2>
-            <p>{post.description}</p>
-            <span className={styles.cardMore}>{messages.blogRead}</span>
+            {post.ogImage ? (
+              <div
+                className={styles.cardMedia}
+                style={{ backgroundImage: `url(${post.ogImage})` }}
+                aria-hidden
+              />
+            ) : null}
+            <div className={styles.cardCopy}>
+              <p className={styles.cardMeta}>{post.date}</p>
+              <h2>{post.title}</h2>
+              <p>{post.description}</p>
+              <span className={styles.cardMore}>{messages.blogRead}</span>
+            </div>
           </AppLink>
         ))}
       </div>

@@ -25,12 +25,20 @@
         "text": "Managerii de brand care caută „eșantionare în maternități” sau „cutie cadou pentru gravide pentru branduri” vor, de regulă, un singur rezultat: proba înainte să se închidă lista de cumpărături, plus suficient context încât brandul să fie amintit la primul raft."
       },
       {
+        "type": "figure",
+        "variant": "pregnancy-window"
+      },
+      {
         "type": "h2",
         "text": "De ce proba în mână bate simpla notorietate"
       },
       {
         "type": "p",
         "text": "Product Sampling Study realizat de Arbitron și Edison Media Research (1.857 de respondenți din SUA) a constatat că 35% dintre cei care au încercat o mostră au cumpărat produsul în aceeași vizită de cumpărături, iar peste jumătate (58%) au spus că l-ar cumpăra din nou — rezultate raportate pe scară largă de The New York Times și Marketing Charts. Sondajul EventTrack 2015 al EMI / Mosaic a mers mai departe în privința probei experiențiale: 65% au cumpărat produsul sau serviciul promovat la eveniment sau în timpul vizitei, iar 78% dintre cei mai înclinați să cumpere au spus că motivul a fost ocazia de a-l încerca mai întâi."
+      },
+      {
+        "type": "figure",
+        "variant": "trial-lift"
       },
       {
         "type": "p",
@@ -69,6 +77,10 @@
       {
         "type": "p",
         "text": "În Europa de Sud-Est, START Pregnancy este construit pentru această fereastră: mostre în cutie, un ghid tipărit sau digital și platformele online Care Direct, CRM și email personalizat care continuă conversația după înregistrare. Modelul mai larg al Care Direct este o experiență completă — eșantionare care se continuă digital (Online Platform + CRM) — în Grecia, Cipru, România, Bulgaria, Serbia și alte piețe."
+      },
+      {
+        "type": "figure",
+        "variant": "start-stack"
       },
       {
         "type": "p",
@@ -122,7 +134,6 @@
         "cites": "Trial combined with digital across SEE and wider markets."
       }
     ],
-    "ogImage": "/assets/start-stages/hero-st-pregnancy-v3.png",
     "practice": "Care Direct rulează START Pregnancy prin clinici de ginecologie și maternități în Europa de Sud-Est — Grecia, Cipru, România, Bulgaria și Serbia — cu o cutie de mostre, un ghid pe care îl păstrează, apoi Online Platform și CRM cu consimțământ după înregistrare. Cereți acoperire pe țară pentru anul în care vă alăturați; nu planificați doar pe un număr regional agregat."
   },
   {
@@ -152,12 +163,20 @@
         "text": "În Grecia, această fereastră se află pe o bază în scădere: ELSTAT a raportat 68.467 de născuți vii în 2024, față de 71.455 în 2023. Mai puține nașteri înseamnă că fiecare plasare în clinică contează mai mult — afirmațiile despre volum fără o cifră anuală pe țară sunt greu de susținut într-un plan de brand."
       },
       {
+        "type": "figure",
+        "variant": "first-days"
+      },
+      {
         "type": "h2",
         "text": "Ce spune cercetarea despre probă în momentul nevoii"
       },
       {
         "type": "p",
         "text": "Cercetarea Arbitron și Edison despre eșantionare a constatat 35% achiziții în aceeași vizită după încercarea unei mostre și 58% intenție de recumpărare (New York Times; Marketing Charts). EventTrack 2015 a raportat că 65% dintre consumatori au cumpărat ceea ce a fost promovat în timpul unei vizite experiențiale, iar 78% au spus că proba înainte de cumpărare a fost motivul. Categoriile pentru nou-născuți — scutece, șervețele, îngrijirea pielii, hrănire — sunt exact acele decizii senzoriale, formatoare de obiceiuri, pe care le descriu aceste studii."
+      },
+      {
+        "type": "figure",
+        "variant": "trial-lift"
       },
       {
         "type": "h2",
@@ -182,12 +201,20 @@
         "text": "Cercetarea USPS OIG / Temple a arătat că publicitatea fizică a lăsat o memorie mai durabilă și semnale mai puternice de intenție de cumpărare decât reclamele digitale, în timp ce digitalul a fost mai rapid la prima vedere. Un cerere solidă pentru nou-născuți le folosește pe ambele: o cutie de mostre și un ghid pe care ea le păstrează în primele săptămâni, apoi continuare digitală a comunicării cu consimțământ. Comisia Europeană este clară: consimțământul pentru marketing trebuie să fie liber, specific, informat și dat printr-o acțiune pozitivă — căsuțele bifate în prealabil nu contează."
       },
       {
+        "type": "figure",
+        "variant": "media-contrast"
+      },
+      {
         "type": "h2",
         "text": "Cum încadrează START primele zile"
       },
       {
         "type": "p",
         "text": "START Newborn este construit pentru mame la 2–3 zile după naștere, în clinici de maternitate. START Luxury Moments acoperă suitele și rezervele private atunci când cererea cere un mediu mai exclusivist. Ambele păstrează modelul pe care brandurile îl recunosc: cutie de mostre, ghid digital, CRM / email personalizat, Online Platform — aliniat la abordarea hibridă a Care Direct, de probă și digital."
+      },
+      {
+        "type": "figure",
+        "variant": "start-stack"
       },
       {
         "type": "p",
@@ -231,7 +258,6 @@
         "cites": "Hybrid trial + digital programs for families across SEE and beyond."
       }
     ],
-    "ogImage": "/assets/start-stages/hero-st-natal.png",
     "practice": "START Newborn livrează cutii la circa 2–3 zile după naștere în maternități; Luxury Moments acoperă suite private când cererea cere un mediu mai exclusiv. Care Direct tratează ambele ca același model pe etapă de viață: mostră, ghid, apoi continuare digitală — nu un cadou singular fără un al doilea moment."
   },
   {
@@ -257,6 +283,10 @@
         "text": "„Eșantionare în școli” în bara de căutare înseamnă de obicei: a ajunge la părinți într-un moment comunitar de mare încredere, când brandurile pentru anul școlar se aleg la grămadă. Clasa I este deosebit de relevantă — ghiozdan nou, încălțăminte nouă, noi obiceiuri de igienă și de gustări."
       },
       {
+        "type": "figure",
+        "variant": "school-day"
+      },
+      {
         "type": "h2",
         "text": "Cum arată canalul în practică"
       },
@@ -271,6 +301,10 @@
       {
         "type": "p",
         "text": "Cercetările despre eșantionare indică mereu aceeași mecanică: încearcă, apoi cumpără. Arbitron / Edison au constatat că aproximativ unul din trei dintre cei care au încercat a cumpărat în aceeași vizită; EventTrack 2015 a constatat că majoritatea vizitatorilor experiențiali care au cumpărat au atribuit decizia faptului că au putut încerca mai întâi. O cutie școlară de mostre aduce această probă într-un cadru de încredere și asociază brandul cu începutul anului — util pentru categoriile pe care părinții le reînnoiesc în septembrie."
+      },
+      {
+        "type": "figure",
+        "variant": "trial-lift"
       },
       {
         "type": "ul",
@@ -329,7 +363,6 @@
         "cites": "Valid consent rules if the program includes follow-up data capture."
       }
     ],
-    "ogImage": "/assets/start-stages/hero-st-school.png",
     "practice": "START First Grade (și ediția de Crăciun) pune o cutie multi-brand în școlile primare în prima zi de școală. Lucrul Care Direct în școli din Grecia și piețele vecine este construit în jurul acelui moment din calendar, cu Myschoolwinner ca strat Online Platform după cutie."
   },
   {
@@ -364,12 +397,20 @@
         ]
       },
       {
+        "type": "figure",
+        "variant": "trial-lift"
+      },
+      {
         "type": "h2",
         "text": "Ce arată dovezile despre media fizice vs. digitale"
       },
       {
         "type": "p",
         "text": "Cercetarea USPS OIG realizată cu Temple University a constatat că reclamele digitale sunt procesate mai rapid, dar cele fizice produc un răspuns emoțional mai puternic, o memorie mai bună după o săptămână și activitate cerebrală asociată cu valoarea produsului și intenția de cumpărare. Concluzia practică pentru echipele de marketing: folosește digitalul pentru a atrage rapid atenția; folosește o cutie de mostre, un ghid sau o altă atingere fizică atunci când ai nevoie de memorie durabilă la raft."
+      },
+      {
+        "type": "figure",
+        "variant": "media-contrast"
       },
       {
         "type": "h2",
@@ -443,7 +484,6 @@
         "cites": "2026 themes: proof via trial, consented zero/first-party data, omni-trial journeys (vendor analysis citing Mintel, NIQ and others)."
       }
     ],
-    "ogImage": "/assets/heroes/kit-pyramid.webp",
     "practice": "Care Direct nu cere brandurilor să aleagă eșantionare sau digital. START este proiectat ca probă întâi, apoi Online Platform, CRM și email personalizat pe date cu consimțământ — astfel media poate amplifica un produs pe care l-a ținut deja în mână."
   },
   {
@@ -464,6 +504,10 @@
       {
         "type": "p",
         "text": "Europa de Sud-Est apare rar ca o linie separată într-un deck media global — până când cineva are nevoie de clinici în Grecia, școli în România și campusuri în Bulgaria fără cinci agenții diferite. Căutările „activare de brand Southeast Europe” și „eșantionare Grecia România” vin de obicei din această cerere de participare."
+      },
+      {
+        "type": "figure",
+        "variant": "see-markets"
       },
       {
         "type": "h2",
@@ -493,6 +537,10 @@
       {
         "type": "p",
         "text": "Dovezile globale despre eșantionare — achiziția în aceeași vizită Arbitron / Edison, achiziția după probă EventTrack, avantajul memoriei fizice USPS/Temple — se aplică indiferent dacă cutia de mostre ajunge la Atena sau la București. Care Direct își poziționează modelul ca hibrid: probă de produs și educație plus experiență digitală, cu o amprentă care include Grecia, Cipru, Bulgaria, România și Serbia, printre alte piețe."
+      },
+      {
+        "type": "figure",
+        "variant": "start-stack"
       },
       {
         "type": "h2",
@@ -534,7 +582,6 @@
         "cites": "Physical touchpoints aid lasting recall vs digital-only."
       }
     ],
-    "ogImage": "/assets/heroes/home-hero-five-life-stages.png",
     "practice": "START este linia Care Direct pe etape de viață în Europa de Sud-Est, în cinci țări. Cererile funcționează cel mai bine când numiți mai întâi etapa de viață, apoi piețele, apoi logistica mostrelor — echipele locale returnează acoperire și timing pe țară."
   },
   {
@@ -560,12 +607,20 @@
         "text": "Studenții din anul I fac un val de „prime achiziții” — îngrijire personală, alimente, accesorii tech, servicii bancare, telefonie mobilă. Managerii de brand care caută „eșantionare de produse în campus universitar” vor acces la această resetare, de preferat cu un ghid util, nu cu zgomot promoțional."
       },
       {
+        "type": "figure",
+        "variant": "campus-day"
+      },
+      {
         "type": "h2",
         "text": "De ce proba își are locul într-o cerere de participare pentru campus"
       },
       {
         "type": "p",
         "text": "Studenții își formează obiceiuri în condiții de incertitudine. Cercetările despre eșantionare arată că cei care încearcă cumpără: 35% fac achiziții în aceeași vizită (Arbitron / Edison), iar povestea achiziției după probă din EventTrack susține ambele — punerea produsului în mână la începutul semestrului. YA / Survata au constatat, de asemenea, că majoritatea respondenților cumpără adesea sau întotdeauna după eșantionare, iar o mare majoritate a spus că o mostră i-ar împinge să încerce un alt produs al aceluiași brand — util atunci când o cutie de mostre de campus prezintă o gamă, nu un singur SKU."
+      },
+      {
+        "type": "figure",
+        "variant": "trial-lift"
       },
       {
         "type": "h2",
@@ -595,6 +650,10 @@
       {
         "type": "p",
         "text": "Lucrările USPS OIG / Temple sugerează că media fizice câștigă la memorie durabilă; digitalul câștigă la viteză. Programele de campus care îmbină o mostră tangibilă cu un ghid digital și CRM cu consimțământ urmează această împărțire. Comentariile publice ale Mondelēz despre combinarea eșantionării online și offline indică aceeași direcție pentru echipele FMCG: evoluează mixul, măsoară programele, păstrează proba experiențială în setul de instrumente."
+      },
+      {
+        "type": "figure",
+        "variant": "start-stack"
       },
       {
         "type": "h2",
@@ -641,7 +700,6 @@
         "cites": "GDPR consent standard for student registration / CRM."
       }
     ],
-    "ogImage": "/assets/start-stages/hero-st-uni.png",
     "practice": "START University și High School folosesc plasare în campus sau școală plus ghiduri digitale precum UniStart+ și START 9. Care Direct confirmă orașele active și limitele de greutate în cerere; înregistrarea pentru CRM se face doar cu consimțământ valid."
   },
   {
@@ -689,6 +747,10 @@
         "text": "Dacă obiectivul este considerarea brandului după probă, citează dovezile față de care vei optimiza: achiziția în aceeași vizită și intenția de recumpărare Arbitron / Edison; povestea achiziției după probă din EventTrack; rezultatele de afinitate YA / Survata. Partenerii pot atunci proiecta conținutul cutiei de mostre, profunzimea ghidului și continuarea comunicării pentru probă — nu pentru acoperire de vanitate."
       },
       {
+        "type": "figure",
+        "variant": "trial-lift"
+      },
+      {
         "type": "h2",
         "text": "Consimțământul face parte din cerere, nu este o idee de ultim moment"
       },
@@ -703,6 +765,10 @@
       {
         "type": "p",
         "text": "Variantele de creație, SKU-urile exacte și textul final al ambalajului pot aștepta. Regulile de acces și logistica mostrelor nu pot — ele determină costul. Dacă compari etape de viață, spune-o; partenerii pot recomanda sarcină vs. nou-născut vs. școală fără cinci RFP-uri separate. Pe piețele conduse de natalitate, adu un reper demografic (de exemplu ultimul total ELSTAT de născuți vii pentru Grecia), astfel încât ambițiile de volum să rămână realiste."
+      },
+      {
+        "type": "figure",
+        "variant": "brief-must"
       },
       {
         "type": "h2",
@@ -754,7 +820,6 @@
         "cites": "Partner footprint and hybrid trial + digital model."
       }
     ],
-    "ogImage": "/assets/heroes/order-sample-hero.jpg",
     "practice": "Cererile incomplete încetinesc propunerile Care Direct mai mult decât creativul întârziat. Piețele, dimensiunea și greutatea mostrei, nevoile de exclusivitate și dacă doriți prezență în ghid sau Online Platform trebuie să fie în primul email."
   },
   {
@@ -785,6 +850,10 @@
         "text": "Un studiu din 2023 din Journal of Electronic Commerce Research despre eșantionare gratuit online (destinatari de produse de beauty și îngrijire pe o mare platformă chineză de eșantionare) a separat două efecte. Diagnosticitatea percepută — cât de mult ajută mostra pe cineva să judece calitatea — a crescut intenția de cumpărare. Reciprocitatea percepută — senzația că „datorezi” ceva după un cadou — a crescut evaluările produsului, dar nu a crescut, singură, intenția de cumpărare. Pe limba brandurilor: cadoul care învață câștigă coșul; cadoul care doar face plăcere câștigă recenzia."
       },
       {
+        "type": "figure",
+        "variant": "diagnosticity"
+      },
+      {
         "type": "p",
         "text": "De aceea cutiile de mostre pe etape de viață depășesc cadourile aleatorii. O mostră pentru sarcină sau nou-născut este diagnostică exact în săptămâna în care ea alege brandurile. Un flyer fără produs utilizabil este reciprocitate fără învățare."
       },
@@ -807,6 +876,10 @@
           "EMI / Mosaic EventTrack 2015: 65% au cumpărat ceea ce a fost promovat la un eveniment sau o vizită; 78% dintre cei mai înclinați să cumpere au atribuit decizia ocaziei de a încerca mai întâi; 89% au spus că o mostră i-a făcut mai predispuși să cumpere acel produs",
           "YA / Survata (1.000 de adulți din SUA): 53% cumpără adesea sau întotdeauna după eșantionare; 77% au spus că o mostră i-ar încuraja să încerce un alt produs al aceluiași brand"
         ]
+      },
+      {
+        "type": "figure",
+        "variant": "trial-lift"
       },
       {
         "type": "h2",
@@ -879,7 +952,6 @@
         "cites": "53% often/always buy after sample; 77% try another product from the brand."
       }
     ],
-    "ogImage": "/assets/kits/kit-st-natal.png",
     "practice": "Care Direct vede că mostrele gratuite funcționează când mostra e utilă în acea etapă de viață și brandul rămâne prezent după predare — prin ghid și Online Platform — nu când cadoul e uitat pe blatul din bucătărie."
   },
   {
@@ -908,6 +980,10 @@
       {
         "type": "p",
         "text": "Cercetarea USPS OIG cu Center for Neural Decision Making de la Temple University a constatat că reclamele digitale sunt procesate mai rapid, în timp ce cele fizice produc un răspuns emoțional mai puternic, o memorie mai bună după o săptămână și activitate cerebrală legată de valoarea produsului și intenția de cumpărare. Eșantionarea adaugă un al treilea strat pe care digitalul nu îl poate falsifica: proba diagnostică (vezi rezultatele despre reciprocitate vs. diagnosticitate din cercetarea mostrelor gratuite). Arta stă deci în secvențiere: digital pentru viteză și scară, cutie de mostre/ghid fizic pentru memorie și dovadă, CRM pentru continuarea comunicării pentru relație."
+      },
+      {
+        "type": "figure",
+        "variant": "media-contrast"
       },
       {
         "type": "h2",
@@ -941,6 +1017,10 @@
       {
         "type": "p",
         "text": "Tratează mostra tangibilă ca pe poarta de intrare în experiența brandului. Kitul dovedește produsul; ghidul și platforma învață; înregistrarea (conform GDPR: consimțământ liber, specific, informat, afirmativ) deschide personalizarea. Fără dovada fizică, activarea digitală este încă o promisiune. Fără stratul digital, cadoul este un cost irecuperabil, fără un al doilea moment."
+      },
+      {
+        "type": "figure",
+        "variant": "start-stack"
       },
       {
         "type": "h2",
@@ -1003,7 +1083,6 @@
         "cites": "Try-first remains a top purchase driver when experience includes sampling."
       }
     ],
-    "ogImage": "/assets/platforms/screen-pl-heymaa.png",
     "practice": "Stiva START este cutie, ghid, CRM cu consimțământ și email personalizat, Online Platform. Care Direct construiește activările digitale în jurul acelei dovezi tangibile, nu ca o campanie separată lipită pe o factură de eșantionare."
   },
   {
@@ -1038,6 +1117,10 @@
         "text": "Raportul Deloitte Global Marketing Trends 2022 despre elevarea experienței hibride a constatat că 75% dintre executivii chestionați plănuiau să investească mai mult în experiențe hibride în următoarele 12 luni. Printre motivele principale s-au numărat personalizarea, inovația, conexiunea cu clientul și incluziunea. Cadrul raportului corespunde cu ceea ce echipele de eșantionare știu deja: doar digitalul a ridicat așteptările; următorul prag sunt parcursurile integrate fizic-plus-digital."
       },
       {
+        "type": "figure",
+        "variant": "deloitte-hybrid"
+      },
+      {
         "type": "h2",
         "text": "Cele trei straturi ale unei experiențe hibride de brand"
       },
@@ -1048,6 +1131,10 @@
           "Experiența digitală — întâlnești același consumator online după (sau alături de) probă: ghiduri, platforme, comunități, CRM",
           "Experiența hibridă — proba și digitalul ca o singură buclă, descrisă ca data-driven, culture-driven și omnichannel"
         ]
+      },
+      {
+        "type": "figure",
+        "variant": "hybrid-layers"
       },
       {
         "type": "p",
@@ -1086,6 +1173,10 @@
       {
         "type": "p",
         "text": "START de la Care Direct este construit ca acea stivă hibridă în Europa de Sud-Est: mostre într-o cutie de mostre pe etapă de viață, un ghid pe care ea îl păstrează, continuare a comunicării după înregistrare și platforme online care continuă educarea. Acesta este marketingul hibrid aplicat familiilor — nu o „campanie digitală” separată, adăugată pe o factură de eșantionare."
+      },
+      {
+        "type": "figure",
+        "variant": "start-stack"
       },
       {
         "type": "p",
@@ -1139,7 +1230,102 @@
         "cites": "Valid consent for the digital follow-up half of a hybrid program."
       }
     ],
-    "ogImage": "/assets/platforms/screen-pl-myparenthood.png",
     "practice": "Care Direct definește marketingul hibrid ca experiență directă tradițională (probă și educație) plus experiență digitală. START aplică această definiție în Europa de Sud-Est: o singură cerere pentru mostră și cerințe digitale împreună."
+  },
+  {
+    "slug": "phygital-marketing-for-brands",
+    "title": "Marketing phygital pentru branduri",
+    "description": "Ce înseamnă marketingul phygital: probă fizică plus continuare digitală într-un singur parcurs — și cum START transformă kiturile pe etape de viață în Online Platform, CRM, loialitate și email personalizat.",
+    "date": "2026-10-23",
+    "updated": "2026-10-23",
+    "keywords": [
+      "marketing phygital",
+      "strategie marketing phygital",
+      "marketing fizic și digital branduri",
+      "marketing phygital pe etape de viață"
+    ],
+    "intent": "Brand manager care cercetează marketingul phygital ca strategie de probă fizică plus continuare digitală.",
+    "relatedPrograms": [
+      "pregnancy",
+      "newborn",
+      "first-grade",
+      "university",
+      "high-school",
+      "seniors"
+    ],
+    "body": [
+      {
+        "type": "p",
+        "text": "Marketingul phygital înseamnă fizic plus digital într-un singur parcurs al clientului — nu două campanii separate. Un brand pe etapă de viață pune un produs real în mâinile cuiva (clinică, școală, campus, acasă), apoi continuă relația pe canale proprii: ghid, Online Platform, CRM, loialitate și email personalizat. Asta caută de obicei managerii când scriu „phygital marketing” — și așa e construit START în Europa de Sud-Est."
+      },
+      {
+        "type": "p",
+        "text": "Dacă brief-ul cumpără doar impresii, obțineți reach. Dacă doar împarte mostre fără drum digital, obțineți un cost fără a doua interacțiune. Phygital cere ambele jumătăți în același plan."
+      },
+      {
+        "type": "h2",
+        "text": "Ce înseamnă cu adevărat „phygital”"
+      },
+      {
+        "type": "p",
+        "text": "Amazon Ads rezumă originea clar: termenul phygital a fost inventat în 2007 de Chris Weil (atunci la Momentum Worldwide) ca îmbinare între fizic și digital — experiențe care unesc tangibilul și virtualul. Marketingul phygital, în acest cadru, combină elemente fizice și digitale astfel încât clientul trece între puncte de contact fără să piardă firul brandului."
+      },
+      {
+        "type": "p",
+        "text": "Cercetarea academică merge mai departe. Batat (Journal of Strategic Marketing, 2022) argumentează că phygital nu e „un alt cuvânt pentru omnichannel”. Cadrul PH-CX tratează offline și online ca un continuum de valoare — clienții se mută din fizic în digital (sau invers) în timp ce brandul răspunde nevoilor tangibile (calitate, probă) și intangibile (emoție, încredere)."
+      },
+      {
+        "type": "p",
+        "text": "Qualtrics o spune pe limba CX: o experiență phygital poate începe într-un loc fizic cu evaluarea cumpărării, apoi trece în digital pentru finalizare, învățare sau recomandare — riscul e să pierdeți clientul la predare. Disciplina omnichannel există ca predarea să nu se rupă."
+      },
+      {
+        "type": "h2",
+        "text": "De ce jumătatea fizică trebuie să fie o probă reală"
+      },
+      {
+        "type": "p",
+        "text": "Phygital eșuează când „fizic” înseamnă doar un poster cu QR. Pentru FMCG și categorii de familie, jumătatea fizică care mișcă cota de piață este proba de diagnostic — destul produs ca să înveți — în momentul în care lista de cumpărături e deschisă. Cercetarea USPS OIG cu Temple University a găsit emoție mai puternică, memorie mai bună după o săptămână și semnale de intenție de cumpărare pentru publicitatea fizică față de cea digitală; digitalul era mai rapid la prima expunere. Cercetarea pe mostre adaugă ce media nu poate simula: Arbitron / Edison — 35% au cumpărat în aceeași vizită, 58% ar cumpăra din nou; EventTrack 2015 — „încearcă întâi” a fost motivul principal de cumpărare la vizitele experiențiale."
+      },
+      {
+        "type": "figure",
+        "variant": "trial-lift"
+      },
+      {
+        "type": "p",
+        "text": "Secvența phygital pentru un brand pe etapă de viață e de obicei: moment fizic de încredere → produs în mână → ghid care se păstrează → înregistrare cu consimțământ → Online Platform / CRM / loialitate / email personalizat."
+      },
+      {
+        "type": "figure",
+        "variant": "start-stack"
+      },
+      {
+        "type": "h2",
+        "text": "Ce trebuie să precizeze un brief phygital"
+      },
+      {
+        "type": "ul",
+        "items": [
+          "Momentul pe etapă de viață pentru proba fizică (sarcină, nou-născut, școală, campus, seniori…)",
+          "Formatul mostrei și contextul kitului — destul produs ca să înveți, nu doar un plicuț cu logo",
+          "Ghid: tipărit, digital sau ambele — puntea dintre probă și online",
+          "Strat digital: Online Platform, QR sau înregistrare, conținut după distribuție",
+          "Consimțământ GDPR: liber, specific, informat, afirmativ — înainte de primul mesaj CRM",
+          "KPI pentru probă și pentru urmărirea digitală — nu doar impresii"
+        ]
+      },
+      {
+        "type": "h2",
+        "text": "Marketing phygital în START"
+      },
+      {
+        "type": "p",
+        "text": "START de la Care Direct este marketing phygital pe etape de viață în Europa de Sud-Est: Grecia, Cipru, România, Bulgaria și Serbia. Fiecare program e o experiență completă — eșantionarea se continuă digital în Online Platform, CRM, loialitate și email personalizat — nu o factură de mostre cu un rând „digital” adăugat ulterior."
+      },
+      {
+        "type": "p",
+        "text": "Deschideți programul care potrivește etapa de viață a cumpărătorului, apoi alăturați-vă unui START cu specificațiile mostrei și cerințele digitale în același brief."
+      }
+    ],
+    "practice": "Care Direct rulează START ca marketing phygital pe etape de viață: kitul e dovada fizică; ghidul, Online Platform, CRM, loialitatea și emailul personalizat sunt continuarea digitală. Briefați ambele jumătăți împreună pentru Grecia, Cipru, România, Bulgaria și Serbia."
   }
 ]
