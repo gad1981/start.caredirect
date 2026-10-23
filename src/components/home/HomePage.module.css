@@ -25,9 +25,9 @@
     Desktop: bias below pure top + mild zoom so kits read closer,
     without cropping heads.
   */
-  object-position: center 22%;
+  object-position: center 35%;
   transform: scale(1.18);
-  transform-origin: center 16%;
+  transform-origin: center 28%;
 }
 
 .card {
