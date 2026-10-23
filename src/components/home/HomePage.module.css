@@ -988,14 +988,14 @@
 
   /* Stronger zoom on mobile; keep faces anchored high, kits still in frame. */
   .photo img {
-    transform: scale(1.55);
-    transform-origin: center 10%;
-    object-position: center top;
+    transform: scale(1.7);
+    transform-origin: center 28%;
+    object-position: center 35%;
   }
 
   .card {
-    /* Match .wrap width; slightly less overlap so the title sits a bit lower. */
-    margin: clamp(-96px, -12vh, -48px) 0 0;
+    /* Match .wrap width; less overlap so the title sits a bit lower on mobile. */
+    margin: clamp(-64px, -8vh, -28px) 0 0;
     padding: 22px 18px 24px;
     border-radius: 20px;
   }
