@@ -988,7 +988,7 @@
 
   /* Stronger zoom on mobile; keep faces anchored high, kits still in frame. */
   .photo img {
-    transform: scale(1.22);
+    transform: scale(1.55);
     transform-origin: center 10%;
     object-position: center top;
   }
