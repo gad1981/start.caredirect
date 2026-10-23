@@ -1,4 +1,5 @@
 import type { Metadata } from "next";
+import Image from "next/image";
 import { notFound } from "next/navigation";
 import { Suspense } from "react";
 import { AppLink } from "@/components/AppLink";
@@ -70,11 +71,16 @@ async function BlogIndexRoute({
             href={localePath(locale, `/blog/${post.slug}/`)}
           >
             {post.ogImage ? (
-              <div
-                className={styles.cardMedia}
-                style={{ backgroundImage: `url(${post.ogImage})` }}
-                aria-hidden
-              />
+              <div className={styles.cardMedia} aria-hidden>
+                <Image
+                  src={post.ogImage}
+                  alt=""
+                  fill
+                  sizes="140px"
+                  quality={65}
+                  className={styles.cardMediaImg}
+                />
+              </div>
             ) : null}
             <div className={styles.cardCopy}>
               <p className={styles.cardMeta}>{post.date}</p>

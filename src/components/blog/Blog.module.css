@@ -61,14 +61,18 @@
 }
 
 .cardMedia {
+  position: relative;
   flex: 0 0 140px;
   width: 140px;
   align-self: stretch;
   margin: 0;
+  overflow: hidden;
   background-color: var(--soft, #eeede8);
-  background-size: cover;
-  background-position: center;
-  background-repeat: no-repeat;
+}
+
+.cardMediaImg {
+  object-fit: cover;
+  object-position: center;
 }
 
 .cardCopy {
