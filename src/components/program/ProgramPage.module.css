@@ -240,15 +240,18 @@
   width: 100%;
   /* Prefer source ratio; soft cap still leaves the title card in view. */
   aspect-ratio: 1672 / 941;
-  max-height: min(72svh, calc(100svh - 14rem));
+  max-height: min(78svh, calc(100svh - 12rem));
   overflow: hidden;
   background: #e9e7e2;
 }
 
 .photo img {
   object-fit: cover;
-  /* When height is capped, keep heads in frame (not center-cropped). */
-  object-position: center top;
+  /*
+    Desktop: bias a bit below pure top so kits/boxes stay visible when
+    height is capped — still head-safe (not full center crop).
+  */
+  object-position: center 22%;
 }
 
 .wrap {
@@ -267,9 +270,9 @@
 .heroCard {
   position: relative;
   z-index: 1;
-  /* Sit mostly on the photo so logo + title + tagline + CTA stay above the fold. */
+  /* Sit on the photo; 50% lift keeps logo + title + tagline + CTA above the fold. */
   margin-top: 0;
-  transform: translateY(-62%);
+  transform: translateY(-50%);
   background:
     linear-gradient(
       155deg,
@@ -956,6 +959,7 @@ a.guideCover:hover {
   }
 
   .photo img {
+    /* Mobile: keep heads anchored. */
     object-position: center top;
   }
 

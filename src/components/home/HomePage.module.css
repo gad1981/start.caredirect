@@ -11,9 +11,9 @@
 
 .photo {
   width: 100%;
-  /* Prefer source ratio; soft cap — taller than before so faces stay in frame. */
+  /* Prefer source ratio; soft cap — taller so faces + lower kits stay in frame. */
   aspect-ratio: 1672 / 941;
-  max-height: min(78svh, calc(100svh - 9rem));
+  max-height: min(82svh, calc(100svh - 8rem));
   position: relative;
   overflow: hidden;
   background: #efede8;
@@ -21,8 +21,13 @@
 
 .photo img {
   object-fit: cover;
-  /* When height is capped, keep heads in frame (not center-cropped). */
-  object-position: center top;
+  /*
+    Desktop: bias below pure top + mild zoom so kits read closer,
+    without cropping heads.
+  */
+  object-position: center 22%;
+  transform: scale(1.18);
+  transform-origin: center 16%;
 }
 
 .card {
@@ -981,10 +986,10 @@
     max-height: min(62svh, calc(100svh - 9rem));
   }
 
-  /* Mild zoom on mobile; keep faces anchored to the top. */
+  /* Stronger zoom on mobile; keep faces anchored high, kits still in frame. */
   .photo img {
-    transform: scale(1.12);
-    transform-origin: center top;
+    transform: scale(1.22);
+    transform-origin: center 10%;
     object-position: center top;
   }
 
