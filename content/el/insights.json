@@ -5,7 +5,7 @@
       "reach": "20,000 μέλλουσες μητέρες / έτος",
       "cities": "Αθήνα, Θεσσαλονίκη, Πάτρα και κλινικές σε όλη τη χώρα",
       "channels": "Γυναικολογικές & μαιευτικές κλινικές · 3ο τρίμηνο",
-      "app": "Babyspace · Myparenthood · Momtag",
+      "app": "Babyspace · Myparenthood · Momtag · HeyMaa",
       "guide": "Σχέσεις Στοργής · Η ΠΙΟ ΓΛΥΚΙΑ ΑΝΑΜΟΝΗ (the BOOM edition)",
       "tirage": "Με το κουτί · συνεργασία με γιατρούς"
     },
@@ -23,7 +23,7 @@
       "reach": "Όγκος prenatal προς επιβεβαίωση",
       "cities": "Σόφια και δίκτυο μαιευτηρίων — επεκτείνεται",
       "channels": "Γυναικολογικές & μαιευτικές κλινικές",
-      "app": "Babyspace",
+      "app": "Babyspace · HeyMaa",
       "guide": "—",
       "tirage": "—"
     },
@@ -32,7 +32,7 @@
       "reach": "Όγκος prenatal προς επιβεβαίωση",
       "cities": "Βελιγράδι και δίκτυο μαιευτηρίων — επεκτείνεται",
       "channels": "Γυναικολογικές & μαιευτικές κλινικές",
-      "app": "Mybabywinner",
+      "app": "Mybabywinner · HeyMaa",
       "guide": "—",
       "tirage": "—"
     },
@@ -41,7 +41,7 @@
       "reach": "Όγκος prenatal προς επιβεβαίωση",
       "cities": "Λευκωσία, Λεμεσός — επεκτείνεται",
       "channels": "Γυναικολογικές & μαιευτικές κλινικές",
-      "app": "Mybabywinner",
+      "app": "Mybabywinner · HeyMaa",
       "guide": "—",
       "tirage": "—"
     }
@@ -52,7 +52,7 @@
       "reach": "50,000 νέες μητέρες / έτος",
       "cities": "Δημόσια & ιδιωτικά μαιευτήρια σε όλη τη χώρα",
       "channels": "Παράδοση 2–3 ημέρες μετά τον τοκετό",
-      "app": "Babyspace · Myparenthood · Momtag",
+      "app": "Babyspace · Myparenthood · Momtag · HeyMaa",
       "guide": "Σχέσεις Στοργής · the BOOM edition",
       "tirage": "Έντυπο με το κουτί πρώτων ημερών"
     },
@@ -70,7 +70,7 @@
       "reach": "30,000 νέες μητέρες / έτος",
       "cities": "Μαιευτήρια σε όλη τη χώρα",
       "channels": "Ένωση Παιδιάτρων",
-      "app": "Babyspace",
+      "app": "Babyspace · HeyMaa",
       "guide": "За едно щастливо начало · Кратко практическо ръководство за кърмене",
       "tirage": "Έντυπο με το κουτί"
     },
@@ -79,7 +79,7 @@
       "reach": "30,000 νέες μητέρες / έτος",
       "cities": "Μαιευτήρια σε όλη τη χώρα",
       "channels": "Ειδικοί παιδιατρικής & νεογνολογίας",
-      "app": "Mybabywinner",
+      "app": "Mybabywinner · HeyMaa",
       "guide": "Praktični vodič za uspešno dojenje",
       "tirage": "Έντυπο με το κουτί"
     },
@@ -88,7 +88,7 @@
       "reach": "Όγκος προς επιβεβαίωση",
       "cities": "Μαιευτήρια — επεκτείνεται",
       "channels": "2–3 ημέρες μετά τον τοκετό",
-      "app": "Mybabywinner",
+      "app": "Mybabywinner · HeyMaa",
       "guide": "—",
       "tirage": "—"
     }
@@ -99,7 +99,7 @@
       "reach": "Μητέρες σε ιδιωτικές σουίτες / έτος (premium κομμάτι του Natal)",
       "cities": "Ιδιωτικές κλινικές Αθήνας & Θεσσαλονίκης",
       "channels": "Ιδιωτικές σουίτες & ιδιωτικά δωμάτια",
-      "app": "Babyspace · Myparenthood",
+      "app": "Babyspace · Myparenthood · HeyMaa",
       "guide": "Σχέσεις Στοργής · the BOOM edition",
       "tirage": "Έντυπο με το κουτί πρώτων ημερών"
     },
@@ -108,7 +108,7 @@
       "reach": "Premium ιδιωτικά δωμάτια — προς επιβεβαίωση",
       "cities": "Βουκουρέστι ιδιωτικές κλινικές",
       "channels": "Ιδιωτικές σουίτες",
-      "app": "Babyspace",
+      "app": "Babyspace · HeyMaa",
       "guide": "Relații Afectuoase · Scurt ghid practic pentru alăptare",
       "tirage": "Έντυπο με το κουτί"
     },
@@ -117,7 +117,7 @@
       "reach": "Premium ιδιωτικά δωμάτια — προς επιβεβαίωση",
       "cities": "Σόφια ιδιωτικές κλινικές",
       "channels": "Ιδιωτικές σουίτες",
-      "app": "Babyspace",
+      "app": "Babyspace · HeyMaa",
       "guide": "За едно щастливо начало · Кратко практическо ръководство за кърмене",
       "tirage": "Έντυπο με το κουτί"
     },
@@ -126,7 +126,7 @@
       "reach": "Premium ιδιωτικά δωμάτια — προς επιβεβαίωση",
       "cities": "Βελιγράδι ιδιωτικές κλινικές",
       "channels": "Ιδιωτικές σουίτες",
-      "app": "—",
+      "app": "HeyMaa",
       "guide": "Praktični vodič za uspešno dojenje",
       "tirage": "Έντυπο με το κουτί"
     },
@@ -135,7 +135,7 @@
       "reach": "Premium ιδιωτικά δωμάτια — προς επιβεβαίωση",
       "cities": "Ιδιωτικές κλινικές — επεκτείνεται",
       "channels": "Ιδιωτικές σουίτες",
-      "app": "—",
+      "app": "HeyMaa",
       "guide": "—",
       "tirage": "—"
     }
@@ -146,7 +146,7 @@
       "reach": "Οικογένειες στο ξεκίνημα στερεών — όγκος προς επιβεβαίωση",
       "cities": "Παράδοση στο σπίτι σε όλη τη χώρα",
       "channels": "Μωρό ~6 μηνών · παράδοση στο σπίτι",
-      "app": "Babyspace · Myparenthood · Momtag",
+      "app": "Babyspace · Myparenthood · Momtag · HeyMaa",
       "guide": "Περιεχόμενο first foods μέσω parent platforms",
       "tirage": "Κουτί με παράδοση στο σπίτι"
     },
@@ -164,7 +164,7 @@
       "reach": "Οικογένειες στο ξεκίνημα στερεών — όγκος προς επιβεβαίωση",
       "cities": "Παράδοση στο σπίτι σε όλη τη χώρα",
       "channels": "Μωρό ~6 μηνών · παράδοση στο σπίτι",
-      "app": "Babyspace",
+      "app": "Babyspace · HeyMaa",
       "guide": "Кратко практическо ръководство за кърмене",
       "tirage": "Κουτί με παράδοση στο σπίτι"
     },
@@ -173,7 +173,7 @@
       "reach": "Οικογένειες στο ξεκίνημα στερεών — όγκος προς επιβεβαίωση",
       "cities": "Παράδοση στο σπίτι σε όλη τη χώρα",
       "channels": "Μωρό ~6 μηνών · παράδοση στο σπίτι",
-      "app": "Mybabywinner",
+      "app": "Mybabywinner · HeyMaa",
       "guide": "Praktični vodič za uspešno dojenje",
       "tirage": "Έντυπος οδηγός + κουτί στο σπίτι"
     },
@@ -182,7 +182,7 @@
       "reach": "Οικογένειες στο ξεκίνημα στερεών — όγκος προς επιβεβαίωση",
       "cities": "Παράδοση στο σπίτι",
       "channels": "Μωρό ~6 μηνών · παράδοση στο σπίτι",
-      "app": "Mybabywinner",
+      "app": "Mybabywinner · HeyMaa",
       "guide": "—",
       "tirage": "Κουτί με παράδοση στο σπίτι"
     }

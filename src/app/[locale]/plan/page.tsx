@@ -9,12 +9,12 @@ import {
   getStartHome,
 } from "@/lib/content";
 import {
-  absoluteUrl,
   hreflangAlternates,
   isLocale,
   localePath,
   type Locale,
 } from "@/lib/i18n";
+import { socialMetadata } from "@/lib/seo";
 import styles from "./plan.module.css";
 
 const countryLabels: Record<Locale, Record<string, string>> = {
@@ -74,12 +74,12 @@ export async function generateMetadata({
       canonical: localePath(locale, "/plan/"),
       languages: hreflangAlternates("/plan/"),
     },
-    openGraph: {
+    ...socialMetadata({
       title: page.t,
       description: page.m,
-      url: absoluteUrl(locale, "/plan/"),
-      locale: locale === "en" ? "en_GB" : locale,
-    },
+      locale,
+      path: "/plan/",
+    }),
   };
 }
 

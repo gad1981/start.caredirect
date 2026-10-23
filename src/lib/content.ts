@@ -2,6 +2,7 @@ import type { Locale } from "@/lib/i18n";
 import { defaultLocale } from "@/lib/i18n";
 
 import enDoodlePlan from "../../content/en/doodle-plan.json";
+import enFaq from "../../content/en/faq.json";
 import enInsights from "../../content/en/insights.json";
 import enKitFit from "../../content/en/kit-fit.json";
 import enOffices from "../../content/en/offices.json";
@@ -33,6 +34,7 @@ export type PageRecord = {
 };
 
 export type StartHome = typeof enStartHome;
+export type FaqPage = typeof enFaq;
 export type Messages = typeof enMessages;
 
 const messageMap: Record<Locale, Messages> = {
@@ -78,6 +80,11 @@ async function loadLocaleJson<T>(locale: Locale, file: string): Promise<T | null
 export async function getStartHome(locale: Locale = defaultLocale): Promise<StartHome> {
   const overlay = await loadLocaleJson<Partial<StartHome>>(locale, "start-home");
   return deepMerge(enStartHome, overlay);
+}
+
+export async function getFaq(locale: Locale = defaultLocale): Promise<FaqPage> {
+  const overlay = await loadLocaleJson<Partial<FaqPage>>(locale, "faq");
+  return deepMerge(enFaq, overlay);
 }
 
 export async function getPages(

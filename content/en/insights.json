@@ -5,7 +5,7 @@
       "reach": "20,000 expecting mothers / year",
       "cities": "Athens, Thessaloniki, Patras and clinics nationwide",
       "channels": "Gyn & maternity clinics · 3rd trimester",
-      "app": "Babyspace · Myparenthood · Momtag",
+      "app": "Babyspace · Myparenthood · Momtag · HeyMaa",
       "guide": "Σχέσεις Στοργής · Η ΠΙΟ ΓΛΥΚΙΑ ΑΝΑΜΟΝΗ (the BOOM edition)",
       "tirage": "With the box · doctor collaboration"
     },
@@ -23,7 +23,7 @@
       "reach": "Prenatal volume to confirm",
       "cities": "Sofia and maternity network — expanding",
       "channels": "Gyn & maternity clinics",
-      "app": "Babyspace",
+      "app": "Babyspace · HeyMaa",
       "guide": "—",
       "tirage": "—"
     },
@@ -32,7 +32,7 @@
       "reach": "Prenatal volume to confirm",
       "cities": "Belgrade and maternity network — expanding",
       "channels": "Gyn & maternity clinics",
-      "app": "Mybabywinner",
+      "app": "Mybabywinner · HeyMaa",
       "guide": "—",
       "tirage": "—"
     },
@@ -41,7 +41,7 @@
       "reach": "Prenatal volume to confirm",
       "cities": "Nicosia, Limassol — expanding",
       "channels": "Gyn & maternity clinics",
-      "app": "Mybabywinner",
+      "app": "Mybabywinner · HeyMaa",
       "guide": "—",
       "tirage": "—"
     }
@@ -52,7 +52,7 @@
       "reach": "50,000 new mothers / year",
       "cities": "Public & private maternity clinics nationwide",
       "channels": "Handed 2–3 days after birth",
-      "app": "Babyspace · Myparenthood · Momtag",
+      "app": "Babyspace · Myparenthood · Momtag · HeyMaa",
       "guide": "Σχέσεις Στοργής · the BOOM edition",
       "tirage": "Printed with the first-days box"
     },
@@ -70,7 +70,7 @@
       "reach": "30,000 new mothers / year",
       "cities": "Maternity clinics nationwide",
       "channels": "Association of Pediatricians",
-      "app": "Babyspace",
+      "app": "Babyspace · HeyMaa",
       "guide": "За едно щастливо начало · Кратко практическо ръководство за кърмене",
       "tirage": "Printed with the box"
     },
@@ -79,7 +79,7 @@
       "reach": "30,000 new mothers / year",
       "cities": "Maternity clinics nationwide",
       "channels": "Pediatrics & neonatology specialists",
-      "app": "Mybabywinner",
+      "app": "Mybabywinner · HeyMaa",
       "guide": "Praktični vodič za uspešno dojenje",
       "tirage": "Printed with the box"
     },
@@ -88,7 +88,7 @@
       "reach": "Volume to confirm",
       "cities": "Maternity clinics — expanding",
       "channels": "2–3 days after birth",
-      "app": "Mybabywinner",
+      "app": "Mybabywinner · HeyMaa",
       "guide": "—",
       "tirage": "—"
     }
@@ -99,7 +99,7 @@
       "reach": "Private-suite mothers / year (premium cut of Natal)",
       "cities": "Athens & Thessaloniki private clinics",
       "channels": "Private suites & private rooms",
-      "app": "Babyspace · Myparenthood",
+      "app": "Babyspace · Myparenthood · HeyMaa",
       "guide": "Σχέσεις Στοργής · the BOOM edition",
       "tirage": "Printed with the first-days box"
     },
@@ -108,7 +108,7 @@
       "reach": "Premium private rooms — to confirm",
       "cities": "Bucharest private clinics",
       "channels": "Private suites",
-      "app": "Babyspace",
+      "app": "Babyspace · HeyMaa",
       "guide": "Relații Afectuoase · Scurt ghid practic pentru alăptare",
       "tirage": "Printed with the box"
     },
@@ -117,7 +117,7 @@
       "reach": "Premium private rooms — to confirm",
       "cities": "Sofia private clinics",
       "channels": "Private suites",
-      "app": "Babyspace",
+      "app": "Babyspace · HeyMaa",
       "guide": "За едно щастливо начало · Кратко практическо ръководство за кърмене",
       "tirage": "Printed with the box"
     },
@@ -126,7 +126,7 @@
       "reach": "Premium private rooms — to confirm",
       "cities": "Belgrade private clinics",
       "channels": "Private suites",
-      "app": "—",
+      "app": "HeyMaa",
       "guide": "Praktični vodič za uspešno dojenje",
       "tirage": "Printed with the box"
     },
@@ -135,7 +135,7 @@
       "reach": "Premium private rooms — to confirm",
       "cities": "Private clinics — expanding",
       "channels": "Private suites",
-      "app": "—",
+      "app": "HeyMaa",
       "guide": "—",
       "tirage": "—"
     }
@@ -146,7 +146,7 @@
       "reach": "Families at first solids — volume to confirm",
       "cities": "Delivered home nationwide",
       "channels": "Baby ~6 months · home delivery",
-      "app": "Babyspace · Myparenthood · Momtag",
+      "app": "Babyspace · Myparenthood · Momtag · HeyMaa",
       "guide": "First-foods content via parent platforms",
       "tirage": "Box delivered home"
     },
@@ -164,7 +164,7 @@
       "reach": "Families at first solids — volume to confirm",
       "cities": "Delivered home nationwide",
       "channels": "Baby ~6 months · home delivery",
-      "app": "Babyspace",
+      "app": "Babyspace · HeyMaa",
       "guide": "Кратко практическо ръководство за кърмене",
       "tirage": "Box delivered home"
     },
@@ -173,7 +173,7 @@
       "reach": "Families at first solids — volume to confirm",
       "cities": "Delivered home nationwide",
       "channels": "Baby ~6 months · home delivery",
-      "app": "Mybabywinner",
+      "app": "Mybabywinner · HeyMaa",
       "guide": "Praktični vodič za uspešno dojenje",
       "tirage": "Printed guide + home box"
     },
@@ -182,7 +182,7 @@
       "reach": "Families at first solids — volume to confirm",
       "cities": "Delivered home",
       "channels": "Baby ~6 months · home delivery",
-      "app": "Mybabywinner",
+      "app": "Mybabywinner · HeyMaa",
       "guide": "—",
       "tirage": "Box delivered home"
     }

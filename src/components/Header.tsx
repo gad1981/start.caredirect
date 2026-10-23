@@ -103,6 +103,20 @@ export function Header() {
               {messages.liveStarts}
             </AppLink>
             <AppLink
+              className={styles.top}
+              href={localePath(locale, "/blog/")}
+              onClick={closeMenus}
+            >
+              {messages.blog}
+            </AppLink>
+            <AppLink
+              className={styles.top}
+              href={localePath(locale, "/faq/")}
+              onClick={closeMenus}
+            >
+              {messages.faq}
+            </AppLink>
+            <AppLink
               className={styles.cta}
               href={localePath(locale, "/plan/")}
               onClick={closeMenus}

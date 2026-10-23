@@ -34,6 +34,12 @@ export function Footer({ footerLine }: { footerLine: string }) {
           <FooterLink href={localePath(locale, "/")}>
             {messages.startHome}
           </FooterLink>
+          <FooterLink href={localePath(locale, "/blog/")}>
+            {messages.blog}
+          </FooterLink>
+          <FooterLink href={localePath(locale, "/faq/")}>
+            {messages.faq}
+          </FooterLink>
           <FooterLink href={localePath(locale, "/plan/")}>
             {messages.planAStart}
           </FooterLink>

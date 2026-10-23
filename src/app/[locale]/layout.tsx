@@ -30,7 +30,14 @@ export const metadata: Metadata = {
     template: "%s",
   },
   description:
-    "Every period in life has a first day. Be in it. START puts your product in people's hands as they begin something new.",
+    "START complete life-stage experiences across Southeast Europe: product sampling that expands digitally — Online Platforms, CRM, loyalty and targeted email — in Greece, Cyprus, Romania, Bulgaria and Serbia.",
+  openGraph: {
+    siteName: "START by Care Direct",
+    type: "website",
+  },
+  twitter: {
+    card: "summary_large_image",
+  },
 };
 
 const orgJsonLd = {
@@ -38,7 +45,16 @@ const orgJsonLd = {
   "@type": "Organization",
   name: "Care Direct",
   url: "https://www.caredirect.com/",
-  sameAs: ["https://start.caredirect.com/"],
+  description:
+    "Care Direct runs START complete life-stage experiences across Southeast Europe: sampling kits plus Online Platforms, CRM and targeted digital follow-up.",
+  areaServed: [
+    { "@type": "Country", name: "Greece" },
+    { "@type": "Country", name: "Cyprus" },
+    { "@type": "Country", name: "Romania" },
+    { "@type": "Country", name: "Bulgaria" },
+    { "@type": "Country", name: "Serbia" },
+  ],
+  sameAs: ["https://start.caredirect.com/", "https://www.caredirect.com/"],
 };
 
 export function generateStaticParams() {

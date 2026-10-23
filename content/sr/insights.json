@@ -5,7 +5,7 @@
       "reach": "20,000 buduće majke / godišnje",
       "cities": "Atina, Solun, Patras i klinike širom zemlje",
       "channels": "Ginekološke i porodilišne klinike · treći trimestar",
-      "app": "Babyspace · Myparenthood · Momtag",
+      "app": "Babyspace · Myparenthood · Momtag · HeyMaa",
       "guide": "Σχέσεις Στοργής · Η ΠΙΟ ΓΛΥΚΙΑ ΑΝΑΜΟΝΗ (the BOOM edition)",
       "tirage": "Uz kutiju · saradnja sa lekarima"
     },
@@ -23,7 +23,7 @@
       "reach": "Prenatalni obim za potvrdu",
       "cities": "Sofija i mreža porodilišta — u širenju",
       "channels": "Ginekološke i porodilišne klinike",
-      "app": "Babyspace",
+      "app": "Babyspace · HeyMaa",
       "guide": "—",
       "tirage": "—"
     },
@@ -32,7 +32,7 @@
       "reach": "Prenatalni obim za potvrdu",
       "cities": "Beograd i mreža porodilišta — u širenju",
       "channels": "Ginekološke i porodilišne klinike",
-      "app": "Mybabywinner",
+      "app": "Mybabywinner · HeyMaa",
       "guide": "—",
       "tirage": "—"
     },
@@ -41,7 +41,7 @@
       "reach": "Prenatalni obim za potvrdu",
       "cities": "Nikozija, Limasol — u širenju",
       "channels": "Ginekološke i porodilišne klinike",
-      "app": "Mybabywinner",
+      "app": "Mybabywinner · HeyMaa",
       "guide": "—",
       "tirage": "—"
     }
@@ -52,7 +52,7 @@
       "reach": "50,000 nove majke / godišnje",
       "cities": "Javna i privatna porodilišta širom zemlje",
       "channels": "Uručeno 2–3 dana nakon porođaja",
-      "app": "Babyspace · Myparenthood · Momtag",
+      "app": "Babyspace · Myparenthood · Momtag · HeyMaa",
       "guide": "Σχέσεις Στοργής · the BOOM edition",
       "tirage": "Štampano uz kutiju prvih dana"
     },
@@ -70,7 +70,7 @@
       "reach": "30,000 nove majke / godišnje",
       "cities": "Porodilišta širom zemlje",
       "channels": "Udruženje pedijatara",
-      "app": "Babyspace",
+      "app": "Babyspace · HeyMaa",
       "guide": "За едно щастливо начало · Кратко практическо ръководство за кърмене",
       "tirage": "Štampano uz kutiju"
     },
@@ -79,7 +79,7 @@
       "reach": "30,000 nove majke / godišnje",
       "cities": "Porodilišta širom zemlje",
       "channels": "Specijalisti pedijatrije i neonatologije",
-      "app": "Mybabywinner",
+      "app": "Mybabywinner · HeyMaa",
       "guide": "Praktični vodič za uspešno dojenje",
       "tirage": "Štampano uz kutiju"
     },
@@ -88,7 +88,7 @@
       "reach": "Obim za potvrdu",
       "cities": "Porodilišta — u širenju",
       "channels": "2–3 dana nakon porođaja",
-      "app": "Mybabywinner",
+      "app": "Mybabywinner · HeyMaa",
       "guide": "—",
       "tirage": "—"
     }
@@ -99,7 +99,7 @@
       "reach": "Majke u privatnim apartmanima / godišnje (premium deo Natal)",
       "cities": "Privatne klinike u Atini i Solunu",
       "channels": "Privatni apartmani i privatne sobe",
-      "app": "Babyspace · Myparenthood",
+      "app": "Babyspace · Myparenthood · HeyMaa",
       "guide": "Σχέσεις Στοργής · the BOOM edition",
       "tirage": "Štampano uz kutiju prvih dana"
     },
@@ -108,7 +108,7 @@
       "reach": "Premium privatne sobe — za potvrdu",
       "cities": "Bukurešt privatne klinike",
       "channels": "Privatni apartmani",
-      "app": "Babyspace",
+      "app": "Babyspace · HeyMaa",
       "guide": "Relații Afectuoase · Scurt ghid practic pentru alăptare",
       "tirage": "Štampano uz kutiju"
     },
@@ -117,7 +117,7 @@
       "reach": "Premium privatne sobe — za potvrdu",
       "cities": "Sofija privatne klinike",
       "channels": "Privatni apartmani",
-      "app": "Babyspace",
+      "app": "Babyspace · HeyMaa",
       "guide": "За едно щастливо начало · Кратко практическо ръководство за кърмене",
       "tirage": "Štampano uz kutiju"
     },
@@ -126,7 +126,7 @@
       "reach": "Premium privatne sobe — za potvrdu",
       "cities": "Beograd privatne klinike",
       "channels": "Privatni apartmani",
-      "app": "—",
+      "app": "HeyMaa",
       "guide": "Praktični vodič za uspešno dojenje",
       "tirage": "Štampano uz kutiju"
     },
@@ -135,7 +135,7 @@
       "reach": "Premium privatne sobe — za potvrdu",
       "cities": "Privatne klinike — u širenju",
       "channels": "Privatni apartmani",
-      "app": "—",
+      "app": "HeyMaa",
       "guide": "—",
       "tirage": "—"
     }
@@ -146,7 +146,7 @@
       "reach": "Porodice na početku čvrste hrane — obim za potvrdu",
       "cities": "Dostava kući širom zemlje",
       "channels": "Beba ~6 meseci · dostava kući",
-      "app": "Babyspace · Myparenthood · Momtag",
+      "app": "Babyspace · Myparenthood · Momtag · HeyMaa",
       "guide": "Sadržaj first foods preko platformi za roditelje",
       "tirage": "Kutija dostavljena kući"
     },
@@ -164,7 +164,7 @@
       "reach": "Porodice na početku čvrste hrane — obim za potvrdu",
       "cities": "Dostava kući širom zemlje",
       "channels": "Beba ~6 meseci · dostava kući",
-      "app": "Babyspace",
+      "app": "Babyspace · HeyMaa",
       "guide": "Кратко практическо ръководство за кърмене",
       "tirage": "Kutija dostavljena kući"
     },
@@ -173,7 +173,7 @@
       "reach": "Porodice na početku čvrste hrane — obim za potvrdu",
       "cities": "Dostava kući širom zemlje",
       "channels": "Beba ~6 meseci · dostava kući",
-      "app": "Mybabywinner",
+      "app": "Mybabywinner · HeyMaa",
       "guide": "Praktični vodič za uspešno dojenje",
       "tirage": "Štampani vodič + kutija kući"
     },
@@ -182,7 +182,7 @@
       "reach": "Porodice na početku čvrste hrane — obim za potvrdu",
       "cities": "Dostava kući",
       "channels": "Beba ~6 meseci · dostava kući",
-      "app": "Mybabywinner",
+      "app": "Mybabywinner · HeyMaa",
       "guide": "—",
       "tirage": "Kutija dostavljena kući"
     }

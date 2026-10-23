@@ -5,7 +5,6 @@ import { Suspense } from "react";
 import { Button } from "@/components/Button";
 import { getMessages, getPages, getProgramsData } from "@/lib/content";
 import {
-  absoluteUrl,
   hreflangAlternates,
   isLocale,
   localePath,
@@ -16,6 +15,7 @@ import {
   programKitSrc,
   programTileSrc,
 } from "@/lib/programs";
+import { socialMetadata } from "@/lib/seo";
 import { withTbc } from "@/lib/tbc";
 import { OrderHowIcon } from "./OrderHowIcon";
 import {
@@ -66,17 +66,18 @@ export async function generateMetadata({
   return {
     title: page.t,
     description: page.m,
+    robots: { index: false, follow: false },
     alternates: {
       canonical: localePath(locale, "/order/"),
       languages: hreflangAlternates("/order/"),
     },
-    openGraph: {
+    ...socialMetadata({
       title: page.t,
       description: page.m,
-      url: absoluteUrl(locale, "/order/"),
+      locale,
+      path: "/order/",
       images: [ORDER_HERO_SRC],
-      locale: locale === "en" ? "en_GB" : locale,
-    },
+    }),
   };
 }
 

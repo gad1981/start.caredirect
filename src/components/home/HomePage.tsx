@@ -36,6 +36,8 @@ export async function HomePage({ locale }: { locale: Locale }) {
     n: string;
   }[];
 
+  const faq = startHome.faq;
+
   return (
     <>
       <section className={styles.hero} aria-labelledby="home-h1">
@@ -96,6 +98,7 @@ export async function HomePage({ locale }: { locale: Locale }) {
                       desc: s.desc,
                       tagline: taglines[s.id] ?? s.tagline,
                       hands: s.hands,
+                      online: s.online,
                       n: s.n,
                       tileSrc,
                       href,
@@ -151,6 +154,28 @@ export async function HomePage({ locale }: { locale: Locale }) {
           </div>
         </div>
       </section>
+
+      {faq?.items?.length ? (
+        <section className={styles.section} id="faq" aria-labelledby="faq-h2">
+          <div className={styles.wrap}>
+            <p className={styles.eye}>{faq.eyebrow}</p>
+            <h2 id="faq-h2">{faq.h2}</h2>
+            <dl className={styles.faqList}>
+              {faq.items.map((item) => (
+                <div key={item.q} className={styles.faqItem}>
+                  <dt>{item.q}</dt>
+                  <dd>{item.a}</dd>
+                </div>
+              ))}
+            </dl>
+            <p className={styles.faqMore}>
+              <AppLink href={localePath(locale, "/faq/")}>
+                {messages.faqSeeAll}
+              </AppLink>
+            </p>
+          </div>
+        </section>
+      ) : null}
 
       <section className={styles.section} id="live" aria-labelledby="live-h2">
         <div className={styles.wrap}>

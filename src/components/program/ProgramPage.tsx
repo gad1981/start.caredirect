@@ -1,6 +1,8 @@
 import Image from "next/image";
+import { AppLink } from "@/components/AppLink";
 import { Button } from "@/components/Button";
 import { BriefForm } from "@/components/BriefForm";
+import { getBlogPostsForProgram } from "@/lib/blog";
 import {
   getDoodlePlan,
   getInsights,
@@ -76,6 +78,7 @@ export async function ProgramPage({
   const tagline = taglines[programId] ?? "";
   const planHref = localePath(locale, "/plan/");
   const kitSrc = programKitSrc(prog.assetKey);
+  const relatedArticles = await getBlogPostsForProgram(prog.slug, locale, 2);
 
   return (
     <div className={styles.page} data-tone={tone || undefined}>
@@ -103,16 +106,6 @@ export async function ProgramPage({
               />
             ) : null}
             <div className={styles.heroBrand}>
-              {brand?.logoSrc ? (
-                // eslint-disable-next-line @next/next/no-img-element
-                <img
-                  className={styles.heroLogo}
-                  src={brand.logoSrc}
-                  alt=""
-                  width={220}
-                  height={72}
-                />
-              ) : null}
               <h1>{page.h1}</h1>
               {tagline ? (
                 <p className={styles.tagline}>{tagline}</p>
@@ -247,7 +240,8 @@ export async function ProgramPage({
 
       {linkSecs.map((linkSec) => {
         const proof = linkSec.proof ?? "";
-        const hrefMatch = proof.match(/Link to (\/[^\s/]+\/)/i);
+        // Path may be prefixed in any locale ("Link to /…", "Σύνδεσμος προς /…", etc.).
+        const hrefMatch = proof.match(/(\/[a-z0-9-]+(?:\/[a-z0-9-]*)*\/)/i);
         const href = hrefMatch
           ? localePath(locale, hrefMatch[1])
           : planHref;
@@ -296,6 +290,35 @@ export async function ProgramPage({
           </Button>
         </div>
       </div>
+
+      {relatedArticles.length ? (
+        <section
+          className={styles.relatedArticles}
+          aria-labelledby="related-articles-h2"
+        >
+          <div className={styles.wrap}>
+            <h2 id="related-articles-h2">{messages.programRelatedArticles}</h2>
+            <p className={styles.introLine}>
+              {messages.programRelatedArticlesLead}
+            </p>
+            <div className={styles.relatedArticleGrid}>
+              {relatedArticles.map((post) => (
+                <AppLink
+                  key={post.slug}
+                  className={styles.relatedArticleCard}
+                  href={localePath(locale, `/blog/${post.slug}/`)}
+                >
+                  <h3>{post.title}</h3>
+                  <p>{post.description}</p>
+                  <span className={styles.relatedArticleMore}>
+                    {messages.blogRead}
+                  </span>
+                </AppLink>
+              ))}
+            </div>
+          </div>
+        </section>
+      ) : null}
 
       <section className={styles.brief} id="brief" aria-labelledby="brief-h2">
         <div className={styles.briefInner}>

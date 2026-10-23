@@ -47,7 +47,7 @@
    "online": [
     "Babyspace i Myparenthood",
     "HeyMaa AI pratilac (pilot u Rumuniji)",
-    "Momtag (Greece, Romania)",
+    "Momtag (Grčka, Rumunija)",
     "Praćenje: email, SMS, pozivni centar, direktna pošta"
    ]
   },
@@ -66,7 +66,7 @@
    "online": [
     "Babyspace i Myparenthood",
     "Mybabywinner mesečna nagradna igra",
-    "Momtag (Greece, Romania)",
+    "Momtag (Grčka, Rumunija)",
     "Praćenje: email, SMS, pozivni centar, direktna pošta"
    ]
   },
@@ -103,7 +103,7 @@
    "online": [
     "Babyspace i Myparenthood",
     "Mybabywinner i HeyMaa",
-    "Momtag (Greece, Romania)",
+    "Momtag (Grčka, Rumunija)",
     "Praćenje: email, SMS, pozivni centar, direktna pošta"
    ]
   },
@@ -121,7 +121,7 @@
    ],
    "online": [
     "Myschoolwinner za porodice",
-    "Roditelji se dosežu kod kuće",
+    "Doseg do roditelja i kod kuće",
     "Praćenje: email, SMS, pozivni centar, direktna pošta"
    ]
   },
@@ -139,7 +139,7 @@
    ],
    "online": [
     "Myschoolwinner za porodice",
-    "Roditelji se dosežu kod kuće",
+    "Doseg do roditelja i kod kuće",
     "Praćenje: email, SMS, pozivni centar, direktna pošta"
    ]
   },
@@ -305,7 +305,7 @@
     "Registracija uz saglasnost, u skladu sa GDPR-om, prikuplja email, telefon, mobilni i adresu — a zatim nastavljamo razgovor na kanalima koji odgovaraju svakom tržištu."
    ],
    [
-    "4 · Platforma",
+    "4 · Online Platform",
     "Care Direct onlajn zajednice razvijene u sopstvenoj kući drže publiku blizu i prebacuju je u sledeći START."
    ]
   ]
@@ -373,7 +373,29 @@
    "Bulgaria",
    "Serbia"
   ],
-  "button": "Isplaniraj moj START"
+  "button": "Pridruži se START-u"
  },
- "footer": "START. Care Direct porodica programa"
+ "footer": "START. Care Direct porodica programa",
+ "faq": {
+  "eyebrow": "Brzi odgovori",
+  "h2": "Šta brendovi pitaju o START-u",
+  "items": [
+   {
+    "q": "Šta je START by Care Direct?",
+    "a": "START je Care Direct porodica programa uzorkovanja po životnim fazama. Brendovi stavljaju uzorke u ruke ljudi u trenucima promene — trudnoća, škola, univerzitet i više — uz vodič koji čuvaju i praćenje uz saglasnost."
+   },
+   {
+    "q": "Gde START funkcioniše?",
+    "a": "START radi u Jugoistočnoj Evropi: Grčka, Kipar, Rumunija, Bugarska i Srbija."
+   },
+   {
+    "q": "Kako funkcioniše START program?",
+    "a": "Svaki START spaja kutiju uzoraka (proizvod u njihovim rukama) sa štampanim ili digitalnim vodičem, zatim GDPR praćenje i Care Direct Online Platform koja nastavlja razgovor."
+   },
+   {
+    "q": "Za koga je START?",
+    "a": "Za marketare i agencije kojima treba stvarna proba proizvoda u nedelji kada potrošači biraju nove brendove — ne samo digitalni utisci."
+   }
+  ]
+ }
 }

@@ -1,7 +1,7 @@
 {
- "eyebrow": "Life-stage marketing · Southeast Europe",
+ "eyebrow": "Life-stage sampling + digital · Southeast Europe",
  "h1": "Every period in\nlife has a first\nday. Be in it.",
- "lead": "START is Care Direct's family of programs for the moments people begin something new: a first baby, a first school day, university, a wedding, retirement. We put your product in their hands, with a guide they keep and a follow-up that turns trial into a relationship.",
+ "lead": "START is Care Direct's family of complete life-stage experiences: sampling in their hands, then a digital guide and Online Platform that expand the moment online. We gather consented data to fuel CRM, loyalty and targeted email — so trial becomes an ongoing relationship.",
  "btn1": "Find your START",
  "btn2": "How a START works",
  "stats": [
@@ -29,7 +29,7 @@
  "programs": {
   "eyebrow": "The START family",
   "h2": "One audience. Every starting point.",
-  "lead": "Pick the moment your consumer is in. Each START reaches them where it happens, at the exact week they're choosing new brands."
+  "lead": "Pick the moment your consumer is in. Each START is a complete experience: in-hand sampling at that week, then digital expansion — Online Platforms, CRM and targeted communication — while they choose new brands."
  },
  "stages": [
   {
@@ -37,7 +37,7 @@
    "name": "START Pregnancy",
    "when": "3rd trimester",
    "where": "Gyn & maternity clinics",
-   "desc": "Expecting parents try your product while they are still building the list of what the baby will need.",
+   "desc": "Expecting parents try your product while they are still building the list of what the baby will need — then the experience continues online.",
    "tagline": "Before the baby arrives",
    "hands": [
     "Samples in the box",
@@ -45,10 +45,10 @@
     "Handed over at gyn & maternity clinics"
    ],
    "online": [
-    "Babyspace and Myparenthood",
+    "Online Platform: Babyspace and Myparenthood",
     "HeyMaa AI companion (Romania pilot)",
     "Momtag (Greece, Romania)",
-    "Follow-up: email, SMS, call centre, direct mail"
+    "CRM, loyalty & targeted email after registration"
    ]
   },
   {
@@ -56,7 +56,7 @@
    "name": "START Newborn",
    "when": "2–3 days after birth",
    "where": "Maternity clinics",
-   "desc": "The first-days box handed to new mothers in hospital, with the guide for the weeks ahead.",
+   "desc": "The first-days box handed to new mothers in hospital, with the guide for the weeks ahead — then the experience continues online.",
    "tagline": "The first days with newborn",
    "hands": [
     "Samples in the first-days box",
@@ -64,10 +64,11 @@
     "Handed over in maternity clinics"
    ],
    "online": [
-    "Babyspace and Myparenthood",
+    "Online Platform: Babyspace and Myparenthood",
+    "HeyMaa AI companion",
     "Mybabywinner monthly giveaway",
     "Momtag (Greece, Romania)",
-    "Follow-up: email, SMS, call centre, direct mail"
+    "CRM, loyalty & targeted email after registration"
    ]
   },
   {
@@ -75,7 +76,7 @@
    "name": "START Luxury Moments",
    "when": "2–3 days after birth",
    "where": "Private suites",
-   "desc": "The premium edition for new mothers in private clinic suites and private rooms.",
+   "desc": "The premium edition for new mothers in private clinic suites and private rooms — then the experience continues online.",
    "tagline": "The luxury first days",
    "hands": [
     "Samples in the Luxury Moments kit",
@@ -83,9 +84,9 @@
     "Handed over in private suites"
    ],
    "online": [
-    "Babyspace and Myparenthood",
-    "Consented follow-up after registration",
-    "Follow-up: email, SMS, call centre, direct mail"
+    "Online Platform: Babyspace and Myparenthood",
+    "HeyMaa AI companion",
+    "CRM, loyalty & targeted email after registration"
    ]
   },
   {
@@ -93,7 +94,7 @@
    "name": "START First Foods",
    "when": "Baby at 6 months",
    "where": "Delivered home",
-   "desc": "Baby starts eating: a second wave of trial as the family moves to a new stage.",
+   "desc": "Baby starts eating: a second wave of trial as the family moves to a new stage — then the experience continues online.",
    "tagline": "Baby's first spoon",
    "hands": [
     "Samples in the box",
@@ -101,10 +102,10 @@
     "Consented follow-up after registration"
    ],
    "online": [
-    "Babyspace and Myparenthood",
+    "Online Platform: Babyspace and Myparenthood",
     "Mybabywinner and HeyMaa",
     "Momtag (Greece, Romania)",
-    "Follow-up: email, SMS, call centre, direct mail"
+    "CRM, loyalty & targeted email after registration"
    ]
   },
   {
@@ -112,7 +113,7 @@
    "name": "START First Grade",
    "when": "First day of school, age 6",
    "where": "Primary schools",
-   "desc": "A box on the very first school day, for children and the parents choosing their school-year brands.",
+   "desc": "A box on the very first school day, for children and the parents choosing their school-year brands — then the experience continues online.",
    "tagline": "The first school bell",
    "hands": [
     "Samples in the first-day box",
@@ -120,9 +121,9 @@
     "Consented follow-up after registration"
    ],
    "online": [
-    "Myschoolwinner for families",
+    "Online Platform: Myschoolwinner for families",
     "Parents reached at home",
-    "Follow-up: email, SMS, call centre, direct mail"
+    "CRM, loyalty & targeted email after registration"
    ]
   },
   {
@@ -130,7 +131,7 @@
    "name": "START First Grade Christmas",
    "when": "Christmas school period",
    "where": "Primary schools",
-   "desc": "The Christmas edition of First Grade: a festive box for elementary school families.",
+   "desc": "The Christmas edition of First Grade: a festive box for elementary school families — then the experience continues online.",
    "tagline": "Christmas at school",
    "hands": [
     "Samples in the Christmas box",
@@ -138,9 +139,9 @@
     "Consented follow-up after registration"
    ],
    "online": [
-    "Myschoolwinner for families",
+    "Online Platform: Myschoolwinner for families",
     "Parents reached at home",
-    "Follow-up: email, SMS, call centre, direct mail"
+    "CRM, loyalty & targeted email after registration"
    ]
   },
   {
@@ -148,7 +149,7 @@
    "name": "START Teen Girl",
    "when": "The start of puberty",
    "where": "Delivered home by courier",
-   "desc": "At the start of puberty: samples in her hands and follow-up that turns first products into brands she trusts.",
+   "desc": "At the start of puberty: samples in her hands and follow-up that turns first products into brands she trusts — then the experience continues online.",
    "tagline": "Growing up, her way",
    "hands": [
     "Samples in the box",
@@ -156,9 +157,9 @@
     "Consented follow-up after registration"
    ],
    "online": [
-    "Care Direct online communities",
+    "Online Platform: Care Direct communities",
     "Content she trusts",
-    "Follow-up on the channels that fit"
+    "CRM, loyalty & targeted email after registration"
    ]
   },
   {
@@ -166,7 +167,7 @@
    "name": "START High School",
    "when": "Entering high school, 15–16",
    "where": "High schools · web guide START 9",
-   "desc": "New class, new people. Samples and START 9 — the interactive web guide for their first year.",
+   "desc": "New class, new people. Samples and START 9 — the interactive web guide for their first year — then the experience continues online.",
    "tagline": "New class, new people",
    "hands": [
     "Samples in their hands",
@@ -174,9 +175,9 @@
     "Consented follow-up after registration"
    ],
    "online": [
-    "START 9 web guide (Romania)",
+    "Online Platform: START 9 web guide (Romania)",
     "Goals and tips for the first year",
-    "Follow-up on the channels that fit"
+    "CRM, loyalty & targeted email after registration"
    ]
   },
   {
@@ -184,7 +185,7 @@
    "name": "START University",
    "when": "First year at university",
    "where": "Universities · web guide UniStart+",
-   "desc": "First-year students making their first independent purchases: samples and UniStart+.",
+   "desc": "First-year students making their first independent purchases: samples and UniStart+ — then the experience continues online.",
    "tagline": "First year, first independence",
    "hands": [
     "Samples in their hands",
@@ -192,9 +193,9 @@
     "Consented follow-up after registration"
    ],
    "online": [
-    "UniStart+ student guidebook (Bulgaria)",
+    "Online Platform: UniStart+ student guidebook (Bulgaria)",
     "Partners of the box, listed online",
-    "Follow-up on the channels that fit"
+    "CRM, loyalty & targeted email after registration"
    ]
   },
   {
@@ -202,7 +203,7 @@
    "name": "START Army",
    "when": "Recruitment day",
    "where": "Military camps",
-   "desc": "Young men try your product on the day they enter service, a hard-to-reach audience in one place.",
+   "desc": "Young men try your product on the day they enter service, a hard-to-reach audience in one place — then the experience continues online.",
    "tagline": "First day in service",
    "hands": [
     "Samples in their hands",
@@ -210,9 +211,9 @@
     "Consented follow-up after registration"
    ],
    "online": [
-    "Care Direct online communities",
+    "Online Platform: Care Direct communities",
     "A hard-to-reach audience, in one place",
-    "Follow-up on the channels that fit"
+    "CRM, loyalty & targeted email after registration"
    ]
   },
   {
@@ -220,7 +221,7 @@
    "name": "START Marriage",
    "when": "Getting married",
    "where": "Delivered home by courier",
-   "desc": "Couples setting up a home together try your product as they choose their first shared brands.",
+   "desc": "Couples setting up a home together try your product as they choose their first shared brands — then the experience continues online.",
    "tagline": "A home for two",
    "hands": [
     "Samples in the box",
@@ -228,9 +229,9 @@
     "Consented follow-up after registration"
    ],
    "online": [
-    "Care Direct online communities",
+    "Online Platform: Care Direct communities",
     "First shared brands",
-    "Follow-up on the channels that fit"
+    "CRM, loyalty & targeted email after registration"
    ]
   },
   {
@@ -238,7 +239,7 @@
    "name": "START Pet",
    "when": "A new pet at home",
    "where": "Vets and adoption organisations",
-   "desc": "New owners get your product in the first weeks, while they're still choosing food, care and accessories.",
+   "desc": "New owners get your product in the first weeks, while they're still choosing food, care and accessories — then the experience continues online.",
    "tagline": "A new family member",
    "hands": [
     "Samples in the box",
@@ -246,9 +247,9 @@
     "Consented follow-up after registration"
    ],
    "online": [
-    "Care Direct online communities",
+    "Online Platform: Care Direct communities",
     "Routines that last",
-    "Follow-up on the channels that fit"
+    "CRM, loyalty & targeted email after registration"
    ]
   },
   {
@@ -256,7 +257,7 @@
    "name": "START Ladies",
    "when": "50+, entering menopause",
    "where": "Gynaecology clinics",
-   "desc": "Women in midlife receive trial and trusted guidance during a big change.",
+   "desc": "Women in midlife receive trial and trusted guidance during a big change — then the experience continues online.",
    "tagline": "A new chapter at 50+",
    "hands": [
     "Samples in the box",
@@ -264,9 +265,9 @@
     "Handed over at gynaecology clinics"
    ],
    "online": [
-    "LadiesBook (ladiesbook.gr)",
+    "Online Platform: LadiesBook (ladiesbook.gr)",
     "Trusted guidance for midlife",
-    "Follow-up on the channels that fit"
+    "CRM, loyalty & targeted email after registration"
    ]
   },
   {
@@ -274,7 +275,7 @@
    "name": "START Seniors",
    "when": "Starting retirement",
    "where": "Home and senior community venues",
-   "desc": "A new rhythm of life, new routines and new brands, at the start of retirement.",
+   "desc": "A new rhythm of life, new routines and new brands, at the start of retirement — then the experience continues online.",
    "tagline": "Time for themselves",
    "hands": [
     "Samples in the box",
@@ -282,32 +283,54 @@
     "Consented follow-up after registration"
    ],
    "online": [
-    "Care Direct online communities",
+    "Online Platform: Care Direct communities",
     "New routines, new brands",
-    "Follow-up on the channels that fit"
+    "CRM, loyalty & targeted email after registration"
    ]
   }
  ],
  "how": {
   "eyebrow": "How a START works",
-  "h2": "Trial in their hands. A guide they keep. A follow-up that lasts.",
+  "h2": "Sampling in their hands. Digital that expands it. CRM that keeps them.",
   "steps": [
    [
     "1 · The box",
-    "Your product, delivered at the moment of need through clinics, schools and universities. Real trial, not an impression."
+    "Your product, delivered at the moment of need through clinics, schools and universities. Real trial — the start of the experience, not the whole story."
    ],
    [
     "2 · The guide",
-    "A guide with every box — print, digital, or web, depending on the audience. Your brand earns a useful place, not just an ad slot."
+    "A printed or digital guide with every box. Your brand earns a useful place while the experience moves from physical trial toward online."
    ],
    [
-    "3 · The follow-up",
-    "Opt-in, GDPR-compliant registration collects email, phone, mobile and address — then we continue the conversation on the channels that fit each market."
+    "3 · The digital follow-up",
+    "Opt-in, GDPR-compliant registration collects email, phone, mobile and address — then we build CRM, loyalty journeys and targeted email (and SMS or mail where they fit) for each market."
    ],
    [
-    "4 · The platform",
-    "Care Direct's in-house online communities keep the audience close and roll them into the next START."
+    "4 · The Online Platform",
+    "Care Direct's in-house Online Platforms keep the audience close, educate them after the sample, and roll them into the next START."
    ]
+  ]
+ },
+ "faq": {
+  "eyebrow": "Quick answers",
+  "h2": "What brands ask about START",
+  "items": [
+   {
+    "q": "What is START by Care Direct?",
+    "a": "START is Care Direct's family of complete life-stage experiences. Each one starts with product sampling at a moment of change, then expands digitally — guides, Online Platforms, and consented CRM, loyalty and targeted email."
+   },
+   {
+    "q": "Where does START run?",
+    "a": "START runs across Southeast Europe: Greece, Cyprus, Romania, Bulgaria and Serbia."
+   },
+   {
+    "q": "How does a START program work?",
+    "a": "Sampling in the kit, a printed or digital guide, then GDPR-compliant registration that fuels CRM and targeted email, plus Care Direct Online Platforms that keep the conversation going after the freebie."
+   },
+   {
+    "q": "Who is START for?",
+    "a": "Brand marketers and agencies that need a full experience — real product trial plus digital expansion and first-party CRM — not only a one-off handout or digital impressions alone."
+   }
   ]
  },
  "live": {
@@ -364,8 +387,8 @@
   ]
  },
  "brands": {
-  "h2": "Put your product in someone's first day.",
-  "lead": "Tell us the audience and the market. We'll come back with the right START, reach, timing and cost.",
+  "h2": "Put your product in someone's first day — then stay with them online.",
+  "lead": "Tell us the audience and the market. We'll come back with the right START: sampling, Online Platform, CRM reach, timing and cost.",
   "markets": [
    "Greece",
    "Cyprus",
@@ -373,7 +396,7 @@
    "Bulgaria",
    "Serbia"
   ],
-  "button": "Plan my START"
+  "button": "Join a START"
  },
  "footer": "START. A Care Direct program family"
 }

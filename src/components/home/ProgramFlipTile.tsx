@@ -21,6 +21,7 @@ type Stage = {
   desc: string;
   tagline?: string;
   hands?: string[];
+  online?: string[];
   n: string;
   tileSrc: string;
   href: string;
@@ -196,29 +197,21 @@ export function ProgramFlipTile({
             <span className={styles.flipCopy}>
               <p className={styles.flipDesc}>{withTbc(stage.desc)}</p>
               <ul className={styles.flipList}>
-                {(stage.hands ?? []).slice(0, 3).map((item) => (
-                  <li key={item}>{withTbc(item)}</li>
-                ))}
+                {[
+                  ...(stage.hands ?? []).slice(0, 2),
+                  ...(stage.online ?? []).slice(0, 1),
+                ]
+                  .slice(0, 3)
+                  .map((item) => (
+                    <li key={item}>{withTbc(item)}</li>
+                  ))}
               </ul>
             </span>
             <span className={styles.flipCta}>{exploreLabel}</span>
           </span>
         </span>
       </span>
-      <span
-        className={styles.flipDots}
-        aria-hidden="true"
-        onClick={(e) => {
-          e.preventDefault();
-          e.stopPropagation();
-          suppressClick.current = true;
-        }}
-        onPointerDown={(e) => {
-          e.preventDefault();
-          e.stopPropagation();
-          suppressClick.current = true;
-        }}
-      >
+      <span className={styles.flipDots} aria-hidden="true">
         <span
           className={`${styles.flipDot}${!flipped ? ` ${styles.flipDotActive}` : ""}`}
           onPointerDown={(e) => pickSidePointer(e, false)}

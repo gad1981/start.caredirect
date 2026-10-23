@@ -130,7 +130,7 @@
 }
 
 .section {
-  padding: 64px 0 20px;
+  padding: 64px 0 40px;
 }
 
 .section h2 {
@@ -301,7 +301,7 @@
   --flip-ink: #244848;
 }
 
-.tileFlip:hover,
+/* Hover z-index only on fine pointers — :hover on iPhone steals the first tap. */
 .tileFlip:focus-visible,
 .tileFlip.isFlipped {
   z-index: 2;
@@ -335,6 +335,10 @@
 
 /* Desktop: hover flip */
 @media (hover: hover) and (pointer: fine) {
+  .tileFlip:hover {
+    z-index: 2;
+  }
+
   .tileFlip:hover .flipInner,
   .tileFlip:focus-visible .flipInner {
     transform: rotateY(180deg);
@@ -452,21 +456,7 @@
     margin-bottom: 0;
   }
 
-  /* Disable hover 3D on narrow viewports so isFlipped crossfade wins */
-  .tileFlip:hover .flipInner,
-  .tileFlip:focus-visible .flipInner {
-    transform: none !important;
-  }
-
-  .tileFlip:hover .flipFront,
-  .tileFlip:focus-visible .flipFront {
-    visibility: visible;
-  }
-
-  .tileFlip:hover.isFlipped .flipFront,
-  .tileFlip:focus-visible.isFlipped .flipFront {
-    visibility: hidden;
-  }
+  /* No :hover rules here — iOS treats hover as a first tap and blocks navigation. */
 }
 
 .flipBrand {
@@ -556,7 +546,8 @@
   border-radius: 999px;
   background: rgba(20, 16, 24, 0.4);
   backdrop-filter: blur(6px);
-  pointer-events: auto;
+  /* Bar itself must not steal taps — only the dots flip; the card navigates. */
+  pointer-events: none;
 }
 
 .flipDot {
@@ -750,6 +741,46 @@
   font-size: 14.5px;
 }
 
+.faqList {
+  margin: 28px 0 0;
+  padding: 0;
+  display: grid;
+  gap: 12px;
+}
+
+.faqItem {
+  margin: 0;
+  padding: 18px 20px;
+  border-radius: 18px;
+  background: color-mix(in srgb, var(--soft, #eeede8) 70%, white);
+  border: 1px solid color-mix(in srgb, var(--line, #ddd) 80%, transparent);
+}
+
+.faqItem dt {
+  margin: 0 0 8px;
+  font: 800 17px / 1.3 var(--display);
+  letter-spacing: -0.015em;
+  color: var(--ink);
+}
+
+.faqMore {
+  margin: 22px 0 0;
+}
+
+.faqMore a {
+  font: 700 14px / 1.3 var(--body);
+  color: var(--ink);
+  text-underline-offset: 3px;
+}
+
+.faqItem dd {
+  margin: 0;
+  color: var(--muted, #5c5a62);
+  font-size: 15px;
+  line-height: 1.5;
+  max-width: 46em;
+}
+
 .live {
   display: grid;
   grid-template-columns: 1fr 1fr;
@@ -855,8 +886,6 @@
   }
 
   .flipInner,
-  .tileFlip:hover .flipInner,
-  .tileFlip:focus-visible .flipInner,
   .tileFlip.isFlipped .flipInner,
   .flipFront,
   .flipBack {
@@ -988,5 +1017,19 @@
 
   .exploreLabel {
     display: none;
+  }
+
+  /* Keep clear air between the last program tile and How a START works.
+     iPhone Safari was reading the old 20px section bottom as no gap. */
+  :global(#programs) {
+    padding-bottom: 32px;
+  }
+
+  :global(#how) {
+    padding-top: 56px;
+  }
+
+  .tiles {
+    margin-bottom: 16px;
   }
 }

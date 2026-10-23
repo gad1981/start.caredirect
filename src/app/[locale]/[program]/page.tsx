@@ -18,6 +18,7 @@ import {
   programHeroSrc,
   type ProgramSlug,
 } from "@/lib/programs";
+import { absoluteAssetUrl, socialMetadata } from "@/lib/seo";
 
 export function generateStaticParams() {
   return locales.flatMap((locale) =>
@@ -44,13 +45,13 @@ export async function generateMetadata({
       canonical: localePath(locale, path),
       languages: hreflangAlternates(path),
     },
-    openGraph: {
+    ...socialMetadata({
       title: page.t,
       description: page.m,
-      url: absoluteUrl(locale, path),
+      locale,
+      path,
       images: [hero],
-      locale: locale === "en" ? "en_GB" : locale,
-    },
+    }),
   };
 }
 
@@ -78,13 +79,23 @@ async function ProgramRoute({
     "@context": "https://schema.org",
     "@type": "Service",
     name: prog.name,
+    serviceType:
+      "Life-stage product sampling with Online Platform, CRM and targeted digital follow-up",
     provider: {
       "@type": "Organization",
       name: "Care Direct",
       url: "https://www.caredirect.com/",
     },
+    areaServed: [
+      { "@type": "Country", name: "Greece" },
+      { "@type": "Country", name: "Cyprus" },
+      { "@type": "Country", name: "Romania" },
+      { "@type": "Country", name: "Bulgaria" },
+      { "@type": "Country", name: "Serbia" },
+    ],
     url: absoluteUrl(locale, `/${prog.slug}/`),
     description: pages[prog.id]?.m,
+    image: absoluteAssetUrl(programHeroSrc(prog.assetKey)),
   };
 
   return (

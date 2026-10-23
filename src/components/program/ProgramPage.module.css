@@ -356,6 +356,71 @@
   max-width: 40em;
 }
 
+.relatedArticles {
+  margin: 48px 0 0;
+  padding: 8px 0 0;
+}
+
+.relatedArticles h2 {
+  margin: 0 0 10px;
+  font: 800 clamp(24px, 3.2vw, 36px) / 1.12 var(--display);
+  letter-spacing: -0.02em;
+  color: var(--ink);
+}
+
+.relatedArticleGrid {
+  display: grid;
+  gap: 14px;
+  grid-template-columns: repeat(2, minmax(0, 1fr));
+}
+
+.relatedArticleCard {
+  display: grid;
+  gap: 8px;
+  padding: 20px 20px 22px;
+  border-radius: 18px;
+  border: 1px solid var(--line);
+  background: var(--surface);
+  text-decoration: none;
+  color: inherit;
+  transition: border-color 160ms ease, transform 160ms ease;
+}
+
+.relatedArticleCard:hover {
+  border-color: color-mix(in srgb, var(--program-accent, var(--stdot)) 55%, var(--line));
+  transform: translateY(-2px);
+}
+
+.relatedArticleCard h3 {
+  margin: 0;
+  font: 800 20px / 1.25 var(--display);
+  letter-spacing: -0.02em;
+  color: var(--ink);
+}
+
+.relatedArticleCard p {
+  margin: 0;
+  color: var(--muted);
+  font-size: 14px;
+  line-height: 1.45;
+  display: -webkit-box;
+  -webkit-line-clamp: 3;
+  -webkit-box-orient: vertical;
+  overflow: hidden;
+}
+
+.relatedArticleMore {
+  margin-top: 4px;
+  font: 700 13px / 1.2 var(--body);
+  color: var(--ink);
+}
+
+@media (max-width: 720px) {
+  .relatedArticleGrid {
+    grid-template-columns: 1fr;
+  }
+}
+
 /* Same neutral home-page brief treatment (ignore program tone). */
 .brief {
   --p1: #fde8ec;

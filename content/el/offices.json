@@ -3,8 +3,8 @@
     "id": "greece",
     "country": "Ελλάδα",
     "lines": [
-      "Premetis 2, Ag. Dimitrios,",
-      "173 42 Attica"
+      "Πρεμέτης 2, Αγ. Δημήτριος,",
+      "173 42 Αττική"
     ],
     "tel": "+30 210 928 7700"
   },
@@ -12,9 +12,9 @@
     "id": "cyprus",
     "country": "Κύπρος",
     "lines": [
-      "41-43 Spyrou Kyprianou,",
-      "Patroclos Tower,",
-      "2nd Floor, 6051 Larnaka"
+      "41-43 Σπύρου Κυπριανού,",
+      "Πύργος Πάτροκλος,",
+      "2ος όροφος, 6051 Λάρνακα"
     ],
     "tel": "+357 24 201540"
   },
@@ -23,8 +23,8 @@
     "country": "Ρουμανία",
     "lines": [
       "Vasile Lascar Business Center",
-      "178 Vasile Lascar street, 2nd Floor, Apt 5,",
-      "2nd District, 020512, Bucharest"
+      "178 οδός Vasile Lascar, 2ος όροφος, διαμ. 5,",
+      "Τομέας 2, 020512, Βουκουρέστι"
     ],
     "tel": "+40 21 203 89 69"
   },
@@ -32,8 +32,8 @@
     "id": "bulgaria",
     "country": "Βουλγαρία",
     "lines": [
-      "17 Inzhener Georgi Belov St.,",
-      "NPZ Iztok, 1712 Sofia"
+      "17 οδός Inzhener Georgi Belov,",
+      "NPZ Iztok, 1712 Σόφια"
     ],
     "tel": "+359 2 489 9491"
   },
@@ -41,7 +41,7 @@
     "id": "serbia",
     "country": "Σερβία",
     "lines": [
-      "Belgrade"
+      "Βελιγράδι"
     ],
     "tel": "+381 11 404 3331"
   }

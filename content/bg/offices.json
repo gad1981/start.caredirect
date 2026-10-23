@@ -4,7 +4,7 @@
     "country": "Гърция",
     "lines": [
       "Premetis 2, Ag. Dimitrios,",
-      "173 42 Attica"
+      "173 42 Атика"
     ],
     "tel": "+30 210 928 7700"
   },
@@ -14,7 +14,7 @@
     "lines": [
       "41-43 Spyrou Kyprianou,",
       "Patroclos Tower,",
-      "2nd Floor, 6051 Larnaka"
+      "2-ри етаж, 6051 Ларнака"
     ],
     "tel": "+357 24 201540"
   },
@@ -23,8 +23,8 @@
     "country": "Румъния",
     "lines": [
       "Vasile Lascar Business Center",
-      "178 Vasile Lascar street, 2nd Floor, Apt 5,",
-      "2nd District, 020512, Bucharest"
+      "ул. Vasile Lascar 178, ет. 2, ап. 5,",
+      "район 2, 020512, Букурещ"
     ],
     "tel": "+40 21 203 89 69"
   },
@@ -32,8 +32,8 @@
     "id": "bulgaria",
     "country": "България",
     "lines": [
-      "17 Inzhener Georgi Belov St.,",
-      "NPZ Iztok, 1712 Sofia"
+      "ул. Инженер Георги Белов 17,",
+      "НПЗ Изток, 1712 София"
     ],
     "tel": "+359 2 489 9491"
   },
@@ -41,7 +41,7 @@
     "id": "serbia",
     "country": "Сърбия",
     "lines": [
-      "Belgrade"
+      "Белград"
     ],
     "tel": "+381 11 404 3331"
   }
