@@ -43,7 +43,7 @@ export async function HomePage({ locale }: { locale: Locale }) {
       <section className={styles.hero} aria-labelledby="home-h1">
         <div className={styles.photo}>
           <Image
-            src="/assets/heroes/home-hero-five-life-stages.png"
+            src="/assets/heroes/home-hero-authentic-family.png"
             alt="Five people at different life stages holding their START kits"
             fill
             priority

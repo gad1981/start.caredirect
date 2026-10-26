@@ -24,7 +24,7 @@ export function BriefForm({
   accent = false,
   teen = false,
 }: Props) {
-  const { messages } = useLocale();
+  const { locale, messages } = useLocale();
   const [status, setStatus] = useState<"idle" | "loading" | "ok" | "err">(
     "idle",
   );
@@ -63,6 +63,7 @@ export function BriefForm({
         program: String(data.get("program") || ""),
         market: String(data.get("market") || ""),
         source_page: sourcePage,
+        locale,
       });
       setStatus("ok");
       setMessage(messages.formSuccess);

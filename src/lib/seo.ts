@@ -2,7 +2,7 @@ import type { Metadata } from "next";
 import { absoluteUrl, siteUrl, type Locale } from "@/lib/i18n";
 
 /** Default share image for pages without a program-specific hero. */
-export const DEFAULT_OG_IMAGE = "/assets/heroes/home-hero-five-life-stages.png";
+export const DEFAULT_OG_IMAGE = "/assets/heroes/home-hero-authentic-family.png";
 
 export function ogLocale(locale: Locale): string {
   return locale === "en" ? "en_GB" : locale;

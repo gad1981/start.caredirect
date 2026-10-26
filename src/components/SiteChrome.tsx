@@ -1,3 +1,4 @@
+import { AnalyticsBeacon } from "@/components/analytics/AnalyticsBeacon";
 import { ConsentProvider } from "@/components/analytics/ConsentProvider";
 import { Footer } from "@/components/Footer";
 import { Header } from "@/components/Header";
@@ -26,6 +27,7 @@ export async function SiteChrome({
       messages={messages}
     >
       <LocaleProvider locale={locale} messages={messages}>
+        <AnalyticsBeacon />
         <ScrollToTop />
         <Header />
         <div className="shell">{children}</div>
