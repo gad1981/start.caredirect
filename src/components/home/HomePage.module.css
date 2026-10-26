@@ -22,11 +22,11 @@
 .photo img {
   object-fit: cover;
   /*
-    Desktop: bias below pure top + mild zoom so kits read closer,
-    without cropping heads.
+    Desktop: bias below pure top. Natural cover (no empty edges);
+    zoomed out from the old scale(1.18).
   */
   object-position: center 35%;
-  transform: scale(1.18);
+  transform: none;
   transform-origin: center 28%;
 }
 
