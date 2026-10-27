@@ -384,9 +384,10 @@
   flex-direction: column;
   align-items: stretch;
   justify-content: flex-start;
-  gap: 12px;
-  padding: 20px;
-  padding-top: 26px;
+  gap: 8px;
+  /* Keep bottom padding clear of the rounded clip edge. */
+  padding: 18px 16px 16px;
+  min-height: 0;
   text-align: left;
   background:
     radial-gradient(
@@ -468,11 +469,12 @@
   display: flex;
   flex-direction: column;
   align-items: center;
-  gap: 8px;
+  flex: 0 0 auto;
+  gap: 6px;
 }
 
 .flipLogo {
-  width: min(52%, 132px);
+  width: min(48%, 120px);
   height: auto;
   object-fit: contain;
 }
@@ -490,14 +492,16 @@
 
 .flipCopy {
   display: grid;
-  gap: 10px;
+  gap: 8px;
   padding: 0 2px;
+  flex: 1 1 auto;
+  min-height: 0;
 }
 
 .flipDesc {
   margin: 0;
-  font-size: 13.5px;
-  line-height: 1.45;
+  font-size: 13px;
+  line-height: 1.4;
   color: #3a3544;
 }
 
@@ -506,9 +510,9 @@
   padding: 0;
   list-style: none;
   display: grid;
-  gap: 6px;
-  font-size: 12.5px;
-  line-height: 1.4;
+  gap: 5px;
+  font-size: 12px;
+  line-height: 1.35;
   color: #524a5e;
 }
 
@@ -579,11 +583,24 @@
 }
 
 .flipCta {
+  flex: 0 0 auto;
   margin-top: auto;
+  margin-bottom: 0;
+  padding-top: 2px;
   align-self: flex-end;
-  font: 700 13px / 1.2 var(--body);
+  font: 700 12.5px / 1.2 var(--body);
   color: var(--flip-ink);
-  margin-bottom: 22px;
+}
+
+/* After base .flipCta so these win when the dot bar is shown. */
+@media (hover: none), (pointer: coarse), (max-width: 900px) {
+  .tileFlip .flipBack {
+    padding-bottom: 12px;
+  }
+
+  .tileFlip .flipCta {
+    margin-bottom: 36px;
+  }
 }
 
 .tile img {
