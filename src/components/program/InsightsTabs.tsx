@@ -178,8 +178,11 @@ export function InsightsTabs({
                         href={p.href}
                         target="_blank"
                         rel="noopener noreferrer"
-                        title={p.alt}
+                        title={`${p.name} — ${p.blurb}`}
                       >
+                        <span className={styles.platformShotBlurb} aria-hidden>
+                          {p.blurb}
+                        </span>
                         <Image
                           src={p.src}
                           alt={p.alt}

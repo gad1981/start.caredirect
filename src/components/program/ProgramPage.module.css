@@ -705,6 +705,7 @@
 }
 
 .platformShot {
+  position: relative;
   display: grid;
   gap: 8px;
   width: auto;
@@ -714,8 +715,40 @@
   transition: transform 160ms ease;
 }
 
-.platformShot:hover {
+.platformShot:hover,
+.platformShot:focus-visible {
   transform: translateY(-3px);
+  z-index: 2;
+}
+
+.platformShotBlurb {
+  position: absolute;
+  left: 50%;
+  bottom: calc(100% - 6px);
+  transform: translateX(-50%) translateY(4px);
+  width: min(220px, 70vw);
+  padding: 10px 12px;
+  border-radius: 12px;
+  background: color-mix(in srgb, var(--ink) 92%, transparent);
+  color: #f7f5f1;
+  font: 500 12.5px / 1.35 var(--body);
+  text-align: center;
+  letter-spacing: 0.01em;
+  box-shadow: 0 14px 28px -16px rgba(20, 16, 12, 0.55);
+  opacity: 0;
+  visibility: hidden;
+  pointer-events: none;
+  transition:
+    opacity 160ms ease,
+    transform 160ms ease,
+    visibility 160ms ease;
+}
+
+.platformShot:hover .platformShotBlurb,
+.platformShot:focus-visible .platformShotBlurb {
+  opacity: 1;
+  visibility: visible;
+  transform: translateX(-50%) translateY(0);
 }
 
 /* Same display height as booklet covers (.guideCover). */
@@ -732,6 +765,13 @@
 .platformShotName {
   font: 600 12.5px / 1.25 var(--body);
   color: var(--muted);
+}
+
+@media (hover: none) {
+  /* Touch: keep native title; skip floating tip that would cover the shot. */
+  .platformShotBlurb {
+    display: none;
+  }
 }
 
 .guideCell {
