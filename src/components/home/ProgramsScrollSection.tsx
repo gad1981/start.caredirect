@@ -163,13 +163,15 @@ export function ProgramsScrollSection({
       const cardW = Math.max(cards[0]?.offsetWidth ?? 0, 200);
       const cardH = Math.max(cards[0]?.offsetHeight ?? 0, cardW * 1.25);
 
-      // Cap scale so the hero never kisses/clips the stage edges (the gray band).
+      // Size stage to the scaled hero + air so top/bottom never clip.
       const byW = (view.width * 0.55) / cardW;
-      const heroScale = Math.max(1.12, Math.min(1.32, byW));
-      const stageH = Math.min(
-        maxStage,
-        Math.ceil(cardH * heroScale + 36),
-      );
+      let heroScale = Math.max(1.12, Math.min(1.28, byW));
+      const air = 48;
+      let stageH = Math.ceil(cardH * heroScale + air);
+      if (stageH > maxStage) {
+        heroScale = Math.max(1.08, (maxStage - air) / cardH);
+        stageH = Math.min(maxStage, Math.ceil(cardH * heroScale + air));
+      }
       viewport.style.height = `${stageH}px`;
 
       // Widen gaps before measuring travel so scale never collapses spacing.
@@ -367,6 +369,7 @@ export function ProgramsScrollSection({
                     />
                     <span className={styles.railPulse} />
                     <div className={styles.railBookendCopy}>
+                      <span className={styles.railBookendLogo} />
                       <p className={styles.railBookendEye}>Life stages</p>
                       <p className={styles.railBookendTitle}>
                         Scroll through
@@ -399,6 +402,7 @@ export function ProgramsScrollSection({
                     />
                     <span className={styles.railPulse} />
                     <div className={styles.railBookendCopy}>
+                      <span className={styles.railBookendLogo} />
                       <p className={styles.railBookendEye}>
                         Ready when you are
                       </p>

@@ -207,8 +207,9 @@
 }
 
 .tilesViewport {
-  /* Hero scales inside this stage only. */
-  overflow: hidden;
+  /* Clip horizontal rail only — vertical air is sized in JS so heroes don't cut. */
+  overflow-x: hidden;
+  overflow-y: hidden;
   margin-top: 0;
   padding: 0;
   display: flex;
@@ -352,9 +353,22 @@
 .railBookendCopy {
   position: relative;
   z-index: 2;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
   text-align: center;
   padding: 0.85rem;
   max-width: 11rem;
+}
+
+.railBookendLogo {
+  display: block;
+  width: min(7.5rem, 58%);
+  aspect-ratio: 3.2432 / 1;
+  margin: 0 0 0.85rem;
+  background: var(--ink);
+  -webkit-mask: url("/assets/brand/start-logo.png") center / contain no-repeat;
+  mask: url("/assets/brand/start-logo.png") center / contain no-repeat;
 }
 
 .railBookendEye {
