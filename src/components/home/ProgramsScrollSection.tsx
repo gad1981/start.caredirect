@@ -149,12 +149,13 @@ export function ProgramsScrollSection({
       const topPad = 4;
       const bottomPad = 88;
       const stageGap = 10;
-      const stageH = Math.max(
+      const maxStage = Math.max(
         260,
         stickyH - headH - topPad - bottomPad - stageGap - 8,
       );
-      viewport.style.height = `${stageH}px`;
 
+      // Measure cards at natural size first (stage height set below).
+      viewport.style.height = `${Math.min(maxStage, 420)}px`;
       const view = viewport.getBoundingClientRect();
       const focusInset = view.width * FOCUS_INSET;
       const focusX = view.left + focusInset;
@@ -162,10 +163,15 @@ export function ProgramsScrollSection({
       const cardW = Math.max(cards[0]?.offsetWidth ?? 0, 200);
       const cardH = Math.max(cards[0]?.offsetHeight ?? 0, cardW * 1.25);
 
-      // Grow as much as fits inside the rail stage — never outside.
-      const byH = (stageH * 0.94) / cardH;
-      const byW = (view.width * 0.7) / cardW;
-      const heroScale = Math.max(1.15, Math.min(byH, byW));
+      // Cap scale so the hero never kisses/clips the stage edges (the gray band).
+      const byW = (view.width * 0.55) / cardW;
+      const heroScale = Math.max(1.12, Math.min(1.32, byW));
+      const stageH = Math.min(
+        maxStage,
+        Math.ceil(cardH * heroScale + 36),
+      );
+      viewport.style.height = `${stageH}px`;
+
       // Widen gaps before measuring travel so scale never collapses spacing.
       track.style.setProperty("--rail-hero-scale", heroScale.toFixed(4));
 
