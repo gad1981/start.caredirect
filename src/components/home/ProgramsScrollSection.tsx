@@ -122,7 +122,6 @@ export function ProgramsScrollSection({
       track.style.paddingRight = "";
       fill?.style.setProperty("--rail-progress", "0");
       stage?.style.setProperty("--rail-progress", "0");
-      sticky.style.removeProperty("--rail-progress");
       setRailChrome(false);
       clearCardFocus();
       setPinMode("before");
@@ -326,7 +325,6 @@ export function ProgramsScrollSection({
       track.style.setProperty("--rail-x", `${-(railProgress * railTravel)}px`);
       fill?.style.setProperty("--rail-progress", String(pinProgress));
       stage?.style.setProperty("--rail-progress", String(pinProgress));
-      sticky.style.setProperty("--rail-progress", String(pinProgress));
       updateFocus(railProgress);
     }
 
@@ -390,16 +388,6 @@ export function ProgramsScrollSection({
             <p className={styles.eye}>{eyebrow}</p>
             <h2 id={headingId}>{heading}</h2>
             <p className={styles.secLead}>{lead}</p>
-            {enabled ? (
-              <div className={styles.railCue} aria-hidden="true">
-                <span className={styles.railCueMark}>
-                  <span className={styles.railCueWheel} />
-                </span>
-                <p className={styles.railCueCopy}>
-                  Scroll — each stage waits ahead
-                </p>
-              </div>
-            ) : null}
           </div>
 
           <div
