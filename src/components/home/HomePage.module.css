@@ -176,6 +176,14 @@
   box-sizing: border-box;
   padding: 4px 0 88px;
   background: var(--bg);
+  transition: padding-top 320ms ease;
+}
+
+.programsPinning .programsSticky,
+.programsAfter .programsSticky {
+  /* Same ground as the rest of the site; chrome pad fills under the header. */
+  padding-top: calc(var(--programs-chrome, 0px) + 4px);
+  background: var(--bg);
 }
 
 .programsPinning .programsSticky {
@@ -206,6 +214,109 @@
   margin-bottom: 0;
 }
 
+.railCue {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 12px;
+  margin-top: 16px;
+  opacity: clamp(0, calc(1.05 - var(--rail-progress, 0) * 3.2), 1);
+  transition: opacity 280ms ease;
+  pointer-events: none;
+}
+
+.railCueMark {
+  position: relative;
+  width: 28px;
+  height: 42px;
+  border: 1.5px solid color-mix(in srgb, var(--ink) 35%, transparent);
+  border-radius: 14px;
+  flex-shrink: 0;
+}
+
+.railCueWheel {
+  position: absolute;
+  left: 50%;
+  top: 8px;
+  width: 4px;
+  height: 8px;
+  margin-left: -2px;
+  border-radius: 999px;
+  background: var(--stdot);
+  animation: railCueWheel 1.5s ease-in-out infinite;
+}
+
+.railCueCopy {
+  margin: 0;
+  font: 600 12px / 1.3 var(--body);
+  letter-spacing: 0.06em;
+  text-transform: uppercase;
+  color: color-mix(in srgb, var(--ink) 55%, transparent);
+}
+
+@keyframes railCueWheel {
+  0%,
+  100% {
+    transform: translateY(0);
+    opacity: 1;
+  }
+  55% {
+    transform: translateY(14px);
+    opacity: 0.25;
+  }
+}
+
+.railStage {
+  position: relative;
+  display: grid;
+  grid-template-columns: auto minmax(0, 1fr) auto;
+  align-items: center;
+  gap: 8px;
+  margin-right: calc(18px - min(18px, (100vw - var(--content)) / 2));
+}
+
+.railArrow {
+  display: grid;
+  place-items: center;
+  width: 40px;
+  height: 40px;
+  border-radius: 999px;
+  color: var(--ink);
+  background: color-mix(in srgb, var(--ink) 6%, var(--bg));
+  border: 1px solid color-mix(in srgb, var(--ink) 12%, transparent);
+  pointer-events: none;
+  flex-shrink: 0;
+  z-index: 6;
+}
+
+.railArrowPrev {
+  opacity: clamp(0.2, calc(var(--rail-progress, 0) * 2.2), 0.95);
+  transition: opacity 200ms ease;
+}
+
+.railArrowNext {
+  opacity: clamp(0.35, calc((1 - var(--rail-progress, 0)) * 1.8), 1);
+  transition: opacity 200ms ease;
+  animation: railArrowNudge 1.6s ease-in-out infinite;
+}
+
+@keyframes railArrowNudge {
+  0%,
+  100% {
+    transform: translateX(0);
+  }
+  50% {
+    transform: translateX(5px);
+  }
+}
+
+@media (prefers-reduced-motion: reduce) {
+  .railArrowNext,
+  .railCueWheel {
+    animation: none;
+  }
+}
+
 .tilesViewport {
   /* Clip horizontal rail only — vertical air is sized in JS so heroes don't cut. */
   overflow-x: hidden;
@@ -214,7 +325,11 @@
   padding: 0;
   display: flex;
   align-items: center;
-  margin-right: calc(18px - min(18px, (100vw - var(--content)) / 2));
+  min-width: 0;
+}
+
+.railStage .tilesViewport {
+  margin-right: 0;
 }
 
 .tilesRail {
@@ -229,6 +344,7 @@
   width: max-content;
   will-change: transform;
   transform: translate3d(var(--rail-x, 0px), 0, 0);
+  /* No transform transition — scroll-linked; easing is in JS. */
 }
 
 .railCard {
@@ -428,7 +544,7 @@
   width: 100%;
   height: 100%;
   border-radius: inherit;
-  background: #161618;
+  background: #4a8fd4;
   transform: scaleX(var(--rail-progress, 0));
   transform-origin: left center;
   will-change: transform;
@@ -1248,8 +1364,15 @@
   }
 
   .railBookend,
-  .railScrollbar {
+  .railScrollbar,
+  .railArrow,
+  .railCue {
     display: none;
+  }
+
+  .railStage {
+    display: block;
+    margin-right: 0;
   }
 
   .stats,

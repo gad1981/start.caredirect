@@ -38,6 +38,19 @@
   z-index: 40;
   background: var(--surface);
   border-bottom: 1px solid var(--line);
+  transition:
+    background 420ms ease,
+    border-color 420ms ease;
+}
+
+/* Programs rail stage runs underneath — match page ground, not a white bar. */
+:global(html[data-programs-rail]) .header {
+  background: var(--bg);
+  border-bottom-color: color-mix(in srgb, var(--ink) 10%, transparent);
+}
+
+:global(html[data-programs-rail]) .strip {
+  background: var(--bg);
 }
 
 .bar {

@@ -15,6 +15,14 @@ const MOTION_MQ = "(prefers-reduced-motion: reduce)";
 const FOCUS_INSET = 0.22;
 /** Pull focus forward so the next card (from the right) takes over sooner. */
 const FOCUS_LEAD = 0.45;
+/** Extra pin scroll after the rail parks — softens the release bump. */
+const SOFT_STOP_PX = 260;
+
+function smootherstep(t: number) {
+  const x = Math.min(1, Math.max(0, t));
+  // Perlin smootherstep — gentler settle at both ends than smoothstep.
+  return x * x * x * (x * (x * 6 - 15) + 10);
+}
 
 type PinMode = "before" | "pinning" | "after";
 
@@ -38,6 +46,7 @@ export function ProgramsScrollSection({
   const pinRef = useRef<HTMLElement>(null);
   const stickyRef = useRef<HTMLDivElement>(null);
   const headRef = useRef<HTMLDivElement>(null);
+  const stageRef = useRef<HTMLDivElement>(null);
   const viewportRef = useRef<HTMLDivElement>(null);
   const trackRef = useRef<HTMLDivElement>(null);
   const fillRef = useRef<HTMLDivElement>(null);
@@ -45,6 +54,7 @@ export function ProgramsScrollSection({
     header: 0,
     stickyH: 0,
     overflow: 0,
+    travel: 0,
     focusInset: 0,
     heroScale: 1.25,
   });
@@ -74,6 +84,7 @@ export function ProgramsScrollSection({
     const pinEl = pinRef.current;
     const stickyEl = stickyRef.current;
     const head = headRef.current;
+    const stage = stageRef.current;
     const viewportEl = viewportRef.current;
     const trackEl = trackRef.current;
     const fill = fillRef.current;
@@ -110,6 +121,9 @@ export function ProgramsScrollSection({
       track.style.paddingLeft = "";
       track.style.paddingRight = "";
       fill?.style.setProperty("--rail-progress", "0");
+      stage?.style.setProperty("--rail-progress", "0");
+      sticky.style.removeProperty("--rail-progress");
+      setRailChrome(false);
       clearCardFocus();
       setPinMode("before");
     }
@@ -126,6 +140,15 @@ export function ProgramsScrollSection({
       return document.querySelector("header")?.getBoundingClientRect().height ?? 0;
     }
 
+    function setRailChrome(active: boolean, chrome = 0) {
+      document.documentElement.toggleAttribute("data-programs-rail", active);
+      if (active) {
+        sticky.style.setProperty("--programs-chrome", `${chrome}px`);
+      } else {
+        sticky.style.removeProperty("--programs-chrome");
+      }
+    }
+
     function pageScroll() {
       return document.scrollingElement?.scrollTop ?? window.scrollY;
     }
@@ -138,8 +161,10 @@ export function ProgramsScrollSection({
 
     function layout() {
       const header = headerHeight();
-      const stickyH = Math.max(window.innerHeight - header, 420);
+      // Full viewport stage so parchment runs under the transparent header.
+      const stickyH = Math.max(window.innerHeight, 420);
       sticky.style.height = `${stickyH}px`;
+      sticky.style.setProperty("--programs-chrome", `${header}px`);
 
       track.style.setProperty("--rail-x", "0px");
       track.style.paddingLeft = "0px";
@@ -151,7 +176,7 @@ export function ProgramsScrollSection({
       const stageGap = 10;
       const maxStage = Math.max(
         260,
-        stickyH - headH - topPad - bottomPad - stageGap - 8,
+        stickyH - header - headH - topPad - bottomPad - stageGap - 8,
       );
 
       // Measure cards at natural size first (stage height set below).
@@ -190,16 +215,15 @@ export function ProgramsScrollSection({
         }
 
         const lastMid = layoutMid(last);
-        // Stop once the last card is near focus — don't drag the finale.
+        // Park the last card near focus, then add a soft-stop scroll buffer.
         const travel = Math.max(0, lastMid - focusX - cardW * 0.55);
-        let overflow = Math.max(0, track.scrollWidth - viewport.clientWidth);
-        if (travel > overflow) {
-          track.style.paddingRight = `${16 + (travel - overflow)}px`;
-          overflow = Math.max(0, track.scrollWidth - viewport.clientWidth);
-        } else if (overflow > travel && travel > 0) {
-          // Natural track was longer than needed; cap so the right ends earlier.
-          overflow = travel;
+        let natural = Math.max(0, track.scrollWidth - viewport.clientWidth);
+        if (travel > natural) {
+          track.style.paddingRight = `${16 + (travel - natural)}px`;
+          natural = Math.max(0, track.scrollWidth - viewport.clientWidth);
         }
+        const railTravel = travel > 0 ? travel : natural;
+        const overflow = railTravel + (railTravel > 0 ? SOFT_STOP_PX : 0);
 
         roQuietUntil = performance.now() + 80;
         pin.style.height = `${stickyH + overflow}px`;
@@ -208,6 +232,7 @@ export function ProgramsScrollSection({
           header,
           stickyH,
           overflow,
+          travel: railTravel,
           focusInset,
           heroScale,
         };
@@ -219,6 +244,7 @@ export function ProgramsScrollSection({
           header,
           stickyH,
           overflow,
+          travel: overflow,
           focusInset,
           heroScale,
         };
@@ -253,37 +279,55 @@ export function ProgramsScrollSection({
     }
 
     function update() {
-      const { header, overflow } = metricsRef.current;
+      const { header, overflow, travel } = metricsRef.current;
       const y = pageScroll();
       const start = pin.getBoundingClientRect().top + y;
       const end = start + overflow;
+      const railTravel = travel > 0 ? travel : overflow;
 
       let mode: PinMode = "before";
-      let progress = 0;
+      let pinProgress = 0;
+      let railProgress = 0;
 
       if (overflow <= 0 || y < start) {
         mode = "before";
-        progress = 0;
+        pinProgress = 0;
+        railProgress = 0;
       } else if (y >= end) {
         mode = "after";
-        progress = 1;
+        pinProgress = 1;
+        railProgress = 1;
       } else {
         mode = "pinning";
-        progress = (y - start) / overflow;
+        pinProgress = (y - start) / overflow;
+        // Rail parks over `travel`, then holds during the soft-stop buffer.
+        const rawRail =
+          railTravel <= 0 ? 1 : Math.min(1, Math.max(0, (y - start) / railTravel));
+        // Ease hard into the park, then soft-stop buffer holds before release.
+        const eased = smootherstep(rawRail);
+        railProgress = 1 - (1 - eased) ** 1.35;
       }
 
       setPinMode((prev) => (prev === mode ? prev : mode));
       if (mode === "pinning") {
-        sticky.style.top = `${header}px`;
+        sticky.style.top = "0px";
         sticky.style.width = `${pin.clientWidth}px`;
+        setRailChrome(true, header);
+      } else if (mode === "after") {
+        sticky.style.top = "";
+        sticky.style.width = "";
+        setRailChrome(true, header);
       } else {
         sticky.style.top = "";
         sticky.style.width = "";
+        setRailChrome(false);
       }
 
-      track.style.setProperty("--rail-x", `${-(progress * overflow)}px`);
-      fill?.style.setProperty("--rail-progress", String(progress));
-      updateFocus(progress);
+      track.style.setProperty("--rail-x", `${-(railProgress * railTravel)}px`);
+      fill?.style.setProperty("--rail-progress", String(pinProgress));
+      stage?.style.setProperty("--rail-progress", String(pinProgress));
+      sticky.style.setProperty("--rail-progress", String(pinProgress));
+      updateFocus(railProgress);
     }
 
     function onScroll() {
@@ -346,76 +390,119 @@ export function ProgramsScrollSection({
             <p className={styles.eye}>{eyebrow}</p>
             <h2 id={headingId}>{heading}</h2>
             <p className={styles.secLead}>{lead}</p>
+            {enabled ? (
+              <div className={styles.railCue} aria-hidden="true">
+                <span className={styles.railCueMark}>
+                  <span className={styles.railCueWheel} />
+                </span>
+                <p className={styles.railCueCopy}>
+                  Scroll — each stage waits ahead
+                </p>
+              </div>
+            ) : null}
           </div>
 
           <div
-            ref={viewportRef}
-            className={enabled ? styles.tilesViewport : undefined}
+            ref={stageRef}
+            className={enabled ? styles.railStage : undefined}
           >
+            {enabled ? (
+              <span className={`${styles.railArrow} ${styles.railArrowPrev}`} aria-hidden="true">
+                <svg viewBox="0 0 24 24" width="22" height="22" fill="none" aria-hidden="true">
+                  <path
+                    d="M15 5L8 12l7 7"
+                    stroke="currentColor"
+                    strokeWidth="2.2"
+                    strokeLinecap="round"
+                    strokeLinejoin="round"
+                  />
+                </svg>
+              </span>
+            ) : null}
+
             <div
-              ref={trackRef}
-              className={`${styles.tiles}${enabled ? ` ${styles.tilesRail}` : ""}`}
+              ref={viewportRef}
+              className={enabled ? styles.tilesViewport : undefined}
             >
-              {enabled ? (
-                <aside
-                  className={styles.railBookend}
-                  data-rail-bookend="intro"
-                  aria-hidden="true"
-                >
-                  <div className={styles.railBookendArt}>
-                    <span className={styles.railOrbit} />
-                    <span
-                      className={`${styles.railOrbit} ${styles.railOrbit2}`}
-                    />
-                    <span className={styles.railPulse} />
-                    <div className={styles.railBookendCopy}>
-                      <span className={styles.railBookendLogo} />
-                      <p className={styles.railBookendEye}>Life stages</p>
-                      <p className={styles.railBookendTitle}>
-                        Scroll through
-                        <br />
-                        every first day
-                      </p>
+              <div
+                ref={trackRef}
+                className={`${styles.tiles}${enabled ? ` ${styles.tilesRail}` : ""}`}
+              >
+                {enabled ? (
+                  <aside
+                    className={styles.railBookend}
+                    data-rail-bookend="intro"
+                    aria-hidden="true"
+                  >
+                    <div className={styles.railBookendArt}>
+                      <span className={styles.railOrbit} />
+                      <span
+                        className={`${styles.railOrbit} ${styles.railOrbit2}`}
+                      />
+                      <span className={styles.railPulse} />
+                      <div className={styles.railBookendCopy}>
+                        <span className={styles.railBookendLogo} />
+                        <p className={styles.railBookendEye}>Life stages</p>
+                        <p className={styles.railBookendTitle}>
+                          Scroll through
+                          <br />
+                          every first day
+                        </p>
+                      </div>
                     </div>
-                  </div>
-                </aside>
-              ) : null}
+                  </aside>
+                ) : null}
 
-              {enabled
-                ? cards.map((child, i) => (
-                    <div key={i} className={styles.railCard} data-rail-card>
-                      {child}
-                    </div>
-                  ))
-                : children}
+                {enabled
+                  ? cards.map((child, i) => (
+                      <div key={i} className={styles.railCard} data-rail-card>
+                        {child}
+                      </div>
+                    ))
+                  : children}
 
-              {enabled ? (
-                <aside
-                  className={`${styles.railBookend} ${styles.railBookendOutro}`}
-                  data-rail-bookend="outro"
-                  aria-hidden="true"
-                >
-                  <div className={styles.railBookendArt}>
-                    <span className={styles.railOrbit} />
-                    <span
-                      className={`${styles.railOrbit} ${styles.railOrbit2}`}
-                    />
-                    <span className={styles.railPulse} />
-                    <div className={styles.railBookendCopy}>
-                      <span className={styles.railBookendLogo} />
-                      <p className={styles.railBookendEye}>
-                        Ready when you are
-                      </p>
-                      <p className={styles.railBookendTitle}>
-                        Pick a START
-                        <br />
-                        and go deeper
-                      </p>
+                {enabled ? (
+                  <aside
+                    className={`${styles.railBookend} ${styles.railBookendOutro}`}
+                    data-rail-bookend="outro"
+                    aria-hidden="true"
+                  >
+                    <div className={styles.railBookendArt}>
+                      <span className={styles.railOrbit} />
+                      <span
+                        className={`${styles.railOrbit} ${styles.railOrbit2}`}
+                      />
+                      <span className={styles.railPulse} />
+                      <div className={styles.railBookendCopy}>
+                        <span className={styles.railBookendLogo} />
+                        <p className={styles.railBookendEye}>
+                          Ready when you are
+                        </p>
+                        <p className={styles.railBookendTitle}>
+                          Pick a START
+                          <br />
+                          and go deeper
+                        </p>
+                      </div>
                     </div>
-                  </div>
-                </aside>
-              ) : null}
+                  </aside>
+                ) : null}
+              </div>
             </div>
+
+            {enabled ? (
+              <span className={`${styles.railArrow} ${styles.railArrowNext}`} aria-hidden="true">
+                <svg viewBox="0 0 24 24" width="22" height="22" fill="none" aria-hidden="true">
+                  <path
+                    d="M9 5l7 7-7 7"
+                    stroke="currentColor"
+                    strokeWidth="2.2"
+                    strokeLinecap="round"
+                    strokeLinejoin="round"
+                  />
+                </svg>
+              </span>
+            ) : null}
           </div>
 
           {enabled ? (
