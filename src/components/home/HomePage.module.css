@@ -5,8 +5,139 @@
 }
 
 .hero {
+  position: relative;
   padding: 0 0 48px;
   background: var(--bg);
+}
+
+/* Always-on hero SCROLL cue (dcode.gr hero__scroll pattern).
+   Fixed to the first viewport; fades out once the hero leaves. */
+.heroScroll {
+  position: fixed;
+  z-index: 30;
+  left: 50%;
+  bottom: calc(1.15rem + env(safe-area-inset-bottom, 0px));
+  transform: translateX(-50%) translateY(0.5rem);
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 0.45rem;
+  color: color-mix(in srgb, var(--ink) 62%, transparent);
+  font: 700 0.65rem / 1 var(--body);
+  letter-spacing: 0.16em;
+  text-transform: uppercase;
+  text-decoration: none;
+  opacity: 0;
+  visibility: hidden;
+  pointer-events: none;
+  transition:
+    opacity 0.45s ease,
+    transform 0.45s ease,
+    visibility 0.45s ease;
+}
+
+.heroScrollOn {
+  opacity: 1;
+  visibility: visible;
+  pointer-events: auto;
+  transform: translateX(-50%) translateY(0);
+  animation: heroScrollRise 1s ease 0.35s both;
+}
+
+.heroScroll:hover,
+.heroScroll:focus-visible {
+  color: var(--ink);
+}
+
+.heroScroll:focus-visible {
+  outline: 2px solid var(--stdot);
+  outline-offset: 6px;
+}
+
+.heroScrollMouse {
+  position: relative;
+  width: 1.35rem;
+  height: 2.15rem;
+  border: 1.5px solid color-mix(in srgb, var(--ink) 55%, transparent);
+  border-radius: 999px;
+  box-sizing: border-box;
+  background: color-mix(in srgb, var(--bg) 55%, transparent);
+}
+
+.heroScrollWheel {
+  position: absolute;
+  left: 50%;
+  top: 0.35rem;
+  width: 0.2rem;
+  height: 0.38rem;
+  margin-left: -0.1rem;
+  border-radius: 999px;
+  background: var(--stdot);
+  animation: heroScrollWheel 1.7s ease-in-out infinite;
+}
+
+.heroScrollLine {
+  width: 1px;
+  height: 2.25rem;
+  background: linear-gradient(to bottom, var(--stdot), transparent);
+  animation: heroScrollPulse 1.8s ease-in-out infinite;
+}
+
+@keyframes heroScrollRise {
+  from {
+    opacity: 0;
+    transform: translateX(-50%) translateY(0.5rem);
+  }
+  to {
+    opacity: 1;
+    transform: translateX(-50%) translateY(0);
+  }
+}
+
+@keyframes heroScrollWheel {
+  0%,
+  100% {
+    transform: translateY(0);
+    opacity: 1;
+  }
+  55% {
+    transform: translateY(0.45rem);
+    opacity: 0.2;
+  }
+}
+
+@keyframes heroScrollPulse {
+  0%,
+  100% {
+    opacity: 0.95;
+    transform: scaleY(1);
+  }
+  55% {
+    opacity: 0.45;
+    transform: scaleY(0.72);
+  }
+}
+
+@media (prefers-reduced-motion: reduce) {
+  .heroScrollOn {
+    animation: none;
+  }
+
+  .heroScrollWheel,
+  .heroScrollLine {
+    animation: none;
+  }
+}
+
+@media (max-width: 760px) {
+  .heroScroll {
+    bottom: calc(0.75rem + env(safe-area-inset-bottom, 0px));
+    gap: 0.3rem;
+  }
+
+  .heroScrollLine {
+    height: 1.35rem;
+  }
 }
 
 .photo {
@@ -135,6 +266,7 @@
 }
 
 .section {
+  position: relative;
   padding: 64px 0 40px;
 }
 
@@ -165,6 +297,10 @@
   position: relative;
   padding-top: 12px;
   padding-bottom: 0;
+}
+
+.scrollHintHost {
+  position: relative;
 }
 
 .programsSticky {

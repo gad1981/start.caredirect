@@ -427,7 +427,7 @@ export function ProgramsScrollSection({
     >
       <div
         ref={stickyRef}
-        className={enabled ? styles.programsSticky : undefined}
+        className={`${styles.scrollHintHost}${enabled ? ` ${styles.programsSticky}` : ""}`}
       >
         <div className={styles.wrap}>
           <div ref={headRef} className={styles.programsHead}>

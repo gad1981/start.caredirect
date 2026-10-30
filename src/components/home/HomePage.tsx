@@ -8,6 +8,8 @@ import { getProgramBrand } from "@/lib/program-brands";
 import { platformShotForUrl } from "@/lib/platforms";
 import { getProgramById, padNum, programTileSrc } from "@/lib/programs";
 import { withTbc } from "@/lib/tbc";
+import { IdleScrollHint } from "@/components/IdleScrollHint";
+import { HeroScrollCue } from "./HeroScrollCue";
 import { HowStepIcon } from "./HowStepIcon";
 import { ProgramFlipTile } from "./ProgramFlipTile";
 import { ProgramsScrollSection } from "./ProgramsScrollSection";
@@ -41,7 +43,7 @@ export async function HomePage({ locale }: { locale: Locale }) {
 
   return (
     <>
-      <section className={styles.hero} aria-labelledby="home-h1">
+      <section className={styles.hero} data-hero aria-labelledby="home-h1">
         <div className={styles.photo}>
           <Image
             src="/assets/heroes/home-hero-authentic-family.png"
@@ -73,6 +75,7 @@ export async function HomePage({ locale }: { locale: Locale }) {
             </div>
           </div>
         </div>
+        <HeroScrollCue href="#programs" />
       </section>
 
       <ProgramsScrollSection
@@ -239,6 +242,8 @@ export async function HomePage({ locale }: { locale: Locale }) {
           />
         </div>
       </section>
+
+      <IdleScrollHint label="Keep scrolling to explore" />
     </>
   );
 }
