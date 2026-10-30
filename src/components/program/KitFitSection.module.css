@@ -257,9 +257,11 @@
 }
 
 .seeHowPanelInner {
+  /* Keep overflow hidden for the 0fr/1fr collapse; pad the bottom so
+     image drop-shadows are not clipped into a hard dark shelf. */
   overflow: hidden;
   min-height: 0;
-  padding: 4px 2px 2px;
+  padding: 4px 2px 28px;
 }
 
 @media (prefers-reduced-motion: reduce) {

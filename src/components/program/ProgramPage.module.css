@@ -702,13 +702,14 @@
   flex-wrap: wrap;
   align-items: flex-end;
   gap: 14px;
+  /* Room under the row so soft phone shadows are not hard-clipped. */
+  padding-bottom: 6px;
 }
 
 .platformShot {
-  position: relative;
   display: grid;
   gap: 8px;
-  width: auto;
+  width: min(118px, 28vw);
   justify-items: center;
   text-decoration: none;
   color: inherit;
@@ -718,40 +719,11 @@
 .platformShot:hover,
 .platformShot:focus-visible {
   transform: translateY(-3px);
-  z-index: 2;
 }
 
-.platformShotBlurb {
-  position: absolute;
-  left: 50%;
-  bottom: calc(100% - 6px);
-  transform: translateX(-50%) translateY(4px);
-  width: min(220px, 70vw);
-  padding: 10px 12px;
-  border-radius: 12px;
-  background: color-mix(in srgb, var(--ink) 92%, transparent);
-  color: #f7f5f1;
-  font: 500 12.5px / 1.35 var(--body);
-  text-align: center;
-  letter-spacing: 0.01em;
-  box-shadow: 0 14px 28px -16px rgba(20, 16, 12, 0.55);
-  opacity: 0;
-  visibility: hidden;
-  pointer-events: none;
-  transition:
-    opacity 160ms ease,
-    transform 160ms ease,
-    visibility 160ms ease;
-}
-
-.platformShot:hover .platformShotBlurb,
-.platformShot:focus-visible .platformShotBlurb {
-  opacity: 1;
-  visibility: visible;
-  transform: translateX(-50%) translateY(0);
-}
-
-/* Same display height as booklet covers (.guideCover). */
+/* Same display height as booklet covers (.guideCover).
+   No filter:drop-shadow — Chrome clips drop-shadow on <img>
+   (overflow:clip) into a hard black bar under the phone row. */
 .platformShotImg {
   width: auto;
   height: var(--insight-cover-h);
@@ -759,7 +731,14 @@
   object-fit: contain;
   background: transparent;
   border-radius: 0;
-  filter: drop-shadow(0 10px 18px rgba(40, 30, 20, 0.18));
+  filter: none;
+}
+
+.platformShotCaption {
+  display: grid;
+  gap: 4px;
+  width: 100%;
+  text-align: center;
 }
 
 .platformShotName {
@@ -767,10 +746,38 @@
   color: var(--muted);
 }
 
+/* Caption under the name — never an absolute dark tip overlay. */
+.platformShotBlurb {
+  margin: 0;
+  padding: 0;
+  font: 500 11.5px / 1.35 var(--body);
+  color: var(--muted);
+  background: transparent;
+  border: 0;
+  box-shadow: none;
+  position: static;
+  max-height: 0;
+  opacity: 0;
+  overflow: hidden;
+  transition:
+    max-height 200ms ease,
+    opacity 160ms ease;
+}
+
+.platformShot:hover .platformShotBlurb,
+.platformShot:focus-visible .platformShotBlurb {
+  max-height: 7.5em;
+  opacity: 1;
+}
+
 @media (hover: none) {
-  /* Touch: keep native title; skip floating tip that would cover the shot. */
+  /* Touch: show a short blurb under the name; full text stays in title. */
   .platformShotBlurb {
-    display: none;
+    max-height: none;
+    opacity: 1;
+    display: -webkit-box;
+    -webkit-line-clamp: 3;
+    -webkit-box-orient: vertical;
   }
 }
 

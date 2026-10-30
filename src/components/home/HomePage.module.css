@@ -159,6 +159,267 @@
   margin-top: 28px;
 }
 
+/* Desktop scroll-pin rail — title stays inside the pinned block. */
+.programsPin {
+  /* Height is set in JS = sticky viewport + horizontal overflow. */
+  position: relative;
+  padding-top: 12px;
+  padding-bottom: 0;
+}
+
+.programsSticky {
+  position: relative;
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-start;
+  overflow: hidden;
+  box-sizing: border-box;
+  padding: 4px 0 88px;
+  background: var(--bg);
+}
+
+.programsPinning .programsSticky {
+  position: fixed;
+  left: 0;
+  right: 0;
+  z-index: 5;
+  margin: 0 auto;
+}
+
+.programsAfter .programsSticky {
+  position: absolute;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  top: auto;
+}
+
+.programsSticky .wrap {
+  width: 100%;
+}
+
+.programsHead {
+  margin-bottom: 18px;
+}
+
+.programsHead .secLead {
+  margin-bottom: 0;
+}
+
+.tilesViewport {
+  /* Hero scales inside this stage only. */
+  overflow: hidden;
+  margin-top: 0;
+  padding: 0;
+  display: flex;
+  align-items: center;
+  margin-right: calc(18px - min(18px, (100vw - var(--content)) / 2));
+}
+
+.tilesRail {
+  display: flex;
+  flex-wrap: nowrap;
+  align-items: center;
+  /* Extra gap absorbs hero scale so enlarged cards don't stick to neighbors. */
+  gap: calc(
+    18px + (var(--rail-hero-scale, 1) - 1) * min(248px, 23vw) / 2
+  );
+  margin-top: 0;
+  width: max-content;
+  will-change: transform;
+  transform: translate3d(var(--rail-x, 0px), 0, 0);
+}
+
+.railCard {
+  flex: 0 0 min(248px, 23vw);
+  width: min(248px, 23vw);
+  max-width: 248px;
+  margin: 0;
+  position: relative;
+  transform: scale(var(--card-focus, 1));
+  transform-origin: center center;
+  filter:
+    grayscale(var(--card-gray, 1))
+    brightness(var(--card-bright, 1));
+  transition: transform 160ms ease, filter 160ms ease;
+  will-change: transform, filter;
+}
+
+.railCard[data-hero] {
+  z-index: 5;
+}
+
+.railCard > * {
+  width: 100%;
+  max-width: none;
+}
+
+/* Lead-in / lead-out — always normal card size (never the hero scale). */
+.railBookend {
+  flex: 0 0 min(248px, 23vw);
+  width: min(248px, 23vw);
+  max-width: 248px;
+  align-self: center;
+  display: flex;
+  align-items: center;
+  position: relative;
+  z-index: 0;
+  margin-right: 4px;
+  transform: none;
+  filter: none;
+  opacity: 1;
+}
+
+.railBookendOutro {
+  margin-right: 0;
+  margin-left: 4px;
+}
+
+.railBookendArt {
+  position: relative;
+  width: 100%;
+  aspect-ratio: 1122 / 1402;
+  max-height: 100%;
+  border-radius: 22px;
+  overflow: hidden;
+  background:
+    radial-gradient(
+      120% 80% at 20% 15%,
+      color-mix(in srgb, var(--stdot) 28%, transparent),
+      transparent 55%
+    ),
+    linear-gradient(
+      155deg,
+      color-mix(in srgb, var(--ink) 8%, var(--bg)) 0%,
+      color-mix(in srgb, var(--ink) 4%, var(--bg)) 100%
+    );
+  border: 1px solid color-mix(in srgb, var(--ink) 10%, transparent);
+  display: grid;
+  place-items: center;
+  isolation: isolate;
+}
+
+.railBookendOutro .railBookendArt {
+  background:
+    radial-gradient(
+      100% 70% at 80% 80%,
+      color-mix(in srgb, var(--stdot) 22%, transparent),
+      transparent 50%
+    ),
+    linear-gradient(
+      205deg,
+      color-mix(in srgb, var(--ink) 7%, var(--bg)) 0%,
+      color-mix(in srgb, var(--ink) 3%, var(--bg)) 100%
+    );
+}
+
+.railOrbit {
+  position: absolute;
+  inset: 18% 14%;
+  border-radius: 50%;
+  border: 1px solid color-mix(in srgb, var(--ink) 18%, transparent);
+  animation: railSpin 28s linear infinite;
+  pointer-events: none;
+}
+
+.railOrbit2 {
+  inset: 28% 24%;
+  border-style: dashed;
+  opacity: 0.7;
+  animation-duration: 40s;
+  animation-direction: reverse;
+}
+
+.railPulse {
+  position: absolute;
+  width: 12px;
+  height: 12px;
+  border-radius: 50%;
+  background: var(--stdot);
+  box-shadow: 0 0 0 0 color-mix(in srgb, var(--stdot) 55%, transparent);
+  animation: railPulse 2.4s ease-out infinite;
+  top: 42%;
+  left: 58%;
+  z-index: 1;
+}
+
+.railBookendOutro .railPulse {
+  top: 58%;
+  left: 38%;
+  animation-delay: 0.6s;
+}
+
+.railBookendCopy {
+  position: relative;
+  z-index: 2;
+  text-align: center;
+  padding: 0.85rem;
+  max-width: 11rem;
+}
+
+.railBookendEye {
+  margin: 0 0 0.4rem;
+  font: 650 10px / 1.2 var(--body);
+  letter-spacing: 0.12em;
+  text-transform: uppercase;
+  color: color-mix(in srgb, var(--ink) 55%, transparent);
+}
+
+.railBookendTitle {
+  margin: 0;
+  font: 750 clamp(0.95rem, 1.4vw, 1.15rem) / 1.2 var(--display);
+  letter-spacing: -0.03em;
+  color: var(--ink);
+}
+
+@keyframes railSpin {
+  to {
+    transform: rotate(360deg);
+  }
+}
+
+@keyframes railPulse {
+  0% {
+    box-shadow: 0 0 0 0 color-mix(in srgb, var(--stdot) 50%, transparent);
+  }
+  70% {
+    box-shadow: 0 0 0 18px transparent;
+  }
+  100% {
+    box-shadow: 0 0 0 0 transparent;
+  }
+}
+
+@media (prefers-reduced-motion: reduce) {
+  .railOrbit,
+  .railOrbit2,
+  .railPulse {
+    animation: none;
+  }
+}
+
+.railScrollbar {
+  position: relative;
+  z-index: 8;
+  height: 4px;
+  margin: 14px 0 0;
+  border-radius: 999px;
+  background: color-mix(in srgb, var(--ink) 12%, transparent);
+  overflow: hidden;
+}
+
+.railScrollbarFill {
+  position: absolute;
+  inset: 0 auto 0 0;
+  width: 100%;
+  height: 100%;
+  border-radius: inherit;
+  background: #161618;
+  transform: scaleX(var(--rail-progress, 0));
+  transform-origin: left center;
+  will-change: transform;
+}
+
 .tile {
   position: relative;
   display: flex;
@@ -338,7 +599,7 @@
   visibility: hidden;
 }
 
-/* Desktop: hover flip */
+/* Desktop: hover flip — only the focused rail card (data-hero) flips */
 @media (hover: hover) and (pointer: fine) {
   .tileFlip:hover {
     z-index: 2;
@@ -352,6 +613,18 @@
   .tileFlip:hover .flipFront,
   .tileFlip:focus-visible .flipFront {
     visibility: hidden;
+  }
+
+  .railCard:not([data-hero]) .tileFlip:hover {
+    z-index: 1;
+  }
+
+  .railCard:not([data-hero]) .tileFlip:hover .flipInner {
+    transform: none;
+  }
+
+  .railCard:not([data-hero]) .tileFlip:hover .flipFront {
+    visibility: visible;
   }
 }
 
@@ -915,8 +1188,56 @@
   }
 }
 
-/* Tablet: still two-up, tighter phones. */
+/* Tablet: still two-up, tighter phones. No scroll-pin rail. */
 @media (max-width: 900px) {
+  .programsPin,
+  .programsPinning .programsSticky,
+  .programsAfter .programsSticky,
+  .programsSticky {
+    height: auto !important;
+    position: static !important;
+    top: auto !important;
+    bottom: auto !important;
+    left: auto !important;
+    right: auto !important;
+    width: auto !important;
+    overflow: visible;
+    padding: 0;
+    background: transparent;
+  }
+
+  .tilesViewport {
+    overflow: visible;
+    margin-right: 0;
+    padding: 0;
+    height: auto !important;
+  }
+
+  .tilesRail {
+    display: grid;
+    grid-template-columns: repeat(2, minmax(0, 1fr));
+    width: auto;
+    transform: none !important;
+    will-change: auto;
+    padding-right: 0 !important;
+    gap: 14px;
+  }
+
+  .railCard {
+    flex: none;
+    width: auto;
+    max-width: none;
+    margin: 0;
+    transform: none !important;
+    opacity: 1 !important;
+    filter: none !important;
+  }
+
+  .railBookend,
+  .railScrollbar {
+    display: none;
+  }
+
   .stats,
   .tiles,
   .steps {

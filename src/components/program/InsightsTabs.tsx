@@ -180,9 +180,6 @@ export function InsightsTabs({
                         rel="noopener noreferrer"
                         title={`${p.name} — ${p.blurb}`}
                       >
-                        <span className={styles.platformShotBlurb} aria-hidden>
-                          {p.blurb}
-                        </span>
                         <Image
                           src={p.src}
                           alt={p.alt}
@@ -192,8 +189,13 @@ export function InsightsTabs({
                           sizes="(max-width: 600px) 28vw, 110px"
                           unoptimized
                         />
-                        <span className={styles.platformShotName}>
-                          {p.name}
+                        <span className={styles.platformShotCaption}>
+                          <span className={styles.platformShotName}>
+                            {p.name}
+                          </span>
+                          <span className={styles.platformShotBlurb}>
+                            {p.blurb}
+                          </span>
                         </span>
                       </a>
                     ))}

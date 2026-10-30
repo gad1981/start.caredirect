@@ -10,6 +10,7 @@ import { getProgramById, padNum, programTileSrc } from "@/lib/programs";
 import { withTbc } from "@/lib/tbc";
 import { HowStepIcon } from "./HowStepIcon";
 import { ProgramFlipTile } from "./ProgramFlipTile";
+import { ProgramsScrollSection } from "./ProgramsScrollSection";
 import styles from "./HomePage.module.css";
 
 export async function HomePage({ locale }: { locale: Locale }) {
@@ -74,68 +75,66 @@ export async function HomePage({ locale }: { locale: Locale }) {
         </div>
       </section>
 
-      <section className={styles.section} id="programs" aria-labelledby="programs-h2">
-        <div className={styles.wrap}>
-          <p className={styles.eye}>{startHome.programs.eyebrow}</p>
-          <h2 id="programs-h2">{startHome.programs.h2}</h2>
-          <p className={styles.secLead}>{startHome.programs.lead}</p>
-          <div className={styles.tiles}>
-            {stages.map((s) => {
-              const brand = getProgramBrand(s.id);
-              const href = localePath(locale, `/${s.prog.slug}/`);
-              const tileSrc = programTileSrc(s.prog.assetKey);
-              if (brand) {
-                return (
-                  <ProgramFlipTile
-                    key={s.id}
-                    brand={brand}
-                    exploreLabel={messages.explore}
-                    stage={{
-                      id: s.id,
-                      name: s.name,
-                      when: s.when,
-                      where: s.where,
-                      desc: s.desc,
-                      tagline: taglines[s.id] ?? s.tagline,
-                      hands: s.hands,
-                      online: s.online,
-                      n: s.n,
-                      tileSrc,
-                      href,
-                    }}
-                  />
-                );
-              }
-              return (
-                <AppLink key={s.id} className={styles.tile} href={href}>
-                  <Image
-                    src={tileSrc}
-                    alt=""
-                    fill
-                    quality={90}
-                    sizes="(max-width:600px) 100vw, (max-width:900px) 50vw, 25vw"
-                  />
-                  <span className={styles.tileShade} aria-hidden />
-                  <div className={styles.tileTop}>
-                    <span className={styles.num} aria-hidden>
-                      {s.n}
-                    </span>
-                  </div>
-                  <div className={styles.tileBody}>
-                    <span className={styles.when}>{withTbc(s.when)}</span>
-                    <h3 className={styles.tileName}>{s.name}</h3>
-                    <p className={styles.tileDesc}>{withTbc(s.desc)}</p>
-                    <div className={styles.tileFoot}>
-                      <span>{withTbc(s.where)}</span>
-                      <span>{messages.explore}</span>
-                    </div>
-                  </div>
-                </AppLink>
-              );
-            })}
-          </div>
-        </div>
-      </section>
+      <ProgramsScrollSection
+        eyebrow={startHome.programs.eyebrow}
+        headingId="programs-h2"
+        heading={startHome.programs.h2}
+        lead={startHome.programs.lead}
+      >
+        {stages.map((s) => {
+          const brand = getProgramBrand(s.id);
+          const href = localePath(locale, `/${s.prog.slug}/`);
+          const tileSrc = programTileSrc(s.prog.assetKey);
+          if (brand) {
+            return (
+              <ProgramFlipTile
+                key={s.id}
+                brand={brand}
+                exploreLabel={messages.explore}
+                stage={{
+                  id: s.id,
+                  name: s.name,
+                  when: s.when,
+                  where: s.where,
+                  desc: s.desc,
+                  tagline: taglines[s.id] ?? s.tagline,
+                  hands: s.hands,
+                  online: s.online,
+                  n: s.n,
+                  tileSrc,
+                  href,
+                }}
+              />
+            );
+          }
+          return (
+            <AppLink key={s.id} className={styles.tile} href={href}>
+              <Image
+                src={tileSrc}
+                alt=""
+                fill
+                quality={90}
+                sizes="(max-width:600px) 100vw, (max-width:900px) 50vw, 25vw"
+              />
+              <span className={styles.tileShade} aria-hidden />
+              <div className={styles.tileTop}>
+                <span className={styles.num} aria-hidden>
+                  {s.n}
+                </span>
+              </div>
+              <div className={styles.tileBody}>
+                <span className={styles.when}>{withTbc(s.when)}</span>
+                <h3 className={styles.tileName}>{s.name}</h3>
+                <p className={styles.tileDesc}>{withTbc(s.desc)}</p>
+                <div className={styles.tileFoot}>
+                  <span>{withTbc(s.where)}</span>
+                  <span>{messages.explore}</span>
+                </div>
+              </div>
+            </AppLink>
+          );
+        })}
+      </ProgramsScrollSection>
 
       <section className={styles.section} id="how" aria-labelledby="how-h2">
         <div className={styles.wrap}>
