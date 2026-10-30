@@ -14,15 +14,9 @@ const MOTION_MQ = "(prefers-reduced-motion: reduce)";
 /** Focus line as a fraction of the rail viewport width (left of center). */
 const FOCUS_INSET = 0.22;
 /** Pull focus forward so the next card (from the right) takes over sooner. */
-const FOCUS_LEAD = 0.45;
-/** Extra pin scroll after the rail parks — softens the release bump. */
-const SOFT_STOP_PX = 260;
-
-function smootherstep(t: number) {
-  const x = Math.min(1, Math.max(0, t));
-  // Perlin smootherstep — gentler settle at both ends than smoothstep.
-  return x * x * x * (x * (x * 6 - 15) + 10);
-}
+const FOCUS_LEAD = 0.15;
+/** Extra scroll at the start while the first card stays put. */
+const START_HOLD_PX = 240;
 
 type PinMode = "before" | "pinning" | "after";
 
@@ -55,11 +49,14 @@ export function ProgramsScrollSection({
     stickyH: 0,
     overflow: 0,
     travel: 0,
+    stickyInset: 0,
     focusInset: 0,
     heroScale: 1.25,
   });
+  const pinModeRef = useRef<PinMode>("before");
+  const pinStartYRef = useRef(0);
+  const pinTopRef = useRef(0);
   const [enabled, setEnabled] = useState(false);
-  const [pinMode, setPinMode] = useState<PinMode>("before");
 
   useEffect(() => {
     const desktopMq = window.matchMedia(DESKTOP_MQ);
@@ -110,11 +107,27 @@ export function ProgramsScrollSection({
       }
     }
 
+    function applyPinMode(mode: PinMode) {
+      pinModeRef.current = mode;
+      pin.classList.toggle(styles.programsPinning, mode === "pinning");
+      pin.classList.toggle(styles.programsAfter, mode === "after");
+    }
+
+    function clearStickyPinStyles() {
+      sticky.style.position = "";
+      sticky.style.top = "";
+      sticky.style.bottom = "";
+      sticky.style.left = "";
+      sticky.style.right = "";
+      sticky.style.width = "";
+      sticky.style.zIndex = "";
+      sticky.style.margin = "";
+    }
+
     function resetInline() {
       pin.style.height = "";
       sticky.style.height = "";
-      sticky.style.top = "";
-      sticky.style.width = "";
+      clearStickyPinStyles();
       viewport.style.height = "";
       track.style.removeProperty("--rail-x");
       track.style.removeProperty("--rail-hero-scale");
@@ -124,7 +137,9 @@ export function ProgramsScrollSection({
       stage?.style.setProperty("--rail-progress", "0");
       setRailChrome(false);
       clearCardFocus();
-      setPinMode("before");
+      applyPinMode("before");
+      pinStartYRef.current = 0;
+      pinTopRef.current = 0;
     }
 
     if (!enabled) {
@@ -139,13 +154,9 @@ export function ProgramsScrollSection({
       return document.querySelector("header")?.getBoundingClientRect().height ?? 0;
     }
 
-    function setRailChrome(active: boolean, chrome = 0) {
+    function setRailChrome(active: boolean) {
       document.documentElement.toggleAttribute("data-programs-rail", active);
-      if (active) {
-        sticky.style.setProperty("--programs-chrome", `${chrome}px`);
-      } else {
-        sticky.style.removeProperty("--programs-chrome");
-      }
+      sticky.style.removeProperty("--programs-chrome");
     }
 
     function pageScroll() {
@@ -160,10 +171,9 @@ export function ProgramsScrollSection({
 
     function layout() {
       const header = headerHeight();
-      // Full viewport stage so parchment runs under the transparent header.
-      const stickyH = Math.max(window.innerHeight, 420);
+      // Sit under the header — avoids a padding jump/clip when pinning starts.
+      const stickyH = Math.max(window.innerHeight - header, 420);
       sticky.style.height = `${stickyH}px`;
-      sticky.style.setProperty("--programs-chrome", `${header}px`);
 
       track.style.setProperty("--rail-x", "0px");
       track.style.paddingLeft = "0px";
@@ -175,7 +185,7 @@ export function ProgramsScrollSection({
       const stageGap = 10;
       const maxStage = Math.max(
         260,
-        stickyH - header - headH - topPad - bottomPad - stageGap - 8,
+        stickyH - headH - topPad - bottomPad - stageGap - 8,
       );
 
       // Measure cards at natural size first (stage height set below).
@@ -214,15 +224,16 @@ export function ProgramsScrollSection({
         }
 
         const lastMid = layoutMid(last);
-        // Park the last card near focus, then add a soft-stop scroll buffer.
-        const travel = Math.max(0, lastMid - focusX - cardW * 0.55);
+        // Park the last card near focus; pin adds a start hold for card one.
+        const travel = Math.max(0, lastMid - focusX - cardW * 0.7);
         let natural = Math.max(0, track.scrollWidth - viewport.clientWidth);
         if (travel > natural) {
           track.style.paddingRight = `${16 + (travel - natural)}px`;
           natural = Math.max(0, track.scrollWidth - viewport.clientWidth);
         }
         const railTravel = travel > 0 ? travel : natural;
-        const overflow = railTravel + (railTravel > 0 ? SOFT_STOP_PX : 0);
+        const overflow =
+          railTravel + (railTravel > 0 ? START_HOLD_PX : 0);
 
         roQuietUntil = performance.now() + 80;
         pin.style.height = `${stickyH + overflow}px`;
@@ -232,6 +243,8 @@ export function ProgramsScrollSection({
           stickyH,
           overflow,
           travel: railTravel,
+          // Capture while relative — offsetTop is wrong once fixed.
+          stickyInset: sticky.offsetTop,
           focusInset,
           heroScale,
         };
@@ -244,6 +257,7 @@ export function ProgramsScrollSection({
           stickyH,
           overflow,
           travel: overflow,
+          stickyInset: sticky.offsetTop,
           focusInset,
           heroScale,
         };
@@ -280,47 +294,86 @@ export function ProgramsScrollSection({
     function update() {
       const { header, overflow, travel } = metricsRef.current;
       const y = pageScroll();
-      const start = pin.getBoundingClientRect().top + y;
-      const end = start + overflow;
       const railTravel = travel > 0 ? travel : overflow;
-
-      let mode: PinMode = "before";
+      let mode = pinModeRef.current;
       let pinProgress = 0;
-      let railProgress = 0;
 
-      if (overflow <= 0 || y < start) {
+      if (overflow <= 0) {
         mode = "before";
         pinProgress = 0;
-        railProgress = 0;
-      } else if (y >= end) {
-        mode = "after";
-        pinProgress = 1;
-        railProgress = 1;
+      } else if (mode === "before") {
+        // Engage only when the sticky itself hits the header — freeze that
+        // exact Y/top so switching to fixed does not nudge content down.
+        const liveTop = sticky.getBoundingClientRect().top;
+        if (liveTop <= header + 0.5) {
+          pinStartYRef.current = y;
+          pinTopRef.current = liveTop;
+          mode = "pinning";
+          pinProgress = 0;
+        }
+      } else if (mode === "pinning") {
+        pinProgress = (y - pinStartYRef.current) / overflow;
+        if (pinProgress >= 1) {
+          mode = "after";
+          pinProgress = 1;
+        } else if (pinProgress < 0 || y < pinStartYRef.current) {
+          mode = "before";
+          pinProgress = 0;
+        }
       } else {
-        mode = "pinning";
-        pinProgress = (y - start) / overflow;
-        // Rail parks over `travel`, then holds during the soft-stop buffer.
-        const rawRail =
-          railTravel <= 0 ? 1 : Math.min(1, Math.max(0, (y - start) / railTravel));
-        // Ease hard into the park, then soft-stop buffer holds before release.
-        const eased = smootherstep(rawRail);
-        railProgress = 1 - (1 - eased) ** 1.35;
+        // after
+        pinProgress = 1;
+        if (y < pinStartYRef.current + overflow) {
+          mode = "pinning";
+          pinProgress = Math.max(
+            0,
+            Math.min(1, (y - pinStartYRef.current) / overflow),
+          );
+        }
+        if (y < pinStartYRef.current) {
+          mode = "before";
+          pinProgress = 0;
+        }
       }
 
-      setPinMode((prev) => (prev === mode ? prev : mode));
+      if (mode !== pinModeRef.current) {
+        applyPinMode(mode);
+      }
+
       if (mode === "pinning") {
-        sticky.style.top = "0px";
+        sticky.style.position = "fixed";
+        sticky.style.top = `${pinTopRef.current}px`;
+        sticky.style.bottom = "auto";
+        sticky.style.left = "0";
+        sticky.style.right = "0";
         sticky.style.width = `${pin.clientWidth}px`;
-        setRailChrome(true, header);
+        sticky.style.zIndex = "5";
+        sticky.style.margin = "0 auto";
+        setRailChrome(true);
       } else if (mode === "after") {
-        sticky.style.top = "";
+        sticky.style.position = "absolute";
+        sticky.style.top = "auto";
+        sticky.style.bottom = "0";
+        sticky.style.left = "0";
+        sticky.style.right = "0";
         sticky.style.width = "";
-        setRailChrome(true, header);
+        sticky.style.zIndex = "5";
+        sticky.style.margin = "";
+        setRailChrome(true);
       } else {
-        sticky.style.top = "";
-        sticky.style.width = "";
+        clearStickyPinStyles();
         setRailChrome(false);
       }
+
+      // First card holds still through START_HOLD_PX, then the rail moves 1:1.
+      const scrolled = Math.max(0, y - pinStartYRef.current);
+      const hold = railTravel > 0 ? START_HOLD_PX : 0;
+      const railProgress =
+        mode === "before"
+          ? 0
+          : railTravel <= 0
+            ? pinProgress
+            : Math.min(1, Math.max(0, (scrolled - hold) / railTravel));
 
       track.style.setProperty("--rail-x", `${-(railProgress * railTravel)}px`);
       fill?.style.setProperty("--rail-progress", String(pinProgress));
@@ -363,19 +416,12 @@ export function ProgramsScrollSection({
     };
   }, [enabled]);
 
-  const modeClass =
-    enabled && pinMode === "pinning"
-      ? ` ${styles.programsPinning}`
-      : enabled && pinMode === "after"
-        ? ` ${styles.programsAfter}`
-        : "";
-
   const cards = Children.toArray(children);
 
   return (
     <section
       ref={pinRef}
-      className={`${styles.section}${enabled ? ` ${styles.programsPin}` : ""}${modeClass}`}
+      className={`${styles.section}${enabled ? ` ${styles.programsPin}` : ""}`}
       id="programs"
       aria-labelledby={headingId}
     >

@@ -176,13 +176,10 @@
   box-sizing: border-box;
   padding: 4px 0 88px;
   background: var(--bg);
-  transition: padding-top 320ms ease;
 }
 
 .programsPinning .programsSticky,
 .programsAfter .programsSticky {
-  /* Same ground as the rest of the site; chrome pad fills under the header. */
-  padding-top: calc(var(--programs-chrome, 0px) + 4px);
   background: var(--bg);
 }
 
