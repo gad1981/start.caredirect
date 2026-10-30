@@ -71,13 +71,19 @@ export function ProgramsScrollSection({
   }, []);
 
   useEffect(() => {
-    const pin = pinRef.current;
-    const sticky = stickyRef.current;
+    const pinEl = pinRef.current;
+    const stickyEl = stickyRef.current;
     const head = headRef.current;
-    const viewport = viewportRef.current;
-    const track = trackRef.current;
+    const viewportEl = viewportRef.current;
+    const trackEl = trackRef.current;
     const fill = fillRef.current;
-    if (!pin || !sticky || !viewport || !track) return;
+    if (!pinEl || !stickyEl || !viewportEl || !trackEl) return;
+
+    // Re-bind as definite HTMLElements so nested closures keep non-null types.
+    const pin: HTMLElement = pinEl;
+    const sticky: HTMLElement = stickyEl;
+    const viewport: HTMLElement = viewportEl;
+    const track: HTMLElement = trackEl;
 
     function cardNodes() {
       return [...track.querySelectorAll<HTMLElement>("[data-rail-card]")];
