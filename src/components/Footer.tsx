@@ -49,6 +49,13 @@ export function Footer({ footerLine }: { footerLine: string }) {
           <FooterLink href={localePath(locale, "/order/")}>
             {messages.orderSamples}
           </FooterLink>
+          <a
+            href="https://babyfirstsong.caredirect.com/"
+            target="_blank"
+            rel="noopener noreferrer"
+          >
+            {messages.createASong}
+          </a>
         </div>
       </div>
       <div className={styles.base}>
