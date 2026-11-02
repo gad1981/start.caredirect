@@ -112,6 +112,11 @@ export async function ProgramPage({
               ) : null}
             </div>
             <div className={styles.heroActions}>
+              {insightRows.length ? (
+                <Button href="#insights-by-market">
+                  {messages.marketsCta}
+                </Button>
+              ) : null}
               <Button href={planHref} accent={Boolean(tone)}>
                 {page.cta}
               </Button>
@@ -144,6 +149,13 @@ export async function ProgramPage({
                   </div>
                 ))}
               </dl>
+              {insightRows.length ? (
+                <div className={styles.sectionActions}>
+                  <Button href="#insights-by-market">
+                    {messages.marketsCta}
+                  </Button>
+                </div>
+              ) : null}
             </div>
           </div>
         </section>
@@ -195,7 +207,11 @@ export async function ProgramPage({
       ) : null}
 
       {insightRows.length ? (
-        <section className={styles.section}>
+        <section
+          className={styles.section}
+          id="insights-by-market"
+          aria-labelledby="markets-heading"
+        >
           <div className={styles.wrap}>
             {plan?.sections?.[2] ? (
               // eslint-disable-next-line @next/next/no-img-element
@@ -226,13 +242,9 @@ export async function ProgramPage({
                 hide: messages.seeHowHide,
                 marketsTitle: messages.marketsTitle,
                 marketsLead: messages.marketsLead,
+                insightsTitle: messages.insightsTitle,
+                insightsLead: messages.insightsLead,
               }}
-              insightsHeading={
-                <>
-                  <h2>{messages.insightsTitle}</h2>
-                  <p className={styles.introLine}>{messages.insightsLead}</p>
-                </>
-              }
             />
           </div>
         </section>

@@ -322,8 +322,17 @@
 
 .heroActions {
   display: flex;
+  flex-wrap: wrap;
   align-items: flex-end;
   justify-content: flex-end;
+  gap: 10px;
+}
+
+.sectionActions {
+  margin-top: 4px;
+  display: flex;
+  flex-wrap: wrap;
+  gap: 10px;
 }
 
 .sticker {
@@ -340,6 +349,7 @@
   padding: 48px 0 12px;
   position: relative;
   background: var(--bg);
+  scroll-margin-top: 5.5rem;
 }
 
 /* Space under the floating title card before About. */
@@ -601,70 +611,15 @@
   margin: 0 0 18px;
 }
 
-.insightsHead {
-  margin-top: 36px;
-}
-
-.insightsHead h2 {
-  margin: 0 0 10px;
-}
-
-.insightsHead .introLine {
-  margin: 0 0 18px;
-}
-
-.insightFacts {
-  margin: 0;
-  display: grid;
-  gap: 10px;
-  width: 100%;
-  min-width: 0;
-}
-
-.insightFact {
-  margin: 0;
-  padding: 14px 18px;
-  border-radius: 18px;
-  background: var(--p1, #f5e8e4);
-  display: flex;
-  justify-content: space-between;
-  gap: 16px;
-  align-items: baseline;
-}
-
-.insightFact:nth-child(2) {
-  background: var(--p2, #fff6ea);
-}
-
-.insightFact:nth-child(3) {
-  background: var(--p3, #e8f0f4);
-}
-
-.insightFact dt {
-  flex: 0 0 auto;
-  max-width: 38%;
-  font: 600 11.5px / 1.25 var(--body);
-  letter-spacing: 0.1em;
-  text-transform: uppercase;
-  color: var(--program-ink, var(--muted));
-}
-
-.insightFact dd {
-  margin: 0;
-  flex: 1 1 auto;
-  font: 700 15px / 1.4 var(--body);
-  color: var(--ink);
-  text-align: right;
-}
-
-.insightMedia {
+.executionStack {
+  margin: 22px 0 0;
   display: grid;
   gap: 14px;
   width: 100%;
   min-width: 0;
 }
 
-.insightDrawer {
+.executionStep {
   margin: 0;
   padding: 14px 16px 16px;
   border-radius: 16px;
@@ -673,14 +628,81 @@
   width: 100%;
   min-width: 0;
   box-sizing: border-box;
+  display: grid;
+  gap: 12px;
 }
 
-.insightDrawerTitle {
-  margin: 0 0 6px;
+.executionTitle {
+  margin: 0;
   font: 700 11.5px / 1.25 var(--body);
   letter-spacing: 0.08em;
   text-transform: uppercase;
   color: var(--program-ink, var(--muted));
+}
+
+.executionLead {
+  margin: -4px 0 0;
+  color: var(--muted);
+  font-size: 14px;
+  line-height: 1.4;
+}
+
+.insightFacts {
+  margin: 0;
+  display: grid;
+  grid-template-columns: repeat(3, minmax(0, 1fr));
+  gap: 12px;
+  width: 100%;
+  min-width: 0;
+}
+
+.insightFact {
+  margin: 0;
+  padding: 16px 16px 14px;
+  border-radius: 24px;
+  border: 1px solid transparent;
+  background: var(--p1, #f5e8e4);
+  border-color: var(--p1, #f5e8e4);
+  display: flex;
+  flex-direction: column;
+  gap: 0;
+  min-width: 0;
+}
+
+.insightFact:nth-child(1) {
+  background: var(--p3, #e8f0f4);
+  border-color: var(--p3, #e8f0f4);
+}
+
+.insightFact:nth-child(2) {
+  background: var(--p2, #fff6ea);
+  border-color: var(--p2, #fff6ea);
+}
+
+.insightFact:nth-child(3) {
+  background: var(--p1, #f5e8e4);
+  border-color: var(--p1, #f5e8e4);
+}
+
+.insightFact b {
+  display: block;
+  font: 800 clamp(22px, 2.2vw, 30px) / 1.1 var(--display);
+  color: var(--ink);
+  overflow-wrap: anywhere;
+}
+
+.insightFactLong {
+  font-size: clamp(15px, 1.6vw, 18px) !important;
+  line-height: 1.25 !important;
+  font-weight: 750 !important;
+}
+
+.insightFact span {
+  display: block;
+  margin-top: 6px;
+  font-size: 13px;
+  line-height: 1.35;
+  color: var(--muted);
 }
 
 .insightDrawerLead {
@@ -977,18 +999,8 @@ a.guideCover:hover {
     grid-template-columns: repeat(2, minmax(0, 1fr));
   }
 
-  .insightFact {
-    flex-direction: column;
-    align-items: flex-start;
-    gap: 6px;
-  }
-
-  .insightFact dt {
-    max-width: none;
-  }
-
-  .insightFact dd {
-    text-align: left;
+  .insightFacts {
+    grid-template-columns: 1fr;
   }
 }
 

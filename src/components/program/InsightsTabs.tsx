@@ -1,7 +1,7 @@
 "use client";
 
 import Image from "next/image";
-import { type ReactNode, useMemo, useState } from "react";
+import { useMemo, useState } from "react";
 import {
   coversForCountry,
   guidesForCountry,
@@ -36,6 +36,8 @@ type Labels = {
   hide: string;
   marketsTitle: string;
   marketsLead: string;
+  insightsTitle: string;
+  insightsLead?: string;
 };
 
 const COUNTRY_NAMES: Record<Locale, Record<string, string>> = {
@@ -84,20 +86,27 @@ function present(value: string | undefined) {
   return Boolean(value && value !== "—");
 }
 
+/** Split "20,000 expecting mothers / year" → ["20,000", "expecting mothers / year"]. */
+function splitMetric(value: string): { primary: string; secondary: string | null } {
+  const m = value.match(
+    /^(\d[\d.,]*\+?|\d[\d.,]*\s*[-–]\s*\d[\d.,]*\+?)\s+(.+)$/,
+  );
+  if (m) return { primary: m[1], secondary: m[2] };
+  return { primary: value, secondary: null };
+}
+
 export function InsightsTabs({
   rows,
   labels,
   locale,
   programId,
   programGuides,
-  insightsHeading,
 }: {
   rows: InsightRow[];
   labels: Labels;
   locale: Locale;
   programId: string;
   programGuides?: [string, string, string][];
-  insightsHeading?: ReactNode;
 }) {
   const countries = useMemo(() => rows.map((r) => r.country), [rows]);
   const [active, setActive] = useState(countries[0] ?? "");
@@ -160,143 +169,144 @@ export function InsightsTabs({
         ))}
       </div>
 
-      {(hasApps || hasGuides) && (
-        <div className={styles.insightMedia} role="tabpanel">
-          {hasApps ? (
-            <div className={styles.insightDrawer}>
-              <p className={styles.insightDrawerTitle}>{labels.app}</p>
-              {present(row.app) ? (
-                <p className={styles.insightDrawerLead}>{withTbc(row.app)}</p>
-              ) : null}
-              {platforms.length ? (
-                <SeeHowToggle label={labels.seeApps} hideLabel={labels.hide}>
-                  <div className={styles.platformShots}>
-                    {platforms.map((p) => (
-                      <a
-                        key={p.id}
-                        className={styles.platformShot}
-                        href={p.href}
-                        target="_blank"
-                        rel="noopener noreferrer"
-                        title={`${p.name} — ${p.blurb}`}
-                      >
-                        <Image
-                          src={p.src}
-                          alt={p.alt}
-                          width={390}
-                          height={844}
-                          className={styles.platformShotImg}
-                          sizes="(max-width: 600px) 28vw, 110px"
-                          unoptimized
-                        />
-                        <span className={styles.platformShotCaption}>
-                          <span className={styles.platformShotName}>
-                            {p.name}
-                          </span>
-                          <span className={styles.platformShotBlurb}>
-                            {p.blurb}
-                          </span>
+      <div className={styles.executionStack}>
+        {facts.length ? (
+          <div className={styles.executionStep} role="tabpanel">
+            <h3 className={styles.executionTitle}>{labels.insightsTitle}</h3>
+            {labels.insightsLead ? (
+              <p className={styles.executionLead}>{labels.insightsLead}</p>
+            ) : null}
+            <div className={styles.insightFacts}>
+              {facts.map((f) => {
+                const { primary, secondary } = splitMetric(f.value);
+                const long = !secondary && primary.length > 28;
+                return (
+                  <div key={f.key} className={styles.insightFact}>
+                    <b className={long ? styles.insightFactLong : undefined}>
+                      {withTbc(primary)}
+                    </b>
+                    <span>{secondary ? withTbc(secondary) : f.label}</span>
+                  </div>
+                );
+              })}
+            </div>
+          </div>
+        ) : null}
+
+        {hasApps ? (
+          <div className={styles.executionStep} role="tabpanel">
+            <h3 className={styles.executionTitle}>{labels.app}</h3>
+            {present(row.app) ? (
+              <p className={styles.insightDrawerLead}>{withTbc(row.app)}</p>
+            ) : null}
+            {platforms.length ? (
+              <SeeHowToggle label={labels.seeApps} hideLabel={labels.hide}>
+                <div className={styles.platformShots}>
+                  {platforms.map((p) => (
+                    <a
+                      key={p.id}
+                      className={styles.platformShot}
+                      href={p.href}
+                      target="_blank"
+                      rel="noopener noreferrer"
+                      title={`${p.name} — ${p.blurb}`}
+                    >
+                      <Image
+                        src={p.src}
+                        alt={p.alt}
+                        width={390}
+                        height={844}
+                        className={styles.platformShotImg}
+                        sizes="(max-width: 600px) 28vw, 110px"
+                        unoptimized
+                      />
+                      <span className={styles.platformShotCaption}>
+                        <span className={styles.platformShotName}>
+                          {p.name}
                         </span>
-                      </a>
-                    ))}
-                  </div>
-                </SeeHowToggle>
-              ) : null}
-            </div>
-          ) : null}
+                        <span className={styles.platformShotBlurb}>
+                          {p.blurb}
+                        </span>
+                      </span>
+                    </a>
+                  ))}
+                </div>
+              </SeeHowToggle>
+            ) : null}
+          </div>
+        ) : null}
 
-          {hasGuides ? (
-            <div className={styles.insightDrawer}>
-              <p className={styles.insightDrawerTitle}>{labels.guide}</p>
-              {present(row.guide) ? (
-                <p className={styles.insightDrawerLead}>
-                  {withTbc(row.guide)}
-                </p>
-              ) : null}
-              {hasTirage ? (
-                <p className={styles.insightTirage}>{withTbc(row.tirage)}</p>
-              ) : null}
-              {covers.length || digitalGuides.length ? (
-                <SeeHowToggle
-                  label={labels.seeGuides}
-                  hideLabel={labels.hide}
-                >
-                  <div className={styles.guideCell}>
-                    {covers.length ? (
-                      <div className={styles.guideCovers}>
-                        {covers.map((cover) => {
-                          const img = (
-                            <Image
-                              src={cover.src}
-                              alt={cover.alt}
-                              width={505}
-                              height={752}
-                              className={styles.guideCoverImg}
-                              sizes="(max-width: 600px) 42vw, 140px"
-                              unoptimized
-                            />
-                          );
-                          return cover.href ? (
-                            <a
-                              key={cover.src}
-                              className={styles.guideCover}
-                              href={cover.href}
-                              target="_blank"
-                              rel="noopener noreferrer"
-                              title={cover.alt}
-                            >
-                              {img}
-                            </a>
-                          ) : (
-                            <div
-                              key={cover.src}
-                              className={styles.guideCover}
-                              title={cover.alt}
-                            >
-                              {img}
-                            </div>
-                          );
-                        })}
-                      </div>
-                    ) : null}
+        {hasGuides ? (
+          <div className={styles.executionStep} role="tabpanel">
+            <h3 className={styles.executionTitle}>{labels.guide}</h3>
+            {present(row.guide) ? (
+              <p className={styles.insightDrawerLead}>{withTbc(row.guide)}</p>
+            ) : null}
+            {hasTirage ? (
+              <p className={styles.insightTirage}>{withTbc(row.tirage)}</p>
+            ) : null}
+            {covers.length || digitalGuides.length ? (
+              <SeeHowToggle label={labels.seeGuides} hideLabel={labels.hide}>
+                <div className={styles.guideCell}>
+                  {covers.length ? (
+                    <div className={styles.guideCovers}>
+                      {covers.map((cover) => {
+                        const img = (
+                          <Image
+                            src={cover.src}
+                            alt={cover.alt}
+                            width={505}
+                            height={752}
+                            className={styles.guideCoverImg}
+                            sizes="(max-width: 600px) 42vw, 140px"
+                            unoptimized
+                          />
+                        );
+                        return cover.href ? (
+                          <a
+                            key={cover.src}
+                            className={styles.guideCover}
+                            href={cover.href}
+                            target="_blank"
+                            rel="noopener noreferrer"
+                            title={cover.alt}
+                          >
+                            {img}
+                          </a>
+                        ) : (
+                          <div
+                            key={cover.src}
+                            className={styles.guideCover}
+                            title={cover.alt}
+                          >
+                            {img}
+                          </div>
+                        );
+                      })}
+                    </div>
+                  ) : null}
 
-                    {digitalGuides.length ? (
-                      <ul className={styles.guideLinks}>
-                        {digitalGuides.map((g) => (
-                          <li key={`${g.title}-${g.href}`}>
-                            <a
-                              href={g.href}
-                              target="_blank"
-                              rel="noopener noreferrer"
-                            >
-                              {g.title || openLabel}
-                            </a>
-                          </li>
-                        ))}
-                      </ul>
-                    ) : null}
-                  </div>
-                </SeeHowToggle>
-              ) : null}
-            </div>
-          ) : null}
-        </div>
-      )}
-
-      {insightsHeading ? (
-        <div className={styles.insightsHead}>{insightsHeading}</div>
-      ) : null}
-
-      {facts.length ? (
-        <dl className={styles.insightFacts} role="tabpanel">
-          {facts.map((f) => (
-            <div key={f.key} className={styles.insightFact}>
-              <dt>{f.label}</dt>
-              <dd>{withTbc(f.value)}</dd>
-            </div>
-          ))}
-        </dl>
-      ) : null}
+                  {digitalGuides.length ? (
+                    <ul className={styles.guideLinks}>
+                      {digitalGuides.map((g) => (
+                        <li key={`${g.title}-${g.href}`}>
+                          <a
+                            href={g.href}
+                            target="_blank"
+                            rel="noopener noreferrer"
+                          >
+                            {g.title || openLabel}
+                          </a>
+                        </li>
+                      ))}
+                    </ul>
+                  ) : null}
+                </div>
+              </SeeHowToggle>
+            ) : null}
+          </div>
+        ) : null}
+      </div>
     </div>
   );
 }
