@@ -10,6 +10,32 @@ import {
 
 const PUBLIC_FILE = /\.[^/]+$/;
 
+/** START markets → UI locale (ISO 3166-1 alpha-2). */
+const COUNTRY_TO_LOCALE: Record<string, PrefixedLocale> = {
+  GR: "el",
+  CY: "el",
+  RO: "ro",
+  BG: "bg",
+  RS: "sr",
+};
+
+function countryFromRequest(request: NextRequest): string | null {
+  // Vercel sets this in production; Cloudflare / some proxies use CF-IPCountry.
+  const raw =
+    request.headers.get("x-vercel-ip-country") ||
+    request.headers.get("cf-ipcountry") ||
+    "";
+  const code = raw.trim().toUpperCase();
+  if (!code || code === "XX" || code === "T1") return null;
+  return code;
+}
+
+function localeFromCountry(request: NextRequest): PrefixedLocale | null {
+  const country = countryFromRequest(request);
+  if (!country) return null;
+  return COUNTRY_TO_LOCALE[country] ?? null;
+}
+
 function negotiatePrefixedLocale(
   acceptLanguage: string | null,
 ): PrefixedLocale | null {
@@ -29,6 +55,14 @@ function negotiatePrefixedLocale(
     if (tag.startsWith("el") || tag.startsWith("gr")) return "el";
   }
   return null;
+}
+
+/** Soft first-visit locale: country IP first, then Accept-Language. */
+function suggestPrefixedLocale(request: NextRequest): PrefixedLocale | null {
+  return (
+    localeFromCountry(request) ??
+    negotiatePrefixedLocale(request.headers.get("accept-language"))
+  );
 }
 
 function withLocaleHeader(response: NextResponse, locale: Locale) {
@@ -61,13 +95,12 @@ export function proxy(request: NextRequest) {
     return withLocaleHeader(response, first);
   }
 
-  // Soft-suggest: first visit to home only, never force away from EN deep links.
+  // Soft-suggest: first visit to home only, never force away from EN deep links
+  // or a language the visitor already chose (START_LOCALE cookie).
   const cookie = request.cookies.get(LOCALE_COOKIE)?.value;
   const isHome = pathname === "/" || pathname === "";
   if (!cookie && isHome) {
-    const suggested = negotiatePrefixedLocale(
-      request.headers.get("accept-language"),
-    );
+    const suggested = suggestPrefixedLocale(request);
     if (suggested) {
       const url = request.nextUrl.clone();
       url.pathname = `/${suggested}/`;
