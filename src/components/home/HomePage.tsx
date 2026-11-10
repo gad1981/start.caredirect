@@ -139,46 +139,6 @@ export async function HomePage({ locale }: { locale: Locale }) {
         })}
       </ProgramsScrollSection>
 
-      <section className={styles.section} id="how" aria-labelledby="how-h2">
-        <div className={styles.wrap}>
-          <p className={styles.eye}>{startHome.how.eyebrow}</p>
-          <h2 id="how-h2">{startHome.how.h2}</h2>
-          <div className={styles.steps}>
-            {startHome.how.steps.map(([title, body], i) => (
-              <article key={title} className={styles.step}>
-                <div className={styles.ico} aria-hidden>
-                  <HowStepIcon index={i} />
-                </div>
-                <h3 className={styles.stepTitle}>{title}</h3>
-                <p>{body}</p>
-              </article>
-            ))}
-          </div>
-        </div>
-      </section>
-
-      {faq?.items?.length ? (
-        <section className={styles.section} id="faq" aria-labelledby="faq-h2">
-          <div className={styles.wrap}>
-            <p className={styles.eye}>{faq.eyebrow}</p>
-            <h2 id="faq-h2">{faq.h2}</h2>
-            <dl className={styles.faqList}>
-              {faq.items.map((item) => (
-                <div key={item.q} className={styles.faqItem}>
-                  <dt>{item.q}</dt>
-                  <dd>{item.a}</dd>
-                </div>
-              ))}
-            </dl>
-            <p className={styles.faqMore}>
-              <AppLink href={localePath(locale, "/faq/")}>
-                {messages.faqSeeAll}
-              </AppLink>
-            </p>
-          </div>
-        </section>
-      ) : null}
-
       <section className={styles.section} id="live" aria-labelledby="live-h2">
         <div className={styles.wrap}>
           <p className={styles.eye}>{startHome.live.eyebrow}</p>
@@ -230,6 +190,46 @@ export async function HomePage({ locale }: { locale: Locale }) {
           </div>
         </div>
       </section>
+
+      <section className={styles.section} id="how" aria-labelledby="how-h2">
+        <div className={styles.wrap}>
+          <p className={styles.eye}>{startHome.how.eyebrow}</p>
+          <h2 id="how-h2">{startHome.how.h2}</h2>
+          <div className={styles.steps}>
+            {startHome.how.steps.map(([title, body], i) => (
+              <article key={title} className={styles.step}>
+                <div className={styles.ico} aria-hidden>
+                  <HowStepIcon index={i} />
+                </div>
+                <h3 className={styles.stepTitle}>{title}</h3>
+                <p>{body}</p>
+              </article>
+            ))}
+          </div>
+        </div>
+      </section>
+
+      {faq?.items?.length ? (
+        <section className={styles.section} id="faq" aria-labelledby="faq-h2">
+          <div className={styles.wrap}>
+            <p className={styles.eye}>{faq.eyebrow}</p>
+            <h2 id="faq-h2">{faq.h2}</h2>
+            <dl className={styles.faqList}>
+              {faq.items.map((item) => (
+                <div key={item.q} className={styles.faqItem}>
+                  <dt>{item.q}</dt>
+                  <dd>{item.a}</dd>
+                </div>
+              ))}
+            </dl>
+            <p className={styles.faqMore}>
+              <AppLink href={localePath(locale, "/faq/")}>
+                {messages.faqSeeAll}
+              </AppLink>
+            </p>
+          </div>
+        </section>
+      ) : null}
 
       <section className={styles.brands} id="brands" aria-labelledby="brands-h2">
         <div className={styles.brandsInner}>
