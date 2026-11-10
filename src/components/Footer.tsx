@@ -40,6 +40,9 @@ export function Footer({ footerLine }: { footerLine: string }) {
           <FooterLink href={localePath(locale, "/faq/")}>
             {messages.faq}
           </FooterLink>
+          <FooterLink href={localePath(locale, "/apps/")}>
+            {messages.appsTitle}
+          </FooterLink>
           <FooterLink href={localePath(locale, "/plan/")}>
             {messages.planAStart}
           </FooterLink>

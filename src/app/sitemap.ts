@@ -8,6 +8,7 @@ const paths = [
   "/plan/",
   "/blog/",
   "/faq/",
+  "/apps/",
   ...PROGRAMS.map((p) => `/${p.slug}/`),
   ...getBlogSlugs().map((slug) => `/blog/${slug}/`),
 ];
@@ -23,18 +24,19 @@ export default function sitemap(): MetadataRoute.Sitemap {
       const isPlan = path === "/plan/";
       const isBlog = path.startsWith("/blog");
       const isFaq = path === "/faq/";
+      const isApps = path === "/apps/";
       return {
         url,
         lastModified: now,
         changeFrequency:
-          isHome || isBlog || isFaq
+          isHome || isBlog || isFaq || isApps
             ? ("weekly" as const)
             : ("monthly" as const),
         priority: isHome
           ? 1
           : isPlan
             ? 0.9
-            : isFaq
+            : isFaq || isApps
               ? 0.8
               : isBlog
                 ? 0.75

@@ -102,21 +102,30 @@ const PLATFORMS: {
   },
 ];
 
+function toShot(p: (typeof PLATFORMS)[number]): PlatformShot {
+  const host = p.href.replace(/^https?:\/\//, "");
+  return {
+    id: p.id,
+    name: p.name,
+    src: p.src,
+    href: p.href,
+    alt: `${p.name} · ${host}`,
+    blurb: p.blurb,
+  };
+}
+
+/** All START stage Online Platforms (for the apps index page). */
+export function allPlatforms(): PlatformShot[] {
+  return PLATFORMS.map(toShot);
+}
+
 /** Resolve platform phone screenshots mentioned in an insights `app` string. */
 export function platformsFromAppField(app: string | undefined): PlatformShot[] {
   if (!app || app === "—") return [];
   const found: PlatformShot[] = [];
   for (const p of PLATFORMS) {
     if (!p.match.test(app)) continue;
-    const host = p.href.replace(/^https?:\/\//, "");
-    found.push({
-      id: p.id,
-      name: p.name,
-      src: p.src,
-      href: p.href,
-      alt: `${p.name} · ${host}`,
-      blurb: p.blurb,
-    });
+    found.push(toShot(p));
   }
   return found;
 }

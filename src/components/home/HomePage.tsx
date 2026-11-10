@@ -188,6 +188,11 @@ export async function HomePage({ locale }: { locale: Locale }) {
               );
             })}
           </div>
+          <p className={styles.faqMore}>
+            <Button href={localePath(locale, "/apps/")}>
+              {messages.appsSeeAll}
+            </Button>
+          </p>
         </div>
       </section>
 

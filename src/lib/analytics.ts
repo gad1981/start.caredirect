@@ -85,6 +85,9 @@ export function classifyStartPath(
   } else if (root === "faq") {
     page_type = "faq";
     content_group = "START / FAQ";
+  } else if (root === "apps") {
+    page_type = "apps";
+    content_group = "START / Apps";
   } else if (root === "style") {
     page_type = "style";
     content_group = "START / Other";
