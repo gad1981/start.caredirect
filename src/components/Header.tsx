@@ -97,7 +97,7 @@ export function Header() {
             </AppLink>
             <AppLink
               className={styles.top}
-              href={`${home}#live`}
+              href={localePath(locale, "/apps/")}
               onClick={closeMenus}
             >
               {messages.liveStarts}
