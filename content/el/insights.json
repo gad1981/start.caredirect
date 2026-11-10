@@ -3,18 +3,18 @@
     {
       "country": "Ελλάδα",
       "reach": "20,000 μέλλουσες μητέρες / έτος",
-      "cities": "Αθήνα, Θεσσαλονίκη, Πάτρα και κλινικές σε όλη τη χώρα",
-      "channels": "Γυναικολογικές & μαιευτικές κλινικές · 3ο τρίμηνο",
+      "cities": "Αθήνα, Θεσσαλονίκη, Πάτρα και σε όλη τη χώρα",
+      "channels": "Private Maternity Clinics & Gynecologists · 3rd trimester",
       "app": "Babyspace · Myparenthood · Momtag · HeyMaa",
       "guide": "Σχέσεις Στοργής · Η ΠΙΟ ΓΛΥΚΙΑ ΑΝΑΜΟΝΗ (the BOOM edition)",
-      "tirage": "Με το κουτί · συνεργασία με γιατρούς"
+      "tirage": "20,000 αντίτυπα · Με το κουτί · συνεργασία με γιατρούς"
     },
     {
       "country": "Ρουμανία",
-      "reach": "Όγκος prenatal προς επιβεβαίωση",
-      "cities": "Βουκουρέστι και δίκτυο μαιευτηρίων — επεκτείνεται",
-      "channels": "Γυναικολογικές & μαιευτικές κλινικές",
-      "app": "Babyspace · HeyMaa (pilot) · Momtag",
+      "reach": "30,000 μέλλουσες μητέρες / έτος",
+      "cities": "Βουκουρέστι, Κλουζ, Ιάσιο, Κωνστάντζα, Τιμισοάρα and Κραϊόβα",
+      "channels": "Private Gynecology clinics · 3rd trimester",
+      "app": "Babyspace · HeyMaa · Momtag · Mybabywinner",
       "guide": "—",
       "tirage": "—"
     },
@@ -29,18 +29,18 @@
     },
     {
       "country": "Σερβία",
-      "reach": "Όγκος prenatal προς επιβεβαίωση",
-      "cities": "Βελιγράδι και δίκτυο μαιευτηρίων — επεκτείνεται",
-      "channels": "Γυναικολογικές & μαιευτικές κλινικές",
+      "reach": "20,000 μέλλουσες μητέρες / έτος",
+      "cities": "Top cities",
+      "channels": "Private policlinics, GO, laboratories, parenting schools · 3rd trimester",
       "app": "Mybabywinner · HeyMaa",
       "guide": "—",
       "tirage": "—"
     },
     {
       "country": "Κύπρος",
-      "reach": "Όγκος prenatal προς επιβεβαίωση",
-      "cities": "Λευκωσία, Λεμεσός — επεκτείνεται",
-      "channels": "Γυναικολογικές & μαιευτικές κλινικές",
+      "reach": "3,000 μέλλουσες μητέρες / έτος",
+      "cities": "Σε όλη τη χώρα",
+      "channels": "Private Maternity Clinics & Gynecologists, Nurses at birth classes · 3rd trimester",
       "app": "Mybabywinner · HeyMaa",
       "guide": "—",
       "tirage": "—"
@@ -49,45 +49,45 @@
   "st-natal": [
     {
       "country": "Ελλάδα",
-      "reach": "50,000 νέες μητέρες / έτος",
-      "cities": "Δημόσια & ιδιωτικά μαιευτήρια σε όλη τη χώρα",
-      "channels": "Παράδοση 2–3 ημέρες μετά τον τοκετό",
+      "reach": "68,000 νέες μητέρες / έτος",
+      "cities": "Σε όλη τη χώρα",
+      "channels": "Δημόσια & ιδιωτικά μαιευτήρια · 2–3 ημέρες μετά τον τοκετό",
       "app": "Babyspace · Myparenthood · Momtag · HeyMaa",
       "guide": "Σχέσεις Στοργής · the BOOM edition",
-      "tirage": "Έντυπο με το κουτί πρώτων ημερών"
+      "tirage": "40,000 αντίτυπα · Έντυπο με το κουτί πρώτων ημερών"
     },
     {
       "country": "Ρουμανία",
-      "reach": "160,000 νέες μητέρες / έτος",
-      "cities": "Μαιευτήρια σε όλη τη χώρα",
-      "channels": "Ενώσεις νεογνολογίας & παιδιατρικής",
-      "app": "Babyspace · HeyMaa (pilot) · Momtag",
+      "reach": "150,000 νέες μητέρες / έτος",
+      "cities": "Σε όλη τη χώρα",
+      "channels": "Δημόσια & ιδιωτικά μαιευτήρια · 2–3 ημέρες μετά τον τοκετό",
+      "app": "Babyspace · HeyMaa · Momtag · Mybabywinner (on Babyspace)",
       "guide": "Relații Afectuoase · Scurt ghid practic pentru alăptare",
-      "tirage": "Έντυπο με το κουτί"
+      "tirage": "50,000 & 100,000 · Έντυπο με το κουτί"
     },
     {
       "country": "Βουλγαρία",
-      "reach": "30,000 νέες μητέρες / έτος",
-      "cities": "Μαιευτήρια σε όλη τη χώρα",
-      "channels": "Ένωση Παιδιάτρων",
+      "reach": "44,000 νέες μητέρες / έτος",
+      "cities": "Σε όλη τη χώρα",
+      "channels": "Δημόσια & ιδιωτικά μαιευτήρια · 2–3 ημέρες μετά τον τοκετό",
       "app": "Babyspace · HeyMaa",
       "guide": "За едно щастливо начало · Кратко практическо ръководство за кърмене",
-      "tirage": "Έντυπο με το κουτί"
+      "tirage": "30,000 αντίτυπα · Έντυπο με το κουτί"
     },
     {
       "country": "Σερβία",
-      "reach": "30,000 νέες μητέρες / έτος",
-      "cities": "Μαιευτήρια σε όλη τη χώρα",
-      "channels": "Ειδικοί παιδιατρικής & νεογνολογίας",
+      "reach": "55,000 νέες μητέρες / έτος",
+      "cities": "Σε όλη τη χώρα",
+      "channels": "Δημόσια & ιδιωτικά μαιευτήρια · 2–3 ημέρες μετά τον τοκετό",
       "app": "Mybabywinner · HeyMaa",
       "guide": "Praktični vodič za uspešno dojenje",
-      "tirage": "Έντυπο με το κουτί"
+      "tirage": "30,000 αντίτυπα · Έντυπο με το κουτί"
     },
     {
       "country": "Κύπρος",
-      "reach": "Όγκος προς επιβεβαίωση",
-      "cities": "Μαιευτήρια — επεκτείνεται",
-      "channels": "2–3 ημέρες μετά τον τοκετό",
+      "reach": "10,500 νέες μητέρες / έτος",
+      "cities": "Σε όλη τη χώρα",
+      "channels": "Δημόσια & ιδιωτικά μαιευτήρια · 2–3 ημέρες μετά τον τοκετό",
       "app": "Mybabywinner · HeyMaa",
       "guide": "—",
       "tirage": "—"
@@ -96,46 +96,46 @@
   "st-luxury": [
     {
       "country": "Ελλάδα",
-      "reach": "Μητέρες σε ιδιωτικές σουίτες / έτος (premium κομμάτι του Natal)",
+      "reach": "4,000 μητέρες ιδιωτικής σουίτας / έτος",
       "cities": "Ιδιωτικές κλινικές Αθήνας & Θεσσαλονίκης",
-      "channels": "Ιδιωτικές σουίτες & ιδιωτικά δωμάτια",
+      "channels": "Δημόσια & ιδιωτικά μαιευτήρια · 2–3 ημέρες μετά τον τοκετό",
       "app": "Babyspace · Myparenthood · HeyMaa",
       "guide": "Σχέσεις Στοργής · the BOOM edition",
       "tirage": "Έντυπο με το κουτί πρώτων ημερών"
     },
     {
       "country": "Ρουμανία",
-      "reach": "Premium ιδιωτικά δωμάτια — προς επιβεβαίωση",
-      "cities": "Βουκουρέστι ιδιωτικές κλινικές",
-      "channels": "Ιδιωτικές σουίτες",
-      "app": "Babyspace · HeyMaa",
+      "reach": "5,160 μητέρες ιδιωτικής σουίτας / έτος",
+      "cities": "Βουκουρέστι",
+      "channels": "Private maternities · 2–3 days postpartum",
+      "app": "Babyspace · HeyMaa · Mybabywinner",
       "guide": "Relații Afectuoase · Scurt ghid practic pentru alăptare",
       "tirage": "Έντυπο με το κουτί"
     },
     {
       "country": "Βουλγαρία",
-      "reach": "Premium ιδιωτικά δωμάτια — προς επιβεβαίωση",
-      "cities": "Σόφια ιδιωτικές κλινικές",
-      "channels": "Ιδιωτικές σουίτες",
+      "reach": "3,600 μητέρες ιδιωτικής σουίτας / έτος",
+      "cities": "Top 5 cities",
+      "channels": "Private maternities · 2–3 days postpartum",
       "app": "Babyspace · HeyMaa",
       "guide": "За едно щастливо начало · Кратко практическо ръководство за кърмене",
       "tirage": "Έντυπο με το κουτί"
     },
     {
       "country": "Σερβία",
-      "reach": "Premium ιδιωτικά δωμάτια — προς επιβεβαίωση",
-      "cities": "Βελιγράδι ιδιωτικές κλινικές",
-      "channels": "Ιδιωτικές σουίτες",
-      "app": "HeyMaa",
+      "reach": "3,600 μητέρες ιδιωτικής σουίτας / έτος",
+      "cities": "Βελιγράδι and Νόβι Σαντ",
+      "channels": "Private maternities · 2–3 days postpartum",
+      "app": "HeyMaa · Mybabywinner",
       "guide": "Praktični vodič za uspešno dojenje",
       "tirage": "Έντυπο με το κουτί"
     },
     {
       "country": "Κύπρος",
-      "reach": "Premium ιδιωτικά δωμάτια — προς επιβεβαίωση",
-      "cities": "Ιδιωτικές κλινικές — επεκτείνεται",
-      "channels": "Ιδιωτικές σουίτες",
-      "app": "HeyMaa",
+      "reach": "9,500 μητέρες ιδιωτικής σουίτας / έτος",
+      "cities": "Σε όλη τη χώρα",
+      "channels": "private maternities · 2–3 days postpartum",
+      "app": "HeyMaa · Mybabywinner",
       "guide": "—",
       "tirage": "—"
     }
@@ -190,45 +190,45 @@
   "st-school": [
     {
       "country": "Ελλάδα",
-      "reach": "Οικογένειες Α΄ Δημοτικού — όγκος προς επιβεβαίωση",
-      "cities": "Δημοτικά σχολεία σε όλη τη χώρα",
-      "channels": "Πρώτη μέρα Α΄ Δημοτικού (ηλικία 6)",
+      "reach": "20,000 οικογένειες Α΄ δημοτικού / έτος",
+      "cities": "Σε όλη τη χώρα",
+      "channels": "Elementary schools PR · 1st day of school",
       "app": "Myschoolwinner",
       "guide": "School guide — έκδοση Ελλάδας προς επιβεβαίωση",
       "tirage": "Κουτί την πρώτη σχολική μέρα"
     },
     {
       "country": "Ρουμανία",
-      "reach": "Οικογένειες Α΄ Δημοτικού — επιβεβαιωμένη ζωντανή αγορά",
-      "cities": "Δημοτικά σχολεία σε όλη τη χώρα",
-      "channels": "Πρώτη μέρα Α΄ Δημοτικού (ηλικία 6)",
-      "app": "Myschoolwinner",
+      "reach": "25,000 οικογένειες Α΄ δημοτικού / έτος",
+      "cities": "Top 25 cities",
+      "channels": "Elementary schools PUB and PR · 1st day of school",
+      "app": "Myschoolwinner · Parenting survey",
       "guide": "Prima zi la școală",
-      "tirage": "Έντυπος οδηγός + κουτί σχολικής ημέρας"
+      "tirage": "25,000 αντίτυπα · Έντυπος οδηγός + κουτί σχολικής ημέρας"
     },
     {
       "country": "Βουλγαρία",
-      "reach": "Οικογένειες Α΄ Δημοτικού — επιβεβαιωμένη ζωντανή αγορά",
-      "cities": "Δημοτικά σχολεία σε όλη τη χώρα",
-      "channels": "Πρώτη μέρα Α΄ Δημοτικού (ηλικία 6)",
-      "app": "Myschoolwinner",
+      "reach": "12,500 οικογένειες Α΄ δημοτικού / έτος",
+      "cities": "Top 10 cities",
+      "channels": "Elementary schools · 1st day of school",
+      "app": "Myschoolwinner · Parenting survey",
       "guide": "Първи Учебен Ден",
-      "tirage": "Έντυπος οδηγός + κουτί σχολικής ημέρας"
+      "tirage": "12,500 αντίτυπα · Έντυπος οδηγός + κουτί σχολικής ημέρας"
     },
     {
       "country": "Σερβία",
-      "reach": "Οικογένειες Α΄ Δημοτικού — επιβεβαιωμένη ζωντανή αγορά",
-      "cities": "Δημοτικά σχολεία σε όλη τη χώρα",
-      "channels": "Πρώτη μέρα Α΄ Δημοτικού (ηλικία 6)",
-      "app": "Myschoolwinner",
+      "reach": "12,500 οικογένειες Α΄ δημοτικού / έτος",
+      "cities": "Top cities",
+      "channels": "Elementary schools · 1st day of school",
+      "app": "Myschoolwinner · Parenting survey",
       "guide": "Prvi dan škole",
-      "tirage": "Έντυπος οδηγός + κουτί σχολικής ημέρας"
+      "tirage": "12,500 αντίτυπα · Έντυπος οδηγός + κουτί σχολικής ημέρας"
     },
     {
       "country": "Κύπρος",
-      "reach": "Οικογένειες Α΄ Δημοτικού — επεκτείνεται",
-      "cities": "Δημοτικά σχολεία — επεκτείνεται",
-      "channels": "Πρώτη μέρα Α΄ Δημοτικού",
+      "reach": "3,000 οικογένειες Α΄ δημοτικού / έτος",
+      "cities": "Σε όλη τη χώρα",
+      "channels": "Private Kindergartens · September",
       "app": "Myschoolwinner",
       "guide": "—",
       "tirage": "—"
@@ -237,9 +237,9 @@
   "st-school-xmas": [
     {
       "country": "Ελλάδα",
-      "reach": "Οικογένειες δημοτικού · χριστουγεννιάτικη σχολική περίοδος",
-      "cities": "Δημοτικά σχολεία σε όλη τη χώρα",
-      "channels": "Εορταστική έκδοση First Grade",
+      "reach": "11,500 οικογένειες δημοτικού / Χριστουγεννιάτικη περίοδος",
+      "cities": "Αθήνα, Θεσσαλονίκη",
+      "channels": "Elementary schools PR · before Xmas holidays",
       "app": "Myschoolwinner",
       "guide": "Χριστουγεννιάτικο σχολικό kit",
       "tirage": "Εποχιακό multi-brand κουτί"
@@ -284,9 +284,9 @@
   "st-teen": [
     {
       "country": "Ελλάδα",
-      "reach": "Κορίτσια στην αρχή της εφηβείας — όγκος προς επιβεβαίωση",
-      "cities": "Παράδοση στο σπίτι σε όλη τη χώρα",
-      "channels": "Courier στο σπίτι",
+      "reach": "12,000 κορίτσια στην αρχή της εφηβείας / έτος",
+      "cities": "Αθήνα, Θεσσαλονίκη",
+      "channels": "DM · 11-12 y.o.",
       "app": "Κοινότητες Care Direct",
       "guide": "Οδηγός kit Teen Girl",
       "tirage": "Κουτί στο σπίτι + follow-up"
@@ -320,9 +320,9 @@
     },
     {
       "country": "Κύπρος",
-      "reach": "Κορίτσια στην αρχή της εφηβείας — επεκτείνεται",
-      "cities": "Παράδοση στο σπίτι",
-      "channels": "Courier στο σπίτι",
+      "reach": "3,000 κορίτσια στην αρχή της εφηβείας / έτος",
+      "cities": "Σε όλη τη χώρα",
+      "channels": "Private High Schools · December",
       "app": "Κοινότητες Care Direct",
       "guide": "—",
       "tirage": "—"
@@ -331,36 +331,36 @@
   "st-high": [
     {
       "country": "Ελλάδα",
-      "reach": "Μαθητές Α΄ Λυκείου — όγκος προς επιβεβαίωση",
-      "cities": "Λύκεια σε όλη τη χώρα",
-      "channels": "Είσοδος στο λύκειο · ηλικίες 15–16",
+      "reach": "2,500 μαθήτριες/μαθητές Α΄ λυκείου / έτος",
+      "cities": "Σε όλη τη χώρα",
+      "channels": "High schools PR",
       "app": "START 9 (startliceu.life)",
       "guide": "Διαδραστικός web οδηγός START 9",
       "tirage": "Δείγματα στο σχολείο + digital οδηγός"
     },
     {
       "country": "Ρουμανία",
-      "reach": "Μαθητές Α΄ Λυκείου — live με START 9",
-      "cities": "Λύκεια σε όλη τη χώρα",
-      "channels": "Είσοδος στο λύκειο · ηλικίες 15–16",
-      "app": "START 9 (startliceu.life)",
+      "reach": "15,000 μαθήτριες/μαθητές Α΄ λυκείου / έτος",
+      "cities": "Top 15 cities",
+      "channels": "High schools PUB & PT · 1st month of school",
+      "app": "START 9 (startliceu.life) · Parenting survey",
       "guide": "Διαδραστικός web οδηγός START 9",
-      "tirage": "Δείγματα στο σχολείο + digital οδηγός"
+      "tirage": "15,000 αντίτυπα · Δείγματα στο σχολείο + digital οδηγός"
     },
     {
       "country": "Βουλγαρία",
-      "reach": "Μαθητές Α΄ Λυκείου — επεκτείνεται",
-      "cities": "Λύκεια — επεκτείνεται",
-      "channels": "Είσοδος στο λύκειο",
-      "app": "START 9",
+      "reach": "7,500 μαθήτριες/μαθητές Α΄ λυκείου / έτος",
+      "cities": "Top 5 cities",
+      "channels": "High schools PUB & PT · 1st month of school",
+      "app": "START 9 · Parenting survey",
       "guide": "Web οδηγός START 9",
-      "tirage": "—"
+      "tirage": "7,500 copies"
     },
     {
       "country": "Σερβία",
-      "reach": "Μαθητές Α΄ Λυκείου — επεκτείνεται",
-      "cities": "Λύκεια — επεκτείνεται",
-      "channels": "Είσοδος στο λύκειο",
+      "reach": "7,500 μαθήτριες/μαθητές Α΄ λυκείου / έτος",
+      "cities": "Top cities",
+      "channels": "High Schools · 1st day of school",
       "app": "START 9",
       "guide": "Web οδηγός START 9",
       "tirage": "—"
@@ -378,8 +378,8 @@
   "st-uni": [
     {
       "country": "Ελλάδα",
-      "reach": "Πρωτοετείς φοιτητές — όγκος προς επιβεβαίωση",
-      "cities": "Πανεπιστήμια σε όλη τη χώρα",
+      "reach": "10,000 πρωτοετείς φοιτητές / έτος",
+      "cities": "Αθήνα, Θεσσαλονίκη, Πάτρα, Ηράκλειο",
       "channels": "Campus activations · πρώτες ανεξάρτητες αγορές",
       "app": "UniStart+ (uni-start.com)",
       "guide": "Ψηφιακός φοιτητικός οδηγός UniStart+",
@@ -396,18 +396,18 @@
     },
     {
       "country": "Βουλγαρία",
-      "reach": "Πρωτοετείς φοιτητές — live με UniStart+",
-      "cities": "Πανεπιστήμια σε όλη τη χώρα",
-      "channels": "Campus activations",
+      "reach": "10,000 πρωτοετείς φοιτητές / έτος",
+      "cities": "Σόφια",
+      "channels": "Universities · Welcome day",
       "app": "UniStart+ (uni-start.com)",
       "guide": "Ψηφιακός φοιτητικός οδηγός UniStart+",
       "tirage": "Δείγματα στο campus + digital οδηγός"
     },
     {
       "country": "Σερβία",
-      "reach": "University sampling activations (2024+) — αποτελέσματα προς επιβεβαίωση",
-      "cities": "Βελιγράδι και πόλεις campus",
-      "channels": "Campus activations",
+      "reach": "5,000 πρωτοετείς φοιτητές / έτος",
+      "cities": "Βελιγράδι and Νις",
+      "channels": "Universities · Welcome day",
       "app": "UniStart+",
       "guide": "Ψηφιακός οδηγός UniStart+",
       "tirage": "Δείγματα στο campus"
@@ -425,8 +425,8 @@
   "st-army": [
     {
       "country": "Ελλάδα",
-      "reach": "Νεοσύλλεκτοι την ημέρα κατάταξης — όγκος προς επιβεβαίωση",
-      "cities": "Στρατόπεδα σε όλη τη χώρα",
+      "reach": "28,000 νεοσύλλεκτοι την ημέρα κατάταξης / έτος",
+      "cities": "Big cities",
       "channels": "Παράδοση την ημέρα κατάταξης",
       "app": "—",
       "guide": "Υλικό kit στρατοπέδου",
@@ -461,9 +461,9 @@
     },
     {
       "country": "Κύπρος",
-      "reach": "—",
-      "cities": "—",
-      "channels": "Δεν είναι ακόμα live σε αυτή την αγορά",
+      "reach": "4,000 νεοσύλλεκτοι την ημέρα κατάταξης / έτος",
+      "cities": "Top 4 cities",
+      "channels": "4 Army Camps · July",
       "app": "—",
       "guide": "—",
       "tirage": "—"
@@ -472,8 +472,8 @@
   "st-marriage": [
     {
       "country": "Ελλάδα",
-      "reach": "Νεόνυμφα νοικοκυριά — όγκος προς επιβεβαίωση",
-      "cities": "Παράδοση στο σπίτι σε όλη τη χώρα",
+      "reach": "3,000 νεόνυμφα νοικοκυριά / έτος",
+      "cities": "Αθήνα, Θεσσαλονίκη and big cities",
       "channels": "Courier καθώς στήνουν το σπίτι",
       "app": "Κοινότητες Care Direct",
       "guide": "Οδηγός γάμου / πρώτου σπιτιού",
@@ -481,8 +481,8 @@
     },
     {
       "country": "Ρουμανία",
-      "reach": "Νεόνυμφα νοικοκυριά — επεκτείνεται",
-      "cities": "Παράδοση στο σπίτι",
+      "reach": "5,000 νεόνυμφα νοικοκυριά / έτος",
+      "cities": "Βουκουρέστι and big cities",
       "channels": "Παράδοση στο σπίτι με courier",
       "app": "Κοινότητες Care Direct",
       "guide": "—",
@@ -490,8 +490,8 @@
     },
     {
       "country": "Βουλγαρία",
-      "reach": "Νεόνυμφα νοικοκυριά — επεκτείνεται",
-      "cities": "Παράδοση στο σπίτι",
+      "reach": "2,000 νεόνυμφα νοικοκυριά / έτος",
+      "cities": "Σόφια and Φιλιππούπολη",
       "channels": "Παράδοση στο σπίτι με courier",
       "app": "Κοινότητες Care Direct",
       "guide": "—",
@@ -499,8 +499,8 @@
     },
     {
       "country": "Σερβία",
-      "reach": "Νεόνυμφα νοικοκυριά — επεκτείνεται",
-      "cities": "Παράδοση στο σπίτι",
+      "reach": "2,000 νεόνυμφα νοικοκυριά / έτος",
+      "cities": "Βελιγράδι and big cities",
       "channels": "Παράδοση στο σπίτι με courier",
       "app": "Κοινότητες Care Direct",
       "guide": "—",
@@ -613,8 +613,8 @@
   "st-seniors": [
     {
       "country": "Ελλάδα",
-      "reach": "Άνθρωποι στην έναρξη συνταξιοδότησης — όγκος προς επιβεβαίωση",
-      "cities": "Σπίτι + χώροι κοινότητας ηλικιωμένων",
+      "reach": "20,000 άνθρωποι στην αρχή της συνταξιοδότησης / έτος",
+      "cities": "Αθήνα, Θεσσαλονίκη",
       "channels": "Παράδοση στο σπίτι & χώροι κοινότητας",
       "app": "Κοινότητες Care Direct",
       "guide": "Υλικό σταδίου ζωής Seniors",

@@ -42,24 +42,42 @@ const cityTweaks = {
     ["Athens", "Αθήνα"],
     ["Thessaloniki", "Θεσσαλονίκη"],
     ["Patras", "Πάτρα"],
+    ["Patra", "Πάτρα"],
+    ["Herakleion", "Ηράκλειο"],
     ["Bucharest", "Βουκουρέστι"],
+    ["Cluj", "Κλουζ"],
+    ["Iasi", "Ιάσιο"],
+    ["Constanta", "Κωνστάντζα"],
+    ["Timisoara", "Τιμισοάρα"],
+    ["Craiova", "Κραϊόβα"],
     ["Sofia", "Σόφια"],
+    ["Plovdiv", "Φιλιππούπολη"],
     ["Belgrade", "Βελιγράδι"],
+    ["Novi Sad", "Νόβι Σαντ"],
+    ["Niš", "Νις"],
     ["Nicosia", "Λευκωσία"],
     ["Limassol", "Λεμεσός"],
   ],
   ro: [
     ["Athens", "Atena"],
     ["Thessaloniki", "Salonic"],
+    ["Patras", "Patras"],
     ["Bucharest", "București"],
     ["Belgrade", "Belgrad"],
+    ["Sofia", "Sofia"],
+    ["Plovdiv", "Plovdiv"],
+    ["Novi Sad", "Novi Sad"],
   ],
   sr: [
     ["Athens", "Atina"],
     ["Thessaloniki", "Solun"],
+    ["Patras", "Patras"],
     ["Bucharest", "Bukurešt"],
     ["Sofia", "Sofija"],
+    ["Plovdiv", "Plovdiv"],
     ["Belgrade", "Beograd"],
+    ["Novi Sad", "Novi Sad"],
+    ["Niš", "Niš"],
     ["Nicosia", "Nikozija"],
     ["Limassol", "Limasol"],
   ],
@@ -67,9 +85,14 @@ const cityTweaks = {
     ["Athens", "Атина"],
     ["Thessaloniki", "Солун"],
     ["Patras", "Патра"],
+    ["Patra", "Патра"],
+    ["Herakleion", "Ираклион"],
     ["Bucharest", "Букурещ"],
     ["Sofia", "София"],
+    ["Plovdiv", "Пловдив"],
     ["Belgrade", "Белград"],
+    ["Novi Sad", "Нови Сад"],
+    ["Niš", "Ниш"],
     ["Nicosia", "Никозия"],
     ["Limassol", "Лимасол"],
   ],
@@ -77,6 +100,96 @@ const cityTweaks = {
 
 /** Shared English source phrases -> locale. Keep longest phrases first. */
 const shared = [
+  [
+    "Public & Private Maternity Clinics · 2–3 days postpartum",
+    {
+      el: "Δημόσια & ιδιωτικά μαιευτήρια · 2–3 ημέρες μετά τον τοκετό",
+      ro: "Maternități publice & private · 2–3 zile postpartum",
+      sr: "Javne i privatne porodilišne klinike · 2–3 dana postpartum",
+      bg: "Обществени и частни родилни клиники · 2–3 дни след раждане",
+    },
+  ],
+  [
+    "private-suite mothers / year",
+    {
+      el: "μητέρες ιδιωτικής σουίτας / έτος",
+      ro: "mame din suite private / an",
+      sr: "majke iz privatnih suita / godišnje",
+      bg: "майки от частни апартаменти / година",
+    },
+  ],
+  [
+    "first-grade families / year",
+    {
+      el: "οικογένειες Α΄ δημοτικού / έτος",
+      ro: "familii de clasa I / an",
+      sr: "porodice prvog razreda / godišnje",
+      bg: "семейства от I клас / година",
+    },
+  ],
+  [
+    "elementary families / Christmas period",
+    {
+      el: "οικογένειες δημοτικού / Χριστουγεννιάτικη περίοδος",
+      ro: "familii de școală primară / perioada de Crăciun",
+      sr: "porodice osnovne škole / božićni period",
+      bg: "семейства от началното училище / коледен период",
+    },
+  ],
+  [
+    "girls at start of puberty / year",
+    {
+      el: "κορίτσια στην αρχή της εφηβείας / έτος",
+      ro: "fete la începutul pubertății / an",
+      sr: "devojčice na početku puberteta / godišnje",
+      bg: "момичета в началото на пубертета / година",
+    },
+  ],
+  [
+    "first-year high-school students / year",
+    {
+      el: "μαθήτριες/μαθητές Α΄ λυκείου / έτος",
+      ro: "elevi în primul an de liceu / an",
+      sr: "učenici prve godine srednje škole / godišnje",
+      bg: "ученици в първи гимназиален клас / година",
+    },
+  ],
+  [
+    "first-year students / year",
+    {
+      el: "πρωτοετείς φοιτητές / έτος",
+      ro: "studenți în primul an / an",
+      sr: "studenti prve godine / godišnje",
+      bg: "студенти първи курс / година",
+    },
+  ],
+  [
+    "recruits on service day / year",
+    {
+      el: "νεοσύλλεκτοι την ημέρα κατάταξης / έτος",
+      ro: "recruți în ziua de înrolare / an",
+      sr: "regruti na dan služenja / godišnje",
+      bg: "новобранци в деня на набор / година",
+    },
+  ],
+  [
+    "newlywed households / year",
+    {
+      el: "νεόνυμφα νοικοκυριά / έτος",
+      ro: "gospodării de proaspăt căsătoriți / an",
+      sr: "domaćinstva mladih bračnih parova / godišnje",
+      bg: "новобрачни домакинства / година",
+    },
+  ],
+  [
+    "people starting retirement / year",
+    {
+      el: "άνθρωποι στην αρχή της συνταξιοδότησης / έτος",
+      ro: "persoane la începutul pensionării / an",
+      sr: "ljudi na početku penzije / godišnje",
+      bg: "хора в началото на пенсионирането / година",
+    },
+  ],
   [
     "expecting mothers / year",
     {
@@ -93,6 +206,33 @@ const shared = [
       ro: "mame noi / an",
       sr: "nove majke / godišnje",
       bg: "нови майки / година",
+    },
+  ],
+  [
+    "and nationwide",
+    {
+      el: "και σε όλη τη χώρα",
+      ro: "și la nivel național",
+      sr: "i širom zemlje",
+      bg: "и в цялата страна",
+    },
+  ],
+  [
+    "Nationwide",
+    {
+      el: "Σε όλη τη χώρα",
+      ro: "La nivel național",
+      sr: "Širom zemlje",
+      bg: "В цялата страна",
+    },
+  ],
+  [
+    "copies · ",
+    {
+      el: "αντίτυπα · ",
+      ro: "exemplare · ",
+      sr: "primeraka · ",
+      bg: "копия · ",
     },
   ],
   [

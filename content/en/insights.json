@@ -3,18 +3,18 @@
     {
       "country": "Greece",
       "reach": "20,000 expecting mothers / year",
-      "cities": "Athens, Thessaloniki, Patras and clinics nationwide",
-      "channels": "Gyn & maternity clinics · 3rd trimester",
+      "cities": "Athens, Thessaloniki, Patras and nationwide",
+      "channels": "Private Maternity Clinics & Gynecologists · 3rd trimester",
       "app": "Babyspace · Myparenthood · Momtag · HeyMaa",
       "guide": "Σχέσεις Στοργής · Η ΠΙΟ ΓΛΥΚΙΑ ΑΝΑΜΟΝΗ (the BOOM edition)",
-      "tirage": "With the box · doctor collaboration"
+      "tirage": "20,000 copies · With the box · doctor collaboration"
     },
     {
       "country": "Romania",
-      "reach": "Prenatal volume to confirm",
-      "cities": "Bucharest and maternity network — expanding",
-      "channels": "Gyn & maternity clinics",
-      "app": "Babyspace · HeyMaa (pilot) · Momtag",
+      "reach": "30,000 expecting mothers / year",
+      "cities": "Bucharest, Cluj, Iasi, Constanta, Timisoara and Craiova",
+      "channels": "Private Gynecology clinics · 3rd trimester",
+      "app": "Babyspace · HeyMaa · Momtag · Mybabywinner",
       "guide": "—",
       "tirage": "—"
     },
@@ -29,18 +29,18 @@
     },
     {
       "country": "Serbia",
-      "reach": "Prenatal volume to confirm",
-      "cities": "Belgrade and maternity network — expanding",
-      "channels": "Gyn & maternity clinics",
+      "reach": "20,000 expecting mothers / year",
+      "cities": "Top cities",
+      "channels": "Private policlinics, GO, laboratories, parenting schools · 3rd trimester",
       "app": "Mybabywinner · HeyMaa",
       "guide": "—",
       "tirage": "—"
     },
     {
       "country": "Cyprus",
-      "reach": "Prenatal volume to confirm",
-      "cities": "Nicosia, Limassol — expanding",
-      "channels": "Gyn & maternity clinics",
+      "reach": "3,000 expecting mothers / year",
+      "cities": "Nationwide",
+      "channels": "Private Maternity Clinics & Gynecologists, Nurses at birth classes · 3rd trimester",
       "app": "Mybabywinner · HeyMaa",
       "guide": "—",
       "tirage": "—"
@@ -49,45 +49,45 @@
   "st-natal": [
     {
       "country": "Greece",
-      "reach": "50,000 new mothers / year",
-      "cities": "Public & private maternity clinics nationwide",
-      "channels": "Handed 2–3 days after birth",
+      "reach": "68,000 new mothers / year",
+      "cities": "Nationwide",
+      "channels": "Public & Private Maternity Clinics · 2–3 days postpartum",
       "app": "Babyspace · Myparenthood · Momtag · HeyMaa",
       "guide": "Σχέσεις Στοργής · the BOOM edition",
-      "tirage": "Printed with the first-days box"
+      "tirage": "40,000 copies · Printed with the first-days box"
     },
     {
       "country": "Romania",
-      "reach": "160,000 new mothers / year",
-      "cities": "Maternity clinics nationwide",
-      "channels": "Neonatology & Pediatrics associations",
-      "app": "Babyspace · HeyMaa (pilot) · Momtag",
+      "reach": "150,000 new mothers / year",
+      "cities": "Nationwide",
+      "channels": "Public & Private Maternity Clinics · 2–3 days postpartum",
+      "app": "Babyspace · HeyMaa · Momtag · Mybabywinner (on Babyspace)",
       "guide": "Relații Afectuoase · Scurt ghid practic pentru alăptare",
-      "tirage": "Printed with the box"
+      "tirage": "50,000 & 100,000 · Printed with the box"
     },
     {
       "country": "Bulgaria",
-      "reach": "30,000 new mothers / year",
-      "cities": "Maternity clinics nationwide",
-      "channels": "Association of Pediatricians",
+      "reach": "44,000 new mothers / year",
+      "cities": "Nationwide",
+      "channels": "Public & Private Maternity Clinics · 2–3 days postpartum",
       "app": "Babyspace · HeyMaa",
       "guide": "За едно щастливо начало · Кратко практическо ръководство за кърмене",
-      "tirage": "Printed with the box"
+      "tirage": "30,000 copies · Printed with the box"
     },
     {
       "country": "Serbia",
-      "reach": "30,000 new mothers / year",
-      "cities": "Maternity clinics nationwide",
-      "channels": "Pediatrics & neonatology specialists",
+      "reach": "55,000 new mothers / year",
+      "cities": "Nationwide",
+      "channels": "Public & Private Maternity Clinics · 2–3 days postpartum",
       "app": "Mybabywinner · HeyMaa",
       "guide": "Praktični vodič za uspešno dojenje",
-      "tirage": "Printed with the box"
+      "tirage": "30,000 copies · Printed with the box"
     },
     {
       "country": "Cyprus",
-      "reach": "Volume to confirm",
-      "cities": "Maternity clinics — expanding",
-      "channels": "2–3 days after birth",
+      "reach": "10,500 new mothers / year",
+      "cities": "Nationwide",
+      "channels": "Public & Private Maternity Clinics · 2–3 days postpartum",
       "app": "Mybabywinner · HeyMaa",
       "guide": "—",
       "tirage": "—"
@@ -96,46 +96,46 @@
   "st-luxury": [
     {
       "country": "Greece",
-      "reach": "Private-suite mothers / year (premium cut of Natal)",
+      "reach": "4,000 private-suite mothers / year",
       "cities": "Athens & Thessaloniki private clinics",
-      "channels": "Private suites & private rooms",
+      "channels": "Public & Private Maternity Clinics · 2–3 days postpartum",
       "app": "Babyspace · Myparenthood · HeyMaa",
       "guide": "Σχέσεις Στοργής · the BOOM edition",
       "tirage": "Printed with the first-days box"
     },
     {
       "country": "Romania",
-      "reach": "Premium private rooms — to confirm",
-      "cities": "Bucharest private clinics",
-      "channels": "Private suites",
-      "app": "Babyspace · HeyMaa",
+      "reach": "5,160 private-suite mothers / year",
+      "cities": "Bucharest",
+      "channels": "Private maternities · 2–3 days postpartum",
+      "app": "Babyspace · HeyMaa · Mybabywinner",
       "guide": "Relații Afectuoase · Scurt ghid practic pentru alăptare",
       "tirage": "Printed with the box"
     },
     {
       "country": "Bulgaria",
-      "reach": "Premium private rooms — to confirm",
-      "cities": "Sofia private clinics",
-      "channels": "Private suites",
+      "reach": "3,600 private-suite mothers / year",
+      "cities": "Top 5 cities",
+      "channels": "Private maternities · 2–3 days postpartum",
       "app": "Babyspace · HeyMaa",
       "guide": "За едно щастливо начало · Кратко практическо ръководство за кърмене",
       "tirage": "Printed with the box"
     },
     {
       "country": "Serbia",
-      "reach": "Premium private rooms — to confirm",
-      "cities": "Belgrade private clinics",
-      "channels": "Private suites",
-      "app": "HeyMaa",
+      "reach": "3,600 private-suite mothers / year",
+      "cities": "Belgrade and Novi Sad",
+      "channels": "Private maternities · 2–3 days postpartum",
+      "app": "HeyMaa · Mybabywinner",
       "guide": "Praktični vodič za uspešno dojenje",
       "tirage": "Printed with the box"
     },
     {
       "country": "Cyprus",
-      "reach": "Premium private rooms — to confirm",
-      "cities": "Private clinics — expanding",
-      "channels": "Private suites",
-      "app": "HeyMaa",
+      "reach": "9,500 private-suite mothers / year",
+      "cities": "Nationwide",
+      "channels": "private maternities · 2–3 days postpartum",
+      "app": "HeyMaa · Mybabywinner",
       "guide": "—",
       "tirage": "—"
     }
@@ -190,45 +190,45 @@
   "st-school": [
     {
       "country": "Greece",
-      "reach": "First-grade families — volume to confirm",
-      "cities": "Primary schools nationwide",
-      "channels": "First day of 1st grade (age 6)",
+      "reach": "20,000 first-grade families / year",
+      "cities": "Nationwide",
+      "channels": "Elementary schools PR · 1st day of school",
       "app": "Myschoolwinner",
       "guide": "School guide — Greece edition to confirm",
       "tirage": "Box on the first school day"
     },
     {
       "country": "Romania",
-      "reach": "First-grade families — confirmed live market",
-      "cities": "Primary schools nationwide",
-      "channels": "First day of 1st grade (age 6)",
-      "app": "Myschoolwinner",
+      "reach": "25,000 first-grade families / year",
+      "cities": "Top 25 cities",
+      "channels": "Elementary schools PUB and PR · 1st day of school",
+      "app": "Myschoolwinner · Parenting survey",
       "guide": "Prima zi la școală",
-      "tirage": "Printed guide + school-day box"
+      "tirage": "25,000 copies · Printed guide + school-day box"
     },
     {
       "country": "Bulgaria",
-      "reach": "First-grade families — confirmed live market",
-      "cities": "Primary schools nationwide",
-      "channels": "First day of 1st grade (age 6)",
-      "app": "Myschoolwinner",
+      "reach": "12,500 first-grade families / year",
+      "cities": "Top 10 cities",
+      "channels": "Elementary schools · 1st day of school",
+      "app": "Myschoolwinner · Parenting survey",
       "guide": "Първи Учебен Ден",
-      "tirage": "Printed guide + school-day box"
+      "tirage": "12,500 copies · Printed guide + school-day box"
     },
     {
       "country": "Serbia",
-      "reach": "First-grade families — confirmed live market",
-      "cities": "Primary schools nationwide",
-      "channels": "First day of 1st grade (age 6)",
-      "app": "Myschoolwinner",
+      "reach": "12,500 first-grade families / year",
+      "cities": "Top cities",
+      "channels": "Elementary schools · 1st day of school",
+      "app": "Myschoolwinner · Parenting survey",
       "guide": "Prvi dan škole",
-      "tirage": "Printed guide + school-day box"
+      "tirage": "12,500 copies · Printed guide + school-day box"
     },
     {
       "country": "Cyprus",
-      "reach": "First-grade families — expanding",
-      "cities": "Primary schools — expanding",
-      "channels": "First day of 1st grade",
+      "reach": "3,000 first-grade families / year",
+      "cities": "Nationwide",
+      "channels": "Private Kindergartens · September",
       "app": "Myschoolwinner",
       "guide": "—",
       "tirage": "—"
@@ -237,9 +237,9 @@
   "st-school-xmas": [
     {
       "country": "Greece",
-      "reach": "Elementary families · Christmas school period",
-      "cities": "Primary schools nationwide",
-      "channels": "Festive edition of First Grade",
+      "reach": "11,500 elementary families / Christmas period",
+      "cities": "Athens, Thessaloniki",
+      "channels": "Elementary schools PR · before Xmas holidays",
       "app": "Myschoolwinner",
       "guide": "Christmas school kit",
       "tirage": "Seasonal multi-brand box"
@@ -284,9 +284,9 @@
   "st-teen": [
     {
       "country": "Greece",
-      "reach": "Girls at start of puberty — volume to confirm",
-      "cities": "Delivered home nationwide",
-      "channels": "Courier to the home",
+      "reach": "12,000 girls at start of puberty / year",
+      "cities": "Athens, Thessaloniki",
+      "channels": "DM · 11-12 y.o.",
       "app": "Care Direct communities",
       "guide": "Teen Girl kit guide",
       "tirage": "Home box + follow-up"
@@ -320,9 +320,9 @@
     },
     {
       "country": "Cyprus",
-      "reach": "Girls at start of puberty — expanding",
-      "cities": "Delivered home",
-      "channels": "Courier to the home",
+      "reach": "3,000 girls at start of puberty / year",
+      "cities": "Nationwide",
+      "channels": "Private High Schools · December",
       "app": "Care Direct communities",
       "guide": "—",
       "tirage": "—"
@@ -331,36 +331,36 @@
   "st-high": [
     {
       "country": "Greece",
-      "reach": "First-year high-school students — volume to confirm",
-      "cities": "High schools nationwide",
-      "channels": "Entering high school · ages 15–16",
+      "reach": "2,500 first-year high-school students / year",
+      "cities": "Nationwide",
+      "channels": "High schools PR",
       "app": "START 9 (startliceu.life)",
       "guide": "START 9 interactive web guide",
       "tirage": "Samples in school + digital guide"
     },
     {
       "country": "Romania",
-      "reach": "First-year high-school students — live with START 9",
-      "cities": "High schools nationwide",
-      "channels": "Entering high school · ages 15–16",
-      "app": "START 9 (startliceu.life)",
+      "reach": "15,000 first-year high-school students / year",
+      "cities": "Top 15 cities",
+      "channels": "High schools PUB & PT · 1st month of school",
+      "app": "START 9 (startliceu.life) · Parenting survey",
       "guide": "START 9 interactive web guide",
-      "tirage": "Samples in school + digital guide"
+      "tirage": "15,000 copies · Samples in school + digital guide"
     },
     {
       "country": "Bulgaria",
-      "reach": "First-year high-school students — expanding",
-      "cities": "High schools — expanding",
-      "channels": "Entering high school",
-      "app": "START 9",
+      "reach": "7,500 first-year high-school students / year",
+      "cities": "Top 5 cities",
+      "channels": "High schools PUB & PT · 1st month of school",
+      "app": "START 9 · Parenting survey",
       "guide": "START 9 web guide",
-      "tirage": "—"
+      "tirage": "7,500 copies"
     },
     {
       "country": "Serbia",
-      "reach": "First-year high-school students — expanding",
-      "cities": "High schools — expanding",
-      "channels": "Entering high school",
+      "reach": "7,500 first-year high-school students / year",
+      "cities": "Top cities",
+      "channels": "High Schools · 1st day of school",
       "app": "START 9",
       "guide": "START 9 web guide",
       "tirage": "—"
@@ -378,8 +378,8 @@
   "st-uni": [
     {
       "country": "Greece",
-      "reach": "First-year students — volume to confirm",
-      "cities": "Universities nationwide",
+      "reach": "10,000 first-year students / year",
+      "cities": "Athens, Thessaloniki, Patra, Herakleion",
       "channels": "Campus activations · first independent purchases",
       "app": "UniStart+ (uni-start.com)",
       "guide": "UniStart+ digital student guidebook",
@@ -396,18 +396,18 @@
     },
     {
       "country": "Bulgaria",
-      "reach": "First-year students — live with UniStart+",
-      "cities": "Universities nationwide",
-      "channels": "Campus activations",
+      "reach": "10,000 first-year students / year",
+      "cities": "Sofia",
+      "channels": "Universities · Welcome day",
       "app": "UniStart+ (uni-start.com)",
       "guide": "UniStart+ digital student guidebook",
       "tirage": "Campus samples + digital guide"
     },
     {
       "country": "Serbia",
-      "reach": "University sampling activations (2024+) — results to confirm",
-      "cities": "Belgrade and campus cities",
-      "channels": "Campus activations",
+      "reach": "5,000 first-year students / year",
+      "cities": "Belgrade and Niš",
+      "channels": "Universities · Welcome day",
       "app": "UniStart+",
       "guide": "UniStart+ digital guidebook",
       "tirage": "Campus samples"
@@ -425,8 +425,8 @@
   "st-army": [
     {
       "country": "Greece",
-      "reach": "Recruits on service day — volume to confirm",
-      "cities": "Military camps nationwide",
+      "reach": "28,000 recruits on service day / year",
+      "cities": "Big cities",
       "channels": "Recruitment day hand-over",
       "app": "—",
       "guide": "Camp kit materials",
@@ -461,9 +461,9 @@
     },
     {
       "country": "Cyprus",
-      "reach": "—",
-      "cities": "—",
-      "channels": "Not live in this market yet",
+      "reach": "4,000 recruits on service day / year",
+      "cities": "Top 4 cities",
+      "channels": "4 Army Camps · July",
       "app": "—",
       "guide": "—",
       "tirage": "—"
@@ -472,8 +472,8 @@
   "st-marriage": [
     {
       "country": "Greece",
-      "reach": "Newlywed households — volume to confirm",
-      "cities": "Delivered home nationwide",
+      "reach": "3,000 newlywed households / year",
+      "cities": "Athens, Thessaloniki and big cities",
       "channels": "Courier as couples set up house",
       "app": "Care Direct communities",
       "guide": "Marriage / first-home guide",
@@ -481,8 +481,8 @@
     },
     {
       "country": "Romania",
-      "reach": "Newlywed households — expanding",
-      "cities": "Delivered home",
+      "reach": "5,000 newlywed households / year",
+      "cities": "Bucharest and big cities",
       "channels": "Courier home delivery",
       "app": "Care Direct communities",
       "guide": "—",
@@ -490,8 +490,8 @@
     },
     {
       "country": "Bulgaria",
-      "reach": "Newlywed households — expanding",
-      "cities": "Delivered home",
+      "reach": "2,000 newlywed households / year",
+      "cities": "Sofia and Plovdiv",
       "channels": "Courier home delivery",
       "app": "Care Direct communities",
       "guide": "—",
@@ -499,8 +499,8 @@
     },
     {
       "country": "Serbia",
-      "reach": "Newlywed households — expanding",
-      "cities": "Delivered home",
+      "reach": "2,000 newlywed households / year",
+      "cities": "Belgrade and big cities",
       "channels": "Courier home delivery",
       "app": "Care Direct communities",
       "guide": "—",
@@ -613,8 +613,8 @@
   "st-seniors": [
     {
       "country": "Greece",
-      "reach": "People starting retirement — volume to confirm",
-      "cities": "Home + senior community venues",
+      "reach": "20,000 people starting retirement / year",
+      "cities": "Athens, Thessaloniki",
       "channels": "Home delivery & community places",
       "app": "Care Direct communities",
       "guide": "Seniors life-stage materials",

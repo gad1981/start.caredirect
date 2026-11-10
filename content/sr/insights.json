@@ -3,18 +3,18 @@
     {
       "country": "Grčka",
       "reach": "20,000 buduće majke / godišnje",
-      "cities": "Atina, Solun, Patras i klinike širom zemlje",
-      "channels": "Ginekološke i porodilišne klinike · treći trimestar",
+      "cities": "Atina, Solun, Patras i širom zemlje",
+      "channels": "Private Maternity Clinics & Gynecologists · 3rd trimester",
       "app": "Babyspace · Myparenthood · Momtag · HeyMaa",
       "guide": "Σχέσεις Στοργής · Η ΠΙΟ ΓΛΥΚΙΑ ΑΝΑΜΟΝΗ (the BOOM edition)",
-      "tirage": "Uz kutiju · saradnja sa lekarima"
+      "tirage": "20,000 primeraka · Uz kutiju · saradnja sa lekarima"
     },
     {
       "country": "Rumunija",
-      "reach": "Prenatalni obim za potvrdu",
-      "cities": "Bukurešt i mreža porodilišta — u širenju",
-      "channels": "Ginekološke i porodilišne klinike",
-      "app": "Babyspace · HeyMaa (pilot) · Momtag",
+      "reach": "30,000 buduće majke / godišnje",
+      "cities": "Bukurešt, Cluj, Iasi, Constanta, Timisoara and Craiova",
+      "channels": "Private Gynecology clinics · 3rd trimester",
+      "app": "Babyspace · HeyMaa · Momtag · Mybabywinner",
       "guide": "—",
       "tirage": "—"
     },
@@ -29,18 +29,18 @@
     },
     {
       "country": "Srbija",
-      "reach": "Prenatalni obim za potvrdu",
-      "cities": "Beograd i mreža porodilišta — u širenju",
-      "channels": "Ginekološke i porodilišne klinike",
+      "reach": "20,000 buduće majke / godišnje",
+      "cities": "Top cities",
+      "channels": "Private policlinics, GO, laboratories, parenting schools · 3rd trimester",
       "app": "Mybabywinner · HeyMaa",
       "guide": "—",
       "tirage": "—"
     },
     {
       "country": "Kipar",
-      "reach": "Prenatalni obim za potvrdu",
-      "cities": "Nikozija, Limasol — u širenju",
-      "channels": "Ginekološke i porodilišne klinike",
+      "reach": "3,000 buduće majke / godišnje",
+      "cities": "Širom zemlje",
+      "channels": "Private Maternity Clinics & Gynecologists, Nurses at birth classes · 3rd trimester",
       "app": "Mybabywinner · HeyMaa",
       "guide": "—",
       "tirage": "—"
@@ -49,45 +49,45 @@
   "st-natal": [
     {
       "country": "Grčka",
-      "reach": "50,000 nove majke / godišnje",
-      "cities": "Javna i privatna porodilišta širom zemlje",
-      "channels": "Uručeno 2–3 dana nakon porođaja",
+      "reach": "68,000 nove majke / godišnje",
+      "cities": "Širom zemlje",
+      "channels": "Javne i privatne porodilišne klinike · 2–3 dana postpartum",
       "app": "Babyspace · Myparenthood · Momtag · HeyMaa",
       "guide": "Σχέσεις Στοργής · the BOOM edition",
-      "tirage": "Štampano uz kutiju prvih dana"
+      "tirage": "40,000 primeraka · Štampano uz kutiju prvih dana"
     },
     {
       "country": "Rumunija",
-      "reach": "160,000 nove majke / godišnje",
-      "cities": "Porodilišta širom zemlje",
-      "channels": "Udruženja neonatologije i pedijatrije",
-      "app": "Babyspace · HeyMaa (pilot) · Momtag",
+      "reach": "150,000 nove majke / godišnje",
+      "cities": "Širom zemlje",
+      "channels": "Javne i privatne porodilišne klinike · 2–3 dana postpartum",
+      "app": "Babyspace · HeyMaa · Momtag · Mybabywinner (on Babyspace)",
       "guide": "Relații Afectuoase · Scurt ghid practic pentru alăptare",
-      "tirage": "Štampano uz kutiju"
+      "tirage": "50,000 & 100,000 · Štampano uz kutiju"
     },
     {
       "country": "Bugarska",
-      "reach": "30,000 nove majke / godišnje",
-      "cities": "Porodilišta širom zemlje",
-      "channels": "Udruženje pedijatara",
+      "reach": "44,000 nove majke / godišnje",
+      "cities": "Širom zemlje",
+      "channels": "Javne i privatne porodilišne klinike · 2–3 dana postpartum",
       "app": "Babyspace · HeyMaa",
       "guide": "За едно щастливо начало · Кратко практическо ръководство за кърмене",
-      "tirage": "Štampano uz kutiju"
+      "tirage": "30,000 primeraka · Štampano uz kutiju"
     },
     {
       "country": "Srbija",
-      "reach": "30,000 nove majke / godišnje",
-      "cities": "Porodilišta širom zemlje",
-      "channels": "Specijalisti pedijatrije i neonatologije",
+      "reach": "55,000 nove majke / godišnje",
+      "cities": "Širom zemlje",
+      "channels": "Javne i privatne porodilišne klinike · 2–3 dana postpartum",
       "app": "Mybabywinner · HeyMaa",
       "guide": "Praktični vodič za uspešno dojenje",
-      "tirage": "Štampano uz kutiju"
+      "tirage": "30,000 primeraka · Štampano uz kutiju"
     },
     {
       "country": "Kipar",
-      "reach": "Obim za potvrdu",
-      "cities": "Porodilišta — u širenju",
-      "channels": "2–3 dana nakon porođaja",
+      "reach": "10,500 nove majke / godišnje",
+      "cities": "Širom zemlje",
+      "channels": "Javne i privatne porodilišne klinike · 2–3 dana postpartum",
       "app": "Mybabywinner · HeyMaa",
       "guide": "—",
       "tirage": "—"
@@ -96,46 +96,46 @@
   "st-luxury": [
     {
       "country": "Grčka",
-      "reach": "Majke u privatnim apartmanima / godišnje (premium deo Natal)",
+      "reach": "4,000 majke iz privatnih suita / godišnje",
       "cities": "Privatne klinike u Atini i Solunu",
-      "channels": "Privatni apartmani i privatne sobe",
+      "channels": "Javne i privatne porodilišne klinike · 2–3 dana postpartum",
       "app": "Babyspace · Myparenthood · HeyMaa",
       "guide": "Σχέσεις Στοργής · the BOOM edition",
       "tirage": "Štampano uz kutiju prvih dana"
     },
     {
       "country": "Rumunija",
-      "reach": "Premium privatne sobe — za potvrdu",
-      "cities": "Bukurešt privatne klinike",
-      "channels": "Privatni apartmani",
-      "app": "Babyspace · HeyMaa",
+      "reach": "5,160 majke iz privatnih suita / godišnje",
+      "cities": "Bukurešt",
+      "channels": "Private maternities · 2–3 days postpartum",
+      "app": "Babyspace · HeyMaa · Mybabywinner",
       "guide": "Relații Afectuoase · Scurt ghid practic pentru alăptare",
       "tirage": "Štampano uz kutiju"
     },
     {
       "country": "Bugarska",
-      "reach": "Premium privatne sobe — za potvrdu",
-      "cities": "Sofija privatne klinike",
-      "channels": "Privatni apartmani",
+      "reach": "3,600 majke iz privatnih suita / godišnje",
+      "cities": "Top 5 cities",
+      "channels": "Private maternities · 2–3 days postpartum",
       "app": "Babyspace · HeyMaa",
       "guide": "За едно щастливо начало · Кратко практическо ръководство за кърмене",
       "tirage": "Štampano uz kutiju"
     },
     {
       "country": "Srbija",
-      "reach": "Premium privatne sobe — za potvrdu",
-      "cities": "Beograd privatne klinike",
-      "channels": "Privatni apartmani",
-      "app": "HeyMaa",
+      "reach": "3,600 majke iz privatnih suita / godišnje",
+      "cities": "Beograd and Novi Sad",
+      "channels": "Private maternities · 2–3 days postpartum",
+      "app": "HeyMaa · Mybabywinner",
       "guide": "Praktični vodič za uspešno dojenje",
       "tirage": "Štampano uz kutiju"
     },
     {
       "country": "Kipar",
-      "reach": "Premium privatne sobe — za potvrdu",
-      "cities": "Privatne klinike — u širenju",
-      "channels": "Privatni apartmani",
-      "app": "HeyMaa",
+      "reach": "9,500 majke iz privatnih suita / godišnje",
+      "cities": "Širom zemlje",
+      "channels": "private maternities · 2–3 days postpartum",
+      "app": "HeyMaa · Mybabywinner",
       "guide": "—",
       "tirage": "—"
     }
@@ -190,45 +190,45 @@
   "st-school": [
     {
       "country": "Grčka",
-      "reach": "Porodice prvog razreda — obim za potvrdu",
-      "cities": "Osnovne škole širom zemlje",
-      "channels": "Prvi dan prvog razreda (uzrast 6)",
+      "reach": "20,000 porodice prvog razreda / godišnje",
+      "cities": "Širom zemlje",
+      "channels": "Elementary schools PR · 1st day of school",
       "app": "Myschoolwinner",
       "guide": "Školski vodič — izdanje za Grčku za potvrdu",
       "tirage": "Kutija prvog školskog dana"
     },
     {
       "country": "Rumunija",
-      "reach": "Porodice prvog razreda — potvrđeno aktivno tržište",
-      "cities": "Osnovne škole širom zemlje",
-      "channels": "Prvi dan prvog razreda (uzrast 6)",
-      "app": "Myschoolwinner",
+      "reach": "25,000 porodice prvog razreda / godišnje",
+      "cities": "Top 25 cities",
+      "channels": "Elementary schools PUB and PR · 1st day of school",
+      "app": "Myschoolwinner · Parenting survey",
       "guide": "Prima zi la școală",
-      "tirage": "Štampani vodič + kutija školskog dana"
+      "tirage": "25,000 primeraka · Štampani vodič + kutija školskog dana"
     },
     {
       "country": "Bugarska",
-      "reach": "Porodice prvog razreda — potvrđeno aktivno tržište",
-      "cities": "Osnovne škole širom zemlje",
-      "channels": "Prvi dan prvog razreda (uzrast 6)",
-      "app": "Myschoolwinner",
+      "reach": "12,500 porodice prvog razreda / godišnje",
+      "cities": "Top 10 cities",
+      "channels": "Elementary schools · 1st day of school",
+      "app": "Myschoolwinner · Parenting survey",
       "guide": "Първи Учебен Ден",
-      "tirage": "Štampani vodič + kutija školskog dana"
+      "tirage": "12,500 primeraka · Štampani vodič + kutija školskog dana"
     },
     {
       "country": "Srbija",
-      "reach": "Porodice prvog razreda — potvrđeno aktivno tržište",
-      "cities": "Osnovne škole širom zemlje",
-      "channels": "Prvi dan prvog razreda (uzrast 6)",
-      "app": "Myschoolwinner",
+      "reach": "12,500 porodice prvog razreda / godišnje",
+      "cities": "Top cities",
+      "channels": "Elementary schools · 1st day of school",
+      "app": "Myschoolwinner · Parenting survey",
       "guide": "Prvi dan škole",
-      "tirage": "Štampani vodič + kutija školskog dana"
+      "tirage": "12,500 primeraka · Štampani vodič + kutija školskog dana"
     },
     {
       "country": "Kipar",
-      "reach": "Porodice prvog razreda — u širenju",
-      "cities": "Osnovne škole — u širenju",
-      "channels": "Prvi dan prvog razreda",
+      "reach": "3,000 porodice prvog razreda / godišnje",
+      "cities": "Širom zemlje",
+      "channels": "Private Kindergartens · September",
       "app": "Myschoolwinner",
       "guide": "—",
       "tirage": "—"
@@ -237,9 +237,9 @@
   "st-school-xmas": [
     {
       "country": "Grčka",
-      "reach": "Porodice osnovaca · božićni školski period",
-      "cities": "Osnovne škole širom zemlje",
-      "channels": "Svečano izdanje First Grade",
+      "reach": "11,500 porodice osnovne škole / božićni period",
+      "cities": "Atina, Solun",
+      "channels": "Elementary schools PR · before Xmas holidays",
       "app": "Myschoolwinner",
       "guide": "Božićni školski komplet",
       "tirage": "Sezonska multi-brand kutija"
@@ -284,9 +284,9 @@
   "st-teen": [
     {
       "country": "Grčka",
-      "reach": "Devojčice na početku puberteta — obim za potvrdu",
-      "cities": "Dostava kući širom zemlje",
-      "channels": "Kurir do kuće",
+      "reach": "12,000 devojčice na početku puberteta / godišnje",
+      "cities": "Atina, Solun",
+      "channels": "DM · 11-12 y.o.",
       "app": "Care Direct zajednice",
       "guide": "Vodič kompleta Teen Girl",
       "tirage": "Kutija kući + praćenje"
@@ -320,9 +320,9 @@
     },
     {
       "country": "Kipar",
-      "reach": "Devojčice na početku puberteta — u širenju",
-      "cities": "Dostava kući",
-      "channels": "Kurir do kuće",
+      "reach": "3,000 devojčice na početku puberteta / godišnje",
+      "cities": "Širom zemlje",
+      "channels": "Private High Schools · December",
       "app": "Care Direct zajednice",
       "guide": "—",
       "tirage": "—"
@@ -331,36 +331,36 @@
   "st-high": [
     {
       "country": "Grčka",
-      "reach": "Učenici prve godine srednje — obim za potvrdu",
-      "cities": "Srednje škole širom zemlje",
-      "channels": "Upis u srednju školu · 15–16 godina",
+      "reach": "2,500 učenici prve godine srednje škole / godišnje",
+      "cities": "Širom zemlje",
+      "channels": "High schools PR",
       "app": "START 9 (startliceu.life)",
       "guide": "Interaktivni veb vodič START 9",
       "tirage": "Uzorci u školi + digitalni vodič"
     },
     {
       "country": "Rumunija",
-      "reach": "Učenici prve godine srednje — uživo sa START 9",
-      "cities": "Srednje škole širom zemlje",
-      "channels": "Upis u srednju školu · 15–16 godina",
-      "app": "START 9 (startliceu.life)",
+      "reach": "15,000 učenici prve godine srednje škole / godišnje",
+      "cities": "Top 15 cities",
+      "channels": "High schools PUB & PT · 1st month of school",
+      "app": "START 9 (startliceu.life) · Parenting survey",
       "guide": "Interaktivni veb vodič START 9",
-      "tirage": "Uzorci u školi + digitalni vodič"
+      "tirage": "15,000 primeraka · Uzorci u školi + digitalni vodič"
     },
     {
       "country": "Bugarska",
-      "reach": "Učenici prve godine srednje — u širenju",
-      "cities": "Srednje škole — u širenju",
-      "channels": "Upis u srednju školu",
-      "app": "START 9",
+      "reach": "7,500 učenici prve godine srednje škole / godišnje",
+      "cities": "Top 5 cities",
+      "channels": "High schools PUB & PT · 1st month of school",
+      "app": "START 9 · Parenting survey",
       "guide": "Veb vodič START 9",
-      "tirage": "—"
+      "tirage": "7,500 copies"
     },
     {
       "country": "Srbija",
-      "reach": "Učenici prve godine srednje — u širenju",
-      "cities": "Srednje škole — u širenju",
-      "channels": "Upis u srednju školu",
+      "reach": "7,500 učenici prve godine srednje škole / godišnje",
+      "cities": "Top cities",
+      "channels": "High Schools · 1st day of school",
       "app": "START 9",
       "guide": "Veb vodič START 9",
       "tirage": "—"
@@ -378,8 +378,8 @@
   "st-uni": [
     {
       "country": "Grčka",
-      "reach": "Studenti prve godine — obim za potvrdu",
-      "cities": "Univerziteti širom zemlje",
+      "reach": "10,000 studenti prve godine / godišnje",
+      "cities": "Atina, Solun, Patra, Herakleion",
       "channels": "Kampus aktivacije · prve samostalne kupovine",
       "app": "UniStart+ (uni-start.com)",
       "guide": "Digitalni studentski vodič UniStart+",
@@ -396,18 +396,18 @@
     },
     {
       "country": "Bugarska",
-      "reach": "Studenti prve godine — uživo sa UniStart+",
-      "cities": "Univerziteti širom zemlje",
-      "channels": "Kampus aktivacije",
+      "reach": "10,000 studenti prve godine / godišnje",
+      "cities": "Sofija",
+      "channels": "Universities · Welcome day",
       "app": "UniStart+ (uni-start.com)",
       "guide": "Digitalni studentski vodič UniStart+",
       "tirage": "Uzorci na kampusu + digitalni vodič"
     },
     {
       "country": "Srbija",
-      "reach": "Univerzitetski sampling (2024+) — rezultati za potvrdu",
-      "cities": "Beograd i univerzitetski gradovi",
-      "channels": "Kampus aktivacije",
+      "reach": "5,000 studenti prve godine / godišnje",
+      "cities": "Beograd and Niš",
+      "channels": "Universities · Welcome day",
       "app": "UniStart+",
       "guide": "Digitalni vodič UniStart+",
       "tirage": "Uzorci na kampusu"
@@ -425,8 +425,8 @@
   "st-army": [
     {
       "country": "Grčka",
-      "reach": "Regruti na dan stupanja — obim za potvrdu",
-      "cities": "Vojni kampovi širom zemlje",
+      "reach": "28,000 regruti na dan služenja / godišnje",
+      "cities": "Big cities",
       "channels": "Uručivanje na dan regrutacije",
       "app": "—",
       "guide": "Materijali kompleta za kamp",
@@ -461,9 +461,9 @@
     },
     {
       "country": "Kipar",
-      "reach": "—",
-      "cities": "—",
-      "channels": "Još nije aktivno na ovom tržištu",
+      "reach": "4,000 regruti na dan služenja / godišnje",
+      "cities": "Top 4 cities",
+      "channels": "4 Army Camps · July",
       "app": "—",
       "guide": "—",
       "tirage": "—"
@@ -472,8 +472,8 @@
   "st-marriage": [
     {
       "country": "Grčka",
-      "reach": "Domaćinstva mladenaca — obim za potvrdu",
-      "cities": "Dostava kući širom zemlje",
+      "reach": "3,000 domaćinstva mladih bračnih parova / godišnje",
+      "cities": "Atina, Solun and big cities",
       "channels": "Kurir dok parovi uređuju dom",
       "app": "Care Direct zajednice",
       "guide": "Vodič za brak / prvi dom",
@@ -481,8 +481,8 @@
     },
     {
       "country": "Rumunija",
-      "reach": "Domaćinstva mladenaca — u širenju",
-      "cities": "Dostava kući",
+      "reach": "5,000 domaćinstva mladih bračnih parova / godišnje",
+      "cities": "Bukurešt and big cities",
       "channels": "Kurirska dostava kući",
       "app": "Care Direct zajednice",
       "guide": "—",
@@ -490,8 +490,8 @@
     },
     {
       "country": "Bugarska",
-      "reach": "Domaćinstva mladenaca — u širenju",
-      "cities": "Dostava kući",
+      "reach": "2,000 domaćinstva mladih bračnih parova / godišnje",
+      "cities": "Sofija and Plovdiv",
       "channels": "Kurirska dostava kući",
       "app": "Care Direct zajednice",
       "guide": "—",
@@ -499,8 +499,8 @@
     },
     {
       "country": "Srbija",
-      "reach": "Domaćinstva mladenaca — u širenju",
-      "cities": "Dostava kući",
+      "reach": "2,000 domaćinstva mladih bračnih parova / godišnje",
+      "cities": "Beograd and big cities",
       "channels": "Kurirska dostava kući",
       "app": "Care Direct zajednice",
       "guide": "—",
@@ -613,8 +613,8 @@
   "st-seniors": [
     {
       "country": "Grčka",
-      "reach": "Ljudi na početku penzije — obim za potvrdu",
-      "cities": "Dom + mesta okupljanja starijih",
+      "reach": "20,000 ljudi na početku penzije / godišnje",
+      "cities": "Atina, Solun",
       "channels": "Dostava kući i mesta zajednice",
       "app": "Care Direct zajednice",
       "guide": "Materijali životne faze Seniors",

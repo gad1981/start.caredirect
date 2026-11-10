@@ -3,18 +3,18 @@
     {
       "country": "Гърция",
       "reach": "20,000 бъдещи майки / година",
-      "cities": "Атина, Солун, Патра и клиники в цялата страна",
-      "channels": "Гинекологични и родилни клиники · 3-ти триместър",
+      "cities": "Атина, Солун, Патра и в цялата страна",
+      "channels": "Private Maternity Clinics & Gynecologists · 3rd trimester",
       "app": "Babyspace · Myparenthood · Momtag · HeyMaa",
       "guide": "Σχέσεις Στοργής · Η ΠΙΟ ΓΛΥΚΙΑ ΑΝΑΜΟΝΗ (the BOOM edition)",
-      "tirage": "С кутията · сътрудничество с лекари"
+      "tirage": "20,000 копия · С кутията · сътрудничество с лекари"
     },
     {
       "country": "Румъния",
-      "reach": "Пренатален обем за потвърждение",
-      "cities": "Букурещ и мрежа от родилни клиники — в разширяване",
-      "channels": "Гинекологични и родилни клиники",
-      "app": "Babyspace · HeyMaa (pilot) · Momtag",
+      "reach": "30,000 бъдещи майки / година",
+      "cities": "Букурещ, Cluj, Iasi, Constanta, Timisoara and Craiova",
+      "channels": "Private Gynecology clinics · 3rd trimester",
+      "app": "Babyspace · HeyMaa · Momtag · Mybabywinner",
       "guide": "—",
       "tirage": "—"
     },
@@ -29,18 +29,18 @@
     },
     {
       "country": "Сърбия",
-      "reach": "Пренатален обем за потвърждение",
-      "cities": "Белград и мрежа от родилни клиники — в разширяване",
-      "channels": "Гинекологични и родилни клиники",
+      "reach": "20,000 бъдещи майки / година",
+      "cities": "Top cities",
+      "channels": "Private policlinics, GO, laboratories, parenting schools · 3rd trimester",
       "app": "Mybabywinner · HeyMaa",
       "guide": "—",
       "tirage": "—"
     },
     {
       "country": "Кипър",
-      "reach": "Пренатален обем за потвърждение",
-      "cities": "Никозия, Лимасол — в разширяване",
-      "channels": "Гинекологични и родилни клиники",
+      "reach": "3,000 бъдещи майки / година",
+      "cities": "В цялата страна",
+      "channels": "Private Maternity Clinics & Gynecologists, Nurses at birth classes · 3rd trimester",
       "app": "Mybabywinner · HeyMaa",
       "guide": "—",
       "tirage": "—"
@@ -49,45 +49,45 @@
   "st-natal": [
     {
       "country": "Гърция",
-      "reach": "50,000 нови майки / година",
-      "cities": "Държавни и частни родилни клиники в цялата страна",
-      "channels": "Предава се 2–3 дни след раждането",
+      "reach": "68,000 нови майки / година",
+      "cities": "В цялата страна",
+      "channels": "Обществени и частни родилни клиники · 2–3 дни след раждане",
       "app": "Babyspace · Myparenthood · Momtag · HeyMaa",
       "guide": "Σχέσεις Στοργής · the BOOM edition",
-      "tirage": "Печатен с кутията за първите дни"
+      "tirage": "40,000 копия · Печатен с кутията за първите дни"
     },
     {
       "country": "Румъния",
-      "reach": "160,000 нови майки / година",
-      "cities": "Родилни клиники в цялата страна",
-      "channels": "Асоциации по неонатология и педиатрия",
-      "app": "Babyspace · HeyMaa (pilot) · Momtag",
+      "reach": "150,000 нови майки / година",
+      "cities": "В цялата страна",
+      "channels": "Обществени и частни родилни клиники · 2–3 дни след раждане",
+      "app": "Babyspace · HeyMaa · Momtag · Mybabywinner (on Babyspace)",
       "guide": "Relații Afectuoase · Scurt ghid practic pentru alăptare",
-      "tirage": "Печатен с кутията"
+      "tirage": "50,000 & 100,000 · Печатен с кутията"
     },
     {
       "country": "България",
-      "reach": "30,000 нови майки / година",
-      "cities": "Родилни клиники в цялата страна",
-      "channels": "Асоциация на педиатрите",
+      "reach": "44,000 нови майки / година",
+      "cities": "В цялата страна",
+      "channels": "Обществени и частни родилни клиники · 2–3 дни след раждане",
       "app": "Babyspace · HeyMaa",
       "guide": "За едно щастливо начало · Кратко практическо ръководство за кърмене",
-      "tirage": "Печатен с кутията"
+      "tirage": "30,000 копия · Печатен с кутията"
     },
     {
       "country": "Сърбия",
-      "reach": "30,000 нови майки / година",
-      "cities": "Родилни клиники в цялата страна",
-      "channels": "Специалисти по педиатрия и неонатология",
+      "reach": "55,000 нови майки / година",
+      "cities": "В цялата страна",
+      "channels": "Обществени и частни родилни клиники · 2–3 дни след раждане",
       "app": "Mybabywinner · HeyMaa",
       "guide": "Praktični vodič za uspešno dojenje",
-      "tirage": "Печатен с кутията"
+      "tirage": "30,000 копия · Печатен с кутията"
     },
     {
       "country": "Кипър",
-      "reach": "Обем за потвърждение",
-      "cities": "Родилни клиники — в разширяване",
-      "channels": "2–3 дни след раждането",
+      "reach": "10,500 нови майки / година",
+      "cities": "В цялата страна",
+      "channels": "Обществени и частни родилни клиники · 2–3 дни след раждане",
       "app": "Mybabywinner · HeyMaa",
       "guide": "—",
       "tirage": "—"
@@ -96,46 +96,46 @@
   "st-luxury": [
     {
       "country": "Гърция",
-      "reach": "Майки в частни апартаменти / година (премиум част от Natal)",
+      "reach": "4,000 майки от частни апартаменти / година",
       "cities": "Частни клиники в Атина и Солун",
-      "channels": "Частни апартаменти и самостоятелни стаи",
+      "channels": "Обществени и частни родилни клиники · 2–3 дни след раждане",
       "app": "Babyspace · Myparenthood · HeyMaa",
       "guide": "Σχέσεις Στοργής · the BOOM edition",
       "tirage": "Печатен с кутията за първите дни"
     },
     {
       "country": "Румъния",
-      "reach": "Премиум самостоятелни стаи — за потвърждение",
-      "cities": "Букурещ частни клиники",
-      "channels": "Частни апартаменти",
-      "app": "Babyspace · HeyMaa",
+      "reach": "5,160 майки от частни апартаменти / година",
+      "cities": "Букурещ",
+      "channels": "Private maternities · 2–3 days postpartum",
+      "app": "Babyspace · HeyMaa · Mybabywinner",
       "guide": "Relații Afectuoase · Scurt ghid practic pentru alăptare",
       "tirage": "Печатен с кутията"
     },
     {
       "country": "България",
-      "reach": "Премиум самостоятелни стаи — за потвърждение",
-      "cities": "София частни клиники",
-      "channels": "Частни апартаменти",
+      "reach": "3,600 майки от частни апартаменти / година",
+      "cities": "Top 5 cities",
+      "channels": "Private maternities · 2–3 days postpartum",
       "app": "Babyspace · HeyMaa",
       "guide": "За едно щастливо начало · Кратко практическо ръководство за кърмене",
       "tirage": "Печатен с кутията"
     },
     {
       "country": "Сърбия",
-      "reach": "Премиум самостоятелни стаи — за потвърждение",
-      "cities": "Белград частни клиники",
-      "channels": "Частни апартаменти",
-      "app": "HeyMaa",
+      "reach": "3,600 майки от частни апартаменти / година",
+      "cities": "Белград and Нови Сад",
+      "channels": "Private maternities · 2–3 days postpartum",
+      "app": "HeyMaa · Mybabywinner",
       "guide": "Praktični vodič za uspešno dojenje",
       "tirage": "Печатен с кутията"
     },
     {
       "country": "Кипър",
-      "reach": "Премиум самостоятелни стаи — за потвърждение",
-      "cities": "Частни клиники — в разширяване",
-      "channels": "Частни апартаменти",
-      "app": "HeyMaa",
+      "reach": "9,500 майки от частни апартаменти / година",
+      "cities": "В цялата страна",
+      "channels": "private maternities · 2–3 days postpartum",
+      "app": "HeyMaa · Mybabywinner",
       "guide": "—",
       "tirage": "—"
     }
@@ -190,45 +190,45 @@
   "st-school": [
     {
       "country": "Гърция",
-      "reach": "Семейства от 1. клас — обем за потвърждение",
-      "cities": "Начални училища в цялата страна",
-      "channels": "Първи учебен ден в 1. клас (6 години)",
+      "reach": "20,000 семейства от I клас / година",
+      "cities": "В цялата страна",
+      "channels": "Elementary schools PR · 1st day of school",
       "app": "Myschoolwinner",
       "guide": "Училищен наръчник — издание Гърция за потвърждение",
       "tirage": "Кутия на първия учебен ден"
     },
     {
       "country": "Румъния",
-      "reach": "Семейства от 1. клас — потвърден активен пазар",
-      "cities": "Начални училища в цялата страна",
-      "channels": "Първи учебен ден в 1. клас (6 години)",
-      "app": "Myschoolwinner",
+      "reach": "25,000 семейства от I клас / година",
+      "cities": "Top 25 cities",
+      "channels": "Elementary schools PUB and PR · 1st day of school",
+      "app": "Myschoolwinner · Parenting survey",
       "guide": "Prima zi la școală",
-      "tirage": "Печатен наръчник + кутия за учебния ден"
+      "tirage": "25,000 копия · Печатен наръчник + кутия за учебния ден"
     },
     {
       "country": "България",
-      "reach": "Семейства от 1. клас — потвърден активен пазар",
-      "cities": "Начални училища в цялата страна",
-      "channels": "Първи учебен ден в 1. клас (6 години)",
-      "app": "Myschoolwinner",
+      "reach": "12,500 семейства от I клас / година",
+      "cities": "Top 10 cities",
+      "channels": "Elementary schools · 1st day of school",
+      "app": "Myschoolwinner · Parenting survey",
       "guide": "Първи Учебен Ден",
-      "tirage": "Печатен наръчник + кутия за учебния ден"
+      "tirage": "12,500 копия · Печатен наръчник + кутия за учебния ден"
     },
     {
       "country": "Сърбия",
-      "reach": "Семейства от 1. клас — потвърден активен пазар",
-      "cities": "Начални училища в цялата страна",
-      "channels": "Първи учебен ден в 1. клас (6 години)",
-      "app": "Myschoolwinner",
+      "reach": "12,500 семейства от I клас / година",
+      "cities": "Top cities",
+      "channels": "Elementary schools · 1st day of school",
+      "app": "Myschoolwinner · Parenting survey",
       "guide": "Prvi dan škole",
-      "tirage": "Печатен наръчник + кутия за учебния ден"
+      "tirage": "12,500 копия · Печатен наръчник + кутия за учебния ден"
     },
     {
       "country": "Кипър",
-      "reach": "Семейства от 1. клас — в разширяване",
-      "cities": "Начални училища — в разширяване",
-      "channels": "Първи учебен ден в 1. клас",
+      "reach": "3,000 семейства от I клас / година",
+      "cities": "В цялата страна",
+      "channels": "Private Kindergartens · September",
       "app": "Myschoolwinner",
       "guide": "—",
       "tirage": "—"
@@ -237,9 +237,9 @@
   "st-school-xmas": [
     {
       "country": "Гърция",
-      "reach": "Семейства от началното училище · коледен учебен период",
-      "cities": "Начални училища в цялата страна",
-      "channels": "Празнично издание First Grade",
+      "reach": "11,500 семейства от началното училище / коледен период",
+      "cities": "Атина, Солун",
+      "channels": "Elementary schools PR · before Xmas holidays",
       "app": "Myschoolwinner",
       "guide": "Коледен училищен комплект",
       "tirage": "Сезонна multi-brand кутия"
@@ -284,9 +284,9 @@
   "st-teen": [
     {
       "country": "Гърция",
-      "reach": "Момичета в началото на пубертета — обем за потвърждение",
-      "cities": "Доставка до дома в цялата страна",
-      "channels": "Куриер до дома",
+      "reach": "12,000 момичета в началото на пубертета / година",
+      "cities": "Атина, Солун",
+      "channels": "DM · 11-12 y.o.",
       "app": "Общности на Care Direct",
       "guide": "Наръчник на комплекта Teen Girl",
       "tirage": "Кутия до дома + последваща комуникация"
@@ -320,9 +320,9 @@
     },
     {
       "country": "Кипър",
-      "reach": "Момичета в началото на пубертета — в разширяване",
-      "cities": "Доставка до дома",
-      "channels": "Куриер до дома",
+      "reach": "3,000 момичета в началото на пубертета / година",
+      "cities": "В цялата страна",
+      "channels": "Private High Schools · December",
       "app": "Общности на Care Direct",
       "guide": "—",
       "tirage": "—"
@@ -331,36 +331,36 @@
   "st-high": [
     {
       "country": "Гърция",
-      "reach": "Ученици от първа година в гимназията — обем за потвърждение",
-      "cities": "Гимназии в цялата страна",
-      "channels": "Начало на гимназията · 15–16 г.",
+      "reach": "2,500 ученици в първи гимназиален клас / година",
+      "cities": "В цялата страна",
+      "channels": "High schools PR",
       "app": "START 9 (startliceu.life)",
       "guide": "Интерактивен уеб наръчник START 9",
       "tirage": "Мостри в училище + дигитален наръчник"
     },
     {
       "country": "Румъния",
-      "reach": "Ученици от първа година в гимназията — live със START 9",
-      "cities": "Гимназии в цялата страна",
-      "channels": "Начало на гимназията · 15–16 г.",
-      "app": "START 9 (startliceu.life)",
+      "reach": "15,000 ученици в първи гимназиален клас / година",
+      "cities": "Top 15 cities",
+      "channels": "High schools PUB & PT · 1st month of school",
+      "app": "START 9 (startliceu.life) · Parenting survey",
       "guide": "Интерактивен уеб наръчник START 9",
-      "tirage": "Мостри в училище + дигитален наръчник"
+      "tirage": "15,000 копия · Мостри в училище + дигитален наръчник"
     },
     {
       "country": "България",
-      "reach": "Ученици от първа година в гимназията — в разширяване",
-      "cities": "Гимназии — в разширяване",
-      "channels": "Начало на гимназията",
-      "app": "START 9",
+      "reach": "7,500 ученици в първи гимназиален клас / година",
+      "cities": "Top 5 cities",
+      "channels": "High schools PUB & PT · 1st month of school",
+      "app": "START 9 · Parenting survey",
       "guide": "Уеб наръчник START 9",
-      "tirage": "—"
+      "tirage": "7,500 copies"
     },
     {
       "country": "Сърбия",
-      "reach": "Ученици от първа година в гимназията — в разширяване",
-      "cities": "Гимназии — в разширяване",
-      "channels": "Начало на гимназията",
+      "reach": "7,500 ученици в първи гимназиален клас / година",
+      "cities": "Top cities",
+      "channels": "High Schools · 1st day of school",
       "app": "START 9",
       "guide": "Уеб наръчник START 9",
       "tirage": "—"
@@ -378,8 +378,8 @@
   "st-uni": [
     {
       "country": "Гърция",
-      "reach": "Студенти от първа година — обем за потвърждение",
-      "cities": "Университети в цялата страна",
+      "reach": "10,000 студенти първи курс / година",
+      "cities": "Атина, Солун, Патра, Ираклион",
       "channels": "Кампус активации · първи самостоятелни покупки",
       "app": "UniStart+ (uni-start.com)",
       "guide": "Дигитален студентски наръчник UniStart+",
@@ -396,18 +396,18 @@
     },
     {
       "country": "България",
-      "reach": "Студенти от първа година — live с UniStart+",
-      "cities": "Университети в цялата страна",
-      "channels": "Кампус активации",
+      "reach": "10,000 студенти първи курс / година",
+      "cities": "София",
+      "channels": "Universities · Welcome day",
       "app": "UniStart+ (uni-start.com)",
       "guide": "Дигитален студентски наръчник UniStart+",
       "tirage": "Мостри в кампуса + дигитален наръчник"
     },
     {
       "country": "Сърбия",
-      "reach": "Университетски sampling активации (2024+) — резултати за потвърждение",
-      "cities": "Белград и университетски градове",
-      "channels": "Кампус активации",
+      "reach": "5,000 студенти първи курс / година",
+      "cities": "Белград and Ниш",
+      "channels": "Universities · Welcome day",
       "app": "UniStart+",
       "guide": "Дигитален наръчник UniStart+",
       "tirage": "Мостри в кампуса"
@@ -425,8 +425,8 @@
   "st-army": [
     {
       "country": "Гърция",
-      "reach": "Военни новобранци в деня на постъпване — обем за потвърждение",
-      "cities": "Военни лагери в цялата страна",
+      "reach": "28,000 новобранци в деня на набор / година",
+      "cities": "Big cities",
       "channels": "Предаване в деня на постъпване",
       "app": "—",
       "guide": "Материали за комплект в лагера",
@@ -461,9 +461,9 @@
     },
     {
       "country": "Кипър",
-      "reach": "—",
-      "cities": "—",
-      "channels": "Все още не е активен на този пазар",
+      "reach": "4,000 новобранци в деня на набор / година",
+      "cities": "Top 4 cities",
+      "channels": "4 Army Camps · July",
       "app": "—",
       "guide": "—",
       "tirage": "—"
@@ -472,8 +472,8 @@
   "st-marriage": [
     {
       "country": "Гърция",
-      "reach": "Домакинства на младоженци — обем за потвърждение",
-      "cities": "Доставка до дома в цялата страна",
+      "reach": "3,000 новобрачни домакинства / година",
+      "cities": "Атина, Солун and big cities",
       "channels": "Куриер докато двойките си устройват дома",
       "app": "Общности на Care Direct",
       "guide": "Наръчник за брак / първи дом",
@@ -481,8 +481,8 @@
     },
     {
       "country": "Румъния",
-      "reach": "Домакинства на младоженци — в разширяване",
-      "cities": "Доставка до дома",
+      "reach": "5,000 новобрачни домакинства / година",
+      "cities": "Букурещ and big cities",
       "channels": "Доставка до дома с куриер",
       "app": "Общности на Care Direct",
       "guide": "—",
@@ -490,8 +490,8 @@
     },
     {
       "country": "България",
-      "reach": "Домакинства на младоженци — в разширяване",
-      "cities": "Доставка до дома",
+      "reach": "2,000 новобрачни домакинства / година",
+      "cities": "София and Пловдив",
       "channels": "Доставка до дома с куриер",
       "app": "Общности на Care Direct",
       "guide": "—",
@@ -499,8 +499,8 @@
     },
     {
       "country": "Сърбия",
-      "reach": "Домакинства на младоженци — в разширяване",
-      "cities": "Доставка до дома",
+      "reach": "2,000 новобрачни домакинства / година",
+      "cities": "Белград and big cities",
       "channels": "Доставка до дома с куриер",
       "app": "Общности на Care Direct",
       "guide": "—",
@@ -613,8 +613,8 @@
   "st-seniors": [
     {
       "country": "Гърция",
-      "reach": "Хора в началото на пенсионирането — обем за потвърждение",
-      "cities": "Дом + места за възрастни хора",
+      "reach": "20,000 хора в началото на пенсионирането / година",
+      "cities": "Атина, Солун",
       "channels": "Доставка до дома и обществени места",
       "app": "Общности на Care Direct",
       "guide": "Материали за етапа Seniors",
