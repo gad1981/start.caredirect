@@ -17,6 +17,10 @@ import { localePath, type Locale } from "@/lib/i18n";
 import { getProgramBrand } from "@/lib/program-brands";
 import type { ProgramId } from "@/lib/programs";
 import { getProgramById, programHeroSrc, programKitSrc } from "@/lib/programs";
+import {
+  parseAbout,
+  parseCards,
+} from "@/lib/presentation/parse-page";
 import { withTbc } from "@/lib/tbc";
 import { BrandGetIcon } from "./BrandGetIcon";
 import { HeroTitleBand } from "./HeroTitleBand";
@@ -28,21 +32,8 @@ function doodleSrc(key: string) {
   return `/assets/start-doodles/st-teen-${key}-line.webp`;
 }
 
-function parseAbout(copy: string) {
-  const [leadRaw, factsRaw = ""] = copy.split("||").map((s) => s.trim());
-  const facts: { label: string; value: string }[] = [];
-  for (const part of factsRaw.split("·")) {
-    const [label, ...rest] = part.split(":").map((s) => s.trim());
-    if (label && rest.length) facts.push({ label, value: rest.join(":").trim() });
-  }
-  return { lead: leadRaw, facts };
-}
-
-function parseCards(copy: string) {
-  return copy.split("·").map((chunk) => {
-    const [title, ...rest] = chunk.split(":").map((s) => s.trim());
-    return { title, body: rest.join(":").trim() };
-  });
+function presentationHref(locale: Locale, slug: string) {
+  return `/api/presentation/${locale}/${slug}/`;
 }
 
 export async function ProgramPage({
@@ -117,6 +108,13 @@ export async function ProgramPage({
                   {messages.marketsCta}
                 </Button>
               ) : null}
+              <Button
+                href={presentationHref(locale, prog.slug)}
+                external
+                title={messages.downloadPresentationHint}
+              >
+                {messages.downloadPresentation}
+              </Button>
               <Button href={planHref} accent={Boolean(tone)}>
                 {page.cta}
               </Button>
