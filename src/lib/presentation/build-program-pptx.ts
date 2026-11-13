@@ -31,6 +31,11 @@ import {
   type ImageAsset,
 } from "./asset-file";
 import { DECK } from "./deck-theme";
+import {
+  iconPathForTitle,
+  renderBrandGetIcons,
+  renderChannelIcons,
+} from "./brand-get-icons";
 import { fixPptxContentTypes } from "./fix-pptx";
 import { parseAbout, parseCards } from "./parse-page";
 import { renderHowStepIcons } from "./step-icons";
@@ -58,6 +63,8 @@ const softShadow = {
 };
 
 /** Site page canvas — program `--bg`, no hard top rule. */
+const noLine = { color: "FFFFFF", pt: 0 };
+
 function brandCanvas(slide: Slide, tone: Tone) {
   slide.addShape("rect", {
     x: 0,
@@ -65,7 +72,7 @@ function brandCanvas(slide: Slide, tone: Tone) {
     w: W,
     h: H,
     fill: { color: tone.bg },
-    line: { color: tone.bg },
+    line: noLine,
   });
 }
 
@@ -76,7 +83,7 @@ function creamCanvas(slide: Slide) {
     w: W,
     h: H,
     fill: { color: DECK.bg },
-    line: { color: DECK.bg },
+    line: noLine,
   });
 }
 
@@ -88,7 +95,7 @@ function addSiteCard(slide: Slide, box: Box, fill = "FFFFFF") {
     w: box.w,
     h: box.h,
     fill: { color: fill },
-    line: { color: fill },
+    line: noLine,
     shadow: softShadow,
   });
 }
@@ -101,7 +108,7 @@ function addSoftPod(slide: Slide, box: Box, fill: string) {
     w: box.w,
     h: box.h,
     fill: { color: fill },
-    line: { color: fill },
+    line: noLine,
   });
 }
 
@@ -212,21 +219,23 @@ function addFooter(
   }
 
   if (cd) {
-    const cdH = 0.13;
-    const byW = 0.22;
+    const cdH = 0.14;
+    // Wide enough that “by” never wraps to a stacked b/y.
+    const byW = 0.38;
     const cdW = cdH * (cd.width / cd.height);
     const rowY = baseY + 0.3 - cdH - 0.02;
     slide.addText("by", {
       x,
       y: rowY,
       w: byW,
-      h: cdH,
+      h: cdH + 0.02,
       fontSize: 9,
       color: byColor,
       fontFace: FONT,
+      align: "center",
       valign: "middle",
     });
-    x += byW + 0.04;
+    x += byW + 0.06;
     placeContain(slide, cd, { x, y: rowY, w: cdW, h: cdH }, "left");
   }
 
@@ -332,17 +341,29 @@ export async function buildProgramPptx(
       .map((r) => getGuideCovers(programId, r.country)[0]?.src)
       .find(Boolean) ?? null;
 
-  const [hero, kit, programLogo, startLogo, caredirectLogo, guideCover, stepIcons, offices] =
-    await Promise.all([
-      resolveImageAsset(programHeroSrc(prog.assetKey)),
-      resolveImageAsset(kitSrc),
-      resolveImageAsset(brand?.logoSrc),
-      resolveImageAsset("/assets/brand/start-logo.png"),
-      resolveImageAsset("/assets/brand/caredirect-logo.png"),
-      resolveImageAsset(firstGuideSrc),
-      renderHowStepIcons(),
-      getOffices(locale),
-    ]);
+  const [
+    hero,
+    kit,
+    programLogo,
+    startLogo,
+    caredirectLogo,
+    guideCover,
+    stepIcons,
+    brandGetIcons,
+    channelIcons,
+    offices,
+  ] = await Promise.all([
+    resolveImageAsset(programHeroSrc(prog.assetKey)),
+    resolveImageAsset(kitSrc),
+    resolveImageAsset(brand?.logoSrc),
+    resolveImageAsset("/assets/brand/start-logo.png"),
+    resolveImageAsset("/assets/brand/caredirect-logo.png"),
+    resolveImageAsset(firstGuideSrc),
+    renderHowStepIcons(),
+    renderBrandGetIcons(),
+    renderChannelIcons(),
+    getOffices(locale),
+  ]);
 
   const startOnDark = startLogo
     ? await tintLogoAsset(startLogo, [255, 255, 255], "start-white")
@@ -403,7 +424,7 @@ export async function buildProgramPptx(
         w: W * 0.56,
         h: H,
         fill: { color: tone.ink, transparency: 28 },
-        line: { color: tone.ink, transparency: 28 },
+        line: { color: tone.ink, transparency: 100 },
       });
     } else {
       brandCanvas(slide, tone);
@@ -557,47 +578,44 @@ export async function buildProgramPptx(
     addFooter(slide, footerLogos, i, total);
   });
 
-  // ── 3. About this START ───────────────────────────────────
+  // ── 3. About — same lead + fact pods split as the program page
   if (about) {
     builders.push((slide, i, total) => {
       brandCanvas(slide, tone);
-      sectionEyebrow(slide, "The opportunity", tone.accent);
-      sectionTitle(slide, aboutSec?.name || "About", tone.ink);
+      sectionTitle(slide, aboutSec?.name || "About", tone.ink, 0.45);
 
-      // Lead + When/Where/Platform chips — same split as the program page.
-      const leadW = about.facts.length ? 7.4 : W - M * 2;
+      const leadW = about.facts.length ? 7.5 : W - M * 2;
       slide.addText(stripTbc(about.lead), {
         x: M,
-        y: 1.4,
+        y: 1.25,
         w: leadW,
-        h: 3.8,
-        fontSize: 16,
+        h: 4.6,
+        fontSize: 17,
         color: tone.ink,
         fontFace: FONT,
         valign: "top",
       });
 
       about.facts.forEach((f, idx) => {
-        const y = 1.4 + idx * 1.45;
+        const y = 1.25 + idx * 1.5;
         const pod = tone.pods[idx % tone.pods.length];
-        addSoftPod(slide, { x: 8.3, y, w: 4.45, h: 1.3 }, pod);
-        slide.addText(f.label.toUpperCase(), {
-          x: 8.5,
-          y: y + 0.2,
-          w: 4.05,
+        addSoftPod(slide, { x: 8.4, y, w: 4.4, h: 1.35 }, pod);
+        slide.addText(f.label, {
+          x: 8.65,
+          y: y + 0.22,
+          w: 3.9,
           h: 0.28,
-          fontSize: 11,
+          fontSize: 12,
           bold: true,
           color: tone.accent,
           fontFace: FONT,
-          charSpacing: 2,
         });
         slide.addText(stripTbc(f.value), {
-          x: 8.5,
+          x: 8.65,
           y: y + 0.55,
-          w: 4.05,
-          h: 0.55,
-          fontSize: 14,
+          w: 3.9,
+          h: 0.6,
+          fontSize: 15,
           color: tone.ink,
           fontFace: FONT,
           valign: "top",
@@ -607,31 +625,31 @@ export async function buildProgramPptx(
     });
   }
 
-  // ── 4. Brand gets ─────────────────────────────────────────
+  // ── 4. Brand gets — site card grid with real icons
   if (cards.length) {
     builders.push((slide, i, total) => {
       brandCanvas(slide, tone);
-      sectionEyebrow(slide, "For brands", tone.accent);
-      sectionTitle(slide, cardsSec?.name || "Your brand gets", tone.ink);
+      sectionTitle(slide, cardsSec?.name || "Your brand gets", tone.ink, 0.45);
       if (cardsSec?.intro) {
         slide.addText(stripTbc(cardsSec.intro), {
           x: M,
-          y: 1.25,
+          y: 1.1,
           w: W - M * 2,
-          h: 0.35,
-          fontSize: 13,
+          h: 0.4,
+          fontSize: 14,
           color: "555555",
           fontFace: FONT,
         });
       }
 
-      const top = cardsSec?.intro ? 1.7 : 1.4;
-      const cols = cards.length <= 3 ? cards.length : 2;
-      const gapX = 0.22;
-      const gapY = 0.22;
+      const top = cardsSec?.intro ? 1.65 : 1.25;
+      // Match program page: 4 across when possible, else 2–3.
+      const cols = cards.length <= 4 ? Math.max(2, cards.length) : 3;
+      const gapX = 0.2;
+      const gapY = 0.2;
       const cardW = (W - M * 2 - gapX * (cols - 1)) / cols;
       const rows = Math.ceil(cards.length / cols);
-      const cardH = Math.min(2.4, (5.4 - top) / rows - gapY);
+      const cardH = Math.min(2.55, (5.55 - top) / rows - gapY);
 
       cards.forEach((c, idx) => {
         const col = idx % cols;
@@ -639,29 +657,38 @@ export async function buildProgramPptx(
         const x = M + col * (cardW + gapX);
         const y = top + row * (cardH + gapY);
         addSiteCard(slide, { x, y, w: cardW, h: cardH });
-        // Soft icon well — same peach/green squares as “Your brand gets”
-        addSoftPod(
-          slide,
-          { x: x + 0.28, y: y + 0.28, w: 0.55, h: 0.55 },
-          tone.pods[idx % tone.pods.length],
-        );
+
+        const well = { x: x + 0.22, y: y + 0.24, w: 0.52, h: 0.52 };
+        addSoftPod(slide, well, tone.pods[idx % tone.pods.length]);
+        const iconFile = iconPathForTitle(c.title, brandGetIcons);
+        slide.addImage({
+          path: iconFile,
+          x: well.x + 0.1,
+          y: well.y + 0.1,
+          w: 0.32,
+          h: 0.32,
+        });
+
+        // Copy column beside icon — same as site .card / .cardCopy
+        const copyX = x + 0.88;
+        const copyW = cardW - 1.1;
         slide.addText(stripTbc(c.title), {
-          x: x + 1.0,
-          y: y + 0.32,
-          w: cardW - 1.25,
-          h: 0.45,
-          fontSize: 15,
+          x: copyX,
+          y: y + 0.22,
+          w: copyW,
+          h: 0.55,
+          fontSize: 14,
           bold: true,
           color: tone.ink,
           fontFace: FONT,
-          valign: "middle",
+          valign: "top",
         });
         slide.addText(stripTbc(c.body), {
-          x: x + 0.28,
-          y: y + 1.0,
-          w: cardW - 0.56,
-          h: cardH - 1.25,
-          fontSize: 13,
+          x: copyX,
+          y: y + 0.82,
+          w: copyW,
+          h: cardH - 1.05,
+          fontSize: 12,
           color: "555555",
           fontFace: FONT,
           valign: "top",
@@ -826,40 +853,50 @@ export async function buildProgramPptx(
       {
         title: messages.step2PrintTitle,
         body: messages.step2PrintBody,
+        icon: brandGetIcons.guide,
       },
       {
         title: messages.step2DigitalTitle,
         body: messages.step2DigitalBody,
+        icon: brandGetIcons.platform,
       },
       {
         title: messages.step2BrandTitle,
         body: messages.step2BrandBody,
+        icon: brandGetIcons.promo,
       },
     ];
     const leftW = guideCover ? 7.2 : W - M * 2;
-    const gap = 0.2;
     const cardH = 1.35;
     guideCards.forEach((c, idx) => {
       const y = 2.15 + idx * (cardH + 0.18);
+      addSiteCard(slide, { x: M, y, w: leftW, h: cardH });
       addSoftPod(
         slide,
-        { x: M, y, w: leftW, h: cardH },
+        { x: M + 0.22, y: y + 0.35, w: 0.5, h: 0.5 },
         tone.pods[idx % tone.pods.length],
       );
+      slide.addImage({
+        path: c.icon,
+        x: M + 0.31,
+        y: y + 0.44,
+        w: 0.32,
+        h: 0.32,
+      });
       slide.addText(c.title, {
-        x: M + 0.35,
-        y: y + 0.2,
-        w: leftW - 0.55,
-        h: 0.3,
+        x: M + 0.9,
+        y: y + 0.18,
+        w: leftW - 1.15,
+        h: 0.32,
         fontSize: 14,
         bold: true,
         color: tone.ink,
         fontFace: FONT,
       });
       slide.addText(c.body, {
-        x: M + 0.35,
+        x: M + 0.9,
         y: y + 0.55,
-        w: leftW - 0.55,
+        w: leftW - 1.15,
         h: 0.65,
         fontSize: 13,
         color: "444444",
@@ -899,40 +936,52 @@ export async function buildProgramPptx(
       {
         title: messages.crmSlideConsentTitle,
         body: messages.crmSlideConsentBody,
+        icon: brandGetIcons.followup,
       },
       {
         title: messages.crmSlideDataTitle,
         body: messages.crmSlideDataBody,
+        icon: brandGetIcons.reach,
       },
       {
         title: messages.crmSlideChannelsTitle,
         body: messages.crmSlideChannelsLead,
+        icon: brandGetIcons.platform,
       },
     ];
     const crmGap = 0.22;
     const crmCardW = (W - M * 2 - crmGap * 2) / 3;
     crmCards.forEach((c, idx) => {
       const x = M + idx * (crmCardW + crmGap);
+      addSiteCard(slide, { x, y: 2.15, w: crmCardW, h: 2.55 });
       addSoftPod(
         slide,
-        { x, y: 2.15, w: crmCardW, h: 2.55 },
+        { x: x + 0.22, y: 2.35, w: 0.5, h: 0.5 },
         tone.pods[idx % tone.pods.length],
       );
+      slide.addImage({
+        path: c.icon,
+        x: x + 0.31,
+        y: 2.44,
+        w: 0.32,
+        h: 0.32,
+      });
       slide.addText(c.title, {
-        x: x + 0.25,
-        y: 2.4,
-        w: crmCardW - 0.5,
-        h: 0.5,
+        x: x + 0.85,
+        y: 2.38,
+        w: crmCardW - 1.1,
+        h: 0.45,
         fontSize: 14,
         bold: true,
         color: tone.ink,
         fontFace: FONT,
+        valign: "middle",
       });
       slide.addText(c.body, {
         x: x + 0.25,
-        y: 3.0,
+        y: 3.05,
         w: crmCardW - 0.5,
-        h: 1.45,
+        h: 1.4,
         fontSize: 12,
         color: "444444",
         fontFace: FONT,
@@ -941,14 +990,14 @@ export async function buildProgramPptx(
     });
 
     const channels = [
-      messages.crmSlideChannelEmail,
-      messages.crmSlideChannelSms,
-      messages.crmSlideChannelWhatsapp,
-      messages.crmSlideChannelGeneral,
+      { label: messages.crmSlideChannelEmail, icon: channelIcons.email },
+      { label: messages.crmSlideChannelSms, icon: channelIcons.sms },
+      { label: messages.crmSlideChannelWhatsapp, icon: channelIcons.whatsapp },
+      { label: messages.crmSlideChannelGeneral, icon: channelIcons.general },
     ];
     const chipGap = 0.18;
     const chipW = (W - M * 2 - chipGap * 3) / 4;
-    channels.forEach((label, idx) => {
+    channels.forEach((ch, idx) => {
       const x = M + idx * (chipW + chipGap);
       addSiteCard(slide, { x, y: 5.0, w: chipW, h: 0.85 });
       addSoftPod(
@@ -956,7 +1005,14 @@ export async function buildProgramPptx(
         { x: x + 0.18, y: 5.2, w: 0.42, h: 0.42 },
         tone.pods[idx % tone.pods.length],
       );
-      slide.addText(label, {
+      slide.addImage({
+        path: ch.icon,
+        x: x + 0.25,
+        y: 5.27,
+        w: 0.28,
+        h: 0.28,
+      });
+      slide.addText(ch.label, {
         x: x + 0.75,
         y: 5.22,
         w: chipW - 0.95,
@@ -1321,7 +1377,7 @@ export async function buildProgramPptx(
         w: W,
         h: H,
         fill: { color: tone.ink, transparency: 38 },
-        line: { color: tone.ink, transparency: 38 },
+        line: { color: tone.ink, transparency: 100 },
       });
     } else {
       brandCanvas(slide, tone);
